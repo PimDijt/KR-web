@@ -16,6 +16,14 @@ def map():
     result = [(0, "green", True, detlz), (1, "red", True, lhbt), (2, "blue", True, zorg)]
     return render_template('google_maps.html', results = result)
 
+@app.route('/map_filter')
+def map_filter():
+    detlz = parse_csv('dak-en-thuislozenzorg.csv')
+    lhbt = parse_csv('lhbt-hulpverlening.csv')
+    zorg = parse_csv('verpleeg-en-verzorgingshuizen.csv')
+    result = [(0, "dak-en-thuislozenzorg", "green", "true", detlz), (1, "lhbt-hulpverlening", "red", "true", lhbt), (2, "verpleeg-en-verzorgingshuizen", "blue", "true", zorg)]
+    return render_template('google_maps_filter.html', results = result)
+
 @app.route('/upload')
 def upload():
     return render_template('upload.html')

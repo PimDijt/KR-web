@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Directions service (complex)</title>
+    <title>Google maps</title>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -35,7 +35,7 @@
 
 
           var color = "{{ file[1] }}";
-          
+
           {% for result in file[3] %}
 
           var LatLng = {lat: {{ result[2] }}, lng: {{ result[3] }}}
