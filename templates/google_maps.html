@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Directions service (complex)</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        // Create a map and center it on Amsterdam.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: {lat: 52.379189, lng: 4.899431}
+        });
+
+
+
+        {% for file in results %}
+
+
+          var color = "{{ file[1] }}";
+          
+          {% for result in file[3] %}
+
+          var LatLng = {lat: {{ result[2] }}, lng: {{ result[3] }}}
+
+          var marker_{{ file[0] }}_{{ result[0] }} = new google.maps.Marker({
+            position: LatLng,
+            map: map,
+            clickable: true,
+          });
+
+          marker_{{ file[0] }}_{{ result[0] }}.info = new google.maps.InfoWindow({
+            content: "{{ result[1] }}",
+          });
+          google.maps.event.addListener( marker_{{ file[0] }}_{{ result[0] }}, 'click', function() {
+            marker_{{ file[0] }}_{{ result[0] }}.info.open(map,  marker_{{ file[0] }}_{{ result[0] }});
+          });
+
+          {% if file[2] %}
+          var cityCircle = new google.maps.Circle({
+            strokeColor: color,
+            strokeOpacity: 0.5,
+            strokeWeight: 1,
+            fillColor: color,
+            fillOpacity: 0.25,
+            map: map,
+            center: LatLng,
+            radius: 500
+          });
+          {% endif %}
+          {% endfor %}
+        {% endfor %}
+
+
+
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=initMap">
+    </script>
+  </body>
+</html>
