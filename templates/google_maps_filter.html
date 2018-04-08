@@ -20,7 +20,6 @@
         border: 1px solid #999;
         font-family: 'Roboto','sans-serif';
         line-height: 30px;
-        padding-left: 10px;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -48,7 +47,7 @@
         {% for result in file[4] %}
           markers.push({id: {{ result[0] }}, title: "{{ result[1] }}", lat: {{ result[2] }}, lng: {{ result[3] }}});
         {% endfor%}
-        objects.push({id: {{ file[0] }}, name: "{{ file[1] }}", color: "{{ file[2]}}", circles: {{ file[3] }}, show: true, markers: markers});
+        objects.push({id: {{ file[0] }}, name: "{{ file[1] }}", color: "{{ file[2]}}", circles: {{ file[3] }}, show: true, markers: markers, radius: 1});
       {% endfor %}
 
 
@@ -84,7 +83,22 @@
         nes_li1.appendChild(radio_circle);
         nes_li1.appendChild(radio_circle_label);
 
+
         nes_ul.appendChild(nes_li1);
+
+        var nes_li2 = document.createElement('li');
+
+        var slider = document.createElement('input');
+        slider.setAttribute('type', 'range');
+        slider.setAttribute('min', 1);
+        slider.setAttribute('max', 4);
+        slider.setAttribute('id', item.id);
+        slider.setAttribute('value', 1);
+        slider.setAttribute('onchange', 'change_radius(this)');
+
+        nes_li2.appendChild(slider);
+
+        nes_ul.appendChild(nes_li2);
 
         li.appendChild(nes_ul);
         ul.appendChild(li);
@@ -111,10 +125,16 @@
         show_map();
       }
 
+      function change_radius(element){
+        var object_id = element.id;
+        objects[object_id].radius = element.value;
+        show_map();
+      }
+
       var markers = [];
 
 
-      function add_marker(id, marker, map, circle, color) {
+      function add_marker(id, marker, map, circle, color, radius) {
         var lat_lng = {lat: marker.lat, lng: marker.lng}
         window["marker"+id+"_"+marker.id] = new google.maps.Marker({
           position: lat_lng,
@@ -129,8 +149,8 @@
             window["marker"+id+"_"+marker.id].info.open(map, window["marker"+id+"_"+marker.id]);
         });
 
-        console.log(circle);
         if(circle){
+          var _radius = radius*100
           var cityCircle = new google.maps.Circle({
             strokeColor: color,
             strokeOpacity: 0.5,
@@ -139,7 +159,7 @@
             fillOpacity: 0.25,
             map: map,
             center: lat_lng,
-            radius: 500
+            radius: _radius
           });
         }
 
@@ -165,7 +185,7 @@
         objects.forEach(function(item){
           if(item.show){
             item.markers.forEach(function(marker){
-              add_marker(item.id, marker, map, item.circles, item.color);
+              add_marker(item.id, marker, map, item.circles, item.color, item.radius);
             });
           }
         });
