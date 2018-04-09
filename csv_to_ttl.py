@@ -4,6 +4,10 @@ from csv import DictReader
 from rdflib import Dataset, URIRef, Literal, Namespace, RDF, RDFS, OWL, XSD
 from iribaker import to_iri
 
+#in the iribaker file:
+#import urllib.parse as urlparse (suddenly there is urlparse)
+#    if not isinstance(iri, str): (unicode error)
+
 filenames = ["data/lhbt-hulpverlening.csv", "data/dak-en-thuislozenzorg.csv", "data/verpleeg-en-verzorgingshuizen.csv"]
 short = ["lhbt", "dakth", "verz"]
 for i in range(len(filenames)):
