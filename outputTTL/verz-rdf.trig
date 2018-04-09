@@ -1,0 +1,313 @@
+@prefix : <http://www.semanticweb.org/vmcj/ontologies/2018/3/untitled-ontology-5#> .
+@prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
+@prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceBeth%20Shalom%2C%20Joods%20zorgcentrum%20en%20verpleeghuis> g13vocab:lat "52.3262060145577"^^xsd:string ;
+        g13vocab:lng "4.88100928944689"^^xsd:string ;
+        g13vocab:name "Beth Shalom, Joods zorgcentrum en verpleeghuis"^^xsd:string ;
+        g13vocab:website "http://www.bethshalom.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCentrum%20van%20ouderen%20Flesseman> g13vocab:lat "52.3720091926606"^^xsd:string ;
+        g13vocab:lng "4.90067748047184"^^xsd:string ;
+        g13vocab:name "Centrum van ouderen Flesseman"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCentrum%20voor%20verpleeghuiszorg%20De%20Poort> g13vocab:lat "52.3725185912838"^^xsd:string ;
+        g13vocab:lng "4.87236037950261"^^xsd:string ;
+        g13vocab:name "Centrum voor verpleeghuiszorg De Poort"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Goodwillburgh> g13vocab:lat "52.3694369076746"^^xsd:string ;
+        g13vocab:lng "4.909060522152"^^xsd:string ;
+        g13vocab:name "De Goodwillburgh"^^xsd:string ;
+        g13vocab:website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Hudsonhof> g13vocab:lat "52.3697863641605"^^xsd:string ;
+        g13vocab:lng "4.85209947315776"^^xsd:string ;
+        g13vocab:name "De Hudsonhof"^^xsd:string ;
+        g13vocab:website "http://hudsonhof.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEvean%20De%20Kimme> g13vocab:lat "52.3963104712899"^^xsd:string ;
+        g13vocab:lng "4.95108431187849"^^xsd:string ;
+        g13vocab:name "Evean De Kimme"^^xsd:string ;
+        g13vocab:website "http://www.evean.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEvean%20Eduard%20Douwes%20Dekker> g13vocab:lat "52.404645096468"^^xsd:string ;
+        g13vocab:lng "4.90769611986109"^^xsd:string ;
+        g13vocab:name "Evean Eduard Douwes Dekker"^^xsd:string ;
+        g13vocab:website "http://www.evean.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEvean%20Henri%C3%ABtte%20Roland%20Holst> g13vocab:lat "52.31428419715"^^xsd:string ;
+        g13vocab:lng "4.96978099676363"^^xsd:string ;
+        g13vocab:name "Evean Henriëtte Roland Holst"^^xsd:string ;
+        g13vocab:website "http://www.evean.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEvean%20Korthagenhuis> g13vocab:lat "52.4048428761997"^^xsd:string ;
+        g13vocab:lng "4.93987619079198"^^xsd:string ;
+        g13vocab:name "Evean Korthagenhuis"^^xsd:string ;
+        g13vocab:website "http://www.evean.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEvean%20Twiskehuis> g13vocab:lat "52.4160894934834"^^xsd:string ;
+        g13vocab:lng "4.88037940833226"^^xsd:string ;
+        g13vocab:name "Evean Twiskehuis"^^xsd:string ;
+        g13vocab:website "http://www.evean.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHet%20Flevohuis> g13vocab:lat "52.3655533336182"^^xsd:string ;
+        g13vocab:lng "4.94586623079635"^^xsd:string ;
+        g13vocab:name "Het Flevohuis"^^xsd:string ;
+        g13vocab:website "http://www.zgao.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuize%20Plantage> g13vocab:lat "52.3678551439604"^^xsd:string ;
+        g13vocab:lng "4.91130936019787"^^xsd:string ;
+        g13vocab:name "Huize Plantage"^^xsd:string ;
+        g13vocab:website "http://huizeplantage.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceLA%20Rieshuis> g13vocab:lat "52.3835979652873"^^xsd:string ;
+        g13vocab:lng "4.88433471579719"^^xsd:string ;
+        g13vocab:name "LA Rieshuis"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceLutherhof> g13vocab:lat "52.3607955999308"^^xsd:string ;
+        g13vocab:lng "4.8634954794259"^^xsd:string ;
+        g13vocab:name "Lutherhof"^^xsd:string ;
+        g13vocab:website "http://www.lutherhof.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceReade%2C%20centrum%20voor%20reumatologie%20en%20revalidatie> g13vocab:lat "52.3603790314609"^^xsd:string,
+            "52.3707400053483"^^xsd:string ;
+        g13vocab:lng "4.84440831816034"^^xsd:string,
+            "4.86684928835166"^^xsd:string ;
+        g13vocab:name "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
+        g13vocab:website "http://www.reade.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20De%20Die> g13vocab:lat "52.3989171074832"^^xsd:string ;
+        g13vocab:lng "4.93203111019125"^^xsd:string ;
+        g13vocab:name "Verpleeghuis De Die"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20De%20Open%20Hof> g13vocab:lat "52.3455550497961"^^xsd:string ;
+        g13vocab:lng "4.92682557250361"^^xsd:string ;
+        g13vocab:name "Verpleeghuis De Open Hof"^^xsd:string ;
+        g13vocab:website "http://www.zgao.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20Dr.%20Sarphatihuis> g13vocab:lat "52.3646974046891"^^xsd:string ;
+        g13vocab:lng "4.9105504148047"^^xsd:string ;
+        g13vocab:name "Verpleeghuis Dr. Sarphatihuis"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20Gaasperdam> g13vocab:lat "52.2954871199986"^^xsd:string ;
+        g13vocab:lng "4.97904597848879"^^xsd:string ;
+        g13vocab:name "Verpleeghuis Gaasperdam"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20Jan%20Bongastraat> g13vocab:lat "52.3799391732458"^^xsd:string ;
+        g13vocab:lng "4.80381857640939"^^xsd:string ;
+        g13vocab:name "Verpleeghuis Jan Bongastraat"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20Oostpoort> g13vocab:lat "52.3581478585392"^^xsd:string ;
+        g13vocab:lng "4.93226710611238"^^xsd:string ;
+        g13vocab:name "Verpleeghuis Oostpoort"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerpleeghuis%20Slotervaart> g13vocab:lat "52.347391770001"^^xsd:string ;
+        g13vocab:lng "4.82367762993562"^^xsd:string ;
+        g13vocab:name "Verpleeghuis Slotervaart"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVerzorgingshuis%20Emmahof> g13vocab:lat "52.3530066528232"^^xsd:string ;
+        g13vocab:lng "4.87039972599071"^^xsd:string ;
+        g13vocab:name "Verzorgingshuis Emmahof"^^xsd:string ;
+        g13vocab:website "http://www.pro-senectute.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20Zorgcentrum%20De%20Riekerhof> g13vocab:lat "52.3591534857157"^^xsd:string ;
+        g13vocab:lng "4.84021945296963"^^xsd:string ;
+        g13vocab:name "Woon- en Zorgcentrum De Riekerhof"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20Zorgcentrum%20Torendael> g13vocab:lat "52.33847156492"^^xsd:string ;
+        g13vocab:lng "4.89743542221235"^^xsd:string ;
+        g13vocab:name "Woon- en Zorgcentrum Torendael"^^xsd:string ;
+        g13vocab:website "http://www.puurzuid.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20zorgcentrum%20De%20Den> g13vocab:lat "52.3822507562623"^^xsd:string ;
+        g13vocab:lng "4.80417004427809"^^xsd:string ;
+        g13vocab:name "Woon- en zorgcentrum De Den"^^xsd:string ;
+        g13vocab:website "http://www.puurzuid.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20zorgcentrum%20De%20Schutse> g13vocab:lat "52.3594481743426"^^xsd:string ;
+        g13vocab:lng "4.8225849901937"^^xsd:string ;
+        g13vocab:name "Woon- en zorgcentrum De Schutse"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20zorgcentrum%20De%20Werf> g13vocab:lat "52.3724663455495"^^xsd:string ;
+        g13vocab:lng "4.86846433520237"^^xsd:string ;
+        g13vocab:name "Woon- en zorgcentrum De Werf"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20zorgcentrum%20Nellestein> g13vocab:lat "52.3094556713152"^^xsd:string ;
+        g13vocab:lng "4.98473909271888"^^xsd:string ;
+        g13vocab:name "Woon- en zorgcentrum Nellestein"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoon-%20en%20zorgcentrum%20Vondelstede> g13vocab:lat "52.3603556944123"^^xsd:string ;
+        g13vocab:lng "4.8697269177889"^^xsd:string ;
+        g13vocab:name "Woon- en zorgcentrum Vondelstede"^^xsd:string ;
+        g13vocab:website "http://www.amsta.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonvoorziening%20Anton%20de%20Komplein> g13vocab:lat "52.3164793538397"^^xsd:string ;
+        g13vocab:lng "4.95782241820682"^^xsd:string ;
+        g13vocab:name "Woonvoorziening Anton de Komplein"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorg-%20en%20dienstencentrum%20Menno%20Simons> g13vocab:lat "52.3267992005325"^^xsd:string ;
+        g13vocab:lng "4.86650927552825"^^xsd:string ;
+        g13vocab:name "Woonzorg- en dienstencentrum Menno Simons"^^xsd:string ;
+        g13vocab:website "http://www.zhga.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Buitenveldert> g13vocab:lat "52.3228937032814"^^xsd:string ;
+        g13vocab:lng "4.86136258208855"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Buitenveldert"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Boeg> g13vocab:lat "52.3761518131106"^^xsd:string ;
+        g13vocab:lng "4.84663304536301"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Boeg"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Bogt-Westerbeer> g13vocab:lat "52.3890098434285"^^xsd:string ;
+        g13vocab:lng "4.87832393773277"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Bogt-Westerbeer"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Buitenhof> g13vocab:lat "52.326667940013"^^xsd:string ;
+        g13vocab:lng "4.88819194823304"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Buitenhof"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Drie%20Hoven> g13vocab:lat "52.3550437285358"^^xsd:string ;
+        g13vocab:lng "4.82249424241385"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Drie Hoven"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Gooyer> g13vocab:lat "52.3643217971066"^^xsd:string ;
+        g13vocab:lng "4.9269244904145"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Gooyer"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Klinker> g13vocab:lat "52.3653173031291"^^xsd:string ;
+        g13vocab:lng "4.86776038302481"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Klinker"^^xsd:string ;
+        g13vocab:website "https://www.amstelring.nl/"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Rietvinck> g13vocab:lat "52.3838833736781"^^xsd:string ;
+        g13vocab:lng "4.88381739336356"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Rietvinck"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20De%20Venser> g13vocab:lat "52.3177960271194"^^xsd:string ;
+        g13vocab:lng "4.9468100149231"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum De Venser"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Eben%20Ha%C3%ABzer> g13vocab:lat "52.2976042896873"^^xsd:string ;
+        g13vocab:lng "4.9857699344172"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Eben Haëzer"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Het%20Schouw> g13vocab:lat "52.3980589390245"^^xsd:string ;
+        g13vocab:lng "4.94272159662606"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Het Schouw"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Kastanjehof> g13vocab:lat "52.3585816703604"^^xsd:string ;
+        g13vocab:lng "4.92309389704501"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Kastanjehof"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Leo%20Polakhuis> g13vocab:lat "52.3628699892704"^^xsd:string ;
+        g13vocab:lng "4.78912683768205"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Leo Polakhuis"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Nieuw%20Geuzenveld> g13vocab:lat "52.382112877155"^^xsd:string ;
+        g13vocab:lng "4.79629926880019"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Nieuw Geuzenveld"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Nieuw%20Vredenburgh> g13vocab:lat "52.3638326179335"^^xsd:string ;
+        g13vocab:lng "4.85124634432981"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Nieuw Vredenburgh"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Vreugdehof> g13vocab:lat "52.3338595297254"^^xsd:string ;
+        g13vocab:lng "4.88426717632913"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Vreugdehof"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonzorgcentrum%20Willem%20Dreeshuis> g13vocab:lat "52.3488957692553"^^xsd:string ;
+        g13vocab:lng "4.9331018352181"^^xsd:string ;
+        g13vocab:name "Woonzorgcentrum Willem Dreeshuis"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceZorgcentrum%20d%27%20Oude%20Raai> g13vocab:lat "52.3493228577459"^^xsd:string ;
+        g13vocab:lng "4.89169451363604"^^xsd:string ;
+        g13vocab:name "Zorgcentrum d' Oude Raai"^^xsd:string ;
+        g13vocab:website "http://www.cordaan.nl"^^xsd:string .
+
+    <http://www.semanticweb.org/vmcj/ontologies/2018/3/untitled-ontology-5> a owl:Ontology .
+
+    :COC a owl:NamedIndividual,
+            owl:Thing ;
+        :geeftKennisOver :lhbt .
+
+    :JoodsVerpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :VerpleegZorgHuis .
+
+    :ReumaCentrum a owl:Class ;
+        rdfs:subClassOf :OuderenZorg .
+
+    :WezelHuisarts a :HuisArts,
+            owl:NamedIndividual .
+
+    :HuisArts a owl:Class ;
+        rdfs:subClassOf :ZorgInstantie ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :medischeProblemen ;
+                owl:onProperty :geeftKennisOver ] .
+
+    :VerpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :OuderenZorg .
+
+    :ZorgInstantie a owl:Class ;
+        rdfs:subClassOf :Instantie ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                owl:onClass :kennisDomeinen ;
+                owl:onProperty :geeftKennisOver ] .
+
+    :lhbt a :kennisDomeinen,
+            owl:NamedIndividual .
+
+    :medischeProblemen a :kennisDomeinen,
+            owl:NamedIndividual .
+
+    :OuderenZorg a owl:Class ;
+        rdfs:subClassOf :Instantie .
+
+    :geeftKennisOver a owl:ObjectProperty ;
+        rdfs:domain :Instantie ;
+        rdfs:range :kennisDomeinen .
+
+    :Instantie a owl:Class .
+
+    :kennisDomeinen a owl:Class .
+}
+

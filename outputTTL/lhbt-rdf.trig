@@ -1,0 +1,421 @@
+@prefix : <http://www.semanticweb.org/vmcj/ontologies/2018/3/untitled-ontology-5#> .
+@prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
+@prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceAdviespraktijk%20David%20en%20Van%20Wezel> g13vocab:lat "52.3515034043332"^^xsd:string ;
+        g13vocab:lng "4.9405019178603"^^xsd:string ;
+        g13vocab:name "Adviespraktijk David en Van Wezel"^^xsd:string ;
+        g13vocab:website "http://www.david-vanwezel.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceAmsterdam%20Groepspraktijk%20Psychotherapie> g13vocab:lat "52.3638871010753"^^xsd:string ;
+        g13vocab:lng "4.87160901324048"^^xsd:string ;
+        g13vocab:name "Amsterdam Groepspraktijk Psychotherapie"^^xsd:string ;
+        g13vocab:website "http://www.psychotherapiepraktijkamsterdam.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceAssociatie%20voor%20Psychotherapie> g13vocab:lat "52.3729909155503"^^xsd:string ;
+        g13vocab:lng "4.8797559162721"^^xsd:string ;
+        g13vocab:name "Associatie voor Psychotherapie"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceBo-link%2C%20praktijk%20voor%20haptotherapie> g13vocab:lat "52.3282309081226"^^xsd:string ;
+        g13vocab:lng "4.97943460432352"^^xsd:string ;
+        g13vocab:name "Bo-link, praktijk voor haptotherapie"^^xsd:string ;
+        g13vocab:website "http://www.bo-link.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCOC%20Amsterdam> g13vocab:lat "52.357624660428"^^xsd:string ;
+        g13vocab:lng "4.89531572029783"^^xsd:string ;
+        g13vocab:name "COC Amsterdam"^^xsd:string ;
+        g13vocab:website "http://www.cocamsterdam.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCentro%20Cultural%20de%20Hispanohablantes> g13vocab:lat "52.3675347454174"^^xsd:string ;
+        g13vocab:lng "4.85504850574835"^^xsd:string ;
+        g13vocab:name "Centro Cultural de Hispanohablantes"^^xsd:string ;
+        g13vocab:website "http://www.hispanohablantes.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCoaching%20en%20Supervisie%20Tim%20de%20Jong> g13vocab:lat "52.3611850572203"^^xsd:string ;
+        g13vocab:lng "4.97574060776561"^^xsd:string ;
+        g13vocab:name "Coaching en Supervisie Tim de Jong"^^xsd:string ;
+        g13vocab:website "http://www.timdejongcoaching.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCompaan%20Counseling%20Amsterdam%20-%20Homospecifieke%20Hulpverlening> g13vocab:lat "52.3746565596972"^^xsd:string ;
+        g13vocab:lng "4.94793435916976"^^xsd:string ;
+        g13vocab:name "Compaan Counseling Amsterdam - Homospecifieke Hulpverlening"^^xsd:string ;
+        g13vocab:website "http://homospecifiekehulpverlening.nl/"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Regenboog%20Groep> g13vocab:lat "52.380259820669"^^xsd:string ;
+        g13vocab:lng "4.89413939550038"^^xsd:string ;
+        g13vocab:name "De Regenboog Groep"^^xsd:string ;
+        g13vocab:website "http://www.deregenboog.org"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDifferent%2C%20pastorale%20hulpverlening%20rond%20seksuele%20identiteit> g13vocab:lat "52.3809148853129"^^xsd:string ;
+        g13vocab:lng "4.88533449545389"^^xsd:string ;
+        g13vocab:name "Different, pastorale hulpverlening rond seksuele identiteit"^^xsd:string ;
+        g13vocab:website "http://www.totheildesvolks.nl/different/home"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEFT%20relatie%20therapie%20%26%20Zijnsorientatie%20Amsterdam%20Centrum> g13vocab:lat "52.3699941016887"^^xsd:string ;
+        g13vocab:lng "4.88304994965762"^^xsd:string ;
+        g13vocab:name "EFT relatie therapie & Zijnsorientatie Amsterdam Centrum"^^xsd:string ;
+        g13vocab:website "http://www.leveninverbondenheid.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEerstelijnspsychologiepraktijk%20Bijleveld> g13vocab:lat "52.3566743207169"^^xsd:string ;
+        g13vocab:lng "4.89588406142669"^^xsd:string ;
+        g13vocab:name "Eerstelijnspsychologiepraktijk Bijleveld"^^xsd:string ;
+        g13vocab:website "http://www.annemiekebijleveld.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceGGZ%20inGeest%20Poliklinieken> g13vocab:lat "52.3317979058113"^^xsd:string,
+            "52.333792887622"^^xsd:string ;
+        g13vocab:lng "4.85866599196468"^^xsd:string,
+            "4.86480752128682"^^xsd:string ;
+        g13vocab:name "GGZ inGeest Poliklinieken"^^xsd:string ;
+        g13vocab:website "http://www.ggzingeest.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceGestaltpraktijk%20Amsterdam> g13vocab:lat "52.3826737676468"^^xsd:string ;
+        g13vocab:lng "4.88258266517885"^^xsd:string ;
+        g13vocab:name "Gestaltpraktijk Amsterdam"^^xsd:string ;
+        g13vocab:website "http://www.gestaltpraktijkamsterdam.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceGestaltpraktijk%20Bloemgracht> g13vocab:lat "52.3743328399239"^^xsd:string ;
+        g13vocab:lng "4.88005068142241"^^xsd:string ;
+        g13vocab:name "Gestaltpraktijk Bloemgracht"^^xsd:string ;
+        g13vocab:website "http://www.gestalttherapiebloemgracht.nl/"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHiv%20Vereniging%20Nederland> g13vocab:lat "52.3639203161796"^^xsd:string ;
+        g13vocab:lng "4.87720230168246"^^xsd:string ;
+        g13vocab:name "Hiv Vereniging Nederland"^^xsd:string ;
+        g13vocab:website "http://www.hivnet.org"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHomogroep%20Buitenveldert> g13vocab:lat "52.3323147607255"^^xsd:string ;
+        g13vocab:lng "4.87822550674615"^^xsd:string ;
+        g13vocab:name "Homogroep Buitenveldert"^^xsd:string ;
+        g13vocab:website "http://homogroep.blogspot.com"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisarts%20Amsterdam%20Oost> g13vocab:lat "52.3552899971377"^^xsd:string ;
+        g13vocab:lng "4.91426234999649"^^xsd:string ;
+        g13vocab:name "Huisarts Amsterdam Oost"^^xsd:string ;
+        g13vocab:website "http://www.huisartsamsterdamoost.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisarts%20aan%20de%20Prinsengracht> g13vocab:lat "52.3615235365628"^^xsd:string ;
+        g13vocab:lng "4.89704886910981"^^xsd:string ;
+        g13vocab:name "Huisarts aan de Prinsengracht"^^xsd:string ;
+        g13vocab:website "http://www.huisartsaandeprinsengracht.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsen%20Vrolikstraat> g13vocab:lat "52.3552899971377"^^xsd:string ;
+        g13vocab:lng "4.91426234999649"^^xsd:string ;
+        g13vocab:name "Huisartsen Vrolikstraat"^^xsd:string ;
+        g13vocab:website "http://www.huisartsenvrolikstraat.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Bos%20en%20Lommer> g13vocab:lat "52.377586482582"^^xsd:string ;
+        g13vocab:lng "4.84589593848699"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Bos en Lommer"^^xsd:string ;
+        g13vocab:website "http://www.hpbl.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Buijs%20en%20Windhausen> g13vocab:lat "52.3983259763612"^^xsd:string ;
+        g13vocab:lng "4.93022995325319"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Buijs en Windhausen"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Grooff> g13vocab:lat "52.3689829211309"^^xsd:string ;
+        g13vocab:lng "4.91463034815041"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Grooff"^^xsd:string ;
+        g13vocab:website "http://www.huisartsgrooff.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Heijnen%20en%20De%20Meij> g13vocab:lat "52.3722807335474"^^xsd:string ;
+        g13vocab:lng "4.8967831614502"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Heijnen en De Meij"^^xsd:string ;
+        g13vocab:website "https://heijnendemeij.zorgrotonde.net/"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Jonker%20en%20Koetsier> g13vocab:lat "52.3936400584394"^^xsd:string ;
+        g13vocab:lng "4.9554494917273"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Jonker en Koetsier"^^xsd:string ;
+        g13vocab:website "http://www.jonkerkoetsier.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Oud> g13vocab:lat "52.3460417358658"^^xsd:string ;
+        g13vocab:lng "4.90021364940399"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Oud"^^xsd:string ;
+        g13vocab:website "http://www.huisartsoud.com"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHuisartsenpraktijk%20Rustenburgerstraat> g13vocab:lat "52.3528000954048"^^xsd:string ;
+        g13vocab:lng "4.9001101393223"^^xsd:string ;
+        g13vocab:name "Huisartsenpraktijk Rustenburgerstraat"^^xsd:string ;
+        g13vocab:website "http://www.huisartsenrustenburg.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHypnotherapiepraktijk%20Wim%20Kijne> g13vocab:lat "52.3678972812344"^^xsd:string,
+            "52.3826815525289"^^xsd:string ;
+        g13vocab:lng "4.85360358674513"^^xsd:string,
+            "4.87198820939063"^^xsd:string ;
+        g13vocab:name "Hypnotherapiepraktijk Wim Kijne"^^xsd:string ;
+        g13vocab:website "http://www.hemi-medi.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceIn%20Transit%2C%20Coaching%20%26%20Zingeving> g13vocab:lat "52.3463606953857"^^xsd:string ;
+        g13vocab:lng "4.8434296611728"^^xsd:string ;
+        g13vocab:name "In Transit, Coaching & Zingeving"^^xsd:string ;
+        g13vocab:website "http://www.intransitcoaching.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceLA%20Rieshuis> g13vocab:lat "52.3835979652873"^^xsd:string ;
+        g13vocab:lng "4.88433471579719"^^xsd:string ;
+        g13vocab:name "LA Rieshuis"^^xsd:string ;
+        g13vocab:website "http://www.amstelring.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceMedisch%20Centrum%20Czaar%20Peter> g13vocab:lat "52.3684477273567"^^xsd:string ;
+        g13vocab:lng "4.92707256261962"^^xsd:string ;
+        g13vocab:name "Medisch Centrum Czaar Peter"^^xsd:string ;
+        g13vocab:website "http://www.medischcentrumczaarpeter.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceNederlandse%20Stichting%20Gestalt> g13vocab:lat "52.3759204762515"^^xsd:string ;
+        g13vocab:lng "4.90107514133759"^^xsd:string ;
+        g13vocab:name "Nederlandse Stichting Gestalt"^^xsd:string ;
+        g13vocab:website "http://www.nsgestalt.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePS%20Praktijk%20Seksuologie> g13vocab:lat "52.3642868564831"^^xsd:string ;
+        g13vocab:lng "4.87053260461939"^^xsd:string ;
+        g13vocab:name "PS Praktijk Seksuologie"^^xsd:string ;
+        g13vocab:website "http://www.seksuologen.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePati%C3%ABntenorganisatie%20Transvisie> g13vocab:lat "52.3595535507462"^^xsd:string ;
+        g13vocab:lng "4.89664490710315"^^xsd:string ;
+        g13vocab:name "Patiëntenorganisatie Transvisie"^^xsd:string ;
+        g13vocab:website "http://www.transvisie.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePersoonsgerichte%20coaching%20en%20advies%20Marten%20Bos> g13vocab:lat "52.3719536421817"^^xsd:string ;
+        g13vocab:lng "4.94615497433767"^^xsd:string ;
+        g13vocab:name "Persoonsgerichte coaching en advies Marten Bos"^^xsd:string ;
+        g13vocab:website "http://www.martenbos.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePraktijk%20voor%20moderne%20hypnotheraptie%20en%20counseling> g13vocab:lat "52.3769524467572"^^xsd:string ;
+        g13vocab:lng "4.85273262134446"^^xsd:string ;
+        g13vocab:name "Praktijk voor moderne hypnotheraptie en counseling"^^xsd:string ;
+        g13vocab:website "http://www.modernehypnotherapie.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePraktijk%20voor%20psychotherapie%20Borgerdijn> g13vocab:lat "52.3457348452527"^^xsd:string ;
+        g13vocab:lng "4.81181142600341"^^xsd:string ;
+        g13vocab:name "Praktijk voor psychotherapie Borgerdijn"^^xsd:string ;
+        g13vocab:website "http://www.nickborgerdijn.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePraktijk%20voor%20therapie%20en%20coaching%20Prisma> g13vocab:lat "52.3526753239009"^^xsd:string ;
+        g13vocab:lng "4.86048135883526"^^xsd:string ;
+        g13vocab:name "Praktijk voor therapie en coaching Prisma"^^xsd:string ;
+        g13vocab:website "http://www.prisma-praktijk.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychiatrie-%20en%20psychotherapiepraktijk%20Hettinga> g13vocab:lat "52.3639826820487"^^xsd:string ;
+        g13vocab:lng "4.90055995720671"^^xsd:string ;
+        g13vocab:name "Psychiatrie- en psychotherapiepraktijk Hettinga"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychiatriepraktijk%20Prins> g13vocab:lat "52.3609347825002"^^xsd:string ;
+        g13vocab:lng "4.90912278001029"^^xsd:string ;
+        g13vocab:name "Psychiatriepraktijk Prins"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychiatriepraktijk%20Stortelder> g13vocab:lat "52.3639448862348"^^xsd:string ;
+        g13vocab:lng "4.8936013189139"^^xsd:string ;
+        g13vocab:name "Psychiatriepraktijk Stortelder"^^xsd:string ;
+        g13vocab:website "http://www.psychiaterstortelder.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychiatriepraktijk%20Van%20Ham> g13vocab:lat "52.3605729243724"^^xsd:string ;
+        g13vocab:lng "4.90191859153269"^^xsd:string ;
+        g13vocab:name "Psychiatriepraktijk Van Ham"^^xsd:string ;
+        g13vocab:website "http://www.pietheinvanham.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychiatriepraktijk%20Van%20der%20Plaats> g13vocab:lat "52.3536581508939"^^xsd:string ;
+        g13vocab:lng "4.86729504562484"^^xsd:string ;
+        g13vocab:name "Psychiatriepraktijk Van der Plaats"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychiatriepraktijk%20Wasmann> g13vocab:lat "52.3529374132158"^^xsd:string ;
+        g13vocab:lng "4.85677940700581"^^xsd:string ;
+        g13vocab:name "Psychiatriepraktijk Wasmann"^^xsd:string ;
+        g13vocab:website "http://www.efjwasmann.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychologenpraktijk%20Brainfact> g13vocab:lat "52.3647818230466"^^xsd:string ;
+        g13vocab:lng "4.90476487350719"^^xsd:string ;
+        g13vocab:name "Psychologenpraktijk Brainfact"^^xsd:string ;
+        g13vocab:website "http://www.brainfact.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychologenpraktijk%20Maasen> g13vocab:lat "52.3722518362472"^^xsd:string ;
+        g13vocab:lng "4.88559404273658"^^xsd:string ;
+        g13vocab:name "Psychologenpraktijk Maasen"^^xsd:string ;
+        g13vocab:website "http://www.homopsycholoog.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychologenpraktijk%20Staudenmayr> g13vocab:lat "52.3595577043237"^^xsd:string ;
+        g13vocab:lng "4.92676838595457"^^xsd:string ;
+        g13vocab:name "Psychologenpraktijk Staudenmayr"^^xsd:string ;
+        g13vocab:website "http://www.centrumibt.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychologie-%20en%20psychotherapiepraktijk%20Kroonen> g13vocab:lat "52.3634737306796"^^xsd:string ;
+        g13vocab:lng "4.92609645036591"^^xsd:string ;
+        g13vocab:name "Psychologie- en psychotherapiepraktijk Kroonen"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychologie-%20en%20seksuologiepraktijk%20Reichling-de%20Jong> g13vocab:lat "52.3570435554619"^^xsd:string,
+            "52.3772468566837"^^xsd:string ;
+        g13vocab:lng "4.85250268730243"^^xsd:string,
+            "4.88721174869219"^^xsd:string ;
+        g13vocab:name "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychologiepraktijk%20Van%20Tilburg> g13vocab:lat "52.3499968819164"^^xsd:string ;
+        g13vocab:lng "4.8747938263093"^^xsd:string ;
+        g13vocab:name "Psychologiepraktijk Van Tilburg"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Baanbrekend> g13vocab:lat "52.3537886334998"^^xsd:string ;
+        g13vocab:lng "4.94112475624311"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Baanbrekend"^^xsd:string ;
+        g13vocab:website "http://bresserborsjevanderbaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Boers-Stoll> g13vocab:lat "52.3543984813029"^^xsd:string ;
+        g13vocab:lng "4.83624148817536"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Boers-Stoll"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Fels> g13vocab:lat "52.3853658097278"^^xsd:string ;
+        g13vocab:lng "4.88310884529111"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Fels"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Kerkstraat> g13vocab:lat "52.3626469770023"^^xsd:string ;
+        g13vocab:lng "4.89482057865867"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Kerkstraat"^^xsd:string ;
+        g13vocab:website ""^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Leo%20Goetstouwers> g13vocab:lat "52.3979025678126"^^xsd:string ;
+        g13vocab:lng "4.94176813559006"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Leo Goetstouwers"^^xsd:string ;
+        g13vocab:website "http://www.therapieamsterdam.com"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Living-History> g13vocab:lat "52.3768228151066"^^xsd:string ;
+        g13vocab:lng "4.87009285330376"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Living-History"^^xsd:string ;
+        g13vocab:website "http://www.living-history.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Marcel%20Holtslag> g13vocab:lat "52.3770797285167"^^xsd:string ;
+        g13vocab:lng "4.91887641126339"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Marcel Holtslag"^^xsd:string ;
+        g13vocab:website "http://www.marcelholtslag.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Peter%20Dekker> g13vocab:lat "52.3690017325653"^^xsd:string ;
+        g13vocab:lng "4.88640900471472"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Peter Dekker"^^xsd:string ;
+        g13vocab:website "http://peterdekkerpsychotherapeut.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20Sinteze> g13vocab:lat "52.367638134004"^^xsd:string ;
+        g13vocab:lng "4.92920995675088"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk Sinteze"^^xsd:string ;
+        g13vocab:website "https://www.sinteze.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePsychotherapiepraktijk%20ter%20Haar> g13vocab:lat "52.3704355990682"^^xsd:string ;
+        g13vocab:lng "4.89614279431077"^^xsd:string ;
+        g13vocab:name "Psychotherapiepraktijk ter Haar"^^xsd:string ;
+        g13vocab:website "http://arnoutterhaar.praktijkinfo.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePuntP%20volwassenen> g13vocab:lat "52.3620209535306"^^xsd:string,
+            "52.404546992831"^^xsd:string ;
+        g13vocab:lng "4.89473619464938"^^xsd:string,
+            "4.91101959357631"^^xsd:string ;
+        g13vocab:name "PuntP volwassenen"^^xsd:string ;
+        g13vocab:website "http://www.puntp.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePychotherapiepraktijk%20Jordaan> g13vocab:lat "52.3762814418009"^^xsd:string,
+            "52.3776995728738"^^xsd:string ;
+        g13vocab:lng "4.88209734278334"^^xsd:string,
+            "4.8837554085287"^^xsd:string ;
+        g13vocab:name "Pychotherapiepraktijk Jordaan"^^xsd:string ;
+        g13vocab:website "http://www.praktijkjordaan.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceRichting%20in%20Relaties> g13vocab:lat "52.3566498168972"^^xsd:string ;
+        g13vocab:lng "4.89431366541414"^^xsd:string ;
+        g13vocab:name "Richting in Relaties"^^xsd:string ;
+        g13vocab:website "http://www.ploegcoaching.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStichting%20Secret%20Garden> g13vocab:lat "52.3661008635734"^^xsd:string ;
+        g13vocab:lng "4.90423665123218"^^xsd:string ;
+        g13vocab:name "Stichting Secret Garden"^^xsd:string ;
+        g13vocab:website "http://www.stichtingsecretgarden.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceTalk%2C%20Touch%20and%20Body%20Explorations> g13vocab:lat "52.3532052079227"^^xsd:string ;
+        g13vocab:lng "4.85436900892146"^^xsd:string ;
+        g13vocab:name "Talk, Touch and Body Explorations"^^xsd:string ;
+        g13vocab:website "http://volkermoritznl.wordpress.com"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceTransgenders%20Amsterdam> g13vocab:lat "52.3778889153558"^^xsd:string ;
+        g13vocab:lng "4.87968518771488"^^xsd:string ;
+        g13vocab:name "Transgenders Amsterdam"^^xsd:string ;
+        g13vocab:website "http://transgendersamsterdam.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceTransvisie%20Zorg> g13vocab:lat "52.3607761200273"^^xsd:string ;
+        g13vocab:lng "4.90767112130932"^^xsd:string ;
+        g13vocab:name "Transvisie Zorg"^^xsd:string ;
+        g13vocab:website "http://www.transvisiezorg.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceVeilige%20Haven> g13vocab:lat "52.3707346695872"^^xsd:string ;
+        g13vocab:lng "4.89891472055574"^^xsd:string ;
+        g13vocab:name "Veilige Haven"^^xsd:string ;
+        g13vocab:website "http://www.veiligehavenamsterdam.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWilfried%20Sluys%20Relatie-%20en%20Gestalttherapie%20Amsterdam%20en%20omgeving> g13vocab:lat "52.5035425746909"^^xsd:string ;
+        g13vocab:lng "4.96007296592279"^^xsd:string ;
+        g13vocab:name "Wilfried Sluys Relatie- en Gestalttherapie Amsterdam en omgeving"^^xsd:string ;
+        g13vocab:website "http://www.ws-gestalttherapie.nl"^^xsd:string .
+
+    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceZ%C3%B3ci%C3%ABteit%2C%20vereniging%20voor%20homomannen> g13vocab:lat "52.3563334410551"^^xsd:string ;
+        g13vocab:lng "4.84458454261457"^^xsd:string ;
+        g13vocab:name "Zóciëteit, vereniging voor homomannen"^^xsd:string ;
+        g13vocab:website "http://www.zocieteit.nl"^^xsd:string .
+
+    <http://www.semanticweb.org/vmcj/ontologies/2018/3/untitled-ontology-5> a owl:Ontology .
+
+    :COC a owl:NamedIndividual,
+            owl:Thing ;
+        :geeftKennisOver :lhbt .
+
+    :JoodsVerpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :VerpleegZorgHuis .
+
+    :ReumaCentrum a owl:Class ;
+        rdfs:subClassOf :OuderenZorg .
+
+    :WezelHuisarts a :HuisArts,
+            owl:NamedIndividual .
+
+    :HuisArts a owl:Class ;
+        rdfs:subClassOf :ZorgInstantie ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :medischeProblemen ;
+                owl:onProperty :geeftKennisOver ] .
+
+    :VerpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :OuderenZorg .
+
+    :ZorgInstantie a owl:Class ;
+        rdfs:subClassOf :Instantie ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                owl:onClass :kennisDomeinen ;
+                owl:onProperty :geeftKennisOver ] .
+
+    :lhbt a :kennisDomeinen,
+            owl:NamedIndividual .
+
+    :medischeProblemen a :kennisDomeinen,
+            owl:NamedIndividual .
+
+    :OuderenZorg a owl:Class ;
+        rdfs:subClassOf :Instantie .
+
+    :geeftKennisOver a owl:ObjectProperty ;
+        rdfs:domain :Instantie ;
+        rdfs:range :kennisDomeinen .
+
+    :Instantie a owl:Class .
+
+    :kennisDomeinen a owl:Class .
+}
+
