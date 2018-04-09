@@ -2,7 +2,7 @@ import csv
 from urllib.parse import quote
 from csv import DictReader
 from rdflib import Dataset, URIRef, Literal, Namespace, RDF, RDFS, OWL, XSD
-#from iribaker import to_iri
+from iribaker import to_iri
 
 filenames = ["data/lhbt-hulpverlening.csv", "data/dak-en-thuislozenzorg.csv", "data/verpleeg-en-verzorgingshuizen.csv"]
 short = ["lhbt", "dakth", "verz"]
@@ -23,12 +23,14 @@ for i in range(len(filenames)):
 
     # The URI for our dataset
     url = 'http://few.vu.nl/~mvr320/KRweb/resource/'+short[i]
+    SETNAME = Namespace(url)
     graph_uri = URIRef(url)
 
     # We initialize a dataset, and bind our namespaces
     dataset = Dataset()
     dataset.bind('g13data',DATA)
     dataset.bind('g13vocab',VOCAB)
+    dataset.bind('gl13set',SETNAME)
 
     # We then get a new dataset object with our URI from the dataset.
     graph = dataset.graph(graph_uri)
@@ -40,14 +42,14 @@ for i in range(len(filenames)):
     # Let's pretend we know exactly what the 'schema' of our CSV file is
     for row in csv_contents:
 
-        thing = URIRef(quote(data + row['titel'], safe=''))
+        thing = URIRef(to_iri(url+row['titel']))
 
         points = row['locatie'][5:].split()
         lat = points[1][:-1]
         lng = points[0][1:]
 
         name = Literal(row['titel'], datatype=XSD['string'])
-        lat = Literal(lat, datatype=XSD['string'])
+        lat = Literal(lat, datatype=XSD['string'])#moet float worden
         lng = Literal(lng, datatype=XSD['string'])
         website = Literal(row['internet'], datatype=XSD['string'])
 
@@ -60,6 +62,7 @@ for i in range(len(filenames)):
         dataset.add((thing, VOCAB['lat'], lat))
         dataset.add((thing, VOCAB['lng'], lng))
         dataset.add((thing, VOCAB['website'], website))
+        dataset.add((thing, RDF['type'], VOCAB['Instantie']))
 
     with open('outputTTL/'+short[i]+'-rdf.trig','wb') as f:
         dataset.serialize(f, format='trig')

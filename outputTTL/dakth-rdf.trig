@@ -1,8 +1,9 @@
 @prefix : <http://www.semanticweb.org/vmcj/ontologies/2018/3/untitled-ontology-5#> .
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <urn:x-rdflib:> .
-@prefix ns2: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix gl13set: <http://few.vu.nl/~mvr320/KRweb/resource/dakth> .
+@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns2: <urn:x-rdflib:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,7 +11,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2Fresource50%7C50%20Workcenter> g13vocab:lat "52.3153003814072"^^xsd:string,
+    ns1:dakth50_50_Workcenter a g13vocab:Instantie ;
+        g13vocab:lat "52.3153003814072"^^xsd:string,
             "52.3413429970878"^^xsd:string,
             "52.354748001418"^^xsd:string,
             "52.366856160969"^^xsd:string,
@@ -25,72 +27,86 @@
             "50|50 Workcenter"^^xsd:string,
             "http://5050-workcenter.nl/"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceAHA%20Inloophuis%20voor%20dak-%20en%20thuislozen> g13vocab:lat "52.3728768729646"^^xsd:string ;
+    ns1:dakthAHA_Inloophuis_voor_dak-_en_thuislozen a g13vocab:Instantie ;
+        g13vocab:lat "52.3728768729646"^^xsd:string ;
         g13vocab:lng "4.89749611098668"^^xsd:string ;
         g13vocab:name "AHA Inloophuis voor dak- en thuislozen"^^xsd:string ;
         g13vocab:website "AHA Inloophuis voor dak- en thuislozen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceBegeleid%20Zelfstandig%20Wonen%20Fleerde> g13vocab:lat "52.3200385988841"^^xsd:string ;
+    ns1:dakthBegeleid_Zelfstandig_Wonen_Fleerde a g13vocab:Instantie ;
+        g13vocab:lat "52.3200385988841"^^xsd:string ;
         g13vocab:lng "4.9578466875549"^^xsd:string ;
         g13vocab:name "Begeleid Zelfstandig Wonen Fleerde"^^xsd:string ;
         g13vocab:website "Begeleid Zelfstandig Wonen Fleerde"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceBegeleid%20wonen%20De%20Vaart> g13vocab:lat "52.368951447216"^^xsd:string ;
+    ns1:dakthBegeleid_wonen_De_Vaart a g13vocab:Instantie ;
+        g13vocab:lat "52.368951447216"^^xsd:string ;
         g13vocab:lng "4.92257428563768"^^xsd:string ;
         g13vocab:name "Begeleid wonen De Vaart"^^xsd:string ;
         g13vocab:website "Begeleid wonen De Vaart"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceBelangenbehartiging%20Amsterdamse%20Dak-%20en%20Thuislozen%20%28BADT%29> g13vocab:lat "52.366009072994"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthBelangenbehartiging_Amsterdamse_Dak-_en_Thuislozen_(BADT)> a g13vocab:Instantie ;
+        g13vocab:lat "52.366009072994"^^xsd:string ;
         g13vocab:lng "4.90376781934102"^^xsd:string ;
         g13vocab:name "Belangenbehartiging Amsterdamse Dak- en Thuislozen (BADT)"^^xsd:string ;
         g13vocab:website "Belangenbehartiging Amsterdamse Dak- en Thuislozen (BADT)"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceBureau%20Straatjurist%20%3A%20juridisch%20steunpunt%20voor%20dak-%20en%20thuislozen> g13vocab:lat "52.366009072994"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthBureau_Straatjurist_:_juridisch_steunpunt_voor_dak-_en_thuislozen> a g13vocab:Instantie ;
+        g13vocab:lat "52.366009072994"^^xsd:string ;
         g13vocab:lng "4.90376781934102"^^xsd:string ;
         g13vocab:name "Bureau Straatjurist : juridisch steunpunt voor dak- en thuislozen"^^xsd:string ;
         g13vocab:website "Bureau Straatjurist : juridisch steunpunt voor dak- en thuislozen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCentraal%20Meldpunt%20dakloze%20gezinnen> g13vocab:lat "52.3625251245642"^^xsd:string ;
+    ns1:dakthCentraal_Meldpunt_dakloze_gezinnen a g13vocab:Instantie ;
+        g13vocab:lat "52.3625251245642"^^xsd:string ;
         g13vocab:lng "4.90900287705508"^^xsd:string ;
         g13vocab:name "Centraal Meldpunt dakloze gezinnen"^^xsd:string ;
         g13vocab:website "Centraal Meldpunt dakloze gezinnen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceCentrum%20PS> g13vocab:lat "52.3703867207915"^^xsd:string ;
+    ns1:dakthCentrum_PS a g13vocab:Instantie ;
+        g13vocab:lat "52.3703867207915"^^xsd:string ;
         g13vocab:lng "4.86579213870465"^^xsd:string ;
         g13vocab:name "Centrum PS"^^xsd:string ;
         g13vocab:website "Centrum PS"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceClusterwonen> g13vocab:lat "52.3684236452534"^^xsd:string ;
+    ns1:dakthClusterwonen a g13vocab:Instantie ;
+        g13vocab:lat "52.3684236452534"^^xsd:string ;
         g13vocab:lng "4.91187589928303"^^xsd:string ;
         g13vocab:name "Clusterwonen"^^xsd:string ;
         g13vocab:website "Clusterwonen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDagactiviteitencentrum%20De%20Miranda> g13vocab:lat "52.33893485117"^^xsd:string ;
+    ns1:dakthDagactiviteitencentrum_De_Miranda a g13vocab:Instantie ;
+        g13vocab:lat "52.33893485117"^^xsd:string ;
         g13vocab:lng "4.90080516418065"^^xsd:string ;
         g13vocab:name "Dagactiviteitencentrum De Miranda"^^xsd:string ;
         g13vocab:website "Dagactiviteitencentrum De Miranda"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Aak%2C%20zorgvoorziening%20voor%20dak-%20en%20thuislozen> g13vocab:lat "52.3541001812015"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthDe_Aak,_zorgvoorziening_voor_dak-_en_thuislozen> a g13vocab:Instantie ;
+        g13vocab:lat "52.3541001812015"^^xsd:string ;
         g13vocab:lng "4.78573633465077"^^xsd:string ;
         g13vocab:name "De Aak, zorgvoorziening voor dak- en thuislozen"^^xsd:string ;
         g13vocab:website "De Aak, zorgvoorziening voor dak- en thuislozen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Goodwillburgh> g13vocab:lat "52.3694369076746"^^xsd:string ;
+    ns1:dakthDe_Goodwillburgh a g13vocab:Instantie ;
+        g13vocab:lat "52.3694369076746"^^xsd:string ;
         g13vocab:lng "4.909060522152"^^xsd:string ;
         g13vocab:name "De Goodwillburgh"^^xsd:string ;
         g13vocab:website "De Goodwillburgh"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Klif> g13vocab:lat "52.3051420009543"^^xsd:string ;
+    ns1:dakthDe_Klif a g13vocab:Instantie ;
+        g13vocab:lat "52.3051420009543"^^xsd:string ;
         g13vocab:lng "4.9567883058941"^^xsd:string ;
         g13vocab:name "De Klif"^^xsd:string ;
         g13vocab:website "De Klif"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDe%20Regenboog%20Groep> g13vocab:lat "52.380259820669"^^xsd:string ;
+    ns1:dakthDe_Regenboog_Groep a g13vocab:Instantie ;
+        g13vocab:lat "52.380259820669"^^xsd:string ;
         g13vocab:lng "4.89413939550038"^^xsd:string ;
         g13vocab:name "De Regenboog Groep"^^xsd:string ;
         g13vocab:website "De Regenboog Groep"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDiscus%20Amsterdam> g13vocab:lat "52.3461246948313"^^xsd:string,
+    ns1:dakthDiscus_Amsterdam a g13vocab:Instantie ;
+        g13vocab:lat "52.3461246948313"^^xsd:string,
             "52.3601154834516"^^xsd:string,
             "52.3610529898951"^^xsd:string ;
         g13vocab:lng "4.82683380111803"^^xsd:string,
@@ -99,114 +115,136 @@
         g13vocab:name "Discus Amsterdam"^^xsd:string ;
         g13vocab:website "Discus Amsterdam"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDon%20Boscohuis%20Amsterdam> g13vocab:lat "52.3503606896394"^^xsd:string ;
+    ns1:dakthDon_Boscohuis_Amsterdam a g13vocab:Instantie ;
+        g13vocab:lat "52.3503606896394"^^xsd:string ;
         g13vocab:lng "4.8778718112844"^^xsd:string ;
         g13vocab:name "Don Boscohuis Amsterdam"^^xsd:string ;
         g13vocab:website "Don Boscohuis Amsterdam"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceDr.%20Valckenier%20spreekuur%20%28huisarts%20inloopspreekuur%29> g13vocab:lat "52.3616872859729"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthDr._Valckenier_spreekuur_(huisarts_inloopspreekuur)> a g13vocab:Instantie ;
+        g13vocab:lat "52.3616872859729"^^xsd:string ;
         g13vocab:lng "4.90851275987104"^^xsd:string ;
         g13vocab:name "Dr. Valckenier spreekuur (huisarts inloopspreekuur)"^^xsd:string ;
         g13vocab:website "Dr. Valckenier spreekuur (huisarts inloopspreekuur)"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceEettafel%20Filah> g13vocab:lat "52.3843445492948"^^xsd:string ;
+    ns1:dakthEettafel_Filah a g13vocab:Instantie ;
+        g13vocab:lat "52.3843445492948"^^xsd:string ;
         g13vocab:lng "4.87400036001581"^^xsd:string ;
         g13vocab:name "Eettafel Filah"^^xsd:string ;
         g13vocab:website "Eettafel Filah"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceGe%C3%AFntegreerde%20Voorziening%20%28GV%29%20Centrum> g13vocab:lat "52.3616872859729"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_Centrum> a g13vocab:Instantie ;
+        g13vocab:lat "52.3616872859729"^^xsd:string ;
         g13vocab:lng "4.90851275987104"^^xsd:string ;
         g13vocab:name "Geïntegreerde Voorziening (GV) Centrum"^^xsd:string ;
         g13vocab:website "Geïntegreerde Voorziening (GV) Centrum"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceGe%C3%AFntegreerde%20Voorziening%20%28GV%29%20West> g13vocab:lat "52.3708845094098"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_West> a g13vocab:Instantie ;
+        g13vocab:lat "52.3708845094098"^^xsd:string ;
         g13vocab:lng "4.86657921660121"^^xsd:string ;
         g13vocab:name "Geïntegreerde Voorziening (GV) West"^^xsd:string ;
         g13vocab:website "Geïntegreerde Voorziening (GV) West"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceGe%C3%AFntegreerde%20Voorziening%20%28GV%29%20Zuidoost> g13vocab:lat "52.3136855304352"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_Zuidoost> a g13vocab:Instantie ;
+        g13vocab:lat "52.3136855304352"^^xsd:string ;
         g13vocab:lng "4.95820137186839"^^xsd:string ;
         g13vocab:name "Geïntegreerde Voorziening (GV) Zuidoost"^^xsd:string ;
         g13vocab:website "Geïntegreerde Voorziening (GV) Zuidoost"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHVO-Querido> g13vocab:lat "52.3501253517124"^^xsd:string,
+    ns1:dakthHVO-Querido a g13vocab:Instantie ;
+        g13vocab:lat "52.3501253517124"^^xsd:string,
             "52.3755844114509"^^xsd:string ;
         g13vocab:lng "4.87674510359242"^^xsd:string,
             "4.91891283765617"^^xsd:string ;
         g13vocab:name "HVO-Querido"^^xsd:string ;
         g13vocab:website "HVO-Querido"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHerstart%20Rosaburgh> g13vocab:lat "52.3883241251527"^^xsd:string ;
+    ns1:dakthHerstart_Rosaburgh a g13vocab:Instantie ;
+        g13vocab:lat "52.3883241251527"^^xsd:string ;
         g13vocab:lng "4.91455641582723"^^xsd:string ;
         g13vocab:name "Herstart Rosaburgh"^^xsd:string ;
         g13vocab:website "Herstart Rosaburgh"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHerstart%20Westburgh> g13vocab:lat "52.3947459029794"^^xsd:string ;
+    ns1:dakthHerstart_Westburgh a g13vocab:Instantie ;
+        g13vocab:lat "52.3947459029794"^^xsd:string ;
         g13vocab:lng "4.85423702744119"^^xsd:string ;
         g13vocab:name "Herstart Westburgh"^^xsd:string ;
         g13vocab:website "Herstart Westburgh"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceHerstart%20Zuiderburgh> g13vocab:lat "52.3526686259663"^^xsd:string ;
+    ns1:dakthHerstart_Zuiderburgh a g13vocab:Instantie ;
+        g13vocab:lat "52.3526686259663"^^xsd:string ;
         g13vocab:lng "4.88161752822785"^^xsd:string ;
         g13vocab:name "Herstart Zuiderburgh"^^xsd:string ;
         g13vocab:website "Herstart Zuiderburgh"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInformele%20Zorg%20Westerpark> g13vocab:lat "52.384208520709"^^xsd:string ;
+    ns1:dakthInformele_Zorg_Westerpark a g13vocab:Instantie ;
+        g13vocab:lat "52.384208520709"^^xsd:string ;
         g13vocab:lng "4.87165180945169"^^xsd:string ;
         g13vocab:name "Informele Zorg Westerpark"^^xsd:string ;
         g13vocab:website "Informele Zorg Westerpark"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20De%20Kloof> g13vocab:lat "52.3692007640883"^^xsd:string ;
+    ns1:dakthInloophuis_De_Kloof a g13vocab:Instantie ;
+        g13vocab:lat "52.3692007640883"^^xsd:string ;
         g13vocab:lng "4.89746327600569"^^xsd:string ;
         g13vocab:name "Inloophuis De Kloof"^^xsd:string ;
         g13vocab:website "Inloophuis De Kloof"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20De%20Spreekbuis> g13vocab:lat "52.3566102914183"^^xsd:string ;
+    ns1:dakthInloophuis_De_Spreekbuis a g13vocab:Instantie ;
+        g13vocab:lat "52.3566102914183"^^xsd:string ;
         g13vocab:lng "4.91549606200291"^^xsd:string ;
         g13vocab:name "Inloophuis De Spreekbuis"^^xsd:string ;
         g13vocab:website "Inloophuis De Spreekbuis"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20De%20Tweede%20Mijl> g13vocab:lat "52.3812464803589"^^xsd:string ;
+    ns1:dakthInloophuis_De_Tweede_Mijl a g13vocab:Instantie ;
+        g13vocab:lat "52.3812464803589"^^xsd:string ;
         g13vocab:lng "4.88511043336344"^^xsd:string ;
         g13vocab:name "Inloophuis De Tweede Mijl"^^xsd:string ;
         g13vocab:website "Inloophuis De Tweede Mijl"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20Haarlemmerstraat> g13vocab:lat "52.3813379646705"^^xsd:string ;
+    ns1:dakthInloophuis_Haarlemmerstraat a g13vocab:Instantie ;
+        g13vocab:lat "52.3813379646705"^^xsd:string ;
         g13vocab:lng "4.88975058921189"^^xsd:string ;
         g13vocab:name "Inloophuis Haarlemmerstraat"^^xsd:string ;
         g13vocab:website "Inloophuis Haarlemmerstraat"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20Makom%20-%20kledinginzamelplek> g13vocab:lat "52.3527994423332"^^xsd:string ;
+    ns1:dakthInloophuis_Makom_-_kledinginzamelplek a g13vocab:Instantie ;
+        g13vocab:lat "52.3527994423332"^^xsd:string ;
         g13vocab:lng "4.8956040443583"^^xsd:string ;
         g13vocab:name "Inloophuis Makom - kledinginzamelplek"^^xsd:string ;
         g13vocab:website "Inloophuis Makom - kledinginzamelplek"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20Ondro%20Bong> g13vocab:lat "52.3662567725479"^^xsd:string ;
+    ns1:dakthInloophuis_Ondro_Bong a g13vocab:Instantie ;
+        g13vocab:lat "52.3662567725479"^^xsd:string ;
         g13vocab:lng "4.93459793085432"^^xsd:string ;
         g13vocab:name "Inloophuis Ondro Bong"^^xsd:string ;
         g13vocab:website "Inloophuis Ondro Bong"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20Oud-West> g13vocab:lat "52.3667300210668"^^xsd:string ;
+    ns1:dakthInloophuis_Oud-West a g13vocab:Instantie ;
+        g13vocab:lat "52.3667300210668"^^xsd:string ;
         g13vocab:lng "4.87225136776195"^^xsd:string ;
         g13vocab:name "Inloophuis Oud-West"^^xsd:string ;
         g13vocab:website "Inloophuis Oud-West"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20en%20Gebruikersruimte%20Blaka%20Watra> g13vocab:lat "52.380259820669"^^xsd:string ;
+    ns1:dakthInloophuis_en_Gebruikersruimte_Blaka_Watra a g13vocab:Instantie ;
+        g13vocab:lat "52.380259820669"^^xsd:string ;
         g13vocab:lng "4.89413939550038"^^xsd:string ;
         g13vocab:name "Inloophuis en Gebruikersruimte Blaka Watra"^^xsd:string ;
         g13vocab:website "Inloophuis en Gebruikersruimte Blaka Watra"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceInloophuis%20en%20gebruikersruimte%20De%20Princehof> g13vocab:lat "52.3720459079945"^^xsd:string ;
+    ns1:dakthInloophuis_en_gebruikersruimte_De_Princehof a g13vocab:Instantie ;
+        g13vocab:lat "52.3720459079945"^^xsd:string ;
         g13vocab:lng "4.89650675736408"^^xsd:string ;
         g13vocab:name "Inloophuis en gebruikersruimte De Princehof"^^xsd:string ;
         g13vocab:website "Inloophuis en gebruikersruimte De Princehof"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceJe%20Eigen%20Stek%2C%20doorstroomhuis%20voor%20ex-daklozen> g13vocab:lat "52.3519547962319"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthJe_Eigen_Stek,_doorstroomhuis_voor_ex-daklozen> a g13vocab:Instantie ;
+        g13vocab:lat "52.3519547962319"^^xsd:string ;
         g13vocab:lng "4.90218895414779"^^xsd:string ;
         g13vocab:name "Je Eigen Stek, doorstroomhuis voor ex-daklozen"^^xsd:string ;
         g13vocab:website "Je Eigen Stek, doorstroomhuis voor ex-daklozen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceJuttersdok%20Kringloop%20Amsterdam> g13vocab:lat "52.3629187877545"^^xsd:string,
+    ns1:dakthJuttersdok_Kringloop_Amsterdam a g13vocab:Instantie ;
+        g13vocab:lat "52.3629187877545"^^xsd:string,
             "52.3629806195318"^^xsd:string,
             "52.3635641571681"^^xsd:string,
             "52.3671977028861"^^xsd:string,
@@ -219,132 +257,158 @@
         g13vocab:name "Juttersdok Kringloop Amsterdam"^^xsd:string ;
         g13vocab:website "Juttersdok Kringloop Amsterdam"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceLeger%20des%20Heils%20Goodwill%20Centra%20Amsterdam%20%28GWCA%29> g13vocab:lat "52.3955340707404"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)> a g13vocab:Instantie ;
+        g13vocab:lat "52.3955340707404"^^xsd:string ;
         g13vocab:lng "4.92874546109189"^^xsd:string ;
         g13vocab:name "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string ;
         g13vocab:website "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceMaatschappelijke%20Opvang%20Atlantisplein> g13vocab:lat "52.3573607050883"^^xsd:string ;
+    ns1:dakthMaatschappelijke_Opvang_Atlantisplein a g13vocab:Instantie ;
+        g13vocab:lat "52.3573607050883"^^xsd:string ;
         g13vocab:lng "4.93088921146546"^^xsd:string ;
         g13vocab:name "Maatschappelijke Opvang Atlantisplein"^^xsd:string ;
         g13vocab:website "Maatschappelijke Opvang Atlantisplein"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceMajoor%20Bosshardtburgh> g13vocab:lat "52.3756427401087"^^xsd:string ;
+    ns1:dakthMajoor_Bosshardtburgh a g13vocab:Instantie ;
+        g13vocab:lat "52.3756427401087"^^xsd:string ;
         g13vocab:lng "4.89943202370827"^^xsd:string ;
         g13vocab:name "Majoor Bosshardtburgh"^^xsd:string ;
         g13vocab:website "Majoor Bosshardtburgh"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceMartien%20Schaaperhuis> g13vocab:lat "52.3629004977753"^^xsd:string ;
+    ns1:dakthMartien_Schaaperhuis a g13vocab:Instantie ;
+        g13vocab:lat "52.3629004977753"^^xsd:string ;
         g13vocab:lng "4.97798559474576"^^xsd:string ;
         g13vocab:name "Martien Schaaperhuis"^^xsd:string ;
         g13vocab:website "Martien Schaaperhuis"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceMobiel%20Service%20Centrum%20%28MSC%29> g13vocab:lat "52.3777660593735"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthMobiel_Service_Centrum_(MSC)> a g13vocab:Instantie ;
+        g13vocab:lat "52.3777660593735"^^xsd:string ;
         g13vocab:lng "4.89529795202281"^^xsd:string ;
         g13vocab:name "Mobiel Service Centrum (MSC)"^^xsd:string ;
         g13vocab:website "Mobiel Service Centrum (MSC)"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceMobiel%20Team%20HVO-Querido> g13vocab:lat "52.3505857944772"^^xsd:string ;
+    ns1:dakthMobiel_Team_HVO-Querido a g13vocab:Instantie ;
+        g13vocab:lat "52.3505857944772"^^xsd:string ;
         g13vocab:lng "4.8436127325802"^^xsd:string ;
         g13vocab:name "Mobiel Team HVO-Querido"^^xsd:string ;
         g13vocab:website "Mobiel Team HVO-Querido"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceOpvang%20Poeldijkstraat> g13vocab:lat "52.3505857944772"^^xsd:string ;
+    ns1:dakthOpvang_Poeldijkstraat a g13vocab:Instantie ;
+        g13vocab:lat "52.3505857944772"^^xsd:string ;
         g13vocab:lng "4.8436127325802"^^xsd:string ;
         g13vocab:name "Opvang Poeldijkstraat"^^xsd:string ;
         g13vocab:website "Opvang Poeldijkstraat"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceOpvangvoorziening%20Anton%20de%20Komplein> g13vocab:lat "52.314216839017"^^xsd:string ;
+    ns1:dakthOpvangvoorziening_Anton_de_Komplein a g13vocab:Instantie ;
+        g13vocab:lat "52.314216839017"^^xsd:string ;
         g13vocab:lng "4.95835399432476"^^xsd:string ;
         g13vocab:name "Opvangvoorziening Anton de Komplein"^^xsd:string ;
         g13vocab:website "Opvangvoorziening Anton de Komplein"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourcePassantenhotel%20Boerhaave> g13vocab:lat "52.3599986360393"^^xsd:string ;
+    ns1:dakthPassantenhotel_Boerhaave a g13vocab:Instantie ;
+        g13vocab:lat "52.3599986360393"^^xsd:string ;
         g13vocab:lng "4.91548940374903"^^xsd:string ;
         g13vocab:name "Passantenhotel Boerhaave"^^xsd:string ;
         g13vocab:website "Passantenhotel Boerhaave"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceProtestantse%20Diaconie%20Amsterdam> g13vocab:lat "52.366009072994"^^xsd:string ;
+    ns1:dakthProtestantse_Diaconie_Amsterdam a g13vocab:Instantie ;
+        g13vocab:lat "52.366009072994"^^xsd:string ;
         g13vocab:lng "4.90376781934102"^^xsd:string ;
         g13vocab:name "Protestantse Diaconie Amsterdam"^^xsd:string ;
         g13vocab:website "Protestantse Diaconie Amsterdam"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceRIBW%20%2F%20MO%20Jan%20Rebelstraat> g13vocab:lat "52.3617438570837"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthRIBW_/_MO_Jan_Rebelstraat> a g13vocab:Instantie ;
+        g13vocab:lat "52.3617438570837"^^xsd:string ;
         g13vocab:lng "4.78585944911415"^^xsd:string ;
         g13vocab:name "RIBW / MO Jan Rebelstraat"^^xsd:string ;
         g13vocab:website "RIBW / MO Jan Rebelstraat"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceRestart%20Intensieve%20Woonbegeleiding> g13vocab:lat "52.3955340707404"^^xsd:string ;
+    ns1:dakthRestart_Intensieve_Woonbegeleiding a g13vocab:Instantie ;
+        g13vocab:lat "52.3955340707404"^^xsd:string ;
         g13vocab:lng "4.92874546109189"^^xsd:string ;
         g13vocab:name "Restart Intensieve Woonbegeleiding"^^xsd:string ;
         g13vocab:website "Restart Intensieve Woonbegeleiding"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceRobert%20Koch%20Wonen> g13vocab:lat "52.3471188334591"^^xsd:string ;
+    ns1:dakthRobert_Koch_Wonen a g13vocab:Instantie ;
+        g13vocab:lat "52.3471188334591"^^xsd:string ;
         g13vocab:lng "4.93850608365938"^^xsd:string ;
         g13vocab:name "Robert Koch Wonen"^^xsd:string ;
         g13vocab:website "Robert Koch Wonen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceSchakel%2C%20inloop%20%2F%20maaltijden%20%2F%20kringloop> g13vocab:lat "52.3828297892819"^^xsd:string ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthSchakel,_inloop_/_maaltijden_/_kringloop> a g13vocab:Instantie ;
+        g13vocab:lat "52.3828297892819"^^xsd:string ;
         g13vocab:lng "4.87704358256216"^^xsd:string ;
         g13vocab:name "Schakel, inloop / maaltijden / kringloop"^^xsd:string ;
         g13vocab:website "Schakel, inloop / maaltijden / kringloop"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceScreeningsbalie%20Bijzondere%20Doelgroepen> g13vocab:lat "52.3717031714839"^^xsd:string ;
+    ns1:dakthScreeningsbalie_Bijzondere_Doelgroepen a g13vocab:Instantie ;
+        g13vocab:lat "52.3717031714839"^^xsd:string ;
         g13vocab:lng "4.84422096785895"^^xsd:string ;
         g13vocab:name "Screeningsbalie Bijzondere Doelgroepen"^^xsd:string ;
         g13vocab:website "Screeningsbalie Bijzondere Doelgroepen"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStichting%20Kruispost> g13vocab:lat "52.3727812920455"^^xsd:string ;
+    ns1:dakthStichting_Kruispost a g13vocab:Instantie ;
+        g13vocab:lat "52.3727812920455"^^xsd:string ;
         g13vocab:lng "4.89736002794718"^^xsd:string ;
         g13vocab:name "Stichting Kruispost"^^xsd:string ;
         g13vocab:website "Stichting Kruispost"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStichting%20Stoelenproject> g13vocab:lat "52.3699310371543"^^xsd:string ;
+    ns1:dakthStichting_Stoelenproject a g13vocab:Instantie ;
+        g13vocab:lat "52.3699310371543"^^xsd:string ;
         g13vocab:lng "4.87672205863238"^^xsd:string ;
         g13vocab:name "Stichting Stoelenproject"^^xsd:string ;
         g13vocab:website "Stichting Stoelenproject"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStichting%20Streetcornerwork%20Amsterdam> g13vocab:lat "52.3689297721381"^^xsd:string ;
+    ns1:dakthStichting_Streetcornerwork_Amsterdam a g13vocab:Instantie ;
+        g13vocab:lat "52.3689297721381"^^xsd:string ;
         g13vocab:lng "4.88639513387154"^^xsd:string ;
         g13vocab:name "Stichting Streetcornerwork Amsterdam"^^xsd:string ;
         g13vocab:website "Stichting Streetcornerwork Amsterdam"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStichting%20Volksbond%20Amsterdam> g13vocab:lat "52.3501253517124"^^xsd:string ;
+    ns1:dakthStichting_Volksbond_Amsterdam a g13vocab:Instantie ;
+        g13vocab:lat "52.3501253517124"^^xsd:string ;
         g13vocab:lng "4.91891283765617"^^xsd:string ;
         g13vocab:name "Stichting Volksbond Amsterdam"^^xsd:string ;
         g13vocab:website "Stichting Volksbond Amsterdam"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStichting%20Z> g13vocab:lat "52.3566102914183"^^xsd:string ;
+    ns1:dakthStichting_Z a g13vocab:Instantie ;
+        g13vocab:lat "52.3566102914183"^^xsd:string ;
         g13vocab:lng "4.91549606200291"^^xsd:string ;
         g13vocab:name "Stichting Z"^^xsd:string ;
         g13vocab:website "Stichting Z"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceStreetcornerwork%20Team%20Centrum> g13vocab:lat "52.3768263734079"^^xsd:string ;
+    ns1:dakthStreetcornerwork_Team_Centrum a g13vocab:Instantie ;
+        g13vocab:lat "52.3768263734079"^^xsd:string ;
         g13vocab:lng "4.89410413753967"^^xsd:string ;
         g13vocab:name "Streetcornerwork Team Centrum"^^xsd:string ;
         g13vocab:website "Streetcornerwork Team Centrum"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonbegeleiding%20De%20Eerste%20Helmer> g13vocab:lat "52.3637891119"^^xsd:string ;
+    ns1:dakthWoonbegeleiding_De_Eerste_Helmer a g13vocab:Instantie ;
+        g13vocab:lat "52.3637891119"^^xsd:string ;
         g13vocab:lng "4.8759558811229"^^xsd:string ;
         g13vocab:name "Woonbegeleiding De Eerste Helmer"^^xsd:string ;
         g13vocab:website "Woonbegeleiding De Eerste Helmer"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonhotel%20De%20Nassau> g13vocab:lat "52.3835662189401"^^xsd:string ;
+    ns1:dakthWoonhotel_De_Nassau a g13vocab:Instantie ;
+        g13vocab:lat "52.3835662189401"^^xsd:string ;
         g13vocab:lng "4.8790033102617"^^xsd:string ;
         g13vocab:name "Woonhotel De Nassau"^^xsd:string ;
         g13vocab:website "Woonhotel De Nassau"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonhotel%20Ruysdael> g13vocab:lat "52.3506060799724"^^xsd:string ;
+    ns1:dakthWoonhotel_Ruysdael a g13vocab:Instantie ;
+        g13vocab:lat "52.3506060799724"^^xsd:string ;
         g13vocab:lng "4.88693947191758"^^xsd:string ;
         g13vocab:name "Woonhotel Ruysdael"^^xsd:string ;
         g13vocab:website "Woonhotel Ruysdael"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonvoorziening%20De%20Veste> g13vocab:lat "52.3505857944772"^^xsd:string ;
+    ns1:dakthWoonvoorziening_De_Veste a g13vocab:Instantie ;
+        g13vocab:lat "52.3505857944772"^^xsd:string ;
         g13vocab:lng "4.8436127325802"^^xsd:string ;
         g13vocab:name "Woonvoorziening De Veste"^^xsd:string ;
         g13vocab:website "Woonvoorziening De Veste"^^xsd:string .
 
-    <http%3A%2F%2Ffew.vu.nl%2F%7Emvr320%2FKRweb%2FresourceWoonvoorziening%20Noorderburgh> g13vocab:lat "52.3961448188178"^^xsd:string ;
+    ns1:dakthWoonvoorziening_Noorderburgh a g13vocab:Instantie ;
+        g13vocab:lat "52.3961448188178"^^xsd:string ;
         g13vocab:lng "4.91266588675667"^^xsd:string ;
         g13vocab:name "Woonvoorziening Noorderburgh"^^xsd:string ;
         g13vocab:website "Woonvoorziening Noorderburgh"^^xsd:string .
