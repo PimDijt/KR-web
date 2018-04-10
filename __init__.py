@@ -24,6 +24,10 @@ def map_filter():
     result = [(0, "dak-en-thuislozenzorg", "green", "true", detlz), (1, "lhbt-hulpverlening", "red", "true", lhbt), (2, "verpleeg-en-verzorgingshuizen", "blue", "true", zorg)]
     return render_template('google_maps_filter.html', results = result)
 
+@app.route('/map_test')
+def map_test():
+    return render_template('google_maps_overlap_test.html')
+
 @app.route('/upload')
 def upload():
     return render_template('upload.html')
