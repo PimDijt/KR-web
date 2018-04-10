@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="https://cdn.rawgit.com/bjornharrtell/jsts/gh-pages/1.1.2/jsts.min.js"></script>
+    <title>Google maps</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+
+        function circlePath(center,radius,points){
+          var a=[],p=360/points,d=0;
+          for(var i=0;i<points;++i,d+=p){
+            a.push(google.maps.geometry.spherical.computeOffset(center,radius,d));
+          }
+          return a;
+        }
+
+        var poly_1_center = new google.maps.LatLng({lat: 52.379189, lng: 4.899431 });
+        var poly_2_center = new google.maps.LatLng({lat: 52.373882, lng: 4.891711 });
+
+        var mapOptions = {
+          center: poly_1_center,
+          zoom: 13
+        };
+
+
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        var circle_1 = new google.maps.Polygon({
+          map:map,
+          path:circlePath(poly_1_center,1000,20),
+          strokeColor: '#FF0000',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: '#FF0000',
+          fillOpacity: 0.35
+        });
+
+        var circle_2 = new google.maps.Polygon({
+          map:map,
+          path:circlePath(poly_2_center,1000,20),
+          strokeColor: '#0000FF',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: '#0000FF',
+          fillOpacity: 0.35
+        })
+
+        var geometryFactory = new jsts.geom.GeometryFactory();
+        var circle_1 = createJstsPolygon(geometryFactory, circle_1);
+        var circle_2 = createJstsPolygon(geometryFactory, circle_2);
+        var intersection = circle_1.intersection(circle_2);
+        drawIntersectionArea(map, intersection);
+
+        function drawIntersectionArea(map, polygon) {
+          var coords = polygon.getCoordinates().map(function (coord) {
+            return { lat: coord.x, lng: coord.y };
+          });
+
+          var intersectionArea = new google.maps.Polygon({
+            paths: coords,
+            strokeColor: '#00FF00',
+            strokeOpacity: 0.8,
+            strokeWeight: 4,
+            fillColor: '#00FF00',
+            fillOpacity: 0.35
+          });
+          intersectionArea.setMap(map);
+        }
+
+        function createJstsPolygon(geometryFactory, polygon) {
+          var path = polygon.getPath();
+          var coordinates = path.getArray().map(function name(coord) {
+            return new jsts.geom.Coordinate(coord.lat(), coord.lng());
+          });
+          coordinates.push(coordinates[0]);
+          var shell = geometryFactory.createLinearRing(coordinates);
+          return geometryFactory.createPolygon(shell);
+        }
+
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=initMap&libraries=geometry">
+    </script>
+  </body>
+</html>
