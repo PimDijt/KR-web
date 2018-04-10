@@ -4,124 +4,142 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://few.vu.nl/~mvr320/KRweb/vocab/> .
 
-<http://few.vu.nl/~mvr320/KRweb/vocab/> a owl:Ontology .
-# 
-# 
-# #################################################################
-# #
-# #    Object Properties
-# #
-# #################################################################
-# 
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/providesInformationAbout
+<http://few.vu.nl/~mvr320/KRweb/vocab/> rdf:type owl:Ontology .
 
-:providesInformationAbout a owl:ObjectProperty ;
-	rdfs:domain :organisations ;
-	rdfs:range :knowledgeDomain .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Classes
-# #
-# #################################################################
-# 
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/JoodsVerpleegZorgHuis
+#################################################################
+#    Object Properties
+#################################################################
 
-:JoodsVerpleegZorgHuis a owl:Class .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/generalPractitioner
+###  http://few.vu.nl/~mvr320/KRweb/vocab/providesInformationAbout
+:providesInformationAbout rdf:type owl:ObjectProperty ;
+                          rdfs:domain :organisations ;
+                          rdfs:range :knowledgeDomain .
 
-:generalPractitioner a owl:Class ;
-	rdfs:subClassOf :organisations .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/groups
 
-:groups a owl:Class .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/healthCare
+#################################################################
+#    Classes
+#################################################################
 
-:healthCare a owl:Class ;
-	rdfs:subClassOf :organisations .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/knowledgeDomain
+###  http://few.vu.nl/~mvr320/KRweb/vocab/JoodsVerpleegZorgHuis
+:JoodsVerpleegZorgHuis rdf:type owl:Class ;
+                       rdfs:subClassOf :verpleegZorgHuis .
 
-:knowledgeDomain a owl:Class .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/organisations
 
-:organisations a owl:Class .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/rheumatismCenter
+###  http://few.vu.nl/~mvr320/KRweb/vocab/addictCare
+:addictCare rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :providesInformationAbout ;
+                                  owl:hasValue :addictsPrevention
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :providesInformationAbout ;
+                                  owl:hasValue :addictsReintegration
+                                ] ;
+            rdfs:subClassOf :organisations .
 
-:rheumatismCenter a owl:Class .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/riskGroups
 
-:riskGroups a owl:Class ;
-	rdfs:subClassOf :groups .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/sportInterestedGroups
+###  http://few.vu.nl/~mvr320/KRweb/vocab/generalPractitioner
+:generalPractitioner rdf:type owl:Class ;
+                     rdfs:subClassOf :healthCare .
 
-:sportInterestedGroups a owl:Class ;
-	rdfs:subClassOf :groups .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/verpleegZorgHuis
 
-:verpleegZorgHuis a owl:Class ;
-	rdfs:subClassOf :JoodsVerpleegZorgHuis .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Individuals
-# #
-# #################################################################
-# 
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/addictPrevention
+###  http://few.vu.nl/~mvr320/KRweb/vocab/groups
+:groups rdf:type owl:Class .
 
-:addictPrevention a owl:NamedIndividual , :knowledgeDomain .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/addicts
 
-:addicts a owl:NamedIndividual , :riskGroups .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/addictsPrevention
+###  http://few.vu.nl/~mvr320/KRweb/vocab/healthCare
+:healthCare rdf:type owl:Class ;
+            rdfs:subClassOf :organisations .
 
-:addictsPrevention a owl:NamedIndividual , :knowledgeDomain .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/addictsReintegration
 
-:addictsReintegration a owl:NamedIndividual , :knowledgeDomain .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/elderly
+###  http://few.vu.nl/~mvr320/KRweb/vocab/knowledgeDomain
+:knowledgeDomain rdf:type owl:Class .
 
-:elderly a owl:NamedIndividual , :riskGroups .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/elderlyCare
 
-:elderlyCare a owl:NamedIndividual , :knowledgeDomain .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/homelessPeople
+###  http://few.vu.nl/~mvr320/KRweb/vocab/organisations
+:organisations rdf:type owl:Class .
 
-:homelessPeople a owl:NamedIndividual , :riskGroups .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/lhbt
 
-:lhbt a owl:NamedIndividual , :riskGroups .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/lhbtIssues
+###  http://few.vu.nl/~mvr320/KRweb/vocab/rheumatismCenter
+:rheumatismCenter rdf:type owl:Class ;
+                  rdfs:subClassOf :healthCare .
 
-:lhbtIssues a owl:NamedIndividual , :knowledgeDomain .
-# 
-#  http://few.vu.nl/~mvr320/KRweb/vocab/medicalIssues
 
-:medicalIssues a owl:NamedIndividual , :knowledgeDomain .
-# 
-# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
+###  http://few.vu.nl/~mvr320/KRweb/vocab/riskGroups
+:riskGroups rdf:type owl:Class ;
+            rdfs:subClassOf :groups .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/sportInterestedGroups
+:sportInterestedGroups rdf:type owl:Class ;
+                       rdfs:subClassOf :groups .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/verpleegZorgHuis
+:verpleegZorgHuis rdf:type owl:Class ;
+                  rdfs:subClassOf :healthCare .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/addictPrevention
+:addictPrevention rdf:type owl:NamedIndividual ,
+                           :knowledgeDomain .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/addicts
+:addicts rdf:type owl:NamedIndividual ,
+                  :riskGroups .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/addictsPrevention
+:addictsPrevention rdf:type owl:NamedIndividual ,
+                            :knowledgeDomain .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/addictsReintegration
+:addictsReintegration rdf:type owl:NamedIndividual ,
+                               :knowledgeDomain .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/cheat
+:cheat rdf:type owl:NamedIndividual ,
+                owl:Thing ;
+       :providesInformationAbout :addictsPrevention .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/elderly
+:elderly rdf:type owl:NamedIndividual ,
+                  :riskGroups .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/elderlyCare
+:elderlyCare rdf:type owl:NamedIndividual ,
+                      :knowledgeDomain .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/homelessPeople
+:homelessPeople rdf:type owl:NamedIndividual ,
+                         :riskGroups .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/lhbt
+:lhbt rdf:type owl:NamedIndividual ,
+               :riskGroups .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/lhbtIssues
+:lhbtIssues rdf:type owl:NamedIndividual ,
+                     :knowledgeDomain .
+
+
+###  http://few.vu.nl/~mvr320/KRweb/vocab/medicalIssues
+:medicalIssues rdf:type owl:NamedIndividual ,
+                        :knowledgeDomain .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

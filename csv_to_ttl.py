@@ -8,6 +8,9 @@ from iribaker import to_iri
 #import urllib.parse as urlparse (suddenly there is urlparse)
 #    if not isinstance(iri, str): (unicode error)
 
+dbp = 'http://dbpedia.org/property/'
+DBP = Namespace(dbp)
+
 filenames = ["data/lhbt-hulpverlening.csv", "data/dak-en-thuislozenzorg.csv", "data/verpleeg-en-verzorgingshuizen.csv"]
 short = ["lhbt", "dakth", "verz"]
 for i in range(len(filenames)):
@@ -34,7 +37,7 @@ for i in range(len(filenames)):
     dataset = Dataset()
     dataset.bind('g13data',DATA)
     dataset.bind('g13vocab',VOCAB)
-    dataset.bind('gl13set',SETNAME)
+    dataset.bind('g13set',SETNAME)
 
     # We then get a new dataset object with our URI from the dataset.
     graph = dataset.graph(graph_uri)
@@ -62,11 +65,13 @@ for i in range(len(filenames)):
 
 
         # All set... we are now going to add the triples to our dataset
-        dataset.add((thing, VOCAB['name'], name))
-        dataset.add((thing, VOCAB['lat'], lat))
-        dataset.add((thing, VOCAB['lng'], lng))
+        dataset.add((thing, RDFS['label'], name))
+        dataset.add((thing, DBP['latitude'], lat))
+        dataset.add((thing, DBP['longitude'], lng))
         dataset.add((thing, VOCAB['website'], website))
         dataset.add((thing, RDF['type'], VOCAB['Instantie']))
+        if short[i] == "dakth":
+            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
 
     with open('outputTTL/'+short[i]+'-rdf.trig','wb') as f:
         dataset.serialize(f, format='trig')
