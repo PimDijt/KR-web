@@ -2,9 +2,9 @@
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/lhbt> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <urn:x-rdflib:> .
-@prefix ns2: <http://dbpedia.org/property/> .
-@prefix ns3: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix ns3: <http://dbpedia.org/property/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,434 +12,434 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns3:lhbtAdviespraktijk_David_en_Van_Wezel a :Instantie ;
+    ns1:lhbtAdviespraktijk_David_en_Van_Wezel a :Instantie ;
         rdfs:label "Adviespraktijk David en Van Wezel"^^xsd:string ;
-        ns2:latitude "52.3515034043332"^^xsd:string ;
-        ns2:longitude "4.9405019178603"^^xsd:string ;
+        ns3:latitude 5.23515e+01 ;
+        ns3:longitude 4.940502e+00 ;
         :website "http://www.david-vanwezel.nl"^^xsd:string .
 
-    ns3:lhbtAmsterdam_Groepspraktijk_Psychotherapie a :Instantie ;
+    ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie a :Instantie ;
         rdfs:label "Amsterdam Groepspraktijk Psychotherapie"^^xsd:string ;
-        ns2:latitude "52.3638871010753"^^xsd:string ;
-        ns2:longitude "4.87160901324048"^^xsd:string ;
+        ns3:latitude 5.236389e+01 ;
+        ns3:longitude 4.871609e+00 ;
         :website "http://www.psychotherapiepraktijkamsterdam.nl"^^xsd:string .
 
-    ns3:lhbtAssociatie_voor_Psychotherapie a :Instantie ;
+    ns1:lhbtAssociatie_voor_Psychotherapie a :Instantie ;
         rdfs:label "Associatie voor Psychotherapie"^^xsd:string ;
-        ns2:latitude "52.3729909155503"^^xsd:string ;
-        ns2:longitude "4.8797559162721"^^xsd:string ;
+        ns3:latitude 5.237299e+01 ;
+        ns3:longitude 4.879756e+00 ;
         :website ""^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie> a :Instantie ;
         rdfs:label "Bo-link, praktijk voor haptotherapie"^^xsd:string ;
-        ns2:latitude "52.3282309081226"^^xsd:string ;
-        ns2:longitude "4.97943460432352"^^xsd:string ;
+        ns3:latitude 5.232823e+01 ;
+        ns3:longitude 4.979435e+00 ;
         :website "http://www.bo-link.nl"^^xsd:string .
 
-    ns3:lhbtCOC_Amsterdam a :Instantie ;
+    ns1:lhbtCOC_Amsterdam a :Instantie ;
         rdfs:label "COC Amsterdam"^^xsd:string ;
-        ns2:latitude "52.357624660428"^^xsd:string ;
-        ns2:longitude "4.89531572029783"^^xsd:string ;
+        ns3:latitude 5.235762e+01 ;
+        ns3:longitude 4.895316e+00 ;
         :website "http://www.cocamsterdam.nl"^^xsd:string .
 
-    ns3:lhbtCentro_Cultural_de_Hispanohablantes a :Instantie ;
+    ns1:lhbtCentro_Cultural_de_Hispanohablantes a :Instantie ;
         rdfs:label "Centro Cultural de Hispanohablantes"^^xsd:string ;
-        ns2:latitude "52.3675347454174"^^xsd:string ;
-        ns2:longitude "4.85504850574835"^^xsd:string ;
+        ns3:latitude 5.236753e+01 ;
+        ns3:longitude 4.855049e+00 ;
         :website "http://www.hispanohablantes.nl"^^xsd:string .
 
-    ns3:lhbtCoaching_en_Supervisie_Tim_de_Jong a :Instantie ;
+    ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong a :Instantie ;
         rdfs:label "Coaching en Supervisie Tim de Jong"^^xsd:string ;
-        ns2:latitude "52.3611850572203"^^xsd:string ;
-        ns2:longitude "4.97574060776561"^^xsd:string ;
+        ns3:latitude 5.236119e+01 ;
+        ns3:longitude 4.975741e+00 ;
         :website "http://www.timdejongcoaching.nl"^^xsd:string .
 
-    ns3:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_Hulpverlening a :Instantie ;
+    ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_Hulpverlening a :Instantie ;
         rdfs:label "Compaan Counseling Amsterdam - Homospecifieke Hulpverlening"^^xsd:string ;
-        ns2:latitude "52.3746565596972"^^xsd:string ;
-        ns2:longitude "4.94793435916976"^^xsd:string ;
+        ns3:latitude 5.237466e+01 ;
+        ns3:longitude 4.947934e+00 ;
         :website "http://homospecifiekehulpverlening.nl/"^^xsd:string .
 
-    ns3:lhbtDe_Regenboog_Groep a :Instantie ;
+    ns1:lhbtDe_Regenboog_Groep a :Instantie ;
         rdfs:label "De Regenboog Groep"^^xsd:string ;
-        ns2:latitude "52.380259820669"^^xsd:string ;
-        ns2:longitude "4.89413939550038"^^xsd:string ;
+        ns3:latitude 5.238026e+01 ;
+        ns3:longitude 4.894139e+00 ;
         :website "http://www.deregenboog.org"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteit> a :Instantie ;
         rdfs:label "Different, pastorale hulpverlening rond seksuele identiteit"^^xsd:string ;
-        ns2:latitude "52.3809148853129"^^xsd:string ;
-        ns2:longitude "4.88533449545389"^^xsd:string ;
+        ns3:latitude 5.238091e+01 ;
+        ns3:longitude 4.885334e+00 ;
         :website "http://www.totheildesvolks.nl/different/home"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum> a :Instantie ;
         rdfs:label "EFT relatie therapie & Zijnsorientatie Amsterdam Centrum"^^xsd:string ;
-        ns2:latitude "52.3699941016887"^^xsd:string ;
-        ns2:longitude "4.88304994965762"^^xsd:string ;
+        ns3:latitude 5.236999e+01 ;
+        ns3:longitude 4.88305e+00 ;
         :website "http://www.leveninverbondenheid.nl"^^xsd:string .
 
-    ns3:lhbtEerstelijnspsychologiepraktijk_Bijleveld a :Instantie ;
+    ns1:lhbtEerstelijnspsychologiepraktijk_Bijleveld a :Instantie ;
         rdfs:label "Eerstelijnspsychologiepraktijk Bijleveld"^^xsd:string ;
-        ns2:latitude "52.3566743207169"^^xsd:string ;
-        ns2:longitude "4.89588406142669"^^xsd:string ;
+        ns3:latitude 5.235667e+01 ;
+        ns3:longitude 4.895884e+00 ;
         :website "http://www.annemiekebijleveld.nl"^^xsd:string .
 
-    ns3:lhbtGGZ_inGeest_Poliklinieken a :Instantie ;
+    ns1:lhbtGGZ_inGeest_Poliklinieken a :Instantie ;
         rdfs:label "GGZ inGeest Poliklinieken"^^xsd:string ;
-        ns2:latitude "52.3317979058113"^^xsd:string,
-            "52.333792887622"^^xsd:string ;
-        ns2:longitude "4.85866599196468"^^xsd:string,
-            "4.86480752128682"^^xsd:string ;
+        ns3:latitude 5.23318e+01,
+            5.233379e+01 ;
+        ns3:longitude 4.858666e+00,
+            4.864808e+00 ;
         :website "http://www.ggzingeest.nl"^^xsd:string .
 
-    ns3:lhbtGestaltpraktijk_Amsterdam a :Instantie ;
+    ns1:lhbtGestaltpraktijk_Amsterdam a :Instantie ;
         rdfs:label "Gestaltpraktijk Amsterdam"^^xsd:string ;
-        ns2:latitude "52.3826737676468"^^xsd:string ;
-        ns2:longitude "4.88258266517885"^^xsd:string ;
+        ns3:latitude 5.238267e+01 ;
+        ns3:longitude 4.882583e+00 ;
         :website "http://www.gestaltpraktijkamsterdam.nl"^^xsd:string .
 
-    ns3:lhbtGestaltpraktijk_Bloemgracht a :Instantie ;
+    ns1:lhbtGestaltpraktijk_Bloemgracht a :Instantie ;
         rdfs:label "Gestaltpraktijk Bloemgracht"^^xsd:string ;
-        ns2:latitude "52.3743328399239"^^xsd:string ;
-        ns2:longitude "4.88005068142241"^^xsd:string ;
+        ns3:latitude 5.237433e+01 ;
+        ns3:longitude 4.880051e+00 ;
         :website "http://www.gestalttherapiebloemgracht.nl/"^^xsd:string .
 
-    ns3:lhbtHiv_Vereniging_Nederland a :Instantie ;
+    ns1:lhbtHiv_Vereniging_Nederland a :Instantie ;
         rdfs:label "Hiv Vereniging Nederland"^^xsd:string ;
-        ns2:latitude "52.3639203161796"^^xsd:string ;
-        ns2:longitude "4.87720230168246"^^xsd:string ;
+        ns3:latitude 5.236392e+01 ;
+        ns3:longitude 4.877202e+00 ;
         :website "http://www.hivnet.org"^^xsd:string .
 
-    ns3:lhbtHomogroep_Buitenveldert a :Instantie ;
+    ns1:lhbtHomogroep_Buitenveldert a :Instantie ;
         rdfs:label "Homogroep Buitenveldert"^^xsd:string ;
-        ns2:latitude "52.3323147607255"^^xsd:string ;
-        ns2:longitude "4.87822550674615"^^xsd:string ;
+        ns3:latitude 5.233231e+01 ;
+        ns3:longitude 4.878226e+00 ;
         :website "http://homogroep.blogspot.com"^^xsd:string .
 
-    ns3:lhbtHuisarts_Amsterdam_Oost a :Instantie ;
+    ns1:lhbtHuisarts_Amsterdam_Oost a :Instantie ;
         rdfs:label "Huisarts Amsterdam Oost"^^xsd:string ;
-        ns2:latitude "52.3552899971377"^^xsd:string ;
-        ns2:longitude "4.91426234999649"^^xsd:string ;
+        ns3:latitude 5.235529e+01 ;
+        ns3:longitude 4.914262e+00 ;
         :website "http://www.huisartsamsterdamoost.nl"^^xsd:string .
 
-    ns3:lhbtHuisarts_aan_de_Prinsengracht a :Instantie ;
+    ns1:lhbtHuisarts_aan_de_Prinsengracht a :Instantie ;
         rdfs:label "Huisarts aan de Prinsengracht"^^xsd:string ;
-        ns2:latitude "52.3615235365628"^^xsd:string ;
-        ns2:longitude "4.89704886910981"^^xsd:string ;
+        ns3:latitude 5.236152e+01 ;
+        ns3:longitude 4.897049e+00 ;
         :website "http://www.huisartsaandeprinsengracht.nl"^^xsd:string .
 
-    ns3:lhbtHuisartsen_Vrolikstraat a :Instantie ;
+    ns1:lhbtHuisartsen_Vrolikstraat a :Instantie ;
         rdfs:label "Huisartsen Vrolikstraat"^^xsd:string ;
-        ns2:latitude "52.3552899971377"^^xsd:string ;
-        ns2:longitude "4.91426234999649"^^xsd:string ;
+        ns3:latitude 5.235529e+01 ;
+        ns3:longitude 4.914262e+00 ;
         :website "http://www.huisartsenvrolikstraat.nl"^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Bos_en_Lommer a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer a :Instantie ;
         rdfs:label "Huisartsenpraktijk Bos en Lommer"^^xsd:string ;
-        ns2:latitude "52.377586482582"^^xsd:string ;
-        ns2:longitude "4.84589593848699"^^xsd:string ;
+        ns3:latitude 5.237759e+01 ;
+        ns3:longitude 4.845896e+00 ;
         :website "http://www.hpbl.nl"^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Buijs_en_Windhausen a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Buijs_en_Windhausen a :Instantie ;
         rdfs:label "Huisartsenpraktijk Buijs en Windhausen"^^xsd:string ;
-        ns2:latitude "52.3983259763612"^^xsd:string ;
-        ns2:longitude "4.93022995325319"^^xsd:string ;
+        ns3:latitude 5.239833e+01 ;
+        ns3:longitude 4.93023e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Grooff a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Grooff a :Instantie ;
         rdfs:label "Huisartsenpraktijk Grooff"^^xsd:string ;
-        ns2:latitude "52.3689829211309"^^xsd:string ;
-        ns2:longitude "4.91463034815041"^^xsd:string ;
+        ns3:latitude 5.236898e+01 ;
+        ns3:longitude 4.91463e+00 ;
         :website "http://www.huisartsgrooff.nl"^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij a :Instantie ;
         rdfs:label "Huisartsenpraktijk Heijnen en De Meij"^^xsd:string ;
-        ns2:latitude "52.3722807335474"^^xsd:string ;
-        ns2:longitude "4.8967831614502"^^xsd:string ;
+        ns3:latitude 5.237228e+01 ;
+        ns3:longitude 4.896783e+00 ;
         :website "https://heijnendemeij.zorgrotonde.net/"^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Jonker_en_Koetsier a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Jonker_en_Koetsier a :Instantie ;
         rdfs:label "Huisartsenpraktijk Jonker en Koetsier"^^xsd:string ;
-        ns2:latitude "52.3936400584394"^^xsd:string ;
-        ns2:longitude "4.9554494917273"^^xsd:string ;
+        ns3:latitude 5.239364e+01 ;
+        ns3:longitude 4.955449e+00 ;
         :website "http://www.jonkerkoetsier.nl"^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Oud a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Oud a :Instantie ;
         rdfs:label "Huisartsenpraktijk Oud"^^xsd:string ;
-        ns2:latitude "52.3460417358658"^^xsd:string ;
-        ns2:longitude "4.90021364940399"^^xsd:string ;
+        ns3:latitude 5.234604e+01 ;
+        ns3:longitude 4.900214e+00 ;
         :website "http://www.huisartsoud.com"^^xsd:string .
 
-    ns3:lhbtHuisartsenpraktijk_Rustenburgerstraat a :Instantie ;
+    ns1:lhbtHuisartsenpraktijk_Rustenburgerstraat a :Instantie ;
         rdfs:label "Huisartsenpraktijk Rustenburgerstraat"^^xsd:string ;
-        ns2:latitude "52.3528000954048"^^xsd:string ;
-        ns2:longitude "4.9001101393223"^^xsd:string ;
+        ns3:latitude 5.23528e+01 ;
+        ns3:longitude 4.90011e+00 ;
         :website "http://www.huisartsenrustenburg.nl"^^xsd:string .
 
-    ns3:lhbtHypnotherapiepraktijk_Wim_Kijne a :Instantie ;
+    ns1:lhbtHypnotherapiepraktijk_Wim_Kijne a :Instantie ;
         rdfs:label "Hypnotherapiepraktijk Wim Kijne"^^xsd:string ;
-        ns2:latitude "52.3678972812344"^^xsd:string,
-            "52.3826815525289"^^xsd:string ;
-        ns2:longitude "4.85360358674513"^^xsd:string,
-            "4.87198820939063"^^xsd:string ;
+        ns3:latitude 5.23679e+01,
+            5.238268e+01 ;
+        ns3:longitude 4.853604e+00,
+            4.871988e+00 ;
         :website "http://www.hemi-medi.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_Zingeving> a :Instantie ;
         rdfs:label "In Transit, Coaching & Zingeving"^^xsd:string ;
-        ns2:latitude "52.3463606953857"^^xsd:string ;
-        ns2:longitude "4.8434296611728"^^xsd:string ;
+        ns3:latitude 5.234636e+01 ;
+        ns3:longitude 4.84343e+00 ;
         :website "http://www.intransitcoaching.nl"^^xsd:string .
 
-    ns3:lhbtLA_Rieshuis a :Instantie ;
+    ns1:lhbtLA_Rieshuis a :Instantie ;
         rdfs:label "LA Rieshuis"^^xsd:string ;
-        ns2:latitude "52.3835979652873"^^xsd:string ;
-        ns2:longitude "4.88433471579719"^^xsd:string ;
+        ns3:latitude 5.23836e+01 ;
+        ns3:longitude 4.884335e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns3:lhbtMedisch_Centrum_Czaar_Peter a :Instantie ;
+    ns1:lhbtMedisch_Centrum_Czaar_Peter a :Instantie ;
         rdfs:label "Medisch Centrum Czaar Peter"^^xsd:string ;
-        ns2:latitude "52.3684477273567"^^xsd:string ;
-        ns2:longitude "4.92707256261962"^^xsd:string ;
+        ns3:latitude 5.236845e+01 ;
+        ns3:longitude 4.927073e+00 ;
         :website "http://www.medischcentrumczaarpeter.nl"^^xsd:string .
 
-    ns3:lhbtNederlandse_Stichting_Gestalt a :Instantie ;
+    ns1:lhbtNederlandse_Stichting_Gestalt a :Instantie ;
         rdfs:label "Nederlandse Stichting Gestalt"^^xsd:string ;
-        ns2:latitude "52.3759204762515"^^xsd:string ;
-        ns2:longitude "4.90107514133759"^^xsd:string ;
+        ns3:latitude 5.237592e+01 ;
+        ns3:longitude 4.901075e+00 ;
         :website "http://www.nsgestalt.nl"^^xsd:string .
 
-    ns3:lhbtPS_Praktijk_Seksuologie a :Instantie ;
+    ns1:lhbtPS_Praktijk_Seksuologie a :Instantie ;
         rdfs:label "PS Praktijk Seksuologie"^^xsd:string ;
-        ns2:latitude "52.3642868564831"^^xsd:string ;
-        ns2:longitude "4.87053260461939"^^xsd:string ;
+        ns3:latitude 5.236429e+01 ;
+        ns3:longitude 4.870533e+00 ;
         :website "http://www.seksuologen.nl"^^xsd:string .
 
-    ns3:lhbtPatiëntenorganisatie_Transvisie a :Instantie ;
+    ns1:lhbtPatiëntenorganisatie_Transvisie a :Instantie ;
         rdfs:label "Patiëntenorganisatie Transvisie"^^xsd:string ;
-        ns2:latitude "52.3595535507462"^^xsd:string ;
-        ns2:longitude "4.89664490710315"^^xsd:string ;
+        ns3:latitude 5.235955e+01 ;
+        ns3:longitude 4.896645e+00 ;
         :website "http://www.transvisie.nl"^^xsd:string .
 
-    ns3:lhbtPersoonsgerichte_coaching_en_advies_Marten_Bos a :Instantie ;
+    ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_Bos a :Instantie ;
         rdfs:label "Persoonsgerichte coaching en advies Marten Bos"^^xsd:string ;
-        ns2:latitude "52.3719536421817"^^xsd:string ;
-        ns2:longitude "4.94615497433767"^^xsd:string ;
+        ns3:latitude 5.237195e+01 ;
+        ns3:longitude 4.946155e+00 ;
         :website "http://www.martenbos.nl"^^xsd:string .
 
-    ns3:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling a :Instantie ;
+    ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling a :Instantie ;
         rdfs:label "Praktijk voor moderne hypnotheraptie en counseling"^^xsd:string ;
-        ns2:latitude "52.3769524467572"^^xsd:string ;
-        ns2:longitude "4.85273262134446"^^xsd:string ;
+        ns3:latitude 5.237695e+01 ;
+        ns3:longitude 4.852733e+00 ;
         :website "http://www.modernehypnotherapie.nl"^^xsd:string .
 
-    ns3:lhbtPraktijk_voor_psychotherapie_Borgerdijn a :Instantie ;
+    ns1:lhbtPraktijk_voor_psychotherapie_Borgerdijn a :Instantie ;
         rdfs:label "Praktijk voor psychotherapie Borgerdijn"^^xsd:string ;
-        ns2:latitude "52.3457348452527"^^xsd:string ;
-        ns2:longitude "4.81181142600341"^^xsd:string ;
+        ns3:latitude 5.234573e+01 ;
+        ns3:longitude 4.811811e+00 ;
         :website "http://www.nickborgerdijn.nl"^^xsd:string .
 
-    ns3:lhbtPraktijk_voor_therapie_en_coaching_Prisma a :Instantie ;
+    ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma a :Instantie ;
         rdfs:label "Praktijk voor therapie en coaching Prisma"^^xsd:string ;
-        ns2:latitude "52.3526753239009"^^xsd:string ;
-        ns2:longitude "4.86048135883526"^^xsd:string ;
+        ns3:latitude 5.235268e+01 ;
+        ns3:longitude 4.860481e+00 ;
         :website "http://www.prisma-praktijk.nl"^^xsd:string .
 
-    ns3:lhbtPsychiatrie-_en_psychotherapiepraktijk_Hettinga a :Instantie ;
+    ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_Hettinga a :Instantie ;
         rdfs:label "Psychiatrie- en psychotherapiepraktijk Hettinga"^^xsd:string ;
-        ns2:latitude "52.3639826820487"^^xsd:string ;
-        ns2:longitude "4.90055995720671"^^xsd:string ;
+        ns3:latitude 5.236398e+01 ;
+        ns3:longitude 4.90056e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychiatriepraktijk_Prins a :Instantie ;
+    ns1:lhbtPsychiatriepraktijk_Prins a :Instantie ;
         rdfs:label "Psychiatriepraktijk Prins"^^xsd:string ;
-        ns2:latitude "52.3609347825002"^^xsd:string ;
-        ns2:longitude "4.90912278001029"^^xsd:string ;
+        ns3:latitude 5.236093e+01 ;
+        ns3:longitude 4.909123e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychiatriepraktijk_Stortelder a :Instantie ;
+    ns1:lhbtPsychiatriepraktijk_Stortelder a :Instantie ;
         rdfs:label "Psychiatriepraktijk Stortelder"^^xsd:string ;
-        ns2:latitude "52.3639448862348"^^xsd:string ;
-        ns2:longitude "4.8936013189139"^^xsd:string ;
+        ns3:latitude 5.236394e+01 ;
+        ns3:longitude 4.893601e+00 ;
         :website "http://www.psychiaterstortelder.nl"^^xsd:string .
 
-    ns3:lhbtPsychiatriepraktijk_Van_Ham a :Instantie ;
+    ns1:lhbtPsychiatriepraktijk_Van_Ham a :Instantie ;
         rdfs:label "Psychiatriepraktijk Van Ham"^^xsd:string ;
-        ns2:latitude "52.3605729243724"^^xsd:string ;
-        ns2:longitude "4.90191859153269"^^xsd:string ;
+        ns3:latitude 5.236057e+01 ;
+        ns3:longitude 4.901919e+00 ;
         :website "http://www.pietheinvanham.nl"^^xsd:string .
 
-    ns3:lhbtPsychiatriepraktijk_Van_der_Plaats a :Instantie ;
+    ns1:lhbtPsychiatriepraktijk_Van_der_Plaats a :Instantie ;
         rdfs:label "Psychiatriepraktijk Van der Plaats"^^xsd:string ;
-        ns2:latitude "52.3536581508939"^^xsd:string ;
-        ns2:longitude "4.86729504562484"^^xsd:string ;
+        ns3:latitude 5.235366e+01 ;
+        ns3:longitude 4.867295e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychiatriepraktijk_Wasmann a :Instantie ;
+    ns1:lhbtPsychiatriepraktijk_Wasmann a :Instantie ;
         rdfs:label "Psychiatriepraktijk Wasmann"^^xsd:string ;
-        ns2:latitude "52.3529374132158"^^xsd:string ;
-        ns2:longitude "4.85677940700581"^^xsd:string ;
+        ns3:latitude 5.235294e+01 ;
+        ns3:longitude 4.856779e+00 ;
         :website "http://www.efjwasmann.nl"^^xsd:string .
 
-    ns3:lhbtPsychologenpraktijk_Brainfact a :Instantie ;
+    ns1:lhbtPsychologenpraktijk_Brainfact a :Instantie ;
         rdfs:label "Psychologenpraktijk Brainfact"^^xsd:string ;
-        ns2:latitude "52.3647818230466"^^xsd:string ;
-        ns2:longitude "4.90476487350719"^^xsd:string ;
+        ns3:latitude 5.236478e+01 ;
+        ns3:longitude 4.904765e+00 ;
         :website "http://www.brainfact.nl"^^xsd:string .
 
-    ns3:lhbtPsychologenpraktijk_Maasen a :Instantie ;
+    ns1:lhbtPsychologenpraktijk_Maasen a :Instantie ;
         rdfs:label "Psychologenpraktijk Maasen"^^xsd:string ;
-        ns2:latitude "52.3722518362472"^^xsd:string ;
-        ns2:longitude "4.88559404273658"^^xsd:string ;
+        ns3:latitude 5.237225e+01 ;
+        ns3:longitude 4.885594e+00 ;
         :website "http://www.homopsycholoog.nl"^^xsd:string .
 
-    ns3:lhbtPsychologenpraktijk_Staudenmayr a :Instantie ;
+    ns1:lhbtPsychologenpraktijk_Staudenmayr a :Instantie ;
         rdfs:label "Psychologenpraktijk Staudenmayr"^^xsd:string ;
-        ns2:latitude "52.3595577043237"^^xsd:string ;
-        ns2:longitude "4.92676838595457"^^xsd:string ;
+        ns3:latitude 5.235956e+01 ;
+        ns3:longitude 4.926768e+00 ;
         :website "http://www.centrumibt.nl"^^xsd:string .
 
-    ns3:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen a :Instantie ;
+    ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen a :Instantie ;
         rdfs:label "Psychologie- en psychotherapiepraktijk Kroonen"^^xsd:string ;
-        ns2:latitude "52.3634737306796"^^xsd:string ;
-        ns2:longitude "4.92609645036591"^^xsd:string ;
+        ns3:latitude 5.236347e+01 ;
+        ns3:longitude 4.926096e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong a :Instantie ;
+    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong a :Instantie ;
         rdfs:label "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
-        ns2:latitude "52.3570435554619"^^xsd:string,
-            "52.3772468566837"^^xsd:string ;
-        ns2:longitude "4.85250268730243"^^xsd:string,
-            "4.88721174869219"^^xsd:string ;
+        ns3:latitude 5.235704e+01,
+            5.237725e+01 ;
+        ns3:longitude 4.852503e+00,
+            4.887212e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychologiepraktijk_Van_Tilburg a :Instantie ;
+    ns1:lhbtPsychologiepraktijk_Van_Tilburg a :Instantie ;
         rdfs:label "Psychologiepraktijk Van Tilburg"^^xsd:string ;
-        ns2:latitude "52.3499968819164"^^xsd:string ;
-        ns2:longitude "4.8747938263093"^^xsd:string ;
+        ns3:latitude 5.235e+01 ;
+        ns3:longitude 4.874794e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Baanbrekend a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Baanbrekend a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Baanbrekend"^^xsd:string ;
-        ns2:latitude "52.3537886334998"^^xsd:string ;
-        ns2:longitude "4.94112475624311"^^xsd:string ;
+        ns3:latitude 5.235379e+01 ;
+        ns3:longitude 4.941125e+00 ;
         :website "http://bresserborsjevanderbaan.nl"^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Boers-Stoll a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Boers-Stoll a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Boers-Stoll"^^xsd:string ;
-        ns2:latitude "52.3543984813029"^^xsd:string ;
-        ns2:longitude "4.83624148817536"^^xsd:string ;
+        ns3:latitude 5.23544e+01 ;
+        ns3:longitude 4.836241e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Fels a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Fels a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Fels"^^xsd:string ;
-        ns2:latitude "52.3853658097278"^^xsd:string ;
-        ns2:longitude "4.88310884529111"^^xsd:string ;
+        ns3:latitude 5.238537e+01 ;
+        ns3:longitude 4.883109e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Kerkstraat a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Kerkstraat a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Kerkstraat"^^xsd:string ;
-        ns2:latitude "52.3626469770023"^^xsd:string ;
-        ns2:longitude "4.89482057865867"^^xsd:string ;
+        ns3:latitude 5.236265e+01 ;
+        ns3:longitude 4.894821e+00 ;
         :website ""^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Leo_Goetstouwers a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Leo_Goetstouwers a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Leo Goetstouwers"^^xsd:string ;
-        ns2:latitude "52.3979025678126"^^xsd:string ;
-        ns2:longitude "4.94176813559006"^^xsd:string ;
+        ns3:latitude 5.23979e+01 ;
+        ns3:longitude 4.941768e+00 ;
         :website "http://www.therapieamsterdam.com"^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Living-History a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Living-History a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Living-History"^^xsd:string ;
-        ns2:latitude "52.3768228151066"^^xsd:string ;
-        ns2:longitude "4.87009285330376"^^xsd:string ;
+        ns3:latitude 5.237682e+01 ;
+        ns3:longitude 4.870093e+00 ;
         :website "http://www.living-history.nl"^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Marcel_Holtslag a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Marcel_Holtslag a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Marcel Holtslag"^^xsd:string ;
-        ns2:latitude "52.3770797285167"^^xsd:string ;
-        ns2:longitude "4.91887641126339"^^xsd:string ;
+        ns3:latitude 5.237708e+01 ;
+        ns3:longitude 4.918876e+00 ;
         :website "http://www.marcelholtslag.nl"^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Peter_Dekker a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Peter_Dekker a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Peter Dekker"^^xsd:string ;
-        ns2:latitude "52.3690017325653"^^xsd:string ;
-        ns2:longitude "4.88640900471472"^^xsd:string ;
+        ns3:latitude 5.2369e+01 ;
+        ns3:longitude 4.886409e+00 ;
         :website "http://peterdekkerpsychotherapeut.nl"^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_Sinteze a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Sinteze a :Instantie ;
         rdfs:label "Psychotherapiepraktijk Sinteze"^^xsd:string ;
-        ns2:latitude "52.367638134004"^^xsd:string ;
-        ns2:longitude "4.92920995675088"^^xsd:string ;
+        ns3:latitude 5.236764e+01 ;
+        ns3:longitude 4.92921e+00 ;
         :website "https://www.sinteze.nl"^^xsd:string .
 
-    ns3:lhbtPsychotherapiepraktijk_ter_Haar a :Instantie ;
+    ns1:lhbtPsychotherapiepraktijk_ter_Haar a :Instantie ;
         rdfs:label "Psychotherapiepraktijk ter Haar"^^xsd:string ;
-        ns2:latitude "52.3704355990682"^^xsd:string ;
-        ns2:longitude "4.89614279431077"^^xsd:string ;
+        ns3:latitude 5.237044e+01 ;
+        ns3:longitude 4.896143e+00 ;
         :website "http://arnoutterhaar.praktijkinfo.nl"^^xsd:string .
 
-    ns3:lhbtPuntP_volwassenen a :Instantie ;
+    ns1:lhbtPuntP_volwassenen a :Instantie ;
         rdfs:label "PuntP volwassenen"^^xsd:string ;
-        ns2:latitude "52.3620209535306"^^xsd:string,
-            "52.404546992831"^^xsd:string ;
-        ns2:longitude "4.89473619464938"^^xsd:string,
-            "4.91101959357631"^^xsd:string ;
+        ns3:latitude 5.236202e+01,
+            5.240455e+01 ;
+        ns3:longitude 4.894736e+00,
+            4.91102e+00 ;
         :website "http://www.puntp.nl"^^xsd:string .
 
-    ns3:lhbtPychotherapiepraktijk_Jordaan a :Instantie ;
+    ns1:lhbtPychotherapiepraktijk_Jordaan a :Instantie ;
         rdfs:label "Pychotherapiepraktijk Jordaan"^^xsd:string ;
-        ns2:latitude "52.3762814418009"^^xsd:string,
-            "52.3776995728738"^^xsd:string ;
-        ns2:longitude "4.88209734278334"^^xsd:string,
-            "4.8837554085287"^^xsd:string ;
+        ns3:latitude 5.237628e+01,
+            5.23777e+01 ;
+        ns3:longitude 4.882097e+00,
+            4.883755e+00 ;
         :website "http://www.praktijkjordaan.nl"^^xsd:string .
 
-    ns3:lhbtRichting_in_Relaties a :Instantie ;
+    ns1:lhbtRichting_in_Relaties a :Instantie ;
         rdfs:label "Richting in Relaties"^^xsd:string ;
-        ns2:latitude "52.3566498168972"^^xsd:string ;
-        ns2:longitude "4.89431366541414"^^xsd:string ;
+        ns3:latitude 5.235665e+01 ;
+        ns3:longitude 4.894314e+00 ;
         :website "http://www.ploegcoaching.nl"^^xsd:string .
 
-    ns3:lhbtStichting_Secret_Garden a :Instantie ;
+    ns1:lhbtStichting_Secret_Garden a :Instantie ;
         rdfs:label "Stichting Secret Garden"^^xsd:string ;
-        ns2:latitude "52.3661008635734"^^xsd:string ;
-        ns2:longitude "4.90423665123218"^^xsd:string ;
+        ns3:latitude 5.23661e+01 ;
+        ns3:longitude 4.904237e+00 ;
         :website "http://www.stichtingsecretgarden.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_Explorations> a :Instantie ;
         rdfs:label "Talk, Touch and Body Explorations"^^xsd:string ;
-        ns2:latitude "52.3532052079227"^^xsd:string ;
-        ns2:longitude "4.85436900892146"^^xsd:string ;
+        ns3:latitude 5.235321e+01 ;
+        ns3:longitude 4.854369e+00 ;
         :website "http://volkermoritznl.wordpress.com"^^xsd:string .
 
-    ns3:lhbtTransgenders_Amsterdam a :Instantie ;
+    ns1:lhbtTransgenders_Amsterdam a :Instantie ;
         rdfs:label "Transgenders Amsterdam"^^xsd:string ;
-        ns2:latitude "52.3778889153558"^^xsd:string ;
-        ns2:longitude "4.87968518771488"^^xsd:string ;
+        ns3:latitude 5.237789e+01 ;
+        ns3:longitude 4.879685e+00 ;
         :website "http://transgendersamsterdam.nl"^^xsd:string .
 
-    ns3:lhbtTransvisie_Zorg a :Instantie ;
+    ns1:lhbtTransvisie_Zorg a :Instantie ;
         rdfs:label "Transvisie Zorg"^^xsd:string ;
-        ns2:latitude "52.3607761200273"^^xsd:string ;
-        ns2:longitude "4.90767112130932"^^xsd:string ;
+        ns3:latitude 5.236078e+01 ;
+        ns3:longitude 4.907671e+00 ;
         :website "http://www.transvisiezorg.nl"^^xsd:string .
 
-    ns3:lhbtVeilige_Haven a :Instantie ;
+    ns1:lhbtVeilige_Haven a :Instantie ;
         rdfs:label "Veilige Haven"^^xsd:string ;
-        ns2:latitude "52.3707346695872"^^xsd:string ;
-        ns2:longitude "4.89891472055574"^^xsd:string ;
+        ns3:latitude 5.237073e+01 ;
+        ns3:longitude 4.898915e+00 ;
         :website "http://www.veiligehavenamsterdam.nl"^^xsd:string .
 
-    ns3:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving a :Instantie ;
+    ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving a :Instantie ;
         rdfs:label "Wilfried Sluys Relatie- en Gestalttherapie Amsterdam en omgeving"^^xsd:string ;
-        ns2:latitude "52.5035425746909"^^xsd:string ;
-        ns2:longitude "4.96007296592279"^^xsd:string ;
+        ns3:latitude 5.250354e+01 ;
+        ns3:longitude 4.960073e+00 ;
         :website "http://www.ws-gestalttherapie.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannen> a :Instantie ;
         rdfs:label "Zóciëteit, vereniging voor homomannen"^^xsd:string ;
-        ns2:latitude "52.3563334410551"^^xsd:string ;
-        ns2:longitude "4.84458454261457"^^xsd:string ;
+        ns3:latitude 5.235633e+01 ;
+        ns3:longitude 4.844585e+00 ;
         :website "http://www.zocieteit.nl"^^xsd:string .
 
     : a owl:Ontology .

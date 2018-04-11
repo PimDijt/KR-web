@@ -2,9 +2,9 @@
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/verz> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix ns2: <urn:x-rdflib:> .
-@prefix ns3: <http://dbpedia.org/property/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://dbpedia.org/property/> .
+@prefix ns3: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -14,304 +14,304 @@
 {
     <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuis> a :Instantie ;
         rdfs:label "Beth Shalom, Joods zorgcentrum en verpleeghuis"^^xsd:string ;
-        ns3:latitude "52.3262060145577"^^xsd:string ;
-        ns3:longitude "4.88100928944689"^^xsd:string ;
+        ns2:latitude 5.232621e+01 ;
+        ns2:longitude 4.881009e+00 ;
         :website "http://www.bethshalom.nl"^^xsd:string .
 
-    ns1:verzCentrum_van_ouderen_Flesseman a :Instantie ;
+    ns3:verzCentrum_van_ouderen_Flesseman a :Instantie ;
         rdfs:label "Centrum van ouderen Flesseman"^^xsd:string ;
-        ns3:latitude "52.3720091926606"^^xsd:string ;
-        ns3:longitude "4.90067748047184"^^xsd:string ;
+        ns2:latitude 5.237201e+01 ;
+        ns2:longitude 4.900677e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzCentrum_voor_verpleeghuiszorg_De_Poort a :Instantie ;
+    ns3:verzCentrum_voor_verpleeghuiszorg_De_Poort a :Instantie ;
         rdfs:label "Centrum voor verpleeghuiszorg De Poort"^^xsd:string ;
-        ns3:latitude "52.3725185912838"^^xsd:string ;
-        ns3:longitude "4.87236037950261"^^xsd:string ;
+        ns2:latitude 5.237252e+01 ;
+        ns2:longitude 4.87236e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzDe_Goodwillburgh a :Instantie ;
+    ns3:verzDe_Goodwillburgh a :Instantie ;
         rdfs:label "De Goodwillburgh"^^xsd:string ;
-        ns3:latitude "52.3694369076746"^^xsd:string ;
-        ns3:longitude "4.909060522152"^^xsd:string ;
+        ns2:latitude 5.236944e+01 ;
+        ns2:longitude 4.909061e+00 ;
         :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string .
 
-    ns1:verzDe_Hudsonhof a :Instantie ;
+    ns3:verzDe_Hudsonhof a :Instantie ;
         rdfs:label "De Hudsonhof"^^xsd:string ;
-        ns3:latitude "52.3697863641605"^^xsd:string ;
-        ns3:longitude "4.85209947315776"^^xsd:string ;
+        ns2:latitude 5.236979e+01 ;
+        ns2:longitude 4.852099e+00 ;
         :website "http://hudsonhof.nl"^^xsd:string .
 
-    ns1:verzEvean_De_Kimme a :Instantie ;
+    ns3:verzEvean_De_Kimme a :Instantie ;
         rdfs:label "Evean De Kimme"^^xsd:string ;
-        ns3:latitude "52.3963104712899"^^xsd:string ;
-        ns3:longitude "4.95108431187849"^^xsd:string ;
+        ns2:latitude 5.239631e+01 ;
+        ns2:longitude 4.951084e+00 ;
         :website "http://www.evean.nl"^^xsd:string .
 
-    ns1:verzEvean_Eduard_Douwes_Dekker a :Instantie ;
+    ns3:verzEvean_Eduard_Douwes_Dekker a :Instantie ;
         rdfs:label "Evean Eduard Douwes Dekker"^^xsd:string ;
-        ns3:latitude "52.404645096468"^^xsd:string ;
-        ns3:longitude "4.90769611986109"^^xsd:string ;
+        ns2:latitude 5.240465e+01 ;
+        ns2:longitude 4.907696e+00 ;
         :website "http://www.evean.nl"^^xsd:string .
 
-    ns1:verzEvean_Henriëtte_Roland_Holst a :Instantie ;
+    ns3:verzEvean_Henriëtte_Roland_Holst a :Instantie ;
         rdfs:label "Evean Henriëtte Roland Holst"^^xsd:string ;
-        ns3:latitude "52.31428419715"^^xsd:string ;
-        ns3:longitude "4.96978099676363"^^xsd:string ;
+        ns2:latitude 5.231428e+01 ;
+        ns2:longitude 4.969781e+00 ;
         :website "http://www.evean.nl"^^xsd:string .
 
-    ns1:verzEvean_Korthagenhuis a :Instantie ;
+    ns3:verzEvean_Korthagenhuis a :Instantie ;
         rdfs:label "Evean Korthagenhuis"^^xsd:string ;
-        ns3:latitude "52.4048428761997"^^xsd:string ;
-        ns3:longitude "4.93987619079198"^^xsd:string ;
+        ns2:latitude 5.240484e+01 ;
+        ns2:longitude 4.939876e+00 ;
         :website "http://www.evean.nl"^^xsd:string .
 
-    ns1:verzEvean_Twiskehuis a :Instantie ;
+    ns3:verzEvean_Twiskehuis a :Instantie ;
         rdfs:label "Evean Twiskehuis"^^xsd:string ;
-        ns3:latitude "52.4160894934834"^^xsd:string ;
-        ns3:longitude "4.88037940833226"^^xsd:string ;
+        ns2:latitude 5.241609e+01 ;
+        ns2:longitude 4.880379e+00 ;
         :website "http://www.evean.nl"^^xsd:string .
 
-    ns1:verzHet_Flevohuis a :Instantie ;
+    ns3:verzHet_Flevohuis a :Instantie ;
         rdfs:label "Het Flevohuis"^^xsd:string ;
-        ns3:latitude "52.3655533336182"^^xsd:string ;
-        ns3:longitude "4.94586623079635"^^xsd:string ;
+        ns2:latitude 5.236555e+01 ;
+        ns2:longitude 4.945866e+00 ;
         :website "http://www.zgao.nl"^^xsd:string .
 
-    ns1:verzHuize_Plantage a :Instantie ;
+    ns3:verzHuize_Plantage a :Instantie ;
         rdfs:label "Huize Plantage"^^xsd:string ;
-        ns3:latitude "52.3678551439604"^^xsd:string ;
-        ns3:longitude "4.91130936019787"^^xsd:string ;
+        ns2:latitude 5.236786e+01 ;
+        ns2:longitude 4.911309e+00 ;
         :website "http://huizeplantage.nl"^^xsd:string .
 
-    ns1:verzLA_Rieshuis a :Instantie ;
+    ns3:verzLA_Rieshuis a :Instantie ;
         rdfs:label "LA Rieshuis"^^xsd:string ;
-        ns3:latitude "52.3835979652873"^^xsd:string ;
-        ns3:longitude "4.88433471579719"^^xsd:string ;
+        ns2:latitude 5.23836e+01 ;
+        ns2:longitude 4.884335e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzLutherhof a :Instantie ;
+    ns3:verzLutherhof a :Instantie ;
         rdfs:label "Lutherhof"^^xsd:string ;
-        ns3:latitude "52.3607955999308"^^xsd:string ;
-        ns3:longitude "4.8634954794259"^^xsd:string ;
+        ns2:latitude 5.23608e+01 ;
+        ns2:longitude 4.863495e+00 ;
         :website "http://www.lutherhof.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie> a :Instantie ;
         rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
-        ns3:latitude "52.3603790314609"^^xsd:string,
-            "52.3707400053483"^^xsd:string ;
-        ns3:longitude "4.84440831816034"^^xsd:string,
-            "4.86684928835166"^^xsd:string ;
+        ns2:latitude 5.236038e+01,
+            5.237074e+01 ;
+        ns2:longitude 4.844408e+00,
+            4.866849e+00 ;
         :website "http://www.reade.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_De_Die a :Instantie ;
+    ns3:verzVerpleeghuis_De_Die a :Instantie ;
         rdfs:label "Verpleeghuis De Die"^^xsd:string ;
-        ns3:latitude "52.3989171074832"^^xsd:string ;
-        ns3:longitude "4.93203111019125"^^xsd:string ;
+        ns2:latitude 5.239892e+01 ;
+        ns2:longitude 4.932031e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_De_Open_Hof a :Instantie ;
+    ns3:verzVerpleeghuis_De_Open_Hof a :Instantie ;
         rdfs:label "Verpleeghuis De Open Hof"^^xsd:string ;
-        ns3:latitude "52.3455550497961"^^xsd:string ;
-        ns3:longitude "4.92682557250361"^^xsd:string ;
+        ns2:latitude 5.234556e+01 ;
+        ns2:longitude 4.926826e+00 ;
         :website "http://www.zgao.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_Dr._Sarphatihuis a :Instantie ;
+    ns3:verzVerpleeghuis_Dr._Sarphatihuis a :Instantie ;
         rdfs:label "Verpleeghuis Dr. Sarphatihuis"^^xsd:string ;
-        ns3:latitude "52.3646974046891"^^xsd:string ;
-        ns3:longitude "4.9105504148047"^^xsd:string ;
+        ns2:latitude 5.23647e+01 ;
+        ns2:longitude 4.91055e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_Gaasperdam a :Instantie ;
+    ns3:verzVerpleeghuis_Gaasperdam a :Instantie ;
         rdfs:label "Verpleeghuis Gaasperdam"^^xsd:string ;
-        ns3:latitude "52.2954871199986"^^xsd:string ;
-        ns3:longitude "4.97904597848879"^^xsd:string ;
+        ns2:latitude 5.229549e+01 ;
+        ns2:longitude 4.979046e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_Jan_Bongastraat a :Instantie ;
+    ns3:verzVerpleeghuis_Jan_Bongastraat a :Instantie ;
         rdfs:label "Verpleeghuis Jan Bongastraat"^^xsd:string ;
-        ns3:latitude "52.3799391732458"^^xsd:string ;
-        ns3:longitude "4.80381857640939"^^xsd:string ;
+        ns2:latitude 5.237994e+01 ;
+        ns2:longitude 4.803819e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_Oostpoort a :Instantie ;
+    ns3:verzVerpleeghuis_Oostpoort a :Instantie ;
         rdfs:label "Verpleeghuis Oostpoort"^^xsd:string ;
-        ns3:latitude "52.3581478585392"^^xsd:string ;
-        ns3:longitude "4.93226710611238"^^xsd:string ;
+        ns2:latitude 5.235815e+01 ;
+        ns2:longitude 4.932267e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzVerpleeghuis_Slotervaart a :Instantie ;
+    ns3:verzVerpleeghuis_Slotervaart a :Instantie ;
         rdfs:label "Verpleeghuis Slotervaart"^^xsd:string ;
-        ns3:latitude "52.347391770001"^^xsd:string ;
-        ns3:longitude "4.82367762993562"^^xsd:string ;
+        ns2:latitude 5.234739e+01 ;
+        ns2:longitude 4.823678e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzVerzorgingshuis_Emmahof a :Instantie ;
+    ns3:verzVerzorgingshuis_Emmahof a :Instantie ;
         rdfs:label "Verzorgingshuis Emmahof"^^xsd:string ;
-        ns3:latitude "52.3530066528232"^^xsd:string ;
-        ns3:longitude "4.87039972599071"^^xsd:string ;
+        ns2:latitude 5.235301e+01 ;
+        ns2:longitude 4.8704e+00 ;
         :website "http://www.pro-senectute.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_Zorgcentrum_De_Riekerhof a :Instantie ;
+    ns3:verzWoon-_en_Zorgcentrum_De_Riekerhof a :Instantie ;
         rdfs:label "Woon- en Zorgcentrum De Riekerhof"^^xsd:string ;
-        ns3:latitude "52.3591534857157"^^xsd:string ;
-        ns3:longitude "4.84021945296963"^^xsd:string ;
+        ns2:latitude 5.235915e+01 ;
+        ns2:longitude 4.840219e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_Zorgcentrum_Torendael a :Instantie ;
+    ns3:verzWoon-_en_Zorgcentrum_Torendael a :Instantie ;
         rdfs:label "Woon- en Zorgcentrum Torendael"^^xsd:string ;
-        ns3:latitude "52.33847156492"^^xsd:string ;
-        ns3:longitude "4.89743542221235"^^xsd:string ;
+        ns2:latitude 5.233847e+01 ;
+        ns2:longitude 4.897435e+00 ;
         :website "http://www.puurzuid.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_zorgcentrum_De_Den a :Instantie ;
+    ns3:verzWoon-_en_zorgcentrum_De_Den a :Instantie ;
         rdfs:label "Woon- en zorgcentrum De Den"^^xsd:string ;
-        ns3:latitude "52.3822507562623"^^xsd:string ;
-        ns3:longitude "4.80417004427809"^^xsd:string ;
+        ns2:latitude 5.238225e+01 ;
+        ns2:longitude 4.80417e+00 ;
         :website "http://www.puurzuid.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_zorgcentrum_De_Schutse a :Instantie ;
+    ns3:verzWoon-_en_zorgcentrum_De_Schutse a :Instantie ;
         rdfs:label "Woon- en zorgcentrum De Schutse"^^xsd:string ;
-        ns3:latitude "52.3594481743426"^^xsd:string ;
-        ns3:longitude "4.8225849901937"^^xsd:string ;
+        ns2:latitude 5.235945e+01 ;
+        ns2:longitude 4.822585e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_zorgcentrum_De_Werf a :Instantie ;
+    ns3:verzWoon-_en_zorgcentrum_De_Werf a :Instantie ;
         rdfs:label "Woon- en zorgcentrum De Werf"^^xsd:string ;
-        ns3:latitude "52.3724663455495"^^xsd:string ;
-        ns3:longitude "4.86846433520237"^^xsd:string ;
+        ns2:latitude 5.237247e+01 ;
+        ns2:longitude 4.868464e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_zorgcentrum_Nellestein a :Instantie ;
+    ns3:verzWoon-_en_zorgcentrum_Nellestein a :Instantie ;
         rdfs:label "Woon- en zorgcentrum Nellestein"^^xsd:string ;
-        ns3:latitude "52.3094556713152"^^xsd:string ;
-        ns3:longitude "4.98473909271888"^^xsd:string ;
+        ns2:latitude 5.230946e+01 ;
+        ns2:longitude 4.984739e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzWoon-_en_zorgcentrum_Vondelstede a :Instantie ;
+    ns3:verzWoon-_en_zorgcentrum_Vondelstede a :Instantie ;
         rdfs:label "Woon- en zorgcentrum Vondelstede"^^xsd:string ;
-        ns3:latitude "52.3603556944123"^^xsd:string ;
-        ns3:longitude "4.8697269177889"^^xsd:string ;
+        ns2:latitude 5.236036e+01 ;
+        ns2:longitude 4.869727e+00 ;
         :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:verzWoonvoorziening_Anton_de_Komplein a :Instantie ;
+    ns3:verzWoonvoorziening_Anton_de_Komplein a :Instantie ;
         rdfs:label "Woonvoorziening Anton de Komplein"^^xsd:string ;
-        ns3:latitude "52.3164793538397"^^xsd:string ;
-        ns3:longitude "4.95782241820682"^^xsd:string ;
+        ns2:latitude 5.231648e+01 ;
+        ns2:longitude 4.957822e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorg-_en_dienstencentrum_Menno_Simons a :Instantie ;
+    ns3:verzWoonzorg-_en_dienstencentrum_Menno_Simons a :Instantie ;
         rdfs:label "Woonzorg- en dienstencentrum Menno Simons"^^xsd:string ;
-        ns3:latitude "52.3267992005325"^^xsd:string ;
-        ns3:longitude "4.86650927552825"^^xsd:string ;
+        ns2:latitude 5.23268e+01 ;
+        ns2:longitude 4.866509e+00 ;
         :website "http://www.zhga.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Buitenveldert a :Instantie ;
+    ns3:verzWoonzorgcentrum_Buitenveldert a :Instantie ;
         rdfs:label "Woonzorgcentrum Buitenveldert"^^xsd:string ;
-        ns3:latitude "52.3228937032814"^^xsd:string ;
-        ns3:longitude "4.86136258208855"^^xsd:string ;
+        ns2:latitude 5.232289e+01 ;
+        ns2:longitude 4.861363e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Boeg a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Boeg a :Instantie ;
         rdfs:label "Woonzorgcentrum De Boeg"^^xsd:string ;
-        ns3:latitude "52.3761518131106"^^xsd:string ;
-        ns3:longitude "4.84663304536301"^^xsd:string ;
+        ns2:latitude 5.237615e+01 ;
+        ns2:longitude 4.846633e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Bogt-Westerbeer a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Bogt-Westerbeer a :Instantie ;
         rdfs:label "Woonzorgcentrum De Bogt-Westerbeer"^^xsd:string ;
-        ns3:latitude "52.3890098434285"^^xsd:string ;
-        ns3:longitude "4.87832393773277"^^xsd:string ;
+        ns2:latitude 5.238901e+01 ;
+        ns2:longitude 4.878324e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Buitenhof a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Buitenhof a :Instantie ;
         rdfs:label "Woonzorgcentrum De Buitenhof"^^xsd:string ;
-        ns3:latitude "52.326667940013"^^xsd:string ;
-        ns3:longitude "4.88819194823304"^^xsd:string ;
+        ns2:latitude 5.232667e+01 ;
+        ns2:longitude 4.888192e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Drie_Hoven a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Drie_Hoven a :Instantie ;
         rdfs:label "Woonzorgcentrum De Drie Hoven"^^xsd:string ;
-        ns3:latitude "52.3550437285358"^^xsd:string ;
-        ns3:longitude "4.82249424241385"^^xsd:string ;
+        ns2:latitude 5.235504e+01 ;
+        ns2:longitude 4.822494e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Gooyer a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Gooyer a :Instantie ;
         rdfs:label "Woonzorgcentrum De Gooyer"^^xsd:string ;
-        ns3:latitude "52.3643217971066"^^xsd:string ;
-        ns3:longitude "4.9269244904145"^^xsd:string ;
+        ns2:latitude 5.236432e+01 ;
+        ns2:longitude 4.926924e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Klinker a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Klinker a :Instantie ;
         rdfs:label "Woonzorgcentrum De Klinker"^^xsd:string ;
-        ns3:latitude "52.3653173031291"^^xsd:string ;
-        ns3:longitude "4.86776038302481"^^xsd:string ;
+        ns2:latitude 5.236532e+01 ;
+        ns2:longitude 4.86776e+00 ;
         :website "https://www.amstelring.nl/"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Rietvinck a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Rietvinck a :Instantie ;
         rdfs:label "Woonzorgcentrum De Rietvinck"^^xsd:string ;
-        ns3:latitude "52.3838833736781"^^xsd:string ;
-        ns3:longitude "4.88381739336356"^^xsd:string ;
+        ns2:latitude 5.238388e+01 ;
+        ns2:longitude 4.883817e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_De_Venser a :Instantie ;
+    ns3:verzWoonzorgcentrum_De_Venser a :Instantie ;
         rdfs:label "Woonzorgcentrum De Venser"^^xsd:string ;
-        ns3:latitude "52.3177960271194"^^xsd:string ;
-        ns3:longitude "4.9468100149231"^^xsd:string ;
+        ns2:latitude 5.23178e+01 ;
+        ns2:longitude 4.94681e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Eben_Haëzer a :Instantie ;
+    ns3:verzWoonzorgcentrum_Eben_Haëzer a :Instantie ;
         rdfs:label "Woonzorgcentrum Eben Haëzer"^^xsd:string ;
-        ns3:latitude "52.2976042896873"^^xsd:string ;
-        ns3:longitude "4.9857699344172"^^xsd:string ;
+        ns2:latitude 5.22976e+01 ;
+        ns2:longitude 4.98577e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Het_Schouw a :Instantie ;
+    ns3:verzWoonzorgcentrum_Het_Schouw a :Instantie ;
         rdfs:label "Woonzorgcentrum Het Schouw"^^xsd:string ;
-        ns3:latitude "52.3980589390245"^^xsd:string ;
-        ns3:longitude "4.94272159662606"^^xsd:string ;
+        ns2:latitude 5.239806e+01 ;
+        ns2:longitude 4.942722e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Kastanjehof a :Instantie ;
+    ns3:verzWoonzorgcentrum_Kastanjehof a :Instantie ;
         rdfs:label "Woonzorgcentrum Kastanjehof"^^xsd:string ;
-        ns3:latitude "52.3585816703604"^^xsd:string ;
-        ns3:longitude "4.92309389704501"^^xsd:string ;
+        ns2:latitude 5.235858e+01 ;
+        ns2:longitude 4.923094e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Leo_Polakhuis a :Instantie ;
+    ns3:verzWoonzorgcentrum_Leo_Polakhuis a :Instantie ;
         rdfs:label "Woonzorgcentrum Leo Polakhuis"^^xsd:string ;
-        ns3:latitude "52.3628699892704"^^xsd:string ;
-        ns3:longitude "4.78912683768205"^^xsd:string ;
+        ns2:latitude 5.236287e+01 ;
+        ns2:longitude 4.789127e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Nieuw_Geuzenveld a :Instantie ;
+    ns3:verzWoonzorgcentrum_Nieuw_Geuzenveld a :Instantie ;
         rdfs:label "Woonzorgcentrum Nieuw Geuzenveld"^^xsd:string ;
-        ns3:latitude "52.382112877155"^^xsd:string ;
-        ns3:longitude "4.79629926880019"^^xsd:string ;
+        ns2:latitude 5.238211e+01 ;
+        ns2:longitude 4.796299e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Nieuw_Vredenburgh a :Instantie ;
+    ns3:verzWoonzorgcentrum_Nieuw_Vredenburgh a :Instantie ;
         rdfs:label "Woonzorgcentrum Nieuw Vredenburgh"^^xsd:string ;
-        ns3:latitude "52.3638326179335"^^xsd:string ;
-        ns3:longitude "4.85124634432981"^^xsd:string ;
+        ns2:latitude 5.236383e+01 ;
+        ns2:longitude 4.851246e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Vreugdehof a :Instantie ;
+    ns3:verzWoonzorgcentrum_Vreugdehof a :Instantie ;
         rdfs:label "Woonzorgcentrum Vreugdehof"^^xsd:string ;
-        ns3:latitude "52.3338595297254"^^xsd:string ;
-        ns3:longitude "4.88426717632913"^^xsd:string ;
+        ns2:latitude 5.233386e+01 ;
+        ns2:longitude 4.884267e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:verzWoonzorgcentrum_Willem_Dreeshuis a :Instantie ;
+    ns3:verzWoonzorgcentrum_Willem_Dreeshuis a :Instantie ;
         rdfs:label "Woonzorgcentrum Willem Dreeshuis"^^xsd:string ;
-        ns3:latitude "52.3488957692553"^^xsd:string ;
-        ns3:longitude "4.9331018352181"^^xsd:string ;
+        ns2:latitude 5.23489e+01 ;
+        ns2:longitude 4.933102e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_Raai> a :Instantie ;
         rdfs:label "Zorgcentrum d' Oude Raai"^^xsd:string ;
-        ns3:latitude "52.3493228577459"^^xsd:string ;
-        ns3:longitude "4.89169451363604"^^xsd:string ;
+        ns2:latitude 5.234932e+01 ;
+        ns2:longitude 4.891695e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
     : a owl:Ontology .

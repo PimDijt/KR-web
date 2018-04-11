@@ -11,10 +11,10 @@ from iribaker import to_iri
 dbp = 'http://dbpedia.org/property/'
 DBP = Namespace(dbp)
 
-filenames = ["data/lhbt-hulpverlening.csv", "data/dak-en-thuislozenzorg.csv", "data/verpleeg-en-verzorgingshuizen.csv"]
-short = ["lhbt", "dakth", "verz"]
+filenames = ["lhbt-hulpverlening.csv", "dak-en-thuislozenzorg.csv", "verpleeg-en-verzorgingshuizen.csv","zorg-voor-mensen-met-een-beperking.csv"]
+short = ["lhbt", "dakth", "verz","zorbep"]
 for i in range(len(filenames)):
-    filename = filenames[i];
+    filename = 'data/'+filenames[i];
     with open(filename,'r', encoding="ISO-8859-1") as csvfile:
         # Set the right quote character and delimiter
         csv_contents = [{k: v for k, v in row.items()}
@@ -56,8 +56,8 @@ for i in range(len(filenames)):
         lng = points[0][1:]
 
         name = Literal(row['titel'], datatype=XSD['string'])
-        lat = Literal(lat, datatype=XSD['string'])#moet float worden
-        lng = Literal(lng, datatype=XSD['string'])
+        lat = Literal(lat, datatype=XSD['double'])
+        lng = Literal(lng, datatype=XSD['double'])
         website = Literal(row['internet'], datatype=XSD['string'])
 
         #if "huisarts" in row.title:
@@ -70,8 +70,18 @@ for i in range(len(filenames)):
         dataset.add((thing, DBP['longitude'], lng))
         dataset.add((thing, VOCAB['website'], website))
         dataset.add((thing, RDF['type'], VOCAB['Instantie']))
+        if short[i] == "zorbep":
+            for substr in ["Woonlocatie", "Woonvoorziening", "Kleinschalig wonen"]:
+                if substr in row['titel']:
+                    dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['night']))
+                    dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
+            for substr in ["Stichting", "agcentrum", "ctiviteitencentrum"]:
+                if substr in row['titel']:
+                    dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
+            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['specialNeedCare']))
         if short[i] == "dakth":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
+            
 
     with open('outputTTL/'+short[i]+'-rdf.trig','wb') as f:
         dataset.serialize(f, format='trig')
