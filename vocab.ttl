@@ -255,6 +255,10 @@ _:genid3 a owl:Restriction ;
 
 :adults a owl:NamedIndividual , :ageGroups .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/childDevelopment
+
+:childDevelopment a owl:NamedIndividual , :knowledgeDomain .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/children
 
 :children a owl:NamedIndividual , :ageGroups .
