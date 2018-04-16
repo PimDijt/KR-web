@@ -2,9 +2,9 @@
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/dakth> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix ns2: <urn:x-rdflib:> .
-@prefix ns3: <http://dbpedia.org/property/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://dbpedia.org/property/> .
+@prefix ns3: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,14 +12,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns1:dakth50_50_Workcenter a :Instantie ;
+    ns3:dakth50_50_Workcenter a :instantie ;
         rdfs:label "50|50 Workcenter"^^xsd:string ;
-        ns3:latitude 5.23153e+01,
+        ns2:latitude 5.23153e+01,
             5.234134e+01,
             5.235475e+01,
             5.236686e+01,
             5.239553e+01 ;
-        ns3:longitude 4.844841e+00,
+        ns2:longitude 4.844841e+00,
             4.927212e+00,
             4.928745e+00,
             4.928756e+00,
@@ -33,10 +33,10 @@
             "50|50 Workcenter"^^xsd:string,
             "http://5050-workcenter.nl/"^^xsd:string .
 
-    ns1:dakthAHA_Inloophuis_voor_dak-_en_thuislozen a :Instantie ;
+    ns3:dakthAHA_Inloophuis_voor_dak-_en_thuislozen a :instantie ;
         rdfs:label "AHA Inloophuis voor dak- en thuislozen"^^xsd:string ;
-        ns3:latitude 5.237288e+01 ;
-        ns3:longitude 4.897496e+00 ;
+        ns2:latitude 5.237288e+01 ;
+        ns2:longitude 4.897496e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -44,19 +44,19 @@
             :sleepLocation ;
         :website "AHA Inloophuis voor dak- en thuislozen"^^xsd:string .
 
-    ns1:dakthBegeleid_Zelfstandig_Wonen_Fleerde a :Instantie ;
+    ns3:dakthBegeleid_Zelfstandig_Wonen_Fleerde a :instantie ;
         rdfs:label "Begeleid Zelfstandig Wonen Fleerde"^^xsd:string ;
-        ns3:latitude 5.232004e+01 ;
-        ns3:longitude 4.957847e+00 ;
+        ns2:latitude 5.232004e+01 ;
+        ns2:longitude 4.957847e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Begeleid Zelfstandig Wonen Fleerde"^^xsd:string .
 
-    ns1:dakthBegeleid_wonen_De_Vaart a :Instantie ;
+    ns3:dakthBegeleid_wonen_De_Vaart a :instantie ;
         rdfs:label "Begeleid wonen De Vaart"^^xsd:string ;
-        ns3:latitude 5.236895e+01 ;
-        ns3:longitude 4.922574e+00 ;
+        ns2:latitude 5.236895e+01 ;
+        ns2:longitude 4.922574e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -64,10 +64,10 @@
             :sleepLocation ;
         :website "Begeleid wonen De Vaart"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthBelangenbehartiging_Amsterdamse_Dak-_en_Thuislozen_(BADT)> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthBelangenbehartiging_Amsterdamse_Dak-_en_Thuislozen_(BADT)> a :instantie ;
         rdfs:label "Belangenbehartiging Amsterdamse Dak- en Thuislozen (BADT)"^^xsd:string ;
-        ns3:latitude 5.236601e+01 ;
-        ns3:longitude 4.903768e+00 ;
+        ns2:latitude 5.236601e+01 ;
+        ns2:longitude 4.903768e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -75,10 +75,10 @@
             :sleepLocation ;
         :website "Belangenbehartiging Amsterdamse Dak- en Thuislozen (BADT)"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthBureau_Straatjurist_:_juridisch_steunpunt_voor_dak-_en_thuislozen> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthBureau_Straatjurist_:_juridisch_steunpunt_voor_dak-_en_thuislozen> a :instantie ;
         rdfs:label "Bureau Straatjurist : juridisch steunpunt voor dak- en thuislozen"^^xsd:string ;
-        ns3:latitude 5.236601e+01 ;
-        ns3:longitude 4.903768e+00 ;
+        ns2:latitude 5.236601e+01 ;
+        ns2:longitude 4.903768e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -88,10 +88,10 @@
             :sleepLocation ;
         :website "Bureau Straatjurist : juridisch steunpunt voor dak- en thuislozen"^^xsd:string .
 
-    ns1:dakthCentraal_Meldpunt_dakloze_gezinnen a :Instantie ;
+    ns3:dakthCentraal_Meldpunt_dakloze_gezinnen a :instantie ;
         rdfs:label "Centraal Meldpunt dakloze gezinnen"^^xsd:string ;
-        ns3:latitude 5.236253e+01 ;
-        ns3:longitude 4.909003e+00 ;
+        ns2:latitude 5.236253e+01 ;
+        ns2:longitude 4.909003e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -99,19 +99,19 @@
             :homelessReintegration ;
         :website "Centraal Meldpunt dakloze gezinnen"^^xsd:string .
 
-    ns1:dakthCentrum_PS a :Instantie ;
+    ns3:dakthCentrum_PS a :instantie ;
         rdfs:label "Centrum PS"^^xsd:string ;
-        ns3:latitude 5.237039e+01 ;
-        ns3:longitude 4.865792e+00 ;
+        ns2:latitude 5.237039e+01 ;
+        ns2:longitude 4.865792e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Centrum PS"^^xsd:string .
 
-    ns1:dakthClusterwonen a :Instantie ;
+    ns3:dakthClusterwonen a :instantie ;
         rdfs:label "Clusterwonen"^^xsd:string ;
-        ns3:latitude 5.236842e+01 ;
-        ns3:longitude 4.911876e+00 ;
+        ns2:latitude 5.236842e+01 ;
+        ns2:longitude 4.911876e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -119,19 +119,19 @@
             :sleepLocation ;
         :website "Clusterwonen"^^xsd:string .
 
-    ns1:dakthDagactiviteitencentrum_De_Miranda a :Instantie ;
+    ns3:dakthDagactiviteitencentrum_De_Miranda a :instantie ;
         rdfs:label "Dagactiviteitencentrum De Miranda"^^xsd:string ;
-        ns3:latitude 5.233893e+01 ;
-        ns3:longitude 4.900805e+00 ;
+        ns2:latitude 5.233893e+01 ;
+        ns2:longitude 4.900805e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Dagactiviteitencentrum De Miranda"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthDe_Aak,_zorgvoorziening_voor_dak-_en_thuislozen> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthDe_Aak,_zorgvoorziening_voor_dak-_en_thuislozen> a :instantie ;
         rdfs:label "De Aak, zorgvoorziening voor dak- en thuislozen"^^xsd:string ;
-        ns3:latitude 5.23541e+01 ;
-        ns3:longitude 4.785736e+00 ;
+        ns2:latitude 5.23541e+01 ;
+        ns2:longitude 4.785736e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -139,39 +139,39 @@
             :sleepLocation ;
         :website "De Aak, zorgvoorziening voor dak- en thuislozen"^^xsd:string .
 
-    ns1:dakthDe_Goodwillburgh a :Instantie ;
+    ns3:dakthDe_Goodwillburgh a :instantie ;
         rdfs:label "De Goodwillburgh"^^xsd:string ;
-        ns3:latitude 5.236944e+01 ;
-        ns3:longitude 4.909061e+00 ;
+        ns2:latitude 5.236944e+01 ;
+        ns2:longitude 4.909061e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "De Goodwillburgh"^^xsd:string .
 
-    ns1:dakthDe_Klif a :Instantie ;
+    ns3:dakthDe_Klif a :instantie ;
         rdfs:label "De Klif"^^xsd:string ;
-        ns3:latitude 5.230514e+01 ;
-        ns3:longitude 4.956788e+00 ;
+        ns2:latitude 5.230514e+01 ;
+        ns2:longitude 4.956788e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "De Klif"^^xsd:string .
 
-    ns1:dakthDe_Regenboog_Groep a :Instantie ;
+    ns3:dakthDe_Regenboog_Groep a :instantie ;
         rdfs:label "De Regenboog Groep"^^xsd:string ;
-        ns3:latitude 5.238026e+01 ;
-        ns3:longitude 4.894139e+00 ;
+        ns2:latitude 5.238026e+01 ;
+        ns2:longitude 4.894139e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "De Regenboog Groep"^^xsd:string .
 
-    ns1:dakthDiscus_Amsterdam a :Instantie ;
+    ns3:dakthDiscus_Amsterdam a :instantie ;
         rdfs:label "Discus Amsterdam"^^xsd:string ;
-        ns3:latitude 5.234612e+01,
+        ns2:latitude 5.234612e+01,
             5.236012e+01,
             5.236105e+01 ;
-        ns3:longitude 4.826834e+00,
+        ns2:longitude 4.826834e+00,
             4.860809e+00,
             4.913937e+00 ;
         :providesDentalcareTo :adult ;
@@ -179,10 +179,10 @@
             :homelessReintegration ;
         :website "Discus Amsterdam"^^xsd:string .
 
-    ns1:dakthDon_Boscohuis_Amsterdam a :Instantie ;
+    ns3:dakthDon_Boscohuis_Amsterdam a :instantie ;
         rdfs:label "Don Boscohuis Amsterdam"^^xsd:string ;
-        ns3:latitude 5.235036e+01 ;
-        ns3:longitude 4.877872e+00 ;
+        ns2:latitude 5.235036e+01 ;
+        ns2:longitude 4.877872e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -190,10 +190,10 @@
             :sleepLocation ;
         :website "Don Boscohuis Amsterdam"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthDr._Valckenier_spreekuur_(huisarts_inloopspreekuur)> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthDr._Valckenier_spreekuur_(huisarts_inloopspreekuur)> a :instantie ;
         rdfs:label "Dr. Valckenier spreekuur (huisarts inloopspreekuur)"^^xsd:string ;
-        ns3:latitude 5.236169e+01 ;
-        ns3:longitude 4.908513e+00 ;
+        ns2:latitude 5.236169e+01 ;
+        ns2:longitude 4.908513e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -201,47 +201,47 @@
             :sleepLocation ;
         :website "Dr. Valckenier spreekuur (huisarts inloopspreekuur)"^^xsd:string .
 
-    ns1:dakthEettafel_Filah a :Instantie ;
+    ns3:dakthEettafel_Filah a :instantie ;
         rdfs:label "Eettafel Filah"^^xsd:string ;
-        ns3:latitude 5.238434e+01 ;
-        ns3:longitude 4.874e+00 ;
+        ns2:latitude 5.238434e+01 ;
+        ns2:longitude 4.874e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Eettafel Filah"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_Centrum> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_Centrum> a :instantie ;
         rdfs:label "Geïntegreerde Voorziening (GV) Centrum"^^xsd:string ;
-        ns3:latitude 5.236169e+01 ;
-        ns3:longitude 4.908513e+00 ;
+        ns2:latitude 5.236169e+01 ;
+        ns2:longitude 4.908513e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Geïntegreerde Voorziening (GV) Centrum"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_West> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_West> a :instantie ;
         rdfs:label "Geïntegreerde Voorziening (GV) West"^^xsd:string ;
-        ns3:latitude 5.237088e+01 ;
-        ns3:longitude 4.866579e+00 ;
+        ns2:latitude 5.237088e+01 ;
+        ns2:longitude 4.866579e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Geïntegreerde Voorziening (GV) West"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_Zuidoost> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthGeïntegreerde_Voorziening_(GV)_Zuidoost> a :instantie ;
         rdfs:label "Geïntegreerde Voorziening (GV) Zuidoost"^^xsd:string ;
-        ns3:latitude 5.231369e+01 ;
-        ns3:longitude 4.958201e+00 ;
+        ns2:latitude 5.231369e+01 ;
+        ns2:longitude 4.958201e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Geïntegreerde Voorziening (GV) Zuidoost"^^xsd:string .
 
-    ns1:dakthHVO-Querido a :Instantie ;
+    ns3:dakthHVO-Querido a :instantie ;
         rdfs:label "HVO-Querido"^^xsd:string ;
-        ns3:latitude 5.235013e+01,
+        ns2:latitude 5.235013e+01,
             5.237558e+01 ;
-        ns3:longitude 4.876745e+00,
+        ns2:longitude 4.876745e+00,
             4.918913e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
@@ -254,46 +254,46 @@
             :work ;
         :website "HVO-Querido"^^xsd:string .
 
-    ns1:dakthHerstart_Rosaburgh a :Instantie ;
+    ns3:dakthHerstart_Rosaburgh a :instantie ;
         rdfs:label "Herstart Rosaburgh"^^xsd:string ;
-        ns3:latitude 5.238832e+01 ;
-        ns3:longitude 4.914556e+00 ;
+        ns2:latitude 5.238832e+01 ;
+        ns2:longitude 4.914556e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Herstart Rosaburgh"^^xsd:string .
 
-    ns1:dakthHerstart_Westburgh a :Instantie ;
+    ns3:dakthHerstart_Westburgh a :instantie ;
         rdfs:label "Herstart Westburgh"^^xsd:string ;
-        ns3:latitude 5.239475e+01 ;
-        ns3:longitude 4.854237e+00 ;
+        ns2:latitude 5.239475e+01 ;
+        ns2:longitude 4.854237e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Herstart Westburgh"^^xsd:string .
 
-    ns1:dakthHerstart_Zuiderburgh a :Instantie ;
+    ns3:dakthHerstart_Zuiderburgh a :instantie ;
         rdfs:label "Herstart Zuiderburgh"^^xsd:string ;
-        ns3:latitude 5.235267e+01 ;
-        ns3:longitude 4.881618e+00 ;
+        ns2:latitude 5.235267e+01 ;
+        ns2:longitude 4.881618e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Herstart Zuiderburgh"^^xsd:string .
 
-    ns1:dakthInformele_Zorg_Westerpark a :Instantie ;
+    ns3:dakthInformele_Zorg_Westerpark a :instantie ;
         rdfs:label "Informele Zorg Westerpark"^^xsd:string ;
-        ns3:latitude 5.238421e+01 ;
-        ns3:longitude 4.871652e+00 ;
+        ns2:latitude 5.238421e+01 ;
+        ns2:longitude 4.871652e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Informele Zorg Westerpark"^^xsd:string .
 
-    ns1:dakthInloophuis_De_Kloof a :Instantie ;
+    ns3:dakthInloophuis_De_Kloof a :instantie ;
         rdfs:label "Inloophuis De Kloof"^^xsd:string ;
-        ns3:latitude 5.23692e+01 ;
-        ns3:longitude 4.897463e+00 ;
+        ns2:latitude 5.23692e+01 ;
+        ns2:longitude 4.897463e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -301,10 +301,10 @@
             :sleepLocation ;
         :website "Inloophuis De Kloof"^^xsd:string .
 
-    ns1:dakthInloophuis_De_Spreekbuis a :Instantie ;
+    ns3:dakthInloophuis_De_Spreekbuis a :instantie ;
         rdfs:label "Inloophuis De Spreekbuis"^^xsd:string ;
-        ns3:latitude 5.235661e+01 ;
-        ns3:longitude 4.915496e+00 ;
+        ns2:latitude 5.235661e+01 ;
+        ns2:longitude 4.915496e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -312,10 +312,10 @@
             :sleepLocation ;
         :website "Inloophuis De Spreekbuis"^^xsd:string .
 
-    ns1:dakthInloophuis_De_Tweede_Mijl a :Instantie ;
+    ns3:dakthInloophuis_De_Tweede_Mijl a :instantie ;
         rdfs:label "Inloophuis De Tweede Mijl"^^xsd:string ;
-        ns3:latitude 5.238125e+01 ;
-        ns3:longitude 4.88511e+00 ;
+        ns2:latitude 5.238125e+01 ;
+        ns2:longitude 4.88511e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -323,10 +323,10 @@
             :sleepLocation ;
         :website "Inloophuis De Tweede Mijl"^^xsd:string .
 
-    ns1:dakthInloophuis_Haarlemmerstraat a :Instantie ;
+    ns3:dakthInloophuis_Haarlemmerstraat a :instantie ;
         rdfs:label "Inloophuis Haarlemmerstraat"^^xsd:string ;
-        ns3:latitude 5.238134e+01 ;
-        ns3:longitude 4.889751e+00 ;
+        ns2:latitude 5.238134e+01 ;
+        ns2:longitude 4.889751e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -334,10 +334,10 @@
             :sleepLocation ;
         :website "Inloophuis Haarlemmerstraat"^^xsd:string .
 
-    ns1:dakthInloophuis_Makom_-_kledinginzamelplek a :Instantie ;
+    ns3:dakthInloophuis_Makom_-_kledinginzamelplek a :instantie ;
         rdfs:label "Inloophuis Makom - kledinginzamelplek"^^xsd:string ;
-        ns3:latitude 5.23528e+01 ;
-        ns3:longitude 4.895604e+00 ;
+        ns2:latitude 5.23528e+01 ;
+        ns2:longitude 4.895604e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -345,10 +345,10 @@
             :sleepLocation ;
         :website "Inloophuis Makom - kledinginzamelplek"^^xsd:string .
 
-    ns1:dakthInloophuis_Ondro_Bong a :Instantie ;
+    ns3:dakthInloophuis_Ondro_Bong a :instantie ;
         rdfs:label "Inloophuis Ondro Bong"^^xsd:string ;
-        ns3:latitude 5.236626e+01 ;
-        ns3:longitude 4.934598e+00 ;
+        ns2:latitude 5.236626e+01 ;
+        ns2:longitude 4.934598e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -356,10 +356,10 @@
             :sleepLocation ;
         :website "Inloophuis Ondro Bong"^^xsd:string .
 
-    ns1:dakthInloophuis_Oud-West a :Instantie ;
+    ns3:dakthInloophuis_Oud-West a :instantie ;
         rdfs:label "Inloophuis Oud-West"^^xsd:string ;
-        ns3:latitude 5.236673e+01 ;
-        ns3:longitude 4.872251e+00 ;
+        ns2:latitude 5.236673e+01 ;
+        ns2:longitude 4.872251e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -367,10 +367,10 @@
             :sleepLocation ;
         :website "Inloophuis Oud-West"^^xsd:string .
 
-    ns1:dakthInloophuis_en_Gebruikersruimte_Blaka_Watra a :Instantie ;
+    ns3:dakthInloophuis_en_Gebruikersruimte_Blaka_Watra a :instantie ;
         rdfs:label "Inloophuis en Gebruikersruimte Blaka Watra"^^xsd:string ;
-        ns3:latitude 5.238026e+01 ;
-        ns3:longitude 4.894139e+00 ;
+        ns2:latitude 5.238026e+01 ;
+        ns2:longitude 4.894139e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -378,10 +378,10 @@
             :sleepLocation ;
         :website "Inloophuis en Gebruikersruimte Blaka Watra"^^xsd:string .
 
-    ns1:dakthInloophuis_en_gebruikersruimte_De_Princehof a :Instantie ;
+    ns3:dakthInloophuis_en_gebruikersruimte_De_Princehof a :instantie ;
         rdfs:label "Inloophuis en gebruikersruimte De Princehof"^^xsd:string ;
-        ns3:latitude 5.237205e+01 ;
-        ns3:longitude 4.896507e+00 ;
+        ns2:latitude 5.237205e+01 ;
+        ns2:longitude 4.896507e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -389,10 +389,10 @@
             :sleepLocation ;
         :website "Inloophuis en gebruikersruimte De Princehof"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthJe_Eigen_Stek,_doorstroomhuis_voor_ex-daklozen> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthJe_Eigen_Stek,_doorstroomhuis_voor_ex-daklozen> a :instantie ;
         rdfs:label "Je Eigen Stek, doorstroomhuis voor ex-daklozen"^^xsd:string ;
-        ns3:latitude 5.235195e+01 ;
-        ns3:longitude 4.902189e+00 ;
+        ns2:latitude 5.235195e+01 ;
+        ns2:longitude 4.902189e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -400,14 +400,14 @@
             :sleepLocation ;
         :website "Je Eigen Stek, doorstroomhuis voor ex-daklozen"^^xsd:string .
 
-    ns1:dakthJuttersdok_Kringloop_Amsterdam a :Instantie ;
+    ns3:dakthJuttersdok_Kringloop_Amsterdam a :instantie ;
         rdfs:label "Juttersdok Kringloop Amsterdam"^^xsd:string ;
-        ns3:latitude 5.236292e+01,
+        ns2:latitude 5.236292e+01,
             5.236298e+01,
             5.236356e+01,
             5.23672e+01,
             5.239451e+01 ;
-        ns3:longitude 4.855493e+00,
+        ns2:longitude 4.855493e+00,
             4.855882e+00,
             4.899485e+00,
             4.911185e+00,
@@ -419,37 +419,37 @@
             :work ;
         :website "Juttersdok Kringloop Amsterdam"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)> a :instantie ;
         rdfs:label "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string ;
-        ns3:latitude 5.239553e+01 ;
-        ns3:longitude 4.928745e+00 ;
+        ns2:latitude 5.239553e+01 ;
+        ns2:longitude 4.928745e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string .
 
-    ns1:dakthMaatschappelijke_Opvang_Atlantisplein a :Instantie ;
+    ns3:dakthMaatschappelijke_Opvang_Atlantisplein a :instantie ;
         rdfs:label "Maatschappelijke Opvang Atlantisplein"^^xsd:string ;
-        ns3:latitude 5.235736e+01 ;
-        ns3:longitude 4.930889e+00 ;
+        ns2:latitude 5.235736e+01 ;
+        ns2:longitude 4.930889e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Maatschappelijke Opvang Atlantisplein"^^xsd:string .
 
-    ns1:dakthMajoor_Bosshardtburgh a :Instantie ;
+    ns3:dakthMajoor_Bosshardtburgh a :instantie ;
         rdfs:label "Majoor Bosshardtburgh"^^xsd:string ;
-        ns3:latitude 5.237564e+01 ;
-        ns3:longitude 4.899432e+00 ;
+        ns2:latitude 5.237564e+01 ;
+        ns2:longitude 4.899432e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Majoor Bosshardtburgh"^^xsd:string .
 
-    ns1:dakthMartien_Schaaperhuis a :Instantie ;
+    ns3:dakthMartien_Schaaperhuis a :instantie ;
         rdfs:label "Martien Schaaperhuis"^^xsd:string ;
-        ns3:latitude 5.23629e+01 ;
-        ns3:longitude 4.977986e+00 ;
+        ns2:latitude 5.23629e+01 ;
+        ns2:longitude 4.977986e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -457,19 +457,19 @@
             :sleepLocation ;
         :website "Martien Schaaperhuis"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthMobiel_Service_Centrum_(MSC)> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthMobiel_Service_Centrum_(MSC)> a :instantie ;
         rdfs:label "Mobiel Service Centrum (MSC)"^^xsd:string ;
-        ns3:latitude 5.237777e+01 ;
-        ns3:longitude 4.895298e+00 ;
+        ns2:latitude 5.237777e+01 ;
+        ns2:longitude 4.895298e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Mobiel Service Centrum (MSC)"^^xsd:string .
 
-    ns1:dakthMobiel_Team_HVO-Querido a :Instantie ;
+    ns3:dakthMobiel_Team_HVO-Querido a :instantie ;
         rdfs:label "Mobiel Team HVO-Querido"^^xsd:string ;
-        ns3:latitude 5.235059e+01 ;
-        ns3:longitude 4.843613e+00 ;
+        ns2:latitude 5.235059e+01 ;
+        ns2:longitude 4.843613e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -481,55 +481,55 @@
             :work ;
         :website "Mobiel Team HVO-Querido"^^xsd:string .
 
-    ns1:dakthOpvang_Poeldijkstraat a :Instantie ;
+    ns3:dakthOpvang_Poeldijkstraat a :instantie ;
         rdfs:label "Opvang Poeldijkstraat"^^xsd:string ;
-        ns3:latitude 5.235059e+01 ;
-        ns3:longitude 4.843613e+00 ;
+        ns2:latitude 5.235059e+01 ;
+        ns2:longitude 4.843613e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Opvang Poeldijkstraat"^^xsd:string .
 
-    ns1:dakthOpvangvoorziening_Anton_de_Komplein a :Instantie ;
+    ns3:dakthOpvangvoorziening_Anton_de_Komplein a :instantie ;
         rdfs:label "Opvangvoorziening Anton de Komplein"^^xsd:string ;
-        ns3:latitude 5.231422e+01 ;
-        ns3:longitude 4.958354e+00 ;
+        ns2:latitude 5.231422e+01 ;
+        ns2:longitude 4.958354e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Opvangvoorziening Anton de Komplein"^^xsd:string .
 
-    ns1:dakthPassantenhotel_Boerhaave a :Instantie ;
+    ns3:dakthPassantenhotel_Boerhaave a :instantie ;
         rdfs:label "Passantenhotel Boerhaave"^^xsd:string ;
-        ns3:latitude 5.236e+01 ;
-        ns3:longitude 4.915489e+00 ;
+        ns2:latitude 5.236e+01 ;
+        ns2:longitude 4.915489e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Passantenhotel Boerhaave"^^xsd:string .
 
-    ns1:dakthProtestantse_Diaconie_Amsterdam a :Instantie ;
+    ns3:dakthProtestantse_Diaconie_Amsterdam a :instantie ;
         rdfs:label "Protestantse Diaconie Amsterdam"^^xsd:string ;
-        ns3:latitude 5.236601e+01 ;
-        ns3:longitude 4.903768e+00 ;
+        ns2:latitude 5.236601e+01 ;
+        ns2:longitude 4.903768e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Protestantse Diaconie Amsterdam"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthRIBW_/_MO_Jan_Rebelstraat> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthRIBW_/_MO_Jan_Rebelstraat> a :instantie ;
         rdfs:label "RIBW / MO Jan Rebelstraat"^^xsd:string ;
-        ns3:latitude 5.236174e+01 ;
-        ns3:longitude 4.785859e+00 ;
+        ns2:latitude 5.236174e+01 ;
+        ns2:longitude 4.785859e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "RIBW / MO Jan Rebelstraat"^^xsd:string .
 
-    ns1:dakthRestart_Intensieve_Woonbegeleiding a :Instantie ;
+    ns3:dakthRestart_Intensieve_Woonbegeleiding a :instantie ;
         rdfs:label "Restart Intensieve Woonbegeleiding"^^xsd:string ;
-        ns3:latitude 5.239553e+01 ;
-        ns3:longitude 4.928745e+00 ;
+        ns2:latitude 5.239553e+01 ;
+        ns2:longitude 4.928745e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -537,37 +537,37 @@
             :sleepLocation ;
         :website "Restart Intensieve Woonbegeleiding"^^xsd:string .
 
-    ns1:dakthRobert_Koch_Wonen a :Instantie ;
+    ns3:dakthRobert_Koch_Wonen a :instantie ;
         rdfs:label "Robert Koch Wonen"^^xsd:string ;
-        ns3:latitude 5.234712e+01 ;
-        ns3:longitude 4.938506e+00 ;
+        ns2:latitude 5.234712e+01 ;
+        ns2:longitude 4.938506e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Robert Koch Wonen"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/dakthSchakel,_inloop_/_maaltijden_/_kringloop> a :Instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/dakthSchakel,_inloop_/_maaltijden_/_kringloop> a :instantie ;
         rdfs:label "Schakel, inloop / maaltijden / kringloop"^^xsd:string ;
-        ns3:latitude 5.238283e+01 ;
-        ns3:longitude 4.877044e+00 ;
+        ns2:latitude 5.238283e+01 ;
+        ns2:longitude 4.877044e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Schakel, inloop / maaltijden / kringloop"^^xsd:string .
 
-    ns1:dakthScreeningsbalie_Bijzondere_Doelgroepen a :Instantie ;
+    ns3:dakthScreeningsbalie_Bijzondere_Doelgroepen a :instantie ;
         rdfs:label "Screeningsbalie Bijzondere Doelgroepen"^^xsd:string ;
-        ns3:latitude 5.23717e+01 ;
-        ns3:longitude 4.844221e+00 ;
+        ns2:latitude 5.23717e+01 ;
+        ns2:longitude 4.844221e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
         :website "Screeningsbalie Bijzondere Doelgroepen"^^xsd:string .
 
-    ns1:dakthStichting_Kruispost a :Instantie ;
+    ns3:dakthStichting_Kruispost a :instantie ;
         rdfs:label "Stichting Kruispost"^^xsd:string ;
-        ns3:latitude 5.237278e+01 ;
-        ns3:longitude 4.89736e+00 ;
+        ns2:latitude 5.237278e+01 ;
+        ns2:longitude 4.89736e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -576,10 +576,10 @@
         :providesReintegration :food ;
         :website "Stichting Kruispost"^^xsd:string .
 
-    ns1:dakthStichting_Stoelenproject a :Instantie ;
+    ns3:dakthStichting_Stoelenproject a :instantie ;
         rdfs:label "Stichting Stoelenproject"^^xsd:string ;
-        ns3:latitude 5.236993e+01 ;
-        ns3:longitude 4.876722e+00 ;
+        ns2:latitude 5.236993e+01 ;
+        ns2:longitude 4.876722e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -588,10 +588,10 @@
         :providesReintegration :food ;
         :website "Stichting Stoelenproject"^^xsd:string .
 
-    ns1:dakthStichting_Streetcornerwork_Amsterdam a :Instantie ;
+    ns3:dakthStichting_Streetcornerwork_Amsterdam a :instantie ;
         rdfs:label "Stichting Streetcornerwork Amsterdam"^^xsd:string ;
-        ns3:latitude 5.236893e+01 ;
-        ns3:longitude 4.886395e+00 ;
+        ns2:latitude 5.236893e+01 ;
+        ns2:longitude 4.886395e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -602,10 +602,10 @@
             :work ;
         :website "Stichting Streetcornerwork Amsterdam"^^xsd:string .
 
-    ns1:dakthStichting_Volksbond_Amsterdam a :Instantie ;
+    ns3:dakthStichting_Volksbond_Amsterdam a :instantie ;
         rdfs:label "Stichting Volksbond Amsterdam"^^xsd:string ;
-        ns3:latitude 5.235013e+01 ;
-        ns3:longitude 4.918913e+00 ;
+        ns2:latitude 5.235013e+01 ;
+        ns2:longitude 4.918913e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -614,10 +614,10 @@
         :providesReintegration :food ;
         :website "Stichting Volksbond Amsterdam"^^xsd:string .
 
-    ns1:dakthStichting_Z a :Instantie ;
+    ns3:dakthStichting_Z a :instantie ;
         rdfs:label "Stichting Z"^^xsd:string ;
-        ns3:latitude 5.235661e+01 ;
-        ns3:longitude 4.915496e+00 ;
+        ns2:latitude 5.235661e+01 ;
+        ns2:longitude 4.915496e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsPrevention,
             :addictsReintegration,
@@ -626,10 +626,10 @@
         :providesReintegration :food ;
         :website "Stichting Z"^^xsd:string .
 
-    ns1:dakthStreetcornerwork_Team_Centrum a :Instantie ;
+    ns3:dakthStreetcornerwork_Team_Centrum a :instantie ;
         rdfs:label "Streetcornerwork Team Centrum"^^xsd:string ;
-        ns3:latitude 5.237683e+01 ;
-        ns3:longitude 4.894104e+00 ;
+        ns2:latitude 5.237683e+01 ;
+        ns2:longitude 4.894104e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -637,10 +637,10 @@
             :work ;
         :website "Streetcornerwork Team Centrum"^^xsd:string .
 
-    ns1:dakthWoonbegeleiding_De_Eerste_Helmer a :Instantie ;
+    ns3:dakthWoonbegeleiding_De_Eerste_Helmer a :instantie ;
         rdfs:label "Woonbegeleiding De Eerste Helmer"^^xsd:string ;
-        ns3:latitude 5.236379e+01 ;
-        ns3:longitude 4.875956e+00 ;
+        ns2:latitude 5.236379e+01 ;
+        ns2:longitude 4.875956e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -648,10 +648,10 @@
             :sleepLocation ;
         :website "Woonbegeleiding De Eerste Helmer"^^xsd:string .
 
-    ns1:dakthWoonhotel_De_Nassau a :Instantie ;
+    ns3:dakthWoonhotel_De_Nassau a :instantie ;
         rdfs:label "Woonhotel De Nassau"^^xsd:string ;
-        ns3:latitude 5.238357e+01 ;
-        ns3:longitude 4.879003e+00 ;
+        ns2:latitude 5.238357e+01 ;
+        ns2:longitude 4.879003e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -659,10 +659,10 @@
             :sleepLocation ;
         :website "Woonhotel De Nassau"^^xsd:string .
 
-    ns1:dakthWoonhotel_Ruysdael a :Instantie ;
+    ns3:dakthWoonhotel_Ruysdael a :instantie ;
         rdfs:label "Woonhotel Ruysdael"^^xsd:string ;
-        ns3:latitude 5.235061e+01 ;
-        ns3:longitude 4.886939e+00 ;
+        ns2:latitude 5.235061e+01 ;
+        ns2:longitude 4.886939e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -670,10 +670,10 @@
             :sleepLocation ;
         :website "Woonhotel Ruysdael"^^xsd:string .
 
-    ns1:dakthWoonvoorziening_De_Veste a :Instantie ;
+    ns3:dakthWoonvoorziening_De_Veste a :instantie ;
         rdfs:label "Woonvoorziening De Veste"^^xsd:string ;
-        ns3:latitude 5.235059e+01 ;
-        ns3:longitude 4.843613e+00 ;
+        ns2:latitude 5.235059e+01 ;
+        ns2:longitude 4.843613e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -681,10 +681,10 @@
             :sleepLocation ;
         :website "Woonvoorziening De Veste"^^xsd:string .
 
-    ns1:dakthWoonvoorziening_Noorderburgh a :Instantie ;
+    ns3:dakthWoonvoorziening_Noorderburgh a :instantie ;
         rdfs:label "Woonvoorziening Noorderburgh"^^xsd:string ;
-        ns3:latitude 5.239614e+01 ;
-        ns3:longitude 4.912666e+00 ;
+        ns2:latitude 5.239614e+01 ;
+        ns2:longitude 4.912666e+00 ;
         :providesDentalcareTo :adult ;
         :providesInformationAbout :addictsReintegration,
             :homelessReintegration ;
@@ -730,8 +730,6 @@
     :homelessPeople a :riskGroups,
             owl:NamedIndividual .
 
-    :instantie a owl:Class .
-
     :lhbt a :riskGroups,
             owl:NamedIndividual .
 
@@ -774,6 +772,8 @@
 
     :website a owl:ObjectProperty .
 
+    :Location a owl:Class .
+
     :adults a :ageGroups,
             owl:NamedIndividual .
 
@@ -800,7 +800,8 @@
 
     :careTimes a owl:Class .
 
-    :leisureLocation a owl:Class .
+    :leisureLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :ageGroups a owl:Class .
 
@@ -841,6 +842,8 @@
 
     :homelessReintegration a :knowledgeDomain,
             owl:NamedIndividual .
+
+    :instantie a owl:Class .
 
     :addictsReintegration a :knowledgeDomain,
             owl:NamedIndividual .

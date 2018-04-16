@@ -12,7 +12,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns1:spzwAGO_Zwembad_Diemen a :Instantie,
+    ns1:spzwAGO_Zwembad_Diemen a :instantie,
             :swimmingPool ;
         rdfs:label "AGO Zwembad Diemen"^^xsd:string ;
         ns3:latitude 5.233658e+01 ;
@@ -21,7 +21,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.agozwembad.nl"^^xsd:string .
 
-    ns1:spzwAmstelbad a :Instantie,
+    ns1:spzwAmstelbad a :instantie,
             :swimmingPool ;
         rdfs:label "Amstelbad"^^xsd:string ;
         ns3:latitude 5.230256e+01 ;
@@ -30,7 +30,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.amstelbad.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland> a :Instantie,
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland> a :instantie,
             :sportCentrum ;
         rdfs:label "Amstelborgh/Borchland"^^xsd:string ;
         ns3:latitude 5.231583e+01 ;
@@ -39,7 +39,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.borchland.nl"^^xsd:string .
 
-    ns1:spzwAmstelcampus a :Instantie,
+    ns1:spzwAmstelcampus a :instantie,
             :sportCentrum ;
         rdfs:label "Amstelcampus"^^xsd:string ;
         ns3:latitude 5.235863e+01 ;
@@ -48,7 +48,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.usc.uva.nl"^^xsd:string .
 
-    ns1:spzwApollohal a :Instantie,
+    ns1:spzwApollohal a :instantie,
             :sportCentrum ;
         rdfs:label "Apollohal"^^xsd:string ;
         ns3:latitude 5.234807e+01 ;
@@ -57,7 +57,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwBijlmer_Sportcentrum a :Instantie,
+    ns1:spzwBijlmer_Sportcentrum a :instantie,
             :sportCentrum,
             :swimmingPool ;
         rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
@@ -67,7 +67,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string .
 
-    ns1:spzwBlaashal_Gustav_Mahler a :Instantie,
+    ns1:spzwBlaashal_Gustav_Mahler a :instantie,
             :sportCentrum ;
         rdfs:label "Blaashal Gustav Mahler"^^xsd:string ;
         ns3:latitude 5.233687e+01 ;
@@ -76,7 +76,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwBredius a :Instantie,
+    ns1:spzwBredius a :instantie,
             :swimmingPool ;
         rdfs:label "Bredius"^^xsd:string ;
         ns3:latitude 5.239247e+01 ;
@@ -85,7 +85,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwDavid_Lloyd a :Instantie,
+    ns1:spzwDavid_Lloyd a :instantie,
             :swimmingPool ;
         rdfs:label "David Lloyd"^^xsd:string ;
         ns3:latitude 5.235762e+01 ;
@@ -94,7 +94,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.davidlloyd.nl"^^xsd:string .
 
-    ns1:spzwDe_Breek a :Instantie,
+    ns1:spzwDe_Breek a :instantie,
             :swimmingPool ;
         rdfs:label "De Breek"^^xsd:string ;
         ns3:latitude 5.243097e+01 ;
@@ -103,7 +103,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.debreek.nl"^^xsd:string .
 
-    ns1:spzwDe_Mirandabad a :Instantie,
+    ns1:spzwDe_Mirandabad a :instantie,
             :swimmingPool ;
         rdfs:label "De Mirandabad"^^xsd:string ;
         ns3:latitude 5.233873e+01 ;
@@ -112,7 +112,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwFlevoparkbad a :Instantie,
+    ns1:spzwFlevoparkbad a :instantie,
             :swimmingPool ;
         rdfs:label "Flevoparkbad"^^xsd:string ;
         ns3:latitude 5.236493e+01 ;
@@ -121,7 +121,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwFrans_Otten_stadion a :Instantie,
+    ns1:spzwFrans_Otten_stadion a :instantie,
             :sportCentrum ;
         rdfs:label "Frans Otten stadion"^^xsd:string ;
         ns3:latitude 5.233911e+01 ;
@@ -130,7 +130,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.fransottenstadion.nl"^^xsd:string .
 
-    ns1:spzwFriendship_Sports_Centre a :Instantie,
+    ns1:spzwFriendship_Sports_Centre a :instantie,
             :sportCentrum,
             :swimmingPool ;
         rdfs:label "Friendship Sports Centre"^^xsd:string ;
@@ -140,7 +140,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.friendshipsc.nl"^^xsd:string .
 
-    ns1:spzwHet_Marnix a :Instantie,
+    ns1:spzwHet_Marnix a :instantie,
             :swimmingPool ;
         rdfs:label "Het Marnix"^^xsd:string ;
         ns3:latitude 5.237799e+01 ;
@@ -149,7 +149,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.hetmarnix.nl"^^xsd:string .
 
-    ns1:spzwHogendorp_Sportcentrum a :Instantie,
+    ns1:spzwHogendorp_Sportcentrum a :instantie,
             :sportCentrum ;
         rdfs:label "Hogendorp Sportcentrum"^^xsd:string ;
         ns3:latitude 5.238165e+01 ;
@@ -158,7 +158,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwMatchZO a :Instantie,
+    ns1:spzwMatchZO a :instantie,
             :sportCentrum ;
         rdfs:label "MatchZO"^^xsd:string ;
         ns3:latitude 5.230881e+01 ;
@@ -167,7 +167,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.matchzo.nl"^^xsd:string .
 
-    ns1:spzwNoorderparkbad a :Instantie,
+    ns1:spzwNoorderparkbad a :instantie,
             :swimmingPool ;
         rdfs:label "Noorderparkbad"^^xsd:string ;
         ns3:latitude 5.239827e+01 ;
@@ -176,7 +176,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSloterparkbad a :Instantie,
+    ns1:spzwSloterparkbad a :instantie,
             :swimmingPool ;
         rdfs:label "Sloterparkbad"^^xsd:string ;
         ns3:latitude 5.23717e+01 ;
@@ -185,7 +185,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSportPlaza_Mercator a :Instantie,
+    ns1:spzwSportPlaza_Mercator a :instantie,
             :swimmingPool ;
         rdfs:label "SportPlaza Mercator"^^xsd:string ;
         ns3:latitude 5.237175e+01 ;
@@ -194,7 +194,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportplazamercator.nl"^^xsd:string .
 
-    ns1:spzwSportPlaza_de_Sporthoeve a :Instantie,
+    ns1:spzwSportPlaza_de_Sporthoeve a :instantie,
             :swimmingPool ;
         rdfs:label "SportPlaza de Sporthoeve"^^xsd:string ;
         ns3:latitude 5.234307e+01 ;
@@ -203,7 +203,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportplazanet.nl"^^xsd:string .
 
-    ns1:spzwSportcentrum_Caland a :Instantie,
+    ns1:spzwSportcentrum_Caland a :instantie,
             :sportCentrum ;
         rdfs:label "Sportcentrum Caland"^^xsd:string ;
         ns3:latitude 5.235444e+01 ;
@@ -212,7 +212,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSportcentrum_De_Pijp a :Instantie,
+    ns1:spzwSportcentrum_De_Pijp a :instantie,
             :sportCentrum ;
         rdfs:label "Sportcentrum De Pijp"^^xsd:string ;
         ns3:latitude 5.234975e+01 ;
@@ -221,7 +221,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSportcentrum_Ookmeer a :Instantie,
+    ns1:spzwSportcentrum_Ookmeer a :instantie,
             :sportCentrum ;
         rdfs:label "Sportcentrum Ookmeer"^^xsd:string ;
         ns3:latitude 5.236786e+01 ;
@@ -230,7 +230,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSportcentrum_Reade_Therapiebad a :Instantie,
+    ns1:spzwSportcentrum_Reade_Therapiebad a :instantie,
             :swimmingPool ;
         rdfs:label "Sportcentrum Reade Therapiebad"^^xsd:string ;
         ns3:latitude 5.236995e+01 ;
@@ -239,7 +239,7 @@
         :providesInformationAbout :movementIssues ;
         :website ""^^xsd:string .
 
-    ns1:spzwSportfondsenbad_Oost a :Instantie,
+    ns1:spzwSportfondsenbad_Oost a :instantie,
             :swimmingPool ;
         rdfs:label "Sportfondsenbad Oost"^^xsd:string ;
         ns3:latitude 5.235664e+01 ;
@@ -248,7 +248,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportfondsenbadamsterdamoost.nl/"^^xsd:string .
 
-    ns1:spzwSporthal_Aristos a :Instantie,
+    ns1:spzwSporthal_Aristos a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Aristos"^^xsd:string ;
         ns3:latitude 5.238206e+01 ;
@@ -257,7 +257,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Blauw-Wit a :Instantie,
+    ns1:spzwSporthal_Blauw-Wit a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Blauw-Wit"^^xsd:string ;
         ns3:latitude 5.237593e+01 ;
@@ -266,7 +266,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Calvijn a :Instantie,
+    ns1:spzwSporthal_Calvijn a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Calvijn"^^xsd:string ;
         ns3:latitude 5.23561e+01 ;
@@ -275,7 +275,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)> a :Instantie,
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)> a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Centrum voor Vrijetijd (CVT)"^^xsd:string ;
         ns3:latitude 5.235682e+01 ;
@@ -284,7 +284,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_De_Weeren a :Instantie,
+    ns1:spzwSporthal_De_Weeren a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal De Weeren"^^xsd:string ;
         ns3:latitude 5.240119e+01 ;
@@ -293,7 +293,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Elzenhagen a :Instantie,
+    ns1:spzwSporthal_Elzenhagen a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Elzenhagen"^^xsd:string ;
         ns3:latitude 5.240132e+01 ;
@@ -302,7 +302,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Gaasperdam a :Instantie,
+    ns1:spzwSporthal_Gaasperdam a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Gaasperdam"^^xsd:string ;
         ns3:latitude 5.229677e+01 ;
@@ -311,7 +311,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_IJburg a :Instantie,
+    ns1:spzwSporthal_IJburg a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal IJburg"^^xsd:string ;
         ns3:latitude 5.23513e+01 ;
@@ -320,7 +320,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Laan_van_Spartaan a :Instantie,
+    ns1:spzwSporthal_Laan_van_Spartaan a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Laan van Spartaan"^^xsd:string ;
         ns3:latitude 5.237335e+01 ;
@@ -329,7 +329,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Oostenburg a :Instantie,
+    ns1:spzwSporthal_Oostenburg a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Oostenburg"^^xsd:string ;
         ns3:latitude 5.236809e+01 ;
@@ -338,7 +338,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_ROC_Europaboulevard a :Instantie,
+    ns1:spzwSporthal_ROC_Europaboulevard a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal ROC Europaboulevard"^^xsd:string ;
         ns3:latitude 5.23396e+01 ;
@@ -347,7 +347,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Wethouder_Verheij a :Instantie,
+    ns1:spzwSporthal_Wethouder_Verheij a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Wethouder Verheij"^^xsd:string ;
         ns3:latitude 5.235789e+01 ;
@@ -356,7 +356,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthal_Zeeburg a :Instantie,
+    ns1:spzwSporthal_Zeeburg a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthal Zeeburg"^^xsd:string ;
         ns3:latitude 5.236594e+01 ;
@@ -365,7 +365,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSporthallen_Zuid a :Instantie,
+    ns1:spzwSporthallen_Zuid a :instantie,
             :sportCentrum ;
         rdfs:label "Sporthallen Zuid"^^xsd:string ;
         ns3:latitude 5.233998e+01 ;
@@ -374,7 +374,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwSwimgym a :Instantie,
+    ns1:spzwSwimgym a :instantie,
             :swimmingPool ;
         rdfs:label "Swimgym"^^xsd:string ;
         ns3:latitude 5.235432e+01 ;
@@ -383,7 +383,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.swimgym.nl"^^xsd:string .
 
-    ns1:spzwTennishal_Strandvliet a :Instantie,
+    ns1:spzwTennishal_Strandvliet a :instantie,
             :tennisHall ;
         rdfs:label "Tennishal Strandvliet"^^xsd:string ;
         ns3:latitude 5.231615e+01 ;
@@ -392,7 +392,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.tennishalstrandvliet.nl/"^^xsd:string .
 
-    ns1:spzwUniversum a :Instantie,
+    ns1:spzwUniversum a :instantie,
             :sportCentrum ;
         rdfs:label "Universum"^^xsd:string ;
         ns3:latitude 5.235565e+01 ;
@@ -401,7 +401,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.usc.uva.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)> a :Instantie,
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)> a :instantie,
             :sportCentrum ;
         rdfs:label "Velodrome (sporthal en wielerbaan)"^^xsd:string ;
         ns3:latitude 5.234195e+01 ;
@@ -410,7 +410,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwVictoriabad_Weesp a :Instantie,
+    ns1:spzwVictoriabad_Weesp a :instantie,
             :swimmingPool ;
         rdfs:label "Victoriabad Weesp"^^xsd:string ;
         ns3:latitude 5.22984e+01 ;
@@ -419,7 +419,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.zwembadweesp.nl"^^xsd:string .
 
-    ns1:spzwZuiderbad a :Instantie,
+    ns1:spzwZuiderbad a :instantie,
             :swimmingPool ;
         rdfs:label "Zuiderbad"^^xsd:string ;
         ns3:latitude 5.235867e+01 ;
@@ -428,7 +428,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
-    ns1:spzwZwembad_De_Meerkamp a :Instantie,
+    ns1:spzwZwembad_De_Meerkamp a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad De Meerkamp"^^xsd:string ;
         ns3:latitude 5.228843e+01 ;
@@ -437,7 +437,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.meerkamp.nl"^^xsd:string .
 
-    ns1:spzwZwembad_De_Werf a :Instantie,
+    ns1:spzwZwembad_De_Werf a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad De Werf"^^xsd:string ;
         ns3:latitude 5.240708e+01 ;
@@ -446,7 +446,7 @@
         :providesInformationAbout :movementIssues ;
         :website "https://www.oerbron.nl/zwemmen/de-zwembaden/de-werf"^^xsd:string .
 
-    ns1:spzwZwembad_Drostenburg a :Instantie,
+    ns1:spzwZwembad_Drostenburg a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad Drostenburg"^^xsd:string ;
         ns3:latitude 5.232225e+01 ;
@@ -455,7 +455,7 @@
         :providesInformationAbout :movementIssues ;
         :website "http://www.orion.nl"^^xsd:string .
 
-    ns1:spzwZwembad_IJburg a :Instantie,
+    ns1:spzwZwembad_IJburg a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad IJburg"^^xsd:string ;
         ns3:latitude 5.234844e+01 ;
@@ -514,8 +514,6 @@
     :homelessReintegration a :knowledgeDomain,
             owl:NamedIndividual .
 
-    :instantie a owl:Class .
-
     :lhbt a :riskGroups,
             owl:NamedIndividual .
 
@@ -561,6 +559,8 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
+    :Location a owl:Class .
+
     :addictsPrevention a :knowledgeDomain,
             owl:NamedIndividual .
 
@@ -596,7 +596,8 @@
 
     :careTimes a owl:Class .
 
-    :leisureLocation a owl:Class .
+    :leisureLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :ageGroups a owl:Class .
 
@@ -616,6 +617,8 @@
 
     :swimmingPool a owl:Class ;
         rdfs:subClassOf :leisureLocation .
+
+    :instantie a owl:Class .
 
     [] a owl:AllDifferent ;
         owl:distinctMembers [ a rdf:List ;

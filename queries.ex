@@ -9,3 +9,9 @@ SELECT DISTINCT ?namea ?nameb ?lona ?lonb ?lata ?latb WHERE {
   ?b g13vocab:providesSpecialCare g13vocab:day .
   filter((?lata-?latb)*(?lata-?latb)+(?lona-?lonb)*(?lona-?lonb)>(100*100)) .
 }
+
+SELECT ?sup ?sub WHERE {
+  ?sup rdfs:subClassOf+ g13vocab:Location .
+  ?sup rdfs:subClassOf? g13vocab:Location .
+  ?sub rdfs:subClassOf ?sup
+}

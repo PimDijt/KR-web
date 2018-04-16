@@ -65,6 +65,10 @@
 :JoodsVerpleegZorgHuis a owl:Class ;
 	rdfs:subClassOf :verpleegZorgHuis .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/Location
+
+:Location a owl:Class .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/addictCare
 
 :addictCare a owl:Class ;
@@ -125,7 +129,8 @@ _:genid3 a owl:Restriction ;
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/leisureLocation
 
-:leisureLocation a owl:Class .
+:leisureLocation a owl:Class ;
+	rdfs:subClassOf :Location .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/organisations
 
