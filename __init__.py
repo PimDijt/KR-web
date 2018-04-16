@@ -1,6 +1,9 @@
-from flask import Flask
-from flask import render_template
+from flask import Flask, render_template, url_for, request, jsonify, redirect
+from SPARQLWrapper import SPARQLWrapper, RDF, JSON
+import requests
 import csv
+import traceback
+import json
 
 app = Flask(__name__)
 
@@ -26,11 +29,59 @@ def map_filter():
 
 @app.route('/map_test')
 def map_test():
+    filter_query = "prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+    filter_query += "prefix owl: <http://www.w3.org/2002/07/owl#> "
+    filter_query += "prefix xsd: <http://www.w3.org/2001/XMLSchema#> "
+    filter_query += "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+    filter_query += "select ?s ?p ?o WHERE{ ?s rdfs:subClassOf ?o }"
+    filter_query = "prefix%20rdf%3A%20<http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23>%0Aprefix%20owl%3A%20<http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23>%0Aprefix%20xsd%3A%20<http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23>%0Aprefix%20rdfs%3A%20<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>%0A%0ASELECT%20%3Fsup%20%3Fsub%20WHERE%20%7B%0A%20%20%3Fsup%20rdfs%3AsubClassOf%2B%20g13vocab%3ALocation%20.%0A%20%20%3Fsup%20rdfs%3AsubClassOf%3F%20g13vocab%3ALocation%20.%0A%20%20%3Fsub%20rdfs%3AsubClassOf%20%3Fsup%0A%7D%0A"
+    url = "/sparql?endpoint=http://localhost:5820/KRweb/query/&query="+filter_query
+    return redirect(url)
+
     return render_template('google_maps_overlap_test.html')
 
 @app.route('/upload')
 def upload():
     return render_template('upload.html')
+
+@app.route('/sparql', methods=['GET'])
+def sparql():
+    endpoint = request.args.get('endpoint', None)
+    query = request.args.get('query', None)
+    return_format = request.args.get('format','JSON')
+
+    if endpoint and query :
+        sparql = SPARQLWrapper(endpoint)
+        sparql.setQuery(query)
+
+        if return_format == 'RDF':
+            sparql.setReturnFormat(RDF)
+        else :
+            sparql.setReturnFormat(JSON)
+            sparql.addParameter('Accept','application/sparql-results+json')
+
+        #sparql.addParameter('reasoning','true')
+        try :
+            response = sparql.query().convert()
+            if return_format == 'RDF':
+                return response.serialize(format='turtle')
+            else:
+                return make_filter_page(response["results"]["bindings"])
+                #return jsonify(response)
+        except Exception as e:
+            traceback.print_exc()
+            return jsonify({'result': 'Error'})
+    else :
+        return jsonify({'result': 'Error'})
+
+def make_filter_page(filter_data):
+    result = {}
+    for item in filter_data:
+        if not item["sup"]["value"] in result:
+            result[item["sup"]["value"]] = [item["sub"]["value"]]
+        else:
+            result[item["sup"]["value"]].append(item["sub"]["value"])
+    return render_template('google_maps_final.html', results=result)
 
 def parse_csv(filename):
     with open('data/'+filename, 'r', encoding="ISO-8859-1") as f:
@@ -50,7 +101,6 @@ def parse_csv(filename):
              result.append((count, title, lat, lng))
              count += 1
     return result
-
 
 if __name__ == '__main__':
       app.run(debug=True)
