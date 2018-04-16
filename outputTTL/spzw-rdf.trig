@@ -1,0 +1,627 @@
+@prefix : <http://few.vu.nl/~mvr320/KRweb/vocab/> .
+@prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
+@prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/spzw> .
+@prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
+@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix ns3: <http://dbpedia.org/property/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    ns1:spzwAGO_Zwembad_Diemen a :Instantie,
+            :swimmingPool ;
+        rdfs:label "AGO Zwembad Diemen"^^xsd:string ;
+        ns3:latitude 5.233658e+01 ;
+        ns3:longitude 4.975027e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.agozwembad.nl"^^xsd:string .
+
+    ns1:spzwAmstelbad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Amstelbad"^^xsd:string ;
+        ns3:latitude 5.230256e+01 ;
+        ns3:longitude 4.92082e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.amstelbad.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland> a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Amstelborgh/Borchland"^^xsd:string ;
+        ns3:latitude 5.231583e+01 ;
+        ns3:longitude 4.927626e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.borchland.nl"^^xsd:string .
+
+    ns1:spzwAmstelcampus a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Amstelcampus"^^xsd:string ;
+        ns3:latitude 5.235863e+01 ;
+        ns3:longitude 4.91002e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.usc.uva.nl"^^xsd:string .
+
+    ns1:spzwApollohal a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Apollohal"^^xsd:string ;
+        ns3:latitude 5.234807e+01 ;
+        ns3:longitude 4.884444e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwBijlmer_Sportcentrum a :Instantie,
+            :sportCentrum,
+            :swimmingPool ;
+        rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
+        ns3:latitude 5.231544e+01 ;
+        ns3:longitude 4.958035e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string .
+
+    ns1:spzwBlaashal_Gustav_Mahler a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Blaashal Gustav Mahler"^^xsd:string ;
+        ns3:latitude 5.233687e+01 ;
+        ns3:longitude 4.86783e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwBredius a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Bredius"^^xsd:string ;
+        ns3:latitude 5.239247e+01 ;
+        ns3:longitude 4.868338e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwDavid_Lloyd a :Instantie,
+            :swimmingPool ;
+        rdfs:label "David Lloyd"^^xsd:string ;
+        ns3:latitude 5.235762e+01 ;
+        ns3:longitude 4.855931e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.davidlloyd.nl"^^xsd:string .
+
+    ns1:spzwDe_Breek a :Instantie,
+            :swimmingPool ;
+        rdfs:label "De Breek"^^xsd:string ;
+        ns3:latitude 5.243097e+01 ;
+        ns3:longitude 4.908425e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.debreek.nl"^^xsd:string .
+
+    ns1:spzwDe_Mirandabad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "De Mirandabad"^^xsd:string ;
+        ns3:latitude 5.233873e+01 ;
+        ns3:longitude 4.902275e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwFlevoparkbad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Flevoparkbad"^^xsd:string ;
+        ns3:latitude 5.236493e+01 ;
+        ns3:longitude 4.95185e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwFrans_Otten_stadion a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Frans Otten stadion"^^xsd:string ;
+        ns3:latitude 5.233911e+01 ;
+        ns3:longitude 4.850591e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.fransottenstadion.nl"^^xsd:string .
+
+    ns1:spzwFriendship_Sports_Centre a :Instantie,
+            :sportCentrum,
+            :swimmingPool ;
+        rdfs:label "Friendship Sports Centre"^^xsd:string ;
+        ns3:latitude 5.240025e+01 ;
+        ns3:longitude 4.959847e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.friendshipsc.nl"^^xsd:string .
+
+    ns1:spzwHet_Marnix a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Het Marnix"^^xsd:string ;
+        ns3:latitude 5.237799e+01 ;
+        ns3:longitude 4.87848e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.hetmarnix.nl"^^xsd:string .
+
+    ns1:spzwHogendorp_Sportcentrum a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Hogendorp Sportcentrum"^^xsd:string ;
+        ns3:latitude 5.238165e+01 ;
+        ns3:longitude 4.867584e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwMatchZO a :Instantie,
+            :sportCentrum ;
+        rdfs:label "MatchZO"^^xsd:string ;
+        ns3:latitude 5.230881e+01 ;
+        ns3:longitude 5.014677e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.matchzo.nl"^^xsd:string .
+
+    ns1:spzwNoorderparkbad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Noorderparkbad"^^xsd:string ;
+        ns3:latitude 5.239827e+01 ;
+        ns3:longitude 4.918728e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSloterparkbad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Sloterparkbad"^^xsd:string ;
+        ns3:latitude 5.23717e+01 ;
+        ns3:longitude 4.815131e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSportPlaza_Mercator a :Instantie,
+            :swimmingPool ;
+        rdfs:label "SportPlaza Mercator"^^xsd:string ;
+        ns3:latitude 5.237175e+01 ;
+        ns3:longitude 4.846099e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.sportplazamercator.nl"^^xsd:string .
+
+    ns1:spzwSportPlaza_de_Sporthoeve a :Instantie,
+            :swimmingPool ;
+        rdfs:label "SportPlaza de Sporthoeve"^^xsd:string ;
+        ns3:latitude 5.234307e+01 ;
+        ns3:longitude 4.77477e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.sportplazanet.nl"^^xsd:string .
+
+    ns1:spzwSportcentrum_Caland a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sportcentrum Caland"^^xsd:string ;
+        ns3:latitude 5.235444e+01 ;
+        ns3:longitude 4.807133e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSportcentrum_De_Pijp a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sportcentrum De Pijp"^^xsd:string ;
+        ns3:latitude 5.234975e+01 ;
+        ns3:longitude 4.893715e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSportcentrum_Ookmeer a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sportcentrum Ookmeer"^^xsd:string ;
+        ns3:latitude 5.236786e+01 ;
+        ns3:longitude 4.803977e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSportcentrum_Reade_Therapiebad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Sportcentrum Reade Therapiebad"^^xsd:string ;
+        ns3:latitude 5.236995e+01 ;
+        ns3:longitude 4.843713e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website ""^^xsd:string .
+
+    ns1:spzwSportfondsenbad_Oost a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Sportfondsenbad Oost"^^xsd:string ;
+        ns3:latitude 5.235664e+01 ;
+        ns3:longitude 4.928487e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.sportfondsenbadamsterdamoost.nl/"^^xsd:string .
+
+    ns1:spzwSporthal_Aristos a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Aristos"^^xsd:string ;
+        ns3:latitude 5.238206e+01 ;
+        ns3:longitude 4.784359e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Blauw-Wit a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Blauw-Wit"^^xsd:string ;
+        ns3:latitude 5.237593e+01 ;
+        ns3:longitude 4.857356e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Calvijn a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Calvijn"^^xsd:string ;
+        ns3:latitude 5.23561e+01 ;
+        ns3:longitude 4.831522e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)> a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Centrum voor Vrijetijd (CVT)"^^xsd:string ;
+        ns3:latitude 5.235682e+01 ;
+        ns3:longitude 4.99617e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_De_Weeren a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal De Weeren"^^xsd:string ;
+        ns3:latitude 5.240119e+01 ;
+        ns3:longitude 4.959338e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Elzenhagen a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Elzenhagen"^^xsd:string ;
+        ns3:latitude 5.240132e+01 ;
+        ns3:longitude 4.925659e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Gaasperdam a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Gaasperdam"^^xsd:string ;
+        ns3:latitude 5.229677e+01 ;
+        ns3:longitude 4.978257e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_IJburg a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal IJburg"^^xsd:string ;
+        ns3:latitude 5.23513e+01 ;
+        ns3:longitude 5.004335e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Laan_van_Spartaan a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Laan van Spartaan"^^xsd:string ;
+        ns3:latitude 5.237335e+01 ;
+        ns3:longitude 4.839175e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Oostenburg a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Oostenburg"^^xsd:string ;
+        ns3:latitude 5.236809e+01 ;
+        ns3:longitude 4.925211e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_ROC_Europaboulevard a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal ROC Europaboulevard"^^xsd:string ;
+        ns3:latitude 5.23396e+01 ;
+        ns3:longitude 4.892803e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Wethouder_Verheij a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Wethouder Verheij"^^xsd:string ;
+        ns3:latitude 5.235789e+01 ;
+        ns3:longitude 4.931351e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthal_Zeeburg a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthal Zeeburg"^^xsd:string ;
+        ns3:latitude 5.236594e+01 ;
+        ns3:longitude 4.951309e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSporthallen_Zuid a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Sporthallen Zuid"^^xsd:string ;
+        ns3:latitude 5.233998e+01 ;
+        ns3:longitude 4.854107e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwSwimgym a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Swimgym"^^xsd:string ;
+        ns3:latitude 5.235432e+01 ;
+        ns3:longitude 4.912729e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.swimgym.nl"^^xsd:string .
+
+    ns1:spzwTennishal_Strandvliet a :Instantie,
+            :tennisHall ;
+        rdfs:label "Tennishal Strandvliet"^^xsd:string ;
+        ns3:latitude 5.231615e+01 ;
+        ns3:longitude 4.937356e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.tennishalstrandvliet.nl/"^^xsd:string .
+
+    ns1:spzwUniversum a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Universum"^^xsd:string ;
+        ns3:latitude 5.235565e+01 ;
+        ns3:longitude 4.9563e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.usc.uva.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)> a :Instantie,
+            :sportCentrum ;
+        rdfs:label "Velodrome (sporthal en wielerbaan)"^^xsd:string ;
+        ns3:latitude 5.234195e+01 ;
+        ns3:longitude 4.821956e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwVictoriabad_Weesp a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Victoriabad Weesp"^^xsd:string ;
+        ns3:latitude 5.22984e+01 ;
+        ns3:longitude 5.027111e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.zwembadweesp.nl"^^xsd:string .
+
+    ns1:spzwZuiderbad a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Zuiderbad"^^xsd:string ;
+        ns3:latitude 5.235867e+01 ;
+        ns3:longitude 4.886026e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
+
+    ns1:spzwZwembad_De_Meerkamp a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Zwembad De Meerkamp"^^xsd:string ;
+        ns3:latitude 5.228843e+01 ;
+        ns3:longitude 4.852625e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.meerkamp.nl"^^xsd:string .
+
+    ns1:spzwZwembad_De_Werf a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Zwembad De Werf"^^xsd:string ;
+        ns3:latitude 5.240708e+01 ;
+        ns3:longitude 4.895428e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "https://www.oerbron.nl/zwemmen/de-zwembaden/de-werf"^^xsd:string .
+
+    ns1:spzwZwembad_Drostenburg a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Zwembad Drostenburg"^^xsd:string ;
+        ns3:latitude 5.232225e+01 ;
+        ns3:longitude 4.946877e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.orion.nl"^^xsd:string .
+
+    ns1:spzwZwembad_IJburg a :Instantie,
+            :swimmingPool ;
+        rdfs:label "Zwembad IJburg"^^xsd:string ;
+        ns3:latitude 5.234844e+01 ;
+        ns3:longitude 5.009159e+00 ;
+        :providesDentalcareTo :adult ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.zwembad-ijburg.nl"^^xsd:string .
+
+    : a owl:Ontology .
+
+    :JoodsVerpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :verpleegZorgHuis .
+
+    :addictCare a owl:Class ;
+        rdfs:subClassOf :organisations ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :addictsPrevention ;
+                owl:onProperty :providesInformationAbout ],
+            [ a owl:Restriction ;
+                owl:hasValue :addictsReintegration ;
+                owl:onProperty :providesInformationAbout ] .
+
+    :addicts a :riskGroups,
+            owl:NamedIndividual .
+
+    :day a :careTimes,
+            owl:NamedIndividual .
+
+    :dayActivity a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :dentalCare a owl:Class ;
+        rdfs:subClassOf :healthCare ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:onProperty :providesDentalcareTo ;
+                owl:someValuesFrom :ageGroups ] .
+
+    :elderly a :riskGroups,
+            owl:NamedIndividual .
+
+    :elderlyCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :food a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :generalPractitioner a owl:Class ;
+        rdfs:subClassOf :healthCare .
+
+    :homelessPeople a :riskGroups,
+            owl:NamedIndividual .
+
+    :homelessPrevention a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :homelessReintegration a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :instantie a owl:Class .
+
+    :lhbt a :riskGroups,
+            owl:NamedIndividual .
+
+    :lhbtIssues a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :livingAccomodation a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :medicalIssues a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :night a :careTimes,
+            owl:NamedIndividual .
+
+    :park a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
+    :providesReintegration a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :reintegrationPossibilites ;
+        rdfs:subPropertyOf :provides .
+
+    :providesSpecialCare a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :careTimes ;
+        rdfs:subPropertyOf :provides .
+
+    :rheumatismCenter a owl:Class ;
+        rdfs:subClassOf :healthCare .
+
+    :sleepLocation a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :specialNeedCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :sportInterestedGroups a owl:Class ;
+        rdfs:subClassOf :groups .
+
+    :website a owl:ObjectProperty .
+
+    :work a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :addictsPrevention a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :addictsReintegration a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :adults a :ageGroups,
+            owl:NamedIndividual .
+
+    :children a :ageGroups,
+            owl:NamedIndividual .
+
+    :providesDentalcareTo a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :ageGroups ;
+        rdfs:subPropertyOf :provides .
+
+    :sportcentrum a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
+    :tennisHall a owl:Class ;
+        rdfs:subClassOf :sportcentrum .
+
+    :verpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :healthCare .
+
+    :groups a owl:Class .
+
+    :providesInformationAbout a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :knowledgeDomain ;
+        rdfs:subPropertyOf :provides .
+
+    :careTimes a owl:Class .
+
+    :leisureLocation a owl:Class .
+
+    :ageGroups a owl:Class .
+
+    :healthCare a owl:Class ;
+        rdfs:subClassOf :organisations .
+
+    :provides a owl:ObjectProperty .
+
+    :riskGroups a owl:Class ;
+        rdfs:subClassOf :groups .
+
+    :organisations a owl:Class .
+
+    :reintegrationPossibilites a owl:Class .
+
+    :knowledgeDomain a owl:Class .
+
+    :swimmingPool a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
+    [] a owl:AllDifferent ;
+        owl:distinctMembers [ a rdf:List ;
+                rdf:first :adults ;
+                rdf:rest [ a rdf:List ;
+                        rdf:first :children ;
+                        rdf:rest () ] ] .
+}
+
