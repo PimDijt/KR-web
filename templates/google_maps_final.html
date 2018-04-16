@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Google maps filter</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      li, ul {
+        list-style-type: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="floating-panel">
+
+    </div>
+    <div id="map"></div>
+    <script>
+
+      filter = [];
+      var id = 0;
+      var sub_id = 0;
+      {% for _class in results %}
+        object = {};
+        object.name = "{{_class}}";
+        object.id = id;
+        object.sub_classes = [];
+        {% for _sub_class in results[_class] %}
+          sub_object = {};
+          sub_object.name = "{{_sub_class}}"
+          sub_object.id = sub_id;
+          object.sub_classes.push(sub_object);
+          sub_id += 1;
+        {% endfor %}
+        filter.push(object);
+        id += 1;
+      {% endfor %}
+
+      var div = document.getElementById('floating-panel');
+      var ul = document.createElement('ul');
+      var li;
+      filter.forEach(function(item){
+        li = document.createElement('li');
+
+        var radio_name = document.createElement('input');
+        radio_name.setAttribute('checked', true);
+        radio_name.setAttribute('type', 'checkbox');
+        radio_name.setAttribute('id', item.id);
+        radio_name.setAttribute('onclick', 'change_selection(this)');
+
+        var radio_name_label = document.createElement('label');
+        radio_name_label.appendChild(document.createTextNode(item.name));
+
+        li.appendChild(radio_name);
+        li.appendChild(radio_name_label);
+
+
+        item.sub_classes.forEach(function(sub){
+          console.log(sub);
+          var nes_ul = document.createElement('ul');
+          var nes_li1 =  document.createElement('li');
+
+          var radio_circle = document.createElement('input');
+          radio_circle.setAttribute('checked', true);
+          radio_circle.setAttribute('type', 'checkbox');
+          radio_circle.setAttribute('id', sub.id);
+          radio_circle.setAttribute('onclick', 'change_circles(this)');
+
+          var radio_circle_label = document.createElement('label');
+          radio_circle_label.appendChild(document.createTextNode(sub.name));
+          nes_li1.appendChild(radio_circle);
+          nes_li1.appendChild(radio_circle_label);
+
+          nes_ul.appendChild(nes_li1);
+
+          var nes_li2 = document.createElement('li');
+
+          var slider = document.createElement('input');
+          slider.setAttribute('type', 'range');
+          slider.setAttribute('min', 1);
+          slider.setAttribute('max', 4);
+          slider.setAttribute('id', item.id);
+          slider.setAttribute('value', 1);
+          slider.setAttribute('onchange', 'change_radius(this)');
+
+          nes_li2.appendChild(slider);
+
+          nes_ul.appendChild(nes_li2);
+
+          li.appendChild(nes_ul);
+          ul.appendChild(li);
+        });
+      });
+      div.appendChild(ul);
+
+      function change_selection(element){
+        var object_id = element.id;
+        if(element.checked){
+          objects[object_id].show = true;
+        }else{
+          objects[object_id].show = false;
+        }
+        show_map();
+      }
+
+      function change_circles(element){
+        var object_id = element.id;
+        if(element.checked){
+          objects[object_id].circles = true;
+        }else{
+          objects[object_id].circles = false;
+        }
+        show_map();
+      }
+
+      function change_radius(element){
+        var object_id = element.id;
+        objects[object_id].radius = element.value;
+        show_map();
+      }
+
+      var markers = [];
+
+
+      function add_marker(id, marker, map, circle, color, radius) {
+        var lat_lng = {lat: marker.lat, lng: marker.lng}
+        window["marker"+id+"_"+marker.id] = new google.maps.Marker({
+          position: lat_lng,
+          map: map,
+          clickable: true,
+        });
+
+        window["marker"+id+"_"+marker.id].info = new google.maps.InfoWindow({
+          content: marker.title,
+        });
+        google.maps.event.addListener(   window["marker"+id+"_"+marker.id], 'click', function() {
+            window["marker"+id+"_"+marker.id].info.open(map, window["marker"+id+"_"+marker.id]);
+        });
+
+        if(circle){
+          var _radius = radius*100
+          var cityCircle = new google.maps.Circle({
+            strokeColor: color,
+            strokeOpacity: 0.5,
+            strokeWeight: 1,
+            fillColor: color,
+            fillOpacity: 0.25,
+            map: map,
+            center: lat_lng,
+            radius: _radius
+          });
+        }
+
+
+      }
+
+      function reset_markers() {
+        for (var i = 0; i < markers.length; i++) {
+          markers[i].setMap(null);
+        }
+        markers = [];
+      }
+
+      function show_map() {
+        // Create a map and center it on Amsterdam.
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: {lat: 52.379189, lng: 4.899431}
+        });
+
+        //reset_markers();
+        objects.forEach(function(item){
+          if(item.show){
+            item.markers.forEach(function(marker){
+              add_marker(item.id, marker, map, item.circles, item.color, item.radius);
+            });
+          }
+        });
+
+      }
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map">
+    </script>
+  </body>
+</html>
