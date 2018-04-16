@@ -115,13 +115,26 @@ _:genid3 a owl:Restriction ;
 :healthCare a owl:Class ;
 	rdfs:subClassOf :organisations .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/instantie
+
+:instantie a owl:Class .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/knowledgeDomain
 
 :knowledgeDomain a owl:Class .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/leisureLocation
+
+:leisureLocation a owl:Class .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/organisations
 
 :organisations a owl:Class .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/park
+
+:park a owl:Class ;
+	rdfs:subClassOf :leisureLocation .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/reintegrationPossibilites
 
@@ -141,6 +154,21 @@ _:genid3 a owl:Restriction ;
 
 :sportInterestedGroups a owl:Class ;
 	rdfs:subClassOf :groups .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/sportcentrum
+
+:sportcentrum a owl:Class ;
+	rdfs:subClassOf :leisureLocation .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/swimmingPool
+
+:swimmingPool a owl:Class ;
+	rdfs:subClassOf :leisureLocation .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/tennisHall
+
+:tennisHall a owl:Class ;
+	rdfs:subClassOf :sportcentrum .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/verpleegZorgHuis
 

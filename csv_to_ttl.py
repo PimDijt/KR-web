@@ -15,9 +15,10 @@ VOCAB = Namespace(vocab)
 data = 'http://few.vu.nl/~mvr320/KRweb/resource'
 DATA = Namespace(data)
 
-filenames = ["dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv","zorg-voor-mensen-met-een-beperking.csv"]
-short = ["dakth", "tooth", "lhbt", "verz","zorbep"]
+filenames = ["sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv","zorg-voor-mensen-met-een-beperking.csv"]
+short = ["spzw", "dakth", "tooth", "lhbt", "verz","zorbep"]
 for i in range(len(filenames)):
+    print(short[i])
     filename = 'data/'+filenames[i];
     with open(filename,'r', encoding="ISO-8859-1") as csvfile:
         # Set the right quote character and delimiter
@@ -65,12 +66,15 @@ for i in range(len(filenames)):
             name = Literal(row['titel'], datatype=XSD['string'])
             lat = Literal(lat, datatype=XSD['double'])
             lng = Literal(lng, datatype=XSD['double'])
-            website = Literal(row['internet'], datatype=XSD['string'])
+            if short[i] != "spzw":
+                website = Literal(row['internet'], datatype=XSD['string'])
+            else:
+                website = Literal(row['Website'], datatype=XSD['string'])
             dataset.add((thing, RDFS['label'], name))
             dataset.add((thing, DBP['latitude'], lat))
             dataset.add((thing, DBP['longitude'], lng))
             dataset.add((thing, VOCAB['website'], website))
-            dataset.add((thing, RDF['type'], VOCAB['Instantie']))
+            dataset.add((thing, RDF['type'], VOCAB['instantie']))
         else:
             thing = URIRef(to_iri(url+row['Naam']))
             lat = row['LAT']
@@ -82,6 +86,15 @@ for i in range(len(filenames)):
             dataset.add((thing, DBP['latitude'], lat))
             dataset.add((thing, DBP['longitude'], lng))
             dataset.add((thing, RDF['type'], VOCAB['park']))
+        if short[i] == "spzw":
+            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['movementIssues']))
+            if row['type'] == "Zwembad":
+                dataset.add((thing, RDF['type'], VOCAB['swimmingPool']))
+            if row['type'] == "Sporthal":
+                if "Tennis" in row['titel']:
+                    dataset.add((thing, RDF['type'], VOCAB['tennisHall']))
+                else:
+                    dataset.add((thing, RDF['type'], VOCAB['sportCentrum']))
         if short[i] == "tooth":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['dentalIssues']))
             if "Kindertandheelkunde" in row['titel']:
@@ -111,7 +124,6 @@ for i in range(len(filenames)):
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
             for esubstrih in substrih:
                 if esubstrih in row['titel']:
-                    dataset.add((thing, VOCAB['providesReintegration'], VOCAB['information']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsPrevention']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))

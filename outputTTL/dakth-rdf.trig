@@ -84,8 +84,7 @@
             :addictsReintegration,
             :homelessPrevention,
             :homelessReintegration ;
-        :providesReintegration :information,
-            :livingAccomodation,
+        :providesReintegration :livingAccomodation,
             :sleepLocation ;
         :website "Bureau Straatjurist : juridisch steunpunt voor dak- en thuislozen"^^xsd:string .
 
@@ -98,7 +97,6 @@
             :addictsReintegration,
             :homelessPrevention,
             :homelessReintegration ;
-        :providesReintegration :information ;
         :website "Centraal Meldpunt dakloze gezinnen"^^xsd:string .
 
     ns1:dakthCentrum_PS a :Instantie ;
@@ -251,7 +249,6 @@
             :homelessPrevention,
             :homelessReintegration ;
         :providesReintegration :dayActivity,
-            :information,
             :livingAccomodation,
             :sleepLocation,
             :work ;
@@ -479,7 +476,6 @@
             :homelessPrevention,
             :homelessReintegration ;
         :providesReintegration :dayActivity,
-            :information,
             :livingAccomodation,
             :sleepLocation,
             :work ;
@@ -577,8 +573,7 @@
             :addictsReintegration,
             :homelessPrevention,
             :homelessReintegration ;
-        :providesReintegration :food,
-            :information ;
+        :providesReintegration :food ;
         :website "Stichting Kruispost"^^xsd:string .
 
     ns1:dakthStichting_Stoelenproject a :Instantie ;
@@ -590,8 +585,7 @@
             :addictsReintegration,
             :homelessPrevention,
             :homelessReintegration ;
-        :providesReintegration :food,
-            :information ;
+        :providesReintegration :food ;
         :website "Stichting Stoelenproject"^^xsd:string .
 
     ns1:dakthStichting_Streetcornerwork_Amsterdam a :Instantie ;
@@ -605,7 +599,6 @@
             :homelessReintegration ;
         :providesReintegration :dayActivity,
             :food,
-            :information,
             :work ;
         :website "Stichting Streetcornerwork Amsterdam"^^xsd:string .
 
@@ -618,8 +611,7 @@
             :addictsReintegration,
             :homelessPrevention,
             :homelessReintegration ;
-        :providesReintegration :food,
-            :information ;
+        :providesReintegration :food ;
         :website "Stichting Volksbond Amsterdam"^^xsd:string .
 
     ns1:dakthStichting_Z a :Instantie ;
@@ -631,8 +623,7 @@
             :addictsReintegration,
             :homelessPrevention,
             :homelessReintegration ;
-        :providesReintegration :food,
-            :information ;
+        :providesReintegration :food ;
         :website "Stichting Z"^^xsd:string .
 
     ns1:dakthStreetcornerwork_Team_Centrum a :Instantie ;
@@ -739,6 +730,8 @@
     :homelessPeople a :riskGroups,
             owl:NamedIndividual .
 
+    :instantie a owl:Class .
+
     :lhbt a :riskGroups,
             owl:NamedIndividual .
 
@@ -750,6 +743,9 @@
 
     :night a :careTimes,
             owl:NamedIndividual .
+
+    :park a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
 
     :providesReintegration a owl:ObjectProperty ;
         rdfs:domain :organisations ;
@@ -770,6 +766,12 @@
     :sportInterestedGroups a owl:Class ;
         rdfs:subClassOf :groups .
 
+    :swimmingPool a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
+    :tennisHall a owl:Class ;
+        rdfs:subClassOf :sportcentrum .
+
     :website a owl:ObjectProperty .
 
     :adults a :ageGroups,
@@ -783,6 +785,9 @@
         rdfs:range :ageGroups ;
         rdfs:subPropertyOf :provides .
 
+    :sportcentrum a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
 
@@ -794,6 +799,8 @@
         rdfs:subPropertyOf :provides .
 
     :careTimes a owl:Class .
+
+    :leisureLocation a owl:Class .
 
     :ageGroups a owl:Class .
 
