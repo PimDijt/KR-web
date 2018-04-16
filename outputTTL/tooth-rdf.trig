@@ -12,7 +12,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns1:toothAOC_Tandartsenpraktijk a :instantie ;
+    ns1:toothAOC_Tandartsenpraktijk a :dentist,
+            :instantie ;
         rdfs:label "AOC Tandartsenpraktijk"^^xsd:string ;
         ns3:latitude 5.236429e+01 ;
         ns3:longitude 4.870518e+00 ;
@@ -20,7 +21,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsenpraktijk-aoc.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothAcademisch_Centrum_Tandheelkunde_Amsterdam,_(ACTA)> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothAcademisch_Centrum_Tandheelkunde_Amsterdam,_(ACTA)> a :dentist,
+            :instantie ;
         rdfs:label "Academisch Centrum Tandheelkunde Amsterdam, (ACTA)"^^xsd:string ;
         ns3:latitude 5.233615e+01 ;
         ns3:longitude 4.861338e+00 ;
@@ -28,7 +30,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.acta.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothAlgemene_Amsterdamse_Particuliere_Tandverzorging_(AAPT)> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothAlgemene_Amsterdamse_Particuliere_Tandverzorging_(AAPT)> a :dentist,
+            :instantie ;
         rdfs:label "Algemene Amsterdamse Particuliere Tandverzorging (AAPT)"^^xsd:string ;
         ns3:latitude 5.235848e+01 ;
         ns3:longitude 4.906345e+00 ;
@@ -36,7 +39,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.aapt.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothAmsterdams_Centrum_Cosmetische_Tandheelkunde_(ACCT)> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothAmsterdams_Centrum_Cosmetische_Tandheelkunde_(ACCT)> a :dentist,
+            :instantie ;
         rdfs:label "Amsterdams Centrum Cosmetische Tandheelkunde (ACCT)"^^xsd:string ;
         ns3:latitude 5.238325e+01 ;
         ns3:longitude 4.831403e+00 ;
@@ -44,7 +48,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.acct.nl"^^xsd:string .
 
-    ns1:toothAmsterdams_Tandheelkundig_Team a :instantie ;
+    ns1:toothAmsterdams_Tandheelkundig_Team a :dentist,
+            :instantie ;
         rdfs:label "Amsterdams Tandheelkundig Team"^^xsd:string ;
         ns3:latitude 5.236662e+01 ;
         ns3:longitude 4.885878e+00 ;
@@ -52,7 +57,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothAmsterdamse_Kliniek_voor_Cosmetische_Tandheelkunde_en_Implantologie a :instantie ;
+    ns1:toothAmsterdamse_Kliniek_voor_Cosmetische_Tandheelkunde_en_Implantologie a :dentist,
+            :instantie ;
         rdfs:label "Amsterdamse Kliniek voor Cosmetische Tandheelkunde en Implantologie"^^xsd:string ;
         ns3:latitude 5.235073e+01 ;
         ns3:longitude 4.879233e+00 ;
@@ -60,7 +66,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.implantaten.nl"^^xsd:string .
 
-    ns1:toothAtlas_Tandheelkundige_Kliniek a :instantie ;
+    ns1:toothAtlas_Tandheelkundige_Kliniek a :dentist,
+            :instantie ;
         rdfs:label "Atlas Tandheelkundige Kliniek"^^xsd:string ;
         ns3:latitude 5.237309e+01 ;
         ns3:longitude 4.906745e+00 ;
@@ -68,7 +75,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.atlaskliniek.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothCentrum_Bijzondere_Tandheelkunde_(CBT)> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothCentrum_Bijzondere_Tandheelkunde_(CBT)> a :dentist,
+            :instantie ;
         rdfs:label "Centrum Bijzondere Tandheelkunde (CBT)"^^xsd:string ;
         ns3:latitude 5.235304e+01 ;
         ns3:longitude 4.877166e+00 ;
@@ -76,7 +84,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.jellinek.nl/centrum-bijzondere-tandheelkunde/"^^xsd:string .
 
-    ns1:toothCentrum_voor_Endodontologie_Amsterdam a :instantie ;
+    ns1:toothCentrum_voor_Endodontologie_Amsterdam a :dentist,
+            :instantie ;
         rdfs:label "Centrum voor Endodontologie Amsterdam"^^xsd:string ;
         ns3:latitude 5.232395e+01 ;
         ns3:longitude 4.866e+00 ;
@@ -84,7 +93,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.endocentre.nl/"^^xsd:string .
 
-    ns1:toothDentalZorg a :instantie ;
+    ns1:toothDentalZorg a :dentist,
+            :instantie ;
         rdfs:label "DentalZorg"^^xsd:string ;
         ns3:latitude 5.239172e+01,
             5.239392e+01 ;
@@ -94,7 +104,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dentalzorg.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothDental_220,_tandartspraktijk> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothDental_220,_tandartspraktijk> a :dentist,
+            :instantie ;
         rdfs:label "Dental 220, tandartspraktijk"^^xsd:string ;
         ns3:latitude 5.235673e+01 ;
         ns3:longitude 4.896882e+00 ;
@@ -102,7 +113,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dental220.nl"^^xsd:string .
 
-    ns1:toothDental_Clinic_de_Aker a :instantie ;
+    ns1:toothDental_Clinic_de_Aker a :dentist,
+            :instantie ;
         rdfs:label "Dental Clinic de Aker"^^xsd:string ;
         ns3:latitude 5.234779e+01 ;
         ns3:longitude 4.788728e+00 ;
@@ -110,7 +122,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.beaudent.nl"^^xsd:string .
 
-    ns1:toothDental_Factory a :instantie ;
+    ns1:toothDental_Factory a :dentist,
+            :instantie ;
         rdfs:label "Dental Factory"^^xsd:string ;
         ns3:latitude 5.237405e+01 ;
         ns3:longitude 4.855147e+00 ;
@@ -118,7 +131,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dentalfactory.nl"^^xsd:string .
 
-    ns1:toothGezondheidscentrum_Sanitas a :instantie ;
+    ns1:toothGezondheidscentrum_Sanitas a :dentist,
+            :instantie ;
         rdfs:label "Gezondheidscentrum Sanitas"^^xsd:string ;
         ns3:latitude 5.237805e+01 ;
         ns3:longitude 4.841625e+00 ;
@@ -126,7 +140,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.sanitas.nl"^^xsd:string .
 
-    ns1:toothImplantologie_Amsterdam a :instantie ;
+    ns1:toothImplantologie_Amsterdam a :dentist,
+            :instantie ;
         rdfs:label "Implantologie Amsterdam"^^xsd:string ;
         ns3:latitude 5.234674e+01 ;
         ns3:longitude 4.877444e+00 ;
@@ -134,7 +149,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.implantologieamsterdam.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothIvory_&_Ivory> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothIvory_&_Ivory> a :dentist,
+            :instantie ;
         rdfs:label "Ivory & Ivory"^^xsd:string ;
         ns3:latitude 5.235943e+01 ;
         ns3:longitude 4.896191e+00 ;
@@ -142,7 +158,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.ivory-ivory.nl"^^xsd:string .
 
-    ns1:toothKesseler___Lock_kliniek_tandheelkunde_en_implantologie a :instantie ;
+    ns1:toothKesseler___Lock_kliniek_tandheelkunde_en_implantologie a :dentist,
+            :instantie ;
         rdfs:label "Kesseler | Lock kliniek tandheelkunde en implantologie"^^xsd:string ;
         ns3:latitude 5.232859e+01 ;
         ns3:longitude 4.863642e+00 ;
@@ -150,7 +167,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.implantologie.nl"^^xsd:string .
 
-    ns1:toothKliniek_Amsterdamse_Tandartsen a :instantie ;
+    ns1:toothKliniek_Amsterdamse_Tandartsen a :dentist,
+            :instantie ;
         rdfs:label "Kliniek Amsterdamse Tandartsen"^^xsd:string ;
         ns3:latitude 5.234457e+01 ;
         ns3:longitude 4.887741e+00 ;
@@ -158,7 +176,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.kliniekamsterdamsetandartsen.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothKliniek_voor_Cosmetische_Tandheelkunde_(KCT)_Amsterdam_Zuid> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothKliniek_voor_Cosmetische_Tandheelkunde_(KCT)_Amsterdam_Zuid> a :dentist,
+            :instantie ;
         rdfs:label "Kliniek voor Cosmetische Tandheelkunde (KCT) Amsterdam Zuid"^^xsd:string ;
         ns3:latitude 5.235285e+01 ;
         ns3:longitude 4.885094e+00 ;
@@ -166,7 +185,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.kctamsterdamzuid.nl"^^xsd:string .
 
-    ns1:toothKliniek_voor_Parodontologie a :instantie ;
+    ns1:toothKliniek_voor_Parodontologie a :dentist,
+            :instantie ;
         rdfs:label "Kliniek voor Parodontologie"^^xsd:string ;
         ns3:latitude 5.233009e+01 ;
         ns3:longitude 4.889195e+00 ;
@@ -174,7 +194,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.kvpa.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothLassus,_Amsterdamse_praktijk_voor_tandheelkunde> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothLassus,_Amsterdamse_praktijk_voor_tandheelkunde> a :dentist,
+            :instantie ;
         rdfs:label "Lassus, Amsterdamse praktijk voor tandheelkunde"^^xsd:string ;
         ns3:latitude 5.235248e+01 ;
         ns3:longitude 4.866032e+00 ;
@@ -182,7 +203,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.lassustandartsen.nl"^^xsd:string .
 
-    ns1:toothLassus_Tandartsen_Keizersgracht a :instantie ;
+    ns1:toothLassus_Tandartsen_Keizersgracht a :dentist,
+            :instantie ;
         rdfs:label "Lassus Tandartsen Keizersgracht"^^xsd:string ;
         ns3:latitude 5.237663e+01 ;
         ns3:longitude 4.886646e+00 ;
@@ -190,7 +212,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "www.lassustandartsen.nl"^^xsd:string .
 
-    ns1:toothM9_Tandheelkunde a :instantie ;
+    ns1:toothM9_Tandheelkunde a :dentist,
+            :instantie ;
         rdfs:label "M9 Tandheelkunde"^^xsd:string ;
         ns3:latitude 5.235e+01 ;
         ns3:longitude 4.874794e+00 ;
@@ -198,7 +221,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandheelkundem9.nl"^^xsd:string .
 
-    ns1:toothMaasstraat_Tandartspraktijk a :instantie ;
+    ns1:toothMaasstraat_Tandartspraktijk a :dentist,
+            :instantie ;
         rdfs:label "Maasstraat Tandartspraktijk"^^xsd:string ;
         ns3:latitude 5.234733e+01 ;
         ns3:longitude 4.8954e+00 ;
@@ -206,7 +230,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpmaasstraat.nl"^^xsd:string .
 
-    ns1:toothMedical_Dent_Esthetics a :instantie ;
+    ns1:toothMedical_Dent_Esthetics a :dentist,
+            :instantie ;
         rdfs:label "Medical Dent Esthetics"^^xsd:string ;
         ns3:latitude 5.237959e+01 ;
         ns3:longitude 4.923501e+00 ;
@@ -214,7 +239,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://medicaldentesthetics.nl"^^xsd:string .
 
-    ns1:toothMekenkamp_Mondhygiënisten_en_Tandartsen a :instantie ;
+    ns1:toothMekenkamp_Mondhygiënisten_en_Tandartsen a :dentist,
+            :instantie ;
         rdfs:label "Mekenkamp Mondhygiënisten en Tandartsen"^^xsd:string ;
         ns3:latitude 5.234617e+01 ;
         ns3:longitude 4.871154e+00 ;
@@ -222,7 +248,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.mekenkamp.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothMondzorg_Centrum_Nieuw_Sloten a :instantie ;
+    ns1:toothMondzorg_Centrum_Nieuw_Sloten a :dentist,
+            :instantie ;
         rdfs:label "Mondzorg Centrum Nieuw Sloten"^^xsd:string ;
         ns3:latitude 5.23492e+01 ;
         ns3:longitude 4.832637e+00 ;
@@ -230,7 +257,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.mondzorgcentrum-amsterdam.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothMondzorgpraktijk_De_Gezonde_Lach,_praktijk_voor_tandheelkunde_en_mondhygiëne> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothMondzorgpraktijk_De_Gezonde_Lach,_praktijk_voor_tandheelkunde_en_mondhygiëne> a :dentist,
+            :instantie ;
         rdfs:label "Mondzorgpraktijk De Gezonde Lach, praktijk voor tandheelkunde en mondhygiëne"^^xsd:string ;
         ns3:latitude 5.237139e+01 ;
         ns3:longitude 4.871698e+00 ;
@@ -238,7 +266,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.degezondelach.com"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothNieuwe_Tandarts_Groepspraktijk_Rooseveltlaan_(NTGR)> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothNieuwe_Tandarts_Groepspraktijk_Rooseveltlaan_(NTGR)> a :dentist,
+            :instantie ;
         rdfs:label "Nieuwe Tandarts Groepspraktijk Rooseveltlaan (NTGR)"^^xsd:string ;
         ns3:latitude 5.234417e+01 ;
         ns3:longitude 4.898935e+00 ;
@@ -246,7 +275,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.ntgr.nl"^^xsd:string .
 
-    ns1:toothOmnivor_Tandzorg_en_Implantologie a :instantie ;
+    ns1:toothOmnivor_Tandzorg_en_Implantologie a :dentist,
+            :instantie ;
         rdfs:label "Omnivor Tandzorg en Implantologie"^^xsd:string ;
         ns3:latitude 5.236192e+01 ;
         ns3:longitude 4.889073e+00 ;
@@ -254,7 +284,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.omnivor.com"^^xsd:string .
 
-    ns1:toothOostdent_Tandheelkundig_Centrum a :instantie ;
+    ns1:toothOostdent_Tandheelkundig_Centrum a :dentist,
+            :instantie ;
         rdfs:label "Oostdent Tandheelkundig Centrum"^^xsd:string ;
         ns3:latitude 5.236396e+01 ;
         ns3:longitude 4.94343e+00 ;
@@ -262,7 +293,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.oostdent.nl"^^xsd:string .
 
-    ns1:toothParodontologie_Praktijk_Amsterdam a :instantie ;
+    ns1:toothParodontologie_Praktijk_Amsterdam a :dentist,
+            :instantie ;
         rdfs:label "Parodontologie Praktijk Amsterdam"^^xsd:string ;
         ns3:latitude 5.238534e+01 ;
         ns3:longitude 4.87487e+00 ;
@@ -270,7 +302,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.paropraktijk.com"^^xsd:string .
 
-    ns1:toothPraktijk_voor_Kindertandheelkunde a :instantie ;
+    ns1:toothPraktijk_voor_Kindertandheelkunde a :dentist,
+            :instantie ;
         rdfs:label "Praktijk voor Kindertandheelkunde"^^xsd:string ;
         ns3:latitude 5.234611e+01,
             5.235011e+01,
@@ -278,12 +311,12 @@
         ns3:longitude 4.839189e+00,
             4.864313e+00,
             4.870025e+00 ;
-        :providesDentalcareTo :adult,
-            :child ;
+        :providesDentalcareTo :child ;
         :providesInformationAbout :dentalIssues ;
         :website "http://www.kindertand.nl"^^xsd:string .
 
-    ns1:toothPraktijk_voor_Tandheelkunde_en_Implantologie_Huizingalaan a :instantie ;
+    ns1:toothPraktijk_voor_Tandheelkunde_en_Implantologie_Huizingalaan a :dentist,
+            :instantie ;
         rdfs:label "Praktijk voor Tandheelkunde en Implantologie Huizingalaan"^^xsd:string ;
         ns3:latitude 5.236041e+01 ;
         ns3:longitude 4.826874e+00 ;
@@ -291,7 +324,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartshuizingalaan.nl"^^xsd:string .
 
-    ns1:toothPromident_tandtechnisch_laboratorium a :instantie ;
+    ns1:toothPromident_tandtechnisch_laboratorium a :dentist,
+            :instantie ;
         rdfs:label "Promident tandtechnisch laboratorium"^^xsd:string ;
         ns3:latitude 5.235709e+01 ;
         ns3:longitude 4.808449e+00 ;
@@ -299,7 +333,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.promident.nl/"^^xsd:string .
 
-    ns1:toothQyom_tandartsengroep_Amsterdam a :instantie ;
+    ns1:toothQyom_tandartsengroep_Amsterdam a :dentist,
+            :instantie ;
         rdfs:label "Qyom tandartsengroep Amsterdam"^^xsd:string ;
         ns3:latitude 5.238141e+01 ;
         ns3:longitude 4.884976e+00 ;
@@ -307,7 +342,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.qyom.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothRivierenbuurt,_tandartspraktijk_en_tandtechnische_praktijk> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothRivierenbuurt,_tandartspraktijk_en_tandtechnische_praktijk> a :dentist,
+            :instantie ;
         rdfs:label "Rivierenbuurt, tandartspraktijk en tandtechnische praktijk"^^xsd:string ;
         ns3:latitude 5.234238e+01 ;
         ns3:longitude 4.89839e+00 ;
@@ -315,7 +351,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsrivierenbuurt.nl"^^xsd:string .
 
-    ns1:toothSBT_Kliniek_Bijzondere_Tandheelkunde a :instantie ;
+    ns1:toothSBT_Kliniek_Bijzondere_Tandheelkunde a :dentist,
+            :instantie ;
         rdfs:label "SBT Kliniek Bijzondere Tandheelkunde"^^xsd:string ;
         ns3:latitude 5.233615e+01 ;
         ns3:longitude 4.861338e+00 ;
@@ -323,7 +360,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.sbt.nl"^^xsd:string .
 
-    ns1:toothSyrec_Tandartsengroep a :instantie ;
+    ns1:toothSyrec_Tandartsengroep a :dentist,
+            :instantie ;
         rdfs:label "Syrec Tandartsengroep"^^xsd:string ;
         ns3:latitude 5.235456e+01 ;
         ns3:longitude 4.841127e+00 ;
@@ -331,7 +369,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.syrec.nl"^^xsd:string .
 
-    ns1:toothTTH_Bilderdijk a :instantie ;
+    ns1:toothTTH_Bilderdijk a :dentist,
+            :instantie ;
         rdfs:label "TTH Bilderdijk"^^xsd:string ;
         ns3:latitude 5.237129e+01 ;
         ns3:longitude 4.87029e+00 ;
@@ -339,7 +378,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tthtandheelkunde.nl/"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartsen_aan_de_Herengracht_(TADH)> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartsen_aan_de_Herengracht_(TADH)> a :dentist,
+            :instantie ;
         rdfs:label "Tandartsen aan de Herengracht (TADH)"^^xsd:string ;
         ns3:latitude 5.23698e+01 ;
         ns3:longitude 4.886459e+00 ;
@@ -347,7 +387,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tadh.nl"^^xsd:string .
 
-    ns1:toothTandartsencentrum_Osdorpplein a :instantie ;
+    ns1:toothTandartsencentrum_Osdorpplein a :dentist,
+            :instantie ;
         rdfs:label "Tandartsencentrum Osdorpplein"^^xsd:string ;
         ns3:latitude 5.235923e+01 ;
         ns3:longitude 4.803768e+00 ;
@@ -355,7 +396,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://tandartsencentrumosdorpplein.nl/"^^xsd:string .
 
-    ns1:toothTandartsengroep_Aalsmeerweg a :instantie ;
+    ns1:toothTandartsengroep_Aalsmeerweg a :dentist,
+            :instantie ;
         rdfs:label "Tandartsengroep Aalsmeerweg"^^xsd:string ;
         ns3:latitude 5.235047e+01 ;
         ns3:longitude 4.849236e+00 ;
@@ -363,7 +405,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsengroepaalsmeerweg.nl"^^xsd:string .
 
-    ns1:toothTandartsengroepspraktijk_Banne_Buiksloot a :instantie ;
+    ns1:toothTandartsengroepspraktijk_Banne_Buiksloot a :dentist,
+            :instantie ;
         rdfs:label "Tandartsengroepspraktijk Banne Buiksloot"^^xsd:string ;
         ns3:latitude 5.241133e+01 ;
         ns3:longitude 4.922968e+00 ;
@@ -371,7 +414,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.gzc-bannebuiksloot.nl/zorgverleners/tandartsen"^^xsd:string .
 
-    ns1:toothTandartsengroepspraktijk_Borgerstraat a :instantie ;
+    ns1:toothTandartsengroepspraktijk_Borgerstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartsengroepspraktijk Borgerstraat"^^xsd:string ;
         ns3:latitude 5.236546e+01 ;
         ns3:longitude 4.867436e+00 ;
@@ -379,7 +423,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://borgerstraat.praktijkinfo.nl"^^xsd:string .
 
-    ns1:toothTandartsengroepspraktijk_Van_Eesterenlaan a :instantie ;
+    ns1:toothTandartsengroepspraktijk_Van_Eesterenlaan a :dentist,
+            :instantie ;
         rdfs:label "Tandartsengroepspraktijk Van Eesterenlaan"^^xsd:string ;
         ns3:latitude 5.237093e+01 ;
         ns3:longitude 4.938911e+00 ;
@@ -387,7 +432,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkcvaneesterenlaan.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Amsterdam a :instantie ;
+    ns1:toothTandartsenpraktijk_Amsterdam a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Amsterdam"^^xsd:string ;
         ns3:latitude 5.234382e+01,
             5.236311e+01,
@@ -399,7 +445,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpamsterdam.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Amsterdam_Noord a :instantie ;
+    ns1:toothTandartsenpraktijk_Amsterdam_Noord a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Amsterdam Noord"^^xsd:string ;
         ns3:latitude 5.238959e+01 ;
         ns3:longitude 4.910474e+00 ;
@@ -407,7 +454,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpan.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Blok_en_Huijmans a :instantie ;
+    ns1:toothTandartsenpraktijk_Blok_en_Huijmans a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Blok en Huijmans"^^xsd:string ;
         ns3:latitude 5.237195e+01 ;
         ns3:longitude 4.858608e+00 ;
@@ -415,7 +463,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartsenpraktijk_Bolhuis,_Holten_&_Folmer> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartsenpraktijk_Bolhuis,_Holten_&_Folmer> a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Bolhuis, Holten & Folmer"^^xsd:string ;
         ns3:latitude 5.232413e+01 ;
         ns3:longitude 4.868301e+00 ;
@@ -423,7 +472,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.bolhuis-holten.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Buitenveldert a :instantie ;
+    ns1:toothTandartsenpraktijk_Buitenveldert a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Buitenveldert"^^xsd:string ;
         ns3:latitude 5.232747e+01 ;
         ns3:longitude 4.869362e+00 ;
@@ -431,7 +481,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsenpraktijkbuitenveldert.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Chin a :instantie ;
+    ns1:toothTandartsenpraktijk_Chin a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Chin"^^xsd:string ;
         ns3:latitude 5.235019e+01 ;
         ns3:longitude 4.86942e+00 ;
@@ -439,7 +490,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Copernicus a :instantie ;
+    ns1:toothTandartsenpraktijk_Copernicus a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Copernicus"^^xsd:string ;
         ns3:latitude 5.235555e+01 ;
         ns3:longitude 4.938113e+00 ;
@@ -447,7 +499,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://tandartsenpraktijkcopernicus.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Czaar_Peterstraat a :instantie ;
+    ns1:toothTandartsenpraktijk_Czaar_Peterstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Czaar Peterstraat"^^xsd:string ;
         ns3:latitude 5.23699e+01 ;
         ns3:longitude 4.928893e+00 ;
@@ -455,7 +508,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandzorgczaarpeter.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_De_Noorderboog a :instantie ;
+    ns1:toothTandartsenpraktijk_De_Noorderboog a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk De Noorderboog"^^xsd:string ;
         ns3:latitude 5.240218e+01 ;
         ns3:longitude 4.930493e+00 ;
@@ -463,7 +517,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://tandartsnoorderboog.nl/"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Dedic a :instantie ;
+    ns1:toothTandartsenpraktijk_Dedic a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Dedic"^^xsd:string ;
         ns3:latitude 5.23746e+01 ;
         ns3:longitude 4.805592e+00 ;
@@ -471,7 +526,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Fallah a :instantie ;
+    ns1:toothTandartsenpraktijk_Fallah a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Fallah"^^xsd:string ;
         ns3:latitude 5.237682e+01 ;
         ns3:longitude 4.804858e+00 ;
@@ -479,7 +535,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsfallah.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Forouhandeh a :instantie ;
+    ns1:toothTandartsenpraktijk_Forouhandeh a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Forouhandeh"^^xsd:string ;
         ns3:latitude 5.232507e+01 ;
         ns3:longitude 4.97408e+00 ;
@@ -487,7 +544,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Fred_Liem a :instantie ;
+    ns1:toothTandartsenpraktijk_Fred_Liem a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Fred Liem"^^xsd:string ;
         ns3:latitude 5.234602e+01 ;
         ns3:longitude 4.875016e+00 ;
@@ -495,7 +553,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Gudde_en_Van_Nederpelt a :instantie ;
+    ns1:toothTandartsenpraktijk_Gudde_en_Van_Nederpelt a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Gudde en Van Nederpelt"^^xsd:string ;
         ns3:latitude 5.235081e+01 ;
         ns3:longitude 4.879129e+00 ;
@@ -503,7 +562,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsamsterdamzuid.nl/"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Houtrak a :instantie ;
+    ns1:toothTandartsenpraktijk_Houtrak a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Houtrak"^^xsd:string ;
         ns3:latitude 5.239011e+01 ;
         ns3:longitude 4.890034e+00 ;
@@ -511,7 +571,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkhoutrak.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Kroonenberg a :instantie ;
+    ns1:toothTandartsenpraktijk_Kroonenberg a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Kroonenberg"^^xsd:string ;
         ns3:latitude 5.229706e+01 ;
         ns3:longitude 4.976481e+00 ;
@@ -519,7 +580,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkkroonenberg.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Leidseplein a :instantie ;
+    ns1:toothTandartsenpraktijk_Leidseplein a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Leidseplein"^^xsd:string ;
         ns3:latitude 5.236175e+01 ;
         ns3:longitude 4.886109e+00 ;
@@ -527,7 +589,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.mijn-tandarts.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Liem_en_Liem-Michael a :instantie ;
+    ns1:toothTandartsenpraktijk_Liem_en_Liem-Michael a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Liem en Liem-Michael"^^xsd:string ;
         ns3:latitude 5.234602e+01 ;
         ns3:longitude 4.875016e+00 ;
@@ -535,7 +598,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Liem_en_Oei a :instantie ;
+    ns1:toothTandartsenpraktijk_Liem_en_Oei a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Liem en Oei"^^xsd:string ;
         ns3:latitude 5.235397e+01 ;
         ns3:longitude 4.866264e+00 ;
@@ -543,7 +607,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsenpraktijkliemenoeiamsterdam.nl/"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartsenpraktijk_Luitse_&_Fung-A-Yu> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartsenpraktijk_Luitse_&_Fung-A-Yu> a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Luitse & Fung-A-Yu"^^xsd:string ;
         ns3:latitude 5.235742e+01,
             5.237324e+01 ;
@@ -553,7 +618,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkluitse-fungayu.123website.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Meyssen_en_Rikken a :instantie ;
+    ns1:toothTandartsenpraktijk_Meyssen_en_Rikken a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Meyssen en Rikken"^^xsd:string ;
         ns3:latitude 5.23481e+01 ;
         ns3:longitude 4.881317e+00 ;
@@ -561,7 +627,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Milletstraat a :instantie ;
+    ns1:toothTandartsenpraktijk_Milletstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Milletstraat"^^xsd:string ;
         ns3:latitude 5.234611e+01 ;
         ns3:longitude 4.870025e+00 ;
@@ -569,7 +636,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsenpraktijkmilletstraat.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Minervalaan a :instantie ;
+    ns1:toothTandartsenpraktijk_Minervalaan a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Minervalaan"^^xsd:string ;
         ns3:latitude 5.234875e+01 ;
         ns3:longitude 4.872739e+00 ;
@@ -577,7 +645,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkminervalaan.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Nguyen a :instantie ;
+    ns1:toothTandartsenpraktijk_Nguyen a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Nguyen"^^xsd:string ;
         ns3:latitude 5.236276e+01 ;
         ns3:longitude 4.824202e+00 ;
@@ -585,7 +654,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsnguyen.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Oehlers-Sterenborg_en_Lunsen a :instantie ;
+    ns1:toothTandartsenpraktijk_Oehlers-Sterenborg_en_Lunsen a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Oehlers-Sterenborg en Lunsen"^^xsd:string ;
         ns3:latitude 5.24106e+01 ;
         ns3:longitude 4.892641e+00 ;
@@ -593,7 +663,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.kinder.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Ottens a :instantie ;
+    ns1:toothTandartsenpraktijk_Ottens a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Ottens"^^xsd:string ;
         ns3:latitude 5.235276e+01 ;
         ns3:longitude 4.846219e+00 ;
@@ -601,7 +672,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Plantage-Weesperbuurt a :instantie ;
+    ns1:toothTandartsenpraktijk_Plantage-Weesperbuurt a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Plantage-Weesperbuurt"^^xsd:string ;
         ns3:latitude 5.236392e+01 ;
         ns3:longitude 4.910118e+00 ;
@@ -609,7 +681,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Pompen a :instantie ;
+    ns1:toothTandartsenpraktijk_Pompen a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Pompen"^^xsd:string ;
         ns3:latitude 5.234508e+01 ;
         ns3:longitude 4.87083e+00 ;
@@ -617,7 +690,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Roelof_Hart a :instantie ;
+    ns1:toothTandartsenpraktijk_Roelof_Hart a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Roelof Hart"^^xsd:string ;
         ns3:latitude 5.235243e+01 ;
         ns3:longitude 4.883191e+00 ;
@@ -625,7 +699,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsenroelofhart.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Siewertz_van_Reesema a :instantie ;
+    ns1:toothTandartsenpraktijk_Siewertz_van_Reesema a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Siewertz van Reesema"^^xsd:string ;
         ns3:latitude 5.236901e+01 ;
         ns3:longitude 4.880947e+00 ;
@@ -633,7 +708,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Stam a :instantie ;
+    ns1:toothTandartsenpraktijk_Stam a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Stam"^^xsd:string ;
         ns3:latitude 5.232376e+01 ;
         ns3:longitude 4.857231e+00 ;
@@ -641,7 +717,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Tas a :instantie ;
+    ns1:toothTandartsenpraktijk_Tas a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Tas"^^xsd:string ;
         ns3:latitude 5.234265e+01 ;
         ns3:longitude 4.870828e+00 ;
@@ -649,7 +726,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Tendens a :instantie ;
+    ns1:toothTandartsenpraktijk_Tendens a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Tendens"^^xsd:string ;
         ns3:latitude 5.236187e+01 ;
         ns3:longitude 4.879384e+00 ;
@@ -657,7 +735,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tendenstandartsen.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Thio a :instantie ;
+    ns1:toothTandartsenpraktijk_Thio a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Thio"^^xsd:string ;
         ns3:latitude 5.235503e+01 ;
         ns3:longitude 4.811148e+00 ;
@@ -665,7 +744,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkthio.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Van_de_Veer a :instantie ;
+    ns1:toothTandartsenpraktijk_Van_de_Veer a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Van de Veer"^^xsd:string ;
         ns3:latitude 5.233641e+01,
             5.235758e+01 ;
@@ -675,7 +755,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.vandeveer.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Van_der_Borden a :instantie ;
+    ns1:toothTandartsenpraktijk_Van_der_Borden a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Van der Borden"^^xsd:string ;
         ns3:latitude 5.232751e+01 ;
         ns3:longitude 4.860589e+00 ;
@@ -683,7 +764,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsvanderborden.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Venserpolder a :instantie ;
+    ns1:toothTandartsenpraktijk_Venserpolder a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Venserpolder"^^xsd:string ;
         ns3:latitude 5.232416e+01 ;
         ns3:longitude 4.945002e+00 ;
@@ -691,7 +773,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpvenserpolder.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_West_5 a :instantie ;
+    ns1:toothTandartsenpraktijk_West_5 a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk West 5"^^xsd:string ;
         ns3:latitude 5.23769e+01 ;
         ns3:longitude 4.819102e+00 ;
@@ -699,7 +782,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://west5-tandarts.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_Westerpark a :instantie ;
+    ns1:toothTandartsenpraktijk_Westerpark a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk Westerpark"^^xsd:string ;
         ns3:latitude 5.238415e+01 ;
         ns3:longitude 4.869126e+00 ;
@@ -707,7 +791,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartswesterpark.nl"^^xsd:string .
 
-    ns1:toothTandartsenpraktijk_van_der_Lugt a :instantie ;
+    ns1:toothTandartsenpraktijk_van_der_Lugt a :dentist,
+            :instantie ;
         rdfs:label "Tandartsenpraktijk van der Lugt"^^xsd:string ;
         ns3:latitude 5.234288e+01 ;
         ns3:longitude 4.907894e+00 ;
@@ -715,7 +800,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.tandartsuiterwaardenstraat.nl"^^xsd:string .
 
-    ns1:toothTandartsparktijk_Palladino a :instantie ;
+    ns1:toothTandartsparktijk_Palladino a :dentist,
+            :instantie ;
         rdfs:label "Tandartsparktijk Palladino"^^xsd:string ;
         ns3:latitude 5.237195e+01 ;
         ns3:longitude 4.858608e+00 ;
@@ -723,7 +809,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.drpalladino.com"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_'t_Hooft> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_'t_Hooft> a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk 't Hooft"^^xsd:string ;
         ns3:latitude 5.235209e+01,
             5.235387e+01 ;
@@ -733,7 +820,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://tpvthooft.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Amsterdam a :instantie ;
+    ns1:toothTandartspraktijk_Amsterdam a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Amsterdam"^^xsd:string ;
         ns3:latitude 5.234382e+01,
             5.236311e+01,
@@ -745,7 +833,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpamsterdam.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Amsterdamse_Poort a :instantie ;
+    ns1:toothTandartspraktijk_Amsterdamse_Poort a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Amsterdamse Poort"^^xsd:string ;
         ns3:latitude 5.231255e+01 ;
         ns3:longitude 4.954546e+00 ;
@@ -753,7 +842,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_Arnout_&_Hobbelink> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_Arnout_&_Hobbelink> a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Arnout & Hobbelink"^^xsd:string ;
         ns3:latitude 5.23245e+01 ;
         ns3:longitude 4.874941e+00 ;
@@ -761,7 +851,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.ahtandartsen.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_B._F._de_Pruyssenaere a :instantie ;
+    ns1:toothTandartspraktijk_B._F._de_Pruyssenaere a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk B. F. de Pruyssenaere"^^xsd:string ;
         ns3:latitude 5.232333e+01 ;
         ns3:longitude 4.982589e+00 ;
@@ -769,7 +860,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Barends a :instantie ;
+    ns1:toothTandartspraktijk_Barends a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Barends"^^xsd:string ;
         ns3:latitude 5.235049e+01 ;
         ns3:longitude 4.790438e+00 ;
@@ -777,7 +869,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Batavia a :instantie ;
+    ns1:toothTandartspraktijk_Batavia a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Batavia"^^xsd:string ;
         ns3:latitude 5.236633e+01 ;
         ns3:longitude 4.945257e+00 ;
@@ -785,7 +878,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpbatavia.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Becht a :instantie ;
+    ns1:toothTandartspraktijk_Becht a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Becht"^^xsd:string ;
         ns3:latitude 5.234731e+01 ;
         ns3:longitude 4.893845e+00 ;
@@ -793,7 +887,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Berghuis a :instantie ;
+    ns1:toothTandartspraktijk_Berghuis a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Berghuis"^^xsd:string ;
         ns3:latitude 5.238332e+01 ;
         ns3:longitude 4.912289e+00 ;
@@ -801,7 +896,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.tandarts-daanberghuis.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Bijlmerdreef a :instantie ;
+    ns1:toothTandartspraktijk_Bijlmerdreef a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Bijlmerdreef"^^xsd:string ;
         ns3:latitude 5.232027e+01 ;
         ns3:longitude 4.965662e+00 ;
@@ -809,7 +905,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://tandartspraktijkbijlmerdreef.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Boer a :instantie ;
+    ns1:toothTandartspraktijk_Boer a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Boer"^^xsd:string ;
         ns3:latitude 5.229719e+01 ;
         ns3:longitude 4.976216e+00 ;
@@ -817,7 +914,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Bokma a :instantie ;
+    ns1:toothTandartspraktijk_Bokma a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Bokma"^^xsd:string ;
         ns3:latitude 5.237354e+01 ;
         ns3:longitude 4.834829e+00 ;
@@ -825,7 +923,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Breimer a :instantie ;
+    ns1:toothTandartspraktijk_Breimer a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Breimer"^^xsd:string ;
         ns3:latitude 5.235718e+01 ;
         ns3:longitude 4.80839e+00 ;
@@ -833,7 +932,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Brinkman a :instantie ;
+    ns1:toothTandartspraktijk_Brinkman a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Brinkman"^^xsd:string ;
         ns3:latitude 5.235466e+01 ;
         ns3:longitude 4.931913e+00 ;
@@ -841,7 +941,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsbrinkman.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Bruin a :instantie ;
+    ns1:toothTandartspraktijk_Bruin a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Bruin"^^xsd:string ;
         ns3:latitude 5.235392e+01 ;
         ns3:longitude 4.86829e+00 ;
@@ -849,7 +950,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsrdebruin.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Buehre a :instantie ;
+    ns1:toothTandartspraktijk_Buehre a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Buehre"^^xsd:string ;
         ns3:latitude 5.232428e+01 ;
         ns3:longitude 4.874298e+00 ;
@@ -857,7 +959,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_Churchilllaan_/_Praktijk_voor_Esthetische_Tandheelkunde> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_Churchilllaan_/_Praktijk_voor_Esthetische_Tandheelkunde> a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Churchilllaan / Praktijk voor Esthetische Tandheelkunde"^^xsd:string ;
         ns3:latitude 5.23474e+01 ;
         ns3:longitude 4.891804e+00 ;
@@ -865,7 +968,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsen.com"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Baare a :instantie ;
+    ns1:toothTandartspraktijk_De_Baare a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Baare"^^xsd:string ;
         ns3:latitude 5.23448e+01 ;
         ns3:longitude 4.88429e+00 ;
@@ -873,7 +977,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsdebaare.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Goede a :instantie ;
+    ns1:toothTandartspraktijk_De_Goede a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Goede"^^xsd:string ;
         ns3:latitude 5.234768e+01 ;
         ns3:longitude 4.816894e+00 ;
@@ -881,7 +986,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://tandartsdegoede.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Greef a :instantie ;
+    ns1:toothTandartspraktijk_De_Greef a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Greef"^^xsd:string ;
         ns3:latitude 5.235949e+01 ;
         ns3:longitude 4.895677e+00 ;
@@ -889,7 +995,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsdegreef.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Groot a :instantie ;
+    ns1:toothTandartspraktijk_De_Groot a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Groot"^^xsd:string ;
         ns3:latitude 5.235341e+01 ;
         ns3:longitude 4.771729e+00 ;
@@ -897,7 +1004,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijk-jajmdegroot.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Hoektand a :instantie ;
+    ns1:toothTandartspraktijk_De_Hoektand a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Hoektand"^^xsd:string ;
         ns3:latitude 5.237912e+01 ;
         ns3:longitude 4.884797e+00 ;
@@ -905,7 +1013,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.hoektand.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Hortus a :instantie ;
+    ns1:toothTandartspraktijk_De_Hortus a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Hortus"^^xsd:string ;
         ns3:latitude 5.23666e+01 ;
         ns3:longitude 4.904378e+00 ;
@@ -913,7 +1022,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkdehortus.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Liefde a :instantie ;
+    ns1:toothTandartspraktijk_De_Liefde a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Liefde"^^xsd:string ;
         ns3:latitude 5.234972e+01 ;
         ns3:longitude 4.847498e+00 ;
@@ -921,7 +1031,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkdeliefde.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Operatandarts a :instantie ;
+    ns1:toothTandartspraktijk_De_Operatandarts a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Operatandarts"^^xsd:string ;
         ns3:latitude 5.235569e+01 ;
         ns3:longitude 4.923858e+00 ;
@@ -929,7 +1040,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.operatandarts.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Parel a :instantie ;
+    ns1:toothTandartspraktijk_De_Parel a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Parel"^^xsd:string ;
         ns3:latitude 5.234646e+01 ;
         ns3:longitude 4.861553e+00 ;
@@ -937,7 +1049,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Schubertstraat a :instantie ;
+    ns1:toothTandartspraktijk_De_Schubertstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Schubertstraat"^^xsd:string ;
         ns3:latitude 5.234667e+01 ;
         ns3:longitude 4.877694e+00 ;
@@ -945,7 +1058,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://tandartsenpraktijkschubertstraat.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Wilde a :instantie ;
+    ns1:toothTandartspraktijk_De_Wilde a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Wilde"^^xsd:string ;
         ns3:latitude 5.234884e+01 ;
         ns3:longitude 4.868085e+00 ;
@@ -953,7 +1067,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_De_Wolvenstraat a :instantie ;
+    ns1:toothTandartspraktijk_De_Wolvenstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk De Wolvenstraat"^^xsd:string ;
         ns3:latitude 5.237038e+01 ;
         ns3:longitude 4.885718e+00 ;
@@ -961,7 +1076,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Dentalcare_Oost a :instantie ;
+    ns1:toothTandartspraktijk_Dentalcare_Oost a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Dentalcare Oost"^^xsd:string ;
         ns3:latitude 5.235905e+01 ;
         ns3:longitude 4.924469e+00 ;
@@ -969,7 +1085,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dentalcare-oost.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Dijkstra_en_Fritschy a :instantie ;
+    ns1:toothTandartspraktijk_Dijkstra_en_Fritschy a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Dijkstra en Fritschy"^^xsd:string ;
         ns3:latitude 5.235041e+01 ;
         ns3:longitude 4.875772e+00 ;
@@ -977,7 +1094,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dijkstra-fritschytandartsen.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Dikkes a :instantie ;
+    ns1:toothTandartspraktijk_Dikkes a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Dikkes"^^xsd:string ;
         ns3:latitude 5.235949e+01 ;
         ns3:longitude 4.895677e+00 ;
@@ -985,7 +1103,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Dirksen a :instantie ;
+    ns1:toothTandartspraktijk_Dirksen a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Dirksen"^^xsd:string ;
         ns3:latitude 5.238683e+01 ;
         ns3:longitude 4.920419e+00 ;
@@ -993,7 +1112,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.tandartsybdirksen.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Dom a :instantie ;
+    ns1:toothTandartspraktijk_Dom a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Dom"^^xsd:string ;
         ns3:latitude 5.235711e+01 ;
         ns3:longitude 4.875196e+00 ;
@@ -1001,7 +1121,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.domtandartsen.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Döpp a :instantie ;
+    ns1:toothTandartspraktijk_Döpp a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Döpp"^^xsd:string ;
         ns3:latitude 5.235452e+01 ;
         ns3:longitude 4.933617e+00 ;
@@ -1009,7 +1130,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.doppdental.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_El_Maghraby a :instantie ;
+    ns1:toothTandartspraktijk_El_Maghraby a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk El Maghraby"^^xsd:string ;
         ns3:latitude 5.236474e+01 ;
         ns3:longitude 4.84065e+00 ;
@@ -1017,7 +1139,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://gmaghraby.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Fletterman a :instantie ;
+    ns1:toothTandartspraktijk_Fletterman a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Fletterman"^^xsd:string ;
         ns3:latitude 5.234434e+01 ;
         ns3:longitude 4.901289e+00 ;
@@ -1025,7 +1148,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsfletterman.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Gaffar a :instantie ;
+    ns1:toothTandartspraktijk_Gaffar a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Gaffar"^^xsd:string ;
         ns3:latitude 5.232067e+01 ;
         ns3:longitude 4.982408e+00 ;
@@ -1033,7 +1157,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.gaffar.nl/tandarts"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Genzale a :instantie ;
+    ns1:toothTandartspraktijk_Genzale a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Genzale"^^xsd:string ;
         ns3:latitude 5.237195e+01 ;
         ns3:longitude 4.858608e+00 ;
@@ -1041,7 +1166,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Goos_en_Thio a :instantie ;
+    ns1:toothTandartspraktijk_Goos_en_Thio a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Goos en Thio"^^xsd:string ;
         ns3:latitude 5.24106e+01 ;
         ns3:longitude 4.892641e+00 ;
@@ -1049,7 +1175,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://tandartsenpraktijkgoosenthio.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Goud_en_Dietvorst a :instantie ;
+    ns1:toothTandartspraktijk_Goud_en_Dietvorst a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Goud en Dietvorst"^^xsd:string ;
         ns3:latitude 5.235068e+01 ;
         ns3:longitude 4.892839e+00 ;
@@ -1057,7 +1184,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Govers a :instantie ;
+    ns1:toothTandartspraktijk_Govers a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Govers"^^xsd:string ;
         ns3:latitude 5.24106e+01 ;
         ns3:longitude 4.892641e+00 ;
@@ -1065,7 +1193,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.medischcentrumtuindorpoostzaan.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Greevink a :instantie ;
+    ns1:toothTandartspraktijk_Greevink a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Greevink"^^xsd:string ;
         ns3:latitude 5.237371e+01 ;
         ns3:longitude 4.902274e+00 ;
@@ -1073,7 +1202,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsgreevink.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Hagens a :instantie ;
+    ns1:toothTandartspraktijk_Hagens a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Hagens"^^xsd:string ;
         ns3:latitude 5.229719e+01 ;
         ns3:longitude 4.976216e+00 ;
@@ -1081,7 +1211,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Haringhuizen a :instantie ;
+    ns1:toothTandartspraktijk_Haringhuizen a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Haringhuizen"^^xsd:string ;
         ns3:latitude 5.237195e+01 ;
         ns3:longitude 4.858608e+00 ;
@@ -1089,7 +1220,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tp-haringhuizen.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Huijssoon a :instantie ;
+    ns1:toothTandartspraktijk_Huijssoon a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Huijssoon"^^xsd:string ;
         ns3:latitude 5.235729e+01 ;
         ns3:longitude 4.800182e+00 ;
@@ -1097,7 +1229,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://tandartshuijssoon.praktijkinfo.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Huitema a :instantie ;
+    ns1:toothTandartspraktijk_Huitema a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Huitema"^^xsd:string ;
         ns3:latitude 5.234739e+01 ;
         ns3:longitude 4.869731e+00 ;
@@ -1105,7 +1238,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_I.B.Y.G._Tan a :instantie ;
+    ns1:toothTandartspraktijk_I.B.Y.G._Tan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk I.B.Y.G. Tan"^^xsd:string ;
         ns3:latitude 5.235151e+01 ;
         ns3:longitude 4.935541e+00 ;
@@ -1113,7 +1247,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Jesse a :instantie ;
+    ns1:toothTandartspraktijk_Jesse a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Jesse"^^xsd:string ;
         ns3:latitude 5.234663e+01 ;
         ns3:longitude 4.874202e+00 ;
@@ -1121,7 +1256,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsenpraktijkjesse.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Jon_Kramer a :instantie ;
+    ns1:toothTandartspraktijk_Jon_Kramer a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Jon Kramer"^^xsd:string ;
         ns3:latitude 5.236935e+01 ;
         ns3:longitude 4.838244e+00 ;
@@ -1129,7 +1265,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkjonkramer.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Jordaan a :instantie ;
+    ns1:toothTandartspraktijk_Jordaan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Jordaan"^^xsd:string ;
         ns3:latitude 5.237833e+01 ;
         ns3:longitude 4.881984e+00 ;
@@ -1137,7 +1274,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsjordaan.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Keizersgracht a :instantie ;
+    ns1:toothTandartspraktijk_Keizersgracht a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Keizersgracht"^^xsd:string ;
         ns3:latitude 5.237505e+01 ;
         ns3:longitude 4.885195e+00 ;
@@ -1145,7 +1283,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkkeizersgracht.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Kemna a :instantie ;
+    ns1:toothTandartspraktijk_Kemna a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Kemna"^^xsd:string ;
         ns3:latitude 5.235516e+01 ;
         ns3:longitude 4.875747e+00 ;
@@ -1153,7 +1292,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Klusener a :instantie ;
+    ns1:toothTandartspraktijk_Klusener a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Klusener"^^xsd:string ;
         ns3:latitude 5.235528e+01 ;
         ns3:longitude 4.902123e+00 ;
@@ -1161,7 +1301,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.klusener.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Knaap a :instantie ;
+    ns1:toothTandartspraktijk_Knaap a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Knaap"^^xsd:string ;
         ns3:latitude 5.235338e+01 ;
         ns3:longitude 4.855057e+00 ;
@@ -1169,7 +1310,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Kolstee a :instantie ;
+    ns1:toothTandartspraktijk_Kolstee a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Kolstee"^^xsd:string ;
         ns3:latitude 5.235774e+01 ;
         ns3:longitude 4.900995e+00 ;
@@ -1177,7 +1319,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Kombé a :instantie ;
+    ns1:toothTandartspraktijk_Kombé a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Kombé"^^xsd:string ;
         ns3:latitude 5.234981e+01 ;
         ns3:longitude 4.828358e+00 ;
@@ -1185,7 +1328,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Koninginneweg a :instantie ;
+    ns1:toothTandartspraktijk_Koninginneweg a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Koninginneweg"^^xsd:string ;
         ns3:latitude 5.23529e+01 ;
         ns3:longitude 4.861403e+00 ;
@@ -1193,7 +1337,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.koninginneweg150.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Kraan a :instantie ;
+    ns1:toothTandartspraktijk_Kraan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Kraan"^^xsd:string ;
         ns3:latitude 5.235065e+01 ;
         ns3:longitude 4.859728e+00 ;
@@ -1201,7 +1346,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.kraantandarts.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Kuijpers a :instantie ;
+    ns1:toothTandartspraktijk_Kuijpers a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Kuijpers"^^xsd:string ;
         ns3:latitude 5.235507e+01 ;
         ns3:longitude 4.933215e+00 ;
@@ -1209,7 +1355,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.praktijkhogeweg.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_L.H._Tan a :instantie ;
+    ns1:toothTandartspraktijk_L.H._Tan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk L.H. Tan"^^xsd:string ;
         ns3:latitude 5.235236e+01 ;
         ns3:longitude 4.903535e+00 ;
@@ -1217,7 +1364,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Lengkeek a :instantie ;
+    ns1:toothTandartspraktijk_Lengkeek a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Lengkeek"^^xsd:string ;
         ns3:latitude 5.237752e+01 ;
         ns3:longitude 4.874329e+00 ;
@@ -1225,7 +1373,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartslengkeek.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Lie a :instantie ;
+    ns1:toothTandartspraktijk_Lie a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Lie"^^xsd:string ;
         ns3:latitude 5.235093e+01,
             5.238066e+01 ;
@@ -1235,7 +1384,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Liem a :instantie ;
+    ns1:toothTandartspraktijk_Liem a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Liem"^^xsd:string ;
         ns3:latitude 5.23746e+01 ;
         ns3:longitude 4.805592e+00 ;
@@ -1243,7 +1393,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Liem-Ching_Chung a :instantie ;
+    ns1:toothTandartspraktijk_Liem-Ching_Chung a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Liem-Ching Chung"^^xsd:string ;
         ns3:latitude 5.238769e+01 ;
         ns3:longitude 4.92301e+00 ;
@@ -1251,7 +1402,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsliem.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_M.J._Buisman a :instantie ;
+    ns1:toothTandartspraktijk_M.J._Buisman a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk M.J. Buisman"^^xsd:string ;
         ns3:latitude 5.237639e+01 ;
         ns3:longitude 4.886399e+00 ;
@@ -1259,7 +1411,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Maaskant a :instantie ;
+    ns1:toothTandartspraktijk_Maaskant a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Maaskant"^^xsd:string ;
         ns3:latitude 5.237752e+01 ;
         ns3:longitude 4.874329e+00 ;
@@ -1267,7 +1420,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.tandartsmaaskant.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Matulewicz a :instantie ;
+    ns1:toothTandartspraktijk_Matulewicz a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Matulewicz"^^xsd:string ;
         ns3:latitude 5.234758e+01 ;
         ns3:longitude 4.824585e+00 ;
@@ -1275,7 +1429,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Meijer a :instantie ;
+    ns1:toothTandartspraktijk_Meijer a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Meijer"^^xsd:string ;
         ns3:latitude 5.234627e+01 ;
         ns3:longitude 4.890202e+00 ;
@@ -1283,7 +1438,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkmeijer.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_Merkens_/_MRA_Anti_Snurk_Kliniek> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandartspraktijk_Merkens_/_MRA_Anti_Snurk_Kliniek> a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Merkens / MRA Anti Snurk Kliniek"^^xsd:string ;
         ns3:latitude 5.234542e+01 ;
         ns3:longitude 4.882815e+00 ;
@@ -1291,7 +1447,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.snurkentherapie.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Molendijk a :instantie ;
+    ns1:toothTandartspraktijk_Molendijk a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Molendijk"^^xsd:string ;
         ns3:latitude 5.235446e+01 ;
         ns3:longitude 4.879087e+00 ;
@@ -1299,7 +1456,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Molenwijk a :instantie ;
+    ns1:toothTandartspraktijk_Molenwijk a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Molenwijk"^^xsd:string ;
         ns3:latitude 5.241805e+01 ;
         ns3:longitude 4.892572e+00 ;
@@ -1307,7 +1465,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkmolenwijk.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Muijsers a :instantie ;
+    ns1:toothTandartspraktijk_Muijsers a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Muijsers"^^xsd:string ;
         ns3:latitude 5.234367e+01 ;
         ns3:longitude 4.864785e+00 ;
@@ -1315,7 +1474,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsmuijsers.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Noorlander a :instantie ;
+    ns1:toothTandartspraktijk_Noorlander a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Noorlander"^^xsd:string ;
         ns3:latitude 5.235285e+01 ;
         ns3:longitude 4.805129e+00 ;
@@ -1323,7 +1483,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.noorlandertandarts.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Oorthuys a :instantie ;
+    ns1:toothTandartspraktijk_Oorthuys a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Oorthuys"^^xsd:string ;
         ns3:latitude 5.234791e+01 ;
         ns3:longitude 4.880204e+00 ;
@@ -1331,7 +1492,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Oost a :instantie ;
+    ns1:toothTandartspraktijk_Oost a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Oost"^^xsd:string ;
         ns3:latitude 5.235976e+01 ;
         ns3:longitude 4.927559e+00 ;
@@ -1339,7 +1501,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Oudeschans a :instantie ;
+    ns1:toothTandartspraktijk_Oudeschans a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Oudeschans"^^xsd:string ;
         ns3:latitude 5.237211e+01 ;
         ns3:longitude 4.905361e+00 ;
@@ -1347,7 +1510,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkoudeschans.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Parunovac a :instantie ;
+    ns1:toothTandartspraktijk_Parunovac a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Parunovac"^^xsd:string ;
         ns3:latitude 5.235849e+01 ;
         ns3:longitude 4.802823e+00 ;
@@ -1355,7 +1519,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://detandartsvanosdorp.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Pieter_van_der_Doesstraat a :instantie ;
+    ns1:toothTandartspraktijk_Pieter_van_der_Doesstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Pieter van der Doesstraat"^^xsd:string ;
         ns3:latitude 5.237373e+01 ;
         ns3:longitude 4.857706e+00 ;
@@ -1363,7 +1528,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://vanderdoesstraat.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Plantage_Middenlaan a :instantie ;
+    ns1:toothTandartspraktijk_Plantage_Middenlaan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Plantage Middenlaan"^^xsd:string ;
         ns3:latitude 5.236731e+01 ;
         ns3:longitude 4.909744e+00 ;
@@ -1371,7 +1537,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsplantagemiddenlaan.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Qua a :instantie ;
+    ns1:toothTandartspraktijk_Qua a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Qua"^^xsd:string ;
         ns3:latitude 5.236857e+01 ;
         ns3:longitude 4.891993e+00 ;
@@ -1379,7 +1546,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Raber a :instantie ;
+    ns1:toothTandartspraktijk_Raber a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Raber"^^xsd:string ;
         ns3:latitude 5.232395e+01 ;
         ns3:longitude 4.886389e+00 ;
@@ -1387,7 +1555,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.raber.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Rachman a :instantie ;
+    ns1:toothTandartspraktijk_Rachman a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Rachman"^^xsd:string ;
         ns3:latitude 5.237348e+01 ;
         ns3:longitude 4.859148e+00 ;
@@ -1395,7 +1564,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.grachman.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Reemnet-Thompson a :instantie ;
+    ns1:toothTandartspraktijk_Reemnet-Thompson a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Reemnet-Thompson"^^xsd:string ;
         ns3:latitude 5.23628e+01 ;
         ns3:longitude 4.874822e+00 ;
@@ -1403,7 +1573,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Reigersbos a :instantie ;
+    ns1:toothTandartspraktijk_Reigersbos a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Reigersbos"^^xsd:string ;
         ns3:latitude 5.229702e+01 ;
         ns3:longitude 4.976232e+00 ;
@@ -1411,7 +1582,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkreigersbos.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_René a :instantie ;
+    ns1:toothTandartspraktijk_René a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk René"^^xsd:string ;
         ns3:latitude 5.235738e+01 ;
         ns3:longitude 4.79315e+00 ;
@@ -1419,7 +1591,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijk-rene.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Rivierenbuurt a :instantie ;
+    ns1:toothTandartspraktijk_Rivierenbuurt a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Rivierenbuurt"^^xsd:string ;
         ns3:latitude 5.234519e+01 ;
         ns3:longitude 4.900487e+00 ;
@@ -1427,7 +1600,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkrivierenbuurt.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Rozengracht a :instantie ;
+    ns1:toothTandartspraktijk_Rozengracht a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Rozengracht"^^xsd:string ;
         ns3:latitude 5.237352e+01 ;
         ns3:longitude 4.880455e+00 ;
@@ -1435,7 +1609,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://leuketandarts.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_S.P._Tan a :instantie ;
+    ns1:toothTandartspraktijk_S.P._Tan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk S.P. Tan"^^xsd:string ;
         ns3:latitude 5.235151e+01 ;
         ns3:longitude 4.935541e+00 ;
@@ -1443,7 +1618,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Schachter a :instantie ;
+    ns1:toothTandartspraktijk_Schachter a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Schachter"^^xsd:string ;
         ns3:latitude 5.232378e+01 ;
         ns3:longitude 4.86832e+00 ;
@@ -1451,7 +1627,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://schachter.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Schijvens a :instantie ;
+    ns1:toothTandartspraktijk_Schijvens a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Schijvens"^^xsd:string ;
         ns3:latitude 5.23487e+01 ;
         ns3:longitude 4.871448e+00 ;
@@ -1459,7 +1636,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Schneider a :instantie ;
+    ns1:toothTandartspraktijk_Schneider a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Schneider"^^xsd:string ;
         ns3:latitude 5.237455e+01 ;
         ns3:longitude 4.874936e+00 ;
@@ -1467,7 +1645,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Schuringa a :instantie ;
+    ns1:toothTandartspraktijk_Schuringa a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Schuringa"^^xsd:string ;
         ns3:latitude 5.232734e+01 ;
         ns3:longitude 4.861574e+00 ;
@@ -1475,7 +1654,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Schüttenhelm-Consolacion a :instantie ;
+    ns1:toothTandartspraktijk_Schüttenhelm-Consolacion a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Schüttenhelm-Consolacion"^^xsd:string ;
         ns3:latitude 5.233943e+01 ;
         ns3:longitude 4.894461e+00 ;
@@ -1483,7 +1663,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Sjamsoedin a :instantie ;
+    ns1:toothTandartspraktijk_Sjamsoedin a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Sjamsoedin"^^xsd:string ;
         ns3:latitude 5.234499e+01 ;
         ns3:longitude 4.88621e+00 ;
@@ -1491,7 +1672,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://praktijksjamsoedin.praktijkinfo.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Slotermeer a :instantie ;
+    ns1:toothTandartspraktijk_Slotermeer a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Slotermeer"^^xsd:string ;
         ns3:latitude 5.237987e+01 ;
         ns3:longitude 4.820342e+00 ;
@@ -1499,7 +1681,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkslotermeer.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Smidt a :instantie ;
+    ns1:toothTandartspraktijk_Smidt a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Smidt"^^xsd:string ;
         ns3:latitude 5.234483e+01 ;
         ns3:longitude 4.814318e+00 ;
@@ -1507,7 +1690,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Sowirono a :instantie ;
+    ns1:toothTandartspraktijk_Sowirono a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Sowirono"^^xsd:string ;
         ns3:latitude 5.236973e+01 ;
         ns3:longitude 4.854391e+00 ;
@@ -1515,7 +1699,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://tandartspraktijksowirono.tandartsennet.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Stellingwerf a :instantie ;
+    ns1:toothTandartspraktijk_Stellingwerf a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Stellingwerf"^^xsd:string ;
         ns3:latitude 5.233044e+01 ;
         ns3:longitude 4.870897e+00 ;
@@ -1523,7 +1708,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_TTH_Noord a :instantie ;
+    ns1:toothTandartspraktijk_TTH_Noord a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk TTH Noord"^^xsd:string ;
         ns3:latitude 5.240004e+01 ;
         ns3:longitude 4.906218e+00 ;
@@ -1531,7 +1717,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tthnoord.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tan a :instantie ;
+    ns1:toothTandartspraktijk_Tan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tan"^^xsd:string ;
         ns3:latitude 5.235093e+01 ;
         ns3:longitude 4.900997e+00 ;
@@ -1539,7 +1726,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tanis a :instantie ;
+    ns1:toothTandartspraktijk_Tanis a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tanis"^^xsd:string ;
         ns3:latitude 5.236275e+01 ;
         ns3:longitude 4.863562e+00 ;
@@ -1547,7 +1735,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tazi a :instantie ;
+    ns1:toothTandartspraktijk_Tazi a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tazi"^^xsd:string ;
         ns3:latitude 5.240626e+01 ;
         ns3:longitude 4.89166e+00 ;
@@ -1555,7 +1744,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijktazi.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tijhuis a :instantie ;
+    ns1:toothTandartspraktijk_Tijhuis a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tijhuis"^^xsd:string ;
         ns3:latitude 5.234685e+01 ;
         ns3:longitude 4.802801e+00 ;
@@ -1563,7 +1753,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartstijhuis.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Timmermans a :instantie ;
+    ns1:toothTandartspraktijk_Timmermans a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Timmermans"^^xsd:string ;
         ns3:latitude 5.237603e+01 ;
         ns3:longitude 4.874816e+00 ;
@@ -1571,7 +1762,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tjin a :instantie ;
+    ns1:toothTandartspraktijk_Tjin a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tjin"^^xsd:string ;
         ns3:latitude 5.236044e+01,
             5.237195e+01 ;
@@ -1582,7 +1774,8 @@
         :website ""^^xsd:string,
             "http://www.tandartspraktijktjin.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tjin_A_Lim_-_Tjoe_Fat a :instantie ;
+    ns1:toothTandartspraktijk_Tjin_A_Lim_-_Tjoe_Fat a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tjin A Lim - Tjoe Fat"^^xsd:string ;
         ns3:latitude 5.232747e+01 ;
         ns3:longitude 4.862731e+00 ;
@@ -1590,7 +1783,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://tjinalim.tandartsennet.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Tjiook a :instantie ;
+    ns1:toothTandartspraktijk_Tjiook a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Tjiook"^^xsd:string ;
         ns3:latitude 5.233044e+01 ;
         ns3:longitude 4.870897e+00 ;
@@ -1598,7 +1792,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_Broekhoven a :instantie ;
+    ns1:toothTandartspraktijk_Van_Broekhoven a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van Broekhoven"^^xsd:string ;
         ns3:latitude 5.237345e+01 ;
         ns3:longitude 4.81317e+00 ;
@@ -1606,7 +1801,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dickvanbroekhoven.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_Splunter a :instantie ;
+    ns1:toothTandartspraktijk_Van_Splunter a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van Splunter"^^xsd:string ;
         ns3:latitude 5.24005e+01 ;
         ns3:longitude 4.941801e+00 ;
@@ -1614,7 +1810,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://vansplunter.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_Welsenes a :instantie ;
+    ns1:toothTandartspraktijk_Van_Welsenes a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van Welsenes"^^xsd:string ;
         ns3:latitude 5.235763e+01 ;
         ns3:longitude 4.876174e+00 ;
@@ -1622,7 +1819,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_den_Berg a :instantie ;
+    ns1:toothTandartspraktijk_Van_den_Berg a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van den Berg"^^xsd:string ;
         ns3:latitude 5.235592e+01 ;
         ns3:longitude 4.797514e+00 ;
@@ -1630,7 +1828,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijk-vandenberg.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_den_Bold a :instantie ;
+    ns1:toothTandartspraktijk_Van_den_Bold a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van den Bold"^^xsd:string ;
         ns3:latitude 5.235469e+01 ;
         ns3:longitude 4.881301e+00 ;
@@ -1638,7 +1837,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.rvandenbold-tandarts.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_den_Eersten a :instantie ;
+    ns1:toothTandartspraktijk_Van_den_Eersten a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van den Eersten"^^xsd:string ;
         ns3:latitude 5.235788e+01 ;
         ns3:longitude 4.900407e+00 ;
@@ -1646,7 +1846,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_der_Laan a :instantie ;
+    ns1:toothTandartspraktijk_Van_der_Laan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van der Laan"^^xsd:string ;
         ns3:latitude 5.23613e+01 ;
         ns3:longitude 4.909471e+00 ;
@@ -1654,7 +1855,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.achillesvanderlaan.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_der_Meulen a :instantie ;
+    ns1:toothTandartspraktijk_Van_der_Meulen a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van der Meulen"^^xsd:string ;
         ns3:latitude 5.235904e+01 ;
         ns3:longitude 4.921915e+00 ;
@@ -1662,7 +1864,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "https://www.tandartsoosterpark.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_der_Peet a :instantie ;
+    ns1:toothTandartspraktijk_Van_der_Peet a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van der Peet"^^xsd:string ;
         ns3:latitude 5.234743e+01 ;
         ns3:longitude 4.898158e+00 ;
@@ -1670,7 +1873,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartsvanderpeet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_der_Ploeg a :instantie ;
+    ns1:toothTandartspraktijk_Van_der_Ploeg a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van der Ploeg"^^xsd:string ;
         ns3:latitude 5.23518e+01 ;
         ns3:longitude 4.90291e+00 ;
@@ -1678,7 +1882,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.svanderploeg.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_der_Wal a :instantie ;
+    ns1:toothTandartspraktijk_Van_der_Wal a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van der Wal"^^xsd:string ;
         ns3:latitude 5.234309e+01 ;
         ns3:longitude 4.907275e+00 ;
@@ -1686,7 +1891,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Van_der_Zwan a :instantie ;
+    ns1:toothTandartspraktijk_Van_der_Zwan a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Van der Zwan"^^xsd:string ;
         ns3:latitude 5.235188e+01 ;
         ns3:longitude 4.888877e+00 ;
@@ -1694,7 +1900,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Verburg a :instantie ;
+    ns1:toothTandartspraktijk_Verburg a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Verburg"^^xsd:string ;
         ns3:latitude 5.234833e+01 ;
         ns3:longitude 4.938758e+00 ;
@@ -1702,7 +1909,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Verhagen a :instantie ;
+    ns1:toothTandartspraktijk_Verhagen a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Verhagen"^^xsd:string ;
         ns3:latitude 5.235905e+01 ;
         ns3:longitude 4.853066e+00 ;
@@ -1710,7 +1918,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Verheul a :instantie ;
+    ns1:toothTandartspraktijk_Verheul a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Verheul"^^xsd:string ;
         ns3:latitude 5.232371e+01 ;
         ns3:longitude 4.974636e+00 ;
@@ -1718,7 +1927,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Visser a :instantie ;
+    ns1:toothTandartspraktijk_Visser a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Visser"^^xsd:string ;
         ns3:latitude 5.23903e+01 ;
         ns3:longitude 4.912596e+00 ;
@@ -1726,7 +1936,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Vogelaar a :instantie ;
+    ns1:toothTandartspraktijk_Vogelaar a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Vogelaar"^^xsd:string ;
         ns3:latitude 5.236679e+01 ;
         ns3:longitude 4.887682e+00 ;
@@ -1734,7 +1945,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothTandartspraktijk_Warmelink a :instantie ;
+    ns1:toothTandartspraktijk_Warmelink a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Warmelink"^^xsd:string ;
         ns3:latitude 5.234791e+01 ;
         ns3:longitude 4.880204e+00 ;
@@ -1742,7 +1954,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartswarmelink.nl/praktijk.html"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Watergraafsmeer a :instantie ;
+    ns1:toothTandartspraktijk_Watergraafsmeer a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Watergraafsmeer"^^xsd:string ;
         ns3:latitude 5.235438e+01 ;
         ns3:longitude 4.931431e+00 ;
@@ -1750,7 +1963,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tpwatergraafsmeer.tandartsennet.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Wevers a :instantie ;
+    ns1:toothTandartspraktijk_Wevers a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Wevers"^^xsd:string ;
         ns3:latitude 5.229704e+01 ;
         ns3:longitude 4.976364e+00 ;
@@ -1758,7 +1972,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkwevers.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Wit a :instantie ;
+    ns1:toothTandartspraktijk_Wit a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Wit"^^xsd:string ;
         ns3:latitude 5.236862e+01 ;
         ns3:longitude 4.891964e+00 ;
@@ -1766,7 +1981,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkwit.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_Zuidoost a :instantie ;
+    ns1:toothTandartspraktijk_Zuidoost a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk Zuidoost"^^xsd:string ;
         ns3:latitude 5.231872e+01,
             5.232027e+01 ;
@@ -1776,7 +1992,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijk-zuidoost.nl/"^^xsd:string .
 
-    ns1:toothTandartspraktijk_de_Clercqstraat a :instantie ;
+    ns1:toothTandartspraktijk_de_Clercqstraat a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk de Clercqstraat"^^xsd:string ;
         ns3:latitude 5.237033e+01 ;
         ns3:longitude 4.866953e+00 ;
@@ -1784,7 +2001,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijkdeclercqstraat.nl"^^xsd:string .
 
-    ns1:toothTandartspraktijk_de_Zuidas a :instantie ;
+    ns1:toothTandartspraktijk_de_Zuidas a :dentist,
+            :instantie ;
         rdfs:label "Tandartspraktijk de Zuidas"^^xsd:string ;
         ns3:latitude 5.235285e+01 ;
         ns3:longitude 4.885094e+00 ;
@@ -1792,7 +2010,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandartspraktijk-dezuidas.nl"^^xsd:string .
 
-    ns1:toothTandheelkunde_Nellestein a :instantie ;
+    ns1:toothTandheelkunde_Nellestein a :dentist,
+            :instantie ;
         rdfs:label "Tandheelkunde Nellestein"^^xsd:string ;
         ns3:latitude 5.230873e+01 ;
         ns3:longitude 4.983822e+00 ;
@@ -1800,7 +2019,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandheelkundenellestein.nl"^^xsd:string .
 
-    ns1:toothTandheelkundepraktijk_Stadhouderskade a :instantie ;
+    ns1:toothTandheelkundepraktijk_Stadhouderskade a :dentist,
+            :instantie ;
         rdfs:label "Tandheelkundepraktijk Stadhouderskade"^^xsd:string ;
         ns3:latitude 5.235749e+01 ;
         ns3:longitude 4.897666e+00 ;
@@ -1808,7 +2028,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandarts-stadhouderskade.nl/"^^xsd:string .
 
-    ns1:toothTandheelkundig_Centrum_van_Halderen a :instantie ;
+    ns1:toothTandheelkundig_Centrum_van_Halderen a :dentist,
+            :instantie ;
         rdfs:label "Tandheelkundig Centrum van Halderen"^^xsd:string ;
         ns3:latitude 5.237518e+01 ;
         ns3:longitude 4.812413e+00 ;
@@ -1816,7 +2037,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandprotheticus.biz"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandheelkundig_Centrum_voor_Esthetische_Tandzorg,_Amsterdam_Noord> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/toothTandheelkundig_Centrum_voor_Esthetische_Tandzorg,_Amsterdam_Noord> a :dentist,
+            :instantie ;
         rdfs:label "Tandheelkundig Centrum voor Esthetische Tandzorg, Amsterdam Noord"^^xsd:string ;
         ns3:latitude 5.239124e+01 ;
         ns3:longitude 4.941277e+00 ;
@@ -1824,7 +2046,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.noordent.nl"^^xsd:string .
 
-    ns1:toothTandtechnisch_laboratorium_Dental_West a :instantie ;
+    ns1:toothTandtechnisch_laboratorium_Dental_West a :dentist,
+            :instantie ;
         rdfs:label "Tandtechnisch laboratorium Dental West"^^xsd:string ;
         ns3:latitude 5.23728e+01 ;
         ns3:longitude 4.833575e+00 ;
@@ -1832,7 +2055,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.dentalwest.nl"^^xsd:string .
 
-    ns1:toothTandzorg_Osdorp a :instantie ;
+    ns1:toothTandzorg_Osdorp a :dentist,
+            :instantie ;
         rdfs:label "Tandzorg Osdorp"^^xsd:string ;
         ns3:latitude 5.235494e+01 ;
         ns3:longitude 4.810797e+00 ;
@@ -1840,7 +2064,8 @@
         :providesInformationAbout :dentalIssues ;
         :website "http://www.tandzorgosdorp.nl"^^xsd:string .
 
-    ns1:toothTooth_Unlimited_Tandartsenpraktijk a :instantie ;
+    ns1:toothTooth_Unlimited_Tandartsenpraktijk a :dentist,
+            :instantie ;
         rdfs:label "Tooth Unlimited Tandartsenpraktijk"^^xsd:string ;
         ns3:latitude 5.241321e+01 ;
         ns3:longitude 4.886571e+00 ;
@@ -1848,7 +2073,8 @@
         :providesInformationAbout :dentalIssues ;
         :website ""^^xsd:string .
 
-    ns1:toothVerwijspraktijk_voor_Tandheelkunde a :instantie ;
+    ns1:toothVerwijspraktijk_voor_Tandheelkunde a :dentist,
+            :instantie ;
         rdfs:label "Verwijspraktijk voor Tandheelkunde"^^xsd:string ;
         ns3:latitude 5.232448e+01 ;
         ns3:longitude 4.869866e+00 ;
@@ -1860,6 +2086,9 @@
 
     :JoodsVerpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :verpleegZorgHuis .
+
+    :LivingFacilities a owl:Class ;
+        rdfs:subClassOf :elderlyLocation .
 
     :addictCare a owl:Class ;
         rdfs:subClassOf :organisations ;
@@ -1878,6 +2107,9 @@
 
     :dayActivity a :reintegrationPossibilites,
             owl:NamedIndividual .
+
+    :daytimeLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :dentalCare a owl:Class ;
         rdfs:subClassOf :healthCare ;
@@ -1905,6 +2137,12 @@
 
     :homelessReintegration a :knowledgeDomain,
             owl:NamedIndividual .
+
+    :jewElderlyCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :jewishCareLocation a owl:Class ;
+        rdfs:subClassOf :careLocation .
 
     :lhbt a :riskGroups,
             owl:NamedIndividual .
@@ -1934,11 +2172,16 @@
         rdfs:range :careTimes ;
         rdfs:subPropertyOf :provides .
 
+    :reumaCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
     :rheumatismCenter a owl:Class ;
         rdfs:subClassOf :healthCare .
 
     :sleepLocation a :reintegrationPossibilites,
-            owl:NamedIndividual .
+            owl:Class,
+            owl:NamedIndividual ;
+        rdfs:subClassOf :nightLocation .
 
     :specialNeedCare a :knowledgeDomain,
             owl:NamedIndividual .
@@ -1957,8 +2200,6 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    :Location a owl:Class .
-
     :addictsPrevention a :knowledgeDomain,
             owl:NamedIndividual .
 
@@ -1968,8 +2209,17 @@
     :adults a :ageGroups,
             owl:NamedIndividual .
 
+    :careLocation a owl:Class ;
+        rdfs:subClassOf :elderlyLocation .
+
     :children a :ageGroups,
             owl:NamedIndividual .
+
+    :medicalLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
+    :nightLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :providesDentalcareTo a owl:ObjectProperty ;
         rdfs:domain :organisations ;
@@ -1981,6 +2231,9 @@
 
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
+
+    :elderlyLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :groups a owl:Class .
 
@@ -2004,11 +2257,16 @@
     :riskGroups a owl:Class ;
         rdfs:subClassOf :groups .
 
+    :Location a owl:Class .
+
     :organisations a owl:Class .
 
     :reintegrationPossibilites a owl:Class .
 
     :knowledgeDomain a owl:Class .
+
+    :dentist a owl:Class ;
+        rdfs:subClassOf :medicalLocation .
 
     :instantie a owl:Class .
 

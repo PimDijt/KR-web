@@ -2,9 +2,9 @@
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/lhbt> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix ns2: <urn:x-rdflib:> .
-@prefix ns3: <http://dbpedia.org/property/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://dbpedia.org/property/> .
+@prefix ns3: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,412 +12,1397 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuis> a :Instantie ;
-        rdfs:label "Beth Shalom, Joods zorgcentrum en verpleeghuis"^^xsd:string ;
-        ns3:latitude 5.232621e+01 ;
-        ns3:longitude 4.881009e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.bethshalom.nl"^^xsd:string .
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbt's_Heeren_Loo_Kwadrant> a :instantie ;
+        rdfs:label "'s Heeren Loo Kwadrant"^^xsd:string ;
+        ns2:latitude 5.236162e+01,
+            5.236169e+01,
+            5.239364e+01 ;
+        ns2:longitude 4.878315e+00,
+            4.908513e+00,
+            4.955449e+00 ;
+        :website "http://www.sheerenloo.nl"^^xsd:string .
 
-    ns1:lhbtCentrum_van_ouderen_Flesseman a :Instantie ;
-        rdfs:label "Centrum van ouderen Flesseman"^^xsd:string ;
-        ns3:latitude 5.237201e+01 ;
-        ns3:longitude 4.900677e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtCentrum_voor_verpleeghuiszorg_De_Poort a :Instantie ;
-        rdfs:label "Centrum voor verpleeghuiszorg De Poort"^^xsd:string ;
-        ns3:latitude 5.237252e+01 ;
-        ns3:longitude 4.87236e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtDe_Goodwillburgh a :Instantie ;
-        rdfs:label "De Goodwillburgh"^^xsd:string ;
-        ns3:latitude 5.236944e+01 ;
-        ns3:longitude 4.909061e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    ns3:lhbt10_voor_Toekomst a :instantie ;
+        rdfs:label "10 voor Toekomst"^^xsd:string ;
+        ns2:latitude 5.238945e+01 ;
+        ns2:longitude 4.956396e+00 ;
         :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string .
 
-    ns1:lhbtDe_Hudsonhof a :Instantie ;
-        rdfs:label "De Hudsonhof"^^xsd:string ;
-        ns3:latitude 5.236979e+01 ;
-        ns3:longitude 4.852099e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://hudsonhof.nl"^^xsd:string .
+    ns3:lhbt2Learn a :instantie ;
+        rdfs:label "2Learn"^^xsd:string ;
+        ns2:latitude 5.235472e+01 ;
+        ns2:longitude 4.872582e+00 ;
+        :website "http://www.2learn.nl"^^xsd:string .
 
-    ns1:lhbtEvean_De_Kimme a :Instantie ;
-        rdfs:label "Evean De Kimme"^^xsd:string ;
-        ns3:latitude 5.239631e+01 ;
-        ns3:longitude 4.951084e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.evean.nl"^^xsd:string .
+    ns3:lhbtAMC_Audiologisch_Centrum a :instantie ;
+        rdfs:label "AMC Audiologisch Centrum"^^xsd:string ;
+        ns2:latitude 5.229499e+01 ;
+        ns2:longitude 4.957913e+00 ;
+        :website "https://www.amc.nl/web/Zorg/Patient/Afspraak-op-de-polikliniek/Audiologisch-Centrum.htm"^^xsd:string .
 
-    ns1:lhbtEvean_Eduard_Douwes_Dekker a :Instantie ;
-        rdfs:label "Evean Eduard Douwes Dekker"^^xsd:string ;
-        ns3:latitude 5.240465e+01 ;
-        ns3:longitude 4.907696e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.evean.nl"^^xsd:string .
+    ns3:lhbtAVG-poli a :instantie ;
+        rdfs:label "AVG-poli"^^xsd:string ;
+        ns2:latitude 5.235718e+01 ;
+        ns2:longitude 4.927527e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
 
-    ns1:lhbtEvean_Henriëtte_Roland_Holst a :Instantie ;
-        rdfs:label "Evean Henriëtte Roland Holst"^^xsd:string ;
-        ns3:latitude 5.231428e+01 ;
-        ns3:longitude 4.969781e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.evean.nl"^^xsd:string .
+    ns3:lhbtActiviteitencentrum_Buitenveldert a :instantie ;
+        rdfs:label "Activiteitencentrum Buitenveldert"^^xsd:string ;
+        ns2:latitude 5.233386e+01 ;
+        ns2:longitude 4.884267e+00 ;
+        :website "http://www.nieuwamstelrade.nl"^^xsd:string .
 
-    ns1:lhbtEvean_Korthagenhuis a :Instantie ;
-        rdfs:label "Evean Korthagenhuis"^^xsd:string ;
-        ns3:latitude 5.240484e+01 ;
-        ns3:longitude 4.939876e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.evean.nl"^^xsd:string .
+    ns3:lhbtActiviteitencentrum_Vrankendijke a :instantie ;
+        rdfs:label "Activiteitencentrum Vrankendijke"^^xsd:string ;
+        ns2:latitude 5.236043e+01 ;
+        ns2:longitude 4.790598e+00 ;
+        :website "http://www.nieuwamstelrade.nl"^^xsd:string .
 
-    ns1:lhbtEvean_Twiskehuis a :Instantie ;
-        rdfs:label "Evean Twiskehuis"^^xsd:string ;
-        ns3:latitude 5.241609e+01 ;
-        ns3:longitude 4.880379e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.evean.nl"^^xsd:string .
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtAltra_Jeugd_&_Opvoedhulp> a :instantie ;
+        rdfs:label "Altra Jeugd & Opvoedhulp"^^xsd:string ;
+        ns2:latitude 5.231119e+01,
+            5.235756e+01,
+            5.237114e+01,
+            5.239438e+01 ;
+        ns2:longitude 4.881774e+00,
+            4.93149e+00,
+            4.931986e+00,
+            4.954208e+00 ;
+        :website "http://www.altra.nl/"^^xsd:string .
 
-    ns1:lhbtHet_Flevohuis a :Instantie ;
-        rdfs:label "Het Flevohuis"^^xsd:string ;
-        ns3:latitude 5.236555e+01 ;
-        ns3:longitude 4.945866e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.zgao.nl"^^xsd:string .
+    ns3:lhbtAltra_Onderwijs a :instantie ;
+        rdfs:label "Altra Onderwijs"^^xsd:string ;
+        ns2:latitude 5.228988e+01,
+            5.229207e+01,
+            5.231564e+01,
+            5.235226e+01,
+            5.236341e+01,
+            5.237114e+01,
+            5.238963e+01 ;
+        ns2:longitude 4.814971e+00,
+            4.858284e+00,
+            4.881774e+00,
+            4.947358e+00,
+            4.947977e+00,
+            4.953902e+00,
+            4.970589e+00 ;
+        :website "http://www.altra.nl"^^xsd:string .
 
-    ns1:lhbtHuize_Plantage a :Instantie ;
-        rdfs:label "Huize Plantage"^^xsd:string ;
-        ns3:latitude 5.236786e+01 ;
-        ns3:longitude 4.911309e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://huizeplantage.nl"^^xsd:string .
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtAmbulante_Zorg_op_Maat_Amsterdam_(Azoma)> a :instantie ;
+        rdfs:label "Ambulante Zorg op Maat Amsterdam (Azoma)"^^xsd:string ;
+        ns2:latitude -3.299337e+01 ;
+        ns2:longitude -6.064756e+01 ;
+        :website "http://www.zorgopmaatamsterdam.nl"^^xsd:string .
 
-    ns1:lhbtLA_Rieshuis a :Instantie ;
-        rdfs:label "LA Rieshuis"^^xsd:string ;
-        ns3:latitude 5.23836e+01 ;
-        ns3:longitude 4.884335e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    ns3:lhbtAmsta a :instantie ;
+        rdfs:label "Amsta"^^xsd:string ;
+        ns2:latitude 5.235718e+01,
+            5.23647e+01,
+            5.236831e+01 ;
+        ns2:longitude 4.91055e+00,
+            4.927221e+00,
+            4.927527e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtAmsta_Karaad,_ambulant_specialistisch_team> a :instantie ;
+        rdfs:label "Amsta Karaad, ambulant specialistisch team"^^xsd:string ;
+        ns2:latitude 5.235718e+01 ;
+        ns2:longitude 4.927527e+00 ;
+        :website "http://www.amsta.nl/nl/1609-ambulante_ondersteuning.html"^^xsd:string .
+
+    ns3:lhbtAmstelbewind a :instantie ;
+        rdfs:label "Amstelbewind"^^xsd:string ;
+        ns2:latitude -3.299348e+01 ;
+        ns2:longitude -6.064769e+01 ;
+        :website "http://www.amstelbewind.nl"^^xsd:string .
+
+    ns3:lhbtAmstelring a :instantie ;
+        rdfs:label "Amstelring"^^xsd:string ;
+        ns2:latitude 5.235927e+01 ;
+        ns2:longitude 4.844226e+00 ;
         :website "http://www.amstelring.nl"^^xsd:string .
 
-    ns1:lhbtLutherhof a :Instantie ;
-        rdfs:label "Lutherhof"^^xsd:string ;
-        ns3:latitude 5.23608e+01 ;
-        ns3:longitude 4.863495e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.lutherhof.nl"^^xsd:string .
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtAngo_steunpunt_werk,_handicap_&_voorzieningen> a :instantie ;
+        rdfs:label "Ango steunpunt werk, handicap & voorzieningen"^^xsd:string ;
+        ns2:latitude 5.235049e+01 ;
+        ns2:longitude 4.835266e+00 ;
+        :website "http://www.ango-werk-handicap.nl"^^xsd:string .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtReade,_centrum_voor_reumatologie_en_revalidatie> a :Instantie ;
+    ns3:lhbtAppèl_bewindvoering a :instantie ;
+        rdfs:label "Appèl bewindvoering"^^xsd:string ;
+        ns2:latitude -3.299346e+01 ;
+        ns2:longitude -6.064821e+01 ;
+        :website "http://www.appelbewind.nl"^^xsd:string .
+
+    ns3:lhbtArchimedestrainingen_Amsterdam a :instantie ;
+        rdfs:label "Archimedestrainingen Amsterdam"^^xsd:string ;
+        ns2:latitude 5.235965e+01 ;
+        ns2:longitude 4.912058e+00 ;
+        :website "http://www.archimedestrainingen.nl"^^xsd:string .
+
+    ns3:lhbtAudiologisch_Centrum_Amsterdam a :instantie ;
+        rdfs:label "Audiologisch Centrum Amsterdam"^^xsd:string ;
+        ns2:latitude 5.235972e+01 ;
+        ns2:longitude 4.840345e+00 ;
+        :website "http://www.kentalis.nl"^^xsd:string .
+
+    ns3:lhbtBRight_GGZ_Jeugd_en_Gezin_Amsterdam a :instantie ;
+        rdfs:label "BRight GGZ Jeugd en Gezin Amsterdam"^^xsd:string ;
+        ns2:latitude 5.236341e+01 ;
+        ns2:longitude 4.858284e+00 ;
+        :website "http://www.brightggz.nl"^^xsd:string .
+
+    ns3:lhbtBea_Zorg a :instantie ;
+        rdfs:label "Bea Zorg"^^xsd:string ;
+        ns2:latitude 5.234193e+01 ;
+        ns2:longitude 4.800767e+00 ;
+        :website "http://www.beazorg.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBelangengroep_Gehandicapten_Oud-West_(BGOW)> a :instantie ;
+        rdfs:label "Belangengroep Gehandicapten Oud-West (BGOW)"^^xsd:string ;
+        ns2:latitude 5.236518e+01 ;
+        ns2:longitude 4.866279e+00 ;
+        :website "http://www.bgow.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBeleyes_/_Bartiméus> a :instantie ;
+        rdfs:label "Beleyes / Bartiméus"^^xsd:string ;
+        ns2:latitude 5.236259e+01 ;
+        ns2:longitude 4.804193e+00 ;
+        :website "http://www.beleyes.nl"^^xsd:string .
+
+    ns3:lhbtBudgetondersteuning_Nederland a :instantie ;
+        rdfs:label "Budgetondersteuning Nederland"^^xsd:string ;
+        ns2:latitude 5.244283e+01 ;
+        ns2:longitude 4.856451e+00 ;
+        :website "http://www.budgetondersteuning.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtCASA_Amsterdam,_centrum_voor_anticonceptie,_ongewenste_zwangerschap_en_seksualiteit> a :instantie ;
+        rdfs:label "CASA Amsterdam, centrum voor anticonceptie, ongewenste zwangerschap en seksualiteit"^^xsd:string ;
+        ns2:latitude 5.236533e+01 ;
+        ns2:longitude 4.922304e+00 ;
+        :website "http://www.casaklinieken.nl/nl/over-casa-klinieken/locaties/amsterdam"^^xsd:string .
+
+    ns3:lhbtCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdam a :instantie ;
+        rdfs:label "CASA Reade Centrum voor Aangepast Sporten Amsterdam"^^xsd:string ;
+        ns2:latitude 5.237074e+01 ;
+        ns2:longitude 4.844408e+00 ;
+        :website "http://casa.reade.nl/"^^xsd:string .
+
+    ns3:lhbtCOC_Amsterdam a :instantie ;
+        rdfs:label "COC Amsterdam"^^xsd:string ;
+        ns2:latitude 5.235762e+01 ;
+        ns2:longitude 4.895316e+00 ;
+        :website "http://www.cocamsterdam.nl"^^xsd:string .
+
+    ns3:lhbtCentrum_PS a :instantie ;
+        rdfs:label "Centrum PS"^^xsd:string ;
+        ns2:latitude 5.237039e+01 ;
+        ns2:longitude 4.865792e+00 ;
+        :website "http://www.volksbond.nl"^^xsd:string .
+
+    ns3:lhbtCordaan a :instantie ;
+        rdfs:label "Cordaan"^^xsd:string ;
+        ns2:latitude 5.238146e+01 ;
+        ns2:longitude 4.89558e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtCordaan_Jeugd a :instantie ;
+        rdfs:label "Cordaan Jeugd"^^xsd:string ;
+        ns2:latitude 5.233637e+01 ;
+        ns2:longitude 4.869177e+00 ;
+        :website "http://www.cordaan.nl/jeugd"^^xsd:string .
+
+    ns3:lhbtDagcentrum_Buitenveldert a :instantie ;
+        rdfs:label "Dagcentrum Buitenveldert"^^xsd:string ;
+        ns2:latitude 5.233173e+01 ;
+        ns2:longitude 4.865909e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtDagcentrum_De_Beemster a :instantie ;
+        rdfs:label "Dagcentrum De Beemster"^^xsd:string ;
+        ns2:latitude 5.23969e+01 ;
+        ns2:longitude 4.950799e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtDagcentrum_de_Dokken a :instantie ;
+        rdfs:label "Dagcentrum de Dokken"^^xsd:string ;
+        ns2:latitude 5.240708e+01 ;
+        ns2:longitude 4.895428e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtDagcentrum_de_Drie_Wachters a :instantie ;
+        rdfs:label "Dagcentrum de Drie Wachters"^^xsd:string ;
+        ns2:latitude 5.235479e+01 ;
+        ns2:longitude 4.798116e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtDagcentrum_de_Elzen a :instantie ;
+        rdfs:label "Dagcentrum de Elzen"^^xsd:string ;
+        ns2:latitude 5.235627e+01 ;
+        ns2:longitude 4.794236e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtDagcentrum_de_Rank a :instantie ;
+        rdfs:label "Dagcentrum de Rank"^^xsd:string ;
+        ns2:latitude 5.24124e+01 ;
+        ns2:longitude 4.900205e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtDe_Driestroom a :instantie ;
+        rdfs:label "De Driestroom"^^xsd:string ;
+        ns2:latitude 4.289103e+01 ;
+        ns2:longitude -7.406324e+01 ;
+        :website "http://www.driestroom.nl"^^xsd:string .
+
+    ns3:lhbtDe_Joriskring a :instantie ;
+        rdfs:label "De Joriskring"^^xsd:string ;
+        ns2:latitude 5.233347e+01 ;
+        ns2:longitude 4.884712e+00 ;
+        :website "http://www.lievegoed.nl/joriskring"^^xsd:string .
+
+    ns3:lhbtDe_Koppeling_behandelcentrum_JeugdzorgPlus a :instantie ;
+        rdfs:label "De Koppeling behandelcentrum JeugdzorgPlus"^^xsd:string ;
+        ns2:latitude 5.229207e+01 ;
+        ns2:longitude 4.947358e+00 ;
+        :website "http://www.dekoppeling.com"^^xsd:string .
+
+    ns3:lhbtDe_Opvoedpoli a :instantie ;
+        rdfs:label "De Opvoedpoli"^^xsd:string ;
+        ns2:latitude 5.232165e+01,
+            5.235757e+01,
+            5.236338e+01,
+            5.238588e+01,
+            5.23987e+01 ;
+        ns2:longitude 4.85006e+00,
+            4.882296e+00,
+            4.930135e+00,
+            4.935604e+00,
+            4.969712e+00 ;
+        :website "http://www.opvoedpoli.nl"^^xsd:string .
+
+    ns3:lhbtDe_Regenboog_Groep a :instantie ;
+        rdfs:label "De Regenboog Groep"^^xsd:string ;
+        ns2:latitude 5.238026e+01 ;
+        ns2:longitude 4.894139e+00 ;
+        :website "http://www.deregenboog.org"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDe_Riethorst,_GGZ-centrum_voor_doven_&_slechthorenden> a :instantie ;
+        rdfs:label "De Riethorst, GGZ-centrum voor doven & slechthorenden"^^xsd:string ;
+        ns2:latitude 5.240455e+01 ;
+        ns2:longitude 4.894736e+00 ;
+        :website "http://www.propersona.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDe_Schakel,_inloop_/_maaltijden_/_kringloop> a :instantie ;
+        rdfs:label "De Schakel, inloop / maaltijden / kringloop"^^xsd:string ;
+        ns2:latitude 5.238283e+01 ;
+        ns2:longitude 4.877044e+00 ;
+        :website "http://www.kerkkoepelwest.nl"^^xsd:string .
+
+    ns3:lhbtDieetPlaneet a :instantie ;
+        rdfs:label "DieetPlaneet"^^xsd:string ;
+        ns2:latitude 5.235223e+01,
+            5.235964e+01,
+            5.236117e+01,
+            5.237101e+01,
+            5.237517e+01,
+            5.237919e+01 ;
+        ns2:longitude 4.805209e+00,
+            4.855804e+00,
+            4.861316e+00,
+            4.882217e+00,
+            4.889411e+00,
+            4.939157e+00 ;
+        :website "http://www.dieetplaneet.nl"^^xsd:string .
+
+    ns3:lhbtEffe_bij_moeder_an a :instantie ;
+        rdfs:label "Effe bij moeder an"^^xsd:string ;
+        ns2:latitude 5.239047e+01 ;
+        ns2:longitude 4.877925e+00 ;
+        :website "http://www.effebijmoederan.nl"^^xsd:string .
+
+    ns3:lhbtEvean_Korthagenhuis a :instantie ;
+        rdfs:label "Evean Korthagenhuis"^^xsd:string ;
+        ns2:latitude 5.240484e+01 ;
+        ns2:longitude 4.939876e+00 ;
+        :website "http://www.evean.nl"^^xsd:string .
+
+    ns3:lhbtFIOM_team a :instantie ;
+        rdfs:label "FIOM team"^^xsd:string ;
+        ns2:latitude 5.231119e+01,
+            5.239101e+01 ;
+        ns2:longitude 4.916702e+00,
+            4.954208e+00 ;
+        :website "http://www.altra.nl/fiom"^^xsd:string .
+
+    ns3:lhbtFasehuis_Het_Gein a :instantie ;
+        rdfs:label "Fasehuis Het Gein"^^xsd:string ;
+        ns2:latitude 5.230066e+01 ;
+        ns2:longitude 4.98391e+00 ;
+        :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string .
+
+    ns3:lhbtFokus_wonen_met_adl-assistentie a :instantie ;
+        rdfs:label "Fokus wonen met adl-assistentie"^^xsd:string ;
+        ns2:latitude 5.229235e+01,
+            5.234648e+01,
+            5.235562e+01,
+            5.236929e+01 ;
+        ns2:longitude 4.808102e+00,
+            4.857209e+00,
+            4.937386e+00,
+            4.988954e+00 ;
+        :website "http://www.fokuswonen.nl"^^xsd:string .
+
+    ns3:lhbtFourstar_Nederland a :instantie ;
+        rdfs:label "Fourstar Nederland"^^xsd:string ;
+        ns2:latitude 5.233292e+01,
+            5.241498e+01 ;
+        ns2:longitude 4.910303e+00,
+            4.914779e+00 ;
+        :website "http://www.fourstar.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtGGMD_(maatschappelijk_werk_doven_en_slechthorenden)> a :instantie ;
+        rdfs:label "GGMD (maatschappelijk werk doven en slechthorenden)"^^xsd:string ;
+        ns2:latitude 5.236258e+01 ;
+        ns2:longitude 4.804047e+00 ;
+        :website "http://www.ggmd.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtGO!_Onderwijs> a :instantie ;
+        rdfs:label "GO! Onderwijs"^^xsd:string ;
+        ns2:latitude 5.234652e+01 ;
+        ns2:longitude 4.835429e+00 ;
+        :website "http://www.projectgo.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtGehandicapten_Platform_Geuzenveld_/_Slotermeer> a :instantie ;
+        rdfs:label "Gehandicapten Platform Geuzenveld / Slotermeer"^^xsd:string ;
+        ns2:latitude 5.237995e+01 ;
+        ns2:longitude 4.798149e+00 ;
+        :website "http://www.stgdebrug.nl"^^xsd:string .
+
+    ns3:lhbtGemeenschap_Oudezijds_100 a :instantie ;
+        rdfs:label "Gemeenschap Oudezijds 100"^^xsd:string ;
+        ns2:latitude 5.237278e+01 ;
+        ns2:longitude 4.897996e+00 ;
+        :website "http://www.oudezijds100.nl"^^xsd:string .
+
+    ns3:lhbtHVO-Querido a :instantie ;
+        rdfs:label "HVO-Querido"^^xsd:string ;
+        ns2:latitude 5.235013e+01,
+            5.237558e+01 ;
+        ns2:longitude 4.876745e+00,
+            4.918913e+00 ;
+        :website "http://www.hvoquerido.nl/"^^xsd:string .
+
+    ns3:lhbtHeliomare_Amsterdam a :instantie ;
+        rdfs:label "Heliomare Amsterdam"^^xsd:string ;
+        ns2:latitude 5.230846e+01,
+            5.235006e+01 ;
+        ns2:longitude 4.8547e+00,
+            4.955803e+00 ;
+        :website "http://www.heliomare.nl"^^xsd:string .
+
+    ns3:lhbtHoutwerkplaats_Papaverweg a :instantie ;
+        rdfs:label "Houtwerkplaats Papaverweg"^^xsd:string ;
+        ns2:latitude 5.239562e+01 ;
+        ns2:longitude 4.906192e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtHumanitas a :instantie ;
+        rdfs:label "Humanitas"^^xsd:string ;
+        ns2:latitude 5.235978e+01 ;
+        ns2:longitude 4.902103e+00 ;
+        :website "http://www.humanitas.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn2work,_coaching_&_loopbaanadvies> a :instantie ;
+        rdfs:label "In2work, coaching & loopbaanadvies"^^xsd:string ;
+        ns2:latitude 5.233147e+01 ;
+        ns2:longitude 4.966627e+00 ;
+        :website "http://www.i2w.nl"^^xsd:string .
+
+    ns3:lhbtIndaad a :instantie ;
+        rdfs:label "Indaad"^^xsd:string ;
+        ns2:latitude 5.236295e+01 ;
+        ns2:longitude 4.838e+00 ;
+        :website "http://www.indaad.nl"^^xsd:string .
+
+    ns3:lhbtInitiatiefgroep_Toegankelijkheid_Amsterdam-Noord a :instantie ;
+        rdfs:label "Initiatiefgroep Toegankelijkheid Amsterdam-Noord"^^xsd:string ;
+        ns2:latitude 5.239812e+01 ;
+        ns2:longitude 4.922533e+00 ;
+        :website ""^^xsd:string .
+
+    ns3:lhbtInloophuis_De_Tweede_Mijl a :instantie ;
+        rdfs:label "Inloophuis De Tweede Mijl"^^xsd:string ;
+        ns2:latitude 5.238125e+01 ;
+        ns2:longitude 4.88511e+00 ;
+        :website "http://www.detweedemijl.nl"^^xsd:string .
+
+    ns3:lhbtJellinek a :instantie ;
+        rdfs:label "Jellinek"^^xsd:string ;
+        ns2:latitude 5.235304e+01,
+            5.235763e+01,
+            5.236414e+01 ;
+        ns2:longitude 4.852099e+00,
+            4.873211e+00,
+            4.877166e+00 ;
+        :website "http://www.jellinek.nl/"^^xsd:string .
+
+    ns3:lhbtJeugdsportfonds_Amsterdam a :instantie ;
+        rdfs:label "Jeugdsportfonds Amsterdam"^^xsd:string ;
+        ns2:latitude 5.232268e+01 ;
+        ns2:longitude 4.975657e+00 ;
+        :website "http://amsterdam.jeugdsportfonds.nl/"^^xsd:string .
+
+    ns3:lhbtJongerencultuurfonds a :instantie ;
+        rdfs:label "Jongerencultuurfonds"^^xsd:string ;
+        ns2:latitude -3.299346e+01 ;
+        ns2:longitude -6.064867e+01 ;
+        :website "http://www.jongerencultuurfonds.nl"^^xsd:string .
+
+    ns3:lhbtKDC_De_Kring a :instantie ;
+        rdfs:label "KDC De Kring"^^xsd:string ;
+        ns2:latitude 5.235231e+01 ;
+        ns2:longitude 4.811565e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtKDC_De_Schuit a :instantie ;
+        rdfs:label "KDC De Schuit"^^xsd:string ;
+        ns2:latitude 5.236611e+01 ;
+        ns2:longitude 4.805821e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtKentalis_Zorg a :instantie ;
+        rdfs:label "Kentalis Zorg"^^xsd:string ;
+        ns2:latitude 5.235864e+01,
+            5.23595e+01,
+            5.235972e+01,
+            5.235984e+01,
+            5.237574e+01 ;
+        ns2:longitude 4.780701e+00,
+            4.829911e+00,
+            4.836398e+00,
+            4.837759e+00,
+            4.840345e+00 ;
+        :website "http://www.kentalis.nl"^^xsd:string .
+
+    ns3:lhbtKids_at_Home a :instantie ;
+        rdfs:label "Kids at Home"^^xsd:string ;
+        ns2:latitude 5.234581e+01,
+            5.235468e+01,
+            5.237845e+01,
+            5.238219e+01,
+            5.241198e+01 ;
+        ns2:longitude 4.871263e+00,
+            4.872057e+00,
+            4.886893e+00,
+            4.88849e+00,
+            4.998714e+00 ;
+        :website "http://www.kids-at-home.nl"^^xsd:string .
+
+    ns3:lhbtKindercentrum_De_Ster a :instantie ;
+        rdfs:label "Kindercentrum De Ster"^^xsd:string ;
+        ns2:latitude 5.22975e+01,
+            5.232142e+01 ;
+        ns2:longitude 4.966648e+00,
+            4.99335e+00 ;
+        :website "http://www.desterkindercentrum.nl"^^xsd:string .
+
+    ns3:lhbtKinderdagcentrum_Omega a :instantie ;
+        rdfs:label "Kinderdagcentrum Omega"^^xsd:string ;
+        ns2:latitude 5.234844e+01 ;
+        ns2:longitude 5.009159e+00 ;
+        :website "http://www.stichtingomega.nl"^^xsd:string .
+
+    ns3:lhbtKinderhospice_Het_Lindenhofje a :instantie ;
+        rdfs:label "Kinderhospice Het Lindenhofje"^^xsd:string ;
+        ns2:latitude 5.238046e+01 ;
+        ns2:longitude 4.885222e+00 ;
+        :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Anton_de_Komplein a :instantie ;
+        rdfs:label "Kleinschalig wonen Anton de Komplein"^^xsd:string ;
+        ns2:latitude 5.231655e+01 ;
+        ns2:longitude 4.957748e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Buiten_Oranje a :instantie ;
+        rdfs:label "Kleinschalig wonen Buiten Oranje"^^xsd:string ;
+        ns2:latitude 5.238269e+01 ;
+        ns2:longitude 4.887988e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_De_Admiraal a :instantie ;
+        rdfs:label "Kleinschalig wonen De Admiraal"^^xsd:string ;
+        ns2:latitude 5.23845e+01 ;
+        ns2:longitude 4.846384e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_De_Singel a :instantie ;
+        rdfs:label "Kleinschalig wonen De Singel"^^xsd:string ;
+        ns2:latitude 5.235607e+01 ;
+        ns2:longitude 4.778048e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_De_kleine_Johannes a :instantie ;
+        rdfs:label "Kleinschalig wonen De kleine Johannes"^^xsd:string ;
+        ns2:latitude 5.235943e+01 ;
+        ns2:longitude 4.863308e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Florijn a :instantie ;
+        rdfs:label "Kleinschalig wonen Florijn"^^xsd:string ;
+        ns2:latitude 5.231857e+01,
+            5.231888e+01 ;
+        ns2:longitude 4.957535e+00,
+            4.957656e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Haag_en_Veld a :instantie ;
+        rdfs:label "Kleinschalig wonen Haag en Veld"^^xsd:string ;
+        ns2:latitude 5.231105e+01 ;
+        ns2:longitude 4.958813e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Polderweg a :instantie ;
+        rdfs:label "Kleinschalig wonen Polderweg"^^xsd:string ;
+        ns2:latitude 5.235712e+01 ;
+        ns2:longitude 4.92744e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Rengerskerkestraat a :instantie ;
+        rdfs:label "Kleinschalig wonen Rengerskerkestraat"^^xsd:string ;
+        ns2:latitude 5.235443e+01 ;
+        ns2:longitude 4.794305e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    ns3:lhbtKleinschalig_wonen_Schinkelhoek a :instantie ;
+        rdfs:label "Kleinschalig wonen Schinkelhoek"^^xsd:string ;
+        ns2:latitude 5.235251e+01 ;
+        ns2:longitude 4.853614e+00 ;
+        :website "http://www.amsta.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtKliniek_Vlaardingenlaan_(Mentrum)> a :instantie ;
+        rdfs:label "Kliniek Vlaardingenlaan (Mentrum)"^^xsd:string ;
+        ns2:latitude 5.234636e+01 ;
+        ns2:longitude 4.844134e+00 ;
+        :website "http://www.mentrum.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtKringen_voor_iedereen!> a :instantie ;
+        rdfs:label "Kringen voor iedereen!"^^xsd:string ;
+        ns2:latitude 5.236823e+01 ;
+        ns2:longitude 4.862807e+00 ;
+        :website "http://www.vriendenkringenamsterdam.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtKunstwerkplaats_(Cordaan)> a :instantie ;
+        rdfs:label "Kunstwerkplaats (Cordaan)"^^xsd:string ;
+        ns2:latitude 5.235168e+01 ;
+        ns2:longitude 4.902427e+00 ;
+        :website "http://www.kunstwerkplaats.nl/Ateliers/"^^xsd:string .
+
+    ns3:lhbtLFB_Themacafé_Amsterdam a :instantie ;
+        rdfs:label "LFB Themacafé Amsterdam"^^xsd:string ;
+        ns2:latitude 5.236986e+01 ;
+        ns2:longitude 4.880908e+00 ;
+        :website "http://www.lfb.nu"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)> a :instantie ;
+        rdfs:label "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string ;
+        ns2:latitude 5.239553e+01 ;
+        ns2:longitude 4.928745e+00 ;
+        :website "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtLetterplein,_academie_voor_zelfstandigheidsbevordering> a :instantie ;
+        rdfs:label "Letterplein, academie voor zelfstandigheidsbevordering"^^xsd:string ;
+        ns2:latitude 5.229419e+01 ;
+        ns2:longitude 4.971025e+00 ;
+        :website "http://www.letterplein.nl"^^xsd:string .
+
+    ns3:lhbtLijn5 a :instantie ;
+        rdfs:label "Lijn5"^^xsd:string ;
+        ns2:latitude 5.236259e+01,
+            5.240251e+01 ;
+        ns2:longitude 4.838459e+00,
+            4.942177e+00 ;
+        :website "http://www.ln5.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtMEE_Amstel_en_Zaan,_ondersteuning_bij_leven_met_een_beperking> a :instantie ;
+        rdfs:label "MEE Amstel en Zaan, ondersteuning bij leven met een beperking"^^xsd:string ;
+        ns2:latitude 5.235904e+01 ;
+        ns2:longitude 4.841278e+00 ;
+        :website "http://www.meeaz.nl"^^xsd:string .
+
+    ns3:lhbtMaatschap_Beschermvaardig a :instantie ;
+        rdfs:label "Maatschap Beschermvaardig"^^xsd:string ;
+        ns2:latitude 5.203359e+01 ;
+        ns2:longitude 5.354574e+00 ;
+        :website "http://www.beschermvaardig.nl"^^xsd:string .
+
+    ns3:lhbtMaatschappelijke_Opvang_Atlantisplein a :instantie ;
+        rdfs:label "Maatschappelijke Opvang Atlantisplein"^^xsd:string ;
+        ns2:latitude 5.235736e+01 ;
+        ns2:longitude 4.930889e+00 ;
+        :website "http://www.volksbond.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtMarkant,_Centrum_voor_Mantelzorg> a :instantie ;
+        rdfs:label "Markant, Centrum voor Mantelzorg"^^xsd:string ;
+        ns2:latitude 5.236836e+01 ;
+        ns2:longitude 4.898765e+00 ;
+        :website "http://www.markant.org"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtMedisch_Orthopedagogisch_Centrum_'t_Kabouterhuis> a :instantie ;
+        rdfs:label "Medisch Orthopedagogisch Centrum 't Kabouterhuis"^^xsd:string ;
+        ns2:latitude 5.23086e+01,
+            5.234184e+01,
+            5.238062e+01,
+            5.240578e+01 ;
+        ns2:longitude 4.813004e+00,
+            4.912952e+00,
+            4.916416e+00,
+            4.979908e+00 ;
+        :website "http://www.kabouterhuis.nl"^^xsd:string .
+
+    ns3:lhbtMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjes a :instantie ;
+        rdfs:label "Medisch kinderdagverblijf en kinderdagcentrum De Gelukkige Dolfijntjes"^^xsd:string ;
+        ns2:latitude 5.236242e+01 ;
+        ns2:longitude 4.867119e+00 ;
+        :website "http://www.degelukkigedolfijntjes.nl"^^xsd:string .
+
+    ns3:lhbtMeld-_en_coördinatiepunt_Eropaf a :instantie ;
+        rdfs:label "Meld- en coördinatiepunt Eropaf"^^xsd:string ;
+        ns2:latitude 5.234784e+01 ;
+        ns2:longitude 4.835354e+00 ;
+        :website "http://www.somosa.nl/eropaf/"^^xsd:string .
+
+    ns3:lhbtMentrum_LVB-team a :instantie ;
+        rdfs:label "Mentrum LVB-team"^^xsd:string ;
+        ns2:latitude 5.235718e+01 ;
+        ns2:longitude 4.927527e+00 ;
+        :website "http://www.mentrum.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtNederlandse_Rode_Kruis,_district_Amsterdam> a :instantie ;
+        rdfs:label "Nederlandse Rode Kruis, district Amsterdam"^^xsd:string ;
+        ns2:latitude 5.237031e+01 ;
+        ns2:longitude 4.908258e+00 ;
+        :website "http://www.rodekruis.nl/amsterdam"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtNederlandse_Stichting_voor_het_Dove_en_Slechthorende_Kind_(NSDSK)> a :instantie ;
+        rdfs:label "Nederlandse Stichting voor het Dove en Slechthorende Kind (NSDSK)"^^xsd:string ;
+        ns2:latitude 5.235156e+01 ;
+        ns2:longitude 4.901636e+00 ;
+        :website "http://www.nsdsk.nl"^^xsd:string .
+
+    ns3:lhbtNederlandse_Stichting_voor_het_Gehandicapte_Kind a :instantie ;
+        rdfs:label "Nederlandse Stichting voor het Gehandicapte Kind"^^xsd:string ;
+        ns2:latitude 5.23516e+01 ;
+        ns2:longitude 4.913274e+00 ;
+        :website "http://www.nsgk.nl"^^xsd:string .
+
+    ns3:lhbtNieuw_Amstelrade a :instantie ;
+        rdfs:label "Nieuw Amstelrade"^^xsd:string ;
+        ns2:latitude 5.238781e+01 ;
+        ns2:longitude 4.922715e+00 ;
+        :website "http://www.nieuwamstelrade.nl"^^xsd:string .
+
+    ns3:lhbtOnbeperkt_Oost a :instantie ;
+        rdfs:label "Onbeperkt Oost"^^xsd:string ;
+        ns2:latitude 5.236566e+01 ;
+        ns2:longitude 4.934692e+00 ;
+        :website "http://www.onbeperktoost.nl"^^xsd:string .
+
+    ns3:lhbtOns_Tweede_Thuis a :instantie ;
+        rdfs:label "Ons Tweede Thuis"^^xsd:string ;
+        ns2:latitude 5.239173e+01 ;
+        ns2:longitude 4.916636e+00 ;
+        :website "http://www.onstweedehuis.com"^^xsd:string .
+
+    ns3:lhbtOrthopedagogisch_Centrum_Middelveld a :instantie ;
+        rdfs:label "Orthopedagogisch Centrum Middelveld"^^xsd:string ;
+        ns2:latitude 5.235941e+01 ;
+        ns2:longitude 4.832583e+00 ;
+        :website "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string .
+
+    ns3:lhbtPEWA_Reïntegratie a :instantie ;
+        rdfs:label "PEWA Reïntegratie"^^xsd:string ;
+        ns2:latitude 5.230428e+01 ;
+        ns2:longitude 4.950961e+00 ;
+        :website "http://www.pewa.nl"^^xsd:string .
+
+    ns3:lhbtPantar_Amsterdam a :instantie ;
+        rdfs:label "Pantar Amsterdam"^^xsd:string ;
+        ns2:latitude 5.231758e+01,
+            5.238827e+01,
+            5.239532e+01,
+            5.240348e+01 ;
+        ns2:longitude 4.81765e+00,
+            4.874828e+00,
+            4.897276e+00,
+            4.98468e+00 ;
+        :website "http://www.pantar.nl"^^xsd:string .
+
+    ns3:lhbtPauwer_Wonen a :instantie ;
+        rdfs:label "Pauwer Wonen"^^xsd:string ;
+        ns2:latitude 5.229582e+01,
+            5.23201e+01 ;
+        ns2:longitude 4.981299e+00,
+            4.983191e+00 ;
+        :website "http://www.pauwer.nl"^^xsd:string .
+
+    ns3:lhbtPerspectief_GZ a :instantie ;
+        rdfs:label "Perspectief GZ"^^xsd:string ;
+        ns2:latitude 5.236956e+01 ;
+        ns2:longitude 4.83598e+00 ;
+        :website "http://www.het-perspectief.nl"^^xsd:string .
+
+    ns3:lhbtPhiladelphia_Fasehuis a :instantie ;
+        rdfs:label "Philadelphia Fasehuis"^^xsd:string ;
+        ns2:latitude 5.235282e+01 ;
+        ns2:longitude 4.786209e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtPhiladelphia_Zorg_Amsterdam_e.o.> a :instantie ;
+        rdfs:label "Philadelphia Zorg Amsterdam e.o."^^xsd:string ;
+        ns2:latitude 5.239252e+01 ;
+        ns2:longitude 4.898543e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtPlatform_Mantelzorg_Amsterdam_(PMA)> a :instantie ;
+        rdfs:label "Platform Mantelzorg Amsterdam (PMA)"^^xsd:string ;
+        ns2:latitude 5.236677e+01 ;
+        ns2:longitude 4.910249e+00 ;
+        :website "http://www.clientenbelangamsterdam.nl/platform-mantelzorg-amsterdam-3447.html"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtPlatform_Platform_Gehandicapten_Zuidoost_(PGZO)> a :instantie ;
+        rdfs:label "Platform Platform Gehandicapten Zuidoost (PGZO)"^^xsd:string ;
+        ns2:latitude 5.229259e+01 ;
+        ns2:longitude 4.970029e+00 ;
+        :website "http://www.pgno-zo.eu"^^xsd:string .
+
+    ns3:lhbtPoli_Plus_Praktijk_amsterdam a :instantie ;
+        rdfs:label "Poli Plus Praktijk amsterdam"^^xsd:string ;
+        ns2:latitude 5.237483e+01 ;
+        ns2:longitude 4.885917e+00 ;
+        :website "http://www.poli-plus.nl"^^xsd:string .
+
+    ns3:lhbtPraktijk_Hulp_bij_Hersenletsel a :instantie ;
+        rdfs:label "Praktijk Hulp bij Hersenletsel"^^xsd:string ;
+        ns2:latitude 5.235307e+01 ;
+        ns2:longitude 4.86943e+00 ;
+        :website "http://www.hulpbijhersenletsel.nl"^^xsd:string .
+
+    ns3:lhbtProfessor_Waterinkschool a :instantie ;
+        rdfs:label "Professor Waterinkschool"^^xsd:string ;
+        ns2:latitude 5.234184e+01,
+            5.238062e+01,
+            5.240579e+01 ;
+        ns2:longitude 4.813004e+00,
+            4.912952e+00,
+            4.916392e+00 ;
+        :website "http://www.professor-waterinkschool.nl"^^xsd:string .
+
+    ns3:lhbtPuntP_Preventie a :instantie ;
+        rdfs:label "PuntP Preventie"^^xsd:string ;
+        ns2:latitude 5.237627e+01 ;
+        ns2:longitude 4.874108e+00 ;
+        :website "http://www.puntp.nl/preventie"^^xsd:string .
+
+    ns3:lhbtROC_op_Maat a :instantie ;
+        rdfs:label "ROC op Maat"^^xsd:string ;
+        ns2:latitude 5.231612e+01,
+            5.232268e+01,
+            5.237343e+01 ;
+        ns2:longitude 4.844772e+00,
+            4.94863e+00,
+            4.975657e+00 ;
+        :website ""^^xsd:string .
+
+    ns3:lhbtRaphaëlstichting a :instantie ;
+        rdfs:label "Raphaëlstichting"^^xsd:string ;
+        ns2:latitude 5.235164e+01,
+            5.235408e+01 ;
+        ns2:longitude 4.894472e+00,
+            4.90312e+00 ;
+        :website "http://www.iambe.nl"^^xsd:string .
+
+    ns3:lhbtRappórt_Amsterdam_Zuid a :instantie ;
+        rdfs:label "Rappórt Amsterdam Zuid"^^xsd:string ;
+        ns2:latitude -3.299346e+01 ;
+        ns2:longitude -6.064851e+01 ;
+        :website "http://www.rapportbi.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtReade,_centrum_voor_reumatologie_en_revalidatie> a :instantie ;
         rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
-        ns3:latitude 5.236038e+01,
+        ns2:latitude 5.236038e+01,
             5.237074e+01 ;
-        ns3:longitude 4.844408e+00,
+        ns2:longitude 4.844408e+00,
             4.866849e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
         :website "http://www.reade.nl"^^xsd:string .
 
-    ns1:lhbtVerpleeghuis_De_Die a :Instantie ;
-        rdfs:label "Verpleeghuis De Die"^^xsd:string ;
-        ns3:latitude 5.239892e+01 ;
-        ns3:longitude 4.932031e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    ns3:lhbtRonald_McDonaldhuis a :instantie ;
+        rdfs:label "Ronald McDonaldhuis"^^xsd:string ;
+        ns2:latitude 5.229545e+01,
+            5.233249e+01,
+            5.238927e+01 ;
+        ns2:longitude 4.857713e+00,
+            4.94494e+00,
+            4.959491e+00 ;
+        :website "http://www.kinderfonds.nl"^^xsd:string .
+
+    ns3:lhbtSBT_Kliniek_Bijzondere_Tandheelkunde a :instantie ;
+        rdfs:label "SBT Kliniek Bijzondere Tandheelkunde"^^xsd:string ;
+        ns2:latitude 5.233615e+01 ;
+        ns2:longitude 4.861338e+00 ;
+        :website "http://www.sbt.nl"^^xsd:string .
+
+    ns3:lhbtSensa_Zorg a :instantie ;
+        rdfs:label "Sensa Zorg"^^xsd:string ;
+        ns2:latitude 5.234892e+01 ;
+        ns2:longitude 4.7952e+00 ;
+        :website "http://www.sensazorg.nl"^^xsd:string .
+
+    ns3:lhbtSoa_Aids_Nederland a :instantie ;
+        rdfs:label "Soa Aids Nederland"^^xsd:string ;
+        ns2:latitude 5.236909e+01 ;
+        ns2:longitude 4.884161e+00 ;
+        :website "http://www.soaaids.nl"^^xsd:string .
+
+    ns3:lhbtStichting_ABC a :instantie ;
+        rdfs:label "Stichting ABC"^^xsd:string ;
+        ns2:latitude 5.236341e+01 ;
+        ns2:longitude 4.858284e+00 ;
+        :website "http://www.hetabc.nl"^^xsd:string .
+
+    ns3:lhbtStichting_CAV a :instantie ;
+        rdfs:label "Stichting CAV"^^xsd:string ;
+        ns2:latitude 5.234661e+01 ;
+        ns2:longitude 4.83986e+00 ;
+        :website "http://www.stichting-cav.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Cliniclowns_Nederland a :instantie ;
+        rdfs:label "Stichting Cliniclowns Nederland"^^xsd:string ;
+        ns2:latitude -3.362553e+01 ;
+        ns2:longitude 1.945101e+01 ;
+        :website "http://www.cliniclowns.nl"^^xsd:string .
+
+    ns3:lhbtStichting_De_Waterheuvel a :instantie ;
+        rdfs:label "Stichting De Waterheuvel"^^xsd:string ;
+        ns2:latitude 5.236092e+01 ;
+        ns2:longitude 4.905849e+00 ;
+        :website "http://www.waterheuvel.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtStichting_Doorzettingsvermogen_Wilskracht_Resultaat_Plezier_(DWRP)> a :instantie ;
+        rdfs:label "Stichting Doorzettingsvermogen Wilskracht Resultaat Plezier (DWRP)"^^xsd:string ;
+        ns2:latitude -3.299345e+01 ;
+        ns2:longitude -6.064761e+01 ;
+        :website "http://www.dwrp.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Gemengd_Platform_van_Bewoners a :instantie ;
+        rdfs:label "Stichting Gemengd Platform van Bewoners"^^xsd:string ;
+        ns2:latitude 5.236636e+01 ;
+        ns2:longitude 4.852567e+00 ;
+        :website "http://www.stgpb.org"^^xsd:string .
+
+    ns3:lhbtStichting_Kruispost a :instantie ;
+        rdfs:label "Stichting Kruispost"^^xsd:string ;
+        ns2:latitude 5.237278e+01 ;
+        ns2:longitude 4.89736e+00 ;
+        :website "http://www.kruispost.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Nieuwe_Werkvormen_Amsterdam a :instantie ;
+        rdfs:label "Stichting Nieuwe Werkvormen Amsterdam"^^xsd:string ;
+        ns2:latitude 5.235291e+01 ;
+        ns2:longitude 4.855224e+00 ;
+        :website "http://www.snwa.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdam a :instantie ;
+        rdfs:label "Stichting Onderwijs aan Zieke Kinderen Amsterdam"^^xsd:string ;
+        ns2:latitude 5.251431e+01 ;
+        ns2:longitude 5.04837e+00 ;
+        :website "http://www.huisonderwijsamsterdam.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Opvangcentra_De_Elandsstraat a :instantie ;
+        rdfs:label "Stichting Opvangcentra De Elandsstraat"^^xsd:string ;
+        ns2:latitude 5.237044e+01 ;
+        ns2:longitude 4.880343e+00 ;
+        :website "http://www.elandsstraat.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtStichting_Orion_:_Openbaar_Speciaal_Onderwijs_Amsterdam> a :instantie ;
+        rdfs:label "Stichting Orion : Openbaar Speciaal Onderwijs Amsterdam"^^xsd:string ;
+        ns2:latitude 5.239586e+01 ;
+        ns2:longitude 4.848773e+00 ;
+        :website "http://www.orion.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Prisma a :instantie ;
+        rdfs:label "Stichting Prisma"^^xsd:string ;
+        ns2:latitude 5.236796e+01 ;
+        ns2:longitude 4.898329e+00 ;
+        :website "http://www.stichtingprisma.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Spreekbuis a :instantie ;
+        rdfs:label "Stichting Spreekbuis"^^xsd:string ;
+        ns2:latitude 5.235661e+01 ;
+        ns2:longitude 4.915496e+00 ;
+        :website ""^^xsd:string .
+
+    ns3:lhbtStichting_Stoelenproject a :instantie ;
+        rdfs:label "Stichting Stoelenproject"^^xsd:string ;
+        ns2:latitude 5.236993e+01 ;
+        ns2:longitude 4.876722e+00 ;
+        :website "http://www.stoelenproject.nl"^^xsd:string .
+
+    ns3:lhbtStichting_Streetcornerwork_Amsterdam a :instantie ;
+        rdfs:label "Stichting Streetcornerwork Amsterdam"^^xsd:string ;
+        ns2:latitude 5.236893e+01 ;
+        ns2:longitude 4.886395e+00 ;
+        :website "http://www.streetcornerwork.eu"^^xsd:string .
+
+    ns3:lhbtStichting_Volksbond_Amsterdam a :instantie ;
+        rdfs:label "Stichting Volksbond Amsterdam"^^xsd:string ;
+        ns2:latitude -3.299347e+01 ;
+        ns2:longitude -6.064907e+01 ;
+        :website "http://www.volksbond.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtStichting_Welzijn_Doven_Amsterdam_(SWDA)_-_Dovenontmoetingscentrum> a :instantie ;
+        rdfs:label "Stichting Welzijn Doven Amsterdam (SWDA) - Dovenontmoetingscentrum"^^xsd:string ;
+        ns2:latitude 5.235762e+01 ;
+        ns2:longitude 4.895316e+00 ;
+        :website "http://www.doof.amsterdam/"^^xsd:string .
+
+    ns3:lhbtTextiel-weefatelier_de_Draad a :instantie ;
+        rdfs:label "Textiel-weefatelier de Draad"^^xsd:string ;
+        ns2:latitude 5.23737e+01,
+            5.238569e+01 ;
+        ns2:longitude 4.84142e+00,
+            4.926806e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtVerpleeghuis_De_Open_Hof a :Instantie ;
-        rdfs:label "Verpleeghuis De Open Hof"^^xsd:string ;
-        ns3:latitude 5.234556e+01 ;
-        ns3:longitude 4.926826e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.zgao.nl"^^xsd:string .
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtUnal_Zorg,_begeleiding_gehandicapte_migranten> a :instantie ;
+        rdfs:label "Unal Zorg, begeleiding gehandicapte migranten"^^xsd:string ;
+        ns2:latitude 5.237619e+01 ;
+        ns2:longitude 4.818465e+00 ;
+        :website "http://www.unalzorg.nl"^^xsd:string .
 
-    ns1:lhbtVerpleeghuis_Dr._Sarphatihuis a :Instantie ;
-        rdfs:label "Verpleeghuis Dr. Sarphatihuis"^^xsd:string ;
-        ns3:latitude 5.23647e+01 ;
-        ns3:longitude 4.91055e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
+    ns3:lhbtVTO-Vroeghulp a :instantie ;
+        rdfs:label "VTO-Vroeghulp"^^xsd:string ;
+        ns2:latitude 5.236253e+01 ;
+        ns2:longitude 4.909003e+00 ;
+        :website "http://www.vtovroeghulp.nl"^^xsd:string .
 
-    ns1:lhbtVerpleeghuis_Gaasperdam a :Instantie ;
-        rdfs:label "Verpleeghuis Gaasperdam"^^xsd:string ;
-        ns3:latitude 5.229549e+01 ;
-        ns3:longitude 4.979046e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtVangnet_MGGZ_(GGD)> a :instantie ;
+        rdfs:label "Vangnet MGGZ (GGD)"^^xsd:string ;
+        ns2:latitude 5.236253e+01 ;
+        ns2:longitude 4.909003e+00 ;
+        :website "http://www.ggd.amsterdam.nl"^^xsd:string .
+
+    ns3:lhbtVereniging_Cliëntenbelang_Amsterdam a :instantie ;
+        rdfs:label "Vereniging Cliëntenbelang Amsterdam"^^xsd:string ;
+        ns2:latitude 5.236677e+01 ;
+        ns2:longitude 4.910249e+00 ;
+        :website "http://www.clientenbelangamsterdam.nl"^^xsd:string .
+
+    ns3:lhbtVisio_Amsterdam a :instantie ;
+        rdfs:label "Visio Amsterdam"^^xsd:string ;
+        ns2:latitude 5.230626e+01,
+            5.23787e+01 ;
+        ns2:longitude 4.819917e+00,
+            4.943552e+00 ;
+        :website "http://www.visio.org"^^xsd:string .
+
+    ns3:lhbtVoorzorg_GGD a :instantie ;
+        rdfs:label "Voorzorg GGD"^^xsd:string ;
+        ns2:latitude 5.236253e+01 ;
+        ns2:longitude 4.909003e+00 ;
+        :website "http://www.ggd.amsterdam.nl/"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtVu_Medisch_Centrum,_afdeling_Audiologie> a :instantie ;
+        rdfs:label "Vu Medisch Centrum, afdeling Audiologie"^^xsd:string ;
+        ns2:latitude 5.233569e+01 ;
+        ns2:longitude 4.859758e+00 ;
+        :website "http://www.ac-vumc.nl"^^xsd:string .
+
+    ns3:lhbtWerk_en_Dagbesteding_Zij_aan_Zij a :instantie ;
+        rdfs:label "Werk en Dagbesteding Zij aan Zij"^^xsd:string ;
+        ns2:latitude 5.234819e+01 ;
+        ns2:longitude 4.908057e+00 ;
+        :website "http://www.zij-aan-zij.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtWerkpad,_arbeids(re)integratie_voor_visueel,_auditief_of_communicatief_beperkten> a :instantie ;
+        rdfs:label "Werkpad, arbeids(re)integratie voor visueel, auditief of communicatief beperkten"^^xsd:string ;
+        ns2:latitude 5.236258e+01 ;
+        ns2:longitude 4.804047e+00 ;
+        :website "http://www.werkpad.nl"^^xsd:string .
+
+    ns3:lhbtWijzer_Centrum_voor_diagnostiek_en_behandeling a :instantie ;
+        rdfs:label "Wijzer Centrum voor diagnostiek en behandeling"^^xsd:string ;
+        ns2:latitude 5.235718e+01 ;
+        ns2:longitude 4.927527e+00 ;
+        :website ""^^xsd:string .
+
+    ns3:lhbtWilliam_Schrikker_Groep a :instantie ;
+        rdfs:label "William Schrikker Groep"^^xsd:string ;
+        ns2:latitude 5.231447e+01 ;
+        ns2:longitude 4.950407e+00 ;
+        :website "http://www.williamschrikkergroep.nu"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_Daguerre a :instantie ;
+        rdfs:label "Woonlocatie Daguerre"^^xsd:string ;
+        ns2:latitude 5.235934e+01 ;
+        ns2:longitude 4.992919e+00 ;
+        :website "http://www.nieuwamstelrade.nl/"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_De_Veste a :instantie ;
+        rdfs:label "Woonlocatie De Veste"^^xsd:string ;
+        ns2:latitude 5.235401e+01 ;
+        ns2:longitude 4.999982e+00 ;
+        :website "http://www.nieuwamstelrade.nl/"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_Park_de_Meer a :instantie ;
+        rdfs:label "Woonlocatie Park de Meer"^^xsd:string ;
+        ns2:latitude 5.234351e+01 ;
+        ns2:longitude 4.94792e+00 ;
+        :website "http://www.nieuwamstelrade.nl/"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Bazelhof a :instantie ;
+        rdfs:label "Woonlocatie VGZ Bazelhof"^^xsd:string ;
+        ns2:latitude 5.237582e+01 ;
+        ns2:longitude 4.795957e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtVerpleeghuis_Jan_Bongastraat a :Instantie ;
-        rdfs:label "Verpleeghuis Jan Bongastraat"^^xsd:string ;
-        ns3:latitude 5.237994e+01 ;
-        ns3:longitude 4.803819e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtVerpleeghuis_Oostpoort a :Instantie ;
-        rdfs:label "Verpleeghuis Oostpoort"^^xsd:string ;
-        ns3:latitude 5.235815e+01 ;
-        ns3:longitude 4.932267e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtVerpleeghuis_Slotervaart a :Instantie ;
-        rdfs:label "Verpleeghuis Slotervaart"^^xsd:string ;
-        ns3:latitude 5.234739e+01 ;
-        ns3:longitude 4.823678e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    ns3:lhbtWoonlocatie_VGZ_Borgerstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Borgerstraat"^^xsd:string ;
+        ns2:latitude 5.236454e+01 ;
+        ns2:longitude 4.863747e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtVerzorgingshuis_Emmahof a :Instantie ;
-        rdfs:label "Verzorgingshuis Emmahof"^^xsd:string ;
-        ns3:latitude 5.235301e+01 ;
-        ns3:longitude 4.8704e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.pro-senectute.nl"^^xsd:string .
-
-    ns1:lhbtWoon-_en_Zorgcentrum_De_Riekerhof a :Instantie ;
-        rdfs:label "Woon- en Zorgcentrum De Riekerhof"^^xsd:string ;
-        ns3:latitude 5.235915e+01 ;
-        ns3:longitude 4.840219e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    ns3:lhbtWoonlocatie_VGZ_Colijnstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Colijnstraat"^^xsd:string ;
+        ns2:latitude 5.237897e+01 ;
+        ns2:longitude 4.80693e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtWoon-_en_Zorgcentrum_Torendael a :Instantie ;
-        rdfs:label "Woon- en Zorgcentrum Torendael"^^xsd:string ;
-        ns3:latitude 5.233847e+01 ;
-        ns3:longitude 4.897435e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.puurzuid.nl"^^xsd:string .
-
-    ns1:lhbtWoon-_en_zorgcentrum_De_Den a :Instantie ;
-        rdfs:label "Woon- en zorgcentrum De Den"^^xsd:string ;
-        ns3:latitude 5.238225e+01 ;
-        ns3:longitude 4.80417e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.puurzuid.nl"^^xsd:string .
-
-    ns1:lhbtWoon-_en_zorgcentrum_De_Schutse a :Instantie ;
-        rdfs:label "Woon- en zorgcentrum De Schutse"^^xsd:string ;
-        ns3:latitude 5.235945e+01 ;
-        ns3:longitude 4.822585e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtWoon-_en_zorgcentrum_De_Werf a :Instantie ;
-        rdfs:label "Woon- en zorgcentrum De Werf"^^xsd:string ;
-        ns3:latitude 5.237247e+01 ;
-        ns3:longitude 4.868464e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtWoon-_en_zorgcentrum_Nellestein a :Instantie ;
-        rdfs:label "Woon- en zorgcentrum Nellestein"^^xsd:string ;
-        ns3:latitude 5.230946e+01 ;
-        ns3:longitude 4.984739e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtWoon-_en_zorgcentrum_Vondelstede a :Instantie ;
-        rdfs:label "Woon- en zorgcentrum Vondelstede"^^xsd:string ;
-        ns3:latitude 5.236036e+01 ;
-        ns3:longitude 4.869727e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amsta.nl"^^xsd:string .
-
-    ns1:lhbtWoonvoorziening_Anton_de_Komplein a :Instantie ;
-        rdfs:label "Woonvoorziening Anton de Komplein"^^xsd:string ;
-        ns3:latitude 5.231648e+01 ;
-        ns3:longitude 4.957822e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+    ns3:lhbtWoonlocatie_VGZ_Czaar_Peterstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Czaar Peterstraat"^^xsd:string ;
+        ns2:latitude 5.236967e+01 ;
+        ns2:longitude 4.929027e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtWoonzorg-_en_dienstencentrum_Menno_Simons a :Instantie ;
+    ns3:lhbtWoonlocatie_VGZ_De_Gooyer a :instantie ;
+        rdfs:label "Woonlocatie VGZ De Gooyer"^^xsd:string ;
+        ns2:latitude 5.236432e+01 ;
+        ns2:longitude 4.926924e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_De_Werf a :instantie ;
+        rdfs:label "Woonlocatie VGZ De Werf"^^xsd:string ;
+        ns2:latitude 5.240708e+01 ;
+        ns2:longitude 4.895428e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Dusartstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Dusartstraat"^^xsd:string ;
+        ns2:latitude 5.235222e+01 ;
+        ns2:longitude 4.889417e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Eerste Hugo de Grootstraat"^^xsd:string ;
+        ns2:latitude 5.237588e+01 ;
+        ns2:longitude 4.87448e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtWoonlocatie_VGZ_Foyer_Bos_&_Lommer> a :instantie ;
+        rdfs:label "Woonlocatie VGZ Foyer Bos & Lommer"^^xsd:string ;
+        ns2:latitude 5.237714e+01 ;
+        ns2:longitude 4.841922e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Gerrie_Knetemannlaan a :instantie ;
+        rdfs:label "Woonlocatie VGZ Gerrie Knetemannlaan"^^xsd:string ;
+        ns2:latitude 5.23738e+01 ;
+        ns2:longitude 4.841449e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Jan_Luijkenstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Jan Luijkenstraat"^^xsd:string ;
+        ns2:latitude 5.235948e+01 ;
+        ns2:longitude 4.880718e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Johan_Huijsenstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Johan Huijsenstraat"^^xsd:string ;
+        ns2:latitude 5.23508e+01 ;
+        ns2:longitude 5.00795e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Kadoelerbreek a :instantie ;
+        rdfs:label "Woonlocatie VGZ Kadoelerbreek"^^xsd:string ;
+        ns2:latitude 5.240918e+01 ;
+        ns2:longitude 4.913717e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Ketelmakerij a :instantie ;
+        rdfs:label "Woonlocatie VGZ Ketelmakerij"^^xsd:string ;
+        ns2:latitude 5.238369e+01 ;
+        ns2:longitude 4.917911e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Koningsvrouwen_van_Landlust a :instantie ;
+        rdfs:label "Woonlocatie VGZ Koningsvrouwen van Landlust"^^xsd:string ;
+        ns2:latitude 5.238134e+01 ;
+        ns2:longitude 4.858838e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Mandarijnenstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Mandarijnenstraat"^^xsd:string ;
+        ns2:latitude 5.240997e+01 ;
+        ns2:longitude 4.896116e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Marcantilaan a :instantie ;
+        rdfs:label "Woonlocatie VGZ Marcantilaan"^^xsd:string ;
+        ns2:latitude 5.237527e+01 ;
+        ns2:longitude 4.869156e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Mulderplein a :instantie ;
+        rdfs:label "Woonlocatie VGZ Mulderplein"^^xsd:string ;
+        ns2:latitude 5.236606e+01 ;
+        ns2:longitude 4.924792e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Nieuw_Sloten a :instantie ;
+        rdfs:label "Woonlocatie VGZ Nieuw Sloten"^^xsd:string ;
+        ns2:latitude 5.234452e+01 ;
+        ns2:longitude 4.816186e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Oosterparkstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Oosterparkstraat"^^xsd:string ;
+        ns2:latitude 5.23555e+01,
+            5.235805e+01 ;
+        ns2:longitude 4.913086e+00,
+            4.92078e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Overleg a :instantie ;
+        rdfs:label "Woonlocatie VGZ Overleg"^^xsd:string ;
+        ns2:latitude 5.235504e+01 ;
+        ns2:longitude 4.802296e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Overtoomse_hof a :instantie ;
+        rdfs:label "Woonlocatie VGZ Overtoomse hof"^^xsd:string ;
+        ns2:latitude 5.236825e+01 ;
+        ns2:longitude 4.837567e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Parkhof a :instantie ;
+        rdfs:label "Woonlocatie VGZ Parkhof"^^xsd:string ;
+        ns2:latitude 5.229689e+01 ;
+        ns2:longitude 4.979385e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Pieter_Langendijkstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Pieter Langendijkstraat"^^xsd:string ;
+        ns2:latitude 5.236185e+01 ;
+        ns2:longitude 4.860549e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Polderwegflat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Polderwegflat"^^xsd:string ;
+        ns2:latitude 5.235712e+01 ;
+        ns2:longitude 4.92744e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Seegersplein a :instantie ;
+        rdfs:label "Woonlocatie VGZ Seegersplein"^^xsd:string ;
+        ns2:latitude 5.229203e+01 ;
+        ns2:longitude 4.993266e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Senecastraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Senecastraat"^^xsd:string ;
+        ns2:latitude 5.237306e+01 ;
+        ns2:longitude 4.813028e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Sleewijkstraat a :instantie ;
+        rdfs:label "Woonlocatie VGZ Sleewijkstraat"^^xsd:string ;
+        ns2:latitude 5.229102e+01 ;
+        ns2:longitude 4.972139e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Spreeuwenpark a :instantie ;
+        rdfs:label "Woonlocatie VGZ Spreeuwenpark"^^xsd:string ;
+        ns2:latitude 5.238392e+01 ;
+        ns2:longitude 4.914853e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Walmolen a :instantie ;
+        rdfs:label "Woonlocatie VGZ Walmolen"^^xsd:string ;
+        ns2:latitude 5.24188e+01 ;
+        ns2:longitude 4.889595e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Watertoren a :instantie ;
+        rdfs:label "Woonlocatie VGZ Watertoren"^^xsd:string ;
+        ns2:latitude 5.23851e+01 ;
+        ns2:longitude 4.867705e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_VGZ_Wenckebachweg a :instantie ;
+        rdfs:label "Woonlocatie VGZ Wenckebachweg"^^xsd:string ;
+        ns2:latitude 5.233756e+01 ;
+        ns2:longitude 4.927055e+00 ;
+        :website "http://www.cordaan.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_Zoelenkerkstraat a :instantie ;
+        rdfs:label "Woonlocatie Zoelenkerkstraat"^^xsd:string ;
+        ns2:latitude 5.235525e+01 ;
+        ns2:longitude 4.794837e+00 ;
+        :website "http://www.nieuwamstelrade.nl/"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_en_activiteitencentrum_Albatros a :instantie ;
+        rdfs:label "Woonlocatie en activiteitencentrum Albatros"^^xsd:string ;
+        ns2:latitude 5.238781e+01 ;
+        ns2:longitude 4.922715e+00 ;
+        :website "http://www.nieuwamstelrade.nl"^^xsd:string .
+
+    ns3:lhbtWoonlocatie_en_activiteitencentrum_Meijboom a :instantie ;
+        rdfs:label "Woonlocatie en activiteitencentrum Meijboom"^^xsd:string ;
+        ns2:latitude 5.235009e+01,
+            5.235044e+01 ;
+        ns2:longitude 5.01029e+00,
+            5.01086e+00 ;
+        :website "http://www.nieuwamstelrade.nl"^^xsd:string .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtWoonvoorziening_'s_Gravendijkdreef> a :instantie ;
+        rdfs:label "Woonvoorziening 's Gravendijkdreef"^^xsd:string ;
+        ns2:latitude 5.232315e+01 ;
+        ns2:longitude 4.98106e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Anfieldroad a :instantie ;
+        rdfs:label "Woonvoorziening Anfieldroad"^^xsd:string ;
+        ns2:latitude 5.234281e+01 ;
+        ns2:longitude 4.949042e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Bijlmerdreef a :instantie ;
+        rdfs:label "Woonvoorziening Bijlmerdreef"^^xsd:string ;
+        ns2:latitude 5.232351e+01 ;
+        ns2:longitude 4.97738e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Bruins_Slotstraat a :instantie ;
+        rdfs:label "Woonvoorziening Bruins Slotstraat"^^xsd:string ;
+        ns2:latitude 5.237838e+01 ;
+        ns2:longitude 4.791312e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_De_Kleine_Hakke a :instantie ;
+        rdfs:label "Woonvoorziening De Kleine Hakke"^^xsd:string ;
+        ns2:latitude 5.235368e+01 ;
+        ns2:longitude 4.783423e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_De_Luifel a :instantie ;
+        rdfs:label "Woonvoorziening De Luifel"^^xsd:string ;
+        ns2:latitude 5.239366e+01 ;
+        ns2:longitude 4.934377e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Egoliplein a :instantie ;
+        rdfs:label "Woonvoorziening Egoliplein"^^xsd:string ;
+        ns2:latitude 5.232198e+01 ;
+        ns2:longitude 4.960248e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Hertingenstraat a :instantie ;
+        rdfs:label "Woonvoorziening Hertingenstraat"^^xsd:string ;
+        ns2:latitude 5.235476e+01 ;
+        ns2:longitude 4.796649e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Julius_Pergerstraat a :instantie ;
+        rdfs:label "Woonvoorziening Julius Pergerstraat"^^xsd:string ;
+        ns2:latitude 5.235186e+01 ;
+        ns2:longitude 5.002393e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Kinkerstraat a :instantie ;
+        rdfs:label "Woonvoorziening Kinkerstraat"^^xsd:string ;
+        ns2:latitude 5.236809e+01 ;
+        ns2:longitude 4.874423e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Korte_Water a :instantie ;
+        rdfs:label "Woonvoorziening Korte Water"^^xsd:string ;
+        ns2:latitude 5.235333e+01 ;
+        ns2:longitude 4.78602e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Laan_van_Vlaanderen a :instantie ;
+        rdfs:label "Woonvoorziening Laan van Vlaanderen"^^xsd:string ;
+        ns2:latitude 5.234627e+01 ;
+        ns2:longitude 4.806213e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonvoorziening_Wigbolt_Ripperdastraat a :instantie ;
+        rdfs:label "Woonvoorziening Wigbolt Ripperdastraat"^^xsd:string ;
+        ns2:latitude 5.23819e+01 ;
+        ns2:longitude 4.80488e+00 ;
+        :website "http://www.philadelphia.nl"^^xsd:string .
+
+    ns3:lhbtWoonzorg-_en_dienstencentrum_Menno_Simons a :instantie ;
         rdfs:label "Woonzorg- en dienstencentrum Menno Simons"^^xsd:string ;
-        ns3:latitude 5.23268e+01 ;
-        ns3:longitude 4.866509e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+        ns2:latitude 5.23268e+01 ;
+        ns2:longitude 4.866509e+00 ;
         :website "http://www.zhga.nl"^^xsd:string .
 
-    ns1:lhbtWoonzorgcentrum_Buitenveldert a :Instantie ;
-        rdfs:label "Woonzorgcentrum Buitenveldert"^^xsd:string ;
-        ns3:latitude 5.232289e+01 ;
-        ns3:longitude 4.861363e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_De_Boeg a :Instantie ;
-        rdfs:label "Woonzorgcentrum De Boeg"^^xsd:string ;
-        ns3:latitude 5.237615e+01 ;
-        ns3:longitude 4.846633e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_De_Bogt-Westerbeer a :Instantie ;
-        rdfs:label "Woonzorgcentrum De Bogt-Westerbeer"^^xsd:string ;
-        ns3:latitude 5.238901e+01 ;
-        ns3:longitude 4.878324e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_De_Buitenhof a :Instantie ;
-        rdfs:label "Woonzorgcentrum De Buitenhof"^^xsd:string ;
-        ns3:latitude 5.232667e+01 ;
-        ns3:longitude 4.888192e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_De_Drie_Hoven a :Instantie ;
-        rdfs:label "Woonzorgcentrum De Drie Hoven"^^xsd:string ;
-        ns3:latitude 5.235504e+01 ;
-        ns3:longitude 4.822494e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_De_Gooyer a :Instantie ;
+    ns3:lhbtWoonzorgcentrum_De_Gooyer a :instantie ;
         rdfs:label "Woonzorgcentrum De Gooyer"^^xsd:string ;
-        ns3:latitude 5.236432e+01 ;
-        ns3:longitude 4.926924e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+        ns2:latitude 5.236432e+01 ;
+        ns2:longitude 4.926924e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtWoonzorgcentrum_De_Klinker a :Instantie ;
+    ns3:lhbtWoonzorgcentrum_De_Klinker a :instantie ;
         rdfs:label "Woonzorgcentrum De Klinker"^^xsd:string ;
-        ns3:latitude 5.236532e+01 ;
-        ns3:longitude 4.86776e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+        ns2:latitude 5.236532e+01 ;
+        ns2:longitude 4.86776e+00 ;
         :website "https://www.amstelring.nl/"^^xsd:string .
 
-    ns1:lhbtWoonzorgcentrum_De_Rietvinck a :Instantie ;
-        rdfs:label "Woonzorgcentrum De Rietvinck"^^xsd:string ;
-        ns3:latitude 5.238388e+01 ;
-        ns3:longitude 4.883817e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_De_Venser a :Instantie ;
-        rdfs:label "Woonzorgcentrum De Venser"^^xsd:string ;
-        ns3:latitude 5.23178e+01 ;
-        ns3:longitude 4.94681e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_Eben_Haëzer a :Instantie ;
-        rdfs:label "Woonzorgcentrum Eben Haëzer"^^xsd:string ;
-        ns3:latitude 5.22976e+01 ;
-        ns3:longitude 4.98577e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_Het_Schouw a :Instantie ;
-        rdfs:label "Woonzorgcentrum Het Schouw"^^xsd:string ;
-        ns3:latitude 5.239806e+01 ;
-        ns3:longitude 4.942722e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_Kastanjehof a :Instantie ;
+    ns3:lhbtWoonzorgcentrum_Kastanjehof a :instantie ;
         rdfs:label "Woonzorgcentrum Kastanjehof"^^xsd:string ;
-        ns3:latitude 5.235858e+01 ;
-        ns3:longitude 4.923094e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
+        ns2:latitude 5.235858e+01 ;
+        ns2:longitude 4.923094e+00 ;
         :website "http://www.cordaan.nl"^^xsd:string .
 
-    ns1:lhbtWoonzorgcentrum_Leo_Polakhuis a :Instantie ;
-        rdfs:label "Woonzorgcentrum Leo Polakhuis"^^xsd:string ;
-        ns3:latitude 5.236287e+01 ;
-        ns3:longitude 4.789127e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
+    ns3:lhbtZigzag_verpleegkundige_en_gespecialiseerde_kindzorg a :instantie ;
+        rdfs:label "Zigzag verpleegkundige en gespecialiseerde kindzorg"^^xsd:string ;
+        ns2:latitude 5.234184e+01,
+            5.238062e+01 ;
+        ns2:longitude 4.813004e+00,
+            4.912952e+00 ;
+        :website "http://www.verpleegkundig-kinderdagverblijf.nl"^^xsd:string .
 
-    ns1:lhbtWoonzorgcentrum_Nieuw_Geuzenveld a :Instantie ;
-        rdfs:label "Woonzorgcentrum Nieuw Geuzenveld"^^xsd:string ;
-        ns3:latitude 5.238211e+01 ;
-        ns3:longitude 4.796299e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
+    ns3:lhbtZorgboerderij_De_Stolp a :instantie ;
+        rdfs:label "Zorgboerderij De Stolp"^^xsd:string ;
+        ns2:latitude 5.241132e+01 ;
+        ns2:longitude 4.954082e+00 ;
+        :website "http://www.zorgboerderijdestolp.nl/"^^xsd:string .
 
-    ns1:lhbtWoonzorgcentrum_Nieuw_Vredenburgh a :Instantie ;
-        rdfs:label "Woonzorgcentrum Nieuw Vredenburgh"^^xsd:string ;
-        ns3:latitude 5.236383e+01 ;
-        ns3:longitude 4.851246e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_Vreugdehof a :Instantie ;
-        rdfs:label "Woonzorgcentrum Vreugdehof"^^xsd:string ;
-        ns3:latitude 5.233386e+01 ;
-        ns3:longitude 4.884267e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    ns1:lhbtWoonzorgcentrum_Willem_Dreeshuis a :Instantie ;
-        rdfs:label "Woonzorgcentrum Willem Dreeshuis"^^xsd:string ;
-        ns3:latitude 5.23489e+01 ;
-        ns3:longitude 4.933102e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.amstelring.nl"^^xsd:string .
-
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZorgcentrum_d'_Oude_Raai> a :Instantie ;
-        rdfs:label "Zorgcentrum d' Oude Raai"^^xsd:string ;
-        ns3:latitude 5.234932e+01 ;
-        ns3:longitude 4.891695e+00 ;
-        :providesInformationAbout :addictsReintegration,
-            :homelessReintegration ;
-        :website "http://www.cordaan.nl"^^xsd:string .
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZusters_van_Moeder_Theresa_(Missionaries_of_Charity)> a :instantie ;
+        rdfs:label "Zusters van Moeder Theresa (Missionaries of Charity)"^^xsd:string ;
+        ns2:latitude 5.237589e+01 ;
+        ns2:longitude 4.878974e+00 ;
+        :website ""^^xsd:string .
 
     : a owl:Ontology .
 
     :JoodsVerpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :verpleegZorgHuis .
+
+    :LivingFacilities a owl:Class ;
+        rdfs:subClassOf :elderlyLocation .
 
     :addictCare a owl:Class ;
         rdfs:subClassOf :organisations ;
@@ -428,20 +1413,34 @@
                 owl:hasValue :addictsReintegration ;
                 owl:onProperty :providesInformationAbout ] .
 
-    :addictPrevention a :knowledgeDomain,
-            owl:NamedIndividual .
-
     :addicts a :riskGroups,
             owl:NamedIndividual .
 
-    :cheat a owl:NamedIndividual,
-            owl:Thing ;
-        :providesInformationAbout :addictsPrevention .
+    :day a :careTimes,
+            owl:NamedIndividual .
+
+    :dayActivity a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :daytimeLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
+    :dentalCare a owl:Class ;
+        rdfs:subClassOf :healthCare ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:onProperty :providesDentalcareTo ;
+                owl:someValuesFrom :ageGroups ] .
+
+    :dentist a owl:Class ;
+        rdfs:subClassOf :medicalLocation .
 
     :elderly a :riskGroups,
             owl:NamedIndividual .
 
     :elderlyCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :food a :reintegrationPossibilites,
             owl:NamedIndividual .
 
     :generalPractitioner a owl:Class ;
@@ -450,44 +1449,146 @@
     :homelessPeople a :riskGroups,
             owl:NamedIndividual .
 
+    :homelessPrevention a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :homelessReintegration a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :jewElderlyCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :jewishCareLocation a owl:Class ;
+        rdfs:subClassOf :careLocation .
+
     :lhbt a :riskGroups,
             owl:NamedIndividual .
 
     :lhbtIssues a :knowledgeDomain,
             owl:NamedIndividual .
 
+    :livingAccomodation a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
     :medicalIssues a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :night a :careTimes,
+            owl:NamedIndividual .
+
+    :park a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
+    :providesReintegration a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :reintegrationPossibilites ;
+        rdfs:subPropertyOf :provides .
+
+    :providesSpecialCare a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :careTimes ;
+        rdfs:subPropertyOf :provides .
+
+    :reumaCare a :knowledgeDomain,
             owl:NamedIndividual .
 
     :rheumatismCenter a owl:Class ;
         rdfs:subClassOf :healthCare .
 
+    :sleepLocation a :reintegrationPossibilites,
+            owl:Class,
+            owl:NamedIndividual ;
+        rdfs:subClassOf :nightLocation .
+
+    :specialNeedCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
     :sportInterestedGroups a owl:Class ;
         rdfs:subClassOf :groups .
+
+    :swimmingPool a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
+
+    :tennisHall a owl:Class ;
+        rdfs:subClassOf :sportcentrum .
+
+    :website a owl:ObjectProperty .
+
+    :work a :reintegrationPossibilites,
+            owl:NamedIndividual .
+
+    :addictsPrevention a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :addictsReintegration a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :adults a :ageGroups,
+            owl:NamedIndividual .
+
+    :careLocation a owl:Class ;
+        rdfs:subClassOf :elderlyLocation .
+
+    :children a :ageGroups,
+            owl:NamedIndividual .
+
+    :medicalLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
+    :nightLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
+    :providesDentalcareTo a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :ageGroups ;
+        rdfs:subPropertyOf :provides .
+
+    :sportcentrum a owl:Class ;
+        rdfs:subClassOf :leisureLocation .
 
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
 
-    :addictsPrevention a :knowledgeDomain,
-            owl:NamedIndividual .
+    :elderlyLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :groups a owl:Class .
 
     :providesInformationAbout a owl:ObjectProperty ;
         rdfs:domain :organisations ;
-        rdfs:range :knowledgeDomain .
+        rdfs:range :knowledgeDomain ;
+        rdfs:subPropertyOf :provides .
+
+    :careTimes a owl:Class .
+
+    :leisureLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
+    :ageGroups a owl:Class .
 
     :healthCare a owl:Class ;
         rdfs:subClassOf :organisations .
 
-    :organisations a owl:Class .
+    :provides a owl:ObjectProperty .
 
     :riskGroups a owl:Class ;
         rdfs:subClassOf :groups .
 
+    :Location a owl:Class .
+
+    :organisations a owl:Class .
+
+    :reintegrationPossibilites a owl:Class .
+
     :knowledgeDomain a owl:Class .
 
-    :addictsReintegration a :knowledgeDomain,
-            owl:NamedIndividual .
+    :instantie a owl:Class .
+
+    [] a owl:AllDifferent ;
+        owl:distinctMembers [ a rdf:List ;
+                rdf:first :adults ;
+                rdf:rest [ a rdf:List ;
+                        rdf:first :children ;
+                        rdf:rest () ] ] .
 }
 
