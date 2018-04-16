@@ -17,7 +17,6 @@
         rdfs:label "AGO Zwembad Diemen"^^xsd:string ;
         ns3:latitude 5.233658e+01 ;
         ns3:longitude 4.975027e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.agozwembad.nl"^^xsd:string .
 
@@ -26,7 +25,6 @@
         rdfs:label "Amstelbad"^^xsd:string ;
         ns3:latitude 5.230256e+01 ;
         ns3:longitude 4.92082e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.amstelbad.nl"^^xsd:string .
 
@@ -35,7 +33,6 @@
         rdfs:label "Amstelborgh/Borchland"^^xsd:string ;
         ns3:latitude 5.231583e+01 ;
         ns3:longitude 4.927626e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.borchland.nl"^^xsd:string .
 
@@ -44,7 +41,6 @@
         rdfs:label "Amstelcampus"^^xsd:string ;
         ns3:latitude 5.235863e+01 ;
         ns3:longitude 4.91002e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.usc.uva.nl"^^xsd:string .
 
@@ -53,7 +49,6 @@
         rdfs:label "Apollohal"^^xsd:string ;
         ns3:latitude 5.234807e+01 ;
         ns3:longitude 4.884444e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -63,7 +58,6 @@
         rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
         ns3:latitude 5.231544e+01 ;
         ns3:longitude 4.958035e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string .
 
@@ -72,7 +66,6 @@
         rdfs:label "Blaashal Gustav Mahler"^^xsd:string ;
         ns3:latitude 5.233687e+01 ;
         ns3:longitude 4.86783e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -81,7 +74,6 @@
         rdfs:label "Bredius"^^xsd:string ;
         ns3:latitude 5.239247e+01 ;
         ns3:longitude 4.868338e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -90,7 +82,6 @@
         rdfs:label "David Lloyd"^^xsd:string ;
         ns3:latitude 5.235762e+01 ;
         ns3:longitude 4.855931e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.davidlloyd.nl"^^xsd:string .
 
@@ -99,7 +90,6 @@
         rdfs:label "De Breek"^^xsd:string ;
         ns3:latitude 5.243097e+01 ;
         ns3:longitude 4.908425e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.debreek.nl"^^xsd:string .
 
@@ -108,7 +98,6 @@
         rdfs:label "De Mirandabad"^^xsd:string ;
         ns3:latitude 5.233873e+01 ;
         ns3:longitude 4.902275e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -117,7 +106,6 @@
         rdfs:label "Flevoparkbad"^^xsd:string ;
         ns3:latitude 5.236493e+01 ;
         ns3:longitude 4.95185e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -126,7 +114,6 @@
         rdfs:label "Frans Otten stadion"^^xsd:string ;
         ns3:latitude 5.233911e+01 ;
         ns3:longitude 4.850591e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.fransottenstadion.nl"^^xsd:string .
 
@@ -136,7 +123,6 @@
         rdfs:label "Friendship Sports Centre"^^xsd:string ;
         ns3:latitude 5.240025e+01 ;
         ns3:longitude 4.959847e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.friendshipsc.nl"^^xsd:string .
 
@@ -145,7 +131,6 @@
         rdfs:label "Het Marnix"^^xsd:string ;
         ns3:latitude 5.237799e+01 ;
         ns3:longitude 4.87848e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.hetmarnix.nl"^^xsd:string .
 
@@ -154,7 +139,6 @@
         rdfs:label "Hogendorp Sportcentrum"^^xsd:string ;
         ns3:latitude 5.238165e+01 ;
         ns3:longitude 4.867584e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -163,7 +147,6 @@
         rdfs:label "MatchZO"^^xsd:string ;
         ns3:latitude 5.230881e+01 ;
         ns3:longitude 5.014677e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.matchzo.nl"^^xsd:string .
 
@@ -172,7 +155,6 @@
         rdfs:label "Noorderparkbad"^^xsd:string ;
         ns3:latitude 5.239827e+01 ;
         ns3:longitude 4.918728e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -181,7 +163,6 @@
         rdfs:label "Sloterparkbad"^^xsd:string ;
         ns3:latitude 5.23717e+01 ;
         ns3:longitude 4.815131e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -190,7 +171,6 @@
         rdfs:label "SportPlaza Mercator"^^xsd:string ;
         ns3:latitude 5.237175e+01 ;
         ns3:longitude 4.846099e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportplazamercator.nl"^^xsd:string .
 
@@ -199,7 +179,6 @@
         rdfs:label "SportPlaza de Sporthoeve"^^xsd:string ;
         ns3:latitude 5.234307e+01 ;
         ns3:longitude 4.77477e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportplazanet.nl"^^xsd:string .
 
@@ -208,7 +187,6 @@
         rdfs:label "Sportcentrum Caland"^^xsd:string ;
         ns3:latitude 5.235444e+01 ;
         ns3:longitude 4.807133e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -217,7 +195,6 @@
         rdfs:label "Sportcentrum De Pijp"^^xsd:string ;
         ns3:latitude 5.234975e+01 ;
         ns3:longitude 4.893715e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -226,7 +203,6 @@
         rdfs:label "Sportcentrum Ookmeer"^^xsd:string ;
         ns3:latitude 5.236786e+01 ;
         ns3:longitude 4.803977e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -235,7 +211,6 @@
         rdfs:label "Sportcentrum Reade Therapiebad"^^xsd:string ;
         ns3:latitude 5.236995e+01 ;
         ns3:longitude 4.843713e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website ""^^xsd:string .
 
@@ -244,7 +219,6 @@
         rdfs:label "Sportfondsenbad Oost"^^xsd:string ;
         ns3:latitude 5.235664e+01 ;
         ns3:longitude 4.928487e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportfondsenbadamsterdamoost.nl/"^^xsd:string .
 
@@ -253,7 +227,6 @@
         rdfs:label "Sporthal Aristos"^^xsd:string ;
         ns3:latitude 5.238206e+01 ;
         ns3:longitude 4.784359e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -262,7 +235,6 @@
         rdfs:label "Sporthal Blauw-Wit"^^xsd:string ;
         ns3:latitude 5.237593e+01 ;
         ns3:longitude 4.857356e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -271,7 +243,6 @@
         rdfs:label "Sporthal Calvijn"^^xsd:string ;
         ns3:latitude 5.23561e+01 ;
         ns3:longitude 4.831522e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -280,7 +251,6 @@
         rdfs:label "Sporthal Centrum voor Vrijetijd (CVT)"^^xsd:string ;
         ns3:latitude 5.235682e+01 ;
         ns3:longitude 4.99617e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -289,7 +259,6 @@
         rdfs:label "Sporthal De Weeren"^^xsd:string ;
         ns3:latitude 5.240119e+01 ;
         ns3:longitude 4.959338e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -298,7 +267,6 @@
         rdfs:label "Sporthal Elzenhagen"^^xsd:string ;
         ns3:latitude 5.240132e+01 ;
         ns3:longitude 4.925659e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -307,7 +275,6 @@
         rdfs:label "Sporthal Gaasperdam"^^xsd:string ;
         ns3:latitude 5.229677e+01 ;
         ns3:longitude 4.978257e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -316,7 +283,6 @@
         rdfs:label "Sporthal IJburg"^^xsd:string ;
         ns3:latitude 5.23513e+01 ;
         ns3:longitude 5.004335e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -325,7 +291,6 @@
         rdfs:label "Sporthal Laan van Spartaan"^^xsd:string ;
         ns3:latitude 5.237335e+01 ;
         ns3:longitude 4.839175e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -334,7 +299,6 @@
         rdfs:label "Sporthal Oostenburg"^^xsd:string ;
         ns3:latitude 5.236809e+01 ;
         ns3:longitude 4.925211e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -343,7 +307,6 @@
         rdfs:label "Sporthal ROC Europaboulevard"^^xsd:string ;
         ns3:latitude 5.23396e+01 ;
         ns3:longitude 4.892803e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -352,7 +315,6 @@
         rdfs:label "Sporthal Wethouder Verheij"^^xsd:string ;
         ns3:latitude 5.235789e+01 ;
         ns3:longitude 4.931351e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -361,7 +323,6 @@
         rdfs:label "Sporthal Zeeburg"^^xsd:string ;
         ns3:latitude 5.236594e+01 ;
         ns3:longitude 4.951309e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -370,7 +331,6 @@
         rdfs:label "Sporthallen Zuid"^^xsd:string ;
         ns3:latitude 5.233998e+01 ;
         ns3:longitude 4.854107e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -379,7 +339,6 @@
         rdfs:label "Swimgym"^^xsd:string ;
         ns3:latitude 5.235432e+01 ;
         ns3:longitude 4.912729e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.swimgym.nl"^^xsd:string .
 
@@ -388,7 +347,6 @@
         rdfs:label "Tennishal Strandvliet"^^xsd:string ;
         ns3:latitude 5.231615e+01 ;
         ns3:longitude 4.937356e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.tennishalstrandvliet.nl/"^^xsd:string .
 
@@ -397,7 +355,6 @@
         rdfs:label "Universum"^^xsd:string ;
         ns3:latitude 5.235565e+01 ;
         ns3:longitude 4.9563e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.usc.uva.nl"^^xsd:string .
 
@@ -406,7 +363,6 @@
         rdfs:label "Velodrome (sporthal en wielerbaan)"^^xsd:string ;
         ns3:latitude 5.234195e+01 ;
         ns3:longitude 4.821956e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -415,7 +371,6 @@
         rdfs:label "Victoriabad Weesp"^^xsd:string ;
         ns3:latitude 5.22984e+01 ;
         ns3:longitude 5.027111e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.zwembadweesp.nl"^^xsd:string .
 
@@ -424,7 +379,6 @@
         rdfs:label "Zuiderbad"^^xsd:string ;
         ns3:latitude 5.235867e+01 ;
         ns3:longitude 4.886026e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string .
 
@@ -433,7 +387,6 @@
         rdfs:label "Zwembad De Meerkamp"^^xsd:string ;
         ns3:latitude 5.228843e+01 ;
         ns3:longitude 4.852625e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.meerkamp.nl"^^xsd:string .
 
@@ -442,7 +395,6 @@
         rdfs:label "Zwembad De Werf"^^xsd:string ;
         ns3:latitude 5.240708e+01 ;
         ns3:longitude 4.895428e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.oerbron.nl/zwemmen/de-zwembaden/de-werf"^^xsd:string .
 
@@ -451,7 +403,6 @@
         rdfs:label "Zwembad Drostenburg"^^xsd:string ;
         ns3:latitude 5.232225e+01 ;
         ns3:longitude 4.946877e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.orion.nl"^^xsd:string .
 
@@ -460,7 +411,6 @@
         rdfs:label "Zwembad IJburg"^^xsd:string ;
         ns3:latitude 5.234844e+01 ;
         ns3:longitude 5.009159e+00 ;
-        :providesDentalcareTo :adult ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.zwembad-ijburg.nl"^^xsd:string .
 
@@ -468,6 +418,9 @@
 
     :JoodsVerpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :verpleegZorgHuis .
+
+    :LivingFacilities a owl:Class ;
+        rdfs:subClassOf :elderlyLocation .
 
     :addictCare a owl:Class ;
         rdfs:subClassOf :organisations ;
@@ -487,11 +440,17 @@
     :dayActivity a :reintegrationPossibilites,
             owl:NamedIndividual .
 
+    :daytimeLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
     :dentalCare a owl:Class ;
         rdfs:subClassOf :healthCare ;
         owl:equivalentClass [ a owl:Restriction ;
                 owl:onProperty :providesDentalcareTo ;
                 owl:someValuesFrom :ageGroups ] .
+
+    :dentist a owl:Class ;
+        rdfs:subClassOf :medicalLocation .
 
     :elderly a :riskGroups,
             owl:NamedIndividual .
@@ -513,6 +472,12 @@
 
     :homelessReintegration a :knowledgeDomain,
             owl:NamedIndividual .
+
+    :jewElderlyCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
+    :jewishCareLocation a owl:Class ;
+        rdfs:subClassOf :careLocation .
 
     :lhbt a :riskGroups,
             owl:NamedIndividual .
@@ -542,11 +507,16 @@
         rdfs:range :careTimes ;
         rdfs:subPropertyOf :provides .
 
+    :reumaCare a :knowledgeDomain,
+            owl:NamedIndividual .
+
     :rheumatismCenter a owl:Class ;
         rdfs:subClassOf :healthCare .
 
     :sleepLocation a :reintegrationPossibilites,
-            owl:NamedIndividual .
+            owl:Class,
+            owl:NamedIndividual ;
+        rdfs:subClassOf :nightLocation .
 
     :specialNeedCare a :knowledgeDomain,
             owl:NamedIndividual .
@@ -559,8 +529,6 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    :Location a owl:Class .
-
     :addictsPrevention a :knowledgeDomain,
             owl:NamedIndividual .
 
@@ -570,8 +538,17 @@
     :adults a :ageGroups,
             owl:NamedIndividual .
 
+    :careLocation a owl:Class ;
+        rdfs:subClassOf :elderlyLocation .
+
     :children a :ageGroups,
             owl:NamedIndividual .
+
+    :medicalLocation a owl:Class ;
+        rdfs:subClassOf :Location .
+
+    :nightLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :providesDentalcareTo a owl:ObjectProperty ;
         rdfs:domain :organisations ;
@@ -586,6 +563,9 @@
 
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
+
+    :elderlyLocation a owl:Class ;
+        rdfs:subClassOf :Location .
 
     :groups a owl:Class .
 
@@ -608,6 +588,8 @@
 
     :riskGroups a owl:Class ;
         rdfs:subClassOf :groups .
+
+    :Location a owl:Class .
 
     :organisations a owl:Class .
 
