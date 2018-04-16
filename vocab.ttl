@@ -125,6 +125,11 @@ _:genid3 a owl:Restriction ;
 :dentist a owl:Class ;
 	rdfs:subClassOf :medicalLocation .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/disabledLocations
+
+:disabledLocations a owl:Class ;
+	rdfs:subClassOf :Location .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/elderlyLocation
 
 :elderlyLocation a owl:Class ;

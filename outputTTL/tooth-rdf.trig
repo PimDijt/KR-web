@@ -2117,6 +2117,9 @@
                 owl:onProperty :providesDentalcareTo ;
                 owl:someValuesFrom :ageGroups ] .
 
+    :disabledLocations a owl:Class ;
+        rdfs:subClassOf :Location .
+
     :elderly a :riskGroups,
             owl:NamedIndividual .
 

@@ -15,10 +15,8 @@ VOCAB = Namespace(vocab)
 data = 'http://few.vu.nl/~mvr320/KRweb/resource'
 DATA = Namespace(data)
 
-#filenames = ["sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
-#short = ["spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
-filenames = ["sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv"]
-short = ["spzw", "dakth", "tooth", "verz", "zorbep"]
+filenames = ["lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
+short = ["lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
 for i in range(len(filenames)):
     print(short[i])
     filename = 'data/'+filenames[i];
@@ -164,9 +162,24 @@ for i in range(len(filenames)):
                 dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['jewElderlyCare']))
             else:
                 dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['elderlyCare']))
-        #if short[i] == "toe":
-        #    newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/resource/'+row['type']))
-        #    dataset.add((thing, RDF['type'], newClass))
-        #    dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
+        if short[i] == "toe":
+            newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/resource/'+row['type']))
+            dataset.add((thing, RDF['type'], newClass))
+            dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
+        if short[i] == "opvo":
+            substrkg = ["ezond", "pvoed", "OKT"]
+            for substr in substrkg:
+                if substr in row['titel']:
+                    dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['childDevelopment']))
+            substrkg = ["peel", "pel"]
+            if substr in row['titel']:
+                dataset.add((thing, VOCAB['providesExercisesFor'], VOCAB['children']))
+            dataset.add((thing, RDF['type'], VOCAB['childDevelopmentCenter']))
+        if short[i] == "lhbt":
+            substr = ["COC", "HIV"]
+            for subs in substr:
+                if subs in row['titel']:
+                    dataset.add((thing, VOCAB['providesCoachingAbout'], VOCAB['lhtbtIssues']))
+            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['lhtbtIssues']))
     with open('outputTTL/'+short[i]+'-rdf.trig','wb') as f:
         dataset.serialize(f, format='trig')

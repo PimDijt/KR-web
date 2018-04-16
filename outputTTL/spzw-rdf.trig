@@ -452,6 +452,9 @@
     :dentist a owl:Class ;
         rdfs:subClassOf :medicalLocation .
 
+    :disabledLocations a owl:Class ;
+        rdfs:subClassOf :Location .
+
     :elderly a :riskGroups,
             owl:NamedIndividual .
 
