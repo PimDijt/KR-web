@@ -2,9 +2,9 @@
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/opvo> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix ns2: <urn:x-rdflib:> .
-@prefix ns3: <http://dbpedia.org/property/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://dbpedia.org/property/> .
+@prefix ns3: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,29 +12,29 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns1:opvoBuro_Bloei a :childDevelopmentCenter,
+    ns3:opvoBuro_Bloei a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Buro Bloei"^^xsd:string ;
-        ns3:latitude 5.236134e+01 ;
-        ns3:longitude 4.876513e+00 ;
+        ns2:latitude 5.236134e+01 ;
+        ns2:longitude 4.876513e+00 ;
         :website "http://www.buro-bloei.nl"^^xsd:string .
 
-    ns1:opvoCentrum_Vrouw_en_Vaart a :childDevelopmentCenter,
+    ns3:opvoCentrum_Vrouw_en_Vaart a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Centrum Vrouw en Vaart"^^xsd:string ;
-        ns3:latitude 5.236568e+01 ;
-        ns3:longitude 4.805327e+00 ;
+        ns2:latitude 5.236568e+01 ;
+        ns2:longitude 4.805327e+00 ;
         :website "http://www.vrouwenvaart.nl/"^^xsd:string .
 
-    ns1:opvoDe_Opvoedpoli a :childDevelopmentCenter,
+    ns3:opvoDe_Opvoedpoli a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
-        ns3:latitude 5.232165e+01,
+        ns2:latitude 5.232165e+01,
             5.235757e+01,
             5.236338e+01,
             5.238588e+01,
             5.23987e+01 ;
-        ns3:longitude 4.85006e+00,
+        ns2:longitude 4.85006e+00,
             4.882296e+00,
             4.930135e+00,
             4.935604e+00,
@@ -45,100 +45,100 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Dream Support, trainingen voor kinderen en opvoedingsadvies voor ouders"^^xsd:string ;
-        ns3:latitude 5.236301e+01 ;
-        ns3:longitude 4.933794e+00 ;
+        ns2:latitude 5.236301e+01 ;
+        ns2:longitude 4.933794e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.dream-support.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Borgerstraat a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Borgerstraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Borgerstraat"^^xsd:string ;
-        ns3:latitude 5.236533e+01 ;
-        ns3:longitude 4.866938e+00 ;
+        ns2:latitude 5.236533e+01 ;
+        ns2:longitude 4.866938e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-borgerstraat.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_De_Keyzer a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_De_Keyzer a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum De Keyzer"^^xsd:string ;
-        ns3:latitude 5.23683e+01 ;
-        ns3:longitude 4.926824e+00 ;
+        ns2:latitude 5.23683e+01 ;
+        ns2:longitude 4.926824e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-dekeyzer.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Helmersstraat a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Helmersstraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Helmersstraat"^^xsd:string ;
-        ns3:latitude 5.236256e+01 ;
-        ns3:longitude 4.870054e+00 ;
+        ns2:latitude 5.236256e+01 ;
+        ns2:longitude 4.870054e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-helmersstraat.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Holendrecht a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Holendrecht a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Holendrecht"^^xsd:string ;
-        ns3:latitude 5.229978e+01 ;
-        ns3:longitude 4.962452e+00 ;
+        ns2:latitude 5.229978e+01 ;
+        ns2:longitude 4.962452e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Nellestein a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Nellestein a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Nellestein"^^xsd:string ;
-        ns3:latitude 5.230892e+01 ;
-        ns3:longitude 4.983674e+00 ;
+        ns2:latitude 5.230892e+01 ;
+        ns2:longitude 4.983674e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "https://gc-nellestein.praktijkinfo.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Oosthoek a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Oosthoek a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Oosthoek"^^xsd:string ;
-        ns3:latitude 5.236548e+01 ;
-        ns3:longitude 4.946592e+00 ;
+        ns2:latitude 5.236548e+01 ;
+        ns2:longitude 4.946592e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-oosthoek.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Reigersbos a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Reigersbos a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Reigersbos"^^xsd:string ;
-        ns3:latitude 5.229372e+01 ;
-        ns3:longitude 4.976849e+00 ;
+        ns2:latitude 5.229372e+01 ;
+        ns2:longitude 4.976849e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string .
 
-    ns1:opvoGezondheidscentrum_Venserpolder a :childDevelopmentCenter,
+    ns3:opvoGezondheidscentrum_Venserpolder a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Venserpolder"^^xsd:string ;
-        ns3:latitude 5.231929e+01 ;
-        ns3:longitude 4.943231e+00 ;
+        ns2:latitude 5.231929e+01 ;
+        ns2:longitude 4.943231e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string .
 
-    ns1:opvoGrip_op_Talent a :childDevelopmentCenter,
+    ns3:opvoGrip_op_Talent a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Grip op Talent"^^xsd:string ;
-        ns3:latitude 5.232419e+01 ;
-        ns3:longitude 4.965097e+00 ;
+        ns2:latitude 5.232419e+01 ;
+        ns2:longitude 4.965097e+00 ;
         :website "http://gripoptalent.nl"^^xsd:string .
 
-    ns1:opvoHet_Geboortecentrum a :childDevelopmentCenter,
+    ns3:opvoHet_Geboortecentrum a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Het Geboortecentrum"^^xsd:string ;
-        ns3:latitude 5.236597e+01 ;
-        ns3:longitude 4.876386e+00 ;
+        ns2:latitude 5.236597e+01 ;
+        ns2:longitude 4.876386e+00 ;
         :website "http://www.geboortecentrum.nl/"^^xsd:string .
 
-    ns1:opvoHome-Start a :childDevelopmentCenter,
+    ns3:opvoHome-Start a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.233231e+01,
+        ns2:latitude 5.233231e+01,
             5.235068e+01,
             5.235594e+01,
             5.235978e+01,
             5.237788e+01,
             5.238595e+01,
             5.239364e+01 ;
-        ns3:longitude 4.793081e+00,
+        ns2:longitude 4.793081e+00,
             4.848697e+00,
             4.878226e+00,
             4.88199e+00,
@@ -147,367 +147,367 @@
             4.955449e+00 ;
         :website "http://www.home-start.nl"^^xsd:string .
 
-    ns1:opvoLa_Surprise a :childDevelopmentCenter,
+    ns3:opvoLa_Surprise a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "La Surprise"^^xsd:string ;
-        ns3:latitude 5.234604e+01 ;
-        ns3:longitude 4.900287e+00 ;
+        ns2:latitude 5.234604e+01 ;
+        ns2:longitude 4.900287e+00 ;
         :website ""^^xsd:string .
 
-    ns1:opvoMama_Café a :childDevelopmentCenter,
+    ns3:opvoMama_Café a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Mama Café"^^xsd:string ;
-        ns3:latitude 5.236511e+01 ;
-        ns3:longitude 4.936239e+00 ;
+        ns2:latitude 5.236511e+01 ;
+        ns2:longitude 4.936239e+00 ;
         :website "http://www.mama-cafe.nl"^^xsd:string .
 
-    ns1:opvoMoedercentrum_Douniazade a :childDevelopmentCenter,
+    ns3:opvoMoedercentrum_Douniazade a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Moedercentrum Douniazade"^^xsd:string ;
-        ns3:latitude 5.238846e+01 ;
-        ns3:longitude 4.909105e+00 ;
+        ns2:latitude 5.238846e+01 ;
+        ns2:longitude 4.909105e+00 ;
         :website "http://www.combiwel.nl"^^xsd:string .
 
-    ns1:opvoOKT_Albardakade a :childDevelopmentCenter,
+    ns3:opvoOKT_Albardakade a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Albardakade"^^xsd:string ;
-        ns3:latitude 5.237803e+01 ;
-        ns3:longitude 4.802786e+00 ;
+        ns2:latitude 5.237803e+01 ;
+        ns2:longitude 4.802786e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Aldebaranplein a :childDevelopmentCenter,
+    ns3:opvoOKT_Aldebaranplein a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Aldebaranplein"^^xsd:string ;
-        ns3:latitude 5.241125e+01 ;
-        ns3:longitude 4.892531e+00 ;
+        ns2:latitude 5.241125e+01 ;
+        ns2:longitude 4.892531e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Binnenhof a :childDevelopmentCenter,
+    ns3:opvoOKT_Binnenhof a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Binnenhof"^^xsd:string ;
-        ns3:latitude 5.233231e+01 ;
-        ns3:longitude 4.878226e+00 ;
+        ns2:latitude 5.233231e+01 ;
+        ns2:longitude 4.878226e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Bockesprong a :childDevelopmentCenter,
+    ns3:opvoOKT_Bockesprong a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Bockesprong"^^xsd:string ;
-        ns3:latitude 5.235511e+01 ;
-        ns3:longitude 4.846141e+00 ;
+        ns2:latitude 5.235511e+01 ;
+        ns2:longitude 4.846141e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Brederodestraat a :childDevelopmentCenter,
+    ns3:opvoOKT_Brederodestraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Brederodestraat"^^xsd:string ;
-        ns3:latitude 5.236083e+01 ;
-        ns3:longitude 4.862131e+00 ;
+        ns2:latitude 5.236083e+01 ;
+        ns2:longitude 4.862131e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Flevopoort a :childDevelopmentCenter,
+    ns3:opvoOKT_Flevopoort a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Flevopoort"^^xsd:string ;
-        ns3:latitude 5.236548e+01 ;
-        ns3:longitude 4.946592e+00 ;
+        ns2:latitude 5.236548e+01 ;
+        ns2:longitude 4.946592e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Gaasperdam a :childDevelopmentCenter,
+    ns3:opvoOKT_Gaasperdam a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Gaasperdam"^^xsd:string ;
-        ns3:latitude 5.229407e+01 ;
-        ns3:longitude 4.976494e+00 ;
+        ns2:latitude 5.229407e+01 ;
+        ns2:longitude 4.976494e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Het_Meervoud a :childDevelopmentCenter,
+    ns3:opvoOKT_Het_Meervoud a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Het Meervoud"^^xsd:string ;
-        ns3:latitude 5.236306e+01 ;
-        ns3:longitude 4.83933e+00 ;
+        ns2:latitude 5.236306e+01 ;
+        ns2:longitude 4.83933e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_IJburg a :childDevelopmentCenter,
+    ns3:opvoOKT_IJburg a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT IJburg"^^xsd:string ;
-        ns3:latitude 5.235165e+01 ;
-        ns3:longitude 5.007402e+00 ;
+        ns2:latitude 5.235165e+01 ;
+        ns2:longitude 5.007402e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Jan_van_der_Heijdenstraat a :childDevelopmentCenter,
+    ns3:opvoOKT_Jan_van_der_Heijdenstraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Jan van der Heijdenstraat"^^xsd:string ;
-        ns3:latitude 5.235608e+01 ;
-        ns3:longitude 4.902276e+00 ;
+        ns2:latitude 5.235608e+01 ;
+        ns2:longitude 4.902276e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Klein_Gooioord a :childDevelopmentCenter,
+    ns3:opvoOKT_Klein_Gooioord a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Klein Gooioord"^^xsd:string ;
-        ns3:latitude 5.232124e+01 ;
-        ns3:longitude 4.970684e+00 ;
+        ns2:latitude 5.232124e+01 ;
+        ns2:longitude 4.970684e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Kraijenhoffstraat a :childDevelopmentCenter,
+    ns3:opvoOKT_Kraijenhoffstraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Kraijenhoffstraat"^^xsd:string ;
-        ns3:latitude 5.236941e+01 ;
-        ns3:longitude 4.93019e+00 ;
+        ns2:latitude 5.236941e+01 ;
+        ns2:longitude 4.93019e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Lindengracht a :childDevelopmentCenter,
+    ns3:opvoOKT_Lindengracht a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Lindengracht"^^xsd:string ;
-        ns3:latitude 5.23802e+01 ;
-        ns3:longitude 4.883507e+00 ;
+        ns2:latitude 5.23802e+01 ;
+        ns2:longitude 4.883507e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Magalhaensplein a :childDevelopmentCenter,
+    ns3:opvoOKT_Magalhaensplein a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Magalhaensplein"^^xsd:string ;
-        ns3:latitude 5.236776e+01 ;
-        ns3:longitude 4.854282e+00 ;
+        ns2:latitude 5.236776e+01 ;
+        ns2:longitude 4.854282e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Osdorp a :childDevelopmentCenter,
+    ns3:opvoOKT_Osdorp a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Osdorp"^^xsd:string ;
-        ns3:latitude 5.235594e+01 ;
-        ns3:longitude 4.793081e+00 ;
+        ns2:latitude 5.235594e+01 ;
+        ns2:longitude 4.793081e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://oktamsterdam.nl/"^^xsd:string .
 
-    ns1:opvoOKT_Pontanusstraat a :childDevelopmentCenter,
+    ns3:opvoOKT_Pontanusstraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Pontanusstraat"^^xsd:string ;
-        ns3:latitude 5.23607e+01 ;
-        ns3:longitude 4.929986e+00 ;
+        ns2:latitude 5.23607e+01 ;
+        ns2:longitude 4.929986e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Slotermeerlaan a :childDevelopmentCenter,
+    ns3:opvoOKT_Slotermeerlaan a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Slotermeerlaan"^^xsd:string ;
-        ns3:latitude 5.23787e+01 ;
-        ns3:longitude 4.819917e+00 ;
+        ns2:latitude 5.23787e+01 ;
+        ns2:longitude 4.819917e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Tijl_Uilenspiegelstraat a :childDevelopmentCenter,
+    ns3:opvoOKT_Tijl_Uilenspiegelstraat a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Tijl Uilenspiegelstraat"^^xsd:string ;
-        ns3:latitude 5.237788e+01 ;
-        ns3:longitude 4.848697e+00 ;
+        ns2:latitude 5.237788e+01 ;
+        ns2:longitude 4.848697e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Waterlandplein a :childDevelopmentCenter,
+    ns3:opvoOKT_Waterlandplein a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Waterlandplein"^^xsd:string ;
-        ns3:latitude 5.239364e+01 ;
-        ns3:longitude 4.955449e+00 ;
+        ns2:latitude 5.239364e+01 ;
+        ns2:longitude 4.955449e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Westerpark a :childDevelopmentCenter,
+    ns3:opvoOKT_Westerpark a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Westerpark"^^xsd:string ;
-        ns3:latitude 5.23862e+01 ;
-        ns3:longitude 4.881206e+00 ;
+        ns2:latitude 5.23862e+01 ;
+        ns2:longitude 4.881206e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_Wingerdweg a :childDevelopmentCenter,
+    ns3:opvoOKT_Wingerdweg a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Wingerdweg"^^xsd:string ;
-        ns3:latitude 5.239101e+01 ;
-        ns3:longitude 4.916702e+00 ;
+        ns2:latitude 5.239101e+01 ;
+        ns2:longitude 4.916702e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOKT_de_Kikker a :childDevelopmentCenter,
+    ns3:opvoOKT_de_Kikker a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT de Kikker"^^xsd:string ;
-        ns3:latitude 5.235594e+01 ;
-        ns3:longitude 4.793081e+00 ;
+        ns2:latitude 5.235594e+01 ;
+        ns2:longitude 4.793081e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string .
 
-    ns1:opvoOmgangshuis_Noord-Holland a :childDevelopmentCenter,
+    ns3:opvoOmgangshuis_Noord-Holland a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Omgangshuis Noord-Holland"^^xsd:string ;
-        ns3:latitude 5.244222e+01 ;
-        ns3:longitude 4.827574e+00 ;
+        ns2:latitude 5.244222e+01 ;
+        ns2:longitude 4.827574e+00 ;
         :website "http://www.omgangshuis.org"^^xsd:string .
 
-    ns1:opvoOpvoedpunt_en_Spel-o-Theek_IJburg a :childDevelopmentCenter,
+    ns3:opvoOpvoedpunt_en_Spel-o-Theek_IJburg a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Opvoedpunt en Spel-o-Theek IJburg"^^xsd:string ;
-        ns3:latitude 5.235165e+01 ;
-        ns3:longitude 5.007402e+00 ;
+        ns2:latitude 5.235165e+01 ;
+        ns2:longitude 5.007402e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string .
 
-    ns1:opvoProFor_bureau_voor_samenlevingsopbouw a :childDevelopmentCenter,
+    ns3:opvoProFor_bureau_voor_samenlevingsopbouw a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "ProFor bureau voor samenlevingsopbouw"^^xsd:string ;
-        ns3:latitude 5.230973e+01 ;
-        ns3:longitude 4.958679e+00 ;
+        ns2:latitude 5.230973e+01 ;
+        ns2:longitude 4.958679e+00 ;
         :website "http://www.profor.nl"^^xsd:string .
 
-    ns1:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam a :childDevelopmentCenter,
+    ns3:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Psychodiagnostisch Centrum Child Support Amsterdam"^^xsd:string ;
-        ns3:latitude 5.235919e+01 ;
-        ns3:longitude 4.896722e+00 ;
+        ns2:latitude 5.235919e+01 ;
+        ns2:longitude 4.896722e+00 ;
         :website "http://www.child-support-europe.com"^^xsd:string .
 
-    ns1:opvoSWAZOOM a :childDevelopmentCenter,
+    ns3:opvoSWAZOOM a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "SWAZOOM"^^xsd:string ;
-        ns3:latitude 5.232314e+01 ;
-        ns3:longitude 4.972661e+00 ;
+        ns2:latitude 5.232314e+01 ;
+        ns2:longitude 4.972661e+00 ;
         :website "http://www.swazoom.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_Boomsspijkertje> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek 't Boomsspijkertje"^^xsd:string ;
-        ns3:latitude 5.237196e+01 ;
-        ns3:longitude 4.903483e+00 ;
+        ns2:latitude 5.237196e+01 ;
+        ns2:longitude 4.903483e+00 ;
         :website "http://www.welzijn.ijsterk.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_Guppie> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek 't Guppie"^^xsd:string ;
-        ns3:latitude 5.234416e+01 ;
-        ns3:longitude 4.90631e+00 ;
+        ns2:latitude 5.234416e+01 ;
+        ns2:longitude 4.90631e+00 ;
         :website "http://www.tguppie.nl"^^xsd:string .
 
-    ns1:opvoSpeel-o-theek_Kraijenhoff a :childDevelopmentCenter,
+    ns3:opvoSpeel-o-theek_Kraijenhoff a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek Kraijenhoff"^^xsd:string ;
-        ns3:latitude 5.236941e+01 ;
-        ns3:longitude 4.93019e+00 ;
+        ns2:latitude 5.236941e+01 ;
+        ns2:longitude 4.93019e+00 ;
         :website "http://www.welzijn.ijsterk.nl"^^xsd:string .
 
-    ns1:opvoSpeel-o-theek_Lindengracht a :childDevelopmentCenter,
+    ns3:opvoSpeel-o-theek_Lindengracht a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek Lindengracht"^^xsd:string ;
-        ns3:latitude 5.23802e+01 ;
-        ns3:longitude 4.883507e+00 ;
+        ns2:latitude 5.23802e+01 ;
+        ns2:longitude 4.883507e+00 ;
         :website "http://www.welzijn.ijsterk.nl"^^xsd:string .
 
-    ns1:opvoSpeel-o-theek_Zeeburg a :childDevelopmentCenter,
+    ns3:opvoSpeel-o-theek_Zeeburg a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek Zeeburg"^^xsd:string ;
-        ns3:latitude 5.236548e+01 ;
-        ns3:longitude 4.946592e+00 ;
+        ns2:latitude 5.236548e+01 ;
+        ns2:longitude 4.946592e+00 ;
         :website "http://www.speelotheek.net"^^xsd:string .
 
-    ns1:opvoSpeel-o-theek_de_Baarsjes a :childDevelopmentCenter,
+    ns3:opvoSpeel-o-theek_de_Baarsjes a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek de Baarsjes"^^xsd:string ;
-        ns3:latitude 5.236776e+01 ;
-        ns3:longitude 4.854282e+00 ;
+        ns2:latitude 5.236776e+01 ;
+        ns2:longitude 4.854282e+00 ;
         :website "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string .
 
-    ns1:opvoSpel_aan_Huis a :childDevelopmentCenter,
+    ns3:opvoSpel_aan_Huis a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Spel aan Huis"^^xsd:string ;
-        ns3:latitude 5.235978e+01 ;
-        ns3:longitude 4.902103e+00 ;
+        ns2:latitude 5.235978e+01 ;
+        ns2:longitude 4.902103e+00 ;
         :website "http://www.humanitas.nl/project/301A12001"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Spirit Jeugd & Opvoedhulp"^^xsd:string ;
-        ns3:latitude 5.234117e+01 ;
-        ns3:longitude 4.865842e+00 ;
+        ns2:latitude 5.234117e+01 ;
+        ns2:longitude 4.865842e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.spirit.nl"^^xsd:string .
 
-    ns1:opvoStichting_ABC a :childDevelopmentCenter,
+    ns3:opvoStichting_ABC a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting ABC"^^xsd:string ;
-        ns3:latitude 5.236341e+01 ;
-        ns3:longitude 4.858284e+00 ;
+        ns2:latitude 5.236341e+01 ;
+        ns2:longitude 4.858284e+00 ;
         :website "http://www.hetabc.nl"^^xsd:string .
 
-    ns1:opvoStichting_De_Witte_Tulp a :childDevelopmentCenter,
+    ns3:opvoStichting_De_Witte_Tulp a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting De Witte Tulp"^^xsd:string ;
-        ns3:latitude 5.235362e+01,
+        ns2:latitude 5.235362e+01,
             5.241146e+01 ;
-        ns3:longitude 4.800319e+00,
+        ns2:longitude 4.800319e+00,
             4.921967e+00 ;
         :website "http://www.stichtingwittetulp.nl"^^xsd:string .
 
-    ns1:opvoStichting_Korrelatie a :childDevelopmentCenter,
+    ns3:opvoStichting_Korrelatie a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Korrelatie"^^xsd:string ;
-        ns3:latitude 5.237757e+01 ;
-        ns3:longitude 4.902584e+00 ;
+        ns2:latitude 5.237757e+01 ;
+        ns2:longitude 4.902584e+00 ;
         :website "http://www.korrelatie.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Samen Vooruit (SaVo)"^^xsd:string ;
-        ns3:latitude 5.232257e+01 ;
-        ns3:longitude 4.975821e+00 ;
+        ns2:latitude 5.232257e+01 ;
+        ns2:longitude 4.975821e+00 ;
         :website "http://www.stichtingsavo.nl"^^xsd:string .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Surinaamse Vrouwen Bijlmermeer (SVB)"^^xsd:string ;
-        ns3:latitude 5.232257e+01 ;
-        ns3:longitude 4.975821e+00 ;
+        ns2:latitude 5.232257e+01 ;
+        ns2:longitude 4.975821e+00 ;
         :website ""^^xsd:string .
 
-    ns1:opvoStichting_Vice_Versa a :childDevelopmentCenter,
+    ns3:opvoStichting_Vice_Versa a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Vice Versa"^^xsd:string ;
-        ns3:latitude 5.232257e+01 ;
-        ns3:longitude 4.975821e+00 ;
+        ns2:latitude 5.232257e+01 ;
+        ns2:longitude 4.975821e+00 ;
         :website "http://www.stichtingviceversa.nl"^^xsd:string .
 
-    ns1:opvoVTO-Vroeghulp a :childDevelopmentCenter,
+    ns3:opvoVTO-Vroeghulp a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "VTO-Vroeghulp"^^xsd:string ;
-        ns3:latitude 5.236253e+01 ;
-        ns3:longitude 4.909003e+00 ;
+        ns2:latitude 5.236253e+01 ;
+        ns2:longitude 4.909003e+00 ;
         :website "http://www.vtovroeghulp.nl"^^xsd:string .
 
     : a owl:Ontology .
