@@ -39,11 +39,7 @@
     </style>
   </head>
   <body>
-    <textarea id="namespace">
-prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/>
-prefix ns2: <http://dbpedia.org/property/>
-    </textarea>
-    <textarea id="query">
+    <textarea type="hidden" id="query">
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?sup ?sub WHERE {
   ?supt rdfs:subClassOf+ g13vocab:Location .
@@ -53,9 +49,6 @@ SELECT ?sup ?sub WHERE {
   ?supt rdfs:label ?sup .
   FILTER(?supt != ?subt)
 }
-</textarea>
-<textarea id="markerQuery">
-...
 </textarea>
     <div id="floating-panel">
 
@@ -67,110 +60,132 @@ SELECT ?sup ?sub WHERE {
 	    var format = 'JSON';
 
 	    $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
-        console.log(json);
-      });
-      
-      filter = [];
-      var id = 0;
-      var sub_id = 0;
-      {% for _class in results %}
-        object = {};
-        object.name = "{{_class}}";
-        object.id = id;
-        object.sub_classes = [];
-        {% for _sub_class in results[_class] %}
-          sub_object = {};
-          sub_object.name = "{{_sub_class}}"
-          sub_object.id = sub_id;
-          object.sub_classes.push(sub_object);
+        var filter_array = json.results.bindings;
+        filter = [];
+        var id = 0;
+        var sub_id = 0;
+        filter_array.forEach(function(item){
+          var sup = item.sup;
+          var sup_name = sup.value;
+
+          var sub = item.sub;
+          var sub_object = {};
+          sub_object.name = sub.value;
+          sub_object.show = false;
+          sub_object.radius = 500;
+
+          var found = false;
+
+          filter.forEach(function(item){
+            if(item.name == sup_name){
+              //already in, add to objects
+              sub_object.id = sub_id;
+              item.sub_classes.push(sub_object);
+
+              found = true;
+            }
+          });
+
+          if(!found){
+            //make a new object
+            sub_id = 0;
+            sub_object.id = sub_id;
+            var object = {};
+            object.name = sup_name;
+            object.id = id;
+            object.show = false;
+            object.sub_classes = [sub_object];
+            filter.push(object);
+            id += 1;
+          }
           sub_id += 1;
-        {% endfor %}
-        filter.push(object);
-        id += 1;
-      {% endfor %}
-
-      var div = document.getElementById('floating-panel');
-      var ul = document.createElement('ul');
-      var li;
-      filter.forEach(function(item){
-        li = document.createElement('li');
-
-        var radio_name = document.createElement('input');
-        radio_name.setAttribute('checked', true);
-        radio_name.setAttribute('type', 'checkbox');
-        radio_name.setAttribute('id', item.id);
-        radio_name.setAttribute('onclick', 'change_selection(this)');
-
-        var radio_name_label = document.createElement('label');
-        radio_name_label.appendChild(document.createTextNode(item.name));
-
-        li.appendChild(radio_name);
-        li.appendChild(radio_name_label);
-
-
-        item.sub_classes.forEach(function(sub){
-          console.log(sub);
-          var nes_ul = document.createElement('ul');
-          var nes_li1 =  document.createElement('li');
-
-          var radio_circle = document.createElement('input');
-          radio_circle.setAttribute('checked', true);
-          radio_circle.setAttribute('type', 'checkbox');
-          radio_circle.setAttribute('id', sub.id);
-          radio_circle.setAttribute('class', 'checks');
-          radio_circle.setAttribute('onclick', 'change_circles(this)');
-
-          var radio_circle_label = document.createElement('label');
-          radio_circle_label.appendChild(document.createTextNode(sub.name));
-          nes_li1.appendChild(radio_circle);
-          nes_li1.appendChild(radio_circle_label);
-
-          nes_ul.appendChild(nes_li1);
-
-          var nes_li2 = document.createElement('li');
-
-          var slider = document.createElement('input');
-          slider.setAttribute('type', 'range');
-          slider.setAttribute('min', 1);
-          slider.setAttribute('max', 4);
-          slider.setAttribute('id', item.id);
-          slider.setAttribute('value', 1);
-          slider.setAttribute('onchange', 'change_radius(this)');
-
-          nes_li2.appendChild(slider);
-
-          nes_ul.appendChild(nes_li2);
-
-          li.appendChild(nes_ul);
-          ul.appendChild(li);
         });
+
+
+        var div = document.getElementById('floating-panel');
+        var ul = document.createElement('ul');
+        var li;
+        filter.forEach(function(item){
+          li = document.createElement('li');
+
+          var radio_name = document.createElement('input');
+          //radio_name.setAttribute('checked', true);
+          radio_name.setAttribute('type', 'checkbox');
+          radio_name.setAttribute('id', item.id);
+          radio_name.setAttribute('onclick', 'change_selection(this)');
+
+          var radio_name_label = document.createElement('label');
+          radio_name_label.appendChild(document.createTextNode(item.name));
+
+          li.appendChild(radio_name);
+          li.appendChild(radio_name_label);
+
+
+          item.sub_classes.forEach(function(sub){
+            var nes_ul = document.createElement('ul');
+            var nes_li1 =  document.createElement('li');
+            var sub_radio = document.createElement('input');
+            //sub_radio.setAttribute('checked', true);
+            sub_radio.setAttribute('type', 'checkbox');
+            sub_radio.setAttribute('id', item.id.toString()+"_"+sub.id.toString());
+            sub_radio.setAttribute('class', 'checks');
+            sub_radio.setAttribute('onclick', 'change_selection(this)');
+
+            var sub_radio_label = document.createElement('label');
+            sub_radio_label.appendChild(document.createTextNode(sub.name));
+            nes_li1.appendChild(sub_radio);
+            nes_li1.appendChild(sub_radio_label);
+
+            nes_ul.appendChild(nes_li1);
+
+            var nes_li2 = document.createElement('li');
+
+            var slider = document.createElement('input');
+            slider.setAttribute('type', 'range');
+            slider.setAttribute('min', 500);
+            slider.setAttribute('max', 2000);
+            slider.setAttribute('id', item.id.toString()+"_"+sub.id.toString());
+            slider.setAttribute('value', 1);
+            slider.setAttribute('onchange', 'change_radius(this)');
+
+            nes_li2.appendChild(slider);
+
+            nes_ul.appendChild(nes_li2);
+
+            li.appendChild(nes_ul);
+            ul.appendChild(li);
+          });
+        });
+        div.appendChild(ul);
       });
-      div.appendChild(ul);
+
+
 
       function change_selection(element){
-        var object_id = element.id;
-        /*if(element.checked){
-          objects[object_id].show = true;
+        var object_id = element.id.split("_");
+        if(object_id.length > 1){
+          if(element.checked){
+            filter[object_id[0]].sub_classes[object_id[1]].show = true;
+          }else{
+            filter[object_id[0]].sub_classes[object_id[1]].show = false;
+          }
         }else{
-          objects[object_id].show = false;
-        }*/
-        show_map();
-      }
-
-      function change_circles(element){
-        var object_id = element.id;
-        /*if(element.checked){
-          objects[object_id].circles = true;
-        }else{
-          objects[object_id].circles = false;
-        }*/
-        show_map();
+          if(element.checked){
+            filter[object_id[0]].show = true;
+          }else{
+            filter[object_id[0]].show = false;
+            filter[object_id[0]].sub_classes.forEach(function(item){
+              item.show = false;
+            });
+          }
+        }
+        fire_query();
       }
 
       function change_radius(element){
-        var object_id = element.id;
-        //objects[object_id].radius = element.value;
-        show_map();
+        var object_id = element.id.split("_");
+        filter[object_id[0]].sub_classes[object_id[1]].radius = element.value;
+        fire_query();
       }
 
       var markers = [];
@@ -204,6 +219,8 @@ SELECT ?sup ?sub WHERE {
             radius: _radius
           });
         }
+
+
       }
 
       function reset_markers() {
@@ -222,31 +239,68 @@ SELECT ?sup ?sub WHERE {
         });
 
         //reset_markers();
-        /*objects.forEach(function(item){
+        objects.forEach(function(item){
           if(item.show){
             item.markers.forEach(function(marker){
               add_marker(item.id, marker, map, item.circles, item.color, item.radius);
             });
           }
-        });*/
+        });
+
+      }
+
+      function fire_query(){
+        var query = "SELECT DISTINCT";
+        var count = 0;
+        var sub_classes = []
+        filter.forEach(function(item){
+          item.sub_classes.forEach(function(sub_item){
+            if(sub_item.show == true){
+              sub_classes.push({"name": sub_item.name, "radius": sub_item.radius});
+              count += 1;
+            }
+          });
+        });
+
+        for(var i=0; i<count; i++){
+          query += " ?lab"+i;
+          query += " ?lat"+i;
+          query += " ?lng"+i;
+        }
+
+
+
+        query += " WHERE{\n";
+        for(var i=0; i<count; i++){
+          query += " ?a"+i+" ns2:latitude ?lat"+i+" .\n";
+          query += " ?a"+i+" ns2:longitude ?lng"+i+" .\n";
+          query += " ?a"+i+" rdfs:label ?lab"+i+" .\n";
+          query += " ?a"+i+" rdf:type ?c"+i+" .\n";
+          query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
+        }
+
+        for(var i=0; i<count; i++){
+          for(var j=i+1; j<count; j++){
+            query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
+          }
+        }
+
+        query += "\n}";
+        console.log(query);
+        /*
+        ?a rdfs:label ?namea .
+        ?a g13vocab:providesSpecialCare g13vocab:night .
+        ?b ns2:latitude ?latb .
+        ?b ns2:longitude ?lonb .
+        ?b rdfs:label ?nameb .
+        ?b g13vocab:providesSpecialCare g13vocab:day .
+        filter((?lata-?latb)*(?lata-?latb)+(?lona-?lonb)*(?lona-?lonb)>(100*100)) .
+        */
       }
 
       $( ".checks" ).on( "click", function() {
-        console.log($('#namespace').val());
-        selectable = 0
-        $('.checks').each(function (){
-          if (this.checked) {
-            console.log("te");
-            selectable +=1
-          }
-        });
-        selectOperatorsVals = "";
-        for(i=0; i<selectable; i++){
-          selectOperatorsVals += "lab"+i;
-          selectOperatorsVals += "lat"+i;
-          selectOperatorsVals += "lon"+i;
-        };
-        console.log(selectOperatorsVals);
+        console.log( "Works" );
+        console.log($('#query').val());
       });
     </script>
     <script async defer
