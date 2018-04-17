@@ -290,7 +290,7 @@ SELECT ?sup ?sub WHERE {
         
         for(var i=0; i<count; i++){
           for(var j=i+1; j<count; j++){
-            query += " ?geo"+i+" geof:nearby (?geo"+i+" 2000 <http://qudt.org/vocab/unit#Meter>) ."
+            query += " ?geo"+i+" geof:nearby (?geo"+j+" 2000 <http://qudt.org/vocab/unit#Meter>) ."
             //query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
           }
         }
