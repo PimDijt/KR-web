@@ -284,13 +284,13 @@ SELECT ?sup ?sub WHERE {
           query += " ?a"+i+" rdfs:label ?lab"+i+" .\n";
           query += " ?a"+i+" rdf:type ?c"+i+" .\n";
           query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
-          query += " ?a"+i+" geo:hasGeometry ?geo"+i+" ."
+          query += " ?a"+i+" geo:hasGeometry ?geo"+i+" .\n";
         }
 
         
         for(var i=0; i<count; i++){
           for(var j=i+1; j<count; j++){
-            query += " ?geo"+i+" geof:nearby (?geo"+j+" 2000 <http://qudt.org/vocab/unit#Meter>) ."
+            query += " ?geo"+i+" geof:nearby (?geo"+j+" 2000 <http://qudt.org/vocab/unit#Meter>) .\n"
             //query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
           }
         }

@@ -1,3 +1,6 @@
+STARDOG_JAVA_ARGS="-Xmx15g -Xms15g"
+export STARDOG_JAVA_ARGS
+
 ~/stardog-5.2.3/bin/stardog-admin server stop
 ~/stardog-5.2.3/bin/stardog-admin server start --disable-security
 ~/stardog-5.2.3/bin/stardog-admin db drop -n KRweb
