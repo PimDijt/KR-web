@@ -39,7 +39,11 @@
     </style>
   </head>
   <body>
-    <textarea type="hidden" id="query">
+    <textarea id="namespace">
+prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/>
+prefix ns2: <http://dbpedia.org/property/>
+    </textarea>
+    <textarea id="query">
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?sup ?sub WHERE {
   ?supt rdfs:subClassOf+ g13vocab:Location .
@@ -49,6 +53,9 @@ SELECT ?sup ?sub WHERE {
   ?supt rdfs:label ?sup .
   FILTER(?supt != ?subt)
 }
+</textarea>
+<textarea id="markerQuery">
+...
 </textarea>
     <div id="floating-panel">
 
@@ -142,27 +149,27 @@ SELECT ?sup ?sub WHERE {
 
       function change_selection(element){
         var object_id = element.id;
-        if(element.checked){
+        /*if(element.checked){
           objects[object_id].show = true;
         }else{
           objects[object_id].show = false;
-        }
+        }*/
         show_map();
       }
 
       function change_circles(element){
         var object_id = element.id;
-        if(element.checked){
+        /*if(element.checked){
           objects[object_id].circles = true;
         }else{
           objects[object_id].circles = false;
-        }
+        }*/
         show_map();
       }
 
       function change_radius(element){
         var object_id = element.id;
-        objects[object_id].radius = element.value;
+        //objects[object_id].radius = element.value;
         show_map();
       }
 
@@ -197,8 +204,6 @@ SELECT ?sup ?sub WHERE {
             radius: _radius
           });
         }
-
-
       }
 
       function reset_markers() {
@@ -217,19 +222,31 @@ SELECT ?sup ?sub WHERE {
         });
 
         //reset_markers();
-        objects.forEach(function(item){
+        /*objects.forEach(function(item){
           if(item.show){
             item.markers.forEach(function(marker){
               add_marker(item.id, marker, map, item.circles, item.color, item.radius);
             });
           }
-        });
-
+        });*/
       }
 
       $( ".checks" ).on( "click", function() {
-        console.log( "Works" );
-        console.log($('#query').val());
+        console.log($('#namespace').val());
+        selectable = 0
+        $('.checks').each(function (){
+          if (this.checked) {
+            console.log("te");
+            selectable +=1
+          }
+        });
+        selectOperatorsVals = "";
+        for(i=0; i<selectable; i++){
+          selectOperatorsVals += "lab"+i;
+          selectOperatorsVals += "lat"+i;
+          selectOperatorsVals += "lon"+i;
+        };
+        console.log(selectOperatorsVals);
       });
     </script>
     <script async defer
