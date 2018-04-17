@@ -68,7 +68,8 @@
 # http://few.vu.nl/~mvr320/KRweb/vocab/LivingFacilities
 
 :LivingFacilities a owl:Class ;
-	rdfs:subClassOf :elderlyLocation .
+	rdfs:subClassOf :elderlyLocation ;
+	rdfs:label "Living faculties"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/Location
 
@@ -98,7 +99,8 @@ _:genid2 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/careLocation
 
 :careLocation a owl:Class ;
-	rdfs:subClassOf :elderlyLocation .
+	rdfs:subClassOf :elderlyLocation ;
+	rdfs:label "General Care location"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/careTimes
 
@@ -107,7 +109,8 @@ _:genid2 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/daytimeLocation
 
 :daytimeLocation a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Day spending location"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/dentalCare
 
@@ -123,17 +126,20 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/dentist
 
 :dentist a owl:Class ;
-	rdfs:subClassOf :medicalLocation .
+	rdfs:subClassOf :medicalLocation ;
+	rdfs:label "Dentist"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/disabledLocations
 
 :disabledLocations a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Location for Disabled people"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/elderlyLocation
 
 :elderlyLocation a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Location for Elderly people"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/generalPractitioner
 
@@ -156,7 +162,8 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/jewishCareLocation
 
 :jewishCareLocation a owl:Class ;
-	rdfs:subClassOf :careLocation .
+	rdfs:subClassOf :elderlyLocation ;
+	rdfs:label "Jewish care location"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/knowledgeDomain
 
@@ -165,17 +172,20 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/leisureLocation
 
 :leisureLocation a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Location for Leisure"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/medicalLocation
 
 :medicalLocation a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Medical Location"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/nightLocation
 
 :nightLocation a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Night Location"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/organisations
 
@@ -184,7 +194,8 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/park
 
 :park a owl:Class ;
-	rdfs:subClassOf :leisureLocation .
+	rdfs:subClassOf :leisureLocation ;
+	rdfs:label "Park"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/reintegrationPossibilites
 
@@ -213,17 +224,20 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/sportcentrum
 
 :sportcentrum a owl:Class ;
-	rdfs:subClassOf :leisureLocation .
+	rdfs:subClassOf :leisureLocation ;
+	rdfs:label "Sportcentrum"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/swimmingPool
 
 :swimmingPool a owl:Class ;
-	rdfs:subClassOf :leisureLocation .
+	rdfs:subClassOf :leisureLocation ;
+	rdfs:label "Swimmingpool"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/tennisHall
 
 :tennisHall a owl:Class ;
-	rdfs:subClassOf :sportcentrum .
+	rdfs:subClassOf :leisureLocation ;
+	rdfs:label "Hall for Tennis"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/verpleegZorgHuis
 
@@ -334,6 +348,18 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/work
 
 :work a owl:NamedIndividual , :reintegrationPossibilites .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+
+:sleepLocation rdfs:label "Sleeping Location"@en .
 # 
 # 
 # 

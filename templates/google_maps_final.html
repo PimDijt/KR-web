@@ -4,6 +4,10 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <title>Google maps filter</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -35,12 +39,30 @@
     </style>
   </head>
   <body>
+    <textarea type="hidden" id="query">
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?sup ?sub WHERE {
+  ?supt rdfs:subClassOf+ g13vocab:Location .
+  ?supt rdfs:subClassOf? g13vocab:Location .
+  ?subt rdfs:subClassOf ?supt .
+  ?subt rdfs:label ?sub .
+  ?supt rdfs:label ?sup .
+  FILTER(?supt != ?subt)
+}
+</textarea>
     <div id="floating-panel">
 
     </div>
     <div id="map"></div>
     <script>
+      var query = $('#query').val();
+      var endpoint = 'http://localhost:5820/KRweb' + '/query';
+	    var format = 'JSON';
 
+	    $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
+        console.log(json);
+      });
+      
       filter = [];
       var id = 0;
       var sub_id = 0;
@@ -88,6 +110,7 @@
           radio_circle.setAttribute('checked', true);
           radio_circle.setAttribute('type', 'checkbox');
           radio_circle.setAttribute('id', sub.id);
+          radio_circle.setAttribute('class', 'checks');
           radio_circle.setAttribute('onclick', 'change_circles(this)');
 
           var radio_circle_label = document.createElement('label');
@@ -204,6 +227,10 @@
 
       }
 
+      $( ".checks" ).on( "click", function() {
+        console.log( "Works" );
+        console.log($('#query').val());
+      });
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map">

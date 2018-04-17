@@ -2,9 +2,9 @@
 @prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/toe> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
-@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix ns2: <urn:x-rdflib:> .
-@prefix ns3: <http://dbpedia.org/property/> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://dbpedia.org/property/> .
+@prefix ns3: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,2405 +12,2405 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns1:toe16e_Montessorischool__Gaasperdam_ a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toe16e_Montessorischool__Gaasperdam_ a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "16e Montessorischool \"Gaasperdam\""^^xsd:string ;
-        ns3:latitude 5.229771e+01 ;
-        ns3:longitude 4.984115e+00 .
+        ns2:latitude 5.229771e+01 ;
+        ns2:longitude 4.984115e+00 .
 
-    ns1:toe1e_Groepspraktijk_Stadionweg_42 a ns1:Gezondheidscentra,
+    ns3:toe1e_Groepspraktijk_Stadionweg_42 a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "1e Groepspraktijk Stadionweg 42"^^xsd:string ;
-        ns3:latitude 5.234784e+01 ;
-        ns3:longitude 4.881308e+00 .
+        ns2:latitude 5.234784e+01 ;
+        ns2:longitude 4.881308e+00 .
 
-    ns1:toeACTA_ a ns1:Tandartsen,
+    ns3:toeACTA_ a ns3:Tandartsen,
             :instantie ;
         rdfs:label "ACTA "^^xsd:string ;
-        ns3:latitude 5.233556e+01 ;
-        ns3:longitude 4.861655e+00 .
+        ns2:latitude 5.233556e+01 ;
+        ns2:longitude 4.861655e+00 .
 
-    ns1:toeASSV_Amsterdams_Spoorweg_Sportvereniging a ns1:Sportaccommodaties,
+    ns3:toeASSV_Amsterdams_Spoorweg_Sportvereniging a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "ASSV Amsterdams Spoorweg Sportvereniging"^^xsd:string ;
-        ns3:latitude 5.231999e+01 ;
-        ns3:longitude 4.939281e+00 .
+        ns2:latitude 5.231999e+01 ;
+        ns2:longitude 4.939281e+00 .
 
-    ns1:toeActiviteitencentrum_België a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeActiviteitencentrum_België a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Activiteitencentrum België"^^xsd:string ;
-        ns3:latitude 5.23455e+01 ;
-        ns3:longitude 4.812272e+00 .
+        ns2:latitude 5.23455e+01 ;
+        ns2:longitude 4.812272e+00 .
 
-    ns1:toeActiviteitencentrum_De_Aker a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeActiviteitencentrum_De_Aker a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Activiteitencentrum De Aker"^^xsd:string ;
-        ns3:latitude 5.235509e+01 ;
-        ns3:longitude 4.782658e+00 .
+        ns2:latitude 5.235509e+01 ;
+        ns2:longitude 4.782658e+00 .
 
-    ns1:toeActiviteitencentrum_De_Bonte_Kraai a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeActiviteitencentrum_De_Bonte_Kraai a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Activiteitencentrum De Bonte Kraai"^^xsd:string ;
-        ns3:latitude 5.231689e+01 ;
-        ns3:longitude 4.98246e+00 .
+        ns2:latitude 5.231689e+01 ;
+        ns2:longitude 4.98246e+00 .
 
-    ns1:toeActiviteitencentrum_Gein a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeActiviteitencentrum_Gein a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Activiteitencentrum Gein"^^xsd:string ;
-        ns3:latitude 5.229578e+01 ;
-        ns3:longitude 4.987225e+00 .
+        ns2:latitude 5.229578e+01 ;
+        ns2:longitude 4.987225e+00 .
 
-    ns1:toeAlbert_Heijn_IJburg a ns1:Supermarkten,
+    ns3:toeAlbert_Heijn_IJburg a ns3:Supermarkten,
             :instantie ;
         rdfs:label "Albert Heijn IJburg"^^xsd:string ;
-        ns3:latitude 5.235776e+01 ;
-        ns3:longitude 4.990821e+00 .
+        ns2:latitude 5.235776e+01 ;
+        ns2:longitude 4.990821e+00 .
 
-    ns1:toeAlbert_Heijn_Spaarndammerstraat a ns1:Supermarkten,
+    ns3:toeAlbert_Heijn_Spaarndammerstraat a ns3:Supermarkten,
             :instantie ;
         rdfs:label "Albert Heijn Spaarndammerstraat"^^xsd:string ;
-        ns3:latitude 5.239169e+01 ;
-        ns3:longitude 4.877987e+00 .
+        ns2:latitude 5.239169e+01 ;
+        ns2:longitude 4.877987e+00 .
 
-    ns1:toeAlbert_Heijn_Watergraafsmeer a ns1:Supermarkten,
+    ns3:toeAlbert_Heijn_Watergraafsmeer a ns3:Supermarkten,
             :instantie ;
         rdfs:label "Albert Heijn Watergraafsmeer"^^xsd:string ;
-        ns3:latitude 5.234966e+01 ;
-        ns3:longitude 4.939862e+00 .
+        ns2:latitude 5.234966e+01 ;
+        ns2:longitude 4.939862e+00 .
 
-    ns1:toeAllard_Pierson_Museum a ns1:Musea,
+    ns3:toeAllard_Pierson_Museum a ns3:Musea,
             :instantie ;
         rdfs:label "Allard Pierson Museum"^^xsd:string ;
-        ns3:latitude 5.236835e+01 ;
-        ns3:longitude 4.89332e+00 .
+        ns2:latitude 5.236835e+01 ;
+        ns2:longitude 4.89332e+00 .
 
-    ns1:toeAlphega_apotheek_Sumatra a ns1:Apotheken,
+    ns3:toeAlphega_apotheek_Sumatra a ns3:Apotheken,
             :instantie ;
         rdfs:label "Alphega apotheek Sumatra"^^xsd:string ;
-        ns3:latitude 5.236159e+01 ;
-        ns3:longitude 4.936336e+00 .
+        ns2:latitude 5.236159e+01 ;
+        ns2:longitude 4.936336e+00 .
 
-    ns1:toeAmsterdam_Manor_Hotel a ns1:Hotels,
+    ns3:toeAmsterdam_Manor_Hotel a ns3:Hotels,
             :instantie ;
         rdfs:label "Amsterdam Manor Hotel"^^xsd:string ;
-        ns3:latitude 5.235914e+01 ;
-        ns3:longitude 4.926276e+00 .
+        ns2:latitude 5.235914e+01 ;
+        ns2:longitude 4.926276e+00 .
 
-    ns1:toeAnne_Frank_Huis a ns1:Musea,
+    ns3:toeAnne_Frank_Huis a ns3:Musea,
             :instantie ;
         rdfs:label "Anne Frank Huis"^^xsd:string ;
-        ns3:latitude 5.237534e+01 ;
-        ns3:longitude 4.884108e+00 .
+        ns2:latitude 5.237534e+01 ;
+        ns2:longitude 4.884108e+00 .
 
-    ns1:toeApollohal a ns1:Sportaccommodaties,
+    ns3:toeApollohal a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Apollohal"^^xsd:string ;
-        ns3:latitude 5.234788e+01 ;
-        ns3:longitude 4.881601e+00 .
+        ns2:latitude 5.234788e+01 ;
+        ns2:longitude 4.881601e+00 .
 
-    ns1:toeApotheek_Ferdinand_Bol a ns1:Apotheken,
+    ns3:toeApotheek_Ferdinand_Bol a ns3:Apotheken,
             :instantie ;
         rdfs:label "Apotheek Ferdinand Bol"^^xsd:string ;
-        ns3:latitude 5.235305e+01 ;
-        ns3:longitude 4.891112e+00 .
+        ns2:latitude 5.235305e+01 ;
+        ns2:longitude 4.891112e+00 .
 
-    ns1:toeApotheek_Watergraafsmeer_Van_de_Kamp a ns1:Apotheken,
+    ns3:toeApotheek_Watergraafsmeer_Van_de_Kamp a ns3:Apotheken,
             :instantie ;
         rdfs:label "Apotheek Watergraafsmeer Van de Kamp"^^xsd:string ;
-        ns3:latitude 5.235006e+01 ;
-        ns3:longitude 4.939227e+00 .
+        ns2:latitude 5.235006e+01 ;
+        ns2:longitude 4.939227e+00 .
 
-    ns1:toeArcam___Architectuurcentrum_amsterdam a ns1:Musea,
+    ns3:toeArcam___Architectuurcentrum_amsterdam a ns3:Musea,
             :instantie ;
         rdfs:label "Arcam | Architectuurcentrum amsterdam"^^xsd:string ;
-        ns3:latitude 5.237222e+01 ;
-        ns3:longitude 4.912058e+00 .
+        ns2:latitude 5.237222e+01 ;
+        ns2:longitude 4.912058e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeArtis_Parkzalen:_Congres_en_partycentrum> a ns1:Congres-_en_partyaccommodaties,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeArtis_Parkzalen:_Congres_en_partycentrum> a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Artis Parkzalen: Congres en partycentrum"^^xsd:string ;
-        ns3:latitude 5.236551e+01 ;
-        ns3:longitude 4.914523e+00 .
+        ns2:latitude 5.236551e+01 ;
+        ns2:longitude 4.914523e+00 .
 
-    ns1:toeArtsen_zonder_Grenzen a ns1:Kantoorgebouwen,
+    ns3:toeArtsen_zonder_Grenzen a ns3:Kantoorgebouwen,
             :instantie ;
         rdfs:label "Artsen zonder Grenzen"^^xsd:string ;
-        ns3:latitude 5.236704e+01 ;
-        ns3:longitude 4.909852e+00 .
+        ns2:latitude 5.236704e+01 ;
+        ns2:longitude 4.909852e+00 .
 
-    ns1:toeBENU_Apotheek_Zeeburg a ns1:Apotheken,
+    ns3:toeBENU_Apotheek_Zeeburg a ns3:Apotheken,
             :instantie ;
         rdfs:label "BENU Apotheek Zeeburg"^^xsd:string ;
-        ns3:latitude 5.237411e+01 ;
-        ns3:longitude 4.936694e+00 .
+        ns2:latitude 5.237411e+01 ;
+        ns2:longitude 4.936694e+00 .
 
-    ns1:toeBagels_en_Beans_Spaarndammerstraat a ns1:Winkels,
+    ns3:toeBagels_en_Beans_Spaarndammerstraat a ns3:Winkels,
             :instantie ;
         rdfs:label "Bagels en Beans Spaarndammerstraat"^^xsd:string ;
-        ns3:latitude 5.23915e+01 ;
-        ns3:longitude 4.878004e+00 .
+        ns2:latitude 5.23915e+01 ;
+        ns2:longitude 4.878004e+00 .
 
-    ns1:toeBaisschool_Mobiel_Reigersbos a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBaisschool_Mobiel_Reigersbos a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Baisschool Mobiel Reigersbos"^^xsd:string ;
-        ns3:latitude 5.229435e+01 ;
-        ns3:longitude 4.974823e+00 .
+        ns2:latitude 5.229435e+01 ;
+        ns2:longitude 4.974823e+00 .
 
-    ns1:toeBakkerij_Erol_Specialiteiten a ns1:Winkels,
+    ns3:toeBakkerij_Erol_Specialiteiten a ns3:Winkels,
             :instantie ;
         rdfs:label "Bakkerij Erol Specialiteiten"^^xsd:string ;
-        ns3:latitude 5.238934e+01 ;
-        ns3:longitude 4.87938e+00 .
+        ns2:latitude 5.238934e+01 ;
+        ns2:longitude 4.87938e+00 .
 
-    ns1:toeBalletstudio_van_den_Ende a ns1:Sportaccommodaties,
+    ns3:toeBalletstudio_van_den_Ende a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Balletstudio van den Ende"^^xsd:string ;
-        ns3:latitude 5.234645e+01 ;
-        ns3:longitude 4.937415e+00 .
+        ns2:latitude 5.234645e+01 ;
+        ns2:longitude 4.937415e+00 .
 
-    ns1:toeBasic_Touch_in_Mirrorcentre_ a ns1:Sportaccommodaties,
+    ns3:toeBasic_Touch_in_Mirrorcentre_ a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Basic Touch in Mirrorcentre "^^xsd:string ;
-        ns3:latitude 5.235981e+01 ;
-        ns3:longitude 4.931348e+00 .
+        ns2:latitude 5.235981e+01 ;
+        ns2:longitude 4.931348e+00 .
 
-    ns1:toeBasisschool_Mobiel_locatie_Mijehof a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_Mobiel_locatie_Mijehof a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool Mobiel locatie Mijehof"^^xsd:string ;
-        ns3:latitude 5.230088e+01 ;
-        ns3:longitude 4.96944e+00 .
+        ns2:latitude 5.230088e+01 ;
+        ns2:longitude 4.96944e+00 .
 
-    ns1:toeBasisschool_Samenspel_locatie_Geerdinkhof_ a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_Samenspel_locatie_Geerdinkhof_ a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool Samenspel locatie Geerdinkhof "^^xsd:string ;
-        ns3:latitude 5.232457e+01 ;
-        ns3:longitude 4.98327e+00 .
+        ns2:latitude 5.232457e+01 ;
+        ns2:longitude 4.98327e+00 .
 
-    ns1:toeBasisschool_Samenspel_locatie_Kantershof a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_Samenspel_locatie_Kantershof a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool Samenspel locatie Kantershof"^^xsd:string ;
-        ns3:latitude 5.23201e+01 ;
-        ns3:longitude 4.9873e+00 .
+        ns2:latitude 5.23201e+01 ;
+        ns2:longitude 4.9873e+00 .
 
-    ns1:toeBasisschool_de_Rozemarn a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_de_Rozemarn a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool de Rozemarn"^^xsd:string ;
-        ns3:latitude 5.230913e+01 ;
-        ns3:longitude 4.960814e+00 .
+        ns2:latitude 5.230913e+01 ;
+        ns2:longitude 4.960814e+00 .
 
-    ns1:toeBasisschool_de_Schakel a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_de_Schakel a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool de Schakel"^^xsd:string ;
-        ns3:latitude 5.232333e+01 ;
-        ns3:longitude 4.941888e+00 .
+        ns2:latitude 5.232333e+01 ;
+        ns2:longitude 4.941888e+00 .
 
-    ns1:toeBasisschool_de_Ster a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_de_Ster a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool de Ster"^^xsd:string ;
-        ns3:latitude 5.229433e+01 ;
-        ns3:longitude 4.987356e+00 .
+        ns2:latitude 5.229433e+01 ;
+        ns2:longitude 4.987356e+00 .
 
-    ns1:toeBasisschool_de_Tamboerijn a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_de_Tamboerijn a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool de Tamboerijn"^^xsd:string ;
-        ns3:latitude 5.229452e+01 ;
-        ns3:longitude 4.976301e+00 .
+        ns2:latitude 5.229452e+01 ;
+        ns2:longitude 4.976301e+00 .
 
-    ns1:toeBasisschool_het_Gein a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBasisschool_het_Gein a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Basisschool het Gein"^^xsd:string ;
-        ns3:latitude 5.229885e+01 ;
-        ns3:longitude 4.993208e+00 .
+        ns2:latitude 5.229885e+01 ;
+        ns2:longitude 4.993208e+00 .
 
-    ns1:toeBert_Verlaan_Drogisterij a ns1:Winkels,
+    ns3:toeBert_Verlaan_Drogisterij a ns3:Winkels,
             :instantie ;
         rdfs:label "Bert Verlaan Drogisterij"^^xsd:string ;
-        ns3:latitude 5.23894e+01 ;
-        ns3:longitude 4.879321e+00 .
+        ns2:latitude 5.23894e+01 ;
+        ns2:longitude 4.879321e+00 .
 
-    ns1:toeBibliotheek_Cinétol a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Cinétol a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Cinétol"^^xsd:string ;
-        ns3:latitude 5.235262e+01 ;
-        ns3:longitude 4.90531e+00 .
+        ns2:latitude 5.235262e+01 ;
+        ns2:longitude 4.90531e+00 .
 
-    ns1:toeBibliotheek_Diemen a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Diemen a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Diemen"^^xsd:string ;
-        ns3:latitude 5.234165e+01 ;
-        ns3:longitude 4.960105e+00 .
+        ns2:latitude 5.234165e+01 ;
+        ns2:longitude 4.960105e+00 .
 
-    ns1:toeBibliotheek_Duivendrecht a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Duivendrecht a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Duivendrecht"^^xsd:string ;
-        ns3:latitude 5.233294e+01 ;
-        ns3:longitude 4.939048e+00 .
+        ns2:latitude 5.233294e+01 ;
+        ns2:longitude 4.939048e+00 .
 
-    ns1:toeBibliotheek_Molenwijk a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Molenwijk a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Molenwijk"^^xsd:string ;
-        ns3:latitude 5.241738e+01 ;
-        ns3:longitude 4.892847e+00 .
+        ns2:latitude 5.241738e+01 ;
+        ns2:longitude 4.892847e+00 .
 
-    ns1:toeBibliotheek_Osdorp_ a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Osdorp_ a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Osdorp "^^xsd:string ;
-        ns3:latitude 5.235884e+01 ;
-        ns3:longitude 4.806697e+00 .
+        ns2:latitude 5.235884e+01 ;
+        ns2:longitude 4.806697e+00 .
 
-    ns1:toeBibliotheek_Ouderkerk a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Ouderkerk a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Ouderkerk"^^xsd:string ;
-        ns3:latitude 5.229557e+01 ;
-        ns3:longitude 4.906808e+00 .
+        ns2:latitude 5.229557e+01 ;
+        ns2:longitude 4.906808e+00 .
 
-    ns1:toeBibliotheek_Slotervaart_ a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Slotervaart_ a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Slotervaart "^^xsd:string ;
-        ns3:latitude 5.235615e+01 ;
-        ns3:longitude 4.825991e+00 .
+        ns2:latitude 5.235615e+01 ;
+        ns2:longitude 4.825991e+00 .
 
-    ns1:toeBibliotheek_Spaarndammerbuurt a ns1:Bibliotheken,
+    ns3:toeBibliotheek_Spaarndammerbuurt a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Bibliotheek Spaarndammerbuurt"^^xsd:string ;
-        ns3:latitude 5.238832e+01 ;
-        ns3:longitude 4.880332e+00 .
+        ns2:latitude 5.238832e+01 ;
+        ns2:longitude 4.880332e+00 .
 
-    ns1:toeBijlmer_Parktheater a ns1:Theaters_en_concertgebouwen,
+    ns3:toeBijlmer_Parktheater a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Bijlmer Parktheater"^^xsd:string ;
-        ns3:latitude 5.231654e+01 ;
-        ns3:longitude 4.957062e+00 .
+        ns2:latitude 5.231654e+01 ;
+        ns2:longitude 4.957062e+00 .
 
-    ns1:toeBijlmerdrie a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBijlmerdrie a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Bijlmerdrie"^^xsd:string ;
-        ns3:latitude 5.231953e+01 ;
-        ns3:longitude 4.987628e+00 .
+        ns2:latitude 5.231953e+01 ;
+        ns2:longitude 4.987628e+00 .
 
-    ns1:toeBijzondere_Collecties_UVA a ns1:Musea,
+    ns3:toeBijzondere_Collecties_UVA a ns3:Musea,
             :instantie ;
         rdfs:label "Bijzondere Collecties UVA"^^xsd:string ;
-        ns3:latitude 5.236835e+01 ;
-        ns3:longitude 4.89332e+00 .
+        ns2:latitude 5.236835e+01 ;
+        ns2:longitude 4.89332e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeBikes_&_Boards> a ns1:Winkels,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeBikes_&_Boards> a ns3:Winkels,
             :instantie ;
         rdfs:label "Bikes & Boards"^^xsd:string ;
-        ns3:latitude 5.235913e+01 ;
-        ns3:longitude 4.990691e+00 .
+        ns2:latitude 5.235913e+01 ;
+        ns2:longitude 4.990691e+00 .
 
-    ns1:toeBindelmeer_College a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBindelmeer_College a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Bindelmeer College"^^xsd:string ;
-        ns3:latitude 5.232188e+01 ;
-        ns3:longitude 4.949397e+00 .
+        ns2:latitude 5.232188e+01 ;
+        ns2:longitude 4.949397e+00 .
 
-    ns1:toeBinnenwaai a ns1:Kerkgebouwen,
+    ns3:toeBinnenwaai a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Binnenwaai"^^xsd:string ;
-        ns3:latitude 5.235715e+01 ;
-        ns3:longitude 4.996537e+00 .
+        ns2:latitude 5.235715e+01 ;
+        ns2:longitude 4.996537e+00 .
 
-    ns1:toeBlauwe_Lijn-_Onze_Wereld a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeBlauwe_Lijn-_Onze_Wereld a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Blauwe Lijn- Onze Wereld"^^xsd:string ;
-        ns3:latitude 5.231585e+01 ;
-        ns3:longitude 4.970194e+00 .
+        ns2:latitude 5.231585e+01 ;
+        ns2:longitude 4.970194e+00 .
 
-    ns1:toeBlauwe_Theehuis a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeBlauwe_Theehuis a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Blauwe Theehuis"^^xsd:string ;
-        ns3:latitude 5.235943e+01 ;
-        ns3:longitude 4.871061e+00 .
+        ns2:latitude 5.235943e+01 ;
+        ns2:longitude 4.871061e+00 .
 
-    ns1:toeBlokker_Spaarndammerstraat a ns1:Winkels,
+    ns3:toeBlokker_Spaarndammerstraat a ns3:Winkels,
             :instantie ;
         rdfs:label "Blokker Spaarndammerstraat"^^xsd:string ;
-        ns3:latitude 5.239031e+01 ;
-        ns3:longitude 4.878561e+00 .
+        ns2:latitude 5.239031e+01 ;
+        ns2:longitude 4.878561e+00 .
 
-    ns1:toeBlue_Boat_Company a ns1:Rondvaartboten,
+    ns3:toeBlue_Boat_Company a ns3:Rondvaartboten,
             :instantie ;
         rdfs:label "Blue Boat Company"^^xsd:string ;
-        ns3:latitude 5.23615e+01 ;
-        ns3:longitude 4.883942e+00 .
+        ns2:latitude 5.23615e+01 ;
+        ns2:longitude 4.883942e+00 .
 
-    ns1:toeBoerhaave_Kliniek a ns1:Gezondheidscentra,
+    ns3:toeBoerhaave_Kliniek a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Boerhaave Kliniek"^^xsd:string ;
-        ns3:latitude 5.235659e+01 ;
-        ns3:longitude 4.884041e+00 .
+        ns2:latitude 5.235659e+01 ;
+        ns2:longitude 4.884041e+00 .
 
-    ns1:toeBoven_IJ_ziekenhuis a ns1:Ziekenhuizen,
+    ns3:toeBoven_IJ_ziekenhuis a ns3:Ziekenhuizen,
             :instantie ;
         rdfs:label "Boven IJ ziekenhuis"^^xsd:string ;
-        ns3:latitude 5.240574e+01 ;
-        ns3:longitude 4.921339e+00 .
+        ns2:latitude 5.240574e+01 ;
+        ns2:longitude 4.921339e+00 .
 
-    ns1:toeBrahmshof a ns1:Verpleeg-_en_verzorgingshuizen,
+    ns3:toeBrahmshof a ns3:Verpleeg-_en_verzorgingshuizen,
             :instantie ;
         rdfs:label "Brahmshof"^^xsd:string ;
-        ns3:latitude 5.23484e+01 ;
-        ns3:longitude 4.877955e+00 .
+        ns2:latitude 5.23484e+01 ;
+        ns2:longitude 4.877955e+00 .
 
-    ns1:toeBrasserie_Harkema a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeBrasserie_Harkema a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Brasserie Harkema"^^xsd:string ;
-        ns3:latitude 5.236998e+01 ;
-        ns3:longitude 4.893492e+00 .
+        ns2:latitude 5.236998e+01 ;
+        ns2:longitude 4.893492e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeBrede_school_De_Bockesprong_/_basisschool_De_Nautilus> a ns1:Onderwijsinstellingen_en_scholen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeBrede_school_De_Bockesprong_/_basisschool_De_Nautilus> a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Brede school De Bockesprong / basisschool De Nautilus"^^xsd:string ;
-        ns3:latitude 5.235486e+01 ;
-        ns3:longitude 4.847394e+00 .
+        ns2:latitude 5.235486e+01 ;
+        ns2:longitude 4.847394e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeBuurtcentrum_?t%20Claverhuis%20> a ns1:Wijkcentra_en_buurthuizen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeBuurtcentrum_?t%20Claverhuis%20> a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum ?t Claverhuis "^^xsd:string ;
-        ns3:latitude 5.236973e+01 ;
-        ns3:longitude 4.880956e+00 .
+        ns2:latitude 5.236973e+01 ;
+        ns2:longitude 4.880956e+00 .
 
-    ns1:toeBuurtcentrum_De_Havelaar a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_De_Havelaar a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum De Havelaar"^^xsd:string ;
-        ns3:latitude 5.236851e+01 ;
-        ns3:longitude 4.865905e+00 .
+        ns2:latitude 5.236851e+01 ;
+        ns2:longitude 4.865905e+00 .
 
-    ns1:toeBuurtcentrum_De_Horizon a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_De_Horizon a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum De Horizon"^^xsd:string ;
-        ns3:latitude 5.239159e+01 ;
-        ns3:longitude 4.874345e+00 .
+        ns2:latitude 5.239159e+01 ;
+        ns2:longitude 4.874345e+00 .
 
-    ns1:toeBuurtcentrum_De_Meevaart a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_De_Meevaart a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum De Meevaart"^^xsd:string ;
-        ns3:latitude 5.236307e+01 ;
-        ns3:longitude 4.933796e+00 .
+        ns2:latitude 5.236307e+01 ;
+        ns2:longitude 4.933796e+00 .
 
-    ns1:toeBuurtcentrum_De_Schaffelaar a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_De_Schaffelaar a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum De Schaffelaar"^^xsd:string ;
-        ns3:latitude 5.238311e+01 ;
-        ns3:longitude 4.84658e+00 .
+        ns2:latitude 5.238311e+01 ;
+        ns2:longitude 4.84658e+00 .
 
-    ns1:toeBuurtcentrum_Park_de_Meer a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_Park_de_Meer a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum Park de Meer"^^xsd:string ;
-        ns3:latitude 5.234316e+01 ;
-        ns3:longitude 4.948615e+00 .
+        ns2:latitude 5.234316e+01 ;
+        ns2:longitude 4.948615e+00 .
 
-    ns1:toeBuurtcentrum_Transvaal a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_Transvaal a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum Transvaal"^^xsd:string ;
-        ns3:latitude 5.235261e+01 ;
-        ns3:longitude 4.915732e+00 .
+        ns2:latitude 5.235261e+01 ;
+        ns2:longitude 4.915732e+00 .
 
-    ns1:toeBuurtcentrum_de_Boomsspijker a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_de_Boomsspijker a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum de Boomsspijker"^^xsd:string ;
-        ns3:latitude 5.237208e+01 ;
-        ns3:longitude 4.903381e+00 .
+        ns2:latitude 5.237208e+01 ;
+        ns2:longitude 4.903381e+00 .
 
-    ns1:toeBuurtcentrum_de_Driehoek a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurtcentrum_de_Driehoek a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurtcentrum de Driehoek"^^xsd:string ;
-        ns3:latitude 5.239332e+01 ;
-        ns3:longitude 4.928139e+00 .
+        ns2:latitude 5.239332e+01 ;
+        ns2:longitude 4.928139e+00 .
 
-    ns1:toeBuurthuis_Osdorp a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeBuurthuis_Osdorp a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Buurthuis Osdorp"^^xsd:string ;
-        ns3:latitude 5.236297e+01 ;
-        ns3:longitude 4.794883e+00 .
+        ns2:latitude 5.236297e+01 ;
+        ns2:longitude 4.794883e+00 .
 
-    ns1:toeBuurtrestaurant_De_Stek a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeBuurtrestaurant_De_Stek a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Buurtrestaurant De Stek"^^xsd:string ;
-        ns3:latitude 5.236167e+01 ;
-        ns3:longitude 4.982374e+00 .
+        ns2:latitude 5.236167e+01 ;
+        ns2:longitude 4.982374e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeC'estbon> a ns1:Winkels,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeC'estbon> a ns3:Winkels,
             :instantie ;
         rdfs:label "C'estbon"^^xsd:string ;
-        ns3:latitude 5.235394e+01 ;
-        ns3:longitude 4.930851e+00 .
+        ns2:latitude 5.235394e+01 ;
+        ns2:longitude 4.930851e+00 .
 
-    ns1:toeCafé-Restaurant_Amsterdam a <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's>,
+    ns3:toeCafé-Restaurant_Amsterdam a <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's>,
             :instantie ;
         rdfs:label "Café-Restaurant Amsterdam"^^xsd:string ;
-        ns3:latitude 5.238484e+01 ;
-        ns3:longitude 4.867681e+00 .
+        ns2:latitude 5.238484e+01 ;
+        ns2:longitude 4.867681e+00 .
 
-    ns1:toeCentrale_bibliotheek_Oosterdokseiland a ns1:Bibliotheken,
+    ns3:toeCentrale_bibliotheek_Oosterdokseiland a ns3:Bibliotheken,
             :instantie ;
         rdfs:label "Centrale bibliotheek Oosterdokseiland"^^xsd:string ;
-        ns3:latitude 5.237546e+01 ;
-        ns3:longitude 4.908763e+00 .
+        ns2:latitude 5.237546e+01 ;
+        ns2:longitude 4.908763e+00 .
 
-    ns1:toeCentrum_Beeldende_Kunst_Oost-Watergraafsmeer a ns1:Educatieve_centra,
+    ns3:toeCentrum_Beeldende_Kunst_Oost-Watergraafsmeer a ns3:Educatieve_centra,
             :instantie ;
         rdfs:label "Centrum Beeldende Kunst Oost-Watergraafsmeer"^^xsd:string ;
-        ns3:latitude 5.235711e+01 ;
-        ns3:longitude 4.933725e+00 .
+        ns2:latitude 5.235711e+01 ;
+        ns2:longitude 4.933725e+00 .
 
-    ns1:toeCentrum_NAH_Heliomare a ns1:Sportaccommodaties,
+    ns3:toeCentrum_NAH_Heliomare a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Centrum NAH Heliomare"^^xsd:string ;
-        ns3:latitude 5.234967e+01 ;
-        ns3:longitude 4.854634e+00 .
+        ns2:latitude 5.234967e+01 ;
+        ns2:longitude 4.854634e+00 .
 
-    ns1:toeChaplin_Shoes a ns1:Winkels,
+    ns3:toeChaplin_Shoes a ns3:Winkels,
             :instantie ;
         rdfs:label "Chaplin Shoes"^^xsd:string ;
-        ns3:latitude 5.239099e+01 ;
-        ns3:longitude 4.878157e+00 .
+        ns2:latitude 5.239099e+01 ;
+        ns2:longitude 4.878157e+00 .
 
-    ns1:toeChung-Mu_Taekwon-do a ns1:Sportaccommodaties,
+    ns3:toeChung-Mu_Taekwon-do a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Chung-Mu Taekwon-do"^^xsd:string ;
-        ns3:latitude 5.23932e+01 ;
-        ns3:longitude 4.911642e+00 .
+        ns2:latitude 5.23932e+01 ;
+        ns2:longitude 4.911642e+00 .
 
-    ns1:toeChung_Wah_Chinees_eethuis a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeChung_Wah_Chinees_eethuis a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Chung Wah Chinees eethuis"^^xsd:string ;
-        ns3:latitude 5.23915e+01 ;
-        ns3:longitude 4.878004e+00 .
+        ns2:latitude 5.23915e+01 ;
+        ns2:longitude 4.878004e+00 .
 
-    ns1:toeCliëntenbelang_Amsterdam a ns1:Kantoorgebouwen,
+    ns3:toeCliëntenbelang_Amsterdam a ns3:Kantoorgebouwen,
             :instantie ;
         rdfs:label "Cliëntenbelang Amsterdam"^^xsd:string ;
-        ns3:latitude 5.23725e+01 ;
-        ns3:longitude 4.929001e+00 .
+        ns2:latitude 5.23725e+01 ;
+        ns2:longitude 4.929001e+00 .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/toeCoffee_&_Paste> a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Coffee & Paste"^^xsd:string ;
-        ns3:latitude 5.235314e+01 ;
-        ns3:longitude 4.855972e+00 .
+        ns2:latitude 5.235314e+01 ;
+        ns2:longitude 4.855972e+00 .
 
-    ns1:toeConcertgebouw a ns1:Theaters_en_concertgebouwen,
+    ns3:toeConcertgebouw a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Concertgebouw"^^xsd:string ;
-        ns3:latitude 5.235561e+01 ;
-        ns3:longitude 4.87824e+00 .
+        ns2:latitude 5.235561e+01 ;
+        ns2:longitude 4.87824e+00 .
 
-    ns1:toeCorpus_Vitae_Fysio_en_Manuele_therapie a ns1:Fysiotherapeuten,
+    ns3:toeCorpus_Vitae_Fysio_en_Manuele_therapie a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Corpus Vitae Fysio en Manuele therapie"^^xsd:string ;
-        ns3:latitude 5.234654e+01 ;
-        ns3:longitude 4.873985e+00 .
+        ns2:latitude 5.234654e+01 ;
+        ns2:longitude 4.873985e+00 .
 
-    ns1:toeCrea a ns1:Theaters_en_concertgebouwen,
+    ns3:toeCrea a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Crea"^^xsd:string ;
-        ns3:latitude 5.236302e+01 ;
-        ns3:longitude 4.911525e+00 .
+        ns2:latitude 5.236302e+01 ;
+        ns2:longitude 4.911525e+00 .
 
-    ns1:toeDe_Balie a ns1:Theaters_en_concertgebouwen,
+    ns3:toeDe_Balie a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "De Balie"^^xsd:string ;
-        ns3:latitude 5.236311e+01 ;
-        ns3:longitude 4.88316e+00 .
+        ns2:latitude 5.236311e+01 ;
+        ns2:longitude 4.88316e+00 .
 
-    ns1:toeDe_Bijenkorf a ns1:Warenhuizen,
+    ns3:toeDe_Bijenkorf a ns3:Warenhuizen,
             :instantie ;
         rdfs:label "De Bijenkorf"^^xsd:string ;
-        ns3:latitude 5.237263e+01 ;
-        ns3:longitude 4.894109e+00 .
+        ns2:latitude 5.237263e+01 ;
+        ns2:longitude 4.894109e+00 .
 
-    ns1:toeDe_Brakke_Grond a ns1:Theaters_en_concertgebouwen,
+    ns3:toeDe_Brakke_Grond a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "De Brakke Grond"^^xsd:string ;
-        ns3:latitude 5.236998e+01 ;
-        ns3:longitude 4.893492e+00 .
+        ns2:latitude 5.236998e+01 ;
+        ns2:longitude 4.893492e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeDe_Drecht,_wooncentrum_voor_ouderen> a ns1:Verpleeg-_en_verzorgingshuizen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeDe_Drecht,_wooncentrum_voor_ouderen> a ns3:Verpleeg-_en_verzorgingshuizen,
             :instantie ;
         rdfs:label "De Drecht, wooncentrum voor ouderen"^^xsd:string ;
-        ns3:latitude 5.229902e+01 ;
-        ns3:longitude 4.961556e+00 .
+        ns2:latitude 5.229902e+01 ;
+        ns2:longitude 4.961556e+00 .
 
-    ns1:toeDe_Knotwilg a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeDe_Knotwilg a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "De Knotwilg"^^xsd:string ;
-        ns3:latitude 5.229768e+01 ;
-        ns3:longitude 4.984262e+00 .
+        ns2:latitude 5.229768e+01 ;
+        ns2:longitude 4.984262e+00 .
 
-    ns1:toeDe_Koperen_Knoop a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeDe_Koperen_Knoop a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "De Koperen Knoop"^^xsd:string ;
-        ns3:latitude 5.238364e+01 ;
-        ns3:longitude 4.876302e+00 .
+        ns2:latitude 5.238364e+01 ;
+        ns2:longitude 4.876302e+00 .
 
-    ns1:toeDe_La_MarTheater a ns1:Theaters_en_concertgebouwen,
+    ns3:toeDe_La_MarTheater a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "De La MarTheater"^^xsd:string ;
-        ns3:latitude 5.236399e+01 ;
-        ns3:longitude 4.881564e+00 .
+        ns2:latitude 5.236399e+01 ;
+        ns2:longitude 4.881564e+00 .
 
-    ns1:toeDe_Meervaart a ns1:Theaters_en_concertgebouwen,
+    ns3:toeDe_Meervaart a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "De Meervaart"^^xsd:string ;
-        ns3:latitude 5.236144e+01 ;
-        ns3:longitude 4.806384e+00 .
+        ns2:latitude 5.236144e+01 ;
+        ns2:longitude 4.806384e+00 .
 
-    ns1:toeDe_Mirandabad a ns1:Zwembaden,
+    ns3:toeDe_Mirandabad a ns3:Zwembaden,
             :instantie ;
         rdfs:label "De Mirandabad"^^xsd:string ;
-        ns3:latitude 5.233958e+01 ;
-        ns3:longitude 4.901109e+00 .
+        ns2:latitude 5.233958e+01 ;
+        ns2:longitude 4.901109e+00 .
 
-    ns1:toeDe_Morgenster a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeDe_Morgenster a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "De Morgenster"^^xsd:string ;
-        ns3:latitude 5.229959e+01 ;
-        ns3:longitude 4.96523e+00 .
+        ns2:latitude 5.229959e+01 ;
+        ns2:longitude 4.96523e+00 .
 
-    ns1:toeDe_Nieuwe_Stad a ns1:Kerkgebouwen,
+    ns3:toeDe_Nieuwe_Stad a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "De Nieuwe Stad"^^xsd:string ;
-        ns3:latitude 5.231909e+01 ;
-        ns3:longitude 4.968712e+00 .
+        ns2:latitude 5.231909e+01 ;
+        ns2:longitude 4.968712e+00 .
 
-    ns1:toeDe_Omval a ns1:Theaters_en_concertgebouwen,
+    ns3:toeDe_Omval a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "De Omval"^^xsd:string ;
-        ns3:latitude 5.234326e+01 ;
-        ns3:longitude 4.965637e+00 .
+        ns2:latitude 5.234326e+01 ;
+        ns2:longitude 4.965637e+00 .
 
-    ns1:toeDe_Pannenkoekenboot a ns1:Rondvaartboten,
+    ns3:toeDe_Pannenkoekenboot a ns3:Rondvaartboten,
             :instantie ;
         rdfs:label "De Pannenkoekenboot"^^xsd:string ;
-        ns3:latitude 5.24004e+01 ;
-        ns3:longitude 4.891963e+00 .
+        ns2:latitude 5.24004e+01 ;
+        ns2:longitude 4.891963e+00 .
 
-    ns1:toeDe_Regenboog a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeDe_Regenboog a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "De Regenboog"^^xsd:string ;
-        ns3:latitude 5.229433e+01 ;
-        ns3:longitude 4.987209e+00 .
+        ns2:latitude 5.229433e+01 ;
+        ns2:longitude 4.987209e+00 .
 
-    ns1:toeDe_Roode_Bioscoop a ns1:Theaters_en_concertgebouwen,
+    ns3:toeDe_Roode_Bioscoop a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "De Roode Bioscoop"^^xsd:string ;
-        ns3:latitude 5.238419e+01 ;
-        ns3:longitude 4.883596e+00 .
+        ns2:latitude 5.238419e+01 ;
+        ns2:longitude 4.883596e+00 .
 
-    ns1:toeDe_Veranda a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeDe_Veranda a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "De Veranda"^^xsd:string ;
-        ns3:latitude 5.233033e+01 ;
-        ns3:longitude 4.857463e+00 .
+        ns2:latitude 5.233033e+01 ;
+        ns2:longitude 4.857463e+00 .
 
-    ns1:toeDekker_en_Winkler_Ijburg a ns1:Winkels,
+    ns3:toeDekker_en_Winkler_Ijburg a ns3:Winkels,
             :instantie ;
         rdfs:label "Dekker en Winkler Ijburg"^^xsd:string ;
-        ns3:latitude 5.235818e+01 ;
-        ns3:longitude 4.990025e+00 .
+        ns2:latitude 5.235818e+01 ;
+        ns2:longitude 4.990025e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeDesmet_studio?s> a ns1:Theaters_en_concertgebouwen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeDesmet_studio?s> a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Desmet studio?s"^^xsd:string ;
-        ns3:latitude 5.236704e+01 ;
-        ns3:longitude 4.909852e+00 .
+        ns2:latitude 5.236704e+01 ;
+        ns2:longitude 4.909852e+00 .
 
-    ns1:toeDienstencentrum_De_Berlage a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeDienstencentrum_De_Berlage a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Dienstencentrum De Berlage"^^xsd:string ;
-        ns3:latitude 5.234532e+01 ;
-        ns3:longitude 4.908383e+00 .
+        ns2:latitude 5.234532e+01 ;
+        ns2:longitude 4.908383e+00 .
 
-    ns1:toeDienstencentrum_Oosterpark a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeDienstencentrum_Oosterpark a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Dienstencentrum Oosterpark"^^xsd:string ;
-        ns3:latitude 5.235947e+01 ;
-        ns3:longitude 4.915615e+00 .
+        ns2:latitude 5.235947e+01 ;
+        ns2:longitude 4.915615e+00 .
 
-    ns1:toeDierenkliniek_Westerpark a ns1:Klinieken,
+    ns3:toeDierenkliniek_Westerpark a ns3:Klinieken,
             :instantie ;
         rdfs:label "Dierenkliniek Westerpark"^^xsd:string ;
-        ns3:latitude 5.238691e+01 ;
-        ns3:longitude 4.881465e+00 .
+        ns2:latitude 5.238691e+01 ;
+        ns2:longitude 4.881465e+00 .
 
-    ns1:toeDio_drogisterij_IJburg a ns1:Winkels,
+    ns3:toeDio_drogisterij_IJburg a ns3:Winkels,
             :instantie ;
         rdfs:label "Dio drogisterij IJburg"^^xsd:string ;
-        ns3:latitude 5.235768e+01 ;
-        ns3:longitude 4.990895e+00 .
+        ns2:latitude 5.235768e+01 ;
+        ns2:longitude 4.990895e+00 .
 
-    ns1:toeDoras_-_wijklocatie_midden_Noord a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeDoras_-_wijklocatie_midden_Noord a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Doras - wijklocatie midden Noord"^^xsd:string ;
-        ns3:latitude 5.238796e+01 ;
-        ns3:longitude 4.913505e+00 .
+        ns2:latitude 5.238796e+01 ;
+        ns2:longitude 4.913505e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeDrostenburg_(Mytyl_tytylschool_Orion_colllege)> a ns1:Onderwijsinstellingen_en_scholen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeDrostenburg_(Mytyl_tytylschool_Orion_colllege)> a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Drostenburg (Mytyl tytylschool Orion colllege)"^^xsd:string ;
-        ns3:latitude 5.23216e+01 ;
-        ns3:longitude 4.946863e+00 .
+        ns2:latitude 5.23216e+01 ;
+        ns2:longitude 4.946863e+00 .
 
-    ns1:toeEYE_Film_Instituut_Nederland a ns1:Bioscopen_en_filmhuizen,
+    ns3:toeEYE_Film_Instituut_Nederland a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "EYE Film Instituut Nederland"^^xsd:string ;
-        ns3:latitude 5.2385e+01 ;
-        ns3:longitude 4.900405e+00 .
+        ns2:latitude 5.2385e+01 ;
+        ns2:longitude 4.900405e+00 .
 
-    ns1:toeEduard_Douwes_Dekkerhuis a ns1:Verpleeg-_en_verzorgingshuizen,
+    ns3:toeEduard_Douwes_Dekkerhuis a ns3:Verpleeg-_en_verzorgingshuizen,
             :instantie ;
         rdfs:label "Eduard Douwes Dekkerhuis"^^xsd:string ;
-        ns3:latitude 5.240499e+01 ;
-        ns3:longitude 4.907754e+00 .
+        ns2:latitude 5.240499e+01 ;
+        ns2:longitude 4.907754e+00 .
 
-    ns1:toeEetcafé_Het_Dijkhuis a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeEetcafé_Het_Dijkhuis a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Eetcafé Het Dijkhuis"^^xsd:string ;
-        ns3:latitude 5.242253e+01 ;
-        ns3:longitude 4.950138e+00 .
+        ns2:latitude 5.242253e+01 ;
+        ns2:longitude 4.950138e+00 .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/toeEethuis_Wendy's> a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Eethuis Wendy's"^^xsd:string ;
-        ns3:latitude 5.238934e+01 ;
-        ns3:longitude 4.879365e+00 .
+        ns2:latitude 5.238934e+01 ;
+        ns2:longitude 4.879365e+00 .
 
-    ns1:toeEtos_Haveneiland_West a ns1:Winkels,
+    ns3:toeEtos_Haveneiland_West a ns3:Winkels,
             :instantie ;
         rdfs:label "Etos Haveneiland West"^^xsd:string ;
-        ns3:latitude 5.235815e+01 ;
-        ns3:longitude 4.990084e+00 .
+        ns2:latitude 5.235815e+01 ;
+        ns2:longitude 4.990084e+00 .
 
-    ns1:toeEuroparking_Q-Park_Amsterdam a ns1:Parkeergarages,
+    ns3:toeEuroparking_Q-Park_Amsterdam a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Europarking Q-Park Amsterdam"^^xsd:string ;
-        ns3:latitude 5.237004e+01 ;
-        ns3:longitude 4.876797e+00 .
+        ns2:latitude 5.237004e+01 ;
+        ns2:longitude 4.876797e+00 .
 
-    ns1:toeEvean_Henriette_Roland_Holsthuis_oefenruimte a ns1:Sportaccommodaties,
+    ns3:toeEvean_Henriette_Roland_Holsthuis_oefenruimte a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Evean Henriette Roland Holsthuis oefenruimte"^^xsd:string ;
-        ns3:latitude 5.231538e+01 ;
-        ns3:longitude 4.97033e+00 .
+        ns2:latitude 5.231538e+01 ;
+        ns2:longitude 4.97033e+00 .
 
-    ns1:toeEvean_Korthagenhuis a ns1:Verpleeg-_en_verzorgingshuizen,
+    ns3:toeEvean_Korthagenhuis a ns3:Verpleeg-_en_verzorgingshuizen,
             :instantie ;
         rdfs:label "Evean Korthagenhuis"^^xsd:string ;
-        ns3:latitude 5.240448e+01 ;
-        ns3:longitude 4.940117e+00 .
+        ns2:latitude 5.240448e+01 ;
+        ns2:longitude 4.940117e+00 .
 
-    ns1:toeEvean_Twiskehuis a ns1:Verpleeg-_en_verzorgingshuizen,
+    ns3:toeEvean_Twiskehuis a ns3:Verpleeg-_en_verzorgingshuizen,
             :instantie ;
         rdfs:label "Evean Twiskehuis"^^xsd:string ;
-        ns3:latitude 5.241609e+01 ;
-        ns3:longitude 4.880382e+00 .
+        ns2:latitude 5.241609e+01 ;
+        ns2:longitude 4.880382e+00 .
 
-    ns1:toeFabulous_Hair a ns1:Uiterlijke_verzorging,
+    ns3:toeFabulous_Hair a ns3:Uiterlijke_verzorging,
             :instantie ;
         rdfs:label "Fabulous Hair"^^xsd:string ;
-        ns3:latitude 5.23888e+01 ;
-        ns3:longitude 4.879798e+00 .
+        ns2:latitude 5.23888e+01 ;
+        ns2:longitude 4.879798e+00 .
 
-    ns1:toeFietspiraat a ns1:Winkels,
+    ns3:toeFietspiraat a ns3:Winkels,
             :instantie ;
         rdfs:label "Fietspiraat"^^xsd:string ;
-        ns3:latitude 5.238979e+01 ;
-        ns3:longitude 4.878993e+00 .
+        ns2:latitude 5.238979e+01 ;
+        ns2:longitude 4.878993e+00 .
 
-    ns1:toeFilmhuis_Rialto a ns1:Bioscopen_en_filmhuizen,
+    ns3:toeFilmhuis_Rialto a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "Filmhuis Rialto"^^xsd:string ;
-        ns3:latitude 5.235314e+01 ;
-        ns3:longitude 4.893944e+00 .
+        ns2:latitude 5.235314e+01 ;
+        ns2:longitude 4.893944e+00 .
 
-    ns1:toeFilmtheater_De_Uitkijk a ns1:Bioscopen_en_filmhuizen,
+    ns3:toeFilmtheater_De_Uitkijk a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "Filmtheater De Uitkijk"^^xsd:string ;
-        ns3:latitude 5.23649e+01 ;
-        ns3:longitude 4.884285e+00 .
+        ns2:latitude 5.23649e+01 ;
+        ns2:longitude 4.884285e+00 .
 
-    ns1:toeFitnessclub_Life_and_Kicking a ns1:Sportaccommodaties,
+    ns3:toeFitnessclub_Life_and_Kicking a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Fitnessclub Life and Kicking"^^xsd:string ;
-        ns3:latitude 5.235266e+01 ;
-        ns3:longitude 5.003005e+00 .
+        ns2:latitude 5.235266e+01 ;
+        ns2:longitude 5.003005e+00 .
 
-    ns1:toeFlevoparkbad_Zeeburg a ns1:Zwembaden,
+    ns3:toeFlevoparkbad_Zeeburg a ns3:Zwembaden,
             :instantie ;
         rdfs:label "Flevoparkbad Zeeburg"^^xsd:string ;
-        ns3:latitude 5.236187e+01 ;
-        ns3:longitude 4.943057e+00 .
+        ns2:latitude 5.236187e+01 ;
+        ns2:longitude 4.943057e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeFloraparkbad_nu:_Noorderbad> a ns1:Zwembaden,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeFloraparkbad_nu:_Noorderbad> a ns3:Zwembaden,
             :instantie ;
         rdfs:label "Floraparkbad nu: Noorderbad"^^xsd:string ;
-        ns3:latitude 5.239861e+01 ;
-        ns3:longitude 4.917373e+00 .
+        ns2:latitude 5.239861e+01 ;
+        ns2:longitude 4.917373e+00 .
 
-    ns1:toeFrascati a ns1:Theaters_en_concertgebouwen,
+    ns3:toeFrascati a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Frascati"^^xsd:string ;
-        ns3:latitude 5.236998e+01 ;
-        ns3:longitude 4.893492e+00 .
+        ns2:latitude 5.236998e+01 ;
+        ns2:longitude 4.893492e+00 .
 
-    ns1:toeFresh_Fitness a ns1:Sportaccommodaties,
+    ns3:toeFresh_Fitness a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Fresh Fitness"^^xsd:string ;
-        ns3:latitude 5.235192e+01 ;
-        ns3:longitude 4.90112e+00 .
+        ns2:latitude 5.235192e+01 ;
+        ns2:longitude 4.90112e+00 .
 
-    ns1:toeFysio_Novo a ns1:Fysiotherapeuten,
+    ns3:toeFysio_Novo a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysio Novo"^^xsd:string ;
-        ns3:latitude 5.236392e+01 ;
-        ns3:longitude 4.943374e+00 .
+        ns2:latitude 5.236392e+01 ;
+        ns2:longitude 4.943374e+00 .
 
-    ns1:toeFysio_Veenhoven a ns1:Fysiotherapeuten,
+    ns3:toeFysio_Veenhoven a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysio Veenhoven"^^xsd:string ;
-        ns3:latitude 5.234676e+01 ;
-        ns3:longitude 4.874922e+00 .
+        ns2:latitude 5.234676e+01 ;
+        ns2:longitude 4.874922e+00 .
 
-    ns1:toeFysiopraktijk_De_Meer a ns1:Fysiotherapeuten,
+    ns3:toeFysiopraktijk_De_Meer a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiopraktijk De Meer"^^xsd:string ;
-        ns3:latitude 5.234478e+01 ;
-        ns3:longitude 4.950404e+00 .
+        ns2:latitude 5.234478e+01 ;
+        ns2:longitude 4.950404e+00 .
 
-    ns1:toeFysiotherapeuten_Jonker_en_Van_Rijn a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapeuten_Jonker_en_Van_Rijn a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapeuten Jonker en Van Rijn"^^xsd:string ;
-        ns3:latitude 5.235706e+01 ;
-        ns3:longitude 4.901211e+00 .
+        ns2:latitude 5.235706e+01 ;
+        ns2:longitude 4.901211e+00 .
 
-    ns1:toeFysiotherapie_B._Bruinenberg a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapie_B._Bruinenberg a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapie B. Bruinenberg"^^xsd:string ;
-        ns3:latitude 5.235568e+01 ;
-        ns3:longitude 4.905248e+00 .
+        ns2:latitude 5.235568e+01 ;
+        ns2:longitude 4.905248e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeFysiotherapie_Svoboda,_Wellinghoff_en_Evers> a ns1:Fysiotherapeuten,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeFysiotherapie_Svoboda,_Wellinghoff_en_Evers> a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapie Svoboda, Wellinghoff en Evers"^^xsd:string ;
-        ns3:latitude 5.234505e+01 ;
-        ns3:longitude 4.859004e+00 .
+        ns2:latitude 5.234505e+01 ;
+        ns2:longitude 4.859004e+00 .
 
-    ns1:toeFysiotherapie_Van_Wou a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapie_Van_Wou a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapie Van Wou"^^xsd:string ;
-        ns3:latitude 5.235282e+01 ;
-        ns3:longitude 4.900553e+00 .
+        ns2:latitude 5.235282e+01 ;
+        ns2:longitude 4.900553e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeFysiotherapie_de_koostraat;_Calland_Fit> a ns1:Fysiotherapeuten,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeFysiotherapie_de_koostraat;_Calland_Fit> a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapie de koostraat; Calland Fit"^^xsd:string ;
-        ns3:latitude 5.23535e+01 ;
-        ns3:longitude 4.810803e+00 .
+        ns2:latitude 5.23535e+01 ;
+        ns2:longitude 4.810803e+00 .
 
-    ns1:toeFysiotherapie_en_herniacentrum_locatie_van_Diemenstraat a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapie_en_herniacentrum_locatie_van_Diemenstraat a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapie en herniacentrum locatie van Diemenstraat"^^xsd:string ;
-        ns3:latitude 5.239028e+01 ;
-        ns3:longitude 4.886524e+00 .
+        ns2:latitude 5.239028e+01 ;
+        ns2:longitude 4.886524e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeFysiotherapie_en_manuele_therapie:_Boersen_en_Schrooten> a ns1:Fysiotherapeuten,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeFysiotherapie_en_manuele_therapie:_Boersen_en_Schrooten> a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapie en manuele therapie: Boersen en Schrooten"^^xsd:string ;
-        ns3:latitude 5.23503e+01 ;
-        ns3:longitude 4.897366e+00 .
+        ns2:latitude 5.23503e+01 ;
+        ns2:longitude 4.897366e+00 .
 
-    ns1:toeFysiotherapiepraktijk_Lomanstraat a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapiepraktijk_Lomanstraat a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapiepraktijk Lomanstraat"^^xsd:string ;
-        ns3:latitude 5.235185e+01 ;
-        ns3:longitude 4.862211e+00 .
+        ns2:latitude 5.235185e+01 ;
+        ns2:longitude 4.862211e+00 .
 
-    ns1:toeFysiotherapiepraktijk_Oude_Rai a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapiepraktijk_Oude_Rai a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapiepraktijk Oude Rai"^^xsd:string ;
-        ns3:latitude 5.234964e+01 ;
-        ns3:longitude 4.892266e+00 .
+        ns2:latitude 5.234964e+01 ;
+        ns2:longitude 4.892266e+00 .
 
-    ns1:toeFysiotherapiepraktijk_Wellinghoff a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapiepraktijk_Wellinghoff a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapiepraktijk Wellinghoff"^^xsd:string ;
-        ns3:latitude 5.235194e+01 ;
-        ns3:longitude 4.901193e+00 .
+        ns2:latitude 5.235194e+01 ;
+        ns2:longitude 4.901193e+00 .
 
-    ns1:toeFysiotherapiepraktijk_Zeeburg_locatie_Zeeburgerdijk a ns1:Fysiotherapeuten,
+    ns3:toeFysiotherapiepraktijk_Zeeburg_locatie_Zeeburgerdijk a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Fysiotherapiepraktijk Zeeburg locatie Zeeburgerdijk"^^xsd:string ;
-        ns3:latitude 5.236603e+01 ;
-        ns3:longitude 4.929684e+00 .
+        ns2:latitude 5.236603e+01 ;
+        ns2:longitude 4.929684e+00 .
 
-    ns1:toeGalerie_Outsider_Art a ns1:Galeries,
+    ns3:toeGalerie_Outsider_Art a ns3:Galeries,
             :instantie ;
         rdfs:label "Galerie Outsider Art"^^xsd:string ;
-        ns3:latitude 5.236481e+01 ;
-        ns3:longitude 4.902638e+00 .
+        ns2:latitude 5.236481e+01 ;
+        ns2:longitude 4.902638e+00 .
 
-    ns1:toeGall_en_Gall_Haveneiland_West a ns1:Winkels,
+    ns3:toeGall_en_Gall_Haveneiland_West a ns3:Winkels,
             :instantie ;
         rdfs:label "Gall en Gall Haveneiland West"^^xsd:string ;
-        ns3:latitude 5.235814e+01 ;
-        ns3:longitude 4.990098e+00 .
+        ns2:latitude 5.235814e+01 ;
+        ns2:longitude 4.990098e+00 .
 
-    ns1:toeGashouder a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeGashouder a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Gashouder"^^xsd:string ;
-        ns3:latitude 5.238712e+01 ;
-        ns3:longitude 4.869843e+00 .
+        ns2:latitude 5.238712e+01 ;
+        ns2:longitude 4.869843e+00 .
 
-    ns1:toeGassan_Diamonds a ns1:Toeristische_attracties,
+    ns3:toeGassan_Diamonds a ns3:Toeristische_attracties,
             :instantie ;
         rdfs:label "Gassan Diamonds"^^xsd:string ;
-        ns3:latitude 5.237005e+01 ;
-        ns3:longitude 4.904255e+00 .
+        ns2:latitude 5.237005e+01 ;
+        ns2:longitude 4.904255e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeGeuzenhoed:_Praktijk_voor_Fysiotherapie_A.H._Gerardhuis> a ns1:Fysiotherapeuten,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeGeuzenhoed:_Praktijk_voor_Fysiotherapie_A.H._Gerardhuis> a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Geuzenhoed: Praktijk voor Fysiotherapie A.H. Gerardhuis"^^xsd:string ;
-        ns3:latitude 5.237847e+01 ;
-        ns3:longitude 4.800874e+00 .
+        ns2:latitude 5.237847e+01 ;
+        ns2:longitude 4.800874e+00 .
 
-    ns1:toeGezondheidscentrum_Banne_Buiksloot a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Banne_Buiksloot a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Banne Buiksloot"^^xsd:string ;
-        ns3:latitude 5.241125e+01 ;
-        ns3:longitude 4.922853e+00 .
+        ns2:latitude 5.241125e+01 ;
+        ns2:longitude 4.922853e+00 .
 
-    ns1:toeGezondheidscentrum_Gein a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Gein a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Gein"^^xsd:string ;
-        ns3:latitude 5.229751e+01 ;
-        ns3:longitude 4.988163e+00 .
+        ns2:latitude 5.229751e+01 ;
+        ns2:longitude 4.988163e+00 .
 
-    ns1:toeGezondheidscentrum_Klein_Gooioord a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Klein_Gooioord a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Klein Gooioord"^^xsd:string ;
-        ns3:latitude 5.232117e+01 ;
-        ns3:longitude 4.970261e+00 .
+        ns2:latitude 5.232117e+01 ;
+        ns2:longitude 4.970261e+00 .
 
-    ns1:toeGezondheidscentrum_Nellestein a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Nellestein a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Nellestein"^^xsd:string ;
-        ns3:latitude 5.230906e+01 ;
-        ns3:longitude 4.983895e+00 .
+        ns2:latitude 5.230906e+01 ;
+        ns2:longitude 4.983895e+00 .
 
-    ns1:toeGezondheidscentrum_Steigereiland a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Steigereiland a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Steigereiland"^^xsd:string ;
-        ns3:latitude 5.236219e+01 ;
-        ns3:longitude 4.9814e+00 .
+        ns2:latitude 5.236219e+01 ;
+        ns2:longitude 4.9814e+00 .
 
-    ns1:toeGezondheidscentrum_Venserpolder a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Venserpolder a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Venserpolder"^^xsd:string ;
-        ns3:latitude 5.23193e+01 ;
-        ns3:longitude 4.94272e+00 .
+        ns2:latitude 5.23193e+01 ;
+        ns2:longitude 4.94272e+00 .
 
-    ns1:toeGezondheidscentrum_Zeeburg a ns1:Gezondheidscentra,
+    ns3:toeGezondheidscentrum_Zeeburg a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Gezondheidscentrum Zeeburg"^^xsd:string ;
-        ns3:latitude 5.237039e+01 ;
-        ns3:longitude 4.938596e+00 .
+        ns2:latitude 5.237039e+01 ;
+        ns2:longitude 4.938596e+00 .
 
-    ns1:toeGrand_Café_Restaurant_1e_klas a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeGrand_Café_Restaurant_1e_klas a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Grand Café Restaurant 1e klas"^^xsd:string ;
-        ns3:latitude 5.23786e+01 ;
-        ns3:longitude 4.899462e+00 .
+        ns2:latitude 5.23786e+01 ;
+        ns2:longitude 4.899462e+00 .
 
-    ns1:toeGroepspraktijk_Hofmijster a ns1:Fysiotherapeuten,
+    ns3:toeGroepspraktijk_Hofmijster a ns3:Fysiotherapeuten,
             :instantie ;
         rdfs:label "Groepspraktijk Hofmijster"^^xsd:string ;
-        ns3:latitude 5.235784e+01 ;
-        ns3:longitude 4.853244e+00 .
+        ns2:latitude 5.235784e+01 ;
+        ns2:longitude 4.853244e+00 .
 
-    ns1:toeGroot_Melkhuis a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeGroot_Melkhuis a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Groot Melkhuis"^^xsd:string ;
-        ns3:latitude 5.235943e+01 ;
-        ns3:longitude 4.871061e+00 .
+        ns2:latitude 5.235943e+01 ;
+        ns2:longitude 4.871061e+00 .
 
-    ns1:toeHans_Anders_Middenweg a ns1:Winkels,
+    ns3:toeHans_Anders_Middenweg a ns3:Winkels,
             :instantie ;
         rdfs:label "Hans Anders Middenweg"^^xsd:string ;
-        ns3:latitude 5.235462e+01 ;
-        ns3:longitude 4.929126e+00 .
+        ns2:latitude 5.235462e+01 ;
+        ns2:longitude 4.929126e+00 .
 
-    ns1:toeHermitage_Amsterdam a ns1:Musea,
+    ns3:toeHermitage_Amsterdam a ns3:Musea,
             :instantie ;
         rdfs:label "Hermitage Amsterdam"^^xsd:string ;
-        ns3:latitude 5.236481e+01 ;
-        ns3:longitude 4.902579e+00 .
+        ns2:latitude 5.236481e+01 ;
+        ns2:longitude 4.902579e+00 .
 
-    ns1:toeHet_Grachtenhuis a ns1:Musea,
+    ns3:toeHet_Grachtenhuis a ns3:Musea,
             :instantie ;
         rdfs:label "Het Grachtenhuis"^^xsd:string ;
-        ns3:latitude 5.236786e+01 ;
-        ns3:longitude 4.886395e+00 .
+        ns2:latitude 5.236786e+01 ;
+        ns2:longitude 4.886395e+00 .
 
-    ns1:toeHet_Ketelhuis a ns1:Bioscopen_en_filmhuizen,
+    ns3:toeHet_Ketelhuis a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "Het Ketelhuis"^^xsd:string ;
-        ns3:latitude 5.238617e+01 ;
-        ns3:longitude 4.872953e+00 .
+        ns2:latitude 5.238617e+01 ;
+        ns2:longitude 4.872953e+00 .
 
-    ns1:toeHet_Klaverblad a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeHet_Klaverblad a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Het Klaverblad"^^xsd:string ;
-        ns3:latitude 5.232303e+01 ;
-        ns3:longitude 4.941099e+00 .
+        ns2:latitude 5.232303e+01 ;
+        ns2:longitude 4.941099e+00 .
 
-    ns1:toeHet_Muziektheater a ns1:Theaters_en_concertgebouwen,
+    ns3:toeHet_Muziektheater a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Het Muziektheater"^^xsd:string ;
-        ns3:latitude 5.236701e+01 ;
-        ns3:longitude 4.900735e+00 .
+        ns2:latitude 5.236701e+01 ;
+        ns2:longitude 4.900735e+00 .
 
-    ns1:toeHet_schouw__Huis_van_de_buurt a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeHet_schouw__Huis_van_de_buurt a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Het schouw  Huis van de buurt"^^xsd:string ;
-        ns3:latitude 5.239825e+01 ;
-        ns3:longitude 4.942766e+00 .
+        ns2:latitude 5.239825e+01 ;
+        ns2:longitude 4.942766e+00 .
 
-    ns1:toeHiziHair_-_IJburg a ns1:Uiterlijke_verzorging,
+    ns3:toeHiziHair_-_IJburg a ns3:Uiterlijke_verzorging,
             :instantie ;
         rdfs:label "HiziHair - IJburg"^^xsd:string ;
-        ns3:latitude 5.235912e+01 ;
-        ns3:longitude 4.990736e+00 .
+        ns2:latitude 5.235912e+01 ;
+        ns2:longitude 4.990736e+00 .
 
-    ns1:toeHoeckhuys a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeHoeckhuys a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Hoeckhuys"^^xsd:string ;
-        ns3:latitude 5.234467e+01 ;
-        ns3:longitude 4.927263e+00 .
+        ns2:latitude 5.234467e+01 ;
+        ns2:longitude 4.927263e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeHogeschool_van_Amsterdam__-_Benno_Premselahuis_(BPH)_> a ns1:Onderwijsinstellingen_en_scholen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeHogeschool_van_Amsterdam__-_Benno_Premselahuis_(BPH)_> a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Hogeschool van Amsterdam  - Benno Premselahuis (BPH) "^^xsd:string ;
-        ns3:latitude 5.235962e+01 ;
-        ns3:longitude 4.909095e+00 .
+        ns2:latitude 5.235962e+01 ;
+        ns2:longitude 4.909095e+00 .
 
-    ns1:toeHolendrechtschool a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeHolendrechtschool a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Holendrechtschool"^^xsd:string ;
-        ns3:latitude 5.229959e+01 ;
-        ns3:longitude 4.965582e+00 .
+        ns2:latitude 5.229959e+01 ;
+        ns2:longitude 4.965582e+00 .
 
-    ns1:toeHolland_Casino_Amsterdam a ns1:Toeristische_attracties,
+    ns3:toeHolland_Casino_Amsterdam a ns3:Toeristische_attracties,
             :instantie ;
         rdfs:label "Holland Casino Amsterdam"^^xsd:string ;
-        ns3:latitude 5.236264e+01 ;
-        ns3:longitude 4.883165e+00 .
+        ns2:latitude 5.236264e+01 ;
+        ns2:longitude 4.883165e+00 .
 
-    ns1:toeHortus_Botanicus_Amsterdam a ns1:Musea,
+    ns3:toeHortus_Botanicus_Amsterdam a ns3:Musea,
             :instantie ;
         rdfs:label "Hortus Botanicus Amsterdam"^^xsd:string ;
-        ns3:latitude 5.236704e+01 ;
-        ns3:longitude 4.909852e+00 .
+        ns2:latitude 5.236704e+01 ;
+        ns2:longitude 4.909852e+00 .
 
-    ns1:toeHotel_Double_Tree_by_Hilton a ns1:Hotels,
+    ns3:toeHotel_Double_Tree_by_Hilton a ns3:Hotels,
             :instantie ;
         rdfs:label "Hotel Double Tree by Hilton"^^xsd:string ;
-        ns3:latitude 5.237649e+01 ;
-        ns3:longitude 4.907577e+00 .
+        ns2:latitude 5.237649e+01 ;
+        ns2:longitude 4.907577e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeHuis_van_Sant?Egidio%20%28Mozes%20en%20Aaronkerk%29> a ns1:Kerkgebouwen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeHuis_van_Sant?Egidio%20%28Mozes%20en%20Aaronkerk%29> a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Huis van Sant?Egidio (Mozes en Aaronkerk)"^^xsd:string ;
-        ns3:latitude 5.236749e+01 ;
-        ns3:longitude 4.902154e+00 .
+        ns2:latitude 5.236749e+01 ;
+        ns2:longitude 4.902154e+00 .
 
-    ns1:toeHuis_van_de_Wijk_de_Pijp a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeHuis_van_de_Wijk_de_Pijp a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Huis van de Wijk de Pijp"^^xsd:string ;
-        ns3:latitude 5.235022e+01 ;
-        ns3:longitude 4.894505e+00 .
+        ns2:latitude 5.235022e+01 ;
+        ns2:longitude 4.894505e+00 .
 
-    ns1:toeHuis_van_de_wijk_De_Evenaar a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeHuis_van_de_wijk_De_Evenaar a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Huis van de wijk De Evenaar"^^xsd:string ;
-        ns3:latitude 5.241452e+01 ;
-        ns3:longitude 4.885294e+00 .
+        ns2:latitude 5.241452e+01 ;
+        ns2:longitude 4.885294e+00 .
 
-    ns1:toeHuis_van_de_wijk_De_Meeuw a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeHuis_van_de_wijk_De_Meeuw a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Huis van de wijk De Meeuw"^^xsd:string ;
-        ns3:latitude 5.238433e+01 ;
-        ns3:longitude 4.918068e+00 .
+        ns2:latitude 5.238433e+01 ;
+        ns2:longitude 4.918068e+00 .
 
-    ns1:toeHuis_van_de_wijk_Het_Anker a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeHuis_van_de_wijk_Het_Anker a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Huis van de wijk Het Anker"^^xsd:string ;
-        ns3:latitude 5.235404e+01 ;
-        ns3:longitude 4.83252e+00 .
+        ns2:latitude 5.235404e+01 ;
+        ns2:longitude 4.83252e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeHuisartsen,-_en_psychologenpraktijk_De_Oostkaap> a ns1:Huisartsen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeHuisartsen,-_en_psychologenpraktijk_De_Oostkaap> a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsen,- en psychologenpraktijk De Oostkaap"^^xsd:string ;
-        ns3:latitude 5.237351e+01 ;
-        ns3:longitude 4.938447e+00 .
+        ns2:latitude 5.237351e+01 ;
+        ns2:longitude 4.938447e+00 .
 
-    ns1:toeHuisartsenpost_Boven_t_Ij a ns1:Huisartsenposten,
+    ns3:toeHuisartsenpost_Boven_t_Ij a ns3:Huisartsenposten,
             :instantie ;
         rdfs:label "Huisartsenpost Boven t Ij"^^xsd:string ;
-        ns3:latitude 5.240574e+01 ;
-        ns3:longitude 4.921339e+00 .
+        ns2:latitude 5.240574e+01 ;
+        ns2:longitude 4.921339e+00 .
 
-    ns1:toeHuisartsenpraktijk_De_Bankwerkerij a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_De_Bankwerkerij a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk De Bankwerkerij"^^xsd:string ;
-        ns3:latitude 5.238283e+01 ;
-        ns3:longitude 4.917379e+00 .
+        ns2:latitude 5.238283e+01 ;
+        ns2:longitude 4.917379e+00 .
 
-    ns1:toeHuisartsenpraktijk_Gortzak a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_Gortzak a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk Gortzak"^^xsd:string ;
-        ns3:latitude 5.235124e+01 ;
-        ns3:longitude 4.924347e+00 .
+        ns2:latitude 5.235124e+01 ;
+        ns2:longitude 4.924347e+00 .
 
-    ns1:toeHuisartsenpraktijk_Kraaienest a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_Kraaienest a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk Kraaienest"^^xsd:string ;
-        ns3:latitude 5.231682e+01 ;
-        ns3:longitude 4.982255e+00 .
+        ns2:latitude 5.231682e+01 ;
+        ns2:longitude 4.982255e+00 .
 
-    ns1:toeHuisartsenpraktijk_Kuipersstraat_151 a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_Kuipersstraat_151 a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk Kuipersstraat 151"^^xsd:string ;
-        ns3:latitude 5.2353e+01 ;
-        ns3:longitude 4.899963e+00 .
+        ns2:latitude 5.2353e+01 ;
+        ns2:longitude 4.899963e+00 .
 
-    ns1:toeHuisartsenpraktijk_Rustenburgerstraat a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_Rustenburgerstraat a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk Rustenburgerstraat"^^xsd:string ;
-        ns3:latitude 5.235282e+01 ;
-        ns3:longitude 4.900553e+00 .
+        ns2:latitude 5.235282e+01 ;
+        ns2:longitude 4.900553e+00 .
 
-    ns1:toeHuisartsenpraktijk_Westlandgracht a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_Westlandgracht a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk Westlandgracht"^^xsd:string ;
-        ns3:latitude 5.235271e+01 ;
-        ns3:longitude 4.846114e+00 .
+        ns2:latitude 5.235271e+01 ;
+        ns2:longitude 4.846114e+00 .
 
-    ns1:toeHuisartsenpraktijk_Zeeburg a ns1:Huisartsen,
+    ns3:toeHuisartsenpraktijk_Zeeburg a ns3:Huisartsen,
             :instantie ;
         rdfs:label "Huisartsenpraktijk Zeeburg"^^xsd:string ;
-        ns3:latitude 5.236119e+01 ;
-        ns3:longitude 4.938997e+00 .
+        ns2:latitude 5.236119e+01 ;
+        ns2:longitude 4.938997e+00 .
 
-    ns1:toeIJkantine a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeIJkantine a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "IJkantine"^^xsd:string ;
-        ns3:latitude 5.240187e+01 ;
-        ns3:longitude 4.891212e+00 .
+        ns2:latitude 5.240187e+01 ;
+        ns2:longitude 4.891212e+00 .
 
-    ns1:toeIJzerhandel_Spaarndam a ns1:Winkels,
+    ns3:toeIJzerhandel_Spaarndam a ns3:Winkels,
             :instantie ;
         rdfs:label "IJzerhandel Spaarndam"^^xsd:string ;
-        ns3:latitude 5.239099e+01 ;
-        ns3:longitude 4.878157e+00 .
+        ns2:latitude 5.239099e+01 ;
+        ns2:longitude 4.878157e+00 .
 
-    ns1:toeINIT_Building a ns1:Kantoorgebouwen,
+    ns3:toeINIT_Building a ns3:Kantoorgebouwen,
             :instantie ;
         rdfs:label "INIT Building"^^xsd:string ;
-        ns3:latitude 5.237125e+01 ;
-        ns3:longitude 4.927589e+00 .
+        ns2:latitude 5.237125e+01 ;
+        ns2:longitude 4.927589e+00 .
 
-    ns1:toeIkea_Amsterdam_Zuidoost a ns1:Warenhuizen,
+    ns3:toeIkea_Amsterdam_Zuidoost a ns3:Warenhuizen,
             :instantie ;
         rdfs:label "Ikea Amsterdam Zuidoost"^^xsd:string ;
-        ns3:latitude 5.230317e+01 ;
-        ns3:longitude 4.948702e+00 .
+        ns2:latitude 5.230317e+01 ;
+        ns2:longitude 4.948702e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeIlona's_kapsalon> a ns1:Uiterlijke_verzorging,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeIlona's_kapsalon> a ns3:Uiterlijke_verzorging,
             :instantie ;
         rdfs:label "Ilona's kapsalon"^^xsd:string ;
-        ns3:latitude 5.239049e+01 ;
-        ns3:longitude 4.878412e+00 .
+        ns2:latitude 5.239049e+01 ;
+        ns2:longitude 4.878412e+00 .
 
-    ns1:toeIn_de_Waag a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeIn_de_Waag a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "In de Waag"^^xsd:string ;
-        ns3:latitude 5.237293e+01 ;
-        ns3:longitude 4.900244e+00 .
+        ns2:latitude 5.237293e+01 ;
+        ns2:longitude 4.900244e+00 .
 
-    ns1:toeInloophuis_Czaar_51 a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeInloophuis_Czaar_51 a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Inloophuis Czaar 51"^^xsd:string ;
-        ns3:latitude 5.236919e+01 ;
-        ns3:longitude 4.928022e+00 .
+        ns2:latitude 5.236919e+01 ;
+        ns2:longitude 4.928022e+00 .
 
-    ns1:toeInternationaal_Instituut_voor_Sociale_Geschiedenis a ns1:Musea,
+    ns3:toeInternationaal_Instituut_voor_Sociale_Geschiedenis a ns3:Musea,
             :instantie ;
         rdfs:label "Internationaal Instituut voor Sociale Geschiedenis"^^xsd:string ;
-        ns3:latitude 5.23685e+01 ;
-        ns3:longitude 4.937206e+00 .
+        ns2:latitude 5.23685e+01 ;
+        ns2:longitude 4.937206e+00 .
 
-    ns1:toeJaap_Edenbaan a ns1:Sportaccommodaties,
+    ns3:toeJaap_Edenbaan a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Jaap Edenbaan"^^xsd:string ;
-        ns3:latitude 5.235137e+01 ;
-        ns3:longitude 4.942414e+00 .
+        ns2:latitude 5.235137e+01 ;
+        ns2:longitude 4.942414e+00 .
 
-    ns1:toeJan_Woudsmaschool a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeJan_Woudsmaschool a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Jan Woudsmaschool"^^xsd:string ;
-        ns3:latitude 5.23053e+01 ;
-        ns3:longitude 5.018414e+00 .
+        ns2:latitude 5.23053e+01 ;
+        ns2:longitude 5.018414e+00 .
 
-    ns1:toeJanan_Fashion a ns1:Winkels,
+    ns3:toeJanan_Fashion a ns3:Winkels,
             :instantie ;
         rdfs:label "Janan Fashion"^^xsd:string ;
-        ns3:latitude 5.23905e+01 ;
-        ns3:longitude 4.877604e+00 .
+        ns2:latitude 5.23905e+01 ;
+        ns2:longitude 4.877604e+00 .
 
-    ns1:toeJane_Flowers a ns1:Winkels,
+    ns3:toeJane_Flowers a ns3:Winkels,
             :instantie ;
         rdfs:label "Jane Flowers"^^xsd:string ;
-        ns3:latitude 5.23581e+01 ;
-        ns3:longitude 4.990158e+00 .
+        ns2:latitude 5.23581e+01 ;
+        ns2:longitude 4.990158e+00 .
 
-    ns1:toeJelle_Snacks_en_ijs a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeJelle_Snacks_en_ijs a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Jelle Snacks en ijs"^^xsd:string ;
-        ns3:latitude 5.239017e+01 ;
-        ns3:longitude 4.87868e+00 .
+        ns2:latitude 5.239017e+01 ;
+        ns2:longitude 4.87868e+00 .
 
-    ns1:toeJeugdtheater_De_Krakeling a ns1:Theaters_en_concertgebouwen,
+    ns3:toeJeugdtheater_De_Krakeling a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Jeugdtheater De Krakeling"^^xsd:string ;
-        ns3:latitude 5.236642e+01 ;
-        ns3:longitude 4.878967e+00 .
+        ns2:latitude 5.236642e+01 ;
+        ns2:longitude 4.878967e+00 .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/toeJohnny?s%20Pizza%20Express> a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Johnny?s Pizza Express"^^xsd:string ;
-        ns3:latitude 5.23901e+01 ;
-        ns3:longitude 4.87874e+00 .
+        ns2:latitude 5.23901e+01 ;
+        ns2:longitude 4.87874e+00 .
 
-    ns1:toeJongerencentrum_Subway a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeJongerencentrum_Subway a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Jongerencentrum Subway"^^xsd:string ;
-        ns3:latitude 5.229639e+01 ;
-        ns3:longitude 4.974716e+00 .
+        ns2:latitude 5.229639e+01 ;
+        ns2:longitude 4.974716e+00 .
 
-    ns1:toeJoods_Historisch_Museum a ns1:Musea,
+    ns3:toeJoods_Historisch_Museum a ns3:Musea,
             :instantie ;
         rdfs:label "Joods Historisch Museum"^^xsd:string ;
-        ns3:latitude 5.236687e+01 ;
-        ns3:longitude 4.902836e+00 .
+        ns2:latitude 5.236687e+01 ;
+        ns2:longitude 4.902836e+00 .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/toeJulius_bar&_grill> a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Julius bar& grill"^^xsd:string ;
-        ns3:latitude 5.235256e+01 ;
-        ns3:longitude 4.889855e+00 .
+        ns2:latitude 5.235256e+01 ;
+        ns2:longitude 4.889855e+00 .
 
-    ns1:toeKNHS_HandboogSchutterij_Concordia a ns1:Sportaccommodaties,
+    ns3:toeKNHS_HandboogSchutterij_Concordia a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "KNHS HandboogSchutterij Concordia"^^xsd:string ;
-        ns3:latitude 5.237088e+01 ;
-        ns3:longitude 4.797156e+00 .
+        ns2:latitude 5.237088e+01 ;
+        ns2:longitude 4.797156e+00 .
 
-    ns1:toeKadoriënt a ns1:Winkels,
+    ns3:toeKadoriënt a ns3:Winkels,
             :instantie ;
         rdfs:label "Kadoriënt"^^xsd:string ;
-        ns3:latitude 5.239017e+01 ;
-        ns3:longitude 4.87868e+00 .
+        ns2:latitude 5.239017e+01 ;
+        ns2:longitude 4.87868e+00 .
 
-    ns1:toeKamer_van_Koophandel a ns1:Openbare_gebouwen,
+    ns3:toeKamer_van_Koophandel a ns3:Openbare_gebouwen,
             :instantie ;
         rdfs:label "Kamer van Koophandel"^^xsd:string ;
-        ns3:latitude 5.23823e+01 ;
-        ns3:longitude 4.895147e+00 .
+        ns2:latitude 5.23823e+01 ;
+        ns2:longitude 4.895147e+00 .
 
-    ns1:toeKapsalon_Tina a ns1:Uiterlijke_verzorging,
+    ns3:toeKapsalon_Tina a ns3:Uiterlijke_verzorging,
             :instantie ;
         rdfs:label "Kapsalon Tina"^^xsd:string ;
-        ns3:latitude 5.239017e+01 ;
-        ns3:longitude 4.87868e+00 .
+        ns2:latitude 5.239017e+01 ;
+        ns2:longitude 4.87868e+00 .
 
-    ns1:toeKeurslagerij_John_de_Roode a ns1:Winkels,
+    ns3:toeKeurslagerij_John_de_Roode a ns3:Winkels,
             :instantie ;
         rdfs:label "Keurslagerij John de Roode"^^xsd:string ;
-        ns3:latitude 5.239099e+01 ;
-        ns3:longitude 4.878157e+00 .
+        ns2:latitude 5.239099e+01 ;
+        ns2:longitude 4.878157e+00 .
 
-    ns1:toeKip_in_het_IJ a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeKip_in_het_IJ a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Kip in het IJ"^^xsd:string ;
-        ns3:latitude 5.236684e+01 ;
-        ns3:longitude 4.912115e+00 .
+        ns2:latitude 5.236684e+01 ;
+        ns2:longitude 4.912115e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeKnijn_Bowling_&_restaurant> a ns1:Congres-_en_partyaccommodaties,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeKnijn_Bowling_&_restaurant> a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Knijn Bowling & restaurant"^^xsd:string ;
-        ns3:latitude 5.234429e+01 ;
-        ns3:longitude 4.891254e+00 .
+        ns2:latitude 5.234429e+01 ;
+        ns2:longitude 4.891254e+00 .
 
-    ns1:toeKoffiehuis_KHL a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeKoffiehuis_KHL a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Koffiehuis KHL"^^xsd:string ;
-        ns3:latitude 5.237414e+01 ;
-        ns3:longitude 4.935944e+00 .
+        ns2:latitude 5.237414e+01 ;
+        ns2:longitude 4.935944e+00 .
 
-    ns1:toeKoningskerk_ a ns1:Kerkgebouwen,
+    ns3:toeKoningskerk_ a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Koningskerk "^^xsd:string ;
-        ns3:latitude 5.234833e+01 ;
-        ns3:longitude 4.93653e+00 .
+        ns2:latitude 5.234833e+01 ;
+        ns2:longitude 4.93653e+00 .
 
-    ns1:toeKoninklijk_Theater_Carré a ns1:Theaters_en_concertgebouwen,
+    ns3:toeKoninklijk_Theater_Carré a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Koninklijk Theater Carré"^^xsd:string ;
-        ns3:latitude 5.236256e+01 ;
-        ns3:longitude 4.903764e+00 .
+        ns2:latitude 5.236256e+01 ;
+        ns2:longitude 4.903764e+00 .
 
-    ns1:toeKriterion_ a ns1:Theaters_en_concertgebouwen,
+    ns3:toeKriterion_ a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Kriterion "^^xsd:string ;
-        ns3:latitude 5.236257e+01 ;
-        ns3:longitude 4.910913e+00 .
+        ns2:latitude 5.236257e+01 ;
+        ns2:longitude 4.910913e+00 .
 
-    ns1:toeKruidvat_Christiaan_Huygensplein a ns1:Winkels,
+    ns3:toeKruidvat_Christiaan_Huygensplein a ns3:Winkels,
             :instantie ;
         rdfs:label "Kruidvat Christiaan Huygensplein"^^xsd:string ;
-        ns3:latitude 5.234979e+01 ;
-        ns3:longitude 4.939479e+00 .
+        ns2:latitude 5.234979e+01 ;
+        ns2:longitude 4.939479e+00 .
 
-    ns1:toeLe_Sud a ns1:Winkels,
+    ns3:toeLe_Sud a ns3:Winkels,
             :instantie ;
         rdfs:label "Le Sud"^^xsd:string ;
-        ns3:latitude 5.23915e+01 ;
-        ns3:longitude 4.878004e+00 .
+        ns2:latitude 5.23915e+01 ;
+        ns2:longitude 4.878004e+00 .
 
-    ns1:toeLiberaal_Joodse_Gemeente a ns1:Kerkgebouwen,
+    ns3:toeLiberaal_Joodse_Gemeente a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Liberaal Joodse Gemeente"^^xsd:string ;
-        ns3:latitude 5.233817e+01 ;
-        ns3:longitude 4.897984e+00 .
+        ns2:latitude 5.233817e+01 ;
+        ns2:longitude 4.897984e+00 .
 
-    ns1:toeLloyd_hotel_en_restaurant a ns1:Hotels,
+    ns3:toeLloyd_hotel_en_restaurant a ns3:Hotels,
             :instantie ;
         rdfs:label "Lloyd hotel en restaurant"^^xsd:string ;
-        ns3:latitude 5.237414e+01 ;
-        ns3:longitude 4.935944e+00 .
+        ns2:latitude 5.237414e+01 ;
+        ns2:longitude 4.935944e+00 .
 
-    ns1:toeLogopedie_praktijk_Zeeburg a ns1:Gezondheidscentra,
+    ns3:toeLogopedie_praktijk_Zeeburg a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Logopedie praktijk Zeeburg"^^xsd:string ;
-        ns3:latitude 5.237483e+01 ;
-        ns3:longitude 4.932149e+00 .
+        ns2:latitude 5.237483e+01 ;
+        ns2:longitude 4.932149e+00 .
 
-    ns1:toeLoods_6 a ns1:Galeries,
+    ns3:toeLoods_6 a ns3:Galeries,
             :instantie ;
         rdfs:label "Loods 6"^^xsd:string ;
-        ns3:latitude 5.237705e+01 ;
-        ns3:longitude 4.939527e+00 .
+        ns2:latitude 5.237705e+01 ;
+        ns2:longitude 4.939527e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeMOC_'t_Kabouterhuis_Zuidoost> a ns1:Gezondheidscentra,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeMOC_'t_Kabouterhuis_Zuidoost> a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "MOC 't Kabouterhuis Zuidoost"^^xsd:string ;
-        ns3:latitude 5.230912e+01 ;
-        ns3:longitude 4.979642e+00 .
+        ns2:latitude 5.230912e+01 ;
+        ns2:longitude 4.979642e+00 .
 
-    ns1:toeMachinegebouw_-_Westergasterrein a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeMachinegebouw_-_Westergasterrein a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Machinegebouw - Westergasterrein"^^xsd:string ;
-        ns3:latitude 5.238617e+01 ;
-        ns3:longitude 4.872953e+00 .
+        ns2:latitude 5.238617e+01 ;
+        ns2:longitude 4.872953e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeMadame_Tussaud's'_Wassenbeelden> a ns1:Toeristische_attracties,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeMadame_Tussaud's'_Wassenbeelden> a ns3:Toeristische_attracties,
             :instantie ;
         rdfs:label "Madame Tussaud's' Wassenbeelden"^^xsd:string ;
-        ns3:latitude 5.237338e+01 ;
-        ns3:longitude 4.89272e+00 .
+        ns2:latitude 5.237338e+01 ;
+        ns2:longitude 4.89272e+00 .
 
-    ns1:toeMagna_Plaza_Shopping_Centre a ns1:Warenhuizen,
+    ns3:toeMagna_Plaza_Shopping_Centre a ns3:Warenhuizen,
             :instantie ;
         rdfs:label "Magna Plaza Shopping Centre"^^xsd:string ;
-        ns3:latitude 5.237445e+01 ;
-        ns3:longitude 4.891328e+00 .
+        ns2:latitude 5.237445e+01 ;
+        ns2:longitude 4.891328e+00 .
 
-    ns1:toeMammae_Mia a ns1:Gezondheidscentra,
+    ns3:toeMammae_Mia a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Mammae Mia"^^xsd:string ;
-        ns3:latitude 5.235713e+01 ;
-        ns3:longitude 4.919398e+00 .
+        ns2:latitude 5.235713e+01 ;
+        ns2:longitude 4.919398e+00 .
 
-    ns1:toeManege_Nieuw_Amstelland a ns1:Sportaccommodaties,
+    ns3:toeManege_Nieuw_Amstelland a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Manege Nieuw Amstelland"^^xsd:string ;
-        ns3:latitude 5.232146e+01 ;
-        ns3:longitude 4.85531e+00 .
+        ns2:latitude 5.232146e+01 ;
+        ns2:longitude 4.85531e+00 .
 
-    ns1:toeMee_Amstel_Zaan a ns1:Informatiecentra,
+    ns3:toeMee_Amstel_Zaan a ns3:Informatiecentra,
             :instantie ;
         rdfs:label "Mee Amstel Zaan"^^xsd:string ;
-        ns3:latitude 5.235893e+01 ;
-        ns3:longitude 4.840724e+00 .
+        ns2:latitude 5.235893e+01 ;
+        ns2:longitude 4.840724e+00 .
 
-    ns1:toeMiele_Witgoedcenter a ns1:Winkels,
+    ns3:toeMiele_Witgoedcenter a ns3:Winkels,
             :instantie ;
         rdfs:label "Miele Witgoedcenter"^^xsd:string ;
-        ns3:latitude 5.235439e+01 ;
-        ns3:longitude 4.931786e+00 .
+        ns2:latitude 5.235439e+01 ;
+        ns2:longitude 4.931786e+00 .
 
-    ns1:toeMiranda_Paviljoen a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeMiranda_Paviljoen a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Miranda Paviljoen"^^xsd:string ;
-        ns3:latitude 5.233824e+01 ;
-        ns3:longitude 4.90664e+00 .
+        ns2:latitude 5.233824e+01 ;
+        ns2:longitude 4.90664e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeMolen_van_Sloten;_kuiperijmuseum> a ns1:Toeristische_attracties,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeMolen_van_Sloten;_kuiperijmuseum> a ns3:Toeristische_attracties,
             :instantie ;
         rdfs:label "Molen van Sloten; kuiperijmuseum"^^xsd:string ;
-        ns3:latitude 5.234136e+01 ;
-        ns3:longitude 4.792207e+00 .
+        ns2:latitude 5.234136e+01 ;
+        ns2:longitude 4.792207e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeMondhygiene_praktijk_van_den_Berg_&_Verburg> a ns1:Tandartsen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeMondhygiene_praktijk_van_den_Berg_&_Verburg> a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Mondhygiene praktijk van den Berg & Verburg"^^xsd:string ;
-        ns3:latitude 5.234786e+01 ;
-        ns3:longitude 4.930429e+00 .
+        ns2:latitude 5.234786e+01 ;
+        ns2:longitude 4.930429e+00 .
 
-    ns1:toeMondzorg_Centrum_IJburg a ns1:Tandartsen,
+    ns3:toeMondzorg_Centrum_IJburg a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Mondzorg Centrum IJburg"^^xsd:string ;
-        ns3:latitude 5.236127e+01 ;
-        ns3:longitude 4.984228e+00 .
+        ns2:latitude 5.236127e+01 ;
+        ns2:longitude 4.984228e+00 .
 
-    ns1:toeMultifunctioneel_Centrum_Binnenhof a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeMultifunctioneel_Centrum_Binnenhof a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Multifunctioneel Centrum Binnenhof"^^xsd:string ;
-        ns3:latitude 5.233213e+01 ;
-        ns3:longitude 4.878553e+00 .
+        ns2:latitude 5.233213e+01 ;
+        ns2:longitude 4.878553e+00 .
 
-    ns1:toeMultifunctioneel_Centrum_Chassé a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeMultifunctioneel_Centrum_Chassé a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Multifunctioneel Centrum Chassé"^^xsd:string ;
-        ns3:latitude 5.237028e+01 ;
-        ns3:longitude 4.86117e+00 .
+        ns2:latitude 5.237028e+01 ;
+        ns2:longitude 4.86117e+00 .
 
-    ns1:toeMultifunctioneel_Centrum_De_Tagerijn a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeMultifunctioneel_Centrum_De_Tagerijn a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Multifunctioneel Centrum De Tagerijn"^^xsd:string ;
-        ns3:latitude 5.236916e+01 ;
-        ns3:longitude 4.85462e+00 .
+        ns2:latitude 5.236916e+01 ;
+        ns2:longitude 4.85462e+00 .
 
-    ns1:toeMultifunctioneel_Centrum_de_Edelsteen a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeMultifunctioneel_Centrum_de_Edelsteen a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Multifunctioneel Centrum de Edelsteen"^^xsd:string ;
-        ns3:latitude 5.235091e+01 ;
-        ns3:longitude 4.905916e+00 .
+        ns2:latitude 5.235091e+01 ;
+        ns2:longitude 4.905916e+00 .
 
-    ns1:toeMuseum_Het_Schip a ns1:Musea,
+    ns3:toeMuseum_Het_Schip a ns3:Musea,
             :instantie ;
         rdfs:label "Museum Het Schip"^^xsd:string ;
-        ns3:latitude 5.239023e+01 ;
-        ns3:longitude 4.875404e+00 .
+        ns2:latitude 5.239023e+01 ;
+        ns2:longitude 4.875404e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeMuseum_Plaza,_British_Council> a ns1:Onderwijsinstellingen_en_scholen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeMuseum_Plaza,_British_Council> a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Museum Plaza, British Council"^^xsd:string ;
-        ns3:latitude 5.236099e+01 ;
-        ns3:longitude 4.887118e+00 .
+        ns2:latitude 5.236099e+01 ;
+        ns2:longitude 4.887118e+00 .
 
-    ns1:toeMuseum_Van_Loon a ns1:Musea,
+    ns3:toeMuseum_Van_Loon a ns3:Musea,
             :instantie ;
         rdfs:label "Museum Van Loon"^^xsd:string ;
-        ns3:latitude 5.236355e+01 ;
-        ns3:longitude 4.892977e+00 .
+        ns2:latitude 5.236355e+01 ;
+        ns2:longitude 4.892977e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeMuziekgebouw_aan_'t_IJ_> a ns1:Theaters_en_concertgebouwen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeMuziekgebouw_aan_'t_IJ_> a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Muziekgebouw aan 't IJ "^^xsd:string ;
-        ns3:latitude 5.237744e+01 ;
-        ns3:longitude 4.912472e+00 .
+        ns2:latitude 5.237744e+01 ;
+        ns2:longitude 4.912472e+00 .
 
-    ns1:toeMuziekschool_Amsterdam_Noord a ns1:Educatieve_centra,
+    ns3:toeMuziekschool_Amsterdam_Noord a ns3:Educatieve_centra,
             :instantie ;
         rdfs:label "Muziekschool Amsterdam Noord"^^xsd:string ;
-        ns3:latitude 5.239466e+01 ;
-        ns3:longitude 4.950927e+00 .
+        ns2:latitude 5.239466e+01 ;
+        ns2:longitude 4.950927e+00 .
 
-    ns1:toeNEMO a ns1:Toeristische_attracties,
+    ns3:toeNEMO a ns3:Toeristische_attracties,
             :instantie ;
         rdfs:label "NEMO"^^xsd:string ;
-        ns3:latitude 5.237222e+01 ;
-        ns3:longitude 4.912058e+00 .
+        ns2:latitude 5.237222e+01 ;
+        ns2:longitude 4.912058e+00 .
 
-    ns1:toeNieuwe_Kafe a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeNieuwe_Kafe a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Nieuwe Kafe"^^xsd:string ;
-        ns3:latitude 5.237357e+01 ;
-        ns3:longitude 4.89216e+00 .
+        ns2:latitude 5.237357e+01 ;
+        ns2:longitude 4.89216e+00 .
 
-    ns1:toeNieuwe_Kerk a ns1:Kerkgebouwen,
+    ns3:toeNieuwe_Kerk a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Nieuwe Kerk"^^xsd:string ;
-        ns3:latitude 5.237417e+01 ;
-        ns3:longitude 4.892374e+00 .
+        ns2:latitude 5.237417e+01 ;
+        ns2:longitude 4.892374e+00 .
 
-    ns1:toeNorth_Sea_Jazz_Club a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeNorth_Sea_Jazz_Club a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "North Sea Jazz Club"^^xsd:string ;
-        ns3:latitude 5.238617e+01 ;
-        ns3:longitude 4.872953e+00 .
+        ns2:latitude 5.238617e+01 ;
+        ns2:longitude 4.872953e+00 .
 
-    ns1:toeNowhere a ns1:Educatieve_centra,
+    ns3:toeNowhere a ns3:Educatieve_centra,
             :instantie ;
         rdfs:label "Nowhere"^^xsd:string ;
-        ns3:latitude 5.236427e+01 ;
-        ns3:longitude 4.936368e+00 .
+        ns2:latitude 5.236427e+01 ;
+        ns2:longitude 4.936368e+00 .
 
-    ns1:toeOBS_De_Brink a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeOBS_De_Brink a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "OBS De Brink"^^xsd:string ;
-        ns3:latitude 5.230069e+01 ;
-        ns3:longitude 4.968885e+00 .
+        ns2:latitude 5.230069e+01 ;
+        ns2:longitude 4.968885e+00 .
 
-    ns1:toeOBS_Nellestein a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeOBS_Nellestein a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "OBS Nellestein"^^xsd:string ;
-        ns3:latitude 5.230902e+01 ;
-        ns3:longitude 4.980229e+00 .
+        ns2:latitude 5.230902e+01 ;
+        ns2:longitude 4.980229e+00 .
 
-    ns1:toeOBS_Wereldwijs a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeOBS_Wereldwijs a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "OBS Wereldwijs"^^xsd:string ;
-        ns3:latitude 5.232503e+01 ;
-        ns3:longitude 4.982708e+00 .
+        ns2:latitude 5.232503e+01 ;
+        ns2:longitude 4.982708e+00 .
 
-    ns1:toeOkura_Hotel_Amsterdam a ns1:Hotels,
+    ns3:toeOkura_Hotel_Amsterdam a ns3:Hotels,
             :instantie ;
         rdfs:label "Okura Hotel Amsterdam"^^xsd:string ;
-        ns3:latitude 5.234853e+01 ;
-        ns3:longitude 4.892469e+00 .
+        ns2:latitude 5.234853e+01 ;
+        ns2:longitude 4.892469e+00 .
 
-    ns1:toeOlivier_Termijtelen_Energietherapie a ns1:Klinieken,
+    ns3:toeOlivier_Termijtelen_Energietherapie a ns3:Klinieken,
             :instantie ;
         rdfs:label "Olivier Termijtelen Energietherapie"^^xsd:string ;
-        ns3:latitude 5.236039e+01 ;
-        ns3:longitude 4.989741e+00 .
+        ns2:latitude 5.236039e+01 ;
+        ns2:longitude 4.989741e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeOns'_Lieve_Heer_op_Solder> a ns1:Musea,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeOns'_Lieve_Heer_op_Solder> a ns3:Musea,
             :instantie ;
         rdfs:label "Ons' Lieve Heer op Solder"^^xsd:string ;
-        ns3:latitude 5.237466e+01 ;
-        ns3:longitude 4.899124e+00 .
+        ns2:latitude 5.237466e+01 ;
+        ns2:longitude 4.899124e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeOostblok_(Muiderpoorttheater)> a ns1:Theaters_en_concertgebouwen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeOostblok_(Muiderpoorttheater)> a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Oostblok (Muiderpoorttheater)"^^xsd:string ;
-        ns3:latitude 5.236162e+01 ;
-        ns3:longitude 4.925472e+00 .
+        ns2:latitude 5.236162e+01 ;
+        ns2:longitude 4.925472e+00 .
 
-    ns1:toeOosterkerk a ns1:Kerkgebouwen,
+    ns3:toeOosterkerk a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Oosterkerk"^^xsd:string ;
-        ns3:latitude 5.23701e+01 ;
-        ns3:longitude 4.919834e+00 .
+        ns2:latitude 5.23701e+01 ;
+        ns2:longitude 4.919834e+00 .
 
-    ns1:toeOpen_Schoolgemeenschap_Bijlmer a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeOpen_Schoolgemeenschap_Bijlmer a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Open Schoolgemeenschap Bijlmer"^^xsd:string ;
-        ns3:latitude 5.231891e+01 ;
-        ns3:longitude 4.965721e+00 .
+        ns2:latitude 5.231891e+01 ;
+        ns2:longitude 4.965721e+00 .
 
-    ns1:toeOpenbaar_toilet_Sarphatipark a ns1:openbare_toiletten,
+    ns3:toeOpenbaar_toilet_Sarphatipark a ns3:openbare_toiletten,
             :instantie ;
         rdfs:label "Openbaar toilet Sarphatipark"^^xsd:string ;
-        ns3:latitude 5.235422e+01 ;
-        ns3:longitude 4.894798e+00 .
+        ns2:latitude 5.235422e+01 ;
+        ns2:longitude 4.894798e+00 .
 
-    ns1:toeOpenbaar_toilet_Victorieplein a ns1:openbare_toiletten,
+    ns3:toeOpenbaar_toilet_Victorieplein a ns3:openbare_toiletten,
             :instantie ;
         rdfs:label "Openbaar toilet Victorieplein"^^xsd:string ;
-        ns3:latitude 5.234607e+01 ;
-        ns3:longitude 4.902872e+00 .
+        ns2:latitude 5.234607e+01 ;
+        ns2:longitude 4.902872e+00 .
 
-    ns1:toeOpenbaar_toilet_Waterlooplein a ns1:openbare_toiletten,
+    ns3:toeOpenbaar_toilet_Waterlooplein a ns3:openbare_toiletten,
             :instantie ;
         rdfs:label "Openbaar toilet Waterlooplein"^^xsd:string ;
-        ns3:latitude 5.236749e+01 ;
-        ns3:longitude 4.902154e+00 .
+        ns2:latitude 5.236749e+01 ;
+        ns2:longitude 4.902154e+00 .
 
-    ns1:toeOpenbare_basisschool_Cornelis_Jetses a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeOpenbare_basisschool_Cornelis_Jetses a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Openbare basisschool Cornelis Jetses"^^xsd:string ;
-        ns3:latitude 5.230551e+01 ;
-        ns3:longitude 5.018427e+00 .
+        ns2:latitude 5.230551e+01 ;
+        ns2:longitude 5.018427e+00 .
 
-    ns1:toeOude_Kerk a ns1:Kerkgebouwen,
+    ns3:toeOude_Kerk a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Oude Kerk"^^xsd:string ;
-        ns3:latitude 5.237438e+01 ;
-        ns3:longitude 4.897511e+00 .
+        ns2:latitude 5.237438e+01 ;
+        ns2:longitude 4.897511e+00 .
 
-    ns1:toeP1_Parking_Amsterdam_Centraal a ns1:Parkeergarages,
+    ns3:toeP1_Parking_Amsterdam_Centraal a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "P1 Parking Amsterdam Centraal"^^xsd:string ;
-        ns3:latitude 5.237871e+01 ;
-        ns3:longitude 4.896215e+00 .
+        ns2:latitude 5.237871e+01 ;
+        ns2:longitude 4.896215e+00 .
 
-    ns1:toeP1_Parking_Markenhoven a ns1:Parkeergarages,
+    ns3:toeP1_Parking_Markenhoven a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "P1 Parking Markenhoven"^^xsd:string ;
-        ns3:latitude 5.236872e+01 ;
-        ns3:longitude 4.904519e+00 .
+        ns2:latitude 5.236872e+01 ;
+        ns2:longitude 4.904519e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toePTA_(Passenger_Terminal_Amsterdam)> a ns1:Congres-_en_partyaccommodaties,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toePTA_(Passenger_Terminal_Amsterdam)> a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "PTA (Passenger Terminal Amsterdam)"^^xsd:string ;
-        ns3:latitude 5.237707e+01 ;
-        ns3:longitude 4.916999e+00 .
+        ns2:latitude 5.237707e+01 ;
+        ns2:longitude 4.916999e+00 .
 
-    ns1:toePacific_Parc a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toePacific_Parc a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Pacific Parc"^^xsd:string ;
-        ns3:latitude 5.238579e+01 ;
-        ns3:longitude 4.871401e+00 .
+        ns2:latitude 5.238579e+01 ;
+        ns2:longitude 4.871401e+00 .
 
-    ns1:toePakhuis_De_Zwijger a ns1:Congres-_en_partyaccommodaties,
+    ns3:toePakhuis_De_Zwijger a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Pakhuis De Zwijger"^^xsd:string ;
-        ns3:latitude 5.237616e+01 ;
-        ns3:longitude 4.922883e+00 .
+        ns2:latitude 5.237616e+01 ;
+        ns2:longitude 4.922883e+00 .
 
-    ns1:toePalladium a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toePalladium a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Palladium"^^xsd:string ;
-        ns3:latitude 5.23635e+01 ;
-        ns3:longitude 4.883523e+00 .
+        ns2:latitude 5.23635e+01 ;
+        ns2:longitude 4.883523e+00 .
 
-    ns1:toePanama a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toePanama a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Panama"^^xsd:string ;
-        ns3:latitude 5.237459e+01 ;
-        ns3:longitude 4.933414e+00 .
+        ns2:latitude 5.237459e+01 ;
+        ns2:longitude 4.933414e+00 .
 
-    ns1:toeParadiso a ns1:Theaters_en_concertgebouwen,
+    ns3:toeParadiso a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Paradiso"^^xsd:string ;
-        ns3:latitude 5.236158e+01 ;
-        ns3:longitude 4.885482e+00 .
+        ns2:latitude 5.236158e+01 ;
+        ns2:longitude 4.885482e+00 .
 
-    ns1:toeParamedisch_Centrum_In_de_praktijk a ns1:Gezondheidscentra,
+    ns3:toeParamedisch_Centrum_In_de_praktijk a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Paramedisch Centrum In de praktijk"^^xsd:string ;
-        ns3:latitude 5.235633e+01 ;
-        ns3:longitude 4.99352e+00 .
+        ns2:latitude 5.235633e+01 ;
+        ns2:longitude 4.99352e+00 .
 
-    ns1:toeParkcafe_Zomers_Amsterdam a <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's>,
+    ns3:toeParkcafe_Zomers_Amsterdam a <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's>,
             :instantie ;
         rdfs:label "Parkcafe Zomers Amsterdam"^^xsd:string ;
-        ns3:latitude 5.233171e+01 ;
-        ns3:longitude 4.896441e+00 .
+        ns2:latitude 5.233171e+01 ;
+        ns2:longitude 4.896441e+00 .
 
-    ns1:toeParkeergarage_De_Bijenkorf a ns1:Parkeergarages,
+    ns3:toeParkeergarage_De_Bijenkorf a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parkeergarage De Bijenkorf"^^xsd:string ;
-        ns3:latitude 5.237461e+01 ;
-        ns3:longitude 4.895409e+00 .
+        ns2:latitude 5.237461e+01 ;
+        ns2:longitude 4.895409e+00 .
 
-    ns1:toeParkeergarage_Heinekenplein a ns1:Parkeergarages,
+    ns3:toeParkeergarage_Heinekenplein a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parkeergarage Heinekenplein"^^xsd:string ;
-        ns3:latitude 5.235743e+01 ;
-        ns3:longitude 4.892693e+00 .
+        ns2:latitude 5.235743e+01 ;
+        ns2:longitude 4.892693e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeParkeergarage_Nieuwendijk_(De_Kolk)> a ns1:Parkeergarages,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeParkeergarage_Nieuwendijk_(De_Kolk)> a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parkeergarage Nieuwendijk (De Kolk)"^^xsd:string ;
-        ns3:latitude 5.237622e+01 ;
-        ns3:longitude 4.89451e+00 .
+        ns2:latitude 5.237622e+01 ;
+        ns2:longitude 4.89451e+00 .
 
-    ns1:toeParkeergarage_Q-Park_Byzantium a ns1:Parkeergarages,
+    ns3:toeParkeergarage_Q-Park_Byzantium a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parkeergarage Q-Park Byzantium"^^xsd:string ;
-        ns3:latitude 5.236199e+01 ;
-        ns3:longitude 4.8794e+00 .
+        ns2:latitude 5.236199e+01 ;
+        ns2:longitude 4.8794e+00 .
 
-    ns1:toeParkeergarage_Q-Park_Museumplein a ns1:Parkeergarages,
+    ns3:toeParkeergarage_Q-Park_Museumplein a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parkeergarage Q-Park Museumplein"^^xsd:string ;
-        ns3:latitude 5.235593e+01 ;
-        ns3:longitude 4.880203e+00 .
+        ns2:latitude 5.235593e+01 ;
+        ns2:longitude 4.880203e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeParkeergarage_Stadhuis_/_Muziektheater> a ns1:Parkeergarages,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeParkeergarage_Stadhuis_/_Muziektheater> a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parkeergarage Stadhuis / Muziektheater"^^xsd:string ;
-        ns3:latitude 5.236687e+01 ;
-        ns3:longitude 4.901485e+00 .
+        ns2:latitude 5.236687e+01 ;
+        ns2:longitude 4.901485e+00 .
 
-    ns1:toeParking_Centrum_Oosterdok_ a ns1:Parkeergarages,
+    ns3:toeParking_Centrum_Oosterdok_ a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Parking Centrum Oosterdok "^^xsd:string ;
-        ns3:latitude 5.237644e+01 ;
-        ns3:longitude 4.90489e+00 .
+        ns2:latitude 5.237644e+01 ;
+        ns2:longitude 4.90489e+00 .
 
-    ns1:toePathé_City a ns1:Bioscopen_en_filmhuizen,
+    ns3:toePathé_City a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "Pathé City"^^xsd:string ;
-        ns3:latitude 5.23635e+01 ;
-        ns3:longitude 4.883523e+00 .
+        ns2:latitude 5.23635e+01 ;
+        ns2:longitude 4.883523e+00 .
 
-    ns1:toePathé_De_Munt a ns1:Bioscopen_en_filmhuizen,
+    ns3:toePathé_De_Munt a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "Pathé De Munt"^^xsd:string ;
-        ns3:latitude 5.236641e+01 ;
-        ns3:longitude 4.893239e+00 .
+        ns2:latitude 5.236641e+01 ;
+        ns2:longitude 4.893239e+00 .
 
-    ns1:toePathé_Tuschinski a ns1:Bioscopen_en_filmhuizen,
+    ns3:toePathé_Tuschinski a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "Pathé Tuschinski"^^xsd:string ;
-        ns3:latitude 5.236655e+01 ;
-        ns3:longitude 4.894808e+00 .
+        ns2:latitude 5.236655e+01 ;
+        ns2:longitude 4.894808e+00 .
 
-    ns1:toePersmuseum a ns1:Musea,
+    ns3:toePersmuseum a ns3:Musea,
             :instantie ;
         rdfs:label "Persmuseum"^^xsd:string ;
-        ns3:latitude 5.236926e+01 ;
-        ns3:longitude 4.943277e+00 .
+        ns2:latitude 5.236926e+01 ;
+        ns2:longitude 4.943277e+00 .
 
-    ns1:toePiet_Heingarage a ns1:Parkeergarages,
+    ns3:toePiet_Heingarage a ns3:Parkeergarages,
             :instantie ;
         rdfs:label "Piet Heingarage"^^xsd:string ;
-        ns3:latitude 5.237689e+01 ;
-        ns3:longitude 4.918191e+00 .
+        ns2:latitude 5.237689e+01 ;
+        ns2:longitude 4.918191e+00 .
 
-    ns1:toePolanentheater a ns1:Theaters_en_concertgebouwen,
+    ns3:toePolanentheater a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Polanentheater"^^xsd:string ;
-        ns3:latitude 5.239053e+01 ;
-        ns3:longitude 4.876708e+00 .
+        ns2:latitude 5.239053e+01 ;
+        ns2:longitude 4.876708e+00 .
 
-    ns1:toePolitiebureau_Balistraat a ns1:Politiebureaus,
+    ns3:toePolitiebureau_Balistraat a ns3:Politiebureaus,
             :instantie ;
         rdfs:label "Politiebureau Balistraat"^^xsd:string ;
-        ns3:latitude 5.236312e+01 ;
-        ns3:longitude 4.936879e+00 .
+        ns2:latitude 5.236312e+01 ;
+        ns2:longitude 4.936879e+00 .
 
-    ns1:toePolitiebureau_Meer_en_Vaart a ns1:Politiebureaus,
+    ns3:toePolitiebureau_Meer_en_Vaart a ns3:Politiebureaus,
             :instantie ;
         rdfs:label "Politiebureau Meer en Vaart"^^xsd:string ;
-        ns3:latitude 5.236144e+01 ;
-        ns3:longitude 4.806384e+00 .
+        ns2:latitude 5.236144e+01 ;
+        ns2:longitude 4.806384e+00 .
 
-    ns1:toePraktijk_IJburg a ns1:Gezondheidscentra,
+    ns3:toePraktijk_IJburg a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Praktijk IJburg"^^xsd:string ;
-        ns3:latitude 5.235993e+01 ;
-        ns3:longitude 4.994266e+00 .
+        ns2:latitude 5.235993e+01 ;
+        ns2:longitude 4.994266e+00 .
 
-    ns1:toePrins_Willem_Alexander_manege a ns1:Sportaccommodaties,
+    ns3:toePrins_Willem_Alexander_manege a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Prins Willem Alexander manege"^^xsd:string ;
-        ns3:latitude 5.231506e+01 ;
-        ns3:longitude 4.993446e+00 .
+        ns2:latitude 5.231506e+01 ;
+        ns2:longitude 4.993446e+00 .
 
-    ns1:toeProf._Dr._I.C._van_Houteschool a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeProf._Dr._I.C._van_Houteschool a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Prof. Dr. I.C. van Houteschool"^^xsd:string ;
-        ns3:latitude 5.230873e+01 ;
-        ns3:longitude 4.979513e+00 .
+        ns2:latitude 5.230873e+01 ;
+        ns2:longitude 4.979513e+00 .
 
-    ns1:toeProf._dr._J.J._Dumontschool a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeProf._dr._J.J._Dumontschool a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Prof. dr. J.J. Dumontschool"^^xsd:string ;
-        ns3:latitude 5.229383e+01 ;
-        ns3:longitude 4.987947e+00 .
+        ns2:latitude 5.229383e+01 ;
+        ns2:longitude 4.987947e+00 .
 
-    ns1:toePsychotherapiepraktijk_Annette_Plümpe a ns1:Gezondheidscentra,
+    ns3:toePsychotherapiepraktijk_Annette_Plümpe a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Psychotherapiepraktijk Annette Plümpe"^^xsd:string ;
-        ns3:latitude 5.237302e+01 ;
-        ns3:longitude 4.94437e+00 .
+        ns2:latitude 5.237302e+01 ;
+        ns2:longitude 4.94437e+00 .
 
-    ns1:toePsychotherapiepraktijk_Vasterling a ns1:Gezondheidscentra,
+    ns3:toePsychotherapiepraktijk_Vasterling a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Psychotherapiepraktijk Vasterling"^^xsd:string ;
-        ns3:latitude 5.237528e+01 ;
-        ns3:longitude 4.931483e+00 .
+        ns2:latitude 5.237528e+01 ;
+        ns2:longitude 4.931483e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeReade_-_locatie:_Jan_van_Breemenstraat_> a ns1:Revalidatiecentra,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeReade_-_locatie:_Jan_van_Breemenstraat_> a ns3:Revalidatiecentra,
             :instantie ;
         rdfs:label "Reade - locatie: Jan van Breemenstraat "^^xsd:string ;
-        ns3:latitude 5.237042e+01 ;
-        ns3:longitude 4.843871e+00 .
+        ns2:latitude 5.237042e+01 ;
+        ns2:longitude 4.843871e+00 .
 
-    ns1:toeRembrandthuis a ns1:Musea,
+    ns3:toeRembrandthuis a ns3:Musea,
             :instantie ;
         rdfs:label "Rembrandthuis"^^xsd:string ;
-        ns3:latitude 5.236888e+01 ;
-        ns3:longitude 4.902094e+00 .
+        ns2:latitude 5.236888e+01 ;
+        ns2:longitude 4.902094e+00 .
 
-    ns1:toeRestaurant_Freud a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeRestaurant_Freud a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Restaurant Freud"^^xsd:string ;
-        ns3:latitude 5.238836e+01 ;
-        ns3:longitude 4.880302e+00 .
+        ns2:latitude 5.238836e+01 ;
+        ns2:longitude 4.880302e+00 .
 
-    ns1:toeRestaurant_Rosarium a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeRestaurant_Rosarium a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Restaurant Rosarium"^^xsd:string ;
-        ns3:latitude 5.233244e+01 ;
-        ns3:longitude 4.897402e+00 .
+        ns2:latitude 5.233244e+01 ;
+        ns2:longitude 4.897402e+00 .
 
-    ns1:toeRijksmuseum_ a ns1:Musea,
+    ns3:toeRijksmuseum_ a ns3:Musea,
             :instantie ;
         rdfs:label "Rijksmuseum "^^xsd:string ;
-        ns3:latitude 5.236051e+01 ;
-        ns3:longitude 4.884702e+00 .
+        ns2:latitude 5.236051e+01 ;
+        ns2:longitude 4.884702e+00 .
 
-    ns1:toeRoeicentrum_Berlagebrug a ns1:Sportaccommodaties,
+    ns3:toeRoeicentrum_Berlagebrug a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Roeicentrum Berlagebrug"^^xsd:string ;
-        ns3:latitude 5.234739e+01 ;
-        ns3:longitude 4.913674e+00 .
+        ns2:latitude 5.234739e+01 ;
+        ns2:longitude 4.913674e+00 .
 
-    ns1:toeRonald_McDonald_Centre a ns1:Sportaccommodaties,
+    ns3:toeRonald_McDonald_Centre a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Ronald McDonald Centre"^^xsd:string ;
-        ns3:latitude 5.240075e+01 ;
-        ns3:longitude 4.959374e+00 .
+        ns2:latitude 5.240075e+01 ;
+        ns2:longitude 4.959374e+00 .
 
-    ns1:toeSalsamentum_Zoutwinkel a ns1:Winkels,
+    ns3:toeSalsamentum_Zoutwinkel a ns3:Winkels,
             :instantie ;
         rdfs:label "Salsamentum Zoutwinkel"^^xsd:string ;
-        ns3:latitude 5.238724e+01 ;
-        ns3:longitude 4.881196e+00 .
+        ns2:latitude 5.238724e+01 ;
+        ns2:longitude 4.881196e+00 .
 
-    ns1:toeSantulli_Orthopedie a ns1:Gezondheidscentra,
+    ns3:toeSantulli_Orthopedie a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Santulli Orthopedie"^^xsd:string ;
-        ns3:latitude 5.235414e+01 ;
-        ns3:longitude 4.928735e+00 .
+        ns2:latitude 5.235414e+01 ;
+        ns2:longitude 4.928735e+00 .
 
-    ns1:toeScheepvaartmuseum a ns1:Musea,
+    ns3:toeScheepvaartmuseum a ns3:Musea,
             :instantie ;
         rdfs:label "Scheepvaartmuseum"^^xsd:string ;
-        ns3:latitude 5.237136e+01 ;
-        ns3:longitude 4.915533e+00 .
+        ns2:latitude 5.237136e+01 ;
+        ns2:longitude 4.915533e+00 .
 
-    ns1:toeSchinkel_apotheek a ns1:Apotheken,
+    ns3:toeSchinkel_apotheek a ns3:Apotheken,
             :instantie ;
         rdfs:label "Schinkel apotheek"^^xsd:string ;
-        ns3:latitude 5.2351e+01 ;
-        ns3:longitude 4.851683e+00 .
+        ns2:latitude 5.2351e+01 ;
+        ns2:longitude 4.851683e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeScholen_Gemeenschap_Reigersbos_(VMBO_HAVO_VWO)> a ns1:Onderwijsinstellingen_en_scholen,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeScholen_Gemeenschap_Reigersbos_(VMBO_HAVO_VWO)> a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Scholen Gemeenschap Reigersbos (VMBO HAVO VWO)"^^xsd:string ;
-        ns3:latitude 5.229718e+01 ;
-        ns3:longitude 4.977303e+00 .
+        ns2:latitude 5.229718e+01 ;
+        ns2:longitude 4.977303e+00 .
 
-    ns1:toeSchoolwerktuincomplex_Gaasperdam a ns1:Educatieve_tuinen,
+    ns3:toeSchoolwerktuincomplex_Gaasperdam a ns3:Educatieve_tuinen,
             :instantie ;
         rdfs:label "Schoolwerktuincomplex Gaasperdam"^^xsd:string ;
-        ns3:latitude 5.230096e+01 ;
-        ns3:longitude 4.977752e+00 .
+        ns2:latitude 5.230096e+01 ;
+        ns2:longitude 4.977752e+00 .
 
-    ns1:toeSchoonenberg_Hoorcomfort_Hogeweg a ns1:Winkels,
+    ns3:toeSchoonenberg_Hoorcomfort_Hogeweg a ns3:Winkels,
             :instantie ;
         rdfs:label "Schoonenberg Hoorcomfort Hogeweg"^^xsd:string ;
-        ns3:latitude 5.23543e+01 ;
-        ns3:longitude 4.931464e+00 .
+        ns2:latitude 5.23543e+01 ;
+        ns2:longitude 4.931464e+00 .
 
-    ns1:toeSciandri_Sportcentrum_de_Werf a ns1:Sportaccommodaties,
+    ns3:toeSciandri_Sportcentrum_de_Werf a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sciandri Sportcentrum de Werf"^^xsd:string ;
-        ns3:latitude 5.240725e+01 ;
-        ns3:longitude 4.895737e+00 .
+        ns2:latitude 5.240725e+01 ;
+        ns2:longitude 4.895737e+00 .
 
-    ns1:toeShri_Laksmi_Basisschool a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeShri_Laksmi_Basisschool a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "Shri Laksmi Basisschool"^^xsd:string ;
-        ns3:latitude 5.231895e+01 ;
-        ns3:longitude 4.956364e+00 .
+        ns2:latitude 5.231895e+01 ;
+        ns2:longitude 4.956364e+00 .
 
-    ns1:toeSlagerij_Westerpark_Halal a ns1:Winkels,
+    ns3:toeSlagerij_Westerpark_Halal a ns3:Winkels,
             :instantie ;
         rdfs:label "Slagerij Westerpark Halal"^^xsd:string ;
-        ns3:latitude 5.238934e+01 ;
-        ns3:longitude 4.87938e+00 .
+        ns2:latitude 5.238934e+01 ;
+        ns2:longitude 4.87938e+00 .
 
-    ns1:toeSloterparkbad a ns1:Zwembaden,
+    ns3:toeSloterparkbad a ns3:Zwembaden,
             :instantie ;
         rdfs:label "Sloterparkbad"^^xsd:string ;
-        ns3:latitude 5.237108e+01 ;
-        ns3:longitude 4.816742e+00 .
+        ns2:latitude 5.237108e+01 ;
+        ns2:longitude 4.816742e+00 .
 
-    ns1:toeSociaal_Medisch_Centrum_Spaarndammerhout a ns1:Gezondheidscentra,
+    ns3:toeSociaal_Medisch_Centrum_Spaarndammerhout a ns3:Gezondheidscentra,
             :instantie ;
         rdfs:label "Sociaal Medisch Centrum Spaarndammerhout"^^xsd:string ;
-        ns3:latitude 5.238979e+01 ;
-        ns3:longitude 4.878993e+00 .
+        ns2:latitude 5.238979e+01 ;
+        ns2:longitude 4.878993e+00 .
 
-    ns1:toeSpaarndammer_Apotheek_BV a ns1:Apotheken,
+    ns3:toeSpaarndammer_Apotheek_BV a ns3:Apotheken,
             :instantie ;
         rdfs:label "Spaarndammer Apotheek BV"^^xsd:string ;
-        ns3:latitude 5.238934e+01 ;
-        ns3:longitude 4.879365e+00 .
+        ns2:latitude 5.238934e+01 ;
+        ns2:longitude 4.879365e+00 .
 
-    ns1:toeSpar_supermarkt_Steur a ns1:Supermarkten,
+    ns3:toeSpar_supermarkt_Steur a ns3:Supermarkten,
             :instantie ;
         rdfs:label "Spar supermarkt Steur"^^xsd:string ;
-        ns3:latitude 5.238913e+01 ;
-        ns3:longitude 4.879632e+00 .
+        ns2:latitude 5.238913e+01 ;
+        ns2:longitude 4.879632e+00 .
 
-    ns1:toeSport_en_Judoclub_Osdorp a ns1:Sportaccommodaties,
+    ns3:toeSport_en_Judoclub_Osdorp a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sport en Judoclub Osdorp"^^xsd:string ;
-        ns3:latitude 5.236162e+01 ;
-        ns3:longitude 4.785388e+00 .
+        ns2:latitude 5.236162e+01 ;
+        ns2:longitude 4.785388e+00 .
 
-    ns1:toeSportcentrum_de_Pijp a ns1:Sportaccommodaties,
+    ns3:toeSportcentrum_de_Pijp a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sportcentrum de Pijp"^^xsd:string ;
-        ns3:latitude 5.234964e+01 ;
-        ns3:longitude 4.892266e+00 .
+        ns2:latitude 5.234964e+01 ;
+        ns2:longitude 4.892266e+00 .
 
-    ns1:toeSportcomplex_Het_Marnix a ns1:Sportaccommodaties,
+    ns3:toeSportcomplex_Het_Marnix a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sportcomplex Het Marnix"^^xsd:string ;
-        ns3:latitude 5.237802e+01 ;
-        ns3:longitude 4.878937e+00 .
+        ns2:latitude 5.237802e+01 ;
+        ns2:longitude 4.878937e+00 .
 
-    ns1:toeSportfondsenbad_Oost a ns1:Zwembaden,
+    ns3:toeSportfondsenbad_Oost a ns3:Zwembaden,
             :instantie ;
         rdfs:label "Sportfondsenbad Oost"^^xsd:string ;
-        ns3:latitude 5.235841e+01 ;
-        ns3:longitude 4.930922e+00 .
+        ns2:latitude 5.235841e+01 ;
+        ns2:longitude 4.930922e+00 .
 
-    ns1:toeSporthal_Blauw-Wit a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Blauw-Wit a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Blauw-Wit"^^xsd:string ;
-        ns3:latitude 5.23757e+01 ;
-        ns3:longitude 4.857303e+00 .
+        ns2:latitude 5.23757e+01 ;
+        ns2:longitude 4.857303e+00 .
 
-    ns1:toeSporthal_Caland_Osdorp a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Caland_Osdorp a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Caland Osdorp"^^xsd:string ;
-        ns3:latitude 5.235408e+01 ;
-        ns3:longitude 4.807141e+00 .
+        ns2:latitude 5.235408e+01 ;
+        ns2:longitude 4.807141e+00 .
 
-    ns1:toeSporthal_De_Weeren a ns1:Sportaccommodaties,
+    ns3:toeSporthal_De_Weeren a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal De Weeren"^^xsd:string ;
-        ns3:latitude 5.239894e+01 ;
-        ns3:longitude 4.961199e+00 .
+        ns2:latitude 5.239894e+01 ;
+        ns2:longitude 4.961199e+00 .
 
-    ns1:toeSporthal_Elzenhagen a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Elzenhagen a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Elzenhagen"^^xsd:string ;
-        ns3:latitude 5.240006e+01 ;
-        ns3:longitude 4.927026e+00 .
+        ns2:latitude 5.240006e+01 ;
+        ns2:longitude 4.927026e+00 .
 
-    ns1:toeSporthal_Gaasperdam a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Gaasperdam a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Gaasperdam"^^xsd:string ;
-        ns3:latitude 5.229679e+01 ;
-        ns3:longitude 4.978172e+00 .
+        ns2:latitude 5.229679e+01 ;
+        ns2:longitude 4.978172e+00 .
 
-    ns1:toeSporthal_Oostenburg a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Oostenburg a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Oostenburg"^^xsd:string ;
-        ns3:latitude 5.236791e+01 ;
-        ns3:longitude 4.925201e+00 .
+        ns2:latitude 5.236791e+01 ;
+        ns2:longitude 4.925201e+00 .
 
-    ns1:toeSporthal_Wethouder_Verheij a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Wethouder_Verheij a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Wethouder Verheij"^^xsd:string ;
-        ns3:latitude 5.235815e+01 ;
-        ns3:longitude 4.931512e+00 .
+        ns2:latitude 5.235815e+01 ;
+        ns2:longitude 4.931512e+00 .
 
-    ns1:toeSporthal_Wibaut a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Wibaut a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Wibaut"^^xsd:string ;
-        ns3:latitude 5.235974e+01 ;
-        ns3:longitude 4.910767e+00 .
+        ns2:latitude 5.235974e+01 ;
+        ns2:longitude 4.910767e+00 .
 
-    ns1:toeSporthal_Zeeburg a ns1:Sportaccommodaties,
+    ns3:toeSporthal_Zeeburg a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthal Zeeburg"^^xsd:string ;
-        ns3:latitude 5.236187e+01 ;
-        ns3:longitude 4.943057e+00 .
+        ns2:latitude 5.236187e+01 ;
+        ns2:longitude 4.943057e+00 .
 
-    ns1:toeSporthallen_Zuid a ns1:Sportaccommodaties,
+    ns3:toeSporthallen_Zuid a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sporthallen Zuid"^^xsd:string ;
-        ns3:latitude 5.234033e+01 ;
-        ns3:longitude 4.85435e+00 .
+        ns2:latitude 5.234033e+01 ;
+        ns2:longitude 4.85435e+00 .
 
-    ns1:toeSportplaza_Mercator a ns1:Sportaccommodaties,
+    ns3:toeSportplaza_Mercator a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sportplaza Mercator"^^xsd:string ;
-        ns3:latitude 5.237218e+01 ;
-        ns3:longitude 4.846243e+00 .
+        ns2:latitude 5.237218e+01 ;
+        ns2:longitude 4.846243e+00 .
 
-    ns1:toeSportsWorld a ns1:Sportaccommodaties,
+    ns3:toeSportsWorld a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "SportsWorld"^^xsd:string ;
-        ns3:latitude 5.235604e+01 ;
-        ns3:longitude 4.928466e+00 .
+        ns2:latitude 5.235604e+01 ;
+        ns2:longitude 4.928466e+00 .
 
-    ns1:toeSportschool_American_Fitness a ns1:Sportaccommodaties,
+    ns3:toeSportschool_American_Fitness a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Sportschool American Fitness"^^xsd:string ;
-        ns3:latitude 5.235762e+01 ;
-        ns3:longitude 4.913447e+00 .
+        ns2:latitude 5.235762e+01 ;
+        ns2:longitude 4.913447e+00 .
 
-    ns1:toeStadhuis_Centrum a ns1:Stadhuizen_en_stadsdeelkantoren,
+    ns3:toeStadhuis_Centrum a ns3:Stadhuizen_en_stadsdeelkantoren,
             :instantie ;
         rdfs:label "Stadhuis Centrum"^^xsd:string ;
-        ns3:latitude 5.236701e+01 ;
-        ns3:longitude 4.900735e+00 .
+        ns2:latitude 5.236701e+01 ;
+        ns2:longitude 4.900735e+00 .
 
-    ns1:toeStadsarchief_de_Bazel a ns1:Musea,
+    ns3:toeStadsarchief_de_Bazel a ns3:Musea,
             :instantie ;
         rdfs:label "Stadsarchief de Bazel"^^xsd:string ;
-        ns3:latitude 5.236313e+01 ;
-        ns3:longitude 4.892042e+00 .
+        ns2:latitude 5.236313e+01 ;
+        ns2:longitude 4.892042e+00 .
 
-    ns1:toeStadsdeelkantoor_Noord a ns1:Stadhuizen_en_stadsdeelkantoren,
+    ns3:toeStadsdeelkantoor_Noord a ns3:Stadhuizen_en_stadsdeelkantoren,
             :instantie ;
         rdfs:label "Stadsdeelkantoor Noord"^^xsd:string ;
-        ns3:latitude 5.240061e+01 ;
-        ns3:longitude 4.932957e+00 .
+        ns2:latitude 5.240061e+01 ;
+        ns2:longitude 4.932957e+00 .
 
-    ns1:toeStadsdeelkantoor_Oost a ns1:Stadhuizen_en_stadsdeelkantoren,
+    ns3:toeStadsdeelkantoor_Oost a ns3:Stadhuizen_en_stadsdeelkantoren,
             :instantie ;
         rdfs:label "Stadsdeelkantoor Oost"^^xsd:string ;
-        ns3:latitude 5.23566e+01 ;
-        ns3:longitude 4.930662e+00 .
+        ns2:latitude 5.23566e+01 ;
+        ns2:longitude 4.930662e+00 .
 
-    ns1:toeStadsdeelkantoor_West a ns1:Stadhuizen_en_stadsdeelkantoren,
+    ns3:toeStadsdeelkantoor_West a ns3:Stadhuizen_en_stadsdeelkantoren,
             :instantie ;
         rdfs:label "Stadsdeelkantoor West"^^xsd:string ;
-        ns3:latitude 5.237799e+01 ;
-        ns3:longitude 4.844043e+00 .
+        ns2:latitude 5.237799e+01 ;
+        ns2:longitude 4.844043e+00 .
 
-    ns1:toeStadsdeelkantoor_Zuid a ns1:Stadhuizen_en_stadsdeelkantoren,
+    ns3:toeStadsdeelkantoor_Zuid a ns3:Stadhuizen_en_stadsdeelkantoren,
             :instantie ;
         rdfs:label "Stadsdeelkantoor Zuid"^^xsd:string ;
-        ns3:latitude 5.233979e+01 ;
-        ns3:longitude 4.893535e+00 .
+        ns2:latitude 5.233979e+01 ;
+        ns2:longitude 4.893535e+00 .
 
-    ns1:toeStadsdeelkantoor_Zuidoost a ns1:Stadhuizen_en_stadsdeelkantoren,
+    ns3:toeStadsdeelkantoor_Zuidoost a ns3:Stadhuizen_en_stadsdeelkantoren,
             :instantie ;
         rdfs:label "Stadsdeelkantoor Zuidoost"^^xsd:string ;
-        ns3:latitude 5.231594e+01 ;
-        ns3:longitude 4.95566e+00 .
+        ns2:latitude 5.231594e+01 ;
+        ns2:longitude 4.95566e+00 .
 
-    ns1:toeStadsschouwburg a ns1:Theaters_en_concertgebouwen,
+    ns3:toeStadsschouwburg a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Stadsschouwburg"^^xsd:string ;
-        ns3:latitude 5.236455e+01 ;
-        ns3:longitude 4.882468e+00 .
+        ns2:latitude 5.236455e+01 ;
+        ns2:longitude 4.882468e+00 .
 
-    ns1:toeStanislavski a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeStanislavski a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Stanislavski"^^xsd:string ;
-        ns3:latitude 5.236455e+01 ;
-        ns3:longitude 4.882468e+00 .
+        ns2:latitude 5.236455e+01 ;
+        ns2:longitude 4.882468e+00 .
 
-    ns1:toeStation_Amsterdam_Amstel a ns1:Stations,
+    ns3:toeStation_Amsterdam_Amstel a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Amstel"^^xsd:string ;
-        ns3:latitude 5.234642e+01 ;
-        ns3:longitude 4.91907e+00 .
+        ns2:latitude 5.234642e+01 ;
+        ns2:longitude 4.91907e+00 .
 
-    ns1:toeStation_Amsterdam_Bijlmer_ArenA a ns1:Stations,
+    ns3:toeStation_Amsterdam_Bijlmer_ArenA a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Bijlmer ArenA"^^xsd:string ;
-        ns3:latitude 5.231077e+01 ;
-        ns3:longitude 4.938274e+00 .
+        ns2:latitude 5.231077e+01 ;
+        ns2:longitude 4.938274e+00 .
 
-    ns1:toeStation_Amsterdam_Centraal a ns1:Stations,
+    ns3:toeStation_Amsterdam_Centraal a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Centraal"^^xsd:string ;
-        ns3:latitude 5.23799e+01 ;
-        ns3:longitude 4.901107e+00 .
+        ns2:latitude 5.23799e+01 ;
+        ns2:longitude 4.901107e+00 .
 
-    ns1:toeStation_Amsterdam_Holendrecht a ns1:Stations,
+    ns3:toeStation_Amsterdam_Holendrecht a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Holendrecht"^^xsd:string ;
-        ns3:latitude 5.229213e+01 ;
-        ns3:longitude 4.959687e+00 .
+        ns2:latitude 5.229213e+01 ;
+        ns2:longitude 4.959687e+00 .
 
-    ns1:toeStation_Amsterdam_Lelylaan a ns1:Stations,
+    ns3:toeStation_Amsterdam_Lelylaan a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Lelylaan"^^xsd:string ;
-        ns3:latitude 5.235769e+01 ;
-        ns3:longitude 4.836012e+00 .
+        ns2:latitude 5.235769e+01 ;
+        ns2:longitude 4.836012e+00 .
 
-    ns1:toeStation_Amsterdam_Muiderpoort a ns1:Stations,
+    ns3:toeStation_Amsterdam_Muiderpoort a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Muiderpoort"^^xsd:string ;
-        ns3:latitude 5.236026e+01 ;
-        ns3:longitude 4.931065e+00 .
+        ns2:latitude 5.236026e+01 ;
+        ns2:longitude 4.931065e+00 .
 
-    ns1:toeStation_Amsterdam_RAI a ns1:Stations,
+    ns3:toeStation_Amsterdam_RAI a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam RAI"^^xsd:string ;
-        ns3:latitude 5.233366e+01 ;
-        ns3:longitude 4.889465e+00 .
+        ns2:latitude 5.233366e+01 ;
+        ns2:longitude 4.889465e+00 .
 
-    ns1:toeStation_Amsterdam_Science_Park a ns1:Stations,
+    ns3:toeStation_Amsterdam_Science_Park a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Science Park"^^xsd:string ;
-        ns3:latitude 5.235323e+01 ;
-        ns3:longitude 4.949396e+00 .
+        ns2:latitude 5.235323e+01 ;
+        ns2:longitude 4.949396e+00 .
 
-    ns1:toeStation_Amsterdam_Sloterdijk a ns1:Stations,
+    ns3:toeStation_Amsterdam_Sloterdijk a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Sloterdijk"^^xsd:string ;
-        ns3:latitude 5.238889e+01 ;
-        ns3:longitude 4.837079e+00 .
+        ns2:latitude 5.238889e+01 ;
+        ns2:longitude 4.837079e+00 .
 
-    ns1:toeStation_Amsterdam_Zuid_ a ns1:Stations,
+    ns3:toeStation_Amsterdam_Zuid_ a ns3:Stations,
             :instantie ;
         rdfs:label "Station Amsterdam Zuid "^^xsd:string ;
-        ns3:latitude 5.233958e+01 ;
-        ns3:longitude 4.872319e+00 .
+        ns2:latitude 5.233958e+01 ;
+        ns2:longitude 4.872319e+00 .
 
-    ns1:toeStation_Diemen a ns1:Stations,
+    ns3:toeStation_Diemen a ns3:Stations,
             :instantie ;
         rdfs:label "Station Diemen"^^xsd:string ;
-        ns3:latitude 5.234508e+01 ;
-        ns3:longitude 4.966397e+00 .
+        ns2:latitude 5.234508e+01 ;
+        ns2:longitude 4.966397e+00 .
 
-    ns1:toeStation_Diemen-Zuid a ns1:Stations,
+    ns3:toeStation_Diemen-Zuid a ns3:Stations,
             :instantie ;
         rdfs:label "Station Diemen-Zuid"^^xsd:string ;
-        ns3:latitude 5.233074e+01 ;
-        ns3:longitude 4.954973e+00 .
+        ns2:latitude 5.233074e+01 ;
+        ns2:longitude 4.954973e+00 .
 
-    ns1:toeStation_Duivendrecht a ns1:Stations,
+    ns3:toeStation_Duivendrecht a ns3:Stations,
             :instantie ;
         rdfs:label "Station Duivendrecht"^^xsd:string ;
-        ns3:latitude 5.232306e+01 ;
-        ns3:longitude 4.935715e+00 .
+        ns2:latitude 5.232306e+01 ;
+        ns2:longitude 4.935715e+00 .
 
-    ns1:toeStedelijk_Museum_Amsterdam a ns1:Musea,
+    ns3:toeStedelijk_Museum_Amsterdam a ns3:Musea,
             :instantie ;
         rdfs:label "Stedelijk Museum Amsterdam"^^xsd:string ;
-        ns3:latitude 5.235727e+01 ;
-        ns3:longitude 4.880158e+00 .
+        ns2:latitude 5.235727e+01 ;
+        ns2:longitude 4.880158e+00 .
 
-    ns1:toeStichting_Mindervalide_Roeien a ns1:Sportaccommodaties,
+    ns3:toeStichting_Mindervalide_Roeien a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Stichting Mindervalide Roeien"^^xsd:string ;
-        ns3:latitude 5.233547e+01 ;
-        ns3:longitude 4.909165e+00 .
+        ns2:latitude 5.233547e+01 ;
+        ns2:longitude 4.909165e+00 .
 
-    ns1:toeStichting_Vikaash a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeStichting_Vikaash a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Stichting Vikaash"^^xsd:string ;
-        ns3:latitude 5.231606e+01 ;
-        ns3:longitude 4.971233e+00 .
+        ns2:latitude 5.231606e+01 ;
+        ns2:longitude 4.971233e+00 .
 
-    ns1:toeStomerij_Pamba a ns1:Winkels,
+    ns3:toeStomerij_Pamba a ns3:Winkels,
             :instantie ;
         rdfs:label "Stomerij Pamba"^^xsd:string ;
-        ns3:latitude 5.235767e+01 ;
-        ns3:longitude 4.99091e+00 .
+        ns2:latitude 5.235767e+01 ;
+        ns2:longitude 4.99091e+00 .
 
-    ns1:toeStudio_K a ns1:Theaters_en_concertgebouwen,
+    ns3:toeStudio_K a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Studio K"^^xsd:string ;
-        ns3:latitude 5.236545e+01 ;
-        ns3:longitude 4.935504e+00 .
+        ns2:latitude 5.236545e+01 ;
+        ns2:longitude 4.935504e+00 .
 
-    ns1:toeStudio_MJ a ns1:Uiterlijke_verzorging,
+    ns3:toeStudio_MJ a ns3:Uiterlijke_verzorging,
             :instantie ;
         rdfs:label "Studio MJ"^^xsd:string ;
-        ns3:latitude 5.235188e+01 ;
-        ns3:longitude 5.006755e+00 .
+        ns2:latitude 5.235188e+01 ;
+        ns2:longitude 5.006755e+00 .
 
-    ns1:toeTandartsenpraktijk_Amsterdam_locatie_Ijburg a ns1:Tandartsen,
+    ns3:toeTandartsenpraktijk_Amsterdam_locatie_Ijburg a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Tandartsenpraktijk Amsterdam locatie Ijburg"^^xsd:string ;
-        ns3:latitude 5.23631e+01 ;
-        ns3:longitude 4.979616e+00 .
+        ns2:latitude 5.23631e+01 ;
+        ns2:longitude 4.979616e+00 .
 
-    ns1:toeTandartsenpraktijk_Batavia a ns1:Tandartsen,
+    ns3:toeTandartsenpraktijk_Batavia a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Tandartsenpraktijk Batavia"^^xsd:string ;
-        ns3:latitude 5.23662e+01 ;
-        ns3:longitude 4.94529e+00 .
+        ns2:latitude 5.23662e+01 ;
+        ns2:longitude 4.94529e+00 .
 
-    ns1:toeTandartsenpunt_Zeeburg a ns1:Tandartsen,
+    ns3:toeTandartsenpunt_Zeeburg a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Tandartsenpunt Zeeburg"^^xsd:string ;
-        ns3:latitude 5.236844e+01 ;
-        ns3:longitude 4.933741e+00 .
+        ns2:latitude 5.236844e+01 ;
+        ns2:longitude 4.933741e+00 .
 
-    ns1:toeTandartspraktijk_B._Indrakusuma a ns1:Tandartsen,
+    ns3:toeTandartspraktijk_B._Indrakusuma a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Tandartspraktijk B. Indrakusuma"^^xsd:string ;
-        ns3:latitude 5.23505e+01 ;
-        ns3:longitude 4.859952e+00 .
+        ns2:latitude 5.23505e+01 ;
+        ns2:longitude 4.859952e+00 .
 
-    ns1:toeTandartspraktijk_C_van_Eesterenlaan a ns1:Tandartsen,
+    ns3:toeTandartspraktijk_C_van_Eesterenlaan a ns3:Tandartsen,
             :instantie ;
         rdfs:label "Tandartspraktijk C van Eesterenlaan"^^xsd:string ;
-        ns3:latitude 5.237098e+01 ;
-        ns3:longitude 4.938575e+00 .
+        ns2:latitude 5.237098e+01 ;
+        ns2:longitude 4.938575e+00 .
 
-    ns1:toeTennis_Vereniging_Rivierenbuurt a ns1:Sportaccommodaties,
+    ns3:toeTennis_Vereniging_Rivierenbuurt a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Tennis Vereniging Rivierenbuurt"^^xsd:string ;
-        ns3:latitude 5.234386e+01 ;
-        ns3:longitude 4.902808e+00 .
+        ns2:latitude 5.234386e+01 ;
+        ns2:longitude 4.902808e+00 .
 
-    ns1:toeTesla_Ontmoetingscentrum a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeTesla_Ontmoetingscentrum a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Tesla Ontmoetingscentrum"^^xsd:string ;
-        ns3:latitude 5.234804e+01 ;
-        ns3:longitude 4.939849e+00 .
+        ns2:latitude 5.234804e+01 ;
+        ns2:longitude 4.939849e+00 .
 
-    ns1:toeThe_College_Hotel a ns1:Hotels,
+    ns3:toeThe_College_Hotel a ns3:Hotels,
             :instantie ;
         rdfs:label "The College Hotel"^^xsd:string ;
-        ns3:latitude 5.235249e+01 ;
-        ns3:longitude 4.884058e+00 .
+        ns2:latitude 5.235249e+01 ;
+        ns2:longitude 4.884058e+00 .
 
-    ns1:toeThe_Movies a ns1:Bioscopen_en_filmhuizen,
+    ns3:toeThe_Movies a ns3:Bioscopen_en_filmhuizen,
             :instantie ;
         rdfs:label "The Movies"^^xsd:string ;
-        ns3:latitude 5.238408e+01 ;
-        ns3:longitude 4.884523e+00 .
+        ns2:latitude 5.238408e+01 ;
+        ns2:longitude 4.884523e+00 .
 
-    ns1:toeTheater_Bellevue a ns1:Theaters_en_concertgebouwen,
+    ns3:toeTheater_Bellevue a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Theater Bellevue"^^xsd:string ;
-        ns3:latitude 5.236392e+01 ;
-        ns3:longitude 4.880714e+00 .
+        ns2:latitude 5.236392e+01 ;
+        ns2:longitude 4.880714e+00 .
 
-    ns1:toeTheater_Vrijburcht a ns1:Theaters_en_concertgebouwen,
+    ns3:toeTheater_Vrijburcht a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "Theater Vrijburcht"^^xsd:string ;
-        ns3:latitude 5.236171e+01 ;
-        ns3:longitude 4.977514e+00 .
+        ns2:latitude 5.236171e+01 ;
+        ns2:longitude 4.977514e+00 .
 
-    ns1:toeTimorplein_8 a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeTimorplein_8 a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Timorplein 8"^^xsd:string ;
-        ns3:latitude 5.236559e+01 ;
-        ns3:longitude 4.934827e+00 .
+        ns2:latitude 5.236559e+01 ;
+        ns2:longitude 4.934827e+00 .
 
-    ns1:toeToko_Welcome a ns1:Winkels,
+    ns3:toeToko_Welcome a ns3:Winkels,
             :instantie ;
         rdfs:label "Toko Welcome"^^xsd:string ;
-        ns3:latitude 5.239099e+01 ;
-        ns3:longitude 4.878157e+00 .
+        ns2:latitude 5.239099e+01 ;
+        ns2:longitude 4.878157e+00 .
 
-    ns1:toeTropenmuseum a ns1:Musea,
+    ns3:toeTropenmuseum a ns3:Musea,
             :instantie ;
         rdfs:label "Tropenmuseum"^^xsd:string ;
-        ns3:latitude 5.235971e+01 ;
-        ns3:longitude 4.925448e+00 .
+        ns2:latitude 5.235971e+01 ;
+        ns2:longitude 4.925448e+00 .
 
-    ns1:toeTuincentrum_Osdorp a ns1:Warenhuizen,
+    ns3:toeTuincentrum_Osdorp a ns3:Warenhuizen,
             :instantie ;
         rdfs:label "Tuincentrum Osdorp"^^xsd:string ;
-        ns3:latitude 5.235199e+01 ;
-        ns3:longitude 4.792461e+00 .
+        ns2:latitude 5.235199e+01 ;
+        ns2:longitude 4.792461e+00 .
 
-    ns1:toeVVV_I_amsterdam_Visitor_Centre_Stationsplein a ns1:Informatiecentra,
+    ns3:toeVVV_I_amsterdam_Visitor_Centre_Stationsplein a ns3:Informatiecentra,
             :instantie ;
         rdfs:label "VVV I amsterdam Visitor Centre Stationsplein"^^xsd:string ;
-        ns3:latitude 5.23786e+01 ;
-        ns3:longitude 4.899462e+00 .
+        ns2:latitude 5.23786e+01 ;
+        ns2:longitude 4.899462e+00 .
 
-    ns1:toeVan_Gogh_Museum a ns1:Musea,
+    ns3:toeVan_Gogh_Museum a ns3:Musea,
             :instantie ;
         rdfs:label "Van Gogh Museum"^^xsd:string ;
-        ns3:latitude 5.2359e+01 ;
-        ns3:longitude 4.881944e+00 .
+        ns2:latitude 5.2359e+01 ;
+        ns2:longitude 4.881944e+00 .
 
-    ns1:toeVan_Hogendorphal a ns1:Sportaccommodaties,
+    ns3:toeVan_Hogendorphal a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Van Hogendorphal"^^xsd:string ;
-        ns3:latitude 5.238204e+01 ;
-        ns3:longitude 4.867978e+00 .
+        ns2:latitude 5.238204e+01 ;
+        ns2:longitude 4.867978e+00 .
 
-    ns1:toeVapiano_Ode_Amsterdam a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeVapiano_Ode_Amsterdam a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Vapiano Ode Amsterdam"^^xsd:string ;
-        ns3:latitude 5.237545e+01 ;
-        ns3:longitude 4.908807e+00 .
+        ns2:latitude 5.237545e+01 ;
+        ns2:longitude 4.908807e+00 .
 
-    ns1:toeVelodrome a ns1:Sportaccommodaties,
+    ns3:toeVelodrome a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Velodrome"^^xsd:string ;
-        ns3:latitude 5.234131e+01 ;
-        ns3:longitude 4.805723e+00 .
+        ns2:latitude 5.234131e+01 ;
+        ns2:longitude 4.805723e+00 .
 
-    ns1:toeVisgilde_IJburg a ns1:Sportaccommodaties,
+    ns3:toeVisgilde_IJburg a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Visgilde IJburg"^^xsd:string ;
-        ns3:latitude 5.235816e+01 ;
-        ns3:longitude 4.990054e+00 .
+        ns2:latitude 5.235816e+01 ;
+        ns2:longitude 4.990054e+00 .
 
-    ns1:toeVoetverzorging_Bertine a ns1:Uiterlijke_verzorging,
+    ns3:toeVoetverzorging_Bertine a ns3:Uiterlijke_verzorging,
             :instantie ;
         rdfs:label "Voetverzorging Bertine"^^xsd:string ;
-        ns3:latitude 5.23467e+01 ;
-        ns3:longitude 4.860555e+00 .
+        ns2:latitude 5.23467e+01 ;
+        ns2:longitude 4.860555e+00 .
 
-    ns1:toeVomar_Haveneiland_West a ns1:Supermarkten,
+    ns3:toeVomar_Haveneiland_West a ns3:Supermarkten,
             :instantie ;
         rdfs:label "Vomar Haveneiland West"^^xsd:string ;
-        ns3:latitude 5.23585e+01 ;
-        ns3:longitude 4.989405e+00 .
+        ns2:latitude 5.23585e+01 ;
+        ns2:longitude 4.989405e+00 .
 
-    ns1:toeVondelpark3 a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeVondelpark3 a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Vondelpark3"^^xsd:string ;
-        ns3:latitude 5.235943e+01 ;
-        ns3:longitude 4.871061e+00 .
+        ns2:latitude 5.235943e+01 ;
+        ns2:longitude 4.871061e+00 .
 
-    ns1:toeVredeskerk a ns1:Kerkgebouwen,
+    ns3:toeVredeskerk a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Vredeskerk"^^xsd:string ;
-        ns3:latitude 5.235021e+01 ;
-        ns3:longitude 4.889926e+00 .
+        ns2:latitude 5.235021e+01 ;
+        ns2:longitude 4.889926e+00 .
 
-    ns1:toeVrijwilligersacademie_Amsterdam a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toeVrijwilligersacademie_Amsterdam a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "Vrijwilligersacademie Amsterdam"^^xsd:string ;
-        ns3:latitude 5.237068e+01 ;
-        ns3:longitude 4.88466e+00 .
+        ns2:latitude 5.237068e+01 ;
+        ns2:longitude 4.88466e+00 .
 
-    ns1:toeW.B._Noteboomschool a ns1:Onderwijsinstellingen_en_scholen,
+    ns3:toeW.B._Noteboomschool a ns3:Onderwijsinstellingen_en_scholen,
             :instantie ;
         rdfs:label "W.B. Noteboomschool"^^xsd:string ;
-        ns3:latitude 5.23216e+01 ;
-        ns3:longitude 4.946863e+00 .
+        ns2:latitude 5.23216e+01 ;
+        ns2:longitude 4.946863e+00 .
 
-    ns1:toeWagamama_Max_Euweplein a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeWagamama_Max_Euweplein a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Wagamama Max Euweplein"^^xsd:string ;
-        ns3:latitude 5.236264e+01 ;
-        ns3:longitude 4.883165e+00 .
+        ns2:latitude 5.236264e+01 ;
+        ns2:longitude 4.883165e+00 .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/toeWerk,_Participatie_en_inkomen;_Terugvordering_en_Verhaal> a ns1:Sociale_Dienst,
+    <http://few.vu.nl/~mvr320/KRweb/resource/toeWerk,_Participatie_en_inkomen;_Terugvordering_en_Verhaal> a ns3:Sociale_Dienst,
             :instantie ;
         rdfs:label "Werk, Participatie en inkomen; Terugvordering en Verhaal"^^xsd:string ;
-        ns3:latitude 5.237206e+01 ;
-        ns3:longitude 4.843719e+00 .
+        ns2:latitude 5.237206e+01 ;
+        ns2:longitude 4.843719e+00 .
 
-    ns1:toeWestergas-terras a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeWestergas-terras a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Westergas-terras"^^xsd:string ;
-        ns3:latitude 5.238712e+01 ;
-        ns3:longitude 4.869843e+00 .
+        ns2:latitude 5.238712e+01 ;
+        ns2:longitude 4.869843e+00 .
 
-    ns1:toeWesterliefde_-_Westergasterrein a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeWesterliefde_-_Westergasterrein a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Westerliefde - Westergasterrein"^^xsd:string ;
-        ns3:latitude 5.238712e+01 ;
-        ns3:longitude 4.869843e+00 .
+        ns2:latitude 5.238712e+01 ;
+        ns2:longitude 4.869843e+00 .
 
-    ns1:toeWesterpark_Computers a ns1:Winkels,
+    ns3:toeWesterpark_Computers a ns3:Winkels,
             :instantie ;
         rdfs:label "Westerpark Computers"^^xsd:string ;
-        ns3:latitude 5.238976e+01 ;
-        ns3:longitude 4.87917e+00 .
+        ns2:latitude 5.238976e+01 ;
+        ns2:longitude 4.87917e+00 .
 
-    ns1:toeWinkelstraat_Spaarndammerstraat a ns1:Winkelcentra,
+    ns3:toeWinkelstraat_Spaarndammerstraat a ns3:Winkelcentra,
             :instantie ;
         rdfs:label "Winkelstraat Spaarndammerstraat"^^xsd:string ;
-        ns3:latitude 5.238934e+01 ;
-        ns3:longitude 4.879365e+00 .
+        ns2:latitude 5.238934e+01 ;
+        ns2:longitude 4.879365e+00 .
 
-    ns1:toeWoon-_zorgcentrum_De_Open_Hof a ns1:Verpleeg-_en_verzorgingshuizen,
+    ns3:toeWoon-_zorgcentrum_De_Open_Hof a ns3:Verpleeg-_en_verzorgingshuizen,
             :instantie ;
         rdfs:label "Woon- zorgcentrum De Open Hof"^^xsd:string ;
-        ns3:latitude 5.234549e+01 ;
-        ns3:longitude 4.927225e+00 .
+        ns2:latitude 5.234549e+01 ;
+        ns2:longitude 4.927225e+00 .
 
-    ns1:toeWynand_Fockink_Proeflokaal a ns1:Toeristische_attracties,
+    ns3:toeWynand_Fockink_Proeflokaal a ns3:Toeristische_attracties,
             :instantie ;
         rdfs:label "Wynand Fockink Proeflokaal"^^xsd:string ;
-        ns3:latitude 5.237241e+01 ;
-        ns3:longitude 4.894934e+00 .
+        ns2:latitude 5.237241e+01 ;
+        ns2:longitude 4.894934e+00 .
 
-    ns1:toeZeeman_Spaarndammerstraat a ns1:Winkels,
+    ns3:toeZeeman_Spaarndammerstraat a ns3:Winkels,
             :instantie ;
         rdfs:label "Zeeman Spaarndammerstraat"^^xsd:string ;
-        ns3:latitude 5.239033e+01 ;
-        ns3:longitude 4.878561e+00 .
+        ns2:latitude 5.239033e+01 ;
+        ns2:longitude 4.878561e+00 .
 
-    ns1:toeZeilcentrum_Sloterplas a ns1:Sportaccommodaties,
+    ns3:toeZeilcentrum_Sloterplas a ns3:Sportaccommodaties,
             :instantie ;
         rdfs:label "Zeilcentrum Sloterplas"^^xsd:string ;
-        ns3:latitude 5.235944e+01 ;
-        ns3:longitude 4.816877e+00 .
+        ns2:latitude 5.235944e+01 ;
+        ns2:longitude 4.816877e+00 .
 
-    ns1:toeZouthaven a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toeZouthaven a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "Zouthaven"^^xsd:string ;
-        ns3:latitude 5.237707e+01 ;
-        ns3:longitude 4.916999e+00 .
+        ns2:latitude 5.237707e+01 ;
+        ns2:longitude 4.916999e+00 .
 
-    ns1:toeZuiderbad a ns1:Zwembaden,
+    ns3:toeZuiderbad a ns3:Zwembaden,
             :instantie ;
         rdfs:label "Zuiderbad"^^xsd:string ;
-        ns3:latitude 5.235884e+01 ;
-        ns3:longitude 4.885557e+00 .
+        ns2:latitude 5.235884e+01 ;
+        ns2:longitude 4.885557e+00 .
 
-    ns1:toeZuiderkerk a ns1:Kerkgebouwen,
+    ns3:toeZuiderkerk a ns3:Kerkgebouwen,
             :instantie ;
         rdfs:label "Zuiderkerk"^^xsd:string ;
-        ns3:latitude 5.237031e+01 ;
-        ns3:longitude 4.900375e+00 .
+        ns2:latitude 5.237031e+01 ;
+        ns2:longitude 4.900375e+00 .
 
-    ns1:toeZuiveringshal_West_-_Westergasterrein a ns1:Congres-_en_partyaccommodaties,
+    ns3:toeZuiveringshal_West_-_Westergasterrein a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "Zuiveringshal West - Westergasterrein"^^xsd:string ;
-        ns3:latitude 5.238617e+01 ;
-        ns3:longitude 4.872953e+00 .
+        ns2:latitude 5.238617e+01 ;
+        ns2:longitude 4.872953e+00 .
 
-    ns1:toecafé_Edel a <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's>,
+    ns3:toecafé_Edel a <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's>,
             :instantie ;
         rdfs:label "café Edel"^^xsd:string ;
-        ns3:latitude 5.23647e+01 ;
-        ns3:longitude 4.859666e+00 .
+        ns2:latitude 5.23647e+01 ;
+        ns2:longitude 4.859666e+00 .
 
-    ns1:toecultureel_centrum_Het_Fijnhout a ns1:Theaters_en_concertgebouwen,
+    ns3:toecultureel_centrum_Het_Fijnhout a ns3:Theaters_en_concertgebouwen,
             :instantie ;
         rdfs:label "cultureel centrum Het Fijnhout"^^xsd:string ;
-        ns3:latitude 5.236284e+01 ;
-        ns3:longitude 4.861963e+00 .
+        ns2:latitude 5.236284e+01 ;
+        ns2:longitude 4.861963e+00 .
 
-    ns1:toehet_Sieraad a ns1:Congres-_en_partyaccommodaties,
+    ns3:toehet_Sieraad a ns3:Congres-_en_partyaccommodaties,
             :instantie ;
         rdfs:label "het Sieraad"^^xsd:string ;
-        ns3:latitude 5.23647e+01 ;
-        ns3:longitude 4.859666e+00 .
+        ns2:latitude 5.23647e+01 ;
+        ns2:longitude 4.859666e+00 .
 
-    ns1:toerestaurant_il_Pecorino_Wilhelmina_Dok a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
+    ns3:toerestaurant_il_Pecorino_Wilhelmina_Dok a <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden>,
             :instantie ;
         rdfs:label "restaurant il Pecorino Wilhelmina Dok"^^xsd:string ;
-        ns3:latitude 5.238118e+01 ;
-        ns3:longitude 4.91371e+00 .
+        ns2:latitude 5.238118e+01 ;
+        ns2:longitude 4.91371e+00 .
 
-    ns1:toestichting_ViiA_locatie_Ijburg a ns1:Wijkcentra_en_buurthuizen,
+    ns3:toestichting_ViiA_locatie_Ijburg a ns3:Wijkcentra_en_buurthuizen,
             :instantie ;
         rdfs:label "stichting ViiA locatie Ijburg"^^xsd:string ;
-        ns3:latitude 5.235788e+01 ;
-        ns3:longitude 4.991334e+00 .
+        ns2:latitude 5.235788e+01 ;
+        ns2:longitude 4.991334e+00 .
 
     : a owl:Ontology .
 
@@ -2418,6 +2418,7 @@
         rdfs:subClassOf :verpleegZorgHuis .
 
     :LivingFacilities a owl:Class ;
+        rdfs:label "Living faculties"@en ;
         rdfs:subClassOf :elderlyLocation .
 
     :addictCare a owl:Class ;
@@ -2432,6 +2433,13 @@
     :addicts a :riskGroups,
             owl:NamedIndividual .
 
+    :careLocation a owl:Class ;
+        rdfs:label "General Care location"@en ;
+        rdfs:subClassOf :elderlyLocation .
+
+    :childDevelopment a :knowledgeDomain,
+            owl:NamedIndividual .
+
     :day a :careTimes,
             owl:NamedIndividual .
 
@@ -2439,6 +2447,7 @@
             owl:NamedIndividual .
 
     :daytimeLocation a owl:Class ;
+        rdfs:label "Day spending location"@en ;
         rdfs:subClassOf :Location .
 
     :dentalCare a owl:Class ;
@@ -2448,6 +2457,7 @@
                 owl:someValuesFrom :ageGroups ] .
 
     :dentist a owl:Class ;
+        rdfs:label "Dentist"@en ;
         rdfs:subClassOf :medicalLocation .
 
     :elderly a :riskGroups,
@@ -2475,7 +2485,8 @@
             owl:NamedIndividual .
 
     :jewishCareLocation a owl:Class ;
-        rdfs:subClassOf :careLocation .
+        rdfs:label "Jewish care location"@en ;
+        rdfs:subClassOf :elderlyLocation .
 
     :lhbt a :riskGroups,
             owl:NamedIndividual .
@@ -2493,6 +2504,7 @@
             owl:NamedIndividual .
 
     :park a owl:Class ;
+        rdfs:label "Park"@en ;
         rdfs:subClassOf :leisureLocation .
 
     :providesReintegration a owl:ObjectProperty ;
@@ -2514,6 +2526,7 @@
     :sleepLocation a :reintegrationPossibilites,
             owl:Class,
             owl:NamedIndividual ;
+        rdfs:label "Sleeping Location"@en ;
         rdfs:subClassOf :nightLocation .
 
     :specialNeedCare a :knowledgeDomain,
@@ -2522,30 +2535,36 @@
     :sportInterestedGroups a owl:Class ;
         rdfs:subClassOf :groups .
 
+    :sportcentrum a owl:Class ;
+        rdfs:label "Sportcentrum"@en ;
+        rdfs:subClassOf :leisureLocation .
+
     :swimmingPool a owl:Class ;
+        rdfs:label "Swimmingpool"@en ;
         rdfs:subClassOf :leisureLocation .
 
     :tennisHall a owl:Class ;
-        rdfs:subClassOf :sportcentrum .
+        rdfs:label "Hall for Tennis"@en ;
+        rdfs:subClassOf :leisureLocation .
 
     :website a owl:ObjectProperty .
 
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    ns1:Educatieve_tuinen rdfs:subClassOf :disabledLocations .
+    ns3:Educatieve_tuinen rdfs:subClassOf :disabledLocations .
 
-    ns1:Huisartsenposten rdfs:subClassOf :disabledLocations .
+    ns3:Huisartsenposten rdfs:subClassOf :disabledLocations .
 
-    ns1:Openbare_gebouwen rdfs:subClassOf :disabledLocations .
+    ns3:Openbare_gebouwen rdfs:subClassOf :disabledLocations .
 
-    ns1:Revalidatiecentra rdfs:subClassOf :disabledLocations .
+    ns3:Revalidatiecentra rdfs:subClassOf :disabledLocations .
 
-    ns1:Sociale_Dienst rdfs:subClassOf :disabledLocations .
+    ns3:Sociale_Dienst rdfs:subClassOf :disabledLocations .
 
-    ns1:Winkelcentra rdfs:subClassOf :disabledLocations .
+    ns3:Winkelcentra rdfs:subClassOf :disabledLocations .
 
-    ns1:Ziekenhuizen rdfs:subClassOf :disabledLocations .
+    ns3:Ziekenhuizen rdfs:subClassOf :disabledLocations .
 
     :addictsPrevention a :knowledgeDomain,
             owl:NamedIndividual .
@@ -2556,16 +2575,15 @@
     :adults a :ageGroups,
             owl:NamedIndividual .
 
-    :careLocation a owl:Class ;
-        rdfs:subClassOf :elderlyLocation .
-
     :children a :ageGroups,
             owl:NamedIndividual .
 
     :medicalLocation a owl:Class ;
+        rdfs:label "Medical Location"@en ;
         rdfs:subClassOf :Location .
 
     :nightLocation a owl:Class ;
+        rdfs:label "Night Location"@en ;
         rdfs:subClassOf :Location .
 
     :providesDentalcareTo a owl:ObjectProperty ;
@@ -2573,24 +2591,18 @@
         rdfs:range :ageGroups ;
         rdfs:subPropertyOf :provides .
 
-    :sportcentrum a owl:Class ;
-        rdfs:subClassOf :leisureLocation .
-
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
 
-    ns1:Galeries rdfs:subClassOf :disabledLocations .
+    ns3:Galeries rdfs:subClassOf :disabledLocations .
 
-    ns1:Informatiecentra rdfs:subClassOf :disabledLocations .
+    ns3:Informatiecentra rdfs:subClassOf :disabledLocations .
 
-    ns1:Klinieken rdfs:subClassOf :disabledLocations .
+    ns3:Klinieken rdfs:subClassOf :disabledLocations .
 
-    ns1:Politiebureaus rdfs:subClassOf :disabledLocations .
+    ns3:Politiebureaus rdfs:subClassOf :disabledLocations .
 
-    ns1:Rondvaartboten rdfs:subClassOf :disabledLocations .
-
-    :elderlyLocation a owl:Class ;
-        rdfs:subClassOf :Location .
+    ns3:Rondvaartboten rdfs:subClassOf :disabledLocations .
 
     :groups a owl:Class .
 
@@ -2601,44 +2613,49 @@
 
     <http://few.vu.nl/~mvr320/KRweb/resource/Cafe's> rdfs:subClassOf :disabledLocations .
 
-    ns1:Educatieve_centra rdfs:subClassOf :disabledLocations .
+    ns3:Educatieve_centra rdfs:subClassOf :disabledLocations .
 
-    ns1:Kantoorgebouwen rdfs:subClassOf :disabledLocations .
+    ns3:Kantoorgebouwen rdfs:subClassOf :disabledLocations .
 
-    ns1:openbare_toiletten rdfs:subClassOf :disabledLocations .
+    ns3:openbare_toiletten rdfs:subClassOf :disabledLocations .
 
     :careTimes a owl:Class .
 
-    :leisureLocation a owl:Class ;
+    :elderlyLocation a owl:Class ;
+        rdfs:label "Location for Elderly people"@en ;
         rdfs:subClassOf :Location .
 
-    ns1:Warenhuizen rdfs:subClassOf :disabledLocations .
+    ns3:Warenhuizen rdfs:subClassOf :disabledLocations .
 
     :ageGroups a owl:Class .
 
     :healthCare a owl:Class ;
         rdfs:subClassOf :organisations .
 
+    :leisureLocation a owl:Class ;
+        rdfs:label "Location for Leisure"@en ;
+        rdfs:subClassOf :Location .
+
     :provides a owl:ObjectProperty .
 
     :riskGroups a owl:Class ;
         rdfs:subClassOf :groups .
 
-    ns1:Hotels rdfs:subClassOf :disabledLocations .
+    ns3:Hotels rdfs:subClassOf :disabledLocations .
 
-    ns1:Supermarkten rdfs:subClassOf :disabledLocations .
+    ns3:Supermarkten rdfs:subClassOf :disabledLocations .
 
-    ns1:Apotheken rdfs:subClassOf :disabledLocations .
+    ns3:Apotheken rdfs:subClassOf :disabledLocations .
 
-    ns1:Stadhuizen_en_stadsdeelkantoren rdfs:subClassOf :disabledLocations .
+    ns3:Stadhuizen_en_stadsdeelkantoren rdfs:subClassOf :disabledLocations .
 
-    ns1:Toeristische_attracties rdfs:subClassOf :disabledLocations .
+    ns3:Toeristische_attracties rdfs:subClassOf :disabledLocations .
 
-    ns1:Uiterlijke_verzorging rdfs:subClassOf :disabledLocations .
+    ns3:Uiterlijke_verzorging rdfs:subClassOf :disabledLocations .
 
-    ns1:Verpleeg-_en_verzorgingshuizen rdfs:subClassOf :disabledLocations .
+    ns3:Verpleeg-_en_verzorgingshuizen rdfs:subClassOf :disabledLocations .
 
-    ns1:Zwembaden rdfs:subClassOf :disabledLocations .
+    ns3:Zwembaden rdfs:subClassOf :disabledLocations .
 
     :Location a owl:Class .
 
@@ -2646,43 +2663,44 @@
 
     :reintegrationPossibilites a owl:Class .
 
-    ns1:Bioscopen_en_filmhuizen rdfs:subClassOf :disabledLocations .
+    ns3:Bioscopen_en_filmhuizen rdfs:subClassOf :disabledLocations .
 
-    ns1:Huisartsen rdfs:subClassOf :disabledLocations .
+    ns3:Huisartsen rdfs:subClassOf :disabledLocations .
 
-    ns1:Tandartsen rdfs:subClassOf :disabledLocations .
+    ns3:Tandartsen rdfs:subClassOf :disabledLocations .
 
-    ns1:Bibliotheken rdfs:subClassOf :disabledLocations .
+    ns3:Bibliotheken rdfs:subClassOf :disabledLocations .
 
-    ns1:Kerkgebouwen rdfs:subClassOf :disabledLocations .
+    ns3:Kerkgebouwen rdfs:subClassOf :disabledLocations .
 
-    ns1:Parkeergarages rdfs:subClassOf :disabledLocations .
+    ns3:Parkeergarages rdfs:subClassOf :disabledLocations .
 
     :knowledgeDomain a owl:Class .
 
-    ns1:Congres-_en_partyaccommodaties rdfs:subClassOf :disabledLocations .
+    ns3:Congres-_en_partyaccommodaties rdfs:subClassOf :disabledLocations .
 
-    ns1:Stations rdfs:subClassOf :disabledLocations .
+    ns3:Stations rdfs:subClassOf :disabledLocations .
 
-    ns1:Fysiotherapeuten rdfs:subClassOf :disabledLocations .
+    ns3:Fysiotherapeuten rdfs:subClassOf :disabledLocations .
 
-    ns1:Gezondheidscentra rdfs:subClassOf :disabledLocations .
+    ns3:Gezondheidscentra rdfs:subClassOf :disabledLocations .
 
-    ns1:Musea rdfs:subClassOf :disabledLocations .
+    ns3:Musea rdfs:subClassOf :disabledLocations .
 
-    ns1:Theaters_en_concertgebouwen rdfs:subClassOf :disabledLocations .
+    ns3:Theaters_en_concertgebouwen rdfs:subClassOf :disabledLocations .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/Restaurants_/_eetgelegenheden> rdfs:subClassOf :disabledLocations .
 
-    ns1:Winkels rdfs:subClassOf :disabledLocations .
+    ns3:Winkels rdfs:subClassOf :disabledLocations .
 
-    ns1:Onderwijsinstellingen_en_scholen rdfs:subClassOf :disabledLocations .
+    ns3:Onderwijsinstellingen_en_scholen rdfs:subClassOf :disabledLocations .
 
-    ns1:Wijkcentra_en_buurthuizen rdfs:subClassOf :disabledLocations .
+    ns3:Wijkcentra_en_buurthuizen rdfs:subClassOf :disabledLocations .
 
-    ns1:Sportaccommodaties rdfs:subClassOf :disabledLocations .
+    ns3:Sportaccommodaties rdfs:subClassOf :disabledLocations .
 
     :disabledLocations a owl:Class ;
+        rdfs:label "Location for Disabled people"@en ;
         rdfs:subClassOf :Location .
 
     :instantie a owl:Class .

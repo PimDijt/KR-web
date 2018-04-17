@@ -29,16 +29,15 @@ def map_filter():
 
 @app.route('/map_test')
 def map_test():
-    filter_query = "prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+    '''filter_query = "prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
     filter_query += "prefix owl: <http://www.w3.org/2002/07/owl#> "
     filter_query += "prefix xsd: <http://www.w3.org/2001/XMLSchema#> "
     filter_query += "prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
-    filter_query += "select ?s ?p ?o WHERE{ ?s rdfs:subClassOf ?o }"
-    filter_query = "prefix%20rdf%3A%20<http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23>%0Aprefix%20owl%3A%20<http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23>%0Aprefix%20xsd%3A%20<http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23>%0Aprefix%20rdfs%3A%20<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>%0A%0ASELECT%20%3Fsup%20%3Fsub%20WHERE%20%7B%0A%20%20%3Fsup%20rdfs%3AsubClassOf%2B%20g13vocab%3ALocation%20.%0A%20%20%3Fsup%20rdfs%3AsubClassOf%3F%20g13vocab%3ALocation%20.%0A%20%20%3Fsub%20rdfs%3AsubClassOf%20%3Fsup%0A%7D%0A"
+    filter_query += "select ?s ?p ?o WHERE{ ?s rdfs:subClassOf ?o }"'''
+    filter_query = "prefix rdf%3A <http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23>%0Aprefix owl%3A <http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23>%0Aprefix xsd%3A <http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23>%0Aprefix rdfs%3A <http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>%0A%0ASELECT %3Fsup %3Fsub WHERE {%0A%20 %3Fsupt rdfs%3AsubClassOf%2B g13vocab%3ALocation .%0A%20 %3Fsupt rdfs%3AsubClassOf%3F g13vocab%3ALocation .%0A%20 %3Fsubt rdfs%3AsubClassOf %3Fsupt .%0A%20 %3Fsubt rdfs%3Alabel %3Fsub .%0A%20 %3Fsupt rdfs%3Alabel %3Fsup .%0A}"
     url = "/sparql?endpoint=http://localhost:5820/KRweb/query/&query="+filter_query
     return redirect(url)
-
-    return render_template('google_maps_overlap_test.html')
+    #return render_template('google_maps_overlap_test.html')
 
 @app.route('/upload')
 def upload():
@@ -68,6 +67,36 @@ def sparql():
             else:
                 return make_filter_page(response["results"]["bindings"])
                 #return jsonify(response)
+        except Exception as e:
+            traceback.print_exc()
+            return jsonify({'result': 'Error'})
+    else :
+        return jsonify({'result': 'Error'})
+
+@app.route('/sparql2', methods=['GET'])
+def sparql2():
+    endpoint = request.args.get('endpoint', None)
+    query = request.args.get('query', None)
+    return_format = request.args.get('format','JSON')
+
+    if endpoint and query :
+        sparql = SPARQLWrapper(endpoint)
+        sparql.setQuery(query)
+
+        if return_format == 'RDF':
+            sparql.setReturnFormat(RDF)
+        else :
+            sparql.setReturnFormat(JSON)
+            sparql.addParameter('Accept','application/sparql-results+json')
+
+        #sparql.addParameter('reasoning','true')
+        try :
+            response = sparql.query().convert()
+            if return_format == 'RDF':
+                return response.serialize(format='turtle')
+            else:
+                #return make_filter_page(response["results"]["bindings"])
+                return jsonify(response)
         except Exception as e:
             traceback.print_exc()
             return jsonify({'result': 'Error'})

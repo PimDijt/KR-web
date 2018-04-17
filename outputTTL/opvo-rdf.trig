@@ -516,6 +516,7 @@
         rdfs:subClassOf :verpleegZorgHuis .
 
     :LivingFacilities a owl:Class ;
+        rdfs:label "Living faculties"@en ;
         rdfs:subClassOf :elderlyLocation .
 
     :addictCare a owl:Class ;
@@ -530,6 +531,10 @@
     :addicts a :riskGroups,
             owl:NamedIndividual .
 
+    :careLocation a owl:Class ;
+        rdfs:label "General Care location"@en ;
+        rdfs:subClassOf :elderlyLocation .
+
     :day a :careTimes,
             owl:NamedIndividual .
 
@@ -537,6 +542,7 @@
             owl:NamedIndividual .
 
     :daytimeLocation a owl:Class ;
+        rdfs:label "Day spending location"@en ;
         rdfs:subClassOf :Location .
 
     :dentalCare a owl:Class ;
@@ -546,9 +552,11 @@
                 owl:someValuesFrom :ageGroups ] .
 
     :dentist a owl:Class ;
+        rdfs:label "Dentist"@en ;
         rdfs:subClassOf :medicalLocation .
 
     :disabledLocations a owl:Class ;
+        rdfs:label "Location for Disabled people"@en ;
         rdfs:subClassOf :Location .
 
     :elderly a :riskGroups,
@@ -576,7 +584,8 @@
             owl:NamedIndividual .
 
     :jewishCareLocation a owl:Class ;
-        rdfs:subClassOf :careLocation .
+        rdfs:label "Jewish care location"@en ;
+        rdfs:subClassOf :elderlyLocation .
 
     :lhbt a :riskGroups,
             owl:NamedIndividual .
@@ -594,6 +603,7 @@
             owl:NamedIndividual .
 
     :park a owl:Class ;
+        rdfs:label "Park"@en ;
         rdfs:subClassOf :leisureLocation .
 
     :providesReintegration a owl:ObjectProperty ;
@@ -615,6 +625,7 @@
     :sleepLocation a :reintegrationPossibilites,
             owl:Class,
             owl:NamedIndividual ;
+        rdfs:label "Sleeping Location"@en ;
         rdfs:subClassOf :nightLocation .
 
     :specialNeedCare a :knowledgeDomain,
@@ -623,11 +634,17 @@
     :sportInterestedGroups a owl:Class ;
         rdfs:subClassOf :groups .
 
+    :sportcentrum a owl:Class ;
+        rdfs:label "Sportcentrum"@en ;
+        rdfs:subClassOf :leisureLocation .
+
     :swimmingPool a owl:Class ;
+        rdfs:label "Swimmingpool"@en ;
         rdfs:subClassOf :leisureLocation .
 
     :tennisHall a owl:Class ;
-        rdfs:subClassOf :sportcentrum .
+        rdfs:label "Hall for Tennis"@en ;
+        rdfs:subClassOf :leisureLocation .
 
     :website a owl:ObjectProperty .
 
@@ -643,13 +660,12 @@
     :adults a :ageGroups,
             owl:NamedIndividual .
 
-    :careLocation a owl:Class ;
-        rdfs:subClassOf :elderlyLocation .
-
     :medicalLocation a owl:Class ;
+        rdfs:label "Medical Location"@en ;
         rdfs:subClassOf :Location .
 
     :nightLocation a owl:Class ;
+        rdfs:label "Night Location"@en ;
         rdfs:subClassOf :Location .
 
     :providesDentalcareTo a owl:ObjectProperty ;
@@ -657,14 +673,8 @@
         rdfs:range :ageGroups ;
         rdfs:subPropertyOf :provides .
 
-    :sportcentrum a owl:Class ;
-        rdfs:subClassOf :leisureLocation .
-
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
-
-    :elderlyLocation a owl:Class ;
-        rdfs:subClassOf :Location .
 
     :groups a owl:Class .
 
@@ -675,13 +685,18 @@
 
     :careTimes a owl:Class .
 
-    :leisureLocation a owl:Class ;
+    :elderlyLocation a owl:Class ;
+        rdfs:label "Location for Elderly people"@en ;
         rdfs:subClassOf :Location .
 
     :ageGroups a owl:Class .
 
     :healthCare a owl:Class ;
         rdfs:subClassOf :organisations .
+
+    :leisureLocation a owl:Class ;
+        rdfs:label "Location for Leisure"@en ;
+        rdfs:subClassOf :Location .
 
     :provides a owl:ObjectProperty .
 
@@ -697,6 +712,9 @@
     :knowledgeDomain a owl:Class .
 
     :children a :ageGroups,
+            owl:NamedIndividual .
+
+    :childDevelopment a :knowledgeDomain,
             owl:NamedIndividual .
 
     :instantie a owl:Class .
