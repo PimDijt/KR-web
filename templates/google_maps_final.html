@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
+      <script src="https://cdn.rawgit.com/bjornharrtell/jsts/gh-pages/1.1.2/jsts.min.js"></script>
     <title>Google maps filter</title>
     <script
 			  src="https://code.jquery.com/jquery-3.3.1.js"
@@ -223,33 +224,39 @@ SELECT ?sup ?sub WHERE {
 
       }
 
-      function reset_markers() {
-        for (var i = 0; i < markers.length; i++) {
-          markers[i].setMap(null);
+
+      function circlePath(center,radius,points){
+
+        var a=[],p=360/points,d=0;
+        for(var i=0;i<points;++i,d+=p){
+          a.push(google.maps.geometry.spherical.computeOffset(center,radius,d));
         }
-        markers = [];
+        return a;
       }
+
+      function createJstsPolygon(geometryFactory, polygon) {
+        var path = polygon.getPath();
+        var coordinates = path.getArray().map(function name(coord) {
+          return new jsts.geom.Coordinate(coord.lat(), coord.lng());
+        });
+        coordinates.push(coordinates[0]);
+        var shell = geometryFactory.createLinearRing(coordinates);
+        return geometryFactory.createPolygon(shell);
+      }
+
+      var map = null;
 
       function show_map() {
         // Create a map and center it on Amsterdam.
 
-        var map = new google.maps.Map(document.getElementById('map'), {
+        map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
           center: {lat: 52.379189, lng: 4.899431}
         });
-
-        //reset_markers();
-        objects.forEach(function(item){
-          if(item.show){
-            item.markers.forEach(function(marker){
-              add_marker(item.id, marker, map, item.circles, item.color, item.radius);
-            });
-          }
-        });
-
       }
 
       function fire_query(){
+        show_map();
         var query = "SELECT DISTINCT";
         var count = 0;
         var sub_classes = []
@@ -279,32 +286,74 @@ SELECT ?sup ?sub WHERE {
           query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
         }
 
+        /*
         for(var i=0; i<count; i++){
           for(var j=i+1; j<count; j++){
             query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
           }
-        }
+        }*/
 
         query += "\n}";
-        console.log(query);
-        /*
-        ?a rdfs:label ?namea .
-        ?a g13vocab:providesSpecialCare g13vocab:night .
-        ?b ns2:latitude ?latb .
-        ?b ns2:longitude ?lonb .
-        ?b rdfs:label ?nameb .
-        ?b g13vocab:providesSpecialCare g13vocab:day .
-        filter((?lata-?latb)*(?lata-?latb)+(?lona-?lonb)*(?lona-?lonb)>(100*100)) .
-        */
+
+        var endpoint = 'http://localhost:5820/KRweb' + '/query';
+        var format = 'JSON';
+
+        $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
+          var results = json.results.bindings;
+          console.log(results);
+          results.forEach(function(item){
+            var num = Object.keys(item).length / 3;
+            if(num == 1){
+
+            }else{
+              var poly_1_center = new google.maps.LatLng({lat: Number(item.lat0.value), lng: Number(item.lng0.value) });
+              var poly_1_center = new google.maps.LatLng({lat: 52.379189, lng: 4.899431 });
+              var circle_1 = new google.maps.Polygon({
+                map: map,
+                path:circlePath(poly_1_center,1000,1000),
+                strokeColor: '#FF0000',
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: '#FF0000',
+                fillOpacity: 0.35
+              });
+              var geometryFactory = new jsts.geom.GeometryFactory();
+              var intersection = createJstsPolygon(geometryFactory, circle_1);
+              for(var i=1; i<num; i++){
+                var poly_new_center = new google.maps.LatLng({lat: Number(item["lat"+i].value), lng: Number(item["lng"+i].value) });
+                var circle_new = new google.maps.Polygon({
+                  map: map,
+                  path:circlePath(poly_new_center,1000,1000),
+                  strokeColor: '#0000FF',
+                  strokeOpacity: 0.8,
+                  strokeWeight: 2,
+                  fillColor: '#0000FF',
+                  fillOpacity: 0.35
+                });
+                var new_circle  = createJstsPolygon(geometryFactory, circle_new);
+                intersection = intersection.intersection(new_circle);
+              }
+              drawIntersectionArea(intersection)
+            }
+          });
+        });
+
       }
 
-      $( ".checks" ).on( "click", function() {
-        console.log( "Works" );
-        console.log($('#query').val());
-      });
+      function drawIntersectionArea(polygon) {
+        var coords = polygon.getCoordinates().map(function (coord) {
+          return { lat: coord.x, lng: coord.y };
+        });
+        var intersectionArea = new google.maps.Polygon({
+          fillColor: '#000000',
+          fillOpacity: 0.35,
+          paths: coords,
+        });
+        intersectionArea.setMap(map);
+      }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map&libraries=geometry">
     </script>
   </body>
 </html>
