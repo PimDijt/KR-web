@@ -7,6 +7,9 @@ from iribaker import to_iri
 dbp = 'http://dbpedia.org/property/'
 DBP = Namespace(dbp)
 
+wgs = 'http://www.w3.org/2003/01/geo/wgs84_pos#'
+WGS = Namespace(wgs)
+
 # A namespace for our vocabulary items (schema information, RDFS, OWL classes and properties etc.)
 vocab = 'http://few.vu.nl/~mvr320/KRweb/vocab/'
 VOCAB = Namespace(vocab)
@@ -14,6 +17,12 @@ VOCAB = Namespace(vocab)
 # A namespace for our resources
 data = 'http://few.vu.nl/~mvr320/KRweb/resource'
 DATA = Namespace(data)
+
+geo = 'http://www.opengis.net/ont/geosparql#'
+GEO = Namespace(geo)
+
+geof = 'http://www.opengis.net/def/function/geosparql/'
+GEOF = Namespace(geof)
 
 filenames = ["lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
 short = ["lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
@@ -36,6 +45,8 @@ for i in range(len(filenames)):
     dataset.bind('g13data',DATA)
     dataset.bind('g13vocab',VOCAB)
     dataset.bind('g13set',SETNAME)
+    dataset.bind('geo', GEO)
+    dataset.bind('geof',GEOF)
 
     # We then get a new dataset object with our URI from the dataset.
     graph = dataset.graph(graph_uri)
@@ -60,12 +71,16 @@ for i in range(len(filenames)):
         # All set... we are now going to add the triples to our dataset
         if short[i] != "prk":
             thing = URIRef(to_iri(url+row['titel']))
+            thinggeo = URIRef(to_iri(url+row['titel']+'geo'))
             points = row['locatie'][5:].split()
-            lat = points[1][:-1]
-            lng = points[0][1:]
+            lati = points[1][:-1]
+            lngi = points[0][1:]
             name = Literal(row['titel'], datatype=XSD['string'])
-            lat = Literal(lat, datatype=XSD['double'])
-            lng = Literal(lng, datatype=XSD['double'])
+            lat = Literal(lati, datatype=XSD['double'])
+            lng = Literal(lngi, datatype=XSD['double'])
+            latw = Literal(lat, datatype=XSD['float'])
+            lngw = Literal(lng, datatype=XSD['float'])
+            point = Literal(row['locatie'], datatype=GEO['wktLiteral'])
             if short[i] != "toe":
                 if short[i] != "spzw":
                     website = Literal(row['internet'], datatype=XSD['string'])
@@ -74,19 +89,32 @@ for i in range(len(filenames)):
             dataset.add((thing, RDFS['label'], name))
             dataset.add((thing, DBP['latitude'], lat))
             dataset.add((thing, DBP['longitude'], lng))
+            dataset.add((thing, WGS['lat'], latw))
+            dataset.add((thing, WGS['long'], lngw))
+            dataset.add((thing, GEO['hasGeometry'], thinggeo))
+            dataset.add((thinggeo, RDF['type'], GEO['Geometry']))
+            dataset.add((thinggeo, GEO['asWKT'], point))
             if short[i]!="toe":
                 dataset.add((thing, VOCAB['website'], website))
             dataset.add((thing, RDF['type'], VOCAB['instantie']))
         else:
             thing = URIRef(to_iri(url+row['Naam']))
-            lat = row['LAT']
-            lng = row['LON']
+            lati = row['LAT']
+            lngi = row['LON']
+            point = Literal('POINT( '+row['LON']+' '+row['LAT']+' )', datatype=GEO['wktLiteral'])
             name = Literal(row['Naam'], datatype=XSD['string'])
-            lat = Literal(lat, datatype=XSD['double'])
-            lng = Literal(lng, datatype=XSD['double'])
+            lat = Literal(lati, datatype=XSD['double'])
+            lng = Literal(lngi, datatype=XSD['double'])
+            latw = Literal(lat, datatype=XSD['float'])
+            lngw = Literal(lng, datatype=XSD['float'])
             dataset.add((thing, RDFS['label'], name))
             dataset.add((thing, DBP['latitude'], lat))
             dataset.add((thing, DBP['longitude'], lng))
+            dataset.add((thing, WGS['lat'], latw))
+            dataset.add((thing, WGS['long'], lngw))
+            dataset.add((thing, GEO['hasGeometry'], thinggeo))
+            dataset.add((thinggeo, RDF['type'], GEO['Geometry']))
+            dataset.add((thinggeo, GEO['asWKT'], point))
             dataset.add((thing, RDF['type'], VOCAB['park']))
         if short[i] == "spzw":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['movementIssues']))

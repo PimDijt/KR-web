@@ -284,16 +284,19 @@ SELECT ?sup ?sub WHERE {
           query += " ?a"+i+" rdfs:label ?lab"+i+" .\n";
           query += " ?a"+i+" rdf:type ?c"+i+" .\n";
           query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
+          query += " ?a"+i+" geo:hasGeometry ?geo"+i+" ."
         }
 
-        /*
+        
         for(var i=0; i<count; i++){
           for(var j=i+1; j<count; j++){
-            query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
+            query += " ?geo"+i+" geof:nearby (?geo"+i+" 2000 <http://qudt.org/vocab/unit#Meter>) ."
+            //query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
           }
-        }*/
+        }
 
         query += "\n}";
+        console.log(query)
 
         var endpoint = 'http://localhost:5820/KRweb' + '/query';
         var format = 'JSON';
