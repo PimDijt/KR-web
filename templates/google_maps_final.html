@@ -40,7 +40,7 @@
     </style>
   </head>
   <body>
-    <textarea type="hidden" id="query">
+    <textarea type="hidden" id="query" style="display:none">
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?sup ?sub WHERE {
   ?supt rdfs:subClassOf+ g13vocab:Location .
@@ -189,41 +189,6 @@ SELECT ?sup ?sub WHERE {
         fire_query();
       }
 
-      var markers = [];
-
-
-      function add_marker(id, marker, map, circle, color, radius) {
-        var lat_lng = {lat: marker.lat, lng: marker.lng}
-        window["marker"+id+"_"+marker.id] = new google.maps.Marker({
-          position: lat_lng,
-          map: map,
-          clickable: true,
-        });
-
-        window["marker"+id+"_"+marker.id].info = new google.maps.InfoWindow({
-          content: marker.title,
-        });
-        google.maps.event.addListener(   window["marker"+id+"_"+marker.id], 'click', function() {
-            window["marker"+id+"_"+marker.id].info.open(map, window["marker"+id+"_"+marker.id]);
-        });
-
-        if(circle){
-          var _radius = radius*100
-          var cityCircle = new google.maps.Circle({
-            strokeColor: color,
-            strokeOpacity: 0.5,
-            strokeWeight: 1,
-            fillColor: color,
-            fillOpacity: 0.25,
-            map: map,
-            center: lat_lng,
-            radius: _radius
-          });
-        }
-
-
-      }
-
 
       function circlePath(center,radius,points){
 
@@ -252,6 +217,22 @@ SELECT ?sup ?sub WHERE {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
           center: {lat: 52.379189, lng: 4.899431}
+        });
+      }
+
+      function add_marker(coord, info){
+        var marker = new google.maps.Marker({
+          position: coord,
+          map: map,
+        });
+
+        var infowindow = infowindow  = new google.maps.InfoWindow({
+          content: info,
+        });
+
+
+        marker.addListener('click', function(){
+              infowindow.open(map,  marker);
         });
       }
 
@@ -290,54 +271,74 @@ SELECT ?sup ?sub WHERE {
 
         for(var i=0; i<count; i++){
           for(var j=i+1; j<count; j++){
-            query += " ?geo"+i+" geof:nearby (?geo"+j+" 2000 <http://qudt.org/vocab/unit#Meter>) .\n"
-            //query += " filter((?lat"+i+"-?lat"+j+")*(?lat"+i+"-?lat"+j+")+(?lng"+i+"-?lng"+j+")*(?lng"+i+"-?lng"+j+")>(100*100)) .";
+            radius = parseInt(sub_classes[i].radius) + parseInt(sub_classes[j].radius);
+            query += " ?geo"+i+" geof:nearby (?geo"+j+" "+radius+" <http://qudt.org/vocab/unit#Meter>) .\n"
           }
         }
 
         query += "\n}";
-        console.log(query)
+        console.log(query);
 
         var endpoint = 'http://localhost:5820/KRweb' + '/query';
         var format = 'JSON';
 
         $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
           var results = json.results.bindings;
+          var markers = {};
+          var windows = {};
+          var count = 0;
+          var colors = ["#FF0000","#00FF00","#0000FF"];
           console.log(results);
           results.forEach(function(item){
+            var sub_count = 0;
             var num = Object.keys(item).length / 3;
             if(num == 1){
+                var poly_1_center = new google.maps.LatLng({lat: Number(item.lat0.value), lng: Number(item.lng0.value) });
+                var circle_1 = new google.maps.Polygon({
+                  map: map,
+                  path:circlePath(poly_1_center,sub_classes[0].radius,100),
+                  fillColor: '#000000',
+                  fillOpacity: 0.35,
+                });
 
+                add_marker(poly_1_center, item.lab0.value);
             }else{
               var poly_1_center = new google.maps.LatLng({lat: Number(item.lat0.value), lng: Number(item.lng0.value) });
-              //var poly_1_center = new google.maps.LatLng({lat: 52.379189, lng: 4.899431 });
               var circle_1 = new google.maps.Polygon({
                 //map: map,
-                path:circlePath(poly_1_center,1000,1000),
-                strokeColor: '#FF0000',
+                path:circlePath(poly_1_center,sub_classes[0].radius,100),
+                strokeColor: colors[sub_count],
                 strokeOpacity: 0.8,
                 strokeWeight: 2,
-                fillColor: '#FF0000',
-                fillOpacity: 0.35
+                fillOpacity: 0.0,
+
               });
+
+              add_marker(poly_1_center, item.lab0.value);
+
               var geometryFactory = new jsts.geom.GeometryFactory();
               var intersection = createJstsPolygon(geometryFactory, circle_1);
               for(var i=1; i<num; i++){
+                sub_count += 1;
                 var poly_new_center = new google.maps.LatLng({lat: Number(item["lat"+i].value), lng: Number(item["lng"+i].value) });
                 var circle_new = new google.maps.Polygon({
                   //map: map,
-                  path:circlePath(poly_new_center,1000,1000),
-                  strokeColor: '#0000FF',
+                  path:circlePath(poly_new_center,sub_classes[i].radius,100),
+                  strokeColor: colors[sub_count],
                   strokeOpacity: 0.8,
                   strokeWeight: 2,
-                  fillColor: '#0000FF',
-                  fillOpacity: 0.35
+                  fillOpacity: 0.0,
                 });
+
+                add_marker(poly_new_center, item["lab"+i].value);
+
                 var new_circle  = createJstsPolygon(geometryFactory, circle_new);
                 intersection = intersection.intersection(new_circle);
               }
               drawIntersectionArea(intersection)
             }
+            sub_count = 0;
+            count += 1;
           });
         });
 

@@ -47,7 +47,7 @@ def sparql2():
             sparql.setReturnFormat(JSON)
             sparql.addParameter('Accept','application/sparql-results+json')
 
-        #sparql.addParameter('reasoning','true')
+        sparql.addParameter('reasoning','true')
         try :
             response = sparql.query().convert()
             if return_format == 'RDF':
