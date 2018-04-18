@@ -92,12 +92,23 @@ _:genid2 a owl:Restriction ;
 
 :addictCare rdfs:subClassOf :organisations .
 # 
-# http://few.vu.nl/~mvr320/KRweb/vocab/adultDentist
+# http://few.vu.nl/~mvr320/KRweb/vocab/addictSleepLocation
 
-:adultDentist a owl:Class ;
+:addictSleepLocation a owl:Class ;
 	owl:equivalentClass _:genid3 .
 
 _:genid3 a owl:Restriction ;
+	owl:onProperty :providesReintegration ;
+	owl:hasValue :placeToSleep .
+
+:addictSleepLocation rdfs:subClassOf :sleepLocation .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/adultDentist
+
+:adultDentist a owl:Class ;
+	owl:equivalentClass _:genid4 .
+
+_:genid4 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:hasValue :adults .
 
@@ -121,9 +132,9 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/childDentist
 
 :childDentist a owl:Class ;
-	owl:equivalentClass _:genid4 .
+	owl:equivalentClass _:genid5 .
 
-_:genid4 a owl:Restriction ;
+_:genid5 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:hasValue :children .
 
@@ -139,9 +150,9 @@ _:genid4 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/dentalCare
 
 :dentalCare a owl:Class ;
-	owl:equivalentClass _:genid5 .
+	owl:equivalentClass _:genid6 .
 
-_:genid5 a owl:Restriction ;
+_:genid6 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:someValuesFrom :ageGroups .
 
@@ -220,6 +231,10 @@ _:genid5 a owl:Restriction ;
 :park a owl:Class ;
 	rdfs:subClassOf :leisureLocation ;
 	rdfs:label "Park"@en .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/reintegrationHelp
+
+:reintegrationHelp a owl:Class .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/reintegrationPossibilites
 
@@ -357,6 +372,10 @@ _:genid5 a owl:Restriction ;
 
 :night a owl:NamedIndividual , :careTimes .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/placeToSleep
+
+:placeToSleep a owl:NamedIndividual , :reintegrationHelp .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/reumaCare
 
 :reumaCare a owl:NamedIndividual , :knowledgeDomain .
@@ -395,14 +414,14 @@ _:genid5 a owl:Restriction ;
 # 
 # 
 
-_:genid6 a owl:AllDifferent ;
-	owl:distinctMembers _:genid8 .
+_:genid7 a owl:AllDifferent ;
+	owl:distinctMembers _:genid9 .
+
+_:genid9 a rdf:List ;
+	rdf:first :adults ;
+	rdf:rest _:genid8 .
 
 _:genid8 a rdf:List ;
-	rdf:first :adults ;
-	rdf:rest _:genid7 .
-
-_:genid7 a rdf:List ;
 	rdf:first :children ;
 	rdf:rest rdf:nil .
 # 

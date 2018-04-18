@@ -754,6 +754,12 @@
                 owl:hasValue :addictsReintegration ;
                 owl:onProperty :providesInformationAbout ] .
 
+    :addictSleepLocation a owl:Class ;
+        rdfs:subClassOf :sleepLocation ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :placeToSleep ;
+                owl:onProperty :providesReintegration ] .
+
     :addicts a :riskGroups,
             owl:NamedIndividual .
 
@@ -849,11 +855,6 @@
         rdfs:label "Park"@en ;
         rdfs:subClassOf :leisureLocation .
 
-    :providesReintegration a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :reintegrationPossibilites ;
-        rdfs:subPropertyOf :provides .
-
     :providesSpecialCare a owl:ObjectProperty ;
         rdfs:domain :organisations ;
         rdfs:range :careTimes ;
@@ -864,12 +865,6 @@
 
     :rheumatismCenter a owl:Class ;
         rdfs:subClassOf :healthCare .
-
-    :sleepLocation a :reintegrationPossibilites,
-            owl:Class,
-            owl:NamedIndividual ;
-        rdfs:label "Sleeping Location"@en ;
-        rdfs:subClassOf :nightLocation .
 
     :specialNeedCare a :knowledgeDomain,
             owl:NamedIndividual .
@@ -1118,6 +1113,22 @@
     :nightLocation a owl:Class ;
         rdfs:label "Night Location"@en ;
         rdfs:subClassOf :Location .
+
+    :placeToSleep a :reintegrationHelp,
+            owl:NamedIndividual .
+
+    :providesReintegration a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :reintegrationPossibilites ;
+        rdfs:subPropertyOf :provides .
+
+    :reintegrationHelp a owl:Class .
+
+    :sleepLocation a :reintegrationPossibilites,
+            owl:Class,
+            owl:NamedIndividual ;
+        rdfs:label "Sleeping Location"@en ;
+        rdfs:subClassOf :nightLocation .
 
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .

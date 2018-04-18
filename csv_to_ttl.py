@@ -147,7 +147,7 @@ for i in range(len(filenames)):
             for esubstrbw in substrbw:
                 if esubstrbw in row['titel']:
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['livingAccomodation']))
-                    dataset.add((thing, VOCAB['providesReintegration'], VOCAB['sleepLocation']))
+                    dataset.add((thing, VOCAB['providesReintegration'], VOCAB['placeToSleep']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
                     dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
