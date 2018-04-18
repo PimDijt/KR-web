@@ -92,6 +92,18 @@ _:genid2 a owl:Restriction ;
 
 :addictCare rdfs:subClassOf :organisations .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/adultDentist
+
+:adultDentist a owl:Class ;
+	owl:equivalentClass _:genid3 .
+
+_:genid3 a owl:Restriction ;
+	owl:onProperty :providesDentalcareTo ;
+	owl:hasValue :adults .
+
+:adultDentist rdfs:subClassOf :medicalLocation ;
+	rdfs:label "Adult dentist"@en .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/ageGroups
 
 :ageGroups a owl:Class .
@@ -106,6 +118,18 @@ _:genid2 a owl:Restriction ;
 
 :careTimes a owl:Class .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/childDentist
+
+:childDentist a owl:Class ;
+	owl:equivalentClass _:genid4 .
+
+_:genid4 a owl:Restriction ;
+	owl:onProperty :providesDentalcareTo ;
+	owl:hasValue :children .
+
+:childDentist rdfs:subClassOf :medicalLocation ;
+	rdfs:label "Child dentist"@en .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/daytimeLocation
 
 :daytimeLocation a owl:Class ;
@@ -115,9 +139,9 @@ _:genid2 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/dentalCare
 
 :dentalCare a owl:Class ;
-	owl:equivalentClass _:genid3 .
+	owl:equivalentClass _:genid5 .
 
-_:genid3 a owl:Restriction ;
+_:genid5 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:someValuesFrom :ageGroups .
 
@@ -371,14 +395,14 @@ _:genid3 a owl:Restriction ;
 # 
 # 
 
-_:genid4 a owl:AllDifferent ;
-	owl:distinctMembers _:genid6 .
+_:genid6 a owl:AllDifferent ;
+	owl:distinctMembers _:genid8 .
 
-_:genid6 a rdf:List ;
+_:genid8 a rdf:List ;
 	rdf:first :adults ;
-	rdf:rest _:genid5 .
+	rdf:rest _:genid7 .
 
-_:genid5 a rdf:List ;
+_:genid7 a rdf:List ;
 	rdf:first :children ;
 	rdf:rest rdf:nil .
 # 

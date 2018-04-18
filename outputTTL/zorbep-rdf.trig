@@ -4,10 +4,10 @@
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix geof: <http://www.opengis.net/def/function/geosparql/> .
-@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix ns2: <urn:x-rdflib:> .
+@prefix ns1: <urn:x-rdflib:> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix ns3: <http://dbpedia.org/property/> .
-@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns4: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -26,54 +26,54 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.sheerenloo.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbep's_Heeren_Loo_Kwadrantgeo> ;
-        ns4:lat "52.3616242442979"^^xsd:float,
+        ns2:lat "52.3616242442979"^^xsd:float,
             "52.3616872859729"^^xsd:float,
             "52.3936400584394"^^xsd:float ;
-        ns4:long "4.87831507228949"^^xsd:float,
+        ns2:long "4.87831507228949"^^xsd:float,
             "4.90851275987104"^^xsd:float,
             "4.9554494917273"^^xsd:float .
 
-    ns1:zorbep10_voor_Toekomst a :instantie ;
+    ns4:zorbep10_voor_Toekomst a :instantie ;
         rdfs:label "10 voor Toekomst"^^xsd:string ;
         ns3:latitude 5.238945e+01 ;
         ns3:longitude 4.956396e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbep10_voor_Toekomstgeo ;
-        ns4:lat "52.3894453789521"^^xsd:float ;
-        ns4:long "4.95639615135924"^^xsd:float .
+        geo:hasGeometry ns4:zorbep10_voor_Toekomstgeo ;
+        ns2:lat "52.3894453789521"^^xsd:float ;
+        ns2:long "4.95639615135924"^^xsd:float .
 
-    ns1:zorbep2Learn a :instantie ;
+    ns4:zorbep2Learn a :instantie ;
         rdfs:label "2Learn"^^xsd:string ;
         ns3:latitude 5.235472e+01 ;
         ns3:longitude 4.872582e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.2learn.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbep2Learngeo ;
-        ns4:lat "52.354723832105"^^xsd:float ;
-        ns4:long "4.87258150723278"^^xsd:float .
+        geo:hasGeometry ns4:zorbep2Learngeo ;
+        ns2:lat "52.354723832105"^^xsd:float ;
+        ns2:long "4.87258150723278"^^xsd:float .
 
-    ns1:zorbepAMC_Audiologisch_Centrum a :instantie ;
+    ns4:zorbepAMC_Audiologisch_Centrum a :instantie ;
         rdfs:label "AMC Audiologisch Centrum"^^xsd:string ;
         ns3:latitude 5.229499e+01 ;
         ns3:longitude 4.957913e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "https://www.amc.nl/web/Zorg/Patient/Afspraak-op-de-polikliniek/Audiologisch-Centrum.htm"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAMC_Audiologisch_Centrumgeo ;
-        ns4:lat "52.2949898712038"^^xsd:float ;
-        ns4:long "4.9579126998355"^^xsd:float .
+        geo:hasGeometry ns4:zorbepAMC_Audiologisch_Centrumgeo ;
+        ns2:lat "52.2949898712038"^^xsd:float ;
+        ns2:long "4.9579126998355"^^xsd:float .
 
-    ns1:zorbepAVG-poli a :instantie ;
+    ns4:zorbepAVG-poli a :instantie ;
         rdfs:label "AVG-poli"^^xsd:string ;
         ns3:latitude 5.235718e+01 ;
         ns3:longitude 4.927527e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAVG-poligeo ;
-        ns4:lat "52.3571789080153"^^xsd:float ;
-        ns4:long "4.92752703085528"^^xsd:float .
+        geo:hasGeometry ns4:zorbepAVG-poligeo ;
+        ns2:lat "52.3571789080153"^^xsd:float ;
+        ns2:long "4.92752703085528"^^xsd:float .
 
-    ns1:zorbepActiviteitencentrum_Buitenveldert a :dayLocation,
+    ns4:zorbepActiviteitencentrum_Buitenveldert a :dayLocation,
             :instantie ;
         rdfs:label "Activiteitencentrum Buitenveldert"^^xsd:string ;
         ns3:latitude 5.233386e+01 ;
@@ -81,11 +81,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.nieuwamstelrade.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepActiviteitencentrum_Buitenveldertgeo ;
-        ns4:lat "52.3338595297254"^^xsd:float ;
-        ns4:long "4.88426717632913"^^xsd:float .
+        geo:hasGeometry ns4:zorbepActiviteitencentrum_Buitenveldertgeo ;
+        ns2:lat "52.3338595297254"^^xsd:float ;
+        ns2:long "4.88426717632913"^^xsd:float .
 
-    ns1:zorbepActiviteitencentrum_Vrankendijke a :dayLocation,
+    ns4:zorbepActiviteitencentrum_Vrankendijke a :dayLocation,
             :instantie ;
         rdfs:label "Activiteitencentrum Vrankendijke"^^xsd:string ;
         ns3:latitude 5.236043e+01 ;
@@ -93,9 +93,9 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.nieuwamstelrade.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepActiviteitencentrum_Vrankendijkegeo ;
-        ns4:lat "52.3604327341924"^^xsd:float ;
-        ns4:long "4.79059837953438"^^xsd:float .
+        geo:hasGeometry ns4:zorbepActiviteitencentrum_Vrankendijkegeo ;
+        ns2:lat "52.3604327341924"^^xsd:float ;
+        ns2:long "4.79059837953438"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAltra_Jeugd_&_Opvoedhulp> a :instantie ;
         rdfs:label "Altra Jeugd & Opvoedhulp"^^xsd:string ;
@@ -110,16 +110,16 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.altra.nl/"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAltra_Jeugd_&_Opvoedhulpgeo> ;
-        ns4:lat "52.3111903519439"^^xsd:float,
+        ns2:lat "52.3111903519439"^^xsd:float,
             "52.3575556457396"^^xsd:float,
             "52.3711390903422"^^xsd:float,
             "52.3943762676545"^^xsd:float ;
-        ns4:long "4.88177411728941"^^xsd:float,
+        ns2:long "4.88177411728941"^^xsd:float,
             "4.93149007223425"^^xsd:float,
             "4.93198566646566"^^xsd:float,
             "4.95420750871907"^^xsd:float .
 
-    ns1:zorbepAltra_Onderwijs a :instantie ;
+    ns4:zorbepAltra_Onderwijs a :instantie ;
         rdfs:label "Altra Onderwijs"^^xsd:string ;
         ns3:latitude 5.228988e+01,
             5.229207e+01,
@@ -137,15 +137,15 @@
             4.970589e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.altra.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAltra_Onderwijsgeo ;
-        ns4:lat "52.2898791528339"^^xsd:float,
+        geo:hasGeometry ns4:zorbepAltra_Onderwijsgeo ;
+        ns2:lat "52.2898791528339"^^xsd:float,
             "52.2920659981719"^^xsd:float,
             "52.3156442002537"^^xsd:float,
             "52.3522573308916"^^xsd:float,
             "52.3634058940364"^^xsd:float,
             "52.3711390903422"^^xsd:float,
             "52.3896301607576"^^xsd:float ;
-        ns4:long "4.81497065093984"^^xsd:float,
+        ns2:long "4.81497065093984"^^xsd:float,
             "4.85828389454875"^^xsd:float,
             "4.88177411728941"^^xsd:float,
             "4.94735803554038"^^xsd:float,
@@ -160,10 +160,10 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.zorgopmaatamsterdam.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAmbulante_Zorg_op_Maat_Amsterdam_(Azoma)geo> ;
-        ns4:lat "-32.9933688"^^xsd:float ;
-        ns4:long "-60.6475646"^^xsd:float .
+        ns2:lat "-32.9933688"^^xsd:float ;
+        ns2:long "-60.6475646"^^xsd:float .
 
-    ns1:zorbepAmsta a :instantie ;
+    ns4:zorbepAmsta a :instantie ;
         rdfs:label "Amsta"^^xsd:string ;
         ns3:latitude 5.235718e+01,
             5.23647e+01,
@@ -173,11 +173,11 @@
             4.927527e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAmstageo ;
-        ns4:lat "52.3571789080153"^^xsd:float,
+        geo:hasGeometry ns4:zorbepAmstageo ;
+        ns2:lat "52.3571789080153"^^xsd:float,
             "52.3646974046891"^^xsd:float,
             "52.3683134878271"^^xsd:float ;
-        ns4:long "4.9105504148047"^^xsd:float,
+        ns2:long "4.9105504148047"^^xsd:float,
             "4.92722078457808"^^xsd:float,
             "4.92752703085528"^^xsd:float .
 
@@ -188,28 +188,28 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.amsta.nl/nl/1609-ambulante_ondersteuning.html"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAmsta_Karaad,_ambulant_specialistisch_teamgeo> ;
-        ns4:lat "52.3571789080153"^^xsd:float ;
-        ns4:long "4.92752703085528"^^xsd:float .
+        ns2:lat "52.3571789080153"^^xsd:float ;
+        ns2:long "4.92752703085528"^^xsd:float .
 
-    ns1:zorbepAmstelbewind a :instantie ;
+    ns4:zorbepAmstelbewind a :instantie ;
         rdfs:label "Amstelbewind"^^xsd:string ;
         ns3:latitude -3.299348e+01 ;
         ns3:longitude -6.064769e+01 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.amstelbewind.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAmstelbewindgeo ;
-        ns4:lat "-32.9934848"^^xsd:float ;
-        ns4:long "-60.6476901"^^xsd:float .
+        geo:hasGeometry ns4:zorbepAmstelbewindgeo ;
+        ns2:lat "-32.9934848"^^xsd:float ;
+        ns2:long "-60.6476901"^^xsd:float .
 
-    ns1:zorbepAmstelring a :instantie ;
+    ns4:zorbepAmstelring a :instantie ;
         rdfs:label "Amstelring"^^xsd:string ;
         ns3:latitude 5.235927e+01 ;
         ns3:longitude 4.844226e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAmstelringgeo ;
-        ns4:lat "52.3592707948934"^^xsd:float ;
-        ns4:long "4.844225661794"^^xsd:float .
+        geo:hasGeometry ns4:zorbepAmstelringgeo ;
+        ns2:lat "52.3592707948934"^^xsd:float ;
+        ns2:long "4.844225661794"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAngo_steunpunt_werk,_handicap_&_voorzieningen> a :instantie ;
         rdfs:label "Ango steunpunt werk, handicap & voorzieningen"^^xsd:string ;
@@ -218,58 +218,58 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.ango-werk-handicap.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAngo_steunpunt_werk,_handicap_&_voorzieningengeo> ;
-        ns4:lat "52.350486122525"^^xsd:float ;
-        ns4:long "4.83526629428379"^^xsd:float .
+        ns2:lat "52.350486122525"^^xsd:float ;
+        ns2:long "4.83526629428379"^^xsd:float .
 
-    ns1:zorbepAppèl_bewindvoering a :instantie ;
+    ns4:zorbepAppèl_bewindvoering a :instantie ;
         rdfs:label "Appèl bewindvoering"^^xsd:string ;
         ns3:latitude -3.299346e+01 ;
         ns3:longitude -6.064821e+01 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.appelbewind.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAppèl_bewindvoeringgeo ;
-        ns4:lat "-32.9934592"^^xsd:float ;
-        ns4:long "-60.6482121"^^xsd:float .
+        geo:hasGeometry ns4:zorbepAppèl_bewindvoeringgeo ;
+        ns2:lat "-32.9934592"^^xsd:float ;
+        ns2:long "-60.6482121"^^xsd:float .
 
-    ns1:zorbepArchimedestrainingen_Amsterdam a :instantie ;
+    ns4:zorbepArchimedestrainingen_Amsterdam a :instantie ;
         rdfs:label "Archimedestrainingen Amsterdam"^^xsd:string ;
         ns3:latitude 5.235965e+01 ;
         ns3:longitude 4.912058e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.archimedestrainingen.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepArchimedestrainingen_Amsterdamgeo ;
-        ns4:lat "52.3596523675711"^^xsd:float ;
-        ns4:long "4.91205793905202"^^xsd:float .
+        geo:hasGeometry ns4:zorbepArchimedestrainingen_Amsterdamgeo ;
+        ns2:lat "52.3596523675711"^^xsd:float ;
+        ns2:long "4.91205793905202"^^xsd:float .
 
-    ns1:zorbepAudiologisch_Centrum_Amsterdam a :instantie ;
+    ns4:zorbepAudiologisch_Centrum_Amsterdam a :instantie ;
         rdfs:label "Audiologisch Centrum Amsterdam"^^xsd:string ;
         ns3:latitude 5.235972e+01 ;
         ns3:longitude 4.840345e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kentalis.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepAudiologisch_Centrum_Amsterdamgeo ;
-        ns4:lat "52.3597202930998"^^xsd:float ;
-        ns4:long "4.84034458764035"^^xsd:float .
+        geo:hasGeometry ns4:zorbepAudiologisch_Centrum_Amsterdamgeo ;
+        ns2:lat "52.3597202930998"^^xsd:float ;
+        ns2:long "4.84034458764035"^^xsd:float .
 
-    ns1:zorbepBRight_GGZ_Jeugd_en_Gezin_Amsterdam a :instantie ;
+    ns4:zorbepBRight_GGZ_Jeugd_en_Gezin_Amsterdam a :instantie ;
         rdfs:label "BRight GGZ Jeugd en Gezin Amsterdam"^^xsd:string ;
         ns3:latitude 5.236341e+01 ;
         ns3:longitude 4.858284e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.brightggz.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepBRight_GGZ_Jeugd_en_Gezin_Amsterdamgeo ;
-        ns4:lat "52.3634058940364"^^xsd:float ;
-        ns4:long "4.85828389454875"^^xsd:float .
+        geo:hasGeometry ns4:zorbepBRight_GGZ_Jeugd_en_Gezin_Amsterdamgeo ;
+        ns2:lat "52.3634058940364"^^xsd:float ;
+        ns2:long "4.85828389454875"^^xsd:float .
 
-    ns1:zorbepBea_Zorg a :instantie ;
+    ns4:zorbepBea_Zorg a :instantie ;
         rdfs:label "Bea Zorg"^^xsd:string ;
         ns3:latitude 5.234193e+01 ;
         ns3:longitude 4.800767e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.beazorg.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepBea_Zorggeo ;
-        ns4:lat "52.3419327118816"^^xsd:float ;
-        ns4:long "4.80076689049978"^^xsd:float .
+        geo:hasGeometry ns4:zorbepBea_Zorggeo ;
+        ns2:lat "52.3419327118816"^^xsd:float ;
+        ns2:long "4.80076689049978"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepBelangengroep_Gehandicapten_Oud-West_(BGOW)> a :instantie ;
         rdfs:label "Belangengroep Gehandicapten Oud-West (BGOW)"^^xsd:string ;
@@ -278,8 +278,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.bgow.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepBelangengroep_Gehandicapten_Oud-West_(BGOW)geo> ;
-        ns4:lat "52.365184966089"^^xsd:float ;
-        ns4:long "4.86627905184774"^^xsd:float .
+        ns2:lat "52.365184966089"^^xsd:float ;
+        ns2:long "4.86627905184774"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepBeleyes_/_Bartiméus> a :instantie ;
         rdfs:label "Beleyes / Bartiméus"^^xsd:string ;
@@ -288,18 +288,18 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.beleyes.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepBeleyes_/_Bartiméusgeo> ;
-        ns4:lat "52.3625946260121"^^xsd:float ;
-        ns4:long "4.80419346629451"^^xsd:float .
+        ns2:lat "52.3625946260121"^^xsd:float ;
+        ns2:long "4.80419346629451"^^xsd:float .
 
-    ns1:zorbepBudgetondersteuning_Nederland a :instantie ;
+    ns4:zorbepBudgetondersteuning_Nederland a :instantie ;
         rdfs:label "Budgetondersteuning Nederland"^^xsd:string ;
         ns3:latitude 5.244283e+01 ;
         ns3:longitude 4.856451e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.budgetondersteuning.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepBudgetondersteuning_Nederlandgeo ;
-        ns4:lat "52.4428337"^^xsd:float ;
-        ns4:long "4.8564506"^^xsd:float .
+        geo:hasGeometry ns4:zorbepBudgetondersteuning_Nederlandgeo ;
+        ns2:lat "52.4428337"^^xsd:float ;
+        ns2:long "4.8564506"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepCASA_Amsterdam,_centrum_voor_anticonceptie,_ongewenste_zwangerschap_en_seksualiteit> a :instantie ;
         rdfs:label "CASA Amsterdam, centrum voor anticonceptie, ongewenste zwangerschap en seksualiteit"^^xsd:string ;
@@ -308,60 +308,60 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.casaklinieken.nl/nl/over-casa-klinieken/locaties/amsterdam"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepCASA_Amsterdam,_centrum_voor_anticonceptie,_ongewenste_zwangerschap_en_seksualiteitgeo> ;
-        ns4:lat "52.365328341946"^^xsd:float ;
-        ns4:long "4.92230390704698"^^xsd:float .
+        ns2:lat "52.365328341946"^^xsd:float ;
+        ns2:long "4.92230390704698"^^xsd:float .
 
-    ns1:zorbepCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdam a :instantie ;
+    ns4:zorbepCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdam a :instantie ;
         rdfs:label "CASA Reade Centrum voor Aangepast Sporten Amsterdam"^^xsd:string ;
         ns3:latitude 5.237074e+01 ;
         ns3:longitude 4.844408e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://casa.reade.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdamgeo ;
-        ns4:lat "52.3707400053483"^^xsd:float ;
-        ns4:long "4.84440831816034"^^xsd:float .
+        geo:hasGeometry ns4:zorbepCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdamgeo ;
+        ns2:lat "52.3707400053483"^^xsd:float ;
+        ns2:long "4.84440831816034"^^xsd:float .
 
-    ns1:zorbepCOC_Amsterdam a :instantie ;
+    ns4:zorbepCOC_Amsterdam a :instantie ;
         rdfs:label "COC Amsterdam"^^xsd:string ;
         ns3:latitude 5.235762e+01 ;
         ns3:longitude 4.895316e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cocamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepCOC_Amsterdamgeo ;
-        ns4:lat "52.357624660428"^^xsd:float ;
-        ns4:long "4.89531572029783"^^xsd:float .
+        geo:hasGeometry ns4:zorbepCOC_Amsterdamgeo ;
+        ns2:lat "52.357624660428"^^xsd:float ;
+        ns2:long "4.89531572029783"^^xsd:float .
 
-    ns1:zorbepCentrum_PS a :instantie ;
+    ns4:zorbepCentrum_PS a :instantie ;
         rdfs:label "Centrum PS"^^xsd:string ;
         ns3:latitude 5.237039e+01 ;
         ns3:longitude 4.865792e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.volksbond.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepCentrum_PSgeo ;
-        ns4:lat "52.3703867207915"^^xsd:float ;
-        ns4:long "4.86579213870465"^^xsd:float .
+        geo:hasGeometry ns4:zorbepCentrum_PSgeo ;
+        ns2:lat "52.3703867207915"^^xsd:float ;
+        ns2:long "4.86579213870465"^^xsd:float .
 
-    ns1:zorbepCordaan a :instantie ;
+    ns4:zorbepCordaan a :instantie ;
         rdfs:label "Cordaan"^^xsd:string ;
         ns3:latitude 5.238146e+01 ;
         ns3:longitude 4.89558e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepCordaangeo ;
-        ns4:lat "52.3814611735525"^^xsd:float ;
-        ns4:long "4.89558008548591"^^xsd:float .
+        geo:hasGeometry ns4:zorbepCordaangeo ;
+        ns2:lat "52.3814611735525"^^xsd:float ;
+        ns2:long "4.89558008548591"^^xsd:float .
 
-    ns1:zorbepCordaan_Jeugd a :instantie ;
+    ns4:zorbepCordaan_Jeugd a :instantie ;
         rdfs:label "Cordaan Jeugd"^^xsd:string ;
         ns3:latitude 5.233637e+01 ;
         ns3:longitude 4.869177e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl/jeugd"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepCordaan_Jeugdgeo ;
-        ns4:lat "52.3363658"^^xsd:float ;
-        ns4:long "4.869177"^^xsd:float .
+        geo:hasGeometry ns4:zorbepCordaan_Jeugdgeo ;
+        ns2:lat "52.3363658"^^xsd:float ;
+        ns2:long "4.869177"^^xsd:float .
 
-    ns1:zorbepDagcentrum_Buitenveldert a :dayLocation,
+    ns4:zorbepDagcentrum_Buitenveldert a :dayLocation,
             :instantie ;
         rdfs:label "Dagcentrum Buitenveldert"^^xsd:string ;
         ns3:latitude 5.233173e+01 ;
@@ -369,11 +369,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDagcentrum_Buitenveldertgeo ;
-        ns4:lat "52.3317308595466"^^xsd:float ;
-        ns4:long "4.86590862919496"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDagcentrum_Buitenveldertgeo ;
+        ns2:lat "52.3317308595466"^^xsd:float ;
+        ns2:long "4.86590862919496"^^xsd:float .
 
-    ns1:zorbepDagcentrum_De_Beemster a :dayLocation,
+    ns4:zorbepDagcentrum_De_Beemster a :dayLocation,
             :instantie ;
         rdfs:label "Dagcentrum De Beemster"^^xsd:string ;
         ns3:latitude 5.23969e+01 ;
@@ -381,11 +381,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDagcentrum_De_Beemstergeo ;
-        ns4:lat "52.3969026054934"^^xsd:float ;
-        ns4:long "4.95079933014972"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDagcentrum_De_Beemstergeo ;
+        ns2:lat "52.3969026054934"^^xsd:float ;
+        ns2:long "4.95079933014972"^^xsd:float .
 
-    ns1:zorbepDagcentrum_de_Dokken a :dayLocation,
+    ns4:zorbepDagcentrum_de_Dokken a :dayLocation,
             :instantie ;
         rdfs:label "Dagcentrum de Dokken"^^xsd:string ;
         ns3:latitude 5.240708e+01 ;
@@ -393,11 +393,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDagcentrum_de_Dokkengeo ;
-        ns4:lat "52.4070753960839"^^xsd:float ;
-        ns4:long "4.89542819102772"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDagcentrum_de_Dokkengeo ;
+        ns2:lat "52.4070753960839"^^xsd:float ;
+        ns2:long "4.89542819102772"^^xsd:float .
 
-    ns1:zorbepDagcentrum_de_Drie_Wachters a :dayLocation,
+    ns4:zorbepDagcentrum_de_Drie_Wachters a :dayLocation,
             :instantie ;
         rdfs:label "Dagcentrum de Drie Wachters"^^xsd:string ;
         ns3:latitude 5.235479e+01 ;
@@ -405,11 +405,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDagcentrum_de_Drie_Wachtersgeo ;
-        ns4:lat "52.3547900972418"^^xsd:float ;
-        ns4:long "4.79811630366309"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDagcentrum_de_Drie_Wachtersgeo ;
+        ns2:lat "52.3547900972418"^^xsd:float ;
+        ns2:long "4.79811630366309"^^xsd:float .
 
-    ns1:zorbepDagcentrum_de_Elzen a :dayLocation,
+    ns4:zorbepDagcentrum_de_Elzen a :dayLocation,
             :instantie ;
         rdfs:label "Dagcentrum de Elzen"^^xsd:string ;
         ns3:latitude 5.235627e+01 ;
@@ -417,11 +417,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDagcentrum_de_Elzengeo ;
-        ns4:lat "52.3562716852884"^^xsd:float ;
-        ns4:long "4.79423602869114"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDagcentrum_de_Elzengeo ;
+        ns2:lat "52.3562716852884"^^xsd:float ;
+        ns2:long "4.79423602869114"^^xsd:float .
 
-    ns1:zorbepDagcentrum_de_Rank a :dayLocation,
+    ns4:zorbepDagcentrum_de_Rank a :dayLocation,
             :instantie ;
         rdfs:label "Dagcentrum de Rank"^^xsd:string ;
         ns3:latitude 5.24124e+01 ;
@@ -429,41 +429,41 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDagcentrum_de_Rankgeo ;
-        ns4:lat "52.4123978321366"^^xsd:float ;
-        ns4:long "4.90020462551469"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDagcentrum_de_Rankgeo ;
+        ns2:lat "52.4123978321366"^^xsd:float ;
+        ns2:long "4.90020462551469"^^xsd:float .
 
-    ns1:zorbepDe_Driestroom a :instantie ;
+    ns4:zorbepDe_Driestroom a :instantie ;
         rdfs:label "De Driestroom"^^xsd:string ;
         ns3:latitude 4.289103e+01 ;
         ns3:longitude -7.406324e+01 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.driestroom.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDe_Driestroomgeo ;
-        ns4:lat "42.8910278"^^xsd:float ;
-        ns4:long "-74.0632407"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDe_Driestroomgeo ;
+        ns2:lat "42.8910278"^^xsd:float ;
+        ns2:long "-74.0632407"^^xsd:float .
 
-    ns1:zorbepDe_Joriskring a :instantie ;
+    ns4:zorbepDe_Joriskring a :instantie ;
         rdfs:label "De Joriskring"^^xsd:string ;
         ns3:latitude 5.233347e+01 ;
         ns3:longitude 4.884712e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.lievegoed.nl/joriskring"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDe_Joriskringgeo ;
-        ns4:lat "52.3334659560565"^^xsd:float ;
-        ns4:long "4.88471177806043"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDe_Joriskringgeo ;
+        ns2:lat "52.3334659560565"^^xsd:float ;
+        ns2:long "4.88471177806043"^^xsd:float .
 
-    ns1:zorbepDe_Koppeling_behandelcentrum_JeugdzorgPlus a :instantie ;
+    ns4:zorbepDe_Koppeling_behandelcentrum_JeugdzorgPlus a :instantie ;
         rdfs:label "De Koppeling behandelcentrum JeugdzorgPlus"^^xsd:string ;
         ns3:latitude 5.229207e+01 ;
         ns3:longitude 4.947358e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.dekoppeling.com"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDe_Koppeling_behandelcentrum_JeugdzorgPlusgeo ;
-        ns4:lat "52.2920659981719"^^xsd:float ;
-        ns4:long "4.94735803554038"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDe_Koppeling_behandelcentrum_JeugdzorgPlusgeo ;
+        ns2:lat "52.2920659981719"^^xsd:float ;
+        ns2:long "4.94735803554038"^^xsd:float .
 
-    ns1:zorbepDe_Opvoedpoli a :instantie ;
+    ns4:zorbepDe_Opvoedpoli a :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
         ns3:latitude 5.232165e+01,
             5.235757e+01,
@@ -477,27 +477,27 @@
             4.969712e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDe_Opvoedpoligeo ;
-        ns4:lat "52.3216539197909"^^xsd:float,
+        geo:hasGeometry ns4:zorbepDe_Opvoedpoligeo ;
+        ns2:lat "52.3216539197909"^^xsd:float,
             "52.3575717600906"^^xsd:float,
             "52.3633815376159"^^xsd:float,
             "52.3858811544946"^^xsd:float,
             "52.3986971027549"^^xsd:float ;
-        ns4:long "4.85005952852072"^^xsd:float,
+        ns2:long "4.85005952852072"^^xsd:float,
             "4.88229645224543"^^xsd:float,
             "4.93013477444236"^^xsd:float,
             "4.93560377481371"^^xsd:float,
             "4.96971175371461"^^xsd:float .
 
-    ns1:zorbepDe_Regenboog_Groep a :instantie ;
+    ns4:zorbepDe_Regenboog_Groep a :instantie ;
         rdfs:label "De Regenboog Groep"^^xsd:string ;
         ns3:latitude 5.238026e+01 ;
         ns3:longitude 4.894139e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.deregenboog.org"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDe_Regenboog_Groepgeo ;
-        ns4:lat "52.380259820669"^^xsd:float ;
-        ns4:long "4.89413939550038"^^xsd:float .
+        geo:hasGeometry ns4:zorbepDe_Regenboog_Groepgeo ;
+        ns2:lat "52.380259820669"^^xsd:float ;
+        ns2:long "4.89413939550038"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepDe_Riethorst,_GGZ-centrum_voor_doven_&_slechthorenden> a :instantie ;
         rdfs:label "De Riethorst, GGZ-centrum voor doven & slechthorenden"^^xsd:string ;
@@ -506,8 +506,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.propersona.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepDe_Riethorst,_GGZ-centrum_voor_doven_&_slechthorendengeo> ;
-        ns4:lat "52.404546992831"^^xsd:float ;
-        ns4:long "4.89473619464938"^^xsd:float .
+        ns2:lat "52.404546992831"^^xsd:float ;
+        ns2:long "4.89473619464938"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepDe_Schakel,_inloop_/_maaltijden_/_kringloop> a :instantie ;
         rdfs:label "De Schakel, inloop / maaltijden / kringloop"^^xsd:string ;
@@ -516,10 +516,10 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kerkkoepelwest.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepDe_Schakel,_inloop_/_maaltijden_/_kringloopgeo> ;
-        ns4:lat "52.3828297892819"^^xsd:float ;
-        ns4:long "4.87704358256216"^^xsd:float .
+        ns2:lat "52.3828297892819"^^xsd:float ;
+        ns2:long "4.87704358256216"^^xsd:float .
 
-    ns1:zorbepDieetPlaneet a :instantie ;
+    ns4:zorbepDieetPlaneet a :instantie ;
         rdfs:label "DieetPlaneet"^^xsd:string ;
         ns3:latitude 5.235223e+01,
             5.235964e+01,
@@ -535,41 +535,41 @@
             4.939157e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.dieetplaneet.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepDieetPlaneetgeo ;
-        ns4:lat "52.352233805103"^^xsd:float,
+        geo:hasGeometry ns4:zorbepDieetPlaneetgeo ;
+        ns2:lat "52.352233805103"^^xsd:float,
             "52.3596379073453"^^xsd:float,
             "52.3611690989647"^^xsd:float,
             "52.3710096659766"^^xsd:float,
             "52.3751663693234"^^xsd:float,
             "52.3791910438749"^^xsd:float ;
-        ns4:long "4.80520896748721"^^xsd:float,
+        ns2:long "4.80520896748721"^^xsd:float,
             "4.85580382191538"^^xsd:float,
             "4.86131567576651"^^xsd:float,
             "4.88221701580906"^^xsd:float,
             "4.88941121801893"^^xsd:float,
             "4.9391567674713"^^xsd:float .
 
-    ns1:zorbepEffe_bij_moeder_an a :instantie ;
+    ns4:zorbepEffe_bij_moeder_an a :instantie ;
         rdfs:label "Effe bij moeder an"^^xsd:string ;
         ns3:latitude 5.239047e+01 ;
         ns3:longitude 4.877925e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.effebijmoederan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepEffe_bij_moeder_angeo ;
-        ns4:lat "52.3904731224072"^^xsd:float ;
-        ns4:long "4.87792519219701"^^xsd:float .
+        geo:hasGeometry ns4:zorbepEffe_bij_moeder_angeo ;
+        ns2:lat "52.3904731224072"^^xsd:float ;
+        ns2:long "4.87792519219701"^^xsd:float .
 
-    ns1:zorbepEvean_Korthagenhuis a :instantie ;
+    ns4:zorbepEvean_Korthagenhuis a :instantie ;
         rdfs:label "Evean Korthagenhuis"^^xsd:string ;
         ns3:latitude 5.240484e+01 ;
         ns3:longitude 4.939876e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.evean.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepEvean_Korthagenhuisgeo ;
-        ns4:lat "52.4048428761997"^^xsd:float ;
-        ns4:long "4.93987619079198"^^xsd:float .
+        geo:hasGeometry ns4:zorbepEvean_Korthagenhuisgeo ;
+        ns2:lat "52.4048428761997"^^xsd:float ;
+        ns2:long "4.93987619079198"^^xsd:float .
 
-    ns1:zorbepFIOM_team a :instantie ;
+    ns4:zorbepFIOM_team a :instantie ;
         rdfs:label "FIOM team"^^xsd:string ;
         ns3:latitude 5.231119e+01,
             5.239101e+01 ;
@@ -577,23 +577,23 @@
             4.954208e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.altra.nl/fiom"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepFIOM_teamgeo ;
-        ns4:lat "52.3111903519439"^^xsd:float,
+        geo:hasGeometry ns4:zorbepFIOM_teamgeo ;
+        ns2:lat "52.3111903519439"^^xsd:float,
             "52.3910109917999"^^xsd:float ;
-        ns4:long "4.91670196390276"^^xsd:float,
+        ns2:long "4.91670196390276"^^xsd:float,
             "4.95420750871907"^^xsd:float .
 
-    ns1:zorbepFasehuis_Het_Gein a :instantie ;
+    ns4:zorbepFasehuis_Het_Gein a :instantie ;
         rdfs:label "Fasehuis Het Gein"^^xsd:string ;
         ns3:latitude 5.230066e+01 ;
         ns3:longitude 4.98391e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepFasehuis_Het_Geingeo ;
-        ns4:lat "52.3006627979"^^xsd:float ;
-        ns4:long "4.98390974612081"^^xsd:float .
+        geo:hasGeometry ns4:zorbepFasehuis_Het_Geingeo ;
+        ns2:lat "52.3006627979"^^xsd:float ;
+        ns2:long "4.98390974612081"^^xsd:float .
 
-    ns1:zorbepFokus_wonen_met_adl-assistentie a :instantie ;
+    ns4:zorbepFokus_wonen_met_adl-assistentie a :instantie ;
         rdfs:label "Fokus wonen met adl-assistentie"^^xsd:string ;
         ns3:latitude 5.229235e+01,
             5.234648e+01,
@@ -605,17 +605,17 @@
             4.988954e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.fokuswonen.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepFokus_wonen_met_adl-assistentiegeo ;
-        ns4:lat "52.2923482064667"^^xsd:float,
+        geo:hasGeometry ns4:zorbepFokus_wonen_met_adl-assistentiegeo ;
+        ns2:lat "52.2923482064667"^^xsd:float,
             "52.3464771284987"^^xsd:float,
             "52.3556213095559"^^xsd:float,
             "52.3692872633141"^^xsd:float ;
-        ns4:long "4.8081015936522"^^xsd:float,
+        ns2:long "4.8081015936522"^^xsd:float,
             "4.85720882378969"^^xsd:float,
             "4.93738620227457"^^xsd:float,
             "4.98895415903919"^^xsd:float .
 
-    ns1:zorbepFourstar_Nederland a :instantie ;
+    ns4:zorbepFourstar_Nederland a :instantie ;
         rdfs:label "Fourstar Nederland"^^xsd:string ;
         ns3:latitude 5.233292e+01,
             5.241498e+01 ;
@@ -623,10 +623,10 @@
             4.914779e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.fourstar.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepFourstar_Nederlandgeo ;
-        ns4:lat "52.3329157339047"^^xsd:float,
+        geo:hasGeometry ns4:zorbepFourstar_Nederlandgeo ;
+        ns2:lat "52.3329157339047"^^xsd:float,
             "52.4149824082887"^^xsd:float ;
-        ns4:long "4.91030344933954"^^xsd:float,
+        ns2:long "4.91030344933954"^^xsd:float,
             "4.91477945830079"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGGMD_(maatschappelijk_werk_doven_en_slechthorenden)> a :instantie ;
@@ -636,8 +636,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.ggmd.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGGMD_(maatschappelijk_werk_doven_en_slechthorenden)geo> ;
-        ns4:lat "52.3625849157315"^^xsd:float ;
-        ns4:long "4.80404678195825"^^xsd:float .
+        ns2:lat "52.3625849157315"^^xsd:float ;
+        ns2:long "4.80404678195825"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGO!_Onderwijs> a :instantie ;
         rdfs:label "GO! Onderwijs"^^xsd:string ;
@@ -646,8 +646,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.projectgo.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGO!_Onderwijsgeo> ;
-        ns4:lat "52.3465213986311"^^xsd:float ;
-        ns4:long "4.83542935988208"^^xsd:float .
+        ns2:lat "52.3465213986311"^^xsd:float ;
+        ns2:long "4.83542935988208"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGehandicapten_Platform_Geuzenveld_/_Slotermeer> a :instantie ;
         rdfs:label "Gehandicapten Platform Geuzenveld / Slotermeer"^^xsd:string ;
@@ -656,20 +656,20 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.stgdebrug.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGehandicapten_Platform_Geuzenveld_/_Slotermeergeo> ;
-        ns4:lat "52.3799470577476"^^xsd:float ;
-        ns4:long "4.79814931132976"^^xsd:float .
+        ns2:lat "52.3799470577476"^^xsd:float ;
+        ns2:long "4.79814931132976"^^xsd:float .
 
-    ns1:zorbepGemeenschap_Oudezijds_100 a :instantie ;
+    ns4:zorbepGemeenschap_Oudezijds_100 a :instantie ;
         rdfs:label "Gemeenschap Oudezijds 100"^^xsd:string ;
         ns3:latitude 5.237278e+01 ;
         ns3:longitude 4.897996e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.oudezijds100.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepGemeenschap_Oudezijds_100geo ;
-        ns4:lat "52.3727800764557"^^xsd:float ;
-        ns4:long "4.89799645165028"^^xsd:float .
+        geo:hasGeometry ns4:zorbepGemeenschap_Oudezijds_100geo ;
+        ns2:lat "52.3727800764557"^^xsd:float ;
+        ns2:long "4.89799645165028"^^xsd:float .
 
-    ns1:zorbepHVO-Querido a :instantie ;
+    ns4:zorbepHVO-Querido a :instantie ;
         rdfs:label "HVO-Querido"^^xsd:string ;
         ns3:latitude 5.235013e+01,
             5.237558e+01 ;
@@ -677,13 +677,13 @@
             4.918913e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.hvoquerido.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepHVO-Queridogeo ;
-        ns4:lat "52.3501253517124"^^xsd:float,
+        geo:hasGeometry ns4:zorbepHVO-Queridogeo ;
+        ns2:lat "52.3501253517124"^^xsd:float,
             "52.3755844114509"^^xsd:float ;
-        ns4:long "4.87674510359242"^^xsd:float,
+        ns2:long "4.87674510359242"^^xsd:float,
             "4.91891283765617"^^xsd:float .
 
-    ns1:zorbepHeliomare_Amsterdam a :instantie ;
+    ns4:zorbepHeliomare_Amsterdam a :instantie ;
         rdfs:label "Heliomare Amsterdam"^^xsd:string ;
         ns3:latitude 5.230846e+01,
             5.235006e+01 ;
@@ -691,31 +691,31 @@
             4.955803e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.heliomare.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepHeliomare_Amsterdamgeo ;
-        ns4:lat "52.3084638943307"^^xsd:float,
+        geo:hasGeometry ns4:zorbepHeliomare_Amsterdamgeo ;
+        ns2:lat "52.3084638943307"^^xsd:float,
             "52.3500609791286"^^xsd:float ;
-        ns4:long "4.85470029525033"^^xsd:float,
+        ns2:long "4.85470029525033"^^xsd:float,
             "4.95580302981431"^^xsd:float .
 
-    ns1:zorbepHoutwerkplaats_Papaverweg a :instantie ;
+    ns4:zorbepHoutwerkplaats_Papaverweg a :instantie ;
         rdfs:label "Houtwerkplaats Papaverweg"^^xsd:string ;
         ns3:latitude 5.239562e+01 ;
         ns3:longitude 4.906192e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepHoutwerkplaats_Papaverweggeo ;
-        ns4:lat "52.3956243863587"^^xsd:float ;
-        ns4:long "4.90619227320112"^^xsd:float .
+        geo:hasGeometry ns4:zorbepHoutwerkplaats_Papaverweggeo ;
+        ns2:lat "52.3956243863587"^^xsd:float ;
+        ns2:long "4.90619227320112"^^xsd:float .
 
-    ns1:zorbepHumanitas a :instantie ;
+    ns4:zorbepHumanitas a :instantie ;
         rdfs:label "Humanitas"^^xsd:string ;
         ns3:latitude 5.235978e+01 ;
         ns3:longitude 4.902103e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.humanitas.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepHumanitasgeo ;
-        ns4:lat "52.3597827618791"^^xsd:float ;
-        ns4:long "4.90210339499815"^^xsd:float .
+        geo:hasGeometry ns4:zorbepHumanitasgeo ;
+        ns2:lat "52.3597827618791"^^xsd:float ;
+        ns2:long "4.90210339499815"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepIn2work,_coaching_&_loopbaanadvies> a :instantie ;
         rdfs:label "In2work, coaching & loopbaanadvies"^^xsd:string ;
@@ -724,40 +724,40 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.i2w.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepIn2work,_coaching_&_loopbaanadviesgeo> ;
-        ns4:lat "52.3314666"^^xsd:float ;
-        ns4:long "4.9666266"^^xsd:float .
+        ns2:lat "52.3314666"^^xsd:float ;
+        ns2:long "4.9666266"^^xsd:float .
 
-    ns1:zorbepIndaad a :instantie ;
+    ns4:zorbepIndaad a :instantie ;
         rdfs:label "Indaad"^^xsd:string ;
         ns3:latitude 5.236295e+01 ;
         ns3:longitude 4.838e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.indaad.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepIndaadgeo ;
-        ns4:lat "52.3629450331677"^^xsd:float ;
-        ns4:long "4.8379998811253"^^xsd:float .
+        geo:hasGeometry ns4:zorbepIndaadgeo ;
+        ns2:lat "52.3629450331677"^^xsd:float ;
+        ns2:long "4.8379998811253"^^xsd:float .
 
-    ns1:zorbepInitiatiefgroep_Toegankelijkheid_Amsterdam-Noord a :instantie ;
+    ns4:zorbepInitiatiefgroep_Toegankelijkheid_Amsterdam-Noord a :instantie ;
         rdfs:label "Initiatiefgroep Toegankelijkheid Amsterdam-Noord"^^xsd:string ;
         ns3:latitude 5.239812e+01 ;
         ns3:longitude 4.922533e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:zorbepInitiatiefgroep_Toegankelijkheid_Amsterdam-Noordgeo ;
-        ns4:lat "52.3981162811783"^^xsd:float ;
-        ns4:long "4.92253306692958"^^xsd:float .
+        geo:hasGeometry ns4:zorbepInitiatiefgroep_Toegankelijkheid_Amsterdam-Noordgeo ;
+        ns2:lat "52.3981162811783"^^xsd:float ;
+        ns2:long "4.92253306692958"^^xsd:float .
 
-    ns1:zorbepInloophuis_De_Tweede_Mijl a :instantie ;
+    ns4:zorbepInloophuis_De_Tweede_Mijl a :instantie ;
         rdfs:label "Inloophuis De Tweede Mijl"^^xsd:string ;
         ns3:latitude 5.238125e+01 ;
         ns3:longitude 4.88511e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.detweedemijl.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepInloophuis_De_Tweede_Mijlgeo ;
-        ns4:lat "52.3812464803589"^^xsd:float ;
-        ns4:long "4.88511043336344"^^xsd:float .
+        geo:hasGeometry ns4:zorbepInloophuis_De_Tweede_Mijlgeo ;
+        ns2:lat "52.3812464803589"^^xsd:float ;
+        ns2:long "4.88511043336344"^^xsd:float .
 
-    ns1:zorbepJellinek a :instantie ;
+    ns4:zorbepJellinek a :instantie ;
         rdfs:label "Jellinek"^^xsd:string ;
         ns3:latitude 5.235304e+01,
             5.235763e+01,
@@ -767,55 +767,55 @@
             4.877166e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.jellinek.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepJellinekgeo ;
-        ns4:lat "52.3530360013636"^^xsd:float,
+        geo:hasGeometry ns4:zorbepJellinekgeo ;
+        ns2:lat "52.3530360013636"^^xsd:float,
             "52.3576259372672"^^xsd:float,
             "52.3641384434116"^^xsd:float ;
-        ns4:long "4.8520993233509"^^xsd:float,
+        ns2:long "4.8520993233509"^^xsd:float,
             "4.87321094181789"^^xsd:float,
             "4.87716592332137"^^xsd:float .
 
-    ns1:zorbepJeugdsportfonds_Amsterdam a :instantie ;
+    ns4:zorbepJeugdsportfonds_Amsterdam a :instantie ;
         rdfs:label "Jeugdsportfonds Amsterdam"^^xsd:string ;
         ns3:latitude 5.232268e+01 ;
         ns3:longitude 4.975657e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://amsterdam.jeugdsportfonds.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepJeugdsportfonds_Amsterdamgeo ;
-        ns4:lat "52.3226813778957"^^xsd:float ;
-        ns4:long "4.97565723908227"^^xsd:float .
+        geo:hasGeometry ns4:zorbepJeugdsportfonds_Amsterdamgeo ;
+        ns2:lat "52.3226813778957"^^xsd:float ;
+        ns2:long "4.97565723908227"^^xsd:float .
 
-    ns1:zorbepJongerencultuurfonds a :instantie ;
+    ns4:zorbepJongerencultuurfonds a :instantie ;
         rdfs:label "Jongerencultuurfonds"^^xsd:string ;
         ns3:latitude -3.299346e+01 ;
         ns3:longitude -6.064867e+01 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.jongerencultuurfonds.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepJongerencultuurfondsgeo ;
-        ns4:lat "-32.9934643"^^xsd:float ;
-        ns4:long "-60.6486658"^^xsd:float .
+        geo:hasGeometry ns4:zorbepJongerencultuurfondsgeo ;
+        ns2:lat "-32.9934643"^^xsd:float ;
+        ns2:long "-60.6486658"^^xsd:float .
 
-    ns1:zorbepKDC_De_Kring a :instantie ;
+    ns4:zorbepKDC_De_Kring a :instantie ;
         rdfs:label "KDC De Kring"^^xsd:string ;
         ns3:latitude 5.235231e+01 ;
         ns3:longitude 4.811565e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKDC_De_Kringgeo ;
-        ns4:lat "52.3523127177086"^^xsd:float ;
-        ns4:long "4.81156469091204"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKDC_De_Kringgeo ;
+        ns2:lat "52.3523127177086"^^xsd:float ;
+        ns2:long "4.81156469091204"^^xsd:float .
 
-    ns1:zorbepKDC_De_Schuit a :instantie ;
+    ns4:zorbepKDC_De_Schuit a :instantie ;
         rdfs:label "KDC De Schuit"^^xsd:string ;
         ns3:latitude 5.236611e+01 ;
         ns3:longitude 4.805821e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKDC_De_Schuitgeo ;
-        ns4:lat "52.3661078649175"^^xsd:float ;
-        ns4:long "4.80582108494578"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKDC_De_Schuitgeo ;
+        ns2:lat "52.3661078649175"^^xsd:float ;
+        ns2:long "4.80582108494578"^^xsd:float .
 
-    ns1:zorbepKentalis_Zorg a :instantie ;
+    ns4:zorbepKentalis_Zorg a :instantie ;
         rdfs:label "Kentalis Zorg"^^xsd:string ;
         ns3:latitude 5.235864e+01,
             5.23595e+01,
@@ -829,19 +829,19 @@
             4.840345e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kentalis.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKentalis_Zorggeo ;
-        ns4:lat "52.3586398536566"^^xsd:float,
+        geo:hasGeometry ns4:zorbepKentalis_Zorggeo ;
+        ns2:lat "52.3586398536566"^^xsd:float,
             "52.3595042659925"^^xsd:float,
             "52.3597202930998"^^xsd:float,
             "52.3598431385266"^^xsd:float,
             "52.3757417455987"^^xsd:float ;
-        ns4:long "4.78070073164883"^^xsd:float,
+        ns2:long "4.78070073164883"^^xsd:float,
             "4.82991124523222"^^xsd:float,
             "4.83639829346147"^^xsd:float,
             "4.83775935008874"^^xsd:float,
             "4.84034458764035"^^xsd:float .
 
-    ns1:zorbepKids_at_Home a :instantie ;
+    ns4:zorbepKids_at_Home a :instantie ;
         rdfs:label "Kids at Home"^^xsd:string ;
         ns3:latitude 5.234581e+01,
             5.235468e+01,
@@ -855,19 +855,19 @@
             4.998714e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kids-at-home.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKids_at_Homegeo ;
-        ns4:lat "52.3458131632375"^^xsd:float,
+        geo:hasGeometry ns4:zorbepKids_at_Homegeo ;
+        ns2:lat "52.3458131632375"^^xsd:float,
             "52.3546836871764"^^xsd:float,
             "52.3784546972955"^^xsd:float,
             "52.3821880517126"^^xsd:float,
             "52.4119828645781"^^xsd:float ;
-        ns4:long "4.87126342179425"^^xsd:float,
+        ns2:long "4.87126342179425"^^xsd:float,
             "4.87205717824741"^^xsd:float,
             "4.88689327832145"^^xsd:float,
             "4.88849039271406"^^xsd:float,
             "4.99871386805544"^^xsd:float .
 
-    ns1:zorbepKindercentrum_De_Ster a :instantie ;
+    ns4:zorbepKindercentrum_De_Ster a :instantie ;
         rdfs:label "Kindercentrum De Ster"^^xsd:string ;
         ns3:latitude 5.22975e+01,
             5.232142e+01 ;
@@ -875,13 +875,13 @@
             4.99335e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.desterkindercentrum.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKindercentrum_De_Stergeo ;
-        ns4:lat "52.2975039444502"^^xsd:float,
+        geo:hasGeometry ns4:zorbepKindercentrum_De_Stergeo ;
+        ns2:lat "52.2975039444502"^^xsd:float,
             "52.3214183771265"^^xsd:float ;
-        ns4:long "4.96664847606707"^^xsd:float,
+        ns2:long "4.96664847606707"^^xsd:float,
             "4.99334980770013"^^xsd:float .
 
-    ns1:zorbepKinderdagcentrum_Omega a :dayLocation,
+    ns4:zorbepKinderdagcentrum_Omega a :dayLocation,
             :instantie ;
         rdfs:label "Kinderdagcentrum Omega"^^xsd:string ;
         ns3:latitude 5.234844e+01 ;
@@ -889,21 +889,21 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.stichtingomega.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKinderdagcentrum_Omegageo ;
-        ns4:lat "52.3484351116003"^^xsd:float ;
-        ns4:long "5.00915938868404"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKinderdagcentrum_Omegageo ;
+        ns2:lat "52.3484351116003"^^xsd:float ;
+        ns2:long "5.00915938868404"^^xsd:float .
 
-    ns1:zorbepKinderhospice_Het_Lindenhofje a :instantie ;
+    ns4:zorbepKinderhospice_Het_Lindenhofje a :instantie ;
         rdfs:label "Kinderhospice Het Lindenhofje"^^xsd:string ;
         ns3:latitude 5.238046e+01 ;
         ns3:longitude 4.885222e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKinderhospice_Het_Lindenhofjegeo ;
-        ns4:lat "52.3804560366734"^^xsd:float ;
-        ns4:long "4.8852221921004"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKinderhospice_Het_Lindenhofjegeo ;
+        ns2:lat "52.3804560366734"^^xsd:float ;
+        ns2:long "4.8852221921004"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Anton_de_Komplein a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Anton_de_Komplein a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Anton de Komplein"^^xsd:string ;
@@ -913,11 +913,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Anton_de_Kompleingeo ;
-        ns4:lat "52.3165509873492"^^xsd:float ;
-        ns4:long "4.95774839684871"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Anton_de_Kompleingeo ;
+        ns2:lat "52.3165509873492"^^xsd:float ;
+        ns2:long "4.95774839684871"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Buiten_Oranje a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Buiten_Oranje a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Buiten Oranje"^^xsd:string ;
@@ -927,11 +927,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Buiten_Oranjegeo ;
-        ns4:lat "52.3826876877329"^^xsd:float ;
-        ns4:long "4.88798760419105"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Buiten_Oranjegeo ;
+        ns2:lat "52.3826876877329"^^xsd:float ;
+        ns2:long "4.88798760419105"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_De_Admiraal a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_De_Admiraal a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen De Admiraal"^^xsd:string ;
@@ -941,11 +941,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_De_Admiraalgeo ;
-        ns4:lat "52.3845002730553"^^xsd:float ;
-        ns4:long "4.8463843831641"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_De_Admiraalgeo ;
+        ns2:lat "52.3845002730553"^^xsd:float ;
+        ns2:long "4.8463843831641"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_De_Singel a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_De_Singel a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen De Singel"^^xsd:string ;
@@ -955,11 +955,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_De_Singelgeo ;
-        ns4:lat "52.3560726400688"^^xsd:float ;
-        ns4:long "4.77804768618898"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_De_Singelgeo ;
+        ns2:lat "52.3560726400688"^^xsd:float ;
+        ns2:long "4.77804768618898"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_De_kleine_Johannes a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_De_kleine_Johannes a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen De kleine Johannes"^^xsd:string ;
@@ -969,11 +969,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_De_kleine_Johannesgeo ;
-        ns4:lat "52.3594286857047"^^xsd:float ;
-        ns4:long "4.86330785283604"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_De_kleine_Johannesgeo ;
+        ns2:lat "52.3594286857047"^^xsd:float ;
+        ns2:long "4.86330785283604"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Florijn a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Florijn a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Florijn"^^xsd:string ;
@@ -985,13 +985,13 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Florijngeo ;
-        ns4:lat "52.318572898742"^^xsd:float,
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Florijngeo ;
+        ns2:lat "52.318572898742"^^xsd:float,
             "52.3188780461323"^^xsd:float ;
-        ns4:long "4.95753523794719"^^xsd:float,
+        ns2:long "4.95753523794719"^^xsd:float,
             "4.95765552087442"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Haag_en_Veld a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Haag_en_Veld a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Haag en Veld"^^xsd:string ;
@@ -1001,11 +1001,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Haag_en_Veldgeo ;
-        ns4:lat "52.3110453410674"^^xsd:float ;
-        ns4:long "4.95881341959116"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Haag_en_Veldgeo ;
+        ns2:lat "52.3110453410674"^^xsd:float ;
+        ns2:long "4.95881341959116"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Polderweg a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Polderweg a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Polderweg"^^xsd:string ;
@@ -1015,11 +1015,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Polderweggeo ;
-        ns4:lat "52.3571156545033"^^xsd:float ;
-        ns4:long "4.92743961050122"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Polderweggeo ;
+        ns2:lat "52.3571156545033"^^xsd:float ;
+        ns2:long "4.92743961050122"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Rengerskerkestraat a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Rengerskerkestraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Rengerskerkestraat"^^xsd:string ;
@@ -1029,11 +1029,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Rengerskerkestraatgeo ;
-        ns4:lat "52.3544295292674"^^xsd:float ;
-        ns4:long "4.79430467902184"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Rengerskerkestraatgeo ;
+        ns2:lat "52.3544295292674"^^xsd:float ;
+        ns2:long "4.79430467902184"^^xsd:float .
 
-    ns1:zorbepKleinschalig_wonen_Schinkelhoek a :dayLocation,
+    ns4:zorbepKleinschalig_wonen_Schinkelhoek a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Kleinschalig wonen Schinkelhoek"^^xsd:string ;
@@ -1043,9 +1043,9 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepKleinschalig_wonen_Schinkelhoekgeo ;
-        ns4:lat "52.3525097490796"^^xsd:float ;
-        ns4:long "4.8536141125655"^^xsd:float .
+        geo:hasGeometry ns4:zorbepKleinschalig_wonen_Schinkelhoekgeo ;
+        ns2:lat "52.3525097490796"^^xsd:float ;
+        ns2:long "4.8536141125655"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKliniek_Vlaardingenlaan_(Mentrum)> a :instantie ;
         rdfs:label "Kliniek Vlaardingenlaan (Mentrum)"^^xsd:string ;
@@ -1054,8 +1054,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.mentrum.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKliniek_Vlaardingenlaan_(Mentrum)geo> ;
-        ns4:lat "52.3463639296711"^^xsd:float ;
-        ns4:long "4.84413405913708"^^xsd:float .
+        ns2:lat "52.3463639296711"^^xsd:float ;
+        ns2:long "4.84413405913708"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKringen_voor_iedereen!> a :instantie ;
         rdfs:label "Kringen voor iedereen!"^^xsd:string ;
@@ -1064,8 +1064,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.vriendenkringenamsterdam.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKringen_voor_iedereen!geo> ;
-        ns4:lat "52.3682344584021"^^xsd:float ;
-        ns4:long "4.86280742123862"^^xsd:float .
+        ns2:lat "52.3682344584021"^^xsd:float ;
+        ns2:long "4.86280742123862"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKunstwerkplaats_(Cordaan)> a :instantie ;
         rdfs:label "Kunstwerkplaats (Cordaan)"^^xsd:string ;
@@ -1074,18 +1074,18 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kunstwerkplaats.nl/Ateliers/"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKunstwerkplaats_(Cordaan)geo> ;
-        ns4:lat "52.3516771507145"^^xsd:float ;
-        ns4:long "4.90242682786038"^^xsd:float .
+        ns2:lat "52.3516771507145"^^xsd:float ;
+        ns2:long "4.90242682786038"^^xsd:float .
 
-    ns1:zorbepLFB_Themacafé_Amsterdam a :instantie ;
+    ns4:zorbepLFB_Themacafé_Amsterdam a :instantie ;
         rdfs:label "LFB Themacafé Amsterdam"^^xsd:string ;
         ns3:latitude 5.236986e+01 ;
         ns3:longitude 4.880908e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.lfb.nu"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepLFB_Themacafé_Amsterdamgeo ;
-        ns4:lat "52.3698591323557"^^xsd:float ;
-        ns4:long "4.8809076898515"^^xsd:float .
+        geo:hasGeometry ns4:zorbepLFB_Themacafé_Amsterdamgeo ;
+        ns2:lat "52.3698591323557"^^xsd:float ;
+        ns2:long "4.8809076898515"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)> a :instantie ;
         rdfs:label "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string ;
@@ -1094,8 +1094,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)geo> ;
-        ns4:lat "52.3955340707404"^^xsd:float ;
-        ns4:long "4.92874546109189"^^xsd:float .
+        ns2:lat "52.3955340707404"^^xsd:float ;
+        ns2:long "4.92874546109189"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepLetterplein,_academie_voor_zelfstandigheidsbevordering> a :instantie ;
         rdfs:label "Letterplein, academie voor zelfstandigheidsbevordering"^^xsd:string ;
@@ -1104,10 +1104,10 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.letterplein.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepLetterplein,_academie_voor_zelfstandigheidsbevorderinggeo> ;
-        ns4:lat "52.2941918866103"^^xsd:float ;
-        ns4:long "4.97102504881877"^^xsd:float .
+        ns2:lat "52.2941918866103"^^xsd:float ;
+        ns2:long "4.97102504881877"^^xsd:float .
 
-    ns1:zorbepLijn5 a :instantie ;
+    ns4:zorbepLijn5 a :instantie ;
         rdfs:label "Lijn5"^^xsd:string ;
         ns3:latitude 5.236259e+01,
             5.240251e+01 ;
@@ -1115,10 +1115,10 @@
             4.942177e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.ln5.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepLijn5geo ;
-        ns4:lat "52.3625876537368"^^xsd:float,
+        geo:hasGeometry ns4:zorbepLijn5geo ;
+        ns2:lat "52.3625876537368"^^xsd:float,
             "52.4025057728816"^^xsd:float ;
-        ns4:long "4.83845942075963"^^xsd:float,
+        ns2:long "4.83845942075963"^^xsd:float,
             "4.94217739398391"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMEE_Amstel_en_Zaan,_ondersteuning_bij_leven_met_een_beperking> a :instantie ;
@@ -1128,28 +1128,28 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.meeaz.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMEE_Amstel_en_Zaan,_ondersteuning_bij_leven_met_een_beperkinggeo> ;
-        ns4:lat "52.3590415303229"^^xsd:float ;
-        ns4:long "4.84127779162964"^^xsd:float .
+        ns2:lat "52.3590415303229"^^xsd:float ;
+        ns2:long "4.84127779162964"^^xsd:float .
 
-    ns1:zorbepMaatschap_Beschermvaardig a :instantie ;
+    ns4:zorbepMaatschap_Beschermvaardig a :instantie ;
         rdfs:label "Maatschap Beschermvaardig"^^xsd:string ;
         ns3:latitude 5.203359e+01 ;
         ns3:longitude 5.354574e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.beschermvaardig.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepMaatschap_Beschermvaardiggeo ;
-        ns4:lat "52.0335869172284"^^xsd:float ;
-        ns4:long "5.35457442299062"^^xsd:float .
+        geo:hasGeometry ns4:zorbepMaatschap_Beschermvaardiggeo ;
+        ns2:lat "52.0335869172284"^^xsd:float ;
+        ns2:long "5.35457442299062"^^xsd:float .
 
-    ns1:zorbepMaatschappelijke_Opvang_Atlantisplein a :instantie ;
+    ns4:zorbepMaatschappelijke_Opvang_Atlantisplein a :instantie ;
         rdfs:label "Maatschappelijke Opvang Atlantisplein"^^xsd:string ;
         ns3:latitude 5.235736e+01 ;
         ns3:longitude 4.930889e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.volksbond.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepMaatschappelijke_Opvang_Atlantispleingeo ;
-        ns4:lat "52.3573607050883"^^xsd:float ;
-        ns4:long "4.93088921146546"^^xsd:float .
+        geo:hasGeometry ns4:zorbepMaatschappelijke_Opvang_Atlantispleingeo ;
+        ns2:lat "52.3573607050883"^^xsd:float ;
+        ns2:long "4.93088921146546"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMarkant,_Centrum_voor_Mantelzorg> a :instantie ;
         rdfs:label "Markant, Centrum voor Mantelzorg"^^xsd:string ;
@@ -1158,8 +1158,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.markant.org"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMarkant,_Centrum_voor_Mantelzorggeo> ;
-        ns4:lat "52.3683612948498"^^xsd:float ;
-        ns4:long "4.89876464803861"^^xsd:float .
+        ns2:lat "52.3683612948498"^^xsd:float ;
+        ns2:long "4.89876464803861"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMedisch_Orthopedagogisch_Centrum_'t_Kabouterhuis> a :instantie ;
         rdfs:label "Medisch Orthopedagogisch Centrum 't Kabouterhuis"^^xsd:string ;
@@ -1174,16 +1174,16 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kabouterhuis.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMedisch_Orthopedagogisch_Centrum_'t_Kabouterhuisgeo> ;
-        ns4:lat "52.3086032731991"^^xsd:float,
+        ns2:lat "52.3086032731991"^^xsd:float,
             "52.3418378279181"^^xsd:float,
             "52.3806221994488"^^xsd:float,
             "52.4057774510004"^^xsd:float ;
-        ns4:long "4.81300375375076"^^xsd:float,
+        ns2:long "4.81300375375076"^^xsd:float,
             "4.91295218814865"^^xsd:float,
             "4.91641598779449"^^xsd:float,
             "4.97990796255041"^^xsd:float .
 
-    ns1:zorbepMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjes a :dayLocation,
+    ns4:zorbepMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjes a :dayLocation,
             :instantie ;
         rdfs:label "Medisch kinderdagverblijf en kinderdagcentrum De Gelukkige Dolfijntjes"^^xsd:string ;
         ns3:latitude 5.236242e+01 ;
@@ -1191,29 +1191,29 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.degelukkigedolfijntjes.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjesgeo ;
-        ns4:lat "52.362420434683"^^xsd:float ;
-        ns4:long "4.8671189686632"^^xsd:float .
+        geo:hasGeometry ns4:zorbepMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjesgeo ;
+        ns2:lat "52.362420434683"^^xsd:float ;
+        ns2:long "4.8671189686632"^^xsd:float .
 
-    ns1:zorbepMeld-_en_coördinatiepunt_Eropaf a :instantie ;
+    ns4:zorbepMeld-_en_coördinatiepunt_Eropaf a :instantie ;
         rdfs:label "Meld- en coördinatiepunt Eropaf"^^xsd:string ;
         ns3:latitude 5.234784e+01 ;
         ns3:longitude 4.835354e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.somosa.nl/eropaf/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepMeld-_en_coördinatiepunt_Eropafgeo ;
-        ns4:lat "52.3478422536317"^^xsd:float ;
-        ns4:long "4.83535423540471"^^xsd:float .
+        geo:hasGeometry ns4:zorbepMeld-_en_coördinatiepunt_Eropafgeo ;
+        ns2:lat "52.3478422536317"^^xsd:float ;
+        ns2:long "4.83535423540471"^^xsd:float .
 
-    ns1:zorbepMentrum_LVB-team a :instantie ;
+    ns4:zorbepMentrum_LVB-team a :instantie ;
         rdfs:label "Mentrum LVB-team"^^xsd:string ;
         ns3:latitude 5.235718e+01 ;
         ns3:longitude 4.927527e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.mentrum.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepMentrum_LVB-teamgeo ;
-        ns4:lat "52.3571789080153"^^xsd:float ;
-        ns4:long "4.92752703085528"^^xsd:float .
+        geo:hasGeometry ns4:zorbepMentrum_LVB-teamgeo ;
+        ns2:lat "52.3571789080153"^^xsd:float ;
+        ns2:long "4.92752703085528"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepNederlandse_Rode_Kruis,_district_Amsterdam> a :instantie ;
         rdfs:label "Nederlandse Rode Kruis, district Amsterdam"^^xsd:string ;
@@ -1222,8 +1222,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.rodekruis.nl/amsterdam"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepNederlandse_Rode_Kruis,_district_Amsterdamgeo> ;
-        ns4:lat "52.3703144598007"^^xsd:float ;
-        ns4:long "4.90825814656655"^^xsd:float .
+        ns2:lat "52.3703144598007"^^xsd:float ;
+        ns2:long "4.90825814656655"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepNederlandse_Stichting_voor_het_Dove_en_Slechthorende_Kind_(NSDSK)> a :dayLocation,
             :instantie ;
@@ -1234,10 +1234,10 @@
         :providesSpecialCare :day ;
         :website "http://www.nsdsk.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepNederlandse_Stichting_voor_het_Dove_en_Slechthorende_Kind_(NSDSK)geo> ;
-        ns4:lat "52.3515570667512"^^xsd:float ;
-        ns4:long "4.9016355575689"^^xsd:float .
+        ns2:lat "52.3515570667512"^^xsd:float ;
+        ns2:long "4.9016355575689"^^xsd:float .
 
-    ns1:zorbepNederlandse_Stichting_voor_het_Gehandicapte_Kind a :dayLocation,
+    ns4:zorbepNederlandse_Stichting_voor_het_Gehandicapte_Kind a :dayLocation,
             :instantie ;
         rdfs:label "Nederlandse Stichting voor het Gehandicapte Kind"^^xsd:string ;
         ns3:latitude 5.23516e+01 ;
@@ -1245,61 +1245,61 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.nsgk.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepNederlandse_Stichting_voor_het_Gehandicapte_Kindgeo ;
-        ns4:lat "52.3515952515863"^^xsd:float ;
-        ns4:long "4.91327435740683"^^xsd:float .
+        geo:hasGeometry ns4:zorbepNederlandse_Stichting_voor_het_Gehandicapte_Kindgeo ;
+        ns2:lat "52.3515952515863"^^xsd:float ;
+        ns2:long "4.91327435740683"^^xsd:float .
 
-    ns1:zorbepNieuw_Amstelrade a :instantie ;
+    ns4:zorbepNieuw_Amstelrade a :instantie ;
         rdfs:label "Nieuw Amstelrade"^^xsd:string ;
         ns3:latitude 5.238781e+01 ;
         ns3:longitude 4.922715e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.nieuwamstelrade.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepNieuw_Amstelradegeo ;
-        ns4:lat "52.3878081531132"^^xsd:float ;
-        ns4:long "4.92271454980408"^^xsd:float .
+        geo:hasGeometry ns4:zorbepNieuw_Amstelradegeo ;
+        ns2:lat "52.3878081531132"^^xsd:float ;
+        ns2:long "4.92271454980408"^^xsd:float .
 
-    ns1:zorbepOnbeperkt_Oost a :instantie ;
+    ns4:zorbepOnbeperkt_Oost a :instantie ;
         rdfs:label "Onbeperkt Oost"^^xsd:string ;
         ns3:latitude 5.236566e+01 ;
         ns3:longitude 4.934692e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.onbeperktoost.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepOnbeperkt_Oostgeo ;
-        ns4:lat "52.365663944354"^^xsd:float ;
-        ns4:long "4.93469207100891"^^xsd:float .
+        geo:hasGeometry ns4:zorbepOnbeperkt_Oostgeo ;
+        ns2:lat "52.365663944354"^^xsd:float ;
+        ns2:long "4.93469207100891"^^xsd:float .
 
-    ns1:zorbepOns_Tweede_Thuis a :instantie ;
+    ns4:zorbepOns_Tweede_Thuis a :instantie ;
         rdfs:label "Ons Tweede Thuis"^^xsd:string ;
         ns3:latitude 5.239173e+01 ;
         ns3:longitude 4.916636e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.onstweedehuis.com"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepOns_Tweede_Thuisgeo ;
-        ns4:lat "52.3917297409265"^^xsd:float ;
-        ns4:long "4.91663557287138"^^xsd:float .
+        geo:hasGeometry ns4:zorbepOns_Tweede_Thuisgeo ;
+        ns2:lat "52.3917297409265"^^xsd:float ;
+        ns2:long "4.91663557287138"^^xsd:float .
 
-    ns1:zorbepOrthopedagogisch_Centrum_Middelveld a :instantie ;
+    ns4:zorbepOrthopedagogisch_Centrum_Middelveld a :instantie ;
         rdfs:label "Orthopedagogisch Centrum Middelveld"^^xsd:string ;
         ns3:latitude 5.235941e+01 ;
         ns3:longitude 4.832583e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepOrthopedagogisch_Centrum_Middelveldgeo ;
-        ns4:lat "52.3594145478159"^^xsd:float ;
-        ns4:long "4.83258257843754"^^xsd:float .
+        geo:hasGeometry ns4:zorbepOrthopedagogisch_Centrum_Middelveldgeo ;
+        ns2:lat "52.3594145478159"^^xsd:float ;
+        ns2:long "4.83258257843754"^^xsd:float .
 
-    ns1:zorbepPEWA_Reïntegratie a :instantie ;
+    ns4:zorbepPEWA_Reïntegratie a :instantie ;
         rdfs:label "PEWA Reïntegratie"^^xsd:string ;
         ns3:latitude 5.230428e+01 ;
         ns3:longitude 4.950961e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.pewa.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPEWA_Reïntegratiegeo ;
-        ns4:lat "52.3042847886086"^^xsd:float ;
-        ns4:long "4.95096121939658"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPEWA_Reïntegratiegeo ;
+        ns2:lat "52.3042847886086"^^xsd:float ;
+        ns2:long "4.95096121939658"^^xsd:float .
 
-    ns1:zorbepPantar_Amsterdam a :instantie ;
+    ns4:zorbepPantar_Amsterdam a :instantie ;
         rdfs:label "Pantar Amsterdam"^^xsd:string ;
         ns3:latitude 5.231758e+01,
             5.238827e+01,
@@ -1311,17 +1311,17 @@
             4.98468e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.pantar.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPantar_Amsterdamgeo ;
-        ns4:lat "52.3175804104182"^^xsd:float,
+        geo:hasGeometry ns4:zorbepPantar_Amsterdamgeo ;
+        ns2:lat "52.3175804104182"^^xsd:float,
             "52.3882662354318"^^xsd:float,
             "52.3953221015922"^^xsd:float,
             "52.4034790038723"^^xsd:float ;
-        ns4:long "4.81764952158641"^^xsd:float,
+        ns2:long "4.81764952158641"^^xsd:float,
             "4.87482824580553"^^xsd:float,
             "4.89727554209354"^^xsd:float,
             "4.9846801676344"^^xsd:float .
 
-    ns1:zorbepPauwer_Wonen a :instantie ;
+    ns4:zorbepPauwer_Wonen a :instantie ;
         rdfs:label "Pauwer Wonen"^^xsd:string ;
         ns3:latitude 5.229582e+01,
             5.23201e+01 ;
@@ -1329,31 +1329,31 @@
             4.983191e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.pauwer.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPauwer_Wonengeo ;
-        ns4:lat "52.295824914075"^^xsd:float,
+        geo:hasGeometry ns4:zorbepPauwer_Wonengeo ;
+        ns2:lat "52.295824914075"^^xsd:float,
             "52.3201034046922"^^xsd:float ;
-        ns4:long "4.9812985723013"^^xsd:float,
+        ns2:long "4.9812985723013"^^xsd:float,
             "4.98319136423687"^^xsd:float .
 
-    ns1:zorbepPerspectief_GZ a :instantie ;
+    ns4:zorbepPerspectief_GZ a :instantie ;
         rdfs:label "Perspectief GZ"^^xsd:string ;
         ns3:latitude 5.236956e+01 ;
         ns3:longitude 4.83598e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.het-perspectief.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPerspectief_GZgeo ;
-        ns4:lat "52.3695596205726"^^xsd:float ;
-        ns4:long "4.83597977085557"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPerspectief_GZgeo ;
+        ns2:lat "52.3695596205726"^^xsd:float ;
+        ns2:long "4.83597977085557"^^xsd:float .
 
-    ns1:zorbepPhiladelphia_Fasehuis a :instantie ;
+    ns4:zorbepPhiladelphia_Fasehuis a :instantie ;
         rdfs:label "Philadelphia Fasehuis"^^xsd:string ;
         ns3:latitude 5.235282e+01 ;
         ns3:longitude 4.786209e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPhiladelphia_Fasehuisgeo ;
-        ns4:lat "52.3528158344149"^^xsd:float ;
-        ns4:long "4.78620931645055"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPhiladelphia_Fasehuisgeo ;
+        ns2:lat "52.3528158344149"^^xsd:float ;
+        ns2:long "4.78620931645055"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPhiladelphia_Zorg_Amsterdam_e.o.> a :instantie ;
         rdfs:label "Philadelphia Zorg Amsterdam e.o."^^xsd:string ;
@@ -1361,9 +1361,9 @@
         ns3:longitude 4.898543e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPhiladelphia_Zorg_Amsterdam_e.o.geo ;
-        ns4:lat "52.3925192929884"^^xsd:float ;
-        ns4:long "4.89854256879983"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPhiladelphia_Zorg_Amsterdam_e.o.geo ;
+        ns2:lat "52.3925192929884"^^xsd:float ;
+        ns2:long "4.89854256879983"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPlatform_Mantelzorg_Amsterdam_(PMA)> a :instantie ;
         rdfs:label "Platform Mantelzorg Amsterdam (PMA)"^^xsd:string ;
@@ -1372,8 +1372,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.clientenbelangamsterdam.nl/platform-mantelzorg-amsterdam-3447.html"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPlatform_Mantelzorg_Amsterdam_(PMA)geo> ;
-        ns4:lat "52.366772352766"^^xsd:float ;
-        ns4:long "4.91024915491474"^^xsd:float .
+        ns2:lat "52.366772352766"^^xsd:float ;
+        ns2:long "4.91024915491474"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPlatform_Platform_Gehandicapten_Zuidoost_(PGZO)> a :instantie ;
         rdfs:label "Platform Platform Gehandicapten Zuidoost (PGZO)"^^xsd:string ;
@@ -1382,30 +1382,30 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.pgno-zo.eu"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPlatform_Platform_Gehandicapten_Zuidoost_(PGZO)geo> ;
-        ns4:lat "52.2925885464696"^^xsd:float ;
-        ns4:long "4.97002866042951"^^xsd:float .
+        ns2:lat "52.2925885464696"^^xsd:float ;
+        ns2:long "4.97002866042951"^^xsd:float .
 
-    ns1:zorbepPoli_Plus_Praktijk_amsterdam a :instantie ;
+    ns4:zorbepPoli_Plus_Praktijk_amsterdam a :instantie ;
         rdfs:label "Poli Plus Praktijk amsterdam"^^xsd:string ;
         ns3:latitude 5.237483e+01 ;
         ns3:longitude 4.885917e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.poli-plus.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPoli_Plus_Praktijk_amsterdamgeo ;
-        ns4:lat "52.3748326784564"^^xsd:float ;
-        ns4:long "4.8859172991713"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPoli_Plus_Praktijk_amsterdamgeo ;
+        ns2:lat "52.3748326784564"^^xsd:float ;
+        ns2:long "4.8859172991713"^^xsd:float .
 
-    ns1:zorbepPraktijk_Hulp_bij_Hersenletsel a :instantie ;
+    ns4:zorbepPraktijk_Hulp_bij_Hersenletsel a :instantie ;
         rdfs:label "Praktijk Hulp bij Hersenletsel"^^xsd:string ;
         ns3:latitude 5.235307e+01 ;
         ns3:longitude 4.86943e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.hulpbijhersenletsel.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPraktijk_Hulp_bij_Hersenletselgeo ;
-        ns4:lat "52.3530743178205"^^xsd:float ;
-        ns4:long "4.86943019167427"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPraktijk_Hulp_bij_Hersenletselgeo ;
+        ns2:lat "52.3530743178205"^^xsd:float ;
+        ns2:long "4.86943019167427"^^xsd:float .
 
-    ns1:zorbepProfessor_Waterinkschool a :instantie ;
+    ns4:zorbepProfessor_Waterinkschool a :instantie ;
         rdfs:label "Professor Waterinkschool"^^xsd:string ;
         ns3:latitude 5.234184e+01,
             5.238062e+01,
@@ -1415,25 +1415,25 @@
             4.916392e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.professor-waterinkschool.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepProfessor_Waterinkschoolgeo ;
-        ns4:lat "52.3418378279181"^^xsd:float,
+        geo:hasGeometry ns4:zorbepProfessor_Waterinkschoolgeo ;
+        ns2:lat "52.3418378279181"^^xsd:float,
             "52.3806221994488"^^xsd:float,
             "52.4057877368526"^^xsd:float ;
-        ns4:long "4.81300375375076"^^xsd:float,
+        ns2:long "4.81300375375076"^^xsd:float,
             "4.91295218814865"^^xsd:float,
             "4.91639211606692"^^xsd:float .
 
-    ns1:zorbepPuntP_Preventie a :instantie ;
+    ns4:zorbepPuntP_Preventie a :instantie ;
         rdfs:label "PuntP Preventie"^^xsd:string ;
         ns3:latitude 5.237627e+01 ;
         ns3:longitude 4.874108e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.puntp.nl/preventie"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepPuntP_Preventiegeo ;
-        ns4:lat "52.3762740572974"^^xsd:float ;
-        ns4:long "4.87410843485594"^^xsd:float .
+        geo:hasGeometry ns4:zorbepPuntP_Preventiegeo ;
+        ns2:lat "52.3762740572974"^^xsd:float ;
+        ns2:long "4.87410843485594"^^xsd:float .
 
-    ns1:zorbepROC_op_Maat a :instantie ;
+    ns4:zorbepROC_op_Maat a :instantie ;
         rdfs:label "ROC op Maat"^^xsd:string ;
         ns3:latitude 5.231612e+01,
             5.232268e+01,
@@ -1443,15 +1443,15 @@
             4.975657e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:zorbepROC_op_Maatgeo ;
-        ns4:lat "52.3161220753805"^^xsd:float,
+        geo:hasGeometry ns4:zorbepROC_op_Maatgeo ;
+        ns2:lat "52.3161220753805"^^xsd:float,
             "52.3226813778957"^^xsd:float,
             "52.3734290058461"^^xsd:float ;
-        ns4:long "4.84477189899747"^^xsd:float,
+        ns2:long "4.84477189899747"^^xsd:float,
             "4.94863048625281"^^xsd:float,
             "4.97565723908227"^^xsd:float .
 
-    ns1:zorbepRaphaëlstichting a :instantie ;
+    ns4:zorbepRaphaëlstichting a :instantie ;
         rdfs:label "Raphaëlstichting"^^xsd:string ;
         ns3:latitude 5.235164e+01,
             5.235408e+01 ;
@@ -1459,21 +1459,21 @@
             4.90312e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.iambe.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepRaphaëlstichtinggeo ;
-        ns4:lat "52.3516443040276"^^xsd:float,
+        geo:hasGeometry ns4:zorbepRaphaëlstichtinggeo ;
+        ns2:lat "52.3516443040276"^^xsd:float,
             "52.3540797130959"^^xsd:float ;
-        ns4:long "4.89447199549131"^^xsd:float,
+        ns2:long "4.89447199549131"^^xsd:float,
             "4.90311982034054"^^xsd:float .
 
-    ns1:zorbepRappórt_Amsterdam_Zuid a :instantie ;
+    ns4:zorbepRappórt_Amsterdam_Zuid a :instantie ;
         rdfs:label "Rappórt Amsterdam Zuid"^^xsd:string ;
         ns3:latitude -3.299346e+01 ;
         ns3:longitude -6.064851e+01 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.rapportbi.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepRappórt_Amsterdam_Zuidgeo ;
-        ns4:lat "-32.9934625"^^xsd:float ;
-        ns4:long "-60.6485103"^^xsd:float .
+        geo:hasGeometry ns4:zorbepRappórt_Amsterdam_Zuidgeo ;
+        ns2:lat "-32.9934625"^^xsd:float ;
+        ns2:long "-60.6485103"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepReade,_centrum_voor_reumatologie_en_revalidatie> a :instantie ;
         rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
@@ -1484,12 +1484,12 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.reade.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepReade,_centrum_voor_reumatologie_en_revalidatiegeo> ;
-        ns4:lat "52.3603790314609"^^xsd:float,
+        ns2:lat "52.3603790314609"^^xsd:float,
             "52.3707400053483"^^xsd:float ;
-        ns4:long "4.84440831816034"^^xsd:float,
+        ns2:long "4.84440831816034"^^xsd:float,
             "4.86684928835166"^^xsd:float .
 
-    ns1:zorbepRonald_McDonaldhuis a :instantie ;
+    ns4:zorbepRonald_McDonaldhuis a :instantie ;
         rdfs:label "Ronald McDonaldhuis"^^xsd:string ;
         ns3:latitude 5.229545e+01,
             5.233249e+01,
@@ -1499,45 +1499,45 @@
             4.959491e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.kinderfonds.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepRonald_McDonaldhuisgeo ;
-        ns4:lat "52.2954539693304"^^xsd:float,
+        geo:hasGeometry ns4:zorbepRonald_McDonaldhuisgeo ;
+        ns2:lat "52.2954539693304"^^xsd:float,
             "52.3324943843661"^^xsd:float,
             "52.3892683404918"^^xsd:float ;
-        ns4:long "4.85771314855976"^^xsd:float,
+        ns2:long "4.85771314855976"^^xsd:float,
             "4.94493976091913"^^xsd:float,
             "4.95949137552432"^^xsd:float .
 
-    ns1:zorbepSBT_Kliniek_Bijzondere_Tandheelkunde a :instantie ;
+    ns4:zorbepSBT_Kliniek_Bijzondere_Tandheelkunde a :instantie ;
         rdfs:label "SBT Kliniek Bijzondere Tandheelkunde"^^xsd:string ;
         ns3:latitude 5.233615e+01 ;
         ns3:longitude 4.861338e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.sbt.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepSBT_Kliniek_Bijzondere_Tandheelkundegeo ;
-        ns4:lat "52.33615060552"^^xsd:float ;
-        ns4:long "4.86133764760186"^^xsd:float .
+        geo:hasGeometry ns4:zorbepSBT_Kliniek_Bijzondere_Tandheelkundegeo ;
+        ns2:lat "52.33615060552"^^xsd:float ;
+        ns2:long "4.86133764760186"^^xsd:float .
 
-    ns1:zorbepSensa_Zorg a :instantie ;
+    ns4:zorbepSensa_Zorg a :instantie ;
         rdfs:label "Sensa Zorg"^^xsd:string ;
         ns3:latitude 5.234892e+01 ;
         ns3:longitude 4.7952e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.sensazorg.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepSensa_Zorggeo ;
-        ns4:lat "52.3489154962286"^^xsd:float ;
-        ns4:long "4.79520023187911"^^xsd:float .
+        geo:hasGeometry ns4:zorbepSensa_Zorggeo ;
+        ns2:lat "52.3489154962286"^^xsd:float ;
+        ns2:long "4.79520023187911"^^xsd:float .
 
-    ns1:zorbepSoa_Aids_Nederland a :instantie ;
+    ns4:zorbepSoa_Aids_Nederland a :instantie ;
         rdfs:label "Soa Aids Nederland"^^xsd:string ;
         ns3:latitude 5.236909e+01 ;
         ns3:longitude 4.884161e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.soaaids.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepSoa_Aids_Nederlandgeo ;
-        ns4:lat "52.3690910696194"^^xsd:float ;
-        ns4:long "4.884161457213"^^xsd:float .
+        geo:hasGeometry ns4:zorbepSoa_Aids_Nederlandgeo ;
+        ns2:lat "52.3690910696194"^^xsd:float ;
+        ns2:long "4.884161457213"^^xsd:float .
 
-    ns1:zorbepStichting_ABC a :dayLocation,
+    ns4:zorbepStichting_ABC a :dayLocation,
             :instantie ;
         rdfs:label "Stichting ABC"^^xsd:string ;
         ns3:latitude 5.236341e+01 ;
@@ -1545,11 +1545,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.hetabc.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_ABCgeo ;
-        ns4:lat "52.3634058940364"^^xsd:float ;
-        ns4:long "4.85828389454875"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_ABCgeo ;
+        ns2:lat "52.3634058940364"^^xsd:float ;
+        ns2:long "4.85828389454875"^^xsd:float .
 
-    ns1:zorbepStichting_CAV a :dayLocation,
+    ns4:zorbepStichting_CAV a :dayLocation,
             :instantie ;
         rdfs:label "Stichting CAV"^^xsd:string ;
         ns3:latitude 5.234661e+01 ;
@@ -1557,11 +1557,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.stichting-cav.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_CAVgeo ;
-        ns4:lat "52.3466138757657"^^xsd:float ;
-        ns4:long "4.83986032376237"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_CAVgeo ;
+        ns2:lat "52.3466138757657"^^xsd:float ;
+        ns2:long "4.83986032376237"^^xsd:float .
 
-    ns1:zorbepStichting_Cliniclowns_Nederland a :dayLocation,
+    ns4:zorbepStichting_Cliniclowns_Nederland a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Cliniclowns Nederland"^^xsd:string ;
         ns3:latitude -3.362553e+01 ;
@@ -1569,11 +1569,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.cliniclowns.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Cliniclowns_Nederlandgeo ;
-        ns4:lat "-33.625529"^^xsd:float ;
-        ns4:long "19.4510149"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Cliniclowns_Nederlandgeo ;
+        ns2:lat "-33.625529"^^xsd:float ;
+        ns2:long "19.4510149"^^xsd:float .
 
-    ns1:zorbepStichting_De_Waterheuvel a :dayLocation,
+    ns4:zorbepStichting_De_Waterheuvel a :dayLocation,
             :instantie ;
         rdfs:label "Stichting De Waterheuvel"^^xsd:string ;
         ns3:latitude 5.236092e+01 ;
@@ -1581,9 +1581,9 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.waterheuvel.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_De_Waterheuvelgeo ;
-        ns4:lat "52.3609215172259"^^xsd:float ;
-        ns4:long "4.90584916351281"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_De_Waterheuvelgeo ;
+        ns2:lat "52.3609215172259"^^xsd:float ;
+        ns2:long "4.90584916351281"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Doorzettingsvermogen_Wilskracht_Resultaat_Plezier_(DWRP)> a :dayLocation,
             :instantie ;
@@ -1594,10 +1594,10 @@
         :providesSpecialCare :day ;
         :website "http://www.dwrp.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Doorzettingsvermogen_Wilskracht_Resultaat_Plezier_(DWRP)geo> ;
-        ns4:lat "-32.9934524"^^xsd:float ;
-        ns4:long "-60.6476058"^^xsd:float .
+        ns2:lat "-32.9934524"^^xsd:float ;
+        ns2:long "-60.6476058"^^xsd:float .
 
-    ns1:zorbepStichting_Gemengd_Platform_van_Bewoners a :dayLocation,
+    ns4:zorbepStichting_Gemengd_Platform_van_Bewoners a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Gemengd Platform van Bewoners"^^xsd:string ;
         ns3:latitude 5.236636e+01 ;
@@ -1605,11 +1605,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.stgpb.org"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Gemengd_Platform_van_Bewonersgeo ;
-        ns4:lat "52.3663641444277"^^xsd:float ;
-        ns4:long "4.85256654118916"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Gemengd_Platform_van_Bewonersgeo ;
+        ns2:lat "52.3663641444277"^^xsd:float ;
+        ns2:long "4.85256654118916"^^xsd:float .
 
-    ns1:zorbepStichting_Kruispost a :dayLocation,
+    ns4:zorbepStichting_Kruispost a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Kruispost"^^xsd:string ;
         ns3:latitude 5.237278e+01 ;
@@ -1617,11 +1617,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.kruispost.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Kruispostgeo ;
-        ns4:lat "52.3727812920455"^^xsd:float ;
-        ns4:long "4.89736002794718"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Kruispostgeo ;
+        ns2:lat "52.3727812920455"^^xsd:float ;
+        ns2:long "4.89736002794718"^^xsd:float .
 
-    ns1:zorbepStichting_Nieuwe_Werkvormen_Amsterdam a :dayLocation,
+    ns4:zorbepStichting_Nieuwe_Werkvormen_Amsterdam a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Nieuwe Werkvormen Amsterdam"^^xsd:string ;
         ns3:latitude 5.235291e+01 ;
@@ -1629,11 +1629,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.snwa.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Nieuwe_Werkvormen_Amsterdamgeo ;
-        ns4:lat "52.3529124566176"^^xsd:float ;
-        ns4:long "4.85522384403384"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Nieuwe_Werkvormen_Amsterdamgeo ;
+        ns2:lat "52.3529124566176"^^xsd:float ;
+        ns2:long "4.85522384403384"^^xsd:float .
 
-    ns1:zorbepStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdam a :dayLocation,
+    ns4:zorbepStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdam a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Onderwijs aan Zieke Kinderen Amsterdam"^^xsd:string ;
         ns3:latitude 5.251431e+01 ;
@@ -1641,11 +1641,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.huisonderwijsamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdamgeo ;
-        ns4:lat "52.5143106788943"^^xsd:float ;
-        ns4:long "5.04836991218723"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdamgeo ;
+        ns2:lat "52.5143106788943"^^xsd:float ;
+        ns2:long "5.04836991218723"^^xsd:float .
 
-    ns1:zorbepStichting_Opvangcentra_De_Elandsstraat a :dayLocation,
+    ns4:zorbepStichting_Opvangcentra_De_Elandsstraat a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Opvangcentra De Elandsstraat"^^xsd:string ;
         ns3:latitude 5.237044e+01 ;
@@ -1653,9 +1653,9 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.elandsstraat.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Opvangcentra_De_Elandsstraatgeo ;
-        ns4:lat "52.3704409184671"^^xsd:float ;
-        ns4:long "4.88034306850768"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Opvangcentra_De_Elandsstraatgeo ;
+        ns2:lat "52.3704409184671"^^xsd:float ;
+        ns2:long "4.88034306850768"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Orion_:_Openbaar_Speciaal_Onderwijs_Amsterdam> a :dayLocation,
             :instantie ;
@@ -1666,10 +1666,10 @@
         :providesSpecialCare :day ;
         :website "http://www.orion.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Orion_:_Openbaar_Speciaal_Onderwijs_Amsterdamgeo> ;
-        ns4:lat "52.3958626267116"^^xsd:float ;
-        ns4:long "4.8487728063447"^^xsd:float .
+        ns2:lat "52.3958626267116"^^xsd:float ;
+        ns2:long "4.8487728063447"^^xsd:float .
 
-    ns1:zorbepStichting_Prisma a :dayLocation,
+    ns4:zorbepStichting_Prisma a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Prisma"^^xsd:string ;
         ns3:latitude 5.236796e+01 ;
@@ -1677,11 +1677,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.stichtingprisma.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Prismageo ;
-        ns4:lat "52.3679550481962"^^xsd:float ;
-        ns4:long "4.89832863468851"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Prismageo ;
+        ns2:lat "52.3679550481962"^^xsd:float ;
+        ns2:long "4.89832863468851"^^xsd:float .
 
-    ns1:zorbepStichting_Spreekbuis a :dayLocation,
+    ns4:zorbepStichting_Spreekbuis a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Spreekbuis"^^xsd:string ;
         ns3:latitude 5.235661e+01 ;
@@ -1689,11 +1689,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Spreekbuisgeo ;
-        ns4:lat "52.3566102914183"^^xsd:float ;
-        ns4:long "4.91549606200291"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Spreekbuisgeo ;
+        ns2:lat "52.3566102914183"^^xsd:float ;
+        ns2:long "4.91549606200291"^^xsd:float .
 
-    ns1:zorbepStichting_Stoelenproject a :dayLocation,
+    ns4:zorbepStichting_Stoelenproject a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Stoelenproject"^^xsd:string ;
         ns3:latitude 5.236993e+01 ;
@@ -1701,11 +1701,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.stoelenproject.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Stoelenprojectgeo ;
-        ns4:lat "52.3699310371543"^^xsd:float ;
-        ns4:long "4.87672205863238"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Stoelenprojectgeo ;
+        ns2:lat "52.3699310371543"^^xsd:float ;
+        ns2:long "4.87672205863238"^^xsd:float .
 
-    ns1:zorbepStichting_Streetcornerwork_Amsterdam a :dayLocation,
+    ns4:zorbepStichting_Streetcornerwork_Amsterdam a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Streetcornerwork Amsterdam"^^xsd:string ;
         ns3:latitude 5.236893e+01 ;
@@ -1713,11 +1713,11 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.streetcornerwork.eu"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Streetcornerwork_Amsterdamgeo ;
-        ns4:lat "52.3689297721381"^^xsd:float ;
-        ns4:long "4.88639513387154"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Streetcornerwork_Amsterdamgeo ;
+        ns2:lat "52.3689297721381"^^xsd:float ;
+        ns2:long "4.88639513387154"^^xsd:float .
 
-    ns1:zorbepStichting_Volksbond_Amsterdam a :dayLocation,
+    ns4:zorbepStichting_Volksbond_Amsterdam a :dayLocation,
             :instantie ;
         rdfs:label "Stichting Volksbond Amsterdam"^^xsd:string ;
         ns3:latitude -3.299347e+01 ;
@@ -1725,9 +1725,9 @@
         :providesInformationAbout :specialNeedCare ;
         :providesSpecialCare :day ;
         :website "http://www.volksbond.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepStichting_Volksbond_Amsterdamgeo ;
-        ns4:lat "-32.9934688"^^xsd:float ;
-        ns4:long "-60.649071"^^xsd:float .
+        geo:hasGeometry ns4:zorbepStichting_Volksbond_Amsterdamgeo ;
+        ns2:lat "-32.9934688"^^xsd:float ;
+        ns2:long "-60.649071"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Welzijn_Doven_Amsterdam_(SWDA)_-_Dovenontmoetingscentrum> a :dayLocation,
             :instantie ;
@@ -1738,10 +1738,10 @@
         :providesSpecialCare :day ;
         :website "http://www.doof.amsterdam/"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Welzijn_Doven_Amsterdam_(SWDA)_-_Dovenontmoetingscentrumgeo> ;
-        ns4:lat "52.357624660428"^^xsd:float ;
-        ns4:long "4.89531572029783"^^xsd:float .
+        ns2:lat "52.357624660428"^^xsd:float ;
+        ns2:long "4.89531572029783"^^xsd:float .
 
-    ns1:zorbepTextiel-weefatelier_de_Draad a :instantie ;
+    ns4:zorbepTextiel-weefatelier_de_Draad a :instantie ;
         rdfs:label "Textiel-weefatelier de Draad"^^xsd:string ;
         ns3:latitude 5.23737e+01,
             5.238569e+01 ;
@@ -1749,10 +1749,10 @@
             4.926806e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepTextiel-weefatelier_de_Draadgeo ;
-        ns4:lat "52.3737012122622"^^xsd:float,
+        geo:hasGeometry ns4:zorbepTextiel-weefatelier_de_Draadgeo ;
+        ns2:lat "52.3737012122622"^^xsd:float,
             "52.3856850626281"^^xsd:float ;
-        ns4:long "4.84142042852297"^^xsd:float,
+        ns2:long "4.84142042852297"^^xsd:float,
             "4.92680556604746"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepUnal_Zorg,_begeleiding_gehandicapte_migranten> a :instantie ;
@@ -1762,18 +1762,18 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.unalzorg.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepUnal_Zorg,_begeleiding_gehandicapte_migrantengeo> ;
-        ns4:lat "52.3761906356092"^^xsd:float ;
-        ns4:long "4.81846546294129"^^xsd:float .
+        ns2:lat "52.3761906356092"^^xsd:float ;
+        ns2:long "4.81846546294129"^^xsd:float .
 
-    ns1:zorbepVTO-Vroeghulp a :instantie ;
+    ns4:zorbepVTO-Vroeghulp a :instantie ;
         rdfs:label "VTO-Vroeghulp"^^xsd:string ;
         ns3:latitude 5.236253e+01 ;
         ns3:longitude 4.909003e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.vtovroeghulp.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepVTO-Vroeghulpgeo ;
-        ns4:lat "52.3625251245642"^^xsd:float ;
-        ns4:long "4.90900287705508"^^xsd:float .
+        geo:hasGeometry ns4:zorbepVTO-Vroeghulpgeo ;
+        ns2:lat "52.3625251245642"^^xsd:float ;
+        ns2:long "4.90900287705508"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepVangnet_MGGZ_(GGD)> a :instantie ;
         rdfs:label "Vangnet MGGZ (GGD)"^^xsd:string ;
@@ -1782,20 +1782,20 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.ggd.amsterdam.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepVangnet_MGGZ_(GGD)geo> ;
-        ns4:lat "52.3625251245642"^^xsd:float ;
-        ns4:long "4.90900287705508"^^xsd:float .
+        ns2:lat "52.3625251245642"^^xsd:float ;
+        ns2:long "4.90900287705508"^^xsd:float .
 
-    ns1:zorbepVereniging_Cliëntenbelang_Amsterdam a :instantie ;
+    ns4:zorbepVereniging_Cliëntenbelang_Amsterdam a :instantie ;
         rdfs:label "Vereniging Cliëntenbelang Amsterdam"^^xsd:string ;
         ns3:latitude 5.236677e+01 ;
         ns3:longitude 4.910249e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.clientenbelangamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepVereniging_Cliëntenbelang_Amsterdamgeo ;
-        ns4:lat "52.366772352766"^^xsd:float ;
-        ns4:long "4.91024915491474"^^xsd:float .
+        geo:hasGeometry ns4:zorbepVereniging_Cliëntenbelang_Amsterdamgeo ;
+        ns2:lat "52.366772352766"^^xsd:float ;
+        ns2:long "4.91024915491474"^^xsd:float .
 
-    ns1:zorbepVisio_Amsterdam a :instantie ;
+    ns4:zorbepVisio_Amsterdam a :instantie ;
         rdfs:label "Visio Amsterdam"^^xsd:string ;
         ns3:latitude 5.230626e+01,
             5.23787e+01 ;
@@ -1803,21 +1803,21 @@
             4.943552e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.visio.org"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepVisio_Amsterdamgeo ;
-        ns4:lat "52.3062615095031"^^xsd:float,
+        geo:hasGeometry ns4:zorbepVisio_Amsterdamgeo ;
+        ns2:lat "52.3062615095031"^^xsd:float,
             "52.3786961907812"^^xsd:float ;
-        ns4:long "4.81991666740395"^^xsd:float,
+        ns2:long "4.81991666740395"^^xsd:float,
             "4.94355195031981"^^xsd:float .
 
-    ns1:zorbepVoorzorg_GGD a :instantie ;
+    ns4:zorbepVoorzorg_GGD a :instantie ;
         rdfs:label "Voorzorg GGD"^^xsd:string ;
         ns3:latitude 5.236253e+01 ;
         ns3:longitude 4.909003e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.ggd.amsterdam.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepVoorzorg_GGDgeo ;
-        ns4:lat "52.3625251245642"^^xsd:float ;
-        ns4:long "4.90900287705508"^^xsd:float .
+        geo:hasGeometry ns4:zorbepVoorzorg_GGDgeo ;
+        ns2:lat "52.3625251245642"^^xsd:float ;
+        ns2:long "4.90900287705508"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepVu_Medisch_Centrum,_afdeling_Audiologie> a :instantie ;
         rdfs:label "Vu Medisch Centrum, afdeling Audiologie"^^xsd:string ;
@@ -1826,18 +1826,18 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.ac-vumc.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepVu_Medisch_Centrum,_afdeling_Audiologiegeo> ;
-        ns4:lat "52.3356941874319"^^xsd:float ;
-        ns4:long "4.85975845118472"^^xsd:float .
+        ns2:lat "52.3356941874319"^^xsd:float ;
+        ns2:long "4.85975845118472"^^xsd:float .
 
-    ns1:zorbepWerk_en_Dagbesteding_Zij_aan_Zij a :instantie ;
+    ns4:zorbepWerk_en_Dagbesteding_Zij_aan_Zij a :instantie ;
         rdfs:label "Werk en Dagbesteding Zij aan Zij"^^xsd:string ;
         ns3:latitude 5.234819e+01 ;
         ns3:longitude 4.908057e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.zij-aan-zij.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWerk_en_Dagbesteding_Zij_aan_Zijgeo ;
-        ns4:lat "52.3481948544128"^^xsd:float ;
-        ns4:long "4.90805653951763"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWerk_en_Dagbesteding_Zij_aan_Zijgeo ;
+        ns2:lat "52.3481948544128"^^xsd:float ;
+        ns2:long "4.90805653951763"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWerkpad,_arbeids(re)integratie_voor_visueel,_auditief_of_communicatief_beperkten> a :instantie ;
         rdfs:label "Werkpad, arbeids(re)integratie voor visueel, auditief of communicatief beperkten"^^xsd:string ;
@@ -1846,30 +1846,30 @@
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.werkpad.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWerkpad,_arbeids(re)integratie_voor_visueel,_auditief_of_communicatief_beperktengeo> ;
-        ns4:lat "52.3625849157315"^^xsd:float ;
-        ns4:long "4.80404678195825"^^xsd:float .
+        ns2:lat "52.3625849157315"^^xsd:float ;
+        ns2:long "4.80404678195825"^^xsd:float .
 
-    ns1:zorbepWijzer_Centrum_voor_diagnostiek_en_behandeling a :instantie ;
+    ns4:zorbepWijzer_Centrum_voor_diagnostiek_en_behandeling a :instantie ;
         rdfs:label "Wijzer Centrum voor diagnostiek en behandeling"^^xsd:string ;
         ns3:latitude 5.235718e+01 ;
         ns3:longitude 4.927527e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWijzer_Centrum_voor_diagnostiek_en_behandelinggeo ;
-        ns4:lat "52.3571789080153"^^xsd:float ;
-        ns4:long "4.92752703085528"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWijzer_Centrum_voor_diagnostiek_en_behandelinggeo ;
+        ns2:lat "52.3571789080153"^^xsd:float ;
+        ns2:long "4.92752703085528"^^xsd:float .
 
-    ns1:zorbepWilliam_Schrikker_Groep a :instantie ;
+    ns4:zorbepWilliam_Schrikker_Groep a :instantie ;
         rdfs:label "William Schrikker Groep"^^xsd:string ;
         ns3:latitude 5.231447e+01 ;
         ns3:longitude 4.950407e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.williamschrikkergroep.nu"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWilliam_Schrikker_Groepgeo ;
-        ns4:lat "52.3144659074043"^^xsd:float ;
-        ns4:long "4.95040664976164"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWilliam_Schrikker_Groepgeo ;
+        ns2:lat "52.3144659074043"^^xsd:float ;
+        ns2:long "4.95040664976164"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_Daguerre a :dayLocation,
+    ns4:zorbepWoonlocatie_Daguerre a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie Daguerre"^^xsd:string ;
@@ -1879,11 +1879,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.nieuwamstelrade.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_Daguerregeo ;
-        ns4:lat "52.3593381230945"^^xsd:float ;
-        ns4:long "4.99291858851187"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_Daguerregeo ;
+        ns2:lat "52.3593381230945"^^xsd:float ;
+        ns2:long "4.99291858851187"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_De_Veste a :dayLocation,
+    ns4:zorbepWoonlocatie_De_Veste a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie De Veste"^^xsd:string ;
@@ -1893,11 +1893,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.nieuwamstelrade.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_De_Vestegeo ;
-        ns4:lat "52.3540137656677"^^xsd:float ;
-        ns4:long "4.99998205445306"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_De_Vestegeo ;
+        ns2:lat "52.3540137656677"^^xsd:float ;
+        ns2:long "4.99998205445306"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_Park_de_Meer a :dayLocation,
+    ns4:zorbepWoonlocatie_Park_de_Meer a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie Park de Meer"^^xsd:string ;
@@ -1907,11 +1907,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.nieuwamstelrade.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_Park_de_Meergeo ;
-        ns4:lat "52.3435141152205"^^xsd:float ;
-        ns4:long "4.94791967755041"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_Park_de_Meergeo ;
+        ns2:lat "52.3435141152205"^^xsd:float ;
+        ns2:long "4.94791967755041"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Bazelhof a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Bazelhof a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Bazelhof"^^xsd:string ;
@@ -1921,11 +1921,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Bazelhofgeo ;
-        ns4:lat "52.3758197375598"^^xsd:float ;
-        ns4:long "4.79595723706196"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Bazelhofgeo ;
+        ns2:lat "52.3758197375598"^^xsd:float ;
+        ns2:long "4.79595723706196"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Borgerstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Borgerstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Borgerstraat"^^xsd:string ;
@@ -1935,11 +1935,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Borgerstraatgeo ;
-        ns4:lat "52.3645446542265"^^xsd:float ;
-        ns4:long "4.86374662274143"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Borgerstraatgeo ;
+        ns2:lat "52.3645446542265"^^xsd:float ;
+        ns2:long "4.86374662274143"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Colijnstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Colijnstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Colijnstraat"^^xsd:string ;
@@ -1949,11 +1949,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Colijnstraatgeo ;
-        ns4:lat "52.3789658099531"^^xsd:float ;
-        ns4:long "4.80693025749427"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Colijnstraatgeo ;
+        ns2:lat "52.3789658099531"^^xsd:float ;
+        ns2:long "4.80693025749427"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Czaar_Peterstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Czaar_Peterstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Czaar Peterstraat"^^xsd:string ;
@@ -1963,11 +1963,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Czaar_Peterstraatgeo ;
-        ns4:lat "52.369668647209"^^xsd:float ;
-        ns4:long "4.92902747619867"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Czaar_Peterstraatgeo ;
+        ns2:lat "52.369668647209"^^xsd:float ;
+        ns2:long "4.92902747619867"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_De_Gooyer a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_De_Gooyer a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ De Gooyer"^^xsd:string ;
@@ -1977,11 +1977,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_De_Gooyergeo ;
-        ns4:lat "52.3643217971066"^^xsd:float ;
-        ns4:long "4.9269244904145"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_De_Gooyergeo ;
+        ns2:lat "52.3643217971066"^^xsd:float ;
+        ns2:long "4.9269244904145"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_De_Werf a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_De_Werf a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ De Werf"^^xsd:string ;
@@ -1991,11 +1991,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_De_Werfgeo ;
-        ns4:lat "52.4070753960839"^^xsd:float ;
-        ns4:long "4.89542819102772"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_De_Werfgeo ;
+        ns2:lat "52.4070753960839"^^xsd:float ;
+        ns2:long "4.89542819102772"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Dusartstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Dusartstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Dusartstraat"^^xsd:string ;
@@ -2005,11 +2005,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Dusartstraatgeo ;
-        ns4:lat "52.3522163426952"^^xsd:float ;
-        ns4:long "4.88941652644195"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Dusartstraatgeo ;
+        ns2:lat "52.3522163426952"^^xsd:float ;
+        ns2:long "4.88941652644195"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Eerste Hugo de Grootstraat"^^xsd:string ;
@@ -2019,9 +2019,9 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraatgeo ;
-        ns4:lat "52.3758802079165"^^xsd:float ;
-        ns4:long "4.87448012923316"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraatgeo ;
+        ns2:lat "52.3758802079165"^^xsd:float ;
+        ns2:long "4.87448012923316"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWoonlocatie_VGZ_Foyer_Bos_&_Lommer> a :dayLocation,
             :instantie,
@@ -2034,10 +2034,10 @@
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWoonlocatie_VGZ_Foyer_Bos_&_Lommergeo> ;
-        ns4:lat "52.377136836057"^^xsd:float ;
-        ns4:long "4.84192152933525"^^xsd:float .
+        ns2:lat "52.377136836057"^^xsd:float ;
+        ns2:long "4.84192152933525"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Gerrie_Knetemannlaan a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Gerrie_Knetemannlaan a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Gerrie Knetemannlaan"^^xsd:string ;
@@ -2047,11 +2047,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Gerrie_Knetemannlaangeo ;
-        ns4:lat "52.373800207153"^^xsd:float ;
-        ns4:long "4.84144858009114"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Gerrie_Knetemannlaangeo ;
+        ns2:lat "52.373800207153"^^xsd:float ;
+        ns2:long "4.84144858009114"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Jan_Luijkenstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Jan_Luijkenstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Jan Luijkenstraat"^^xsd:string ;
@@ -2061,11 +2061,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Jan_Luijkenstraatgeo ;
-        ns4:lat "52.3594774914572"^^xsd:float ;
-        ns4:long "4.88071786589417"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Jan_Luijkenstraatgeo ;
+        ns2:lat "52.3594774914572"^^xsd:float ;
+        ns2:long "4.88071786589417"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Johan_Huijsenstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Johan_Huijsenstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Johan Huijsenstraat"^^xsd:string ;
@@ -2075,11 +2075,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Johan_Huijsenstraatgeo ;
-        ns4:lat "52.3507950070452"^^xsd:float ;
-        ns4:long "5.00795044586313"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Johan_Huijsenstraatgeo ;
+        ns2:lat "52.3507950070452"^^xsd:float ;
+        ns2:long "5.00795044586313"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Kadoelerbreek a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Kadoelerbreek a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Kadoelerbreek"^^xsd:string ;
@@ -2089,11 +2089,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Kadoelerbreekgeo ;
-        ns4:lat "52.4091811042708"^^xsd:float ;
-        ns4:long "4.91371669733415"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Kadoelerbreekgeo ;
+        ns2:lat "52.4091811042708"^^xsd:float ;
+        ns2:long "4.91371669733415"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Ketelmakerij a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Ketelmakerij a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Ketelmakerij"^^xsd:string ;
@@ -2103,11 +2103,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Ketelmakerijgeo ;
-        ns4:lat "52.3836908377516"^^xsd:float ;
-        ns4:long "4.9179106177706"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Ketelmakerijgeo ;
+        ns2:lat "52.3836908377516"^^xsd:float ;
+        ns2:long "4.9179106177706"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Koningsvrouwen_van_Landlust a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Koningsvrouwen_van_Landlust a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Koningsvrouwen van Landlust"^^xsd:string ;
@@ -2117,11 +2117,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Koningsvrouwen_van_Landlustgeo ;
-        ns4:lat "52.3813423257608"^^xsd:float ;
-        ns4:long "4.85883846939579"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Koningsvrouwen_van_Landlustgeo ;
+        ns2:lat "52.3813423257608"^^xsd:float ;
+        ns2:long "4.85883846939579"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Mandarijnenstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Mandarijnenstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Mandarijnenstraat"^^xsd:string ;
@@ -2131,11 +2131,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Mandarijnenstraatgeo ;
-        ns4:lat "52.4099722703145"^^xsd:float ;
-        ns4:long "4.89611618195055"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Mandarijnenstraatgeo ;
+        ns2:lat "52.4099722703145"^^xsd:float ;
+        ns2:long "4.89611618195055"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Marcantilaan a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Marcantilaan a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Marcantilaan"^^xsd:string ;
@@ -2145,11 +2145,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Marcantilaangeo ;
-        ns4:lat "52.3752728344162"^^xsd:float ;
-        ns4:long "4.86915637879917"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Marcantilaangeo ;
+        ns2:lat "52.3752728344162"^^xsd:float ;
+        ns2:long "4.86915637879917"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Mulderplein a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Mulderplein a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Mulderplein"^^xsd:string ;
@@ -2159,11 +2159,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Mulderpleingeo ;
-        ns4:lat "52.36605710299"^^xsd:float ;
-        ns4:long "4.92479224810559"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Mulderpleingeo ;
+        ns2:lat "52.36605710299"^^xsd:float ;
+        ns2:long "4.92479224810559"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Nieuw_Sloten a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Nieuw_Sloten a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Nieuw Sloten"^^xsd:string ;
@@ -2173,11 +2173,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Nieuw_Slotengeo ;
-        ns4:lat "52.3445247015017"^^xsd:float ;
-        ns4:long "4.81618564840466"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Nieuw_Slotengeo ;
+        ns2:lat "52.3445247015017"^^xsd:float ;
+        ns2:long "4.81618564840466"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Oosterparkstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Oosterparkstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Oosterparkstraat"^^xsd:string ;
@@ -2189,13 +2189,13 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Oosterparkstraatgeo ;
-        ns4:lat "52.3555041599213"^^xsd:float,
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Oosterparkstraatgeo ;
+        ns2:lat "52.3555041599213"^^xsd:float,
             "52.3580512888408"^^xsd:float ;
-        ns4:long "4.91308582747928"^^xsd:float,
+        ns2:long "4.91308582747928"^^xsd:float,
             "4.92078007158038"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Overleg a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Overleg a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Overleg"^^xsd:string ;
@@ -2205,11 +2205,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Overleggeo ;
-        ns4:lat "52.3550445097738"^^xsd:float ;
-        ns4:long "4.80229635667608"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Overleggeo ;
+        ns2:lat "52.3550445097738"^^xsd:float ;
+        ns2:long "4.80229635667608"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Overtoomse_hof a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Overtoomse_hof a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Overtoomse hof"^^xsd:string ;
@@ -2219,11 +2219,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Overtoomse_hofgeo ;
-        ns4:lat "52.368254788488"^^xsd:float ;
-        ns4:long "4.83756706942673"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Overtoomse_hofgeo ;
+        ns2:lat "52.368254788488"^^xsd:float ;
+        ns2:long "4.83756706942673"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Parkhof a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Parkhof a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Parkhof"^^xsd:string ;
@@ -2233,11 +2233,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Parkhofgeo ;
-        ns4:lat "52.2968903856488"^^xsd:float ;
-        ns4:long "4.97938491945608"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Parkhofgeo ;
+        ns2:lat "52.2968903856488"^^xsd:float ;
+        ns2:long "4.97938491945608"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Pieter_Langendijkstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Pieter_Langendijkstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Pieter Langendijkstraat"^^xsd:string ;
@@ -2247,11 +2247,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Pieter_Langendijkstraatgeo ;
-        ns4:lat "52.3618521225528"^^xsd:float ;
-        ns4:long "4.86054859311108"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Pieter_Langendijkstraatgeo ;
+        ns2:lat "52.3618521225528"^^xsd:float ;
+        ns2:long "4.86054859311108"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Polderwegflat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Polderwegflat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Polderwegflat"^^xsd:string ;
@@ -2261,11 +2261,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Polderwegflatgeo ;
-        ns4:lat "52.3571156545033"^^xsd:float ;
-        ns4:long "4.92743961050122"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Polderwegflatgeo ;
+        ns2:lat "52.3571156545033"^^xsd:float ;
+        ns2:long "4.92743961050122"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Seegersplein a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Seegersplein a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Seegersplein"^^xsd:string ;
@@ -2275,11 +2275,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Seegerspleingeo ;
-        ns4:lat "52.2920301004237"^^xsd:float ;
-        ns4:long "4.99326637320481"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Seegerspleingeo ;
+        ns2:lat "52.2920301004237"^^xsd:float ;
+        ns2:long "4.99326637320481"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Senecastraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Senecastraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Senecastraat"^^xsd:string ;
@@ -2289,11 +2289,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Senecastraatgeo ;
-        ns4:lat "52.3730636181079"^^xsd:float ;
-        ns4:long "4.81302818604178"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Senecastraatgeo ;
+        ns2:lat "52.3730636181079"^^xsd:float ;
+        ns2:long "4.81302818604178"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Sleewijkstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Sleewijkstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Sleewijkstraat"^^xsd:string ;
@@ -2303,11 +2303,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Sleewijkstraatgeo ;
-        ns4:lat "52.2910231066339"^^xsd:float ;
-        ns4:long "4.97213935367325"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Sleewijkstraatgeo ;
+        ns2:lat "52.2910231066339"^^xsd:float ;
+        ns2:long "4.97213935367325"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Spreeuwenpark a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Spreeuwenpark a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Spreeuwenpark"^^xsd:string ;
@@ -2317,11 +2317,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Spreeuwenparkgeo ;
-        ns4:lat "52.3839213494348"^^xsd:float ;
-        ns4:long "4.91485304425909"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Spreeuwenparkgeo ;
+        ns2:lat "52.3839213494348"^^xsd:float ;
+        ns2:long "4.91485304425909"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Walmolen a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Walmolen a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Walmolen"^^xsd:string ;
@@ -2331,11 +2331,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Walmolengeo ;
-        ns4:lat "52.4187978779284"^^xsd:float ;
-        ns4:long "4.88959455682267"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Walmolengeo ;
+        ns2:lat "52.4187978779284"^^xsd:float ;
+        ns2:long "4.88959455682267"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Watertoren a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Watertoren a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Watertoren"^^xsd:string ;
@@ -2345,11 +2345,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Watertorengeo ;
-        ns4:lat "52.3850990305875"^^xsd:float ;
-        ns4:long "4.86770491594103"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Watertorengeo ;
+        ns2:lat "52.3850990305875"^^xsd:float ;
+        ns2:long "4.86770491594103"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_VGZ_Wenckebachweg a :dayLocation,
+    ns4:zorbepWoonlocatie_VGZ_Wenckebachweg a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie VGZ Wenckebachweg"^^xsd:string ;
@@ -2359,11 +2359,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_VGZ_Wenckebachweggeo ;
-        ns4:lat "52.3375568494493"^^xsd:float ;
-        ns4:long "4.92705522818391"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_VGZ_Wenckebachweggeo ;
+        ns2:lat "52.3375568494493"^^xsd:float ;
+        ns2:long "4.92705522818391"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_Zoelenkerkstraat a :dayLocation,
+    ns4:zorbepWoonlocatie_Zoelenkerkstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie Zoelenkerkstraat"^^xsd:string ;
@@ -2373,11 +2373,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.nieuwamstelrade.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_Zoelenkerkstraatgeo ;
-        ns4:lat "52.3552500839297"^^xsd:float ;
-        ns4:long "4.79483683066453"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_Zoelenkerkstraatgeo ;
+        ns2:lat "52.3552500839297"^^xsd:float ;
+        ns2:long "4.79483683066453"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_en_activiteitencentrum_Albatros a :dayLocation,
+    ns4:zorbepWoonlocatie_en_activiteitencentrum_Albatros a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie en activiteitencentrum Albatros"^^xsd:string ;
@@ -2387,11 +2387,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.nieuwamstelrade.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_en_activiteitencentrum_Albatrosgeo ;
-        ns4:lat "52.3878081531132"^^xsd:float ;
-        ns4:long "4.92271454980408"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonlocatie_en_activiteitencentrum_Albatrosgeo ;
+        ns2:lat "52.3878081531132"^^xsd:float ;
+        ns2:long "4.92271454980408"^^xsd:float .
 
-    ns1:zorbepWoonlocatie_en_activiteitencentrum_Meijboom a :dayLocation,
+    ns4:zorbepWoonlocatie_en_activiteitencentrum_Meijboom a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonlocatie en activiteitencentrum Meijboom"^^xsd:string ;
@@ -2403,10 +2403,10 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.nieuwamstelrade.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonlocatie_en_activiteitencentrum_Meijboomgeo ;
-        ns4:lat "52.3500924521695"^^xsd:float,
+        geo:hasGeometry ns4:zorbepWoonlocatie_en_activiteitencentrum_Meijboomgeo ;
+        ns2:lat "52.3500924521695"^^xsd:float,
             "52.3504357962001"^^xsd:float ;
-        ns4:long "5.01029007005629"^^xsd:float,
+        ns2:long "5.01029007005629"^^xsd:float,
             "5.010859556989"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWoonvoorziening_'s_Gravendijkdreef> a :dayLocation,
@@ -2420,10 +2420,10 @@
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWoonvoorziening_'s_Gravendijkdreefgeo> ;
-        ns4:lat "52.323146853887"^^xsd:float ;
-        ns4:long "4.98105978066606"^^xsd:float .
+        ns2:lat "52.323146853887"^^xsd:float ;
+        ns2:long "4.98105978066606"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Anfieldroad a :dayLocation,
+    ns4:zorbepWoonvoorziening_Anfieldroad a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Anfieldroad"^^xsd:string ;
@@ -2433,11 +2433,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Anfieldroadgeo ;
-        ns4:lat "52.3428082444303"^^xsd:float ;
-        ns4:long "4.94904192418658"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Anfieldroadgeo ;
+        ns2:lat "52.3428082444303"^^xsd:float ;
+        ns2:long "4.94904192418658"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Bijlmerdreef a :dayLocation,
+    ns4:zorbepWoonvoorziening_Bijlmerdreef a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Bijlmerdreef"^^xsd:string ;
@@ -2447,11 +2447,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Bijlmerdreefgeo ;
-        ns4:lat "52.3235142319461"^^xsd:float ;
-        ns4:long "4.97738036016004"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Bijlmerdreefgeo ;
+        ns2:lat "52.3235142319461"^^xsd:float ;
+        ns2:long "4.97738036016004"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Bruins_Slotstraat a :dayLocation,
+    ns4:zorbepWoonvoorziening_Bruins_Slotstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Bruins Slotstraat"^^xsd:string ;
@@ -2461,11 +2461,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Bruins_Slotstraatgeo ;
-        ns4:lat "52.3783759379619"^^xsd:float ;
-        ns4:long "4.79131161638893"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Bruins_Slotstraatgeo ;
+        ns2:lat "52.3783759379619"^^xsd:float ;
+        ns2:long "4.79131161638893"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_De_Kleine_Hakke a :dayLocation,
+    ns4:zorbepWoonvoorziening_De_Kleine_Hakke a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening De Kleine Hakke"^^xsd:string ;
@@ -2475,11 +2475,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_De_Kleine_Hakkegeo ;
-        ns4:lat "52.3536824615856"^^xsd:float ;
-        ns4:long "4.78342338717472"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_De_Kleine_Hakkegeo ;
+        ns2:lat "52.3536824615856"^^xsd:float ;
+        ns2:long "4.78342338717472"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_De_Luifel a :dayLocation,
+    ns4:zorbepWoonvoorziening_De_Luifel a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening De Luifel"^^xsd:string ;
@@ -2489,11 +2489,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_De_Luifelgeo ;
-        ns4:lat "52.3936593397385"^^xsd:float ;
-        ns4:long "4.93437694809992"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_De_Luifelgeo ;
+        ns2:lat "52.3936593397385"^^xsd:float ;
+        ns2:long "4.93437694809992"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Egoliplein a :dayLocation,
+    ns4:zorbepWoonvoorziening_Egoliplein a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Egoliplein"^^xsd:string ;
@@ -2503,11 +2503,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Egolipleingeo ;
-        ns4:lat "52.3219796584182"^^xsd:float ;
-        ns4:long "4.96024808435073"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Egolipleingeo ;
+        ns2:lat "52.3219796584182"^^xsd:float ;
+        ns2:long "4.96024808435073"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Hertingenstraat a :dayLocation,
+    ns4:zorbepWoonvoorziening_Hertingenstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Hertingenstraat"^^xsd:string ;
@@ -2517,11 +2517,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Hertingenstraatgeo ;
-        ns4:lat "52.354764808849"^^xsd:float ;
-        ns4:long "4.79664877802264"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Hertingenstraatgeo ;
+        ns2:lat "52.354764808849"^^xsd:float ;
+        ns2:long "4.79664877802264"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Julius_Pergerstraat a :dayLocation,
+    ns4:zorbepWoonvoorziening_Julius_Pergerstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Julius Pergerstraat"^^xsd:string ;
@@ -2531,11 +2531,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Julius_Pergerstraatgeo ;
-        ns4:lat "52.3518555955893"^^xsd:float ;
-        ns4:long "5.00239330687411"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Julius_Pergerstraatgeo ;
+        ns2:lat "52.3518555955893"^^xsd:float ;
+        ns2:long "5.00239330687411"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Kinkerstraat a :dayLocation,
+    ns4:zorbepWoonvoorziening_Kinkerstraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Kinkerstraat"^^xsd:string ;
@@ -2545,11 +2545,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Kinkerstraatgeo ;
-        ns4:lat "52.3680876077229"^^xsd:float ;
-        ns4:long "4.87442336715766"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Kinkerstraatgeo ;
+        ns2:lat "52.3680876077229"^^xsd:float ;
+        ns2:long "4.87442336715766"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Korte_Water a :dayLocation,
+    ns4:zorbepWoonvoorziening_Korte_Water a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Korte Water"^^xsd:string ;
@@ -2559,11 +2559,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Korte_Watergeo ;
-        ns4:lat "52.3533307908868"^^xsd:float ;
-        ns4:long "4.78601987862629"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Korte_Watergeo ;
+        ns2:lat "52.3533307908868"^^xsd:float ;
+        ns2:long "4.78601987862629"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Laan_van_Vlaanderen a :dayLocation,
+    ns4:zorbepWoonvoorziening_Laan_van_Vlaanderen a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Laan van Vlaanderen"^^xsd:string ;
@@ -2573,11 +2573,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Laan_van_Vlaanderengeo ;
-        ns4:lat "52.3462737262101"^^xsd:float ;
-        ns4:long "4.80621296424572"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Laan_van_Vlaanderengeo ;
+        ns2:lat "52.3462737262101"^^xsd:float ;
+        ns2:long "4.80621296424572"^^xsd:float .
 
-    ns1:zorbepWoonvoorziening_Wigbolt_Ripperdastraat a :dayLocation,
+    ns4:zorbepWoonvoorziening_Wigbolt_Ripperdastraat a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Wigbolt Ripperdastraat"^^xsd:string ;
@@ -2587,51 +2587,51 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.philadelphia.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonvoorziening_Wigbolt_Ripperdastraatgeo ;
-        ns4:lat "52.3819037255316"^^xsd:float ;
-        ns4:long "4.80487961160968"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonvoorziening_Wigbolt_Ripperdastraatgeo ;
+        ns2:lat "52.3819037255316"^^xsd:float ;
+        ns2:long "4.80487961160968"^^xsd:float .
 
-    ns1:zorbepWoonzorg-_en_dienstencentrum_Menno_Simons a :instantie ;
+    ns4:zorbepWoonzorg-_en_dienstencentrum_Menno_Simons a :instantie ;
         rdfs:label "Woonzorg- en dienstencentrum Menno Simons"^^xsd:string ;
         ns3:latitude 5.23268e+01 ;
         ns3:longitude 4.866509e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.zhga.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonzorg-_en_dienstencentrum_Menno_Simonsgeo ;
-        ns4:lat "52.3267992005325"^^xsd:float ;
-        ns4:long "4.86650927552825"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonzorg-_en_dienstencentrum_Menno_Simonsgeo ;
+        ns2:lat "52.3267992005325"^^xsd:float ;
+        ns2:long "4.86650927552825"^^xsd:float .
 
-    ns1:zorbepWoonzorgcentrum_De_Gooyer a :instantie ;
+    ns4:zorbepWoonzorgcentrum_De_Gooyer a :instantie ;
         rdfs:label "Woonzorgcentrum De Gooyer"^^xsd:string ;
         ns3:latitude 5.236432e+01 ;
         ns3:longitude 4.926924e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonzorgcentrum_De_Gooyergeo ;
-        ns4:lat "52.3643217971066"^^xsd:float ;
-        ns4:long "4.9269244904145"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonzorgcentrum_De_Gooyergeo ;
+        ns2:lat "52.3643217971066"^^xsd:float ;
+        ns2:long "4.9269244904145"^^xsd:float .
 
-    ns1:zorbepWoonzorgcentrum_De_Klinker a :instantie ;
+    ns4:zorbepWoonzorgcentrum_De_Klinker a :instantie ;
         rdfs:label "Woonzorgcentrum De Klinker"^^xsd:string ;
         ns3:latitude 5.236532e+01 ;
         ns3:longitude 4.86776e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "https://www.amstelring.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonzorgcentrum_De_Klinkergeo ;
-        ns4:lat "52.3653173031291"^^xsd:float ;
-        ns4:long "4.86776038302481"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonzorgcentrum_De_Klinkergeo ;
+        ns2:lat "52.3653173031291"^^xsd:float ;
+        ns2:long "4.86776038302481"^^xsd:float .
 
-    ns1:zorbepWoonzorgcentrum_Kastanjehof a :instantie ;
+    ns4:zorbepWoonzorgcentrum_Kastanjehof a :instantie ;
         rdfs:label "Woonzorgcentrum Kastanjehof"^^xsd:string ;
         ns3:latitude 5.235858e+01 ;
         ns3:longitude 4.923094e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepWoonzorgcentrum_Kastanjehofgeo ;
-        ns4:lat "52.3585816703604"^^xsd:float ;
-        ns4:long "4.92309389704501"^^xsd:float .
+        geo:hasGeometry ns4:zorbepWoonzorgcentrum_Kastanjehofgeo ;
+        ns2:lat "52.3585816703604"^^xsd:float ;
+        ns2:long "4.92309389704501"^^xsd:float .
 
-    ns1:zorbepZigzag_verpleegkundige_en_gespecialiseerde_kindzorg a :instantie ;
+    ns4:zorbepZigzag_verpleegkundige_en_gespecialiseerde_kindzorg a :instantie ;
         rdfs:label "Zigzag verpleegkundige en gespecialiseerde kindzorg"^^xsd:string ;
         ns3:latitude 5.234184e+01,
             5.238062e+01 ;
@@ -2639,21 +2639,21 @@
             4.912952e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.verpleegkundig-kinderdagverblijf.nl"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepZigzag_verpleegkundige_en_gespecialiseerde_kindzorggeo ;
-        ns4:lat "52.3418378279181"^^xsd:float,
+        geo:hasGeometry ns4:zorbepZigzag_verpleegkundige_en_gespecialiseerde_kindzorggeo ;
+        ns2:lat "52.3418378279181"^^xsd:float,
             "52.3806221994488"^^xsd:float ;
-        ns4:long "4.81300375375076"^^xsd:float,
+        ns2:long "4.81300375375076"^^xsd:float,
             "4.91295218814865"^^xsd:float .
 
-    ns1:zorbepZorgboerderij_De_Stolp a :instantie ;
+    ns4:zorbepZorgboerderij_De_Stolp a :instantie ;
         rdfs:label "Zorgboerderij De Stolp"^^xsd:string ;
         ns3:latitude 5.241132e+01 ;
         ns3:longitude 4.954082e+00 ;
         :providesInformationAbout :specialNeedCare ;
         :website "http://www.zorgboerderijdestolp.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:zorbepZorgboerderij_De_Stolpgeo ;
-        ns4:lat "52.4113218027483"^^xsd:float ;
-        ns4:long "4.95408176488359"^^xsd:float .
+        geo:hasGeometry ns4:zorbepZorgboerderij_De_Stolpgeo ;
+        ns2:lat "52.4113218027483"^^xsd:float ;
+        ns2:long "4.95408176488359"^^xsd:float .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepZusters_van_Moeder_Theresa_(Missionaries_of_Charity)> a :instantie ;
         rdfs:label "Zusters van Moeder Theresa (Missionaries of Charity)"^^xsd:string ;
@@ -2662,8 +2662,8 @@
         :providesInformationAbout :specialNeedCare ;
         :website ""^^xsd:string ;
         geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/zorbepZusters_van_Moeder_Theresa_(Missionaries_of_Charity)geo> ;
-        ns4:lat "52.3758905926278"^^xsd:float ;
-        ns4:long "4.87897377875009"^^xsd:float .
+        ns2:lat "52.3758905926278"^^xsd:float ;
+        ns2:long "4.87897377875009"^^xsd:float .
 
     : a owl:Ontology .
 
@@ -2686,9 +2686,23 @@
     :addicts a :riskGroups,
             owl:NamedIndividual .
 
+    :adultDentist a owl:Class ;
+        rdfs:label "Adult dentist"@en ;
+        rdfs:subClassOf :medicalLocation ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :adults ;
+                owl:onProperty :providesDentalcareTo ] .
+
     :careLocation a owl:Class ;
         rdfs:label "General Care location"@en ;
         rdfs:subClassOf :elderlyLocation .
+
+    :childDentist a owl:Class ;
+        rdfs:label "Child dentist"@en ;
+        rdfs:subClassOf :medicalLocation ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :children ;
+                owl:onProperty :providesDentalcareTo ] .
 
     :childDevelopment a :knowledgeDomain,
             owl:NamedIndividual .
@@ -2805,22 +2819,22 @@
             "POINT(4.90851275987104 52.3616872859729)"^^geo:wktLiteral,
             "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
 
-    ns1:zorbep10_voor_Toekomstgeo a geo:Geometry ;
+    ns4:zorbep10_voor_Toekomstgeo a geo:Geometry ;
         geo:asWKT "POINT(4.95639615135924 52.3894453789521)"^^geo:wktLiteral .
 
-    ns1:zorbep2Learngeo a geo:Geometry ;
+    ns4:zorbep2Learngeo a geo:Geometry ;
         geo:asWKT "POINT(4.87258150723278 52.354723832105)"^^geo:wktLiteral .
 
-    ns1:zorbepAMC_Audiologisch_Centrumgeo a geo:Geometry ;
+    ns4:zorbepAMC_Audiologisch_Centrumgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9579126998355 52.2949898712038)"^^geo:wktLiteral .
 
-    ns1:zorbepAVG-poligeo a geo:Geometry ;
+    ns4:zorbepAVG-poligeo a geo:Geometry ;
         geo:asWKT "POINT(4.92752703085528 52.3571789080153)"^^geo:wktLiteral .
 
-    ns1:zorbepActiviteitencentrum_Buitenveldertgeo a geo:Geometry ;
+    ns4:zorbepActiviteitencentrum_Buitenveldertgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88426717632913 52.3338595297254)"^^geo:wktLiteral .
 
-    ns1:zorbepActiviteitencentrum_Vrankendijkegeo a geo:Geometry ;
+    ns4:zorbepActiviteitencentrum_Vrankendijkegeo a geo:Geometry ;
         geo:asWKT "POINT(4.79059837953438 52.3604327341924)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAltra_Jeugd_&_Opvoedhulpgeo> a geo:Geometry ;
@@ -2829,7 +2843,7 @@
             "POINT(4.93198566646566 52.3575556457396)"^^geo:wktLiteral,
             "POINT(4.95420750871907 52.3111903519439)"^^geo:wktLiteral .
 
-    ns1:zorbepAltra_Onderwijsgeo a geo:Geometry ;
+    ns4:zorbepAltra_Onderwijsgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81497065093984 52.3522573308916)"^^geo:wktLiteral,
             "POINT(4.85828389454875 52.3634058940364)"^^geo:wktLiteral,
             "POINT(4.88177411728941 52.3711390903422)"^^geo:wktLiteral,
@@ -2844,33 +2858,33 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAmsta_Karaad,_ambulant_specialistisch_teamgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.92752703085528 52.3571789080153)"^^geo:wktLiteral .
 
-    ns1:zorbepAmstageo a geo:Geometry ;
+    ns4:zorbepAmstageo a geo:Geometry ;
         geo:asWKT "POINT(4.9105504148047 52.3646974046891)"^^geo:wktLiteral,
             "POINT(4.92722078457808 52.3683134878271)"^^geo:wktLiteral,
             "POINT(4.92752703085528 52.3571789080153)"^^geo:wktLiteral .
 
-    ns1:zorbepAmstelbewindgeo a geo:Geometry ;
+    ns4:zorbepAmstelbewindgeo a geo:Geometry ;
         geo:asWKT "POINT(-60.6476901 -32.9934848)"^^geo:wktLiteral .
 
-    ns1:zorbepAmstelringgeo a geo:Geometry ;
+    ns4:zorbepAmstelringgeo a geo:Geometry ;
         geo:asWKT "POINT(4.844225661794 52.3592707948934)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepAngo_steunpunt_werk,_handicap_&_voorzieningengeo> a geo:Geometry ;
         geo:asWKT "POINT(4.83526629428379 52.350486122525)"^^geo:wktLiteral .
 
-    ns1:zorbepAppèl_bewindvoeringgeo a geo:Geometry ;
+    ns4:zorbepAppèl_bewindvoeringgeo a geo:Geometry ;
         geo:asWKT "POINT(-60.6482121 -32.9934592)"^^geo:wktLiteral .
 
-    ns1:zorbepArchimedestrainingen_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepArchimedestrainingen_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91205793905202 52.3596523675711)"^^geo:wktLiteral .
 
-    ns1:zorbepAudiologisch_Centrum_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepAudiologisch_Centrum_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84034458764035 52.3597202930998)"^^geo:wktLiteral .
 
-    ns1:zorbepBRight_GGZ_Jeugd_en_Gezin_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepBRight_GGZ_Jeugd_en_Gezin_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85828389454875 52.3634058940364)"^^geo:wktLiteral .
 
-    ns1:zorbepBea_Zorggeo a geo:Geometry ;
+    ns4:zorbepBea_Zorggeo a geo:Geometry ;
         geo:asWKT "POINT(4.80076689049978 52.3419327118816)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepBelangengroep_Gehandicapten_Oud-West_(BGOW)geo> a geo:Geometry ;
@@ -2879,62 +2893,62 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepBeleyes_/_Bartiméusgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.80419346629451 52.3625946260121)"^^geo:wktLiteral .
 
-    ns1:zorbepBudgetondersteuning_Nederlandgeo a geo:Geometry ;
+    ns4:zorbepBudgetondersteuning_Nederlandgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8564506 52.4428337)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepCASA_Amsterdam,_centrum_voor_anticonceptie,_ongewenste_zwangerschap_en_seksualiteitgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.92230390704698 52.365328341946)"^^geo:wktLiteral .
 
-    ns1:zorbepCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepCASA_Reade_Centrum_voor_Aangepast_Sporten_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84440831816034 52.3707400053483)"^^geo:wktLiteral .
 
-    ns1:zorbepCOC_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepCOC_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89531572029783 52.357624660428)"^^geo:wktLiteral .
 
-    ns1:zorbepCentrum_PSgeo a geo:Geometry ;
+    ns4:zorbepCentrum_PSgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86579213870465 52.3703867207915)"^^geo:wktLiteral .
 
-    ns1:zorbepCordaan_Jeugdgeo a geo:Geometry ;
+    ns4:zorbepCordaan_Jeugdgeo a geo:Geometry ;
         geo:asWKT "POINT(4.869177 52.3363658)"^^geo:wktLiteral .
 
-    ns1:zorbepCordaangeo a geo:Geometry ;
+    ns4:zorbepCordaangeo a geo:Geometry ;
         geo:asWKT "POINT(4.89558008548591 52.3814611735525)"^^geo:wktLiteral .
 
-    ns1:zorbepDagcentrum_Buitenveldertgeo a geo:Geometry ;
+    ns4:zorbepDagcentrum_Buitenveldertgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86590862919496 52.3317308595466)"^^geo:wktLiteral .
 
-    ns1:zorbepDagcentrum_De_Beemstergeo a geo:Geometry ;
+    ns4:zorbepDagcentrum_De_Beemstergeo a geo:Geometry ;
         geo:asWKT "POINT(4.95079933014972 52.3969026054934)"^^geo:wktLiteral .
 
-    ns1:zorbepDagcentrum_de_Dokkengeo a geo:Geometry ;
+    ns4:zorbepDagcentrum_de_Dokkengeo a geo:Geometry ;
         geo:asWKT "POINT(4.89542819102772 52.4070753960839)"^^geo:wktLiteral .
 
-    ns1:zorbepDagcentrum_de_Drie_Wachtersgeo a geo:Geometry ;
+    ns4:zorbepDagcentrum_de_Drie_Wachtersgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79811630366309 52.3547900972418)"^^geo:wktLiteral .
 
-    ns1:zorbepDagcentrum_de_Elzengeo a geo:Geometry ;
+    ns4:zorbepDagcentrum_de_Elzengeo a geo:Geometry ;
         geo:asWKT "POINT(4.79423602869114 52.3562716852884)"^^geo:wktLiteral .
 
-    ns1:zorbepDagcentrum_de_Rankgeo a geo:Geometry ;
+    ns4:zorbepDagcentrum_de_Rankgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90020462551469 52.4123978321366)"^^geo:wktLiteral .
 
-    ns1:zorbepDe_Driestroomgeo a geo:Geometry ;
+    ns4:zorbepDe_Driestroomgeo a geo:Geometry ;
         geo:asWKT "POINT(-74.0632407 42.8910278)"^^geo:wktLiteral .
 
-    ns1:zorbepDe_Joriskringgeo a geo:Geometry ;
+    ns4:zorbepDe_Joriskringgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88471177806043 52.3334659560565)"^^geo:wktLiteral .
 
-    ns1:zorbepDe_Koppeling_behandelcentrum_JeugdzorgPlusgeo a geo:Geometry ;
+    ns4:zorbepDe_Koppeling_behandelcentrum_JeugdzorgPlusgeo a geo:Geometry ;
         geo:asWKT "POINT(4.94735803554038 52.2920659981719)"^^geo:wktLiteral .
 
-    ns1:zorbepDe_Opvoedpoligeo a geo:Geometry ;
+    ns4:zorbepDe_Opvoedpoligeo a geo:Geometry ;
         geo:asWKT "POINT(4.85005952852072 52.3575717600906)"^^geo:wktLiteral,
             "POINT(4.88229645224543 52.3858811544946)"^^geo:wktLiteral,
             "POINT(4.93013477444236 52.3633815376159)"^^geo:wktLiteral,
             "POINT(4.93560377481371 52.3986971027549)"^^geo:wktLiteral,
             "POINT(4.96971175371461 52.3216539197909)"^^geo:wktLiteral .
 
-    ns1:zorbepDe_Regenboog_Groepgeo a geo:Geometry ;
+    ns4:zorbepDe_Regenboog_Groepgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89413939550038 52.380259820669)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepDe_Riethorst,_GGZ-centrum_voor_doven_&_slechthorendengeo> a geo:Geometry ;
@@ -2943,7 +2957,7 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepDe_Schakel,_inloop_/_maaltijden_/_kringloopgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.87704358256216 52.3828297892819)"^^geo:wktLiteral .
 
-    ns1:zorbepDieetPlaneetgeo a geo:Geometry ;
+    ns4:zorbepDieetPlaneetgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80520896748721 52.3791910438749)"^^geo:wktLiteral,
             "POINT(4.85580382191538 52.3596379073453)"^^geo:wktLiteral,
             "POINT(4.86131567576651 52.3751663693234)"^^geo:wktLiteral,
@@ -2951,26 +2965,26 @@
             "POINT(4.88941121801893 52.3710096659766)"^^geo:wktLiteral,
             "POINT(4.9391567674713 52.3611690989647)"^^geo:wktLiteral .
 
-    ns1:zorbepEffe_bij_moeder_angeo a geo:Geometry ;
+    ns4:zorbepEffe_bij_moeder_angeo a geo:Geometry ;
         geo:asWKT "POINT(4.87792519219701 52.3904731224072)"^^geo:wktLiteral .
 
-    ns1:zorbepEvean_Korthagenhuisgeo a geo:Geometry ;
+    ns4:zorbepEvean_Korthagenhuisgeo a geo:Geometry ;
         geo:asWKT "POINT(4.93987619079198 52.4048428761997)"^^geo:wktLiteral .
 
-    ns1:zorbepFIOM_teamgeo a geo:Geometry ;
+    ns4:zorbepFIOM_teamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91670196390276 52.3910109917999)"^^geo:wktLiteral,
             "POINT(4.95420750871907 52.3111903519439)"^^geo:wktLiteral .
 
-    ns1:zorbepFasehuis_Het_Geingeo a geo:Geometry ;
+    ns4:zorbepFasehuis_Het_Geingeo a geo:Geometry ;
         geo:asWKT "POINT(4.98390974612081 52.3006627979)"^^geo:wktLiteral .
 
-    ns1:zorbepFokus_wonen_met_adl-assistentiegeo a geo:Geometry ;
+    ns4:zorbepFokus_wonen_met_adl-assistentiegeo a geo:Geometry ;
         geo:asWKT "POINT(4.8081015936522 52.3556213095559)"^^geo:wktLiteral,
             "POINT(4.85720882378969 52.3464771284987)"^^geo:wktLiteral,
             "POINT(4.93738620227457 52.3692872633141)"^^geo:wktLiteral,
             "POINT(4.98895415903919 52.2923482064667)"^^geo:wktLiteral .
 
-    ns1:zorbepFourstar_Nederlandgeo a geo:Geometry ;
+    ns4:zorbepFourstar_Nederlandgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91030344933954 52.4149824082887)"^^geo:wktLiteral,
             "POINT(4.91477945830079 52.3329157339047)"^^geo:wktLiteral .
 
@@ -2983,105 +2997,105 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepGehandicapten_Platform_Geuzenveld_/_Slotermeergeo> a geo:Geometry ;
         geo:asWKT "POINT(4.79814931132976 52.3799470577476)"^^geo:wktLiteral .
 
-    ns1:zorbepGemeenschap_Oudezijds_100geo a geo:Geometry ;
+    ns4:zorbepGemeenschap_Oudezijds_100geo a geo:Geometry ;
         geo:asWKT "POINT(4.89799645165028 52.3727800764557)"^^geo:wktLiteral .
 
-    ns1:zorbepHVO-Queridogeo a geo:Geometry ;
+    ns4:zorbepHVO-Queridogeo a geo:Geometry ;
         geo:asWKT "POINT(4.87674510359242 52.3755844114509)"^^geo:wktLiteral,
             "POINT(4.91891283765617 52.3501253517124)"^^geo:wktLiteral .
 
-    ns1:zorbepHeliomare_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepHeliomare_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85470029525033 52.3500609791286)"^^geo:wktLiteral,
             "POINT(4.95580302981431 52.3084638943307)"^^geo:wktLiteral .
 
-    ns1:zorbepHoutwerkplaats_Papaverweggeo a geo:Geometry ;
+    ns4:zorbepHoutwerkplaats_Papaverweggeo a geo:Geometry ;
         geo:asWKT "POINT(4.90619227320112 52.3956243863587)"^^geo:wktLiteral .
 
-    ns1:zorbepHumanitasgeo a geo:Geometry ;
+    ns4:zorbepHumanitasgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90210339499815 52.3597827618791)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepIn2work,_coaching_&_loopbaanadviesgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.9666266 52.3314666)"^^geo:wktLiteral .
 
-    ns1:zorbepIndaadgeo a geo:Geometry ;
+    ns4:zorbepIndaadgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8379998811253 52.3629450331677)"^^geo:wktLiteral .
 
-    ns1:zorbepInitiatiefgroep_Toegankelijkheid_Amsterdam-Noordgeo a geo:Geometry ;
+    ns4:zorbepInitiatiefgroep_Toegankelijkheid_Amsterdam-Noordgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92253306692958 52.3981162811783)"^^geo:wktLiteral .
 
-    ns1:zorbepInloophuis_De_Tweede_Mijlgeo a geo:Geometry ;
+    ns4:zorbepInloophuis_De_Tweede_Mijlgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88511043336344 52.3812464803589)"^^geo:wktLiteral .
 
-    ns1:zorbepJellinekgeo a geo:Geometry ;
+    ns4:zorbepJellinekgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8520993233509 52.3576259372672)"^^geo:wktLiteral,
             "POINT(4.87321094181789 52.3641384434116)"^^geo:wktLiteral,
             "POINT(4.87716592332137 52.3530360013636)"^^geo:wktLiteral .
 
-    ns1:zorbepJeugdsportfonds_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepJeugdsportfonds_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97565723908227 52.3226813778957)"^^geo:wktLiteral .
 
-    ns1:zorbepJongerencultuurfondsgeo a geo:Geometry ;
+    ns4:zorbepJongerencultuurfondsgeo a geo:Geometry ;
         geo:asWKT "POINT(-60.6486658 -32.9934643)"^^geo:wktLiteral .
 
-    ns1:zorbepKDC_De_Kringgeo a geo:Geometry ;
+    ns4:zorbepKDC_De_Kringgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81156469091204 52.3523127177086)"^^geo:wktLiteral .
 
-    ns1:zorbepKDC_De_Schuitgeo a geo:Geometry ;
+    ns4:zorbepKDC_De_Schuitgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80582108494578 52.3661078649175)"^^geo:wktLiteral .
 
-    ns1:zorbepKentalis_Zorggeo a geo:Geometry ;
+    ns4:zorbepKentalis_Zorggeo a geo:Geometry ;
         geo:asWKT "POINT(4.78070073164883 52.3586398536566)"^^geo:wktLiteral,
             "POINT(4.82991124523222 52.3757417455987)"^^geo:wktLiteral,
             "POINT(4.83639829346147 52.3595042659925)"^^geo:wktLiteral,
             "POINT(4.83775935008874 52.3598431385266)"^^geo:wktLiteral,
             "POINT(4.84034458764035 52.3597202930998)"^^geo:wktLiteral .
 
-    ns1:zorbepKids_at_Homegeo a geo:Geometry ;
+    ns4:zorbepKids_at_Homegeo a geo:Geometry ;
         geo:asWKT "POINT(4.87126342179425 52.3784546972955)"^^geo:wktLiteral,
             "POINT(4.87205717824741 52.3821880517126)"^^geo:wktLiteral,
             "POINT(4.88689327832145 52.4119828645781)"^^geo:wktLiteral,
             "POINT(4.88849039271406 52.3458131632375)"^^geo:wktLiteral,
             "POINT(4.99871386805544 52.3546836871764)"^^geo:wktLiteral .
 
-    ns1:zorbepKindercentrum_De_Stergeo a geo:Geometry ;
+    ns4:zorbepKindercentrum_De_Stergeo a geo:Geometry ;
         geo:asWKT "POINT(4.96664847606707 52.3214183771265)"^^geo:wktLiteral,
             "POINT(4.99334980770013 52.2975039444502)"^^geo:wktLiteral .
 
-    ns1:zorbepKinderdagcentrum_Omegageo a geo:Geometry ;
+    ns4:zorbepKinderdagcentrum_Omegageo a geo:Geometry ;
         geo:asWKT "POINT(5.00915938868404 52.3484351116003)"^^geo:wktLiteral .
 
-    ns1:zorbepKinderhospice_Het_Lindenhofjegeo a geo:Geometry ;
+    ns4:zorbepKinderhospice_Het_Lindenhofjegeo a geo:Geometry ;
         geo:asWKT "POINT(4.8852221921004 52.3804560366734)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Anton_de_Kompleingeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Anton_de_Kompleingeo a geo:Geometry ;
         geo:asWKT "POINT(4.95774839684871 52.3165509873492)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Buiten_Oranjegeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Buiten_Oranjegeo a geo:Geometry ;
         geo:asWKT "POINT(4.88798760419105 52.3826876877329)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_De_Admiraalgeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_De_Admiraalgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8463843831641 52.3845002730553)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_De_Singelgeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_De_Singelgeo a geo:Geometry ;
         geo:asWKT "POINT(4.77804768618898 52.3560726400688)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_De_kleine_Johannesgeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_De_kleine_Johannesgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86330785283604 52.3594286857047)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Florijngeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Florijngeo a geo:Geometry ;
         geo:asWKT "POINT(4.95753523794719 52.3188780461323)"^^geo:wktLiteral,
             "POINT(4.95765552087442 52.318572898742)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Haag_en_Veldgeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Haag_en_Veldgeo a geo:Geometry ;
         geo:asWKT "POINT(4.95881341959116 52.3110453410674)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Polderweggeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Polderweggeo a geo:Geometry ;
         geo:asWKT "POINT(4.92743961050122 52.3571156545033)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Rengerskerkestraatgeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Rengerskerkestraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79430467902184 52.3544295292674)"^^geo:wktLiteral .
 
-    ns1:zorbepKleinschalig_wonen_Schinkelhoekgeo a geo:Geometry ;
+    ns4:zorbepKleinschalig_wonen_Schinkelhoekgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8536141125655 52.3525097490796)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKliniek_Vlaardingenlaan_(Mentrum)geo> a geo:Geometry ;
@@ -3093,7 +3107,7 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepKunstwerkplaats_(Cordaan)geo> a geo:Geometry ;
         geo:asWKT "POINT(4.90242682786038 52.3516771507145)"^^geo:wktLiteral .
 
-    ns1:zorbepLFB_Themacafé_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepLFB_Themacafé_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8809076898515 52.3698591323557)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepLeger_des_Heils_Goodwill_Centra_Amsterdam_(GWCA)geo> a geo:Geometry ;
@@ -3102,17 +3116,17 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepLetterplein,_academie_voor_zelfstandigheidsbevorderinggeo> a geo:Geometry ;
         geo:asWKT "POINT(4.97102504881877 52.2941918866103)"^^geo:wktLiteral .
 
-    ns1:zorbepLijn5geo a geo:Geometry ;
+    ns4:zorbepLijn5geo a geo:Geometry ;
         geo:asWKT "POINT(4.83845942075963 52.3625876537368)"^^geo:wktLiteral,
             "POINT(4.94217739398391 52.4025057728816)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMEE_Amstel_en_Zaan,_ondersteuning_bij_leven_met_een_beperkinggeo> a geo:Geometry ;
         geo:asWKT "POINT(4.84127779162964 52.3590415303229)"^^geo:wktLiteral .
 
-    ns1:zorbepMaatschap_Beschermvaardiggeo a geo:Geometry ;
+    ns4:zorbepMaatschap_Beschermvaardiggeo a geo:Geometry ;
         geo:asWKT "POINT(5.35457442299062 52.0335869172284)"^^geo:wktLiteral .
 
-    ns1:zorbepMaatschappelijke_Opvang_Atlantispleingeo a geo:Geometry ;
+    ns4:zorbepMaatschappelijke_Opvang_Atlantispleingeo a geo:Geometry ;
         geo:asWKT "POINT(4.93088921146546 52.3573607050883)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepMarkant,_Centrum_voor_Mantelzorggeo> a geo:Geometry ;
@@ -3124,13 +3138,13 @@
             "POINT(4.91641598779449 52.4057774510004)"^^geo:wktLiteral,
             "POINT(4.97990796255041 52.3086032731991)"^^geo:wktLiteral .
 
-    ns1:zorbepMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjesgeo a geo:Geometry ;
+    ns4:zorbepMedisch_kinderdagverblijf_en_kinderdagcentrum_De_Gelukkige_Dolfijntjesgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8671189686632 52.362420434683)"^^geo:wktLiteral .
 
-    ns1:zorbepMeld-_en_coördinatiepunt_Eropafgeo a geo:Geometry ;
+    ns4:zorbepMeld-_en_coördinatiepunt_Eropafgeo a geo:Geometry ;
         geo:asWKT "POINT(4.83535423540471 52.3478422536317)"^^geo:wktLiteral .
 
-    ns1:zorbepMentrum_LVB-teamgeo a geo:Geometry ;
+    ns4:zorbepMentrum_LVB-teamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92752703085528 52.3571789080153)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepNederlandse_Rode_Kruis,_district_Amsterdamgeo> a geo:Geometry ;
@@ -3139,41 +3153,41 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepNederlandse_Stichting_voor_het_Dove_en_Slechthorende_Kind_(NSDSK)geo> a geo:Geometry ;
         geo:asWKT "POINT(4.9016355575689 52.3515570667512)"^^geo:wktLiteral .
 
-    ns1:zorbepNederlandse_Stichting_voor_het_Gehandicapte_Kindgeo a geo:Geometry ;
+    ns4:zorbepNederlandse_Stichting_voor_het_Gehandicapte_Kindgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91327435740683 52.3515952515863)"^^geo:wktLiteral .
 
-    ns1:zorbepNieuw_Amstelradegeo a geo:Geometry ;
+    ns4:zorbepNieuw_Amstelradegeo a geo:Geometry ;
         geo:asWKT "POINT(4.92271454980408 52.3878081531132)"^^geo:wktLiteral .
 
-    ns1:zorbepOnbeperkt_Oostgeo a geo:Geometry ;
+    ns4:zorbepOnbeperkt_Oostgeo a geo:Geometry ;
         geo:asWKT "POINT(4.93469207100891 52.365663944354)"^^geo:wktLiteral .
 
-    ns1:zorbepOns_Tweede_Thuisgeo a geo:Geometry ;
+    ns4:zorbepOns_Tweede_Thuisgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91663557287138 52.3917297409265)"^^geo:wktLiteral .
 
-    ns1:zorbepOrthopedagogisch_Centrum_Middelveldgeo a geo:Geometry ;
+    ns4:zorbepOrthopedagogisch_Centrum_Middelveldgeo a geo:Geometry ;
         geo:asWKT "POINT(4.83258257843754 52.3594145478159)"^^geo:wktLiteral .
 
-    ns1:zorbepPEWA_Reïntegratiegeo a geo:Geometry ;
+    ns4:zorbepPEWA_Reïntegratiegeo a geo:Geometry ;
         geo:asWKT "POINT(4.95096121939658 52.3042847886086)"^^geo:wktLiteral .
 
-    ns1:zorbepPantar_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepPantar_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81764952158641 52.3882662354318)"^^geo:wktLiteral,
             "POINT(4.87482824580553 52.3953221015922)"^^geo:wktLiteral,
             "POINT(4.89727554209354 52.4034790038723)"^^geo:wktLiteral,
             "POINT(4.9846801676344 52.3175804104182)"^^geo:wktLiteral .
 
-    ns1:zorbepPauwer_Wonengeo a geo:Geometry ;
+    ns4:zorbepPauwer_Wonengeo a geo:Geometry ;
         geo:asWKT "POINT(4.9812985723013 52.3201034046922)"^^geo:wktLiteral,
             "POINT(4.98319136423687 52.295824914075)"^^geo:wktLiteral .
 
-    ns1:zorbepPerspectief_GZgeo a geo:Geometry ;
+    ns4:zorbepPerspectief_GZgeo a geo:Geometry ;
         geo:asWKT "POINT(4.83597977085557 52.3695596205726)"^^geo:wktLiteral .
 
-    ns1:zorbepPhiladelphia_Fasehuisgeo a geo:Geometry ;
+    ns4:zorbepPhiladelphia_Fasehuisgeo a geo:Geometry ;
         geo:asWKT "POINT(4.78620931645055 52.3528158344149)"^^geo:wktLiteral .
 
-    ns1:zorbepPhiladelphia_Zorg_Amsterdam_e.o.geo a geo:Geometry ;
+    ns4:zorbepPhiladelphia_Zorg_Amsterdam_e.o.geo a geo:Geometry ;
         geo:asWKT "POINT(4.89854256879983 52.3925192929884)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPlatform_Mantelzorg_Amsterdam_(PMA)geo> a geo:Geometry ;
@@ -3182,311 +3196,311 @@
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepPlatform_Platform_Gehandicapten_Zuidoost_(PGZO)geo> a geo:Geometry ;
         geo:asWKT "POINT(4.97002866042951 52.2925885464696)"^^geo:wktLiteral .
 
-    ns1:zorbepPoli_Plus_Praktijk_amsterdamgeo a geo:Geometry ;
+    ns4:zorbepPoli_Plus_Praktijk_amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8859172991713 52.3748326784564)"^^geo:wktLiteral .
 
-    ns1:zorbepPraktijk_Hulp_bij_Hersenletselgeo a geo:Geometry ;
+    ns4:zorbepPraktijk_Hulp_bij_Hersenletselgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86943019167427 52.3530743178205)"^^geo:wktLiteral .
 
-    ns1:zorbepProfessor_Waterinkschoolgeo a geo:Geometry ;
+    ns4:zorbepProfessor_Waterinkschoolgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81300375375076 52.3806221994488)"^^geo:wktLiteral,
             "POINT(4.91295218814865 52.3418378279181)"^^geo:wktLiteral,
             "POINT(4.91639211606692 52.4057877368526)"^^geo:wktLiteral .
 
-    ns1:zorbepPuntP_Preventiegeo a geo:Geometry ;
+    ns4:zorbepPuntP_Preventiegeo a geo:Geometry ;
         geo:asWKT "POINT(4.87410843485594 52.3762740572974)"^^geo:wktLiteral .
 
-    ns1:zorbepROC_op_Maatgeo a geo:Geometry ;
+    ns4:zorbepROC_op_Maatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84477189899747 52.3734290058461)"^^geo:wktLiteral,
             "POINT(4.94863048625281 52.3161220753805)"^^geo:wktLiteral,
             "POINT(4.97565723908227 52.3226813778957)"^^geo:wktLiteral .
 
-    ns1:zorbepRaphaëlstichtinggeo a geo:Geometry ;
+    ns4:zorbepRaphaëlstichtinggeo a geo:Geometry ;
         geo:asWKT "POINT(4.89447199549131 52.3516443040276)"^^geo:wktLiteral,
             "POINT(4.90311982034054 52.3540797130959)"^^geo:wktLiteral .
 
-    ns1:zorbepRappórt_Amsterdam_Zuidgeo a geo:Geometry ;
+    ns4:zorbepRappórt_Amsterdam_Zuidgeo a geo:Geometry ;
         geo:asWKT "POINT(-60.6485103 -32.9934625)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepReade,_centrum_voor_reumatologie_en_revalidatiegeo> a geo:Geometry ;
         geo:asWKT "POINT(4.84440831816034 52.3707400053483)"^^geo:wktLiteral,
             "POINT(4.86684928835166 52.3603790314609)"^^geo:wktLiteral .
 
-    ns1:zorbepRonald_McDonaldhuisgeo a geo:Geometry ;
+    ns4:zorbepRonald_McDonaldhuisgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85771314855976 52.3324943843661)"^^geo:wktLiteral,
             "POINT(4.94493976091913 52.3892683404918)"^^geo:wktLiteral,
             "POINT(4.95949137552432 52.2954539693304)"^^geo:wktLiteral .
 
-    ns1:zorbepSBT_Kliniek_Bijzondere_Tandheelkundegeo a geo:Geometry ;
+    ns4:zorbepSBT_Kliniek_Bijzondere_Tandheelkundegeo a geo:Geometry ;
         geo:asWKT "POINT(4.86133764760186 52.33615060552)"^^geo:wktLiteral .
 
-    ns1:zorbepSensa_Zorggeo a geo:Geometry ;
+    ns4:zorbepSensa_Zorggeo a geo:Geometry ;
         geo:asWKT "POINT(4.79520023187911 52.3489154962286)"^^geo:wktLiteral .
 
-    ns1:zorbepSoa_Aids_Nederlandgeo a geo:Geometry ;
+    ns4:zorbepSoa_Aids_Nederlandgeo a geo:Geometry ;
         geo:asWKT "POINT(4.884161457213 52.3690910696194)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_ABCgeo a geo:Geometry ;
+    ns4:zorbepStichting_ABCgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85828389454875 52.3634058940364)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_CAVgeo a geo:Geometry ;
+    ns4:zorbepStichting_CAVgeo a geo:Geometry ;
         geo:asWKT "POINT(4.83986032376237 52.3466138757657)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Cliniclowns_Nederlandgeo a geo:Geometry ;
+    ns4:zorbepStichting_Cliniclowns_Nederlandgeo a geo:Geometry ;
         geo:asWKT "POINT(19.4510149 -33.625529)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_De_Waterheuvelgeo a geo:Geometry ;
+    ns4:zorbepStichting_De_Waterheuvelgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90584916351281 52.3609215172259)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Doorzettingsvermogen_Wilskracht_Resultaat_Plezier_(DWRP)geo> a geo:Geometry ;
         geo:asWKT "POINT(-60.6476058 -32.9934524)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Gemengd_Platform_van_Bewonersgeo a geo:Geometry ;
+    ns4:zorbepStichting_Gemengd_Platform_van_Bewonersgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85256654118916 52.3663641444277)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Kruispostgeo a geo:Geometry ;
+    ns4:zorbepStichting_Kruispostgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89736002794718 52.3727812920455)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Nieuwe_Werkvormen_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepStichting_Nieuwe_Werkvormen_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85522384403384 52.3529124566176)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepStichting_Onderwijs_aan_Zieke_Kinderen_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(5.04836991218723 52.5143106788943)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Opvangcentra_De_Elandsstraatgeo a geo:Geometry ;
+    ns4:zorbepStichting_Opvangcentra_De_Elandsstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88034306850768 52.3704409184671)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Orion_:_Openbaar_Speciaal_Onderwijs_Amsterdamgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.8487728063447 52.3958626267116)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Prismageo a geo:Geometry ;
+    ns4:zorbepStichting_Prismageo a geo:Geometry ;
         geo:asWKT "POINT(4.89832863468851 52.3679550481962)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Spreekbuisgeo a geo:Geometry ;
+    ns4:zorbepStichting_Spreekbuisgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91549606200291 52.3566102914183)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Stoelenprojectgeo a geo:Geometry ;
+    ns4:zorbepStichting_Stoelenprojectgeo a geo:Geometry ;
         geo:asWKT "POINT(4.87672205863238 52.3699310371543)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Streetcornerwork_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepStichting_Streetcornerwork_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88639513387154 52.3689297721381)"^^geo:wktLiteral .
 
-    ns1:zorbepStichting_Volksbond_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepStichting_Volksbond_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(-60.649071 -32.9934688)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepStichting_Welzijn_Doven_Amsterdam_(SWDA)_-_Dovenontmoetingscentrumgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.89531572029783 52.357624660428)"^^geo:wktLiteral .
 
-    ns1:zorbepTextiel-weefatelier_de_Draadgeo a geo:Geometry ;
+    ns4:zorbepTextiel-weefatelier_de_Draadgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84142042852297 52.3737012122622)"^^geo:wktLiteral,
             "POINT(4.92680556604746 52.3856850626281)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepUnal_Zorg,_begeleiding_gehandicapte_migrantengeo> a geo:Geometry ;
         geo:asWKT "POINT(4.81846546294129 52.3761906356092)"^^geo:wktLiteral .
 
-    ns1:zorbepVTO-Vroeghulpgeo a geo:Geometry ;
+    ns4:zorbepVTO-Vroeghulpgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90900287705508 52.3625251245642)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepVangnet_MGGZ_(GGD)geo> a geo:Geometry ;
         geo:asWKT "POINT(4.90900287705508 52.3625251245642)"^^geo:wktLiteral .
 
-    ns1:zorbepVereniging_Cliëntenbelang_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepVereniging_Cliëntenbelang_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91024915491474 52.366772352766)"^^geo:wktLiteral .
 
-    ns1:zorbepVisio_Amsterdamgeo a geo:Geometry ;
+    ns4:zorbepVisio_Amsterdamgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81991666740395 52.3786961907812)"^^geo:wktLiteral,
             "POINT(4.94355195031981 52.3062615095031)"^^geo:wktLiteral .
 
-    ns1:zorbepVoorzorg_GGDgeo a geo:Geometry ;
+    ns4:zorbepVoorzorg_GGDgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90900287705508 52.3625251245642)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepVu_Medisch_Centrum,_afdeling_Audiologiegeo> a geo:Geometry ;
         geo:asWKT "POINT(4.85975845118472 52.3356941874319)"^^geo:wktLiteral .
 
-    ns1:zorbepWerk_en_Dagbesteding_Zij_aan_Zijgeo a geo:Geometry ;
+    ns4:zorbepWerk_en_Dagbesteding_Zij_aan_Zijgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90805653951763 52.3481948544128)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWerkpad,_arbeids(re)integratie_voor_visueel,_auditief_of_communicatief_beperktengeo> a geo:Geometry ;
         geo:asWKT "POINT(4.80404678195825 52.3625849157315)"^^geo:wktLiteral .
 
-    ns1:zorbepWijzer_Centrum_voor_diagnostiek_en_behandelinggeo a geo:Geometry ;
+    ns4:zorbepWijzer_Centrum_voor_diagnostiek_en_behandelinggeo a geo:Geometry ;
         geo:asWKT "POINT(4.92752703085528 52.3571789080153)"^^geo:wktLiteral .
 
-    ns1:zorbepWilliam_Schrikker_Groepgeo a geo:Geometry ;
+    ns4:zorbepWilliam_Schrikker_Groepgeo a geo:Geometry ;
         geo:asWKT "POINT(4.95040664976164 52.3144659074043)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_Daguerregeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_Daguerregeo a geo:Geometry ;
         geo:asWKT "POINT(4.99291858851187 52.3593381230945)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_De_Vestegeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_De_Vestegeo a geo:Geometry ;
         geo:asWKT "POINT(4.99998205445306 52.3540137656677)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_Park_de_Meergeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_Park_de_Meergeo a geo:Geometry ;
         geo:asWKT "POINT(4.94791967755041 52.3435141152205)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Bazelhofgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Bazelhofgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79595723706196 52.3758197375598)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Borgerstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Borgerstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86374662274143 52.3645446542265)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Colijnstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Colijnstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80693025749427 52.3789658099531)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Czaar_Peterstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Czaar_Peterstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92902747619867 52.369668647209)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_De_Gooyergeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_De_Gooyergeo a geo:Geometry ;
         geo:asWKT "POINT(4.9269244904145 52.3643217971066)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_De_Werfgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_De_Werfgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89542819102772 52.4070753960839)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Dusartstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Dusartstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88941652644195 52.3522163426952)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Eerste_Hugo_de_Grootstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.87448012923316 52.3758802079165)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWoonlocatie_VGZ_Foyer_Bos_&_Lommergeo> a geo:Geometry ;
         geo:asWKT "POINT(4.84192152933525 52.377136836057)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Gerrie_Knetemannlaangeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Gerrie_Knetemannlaangeo a geo:Geometry ;
         geo:asWKT "POINT(4.84144858009114 52.373800207153)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Jan_Luijkenstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Jan_Luijkenstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88071786589417 52.3594774914572)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Johan_Huijsenstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Johan_Huijsenstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(5.00795044586313 52.3507950070452)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Kadoelerbreekgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Kadoelerbreekgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91371669733415 52.4091811042708)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Ketelmakerijgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Ketelmakerijgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9179106177706 52.3836908377516)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Koningsvrouwen_van_Landlustgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Koningsvrouwen_van_Landlustgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85883846939579 52.3813423257608)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Mandarijnenstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Mandarijnenstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89611618195055 52.4099722703145)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Marcantilaangeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Marcantilaangeo a geo:Geometry ;
         geo:asWKT "POINT(4.86915637879917 52.3752728344162)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Mulderpleingeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Mulderpleingeo a geo:Geometry ;
         geo:asWKT "POINT(4.92479224810559 52.36605710299)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Nieuw_Slotengeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Nieuw_Slotengeo a geo:Geometry ;
         geo:asWKT "POINT(4.81618564840466 52.3445247015017)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Oosterparkstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Oosterparkstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91308582747928 52.3555041599213)"^^geo:wktLiteral,
             "POINT(4.92078007158038 52.3580512888408)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Overleggeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Overleggeo a geo:Geometry ;
         geo:asWKT "POINT(4.80229635667608 52.3550445097738)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Overtoomse_hofgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Overtoomse_hofgeo a geo:Geometry ;
         geo:asWKT "POINT(4.83756706942673 52.368254788488)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Parkhofgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Parkhofgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97938491945608 52.2968903856488)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Pieter_Langendijkstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Pieter_Langendijkstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86054859311108 52.3618521225528)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Polderwegflatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Polderwegflatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92743961050122 52.3571156545033)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Seegerspleingeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Seegerspleingeo a geo:Geometry ;
         geo:asWKT "POINT(4.99326637320481 52.2920301004237)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Senecastraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Senecastraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81302818604178 52.3730636181079)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Sleewijkstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Sleewijkstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97213935367325 52.2910231066339)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Spreeuwenparkgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Spreeuwenparkgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91485304425909 52.3839213494348)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Walmolengeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Walmolengeo a geo:Geometry ;
         geo:asWKT "POINT(4.88959455682267 52.4187978779284)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Watertorengeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Watertorengeo a geo:Geometry ;
         geo:asWKT "POINT(4.86770491594103 52.3850990305875)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_VGZ_Wenckebachweggeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_VGZ_Wenckebachweggeo a geo:Geometry ;
         geo:asWKT "POINT(4.92705522818391 52.3375568494493)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_Zoelenkerkstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_Zoelenkerkstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79483683066453 52.3552500839297)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_en_activiteitencentrum_Albatrosgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_en_activiteitencentrum_Albatrosgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92271454980408 52.3878081531132)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonlocatie_en_activiteitencentrum_Meijboomgeo a geo:Geometry ;
+    ns4:zorbepWoonlocatie_en_activiteitencentrum_Meijboomgeo a geo:Geometry ;
         geo:asWKT "POINT(5.01029007005629 52.3500924521695)"^^geo:wktLiteral,
             "POINT(5.010859556989 52.3504357962001)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepWoonvoorziening_'s_Gravendijkdreefgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.98105978066606 52.323146853887)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Anfieldroadgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Anfieldroadgeo a geo:Geometry ;
         geo:asWKT "POINT(4.94904192418658 52.3428082444303)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Bijlmerdreefgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Bijlmerdreefgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97738036016004 52.3235142319461)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Bruins_Slotstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Bruins_Slotstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79131161638893 52.3783759379619)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_De_Kleine_Hakkegeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_De_Kleine_Hakkegeo a geo:Geometry ;
         geo:asWKT "POINT(4.78342338717472 52.3536824615856)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_De_Luifelgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_De_Luifelgeo a geo:Geometry ;
         geo:asWKT "POINT(4.93437694809992 52.3936593397385)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Egolipleingeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Egolipleingeo a geo:Geometry ;
         geo:asWKT "POINT(4.96024808435073 52.3219796584182)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Hertingenstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Hertingenstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79664877802264 52.354764808849)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Julius_Pergerstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Julius_Pergerstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(5.00239330687411 52.3518555955893)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Kinkerstraatgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Kinkerstraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.87442336715766 52.3680876077229)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Korte_Watergeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Korte_Watergeo a geo:Geometry ;
         geo:asWKT "POINT(4.78601987862629 52.3533307908868)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Laan_van_Vlaanderengeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Laan_van_Vlaanderengeo a geo:Geometry ;
         geo:asWKT "POINT(4.80621296424572 52.3462737262101)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonvoorziening_Wigbolt_Ripperdastraatgeo a geo:Geometry ;
+    ns4:zorbepWoonvoorziening_Wigbolt_Ripperdastraatgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80487961160968 52.3819037255316)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonzorg-_en_dienstencentrum_Menno_Simonsgeo a geo:Geometry ;
+    ns4:zorbepWoonzorg-_en_dienstencentrum_Menno_Simonsgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86650927552825 52.3267992005325)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonzorgcentrum_De_Gooyergeo a geo:Geometry ;
+    ns4:zorbepWoonzorgcentrum_De_Gooyergeo a geo:Geometry ;
         geo:asWKT "POINT(4.9269244904145 52.3643217971066)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonzorgcentrum_De_Klinkergeo a geo:Geometry ;
+    ns4:zorbepWoonzorgcentrum_De_Klinkergeo a geo:Geometry ;
         geo:asWKT "POINT(4.86776038302481 52.3653173031291)"^^geo:wktLiteral .
 
-    ns1:zorbepWoonzorgcentrum_Kastanjehofgeo a geo:Geometry ;
+    ns4:zorbepWoonzorgcentrum_Kastanjehofgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92309389704501 52.3585816703604)"^^geo:wktLiteral .
 
-    ns1:zorbepZigzag_verpleegkundige_en_gespecialiseerde_kindzorggeo a geo:Geometry ;
+    ns4:zorbepZigzag_verpleegkundige_en_gespecialiseerde_kindzorggeo a geo:Geometry ;
         geo:asWKT "POINT(4.81300375375076 52.3806221994488)"^^geo:wktLiteral,
             "POINT(4.91295218814865 52.3418378279181)"^^geo:wktLiteral .
 
-    ns1:zorbepZorgboerderij_De_Stolpgeo a geo:Geometry ;
+    ns4:zorbepZorgboerderij_De_Stolpgeo a geo:Geometry ;
         geo:asWKT "POINT(4.95408176488359 52.4113218027483)"^^geo:wktLiteral .
 
     <http://few.vu.nl/~mvr320/KRweb/resource/zorbepZusters_van_Moeder_Theresa_(Missionaries_of_Charity)geo> a geo:Geometry ;
@@ -3498,23 +3512,14 @@
     :addictsReintegration a :knowledgeDomain,
             owl:NamedIndividual .
 
+    :verpleegZorgHuis a owl:Class ;
+        rdfs:subClassOf :healthCare .
+
     :adults a :ageGroups,
             owl:NamedIndividual .
 
     :children a :ageGroups,
             owl:NamedIndividual .
-
-    :medicalLocation a owl:Class ;
-        rdfs:label "Medical Location"@en ;
-        rdfs:subClassOf :Location .
-
-    :providesDentalcareTo a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :ageGroups ;
-        rdfs:subPropertyOf :provides .
-
-    :verpleegZorgHuis a owl:Class ;
-        rdfs:subClassOf :healthCare .
 
     :groups a owl:Class .
 
@@ -3528,6 +3533,15 @@
     :elderlyLocation a owl:Class ;
         rdfs:label "Location for Elderly people"@en ;
         rdfs:subClassOf :Location .
+
+    :medicalLocation a owl:Class ;
+        rdfs:label "Medical Location"@en ;
+        rdfs:subClassOf :Location .
+
+    :providesDentalcareTo a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :ageGroups ;
+        rdfs:subPropertyOf :provides .
 
     :ageGroups a owl:Class .
 

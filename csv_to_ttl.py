@@ -129,9 +129,9 @@ for i in range(len(filenames)):
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['dentalIssues']))
             dataset.add((thing, RDF['type'], VOCAB['dentist']))
             if "Kindertandheelkunde" in row['titel']:
-                dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['child']))
+                dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['children']))
             else:
-                dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['adult']))                
+                dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['adults']))                
         if short[i] == "dakth":
             substrdb = ["50", "work","Juttersdok", "HVO-Querido"]
             substrbw = ["huis", "begeleid", "wonen","discus", "Woon", "HVO-Querido"]

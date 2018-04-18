@@ -588,9 +588,23 @@
     :addicts a :riskGroups,
             owl:NamedIndividual .
 
+    :adultDentist a owl:Class ;
+        rdfs:label "Adult dentist"@en ;
+        rdfs:subClassOf :medicalLocation ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :adults ;
+                owl:onProperty :providesDentalcareTo ] .
+
     :careLocation a owl:Class ;
         rdfs:label "General Care location"@en ;
         rdfs:subClassOf :elderlyLocation .
+
+    :childDentist a owl:Class ;
+        rdfs:label "Child dentist"@en ;
+        rdfs:subClassOf :medicalLocation ;
+        owl:equivalentClass [ a owl:Restriction ;
+                owl:hasValue :children ;
+                owl:onProperty :providesDentalcareTo ] .
 
     :childDevelopment a :knowledgeDomain,
             owl:NamedIndividual .
@@ -855,24 +869,9 @@
     :addictsReintegration a :knowledgeDomain,
             owl:NamedIndividual .
 
-    :adults a :ageGroups,
-            owl:NamedIndividual .
-
-    :children a :ageGroups,
-            owl:NamedIndividual .
-
-    :medicalLocation a owl:Class ;
-        rdfs:label "Medical Location"@en ;
-        rdfs:subClassOf :Location .
-
     :nightLocation a owl:Class ;
         rdfs:label "Night Location"@en ;
         rdfs:subClassOf :Location .
-
-    :providesDentalcareTo a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :ageGroups ;
-        rdfs:subPropertyOf :provides .
 
     :tennisHall a owl:Class ;
         rdfs:label "Hall for Tennis"@en ;
@@ -880,6 +879,12 @@
 
     :verpleegZorgHuis a owl:Class ;
         rdfs:subClassOf :healthCare .
+
+    :adults a :ageGroups,
+            owl:NamedIndividual .
+
+    :children a :ageGroups,
+            owl:NamedIndividual .
 
     :groups a owl:Class .
 
@@ -893,6 +898,15 @@
     :elderlyLocation a owl:Class ;
         rdfs:label "Location for Elderly people"@en ;
         rdfs:subClassOf :Location .
+
+    :medicalLocation a owl:Class ;
+        rdfs:label "Medical Location"@en ;
+        rdfs:subClassOf :Location .
+
+    :providesDentalcareTo a owl:ObjectProperty ;
+        rdfs:domain :organisations ;
+        rdfs:range :ageGroups ;
+        rdfs:subPropertyOf :provides .
 
     :ageGroups a owl:Class .
 
