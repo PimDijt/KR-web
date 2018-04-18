@@ -124,7 +124,7 @@ for i in range(len(filenames)):
                 if "Tennis" in row['titel']:
                     dataset.add((thing, RDF['type'], VOCAB['tennisHall']))
                 else:
-                    dataset.add((thing, RDF['type'], VOCAB['sportCentrum']))
+                    dataset.add((thing, RDF['type'], VOCAB['sportcentrum']))
         if short[i] == "tooth":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['dentalIssues']))
             dataset.add((thing, RDF['type'], VOCAB['dentist']))
