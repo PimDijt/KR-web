@@ -287,7 +287,7 @@ SELECT ?sup ?sub WHERE {
           query += " ?a"+i+" geo:hasGeometry ?geo"+i+" .\n";
         }
 
-        
+
         for(var i=0; i<count; i++){
           for(var j=i+1; j<count; j++){
             query += " ?geo"+i+" geof:nearby (?geo"+j+" 2000 <http://qudt.org/vocab/unit#Meter>) .\n"
@@ -310,9 +310,9 @@ SELECT ?sup ?sub WHERE {
 
             }else{
               var poly_1_center = new google.maps.LatLng({lat: Number(item.lat0.value), lng: Number(item.lng0.value) });
-              var poly_1_center = new google.maps.LatLng({lat: 52.379189, lng: 4.899431 });
+              //var poly_1_center = new google.maps.LatLng({lat: 52.379189, lng: 4.899431 });
               var circle_1 = new google.maps.Polygon({
-                map: map,
+                //map: map,
                 path:circlePath(poly_1_center,1000,1000),
                 strokeColor: '#FF0000',
                 strokeOpacity: 0.8,
@@ -325,7 +325,7 @@ SELECT ?sup ?sub WHERE {
               for(var i=1; i<num; i++){
                 var poly_new_center = new google.maps.LatLng({lat: Number(item["lat"+i].value), lng: Number(item["lng"+i].value) });
                 var circle_new = new google.maps.Polygon({
-                  map: map,
+                  //map: map,
                   path:circlePath(poly_new_center,1000,1000),
                   strokeColor: '#0000FF',
                   strokeOpacity: 0.8,
