@@ -3,6 +3,7 @@ from urllib.parse import quote
 from csv import DictReader
 from rdflib import Dataset, URIRef, Literal, Namespace, RDF, RDFS, OWL, XSD
 from iribaker import to_iri
+import uuid 
 
 dbp = 'http://dbpedia.org/property/'
 DBP = Namespace(dbp)
@@ -69,9 +70,10 @@ for i in range(len(filenames)):
         website = ""
         
         # All set... we are now going to add the triples to our dataset
+        rndom = uuid.uuid4().hex[:16].upper()
         if short[i] != "prk":
-            thing = URIRef(to_iri(url+row['titel']))
-            thinggeo = URIRef(to_iri(url+row['titel']+'geo'))
+            thing = URIRef(to_iri(url+row['titel']+rndom))
+            thinggeo = URIRef(to_iri(url+row['titel']+rndom+'geo'))
             points = row['locatie'][5:].split()
             lati = points[1][:-1]
             lngi = points[0][1:]
@@ -98,7 +100,8 @@ for i in range(len(filenames)):
                 dataset.add((thing, VOCAB['website'], website))
             dataset.add((thing, RDF['type'], VOCAB['instantie']))
         else:
-            thing = URIRef(to_iri(url+row['Naam']))
+            thing = URIRef(to_iri(url+row['Naam']+rndom))
+            thinggeo = URIRef(to_iri(url+row['Naam']+rndom+'geo'))
             lati = row['LAT']
             lngi = row['LON']
             point = Literal('POINT( '+row['LON']+' '+row['LAT']+' )', datatype=GEO['wktLiteral'])
