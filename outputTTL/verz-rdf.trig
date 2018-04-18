@@ -15,7 +15,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuisA98F376186C542CE> a :dayLocation,
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuisBDA7DC0AFEFB455D> a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Beth Shalom, Joods zorgcentrum en verpleeghuis"^^xsd:string ;
@@ -25,21 +25,21 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.bethshalom.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuisA98F376186C542CEgeo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuisBDA7DC0AFEFB455Dgeo> ;
         ns3:lat "52.3262060145577"^^xsd:float ;
         ns3:long "4.88100928944689"^^xsd:float .
 
-    ns4:verzCentrum_van_ouderen_Flesseman439D43789F8840A4 a :instantie ;
+    ns4:verzCentrum_van_ouderen_Flesseman552B2301F3A14097 a :instantie ;
         rdfs:label "Centrum van ouderen Flesseman"^^xsd:string ;
         ns2:latitude 5.237201e+01 ;
         ns2:longitude 4.900677e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzCentrum_van_ouderen_Flesseman439D43789F8840A4geo ;
+        geo:hasGeometry ns4:verzCentrum_van_ouderen_Flesseman552B2301F3A14097geo ;
         ns3:lat "52.3720091926606"^^xsd:float ;
         ns3:long "4.90067748047184"^^xsd:float .
 
-    ns4:verzCentrum_voor_verpleeghuiszorg_De_Poort1ADBD7792AB44200 a :dayLocation,
+    ns4:verzCentrum_voor_verpleeghuiszorg_De_PoortDE06F944B2074E34 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Centrum voor verpleeghuiszorg De Poort"^^xsd:string ;
@@ -49,143 +49,143 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzCentrum_voor_verpleeghuiszorg_De_Poort1ADBD7792AB44200geo ;
+        geo:hasGeometry ns4:verzCentrum_voor_verpleeghuiszorg_De_PoortDE06F944B2074E34geo ;
         ns3:lat "52.3725185912838"^^xsd:float ;
         ns3:long "4.87236037950261"^^xsd:float .
 
-    ns4:verzDe_GoodwillburghA13A7EE80EEF4B32 a :instantie ;
+    ns4:verzDe_GoodwillburghEB8847008B1D4609 a :instantie ;
         rdfs:label "De Goodwillburgh"^^xsd:string ;
         ns2:latitude 5.236944e+01 ;
         ns2:longitude 4.909061e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
-        geo:hasGeometry ns4:verzDe_GoodwillburghA13A7EE80EEF4B32geo ;
+        geo:hasGeometry ns4:verzDe_GoodwillburghEB8847008B1D4609geo ;
         ns3:lat "52.3694369076746"^^xsd:float ;
         ns3:long "4.909060522152"^^xsd:float .
 
-    ns4:verzDe_Hudsonhof60AE05F519674B68 a :instantie ;
+    ns4:verzDe_Hudsonhof7E43536BEBC14F4A a :instantie ;
         rdfs:label "De Hudsonhof"^^xsd:string ;
         ns2:latitude 5.236979e+01 ;
         ns2:longitude 4.852099e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://hudsonhof.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzDe_Hudsonhof60AE05F519674B68geo ;
+        geo:hasGeometry ns4:verzDe_Hudsonhof7E43536BEBC14F4Ageo ;
         ns3:lat "52.3697863641605"^^xsd:float ;
         ns3:long "4.85209947315776"^^xsd:float .
 
-    ns4:verzEvean_De_Kimme64D09DFAD9ED46D0 a :instantie ;
+    ns4:verzEvean_De_Kimme54BE96B9AFF640E5 a :instantie ;
         rdfs:label "Evean De Kimme"^^xsd:string ;
         ns2:latitude 5.239631e+01 ;
         ns2:longitude 4.951084e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.evean.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzEvean_De_Kimme64D09DFAD9ED46D0geo ;
+        geo:hasGeometry ns4:verzEvean_De_Kimme54BE96B9AFF640E5geo ;
         ns3:lat "52.3963104712899"^^xsd:float ;
         ns3:long "4.95108431187849"^^xsd:float .
 
-    ns4:verzEvean_Eduard_Douwes_DekkerD3AF417D1FCA4CE9 a :instantie ;
+    ns4:verzEvean_Eduard_Douwes_DekkerD452106A0AE540A8 a :instantie ;
         rdfs:label "Evean Eduard Douwes Dekker"^^xsd:string ;
         ns2:latitude 5.240465e+01 ;
         ns2:longitude 4.907696e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.evean.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzEvean_Eduard_Douwes_DekkerD3AF417D1FCA4CE9geo ;
+        geo:hasGeometry ns4:verzEvean_Eduard_Douwes_DekkerD452106A0AE540A8geo ;
         ns3:lat "52.404645096468"^^xsd:float ;
         ns3:long "4.90769611986109"^^xsd:float .
 
-    ns4:verzEvean_Henriëtte_Roland_Holst8AA11F1A48034AAC a :instantie ;
+    ns4:verzEvean_Henriëtte_Roland_Holst12E394A0071D41D2 a :instantie ;
         rdfs:label "Evean Henriëtte Roland Holst"^^xsd:string ;
         ns2:latitude 5.231428e+01 ;
         ns2:longitude 4.969781e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.evean.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzEvean_Henriëtte_Roland_Holst8AA11F1A48034AACgeo ;
+        geo:hasGeometry ns4:verzEvean_Henriëtte_Roland_Holst12E394A0071D41D2geo ;
         ns3:lat "52.31428419715"^^xsd:float ;
         ns3:long "4.96978099676363"^^xsd:float .
 
-    ns4:verzEvean_KorthagenhuisBC38C90791CE4B3F a :instantie ;
+    ns4:verzEvean_KorthagenhuisB9E5FF6F096E49F0 a :instantie ;
         rdfs:label "Evean Korthagenhuis"^^xsd:string ;
         ns2:latitude 5.240484e+01 ;
         ns2:longitude 4.939876e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.evean.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzEvean_KorthagenhuisBC38C90791CE4B3Fgeo ;
+        geo:hasGeometry ns4:verzEvean_KorthagenhuisB9E5FF6F096E49F0geo ;
         ns3:lat "52.4048428761997"^^xsd:float ;
         ns3:long "4.93987619079198"^^xsd:float .
 
-    ns4:verzEvean_TwiskehuisCB5C1EAF7E164B0B a :instantie ;
+    ns4:verzEvean_TwiskehuisCC01C41626884B2E a :instantie ;
         rdfs:label "Evean Twiskehuis"^^xsd:string ;
         ns2:latitude 5.241609e+01 ;
         ns2:longitude 4.880379e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.evean.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzEvean_TwiskehuisCB5C1EAF7E164B0Bgeo ;
+        geo:hasGeometry ns4:verzEvean_TwiskehuisCC01C41626884B2Egeo ;
         ns3:lat "52.4160894934834"^^xsd:float ;
         ns3:long "4.88037940833226"^^xsd:float .
 
-    ns4:verzHet_FlevohuisAD784876EF724BE0 a :instantie ;
+    ns4:verzHet_FlevohuisAFCDD949DB044181 a :instantie ;
         rdfs:label "Het Flevohuis"^^xsd:string ;
         ns2:latitude 5.236555e+01 ;
         ns2:longitude 4.945866e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.zgao.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzHet_FlevohuisAD784876EF724BE0geo ;
+        geo:hasGeometry ns4:verzHet_FlevohuisAFCDD949DB044181geo ;
         ns3:lat "52.3655533336182"^^xsd:float ;
         ns3:long "4.94586623079635"^^xsd:float .
 
-    ns4:verzHuize_Plantage2E98F738665844AE a :instantie ;
+    ns4:verzHuize_PlantageA0AE38BB464A4D3E a :instantie ;
         rdfs:label "Huize Plantage"^^xsd:string ;
         ns2:latitude 5.236786e+01 ;
         ns2:longitude 4.911309e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://huizeplantage.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzHuize_Plantage2E98F738665844AEgeo ;
+        geo:hasGeometry ns4:verzHuize_PlantageA0AE38BB464A4D3Egeo ;
         ns3:lat "52.3678551439604"^^xsd:float ;
         ns3:long "4.91130936019787"^^xsd:float .
 
-    ns4:verzLA_Rieshuis55E3761AAA1C4760 a :instantie ;
+    ns4:verzLA_Rieshuis1E8264081FE4432B a :instantie ;
         rdfs:label "LA Rieshuis"^^xsd:string ;
         ns2:latitude 5.23836e+01 ;
         ns2:longitude 4.884335e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzLA_Rieshuis55E3761AAA1C4760geo ;
+        geo:hasGeometry ns4:verzLA_Rieshuis1E8264081FE4432Bgeo ;
         ns3:lat "52.3835979652873"^^xsd:float ;
         ns3:long "4.88433471579719"^^xsd:float .
 
-    ns4:verzLutherhof18398262CA274810 a :instantie ;
+    ns4:verzLutherhof478BF9C1B09442E6 a :instantie ;
         rdfs:label "Lutherhof"^^xsd:string ;
         ns2:latitude 5.23608e+01 ;
         ns2:longitude 4.863495e+00 ;
         :providesInformationAbout :elderlyCare ;
         :website "http://www.lutherhof.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzLutherhof18398262CA274810geo ;
+        geo:hasGeometry ns4:verzLutherhof478BF9C1B09442E6geo ;
         ns3:lat "52.3607955999308"^^xsd:float ;
         ns3:long "4.8634954794259"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie99D4DD5E25EB41A8> a :instantie ;
-        rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
-        ns2:latitude 5.237074e+01 ;
-        ns2:longitude 4.844408e+00 ;
-        :providesInformationAbout :elderlyCare,
-            :reumaCare ;
-        :website "http://www.reade.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie99D4DD5E25EB41A8geo> ;
-        ns3:lat "52.3707400053483"^^xsd:float ;
-        ns3:long "4.84440831816034"^^xsd:float .
-
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie9F547024128E4065> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie74FA8FE62C4E4A45> a :instantie ;
         rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
         ns2:latitude 5.236038e+01 ;
         ns2:longitude 4.866849e+00 ;
         :providesInformationAbout :elderlyCare,
             :reumaCare ;
         :website "http://www.reade.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie9F547024128E4065geo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie74FA8FE62C4E4A45geo> ;
         ns3:lat "52.3603790314609"^^xsd:float ;
         ns3:long "4.86684928835166"^^xsd:float .
 
-    ns4:verzVerpleeghuis_De_DieDE019EBB01B940E0 a :dayLocation,
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatieDC00C3F572054A66> a :instantie ;
+        rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
+        ns2:latitude 5.237074e+01 ;
+        ns2:longitude 4.844408e+00 ;
+        :providesInformationAbout :elderlyCare,
+            :reumaCare ;
+        :website "http://www.reade.nl"^^xsd:string ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatieDC00C3F572054A66geo> ;
+        ns3:lat "52.3707400053483"^^xsd:float ;
+        ns3:long "4.84440831816034"^^xsd:float .
+
+    ns4:verzVerpleeghuis_De_Die856528757C7E4ACB a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis De Die"^^xsd:string ;
@@ -195,11 +195,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_De_DieDE019EBB01B940E0geo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_De_Die856528757C7E4ACBgeo ;
         ns3:lat "52.3989171074832"^^xsd:float ;
         ns3:long "4.93203111019125"^^xsd:float .
 
-    ns4:verzVerpleeghuis_De_Open_HofD6AB5B6F95FF40CC a :dayLocation,
+    ns4:verzVerpleeghuis_De_Open_HofB9095A3489984AC7 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis De Open Hof"^^xsd:string ;
@@ -209,11 +209,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.zgao.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_De_Open_HofD6AB5B6F95FF40CCgeo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_De_Open_HofB9095A3489984AC7geo ;
         ns3:lat "52.3455550497961"^^xsd:float ;
         ns3:long "4.92682557250361"^^xsd:float .
 
-    ns4:verzVerpleeghuis_Dr._SarphatihuisB2A4FFD8F1884259 a :dayLocation,
+    ns4:verzVerpleeghuis_Dr._Sarphatihuis836B7B7451F947DC a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis Dr. Sarphatihuis"^^xsd:string ;
@@ -223,11 +223,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_Dr._SarphatihuisB2A4FFD8F1884259geo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_Dr._Sarphatihuis836B7B7451F947DCgeo ;
         ns3:lat "52.3646974046891"^^xsd:float ;
         ns3:long "4.9105504148047"^^xsd:float .
 
-    ns4:verzVerpleeghuis_GaasperdamF8F9A0A10AC947DB a :dayLocation,
+    ns4:verzVerpleeghuis_GaasperdamAC1EB75B15954DC1 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis Gaasperdam"^^xsd:string ;
@@ -237,11 +237,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_GaasperdamF8F9A0A10AC947DBgeo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_GaasperdamAC1EB75B15954DC1geo ;
         ns3:lat "52.2954871199986"^^xsd:float ;
         ns3:long "4.97904597848879"^^xsd:float .
 
-    ns4:verzVerpleeghuis_Jan_Bongastraat9115AA2DED7744A1 a :dayLocation,
+    ns4:verzVerpleeghuis_Jan_Bongastraat59D9C35B16D844CF a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis Jan Bongastraat"^^xsd:string ;
@@ -251,11 +251,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_Jan_Bongastraat9115AA2DED7744A1geo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_Jan_Bongastraat59D9C35B16D844CFgeo ;
         ns3:lat "52.3799391732458"^^xsd:float ;
         ns3:long "4.80381857640939"^^xsd:float .
 
-    ns4:verzVerpleeghuis_OostpoortB9948B9BB7C14D3B a :dayLocation,
+    ns4:verzVerpleeghuis_OostpoortE3186EE40A4743B3 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis Oostpoort"^^xsd:string ;
@@ -265,11 +265,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_OostpoortB9948B9BB7C14D3Bgeo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_OostpoortE3186EE40A4743B3geo ;
         ns3:lat "52.3581478585392"^^xsd:float ;
         ns3:long "4.93226710611238"^^xsd:float .
 
-    ns4:verzVerpleeghuis_Slotervaart0D51002447424E80 a :dayLocation,
+    ns4:verzVerpleeghuis_Slotervaart3BF1A7E053164B60 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verpleeghuis Slotervaart"^^xsd:string ;
@@ -279,11 +279,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerpleeghuis_Slotervaart0D51002447424E80geo ;
+        geo:hasGeometry ns4:verzVerpleeghuis_Slotervaart3BF1A7E053164B60geo ;
         ns3:lat "52.347391770001"^^xsd:float ;
         ns3:long "4.82367762993562"^^xsd:float .
 
-    ns4:verzVerzorgingshuis_Emmahof299DBFA8A3984A2A a :dayLocation,
+    ns4:verzVerzorgingshuis_Emmahof633EECDF241D4B1A a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Verzorgingshuis Emmahof"^^xsd:string ;
@@ -293,11 +293,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.pro-senectute.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzVerzorgingshuis_Emmahof299DBFA8A3984A2Ageo ;
+        geo:hasGeometry ns4:verzVerzorgingshuis_Emmahof633EECDF241D4B1Ageo ;
         ns3:lat "52.3530066528232"^^xsd:float ;
         ns3:long "4.87039972599071"^^xsd:float .
 
-    ns4:verzWoon-_en_Zorgcentrum_De_Riekerhof79D43D45878148FF a :dayLocation,
+    ns4:verzWoon-_en_Zorgcentrum_De_RiekerhofDD4C6D444E014169 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en Zorgcentrum De Riekerhof"^^xsd:string ;
@@ -307,11 +307,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_Zorgcentrum_De_Riekerhof79D43D45878148FFgeo ;
+        geo:hasGeometry ns4:verzWoon-_en_Zorgcentrum_De_RiekerhofDD4C6D444E014169geo ;
         ns3:lat "52.3591534857157"^^xsd:float ;
         ns3:long "4.84021945296963"^^xsd:float .
 
-    ns4:verzWoon-_en_Zorgcentrum_TorendaelA8F91FE3C8214500 a :dayLocation,
+    ns4:verzWoon-_en_Zorgcentrum_TorendaelA35F49E34A4645A5 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en Zorgcentrum Torendael"^^xsd:string ;
@@ -321,11 +321,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.puurzuid.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_Zorgcentrum_TorendaelA8F91FE3C8214500geo ;
+        geo:hasGeometry ns4:verzWoon-_en_Zorgcentrum_TorendaelA35F49E34A4645A5geo ;
         ns3:lat "52.33847156492"^^xsd:float ;
         ns3:long "4.89743542221235"^^xsd:float .
 
-    ns4:verzWoon-_en_zorgcentrum_De_DenAF8CB0D19DAC463D a :dayLocation,
+    ns4:verzWoon-_en_zorgcentrum_De_DenC87B28AF19F74475 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en zorgcentrum De Den"^^xsd:string ;
@@ -335,11 +335,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.puurzuid.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_De_DenAF8CB0D19DAC463Dgeo ;
+        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_De_DenC87B28AF19F74475geo ;
         ns3:lat "52.3822507562623"^^xsd:float ;
         ns3:long "4.80417004427809"^^xsd:float .
 
-    ns4:verzWoon-_en_zorgcentrum_De_SchutseC9AA5B3979894153 a :dayLocation,
+    ns4:verzWoon-_en_zorgcentrum_De_Schutse8BBBA03374604278 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en zorgcentrum De Schutse"^^xsd:string ;
@@ -349,11 +349,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_De_SchutseC9AA5B3979894153geo ;
+        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_De_Schutse8BBBA03374604278geo ;
         ns3:lat "52.3594481743426"^^xsd:float ;
         ns3:long "4.8225849901937"^^xsd:float .
 
-    ns4:verzWoon-_en_zorgcentrum_De_WerfA4A9580108D04248 a :dayLocation,
+    ns4:verzWoon-_en_zorgcentrum_De_Werf1B50C07DFADA4BD5 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en zorgcentrum De Werf"^^xsd:string ;
@@ -363,11 +363,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_De_WerfA4A9580108D04248geo ;
+        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_De_Werf1B50C07DFADA4BD5geo ;
         ns3:lat "52.3724663455495"^^xsd:float ;
         ns3:long "4.86846433520237"^^xsd:float .
 
-    ns4:verzWoon-_en_zorgcentrum_Nellestein37AFC541D9C54BE8 a :dayLocation,
+    ns4:verzWoon-_en_zorgcentrum_Nellestein0E2420A608E949DF a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en zorgcentrum Nellestein"^^xsd:string ;
@@ -377,11 +377,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_Nellestein37AFC541D9C54BE8geo ;
+        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_Nellestein0E2420A608E949DFgeo ;
         ns3:lat "52.3094556713152"^^xsd:float ;
         ns3:long "4.98473909271888"^^xsd:float .
 
-    ns4:verzWoon-_en_zorgcentrum_Vondelstede9780D9D5AD61493C a :dayLocation,
+    ns4:verzWoon-_en_zorgcentrum_Vondelstede7186A49BBACD46AF a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woon- en zorgcentrum Vondelstede"^^xsd:string ;
@@ -391,11 +391,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amsta.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_Vondelstede9780D9D5AD61493Cgeo ;
+        geo:hasGeometry ns4:verzWoon-_en_zorgcentrum_Vondelstede7186A49BBACD46AFgeo ;
         ns3:lat "52.3603556944123"^^xsd:float ;
         ns3:long "4.8697269177889"^^xsd:float .
 
-    ns4:verzWoonvoorziening_Anton_de_KompleinC41F83601109461D a :dayLocation,
+    ns4:verzWoonvoorziening_Anton_de_Komplein98EBD03CFB3146A2 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonvoorziening Anton de Komplein"^^xsd:string ;
@@ -405,11 +405,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonvoorziening_Anton_de_KompleinC41F83601109461Dgeo ;
+        geo:hasGeometry ns4:verzWoonvoorziening_Anton_de_Komplein98EBD03CFB3146A2geo ;
         ns3:lat "52.3164793538397"^^xsd:float ;
         ns3:long "4.95782241820682"^^xsd:float .
 
-    ns4:verzWoonzorg-_en_dienstencentrum_Menno_SimonsF3B929B55467489D a :dayLocation,
+    ns4:verzWoonzorg-_en_dienstencentrum_Menno_SimonsE370D3D7F03A48DD a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorg- en dienstencentrum Menno Simons"^^xsd:string ;
@@ -419,11 +419,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.zhga.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorg-_en_dienstencentrum_Menno_SimonsF3B929B55467489Dgeo ;
+        geo:hasGeometry ns4:verzWoonzorg-_en_dienstencentrum_Menno_SimonsE370D3D7F03A48DDgeo ;
         ns3:lat "52.3267992005325"^^xsd:float ;
         ns3:long "4.86650927552825"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Buitenveldert8CA902727C4C45AB a :dayLocation,
+    ns4:verzWoonzorgcentrum_Buitenveldert3322F5ECF6E94E82 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Buitenveldert"^^xsd:string ;
@@ -433,11 +433,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Buitenveldert8CA902727C4C45ABgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Buitenveldert3322F5ECF6E94E82geo ;
         ns3:lat "52.3228937032814"^^xsd:float ;
         ns3:long "4.86136258208855"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_Boeg7834EF3CF34C485E a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_BoegFA6BCFECFA984D4C a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Boeg"^^xsd:string ;
@@ -447,11 +447,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Boeg7834EF3CF34C485Egeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_BoegFA6BCFECFA984D4Cgeo ;
         ns3:lat "52.3761518131106"^^xsd:float ;
         ns3:long "4.84663304536301"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_Bogt-WesterbeerE305E8C0164A4321 a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Bogt-WesterbeerAE7A5E60941D4085 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Bogt-Westerbeer"^^xsd:string ;
@@ -461,11 +461,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Bogt-WesterbeerE305E8C0164A4321geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Bogt-WesterbeerAE7A5E60941D4085geo ;
         ns3:lat "52.3890098434285"^^xsd:float ;
         ns3:long "4.87832393773277"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_BuitenhofC478C3BFCA8E4CCE a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Buitenhof8DDD17EB7D124EEE a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Buitenhof"^^xsd:string ;
@@ -475,11 +475,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_BuitenhofC478C3BFCA8E4CCEgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Buitenhof8DDD17EB7D124EEEgeo ;
         ns3:lat "52.326667940013"^^xsd:float ;
         ns3:long "4.88819194823304"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_Drie_Hoven234E742AC1504485 a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Drie_Hoven489BDA30B2384A99 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Drie Hoven"^^xsd:string ;
@@ -489,11 +489,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Drie_Hoven234E742AC1504485geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Drie_Hoven489BDA30B2384A99geo ;
         ns3:lat "52.3550437285358"^^xsd:float ;
         ns3:long "4.82249424241385"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_Gooyer335C076889784247 a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Gooyer5EF059BB93ED466D a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Gooyer"^^xsd:string ;
@@ -503,11 +503,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Gooyer335C076889784247geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Gooyer5EF059BB93ED466Dgeo ;
         ns3:lat "52.3643217971066"^^xsd:float ;
         ns3:long "4.9269244904145"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_KlinkerD86741F29D36436B a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Klinker90A83CF3F7554D56 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Klinker"^^xsd:string ;
@@ -517,11 +517,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "https://www.amstelring.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_KlinkerD86741F29D36436Bgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Klinker90A83CF3F7554D56geo ;
         ns3:lat "52.3653173031291"^^xsd:float ;
         ns3:long "4.86776038302481"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_Rietvinck16AFD27544CB48A5 a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Rietvinck05C8A70095CA4C65 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Rietvinck"^^xsd:string ;
@@ -531,11 +531,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Rietvinck16AFD27544CB48A5geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Rietvinck05C8A70095CA4C65geo ;
         ns3:lat "52.3838833736781"^^xsd:float ;
         ns3:long "4.88381739336356"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_De_Venser0B2C661D585145CD a :dayLocation,
+    ns4:verzWoonzorgcentrum_De_Venser279CE14F82334FF2 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum De Venser"^^xsd:string ;
@@ -545,11 +545,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Venser0B2C661D585145CDgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_De_Venser279CE14F82334FF2geo ;
         ns3:lat "52.3177960271194"^^xsd:float ;
         ns3:long "4.9468100149231"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Eben_HaëzerB6678FDEBFBB4D02 a :dayLocation,
+    ns4:verzWoonzorgcentrum_Eben_HaëzerE7F5E58DF13345F0 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Eben Haëzer"^^xsd:string ;
@@ -559,11 +559,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Eben_HaëzerB6678FDEBFBB4D02geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Eben_HaëzerE7F5E58DF13345F0geo ;
         ns3:lat "52.2976042896873"^^xsd:float ;
         ns3:long "4.9857699344172"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Het_Schouw9DE8357149A747A4 a :dayLocation,
+    ns4:verzWoonzorgcentrum_Het_Schouw51C635A23A1C4C2F a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Het Schouw"^^xsd:string ;
@@ -573,11 +573,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Het_Schouw9DE8357149A747A4geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Het_Schouw51C635A23A1C4C2Fgeo ;
         ns3:lat "52.3980589390245"^^xsd:float ;
         ns3:long "4.94272159662606"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_KastanjehofD5508691E0F84139 a :dayLocation,
+    ns4:verzWoonzorgcentrum_Kastanjehof564C0E7B17B046F5 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Kastanjehof"^^xsd:string ;
@@ -587,11 +587,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_KastanjehofD5508691E0F84139geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Kastanjehof564C0E7B17B046F5geo ;
         ns3:lat "52.3585816703604"^^xsd:float ;
         ns3:long "4.92309389704501"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Leo_Polakhuis48E175BC6F4A4FBD a :dayLocation,
+    ns4:verzWoonzorgcentrum_Leo_PolakhuisE46498269CD9435D a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Leo Polakhuis"^^xsd:string ;
@@ -601,11 +601,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Leo_Polakhuis48E175BC6F4A4FBDgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Leo_PolakhuisE46498269CD9435Dgeo ;
         ns3:lat "52.3628699892704"^^xsd:float ;
         ns3:long "4.78912683768205"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Nieuw_GeuzenveldBEE06C724B8E458D a :dayLocation,
+    ns4:verzWoonzorgcentrum_Nieuw_Geuzenveld0B0F06296C244AFC a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Nieuw Geuzenveld"^^xsd:string ;
@@ -615,11 +615,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Nieuw_GeuzenveldBEE06C724B8E458Dgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Nieuw_Geuzenveld0B0F06296C244AFCgeo ;
         ns3:lat "52.382112877155"^^xsd:float ;
         ns3:long "4.79629926880019"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Nieuw_VredenburghDCC776DB571045FD a :dayLocation,
+    ns4:verzWoonzorgcentrum_Nieuw_VredenburghBC206FC257064444 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Nieuw Vredenburgh"^^xsd:string ;
@@ -629,11 +629,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Nieuw_VredenburghDCC776DB571045FDgeo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Nieuw_VredenburghBC206FC257064444geo ;
         ns3:lat "52.3638326179335"^^xsd:float ;
         ns3:long "4.85124634432981"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_VreugdehofBE71BC4176984698 a :dayLocation,
+    ns4:verzWoonzorgcentrum_Vreugdehof0C56449B983340A5 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Vreugdehof"^^xsd:string ;
@@ -643,11 +643,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_VreugdehofBE71BC4176984698geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Vreugdehof0C56449B983340A5geo ;
         ns3:lat "52.3338595297254"^^xsd:float ;
         ns3:long "4.88426717632913"^^xsd:float .
 
-    ns4:verzWoonzorgcentrum_Willem_DreeshuisED6DBFF1BA0C4CD7 a :dayLocation,
+    ns4:verzWoonzorgcentrum_Willem_Dreeshuis679D5086F3DD49B5 a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Woonzorgcentrum Willem Dreeshuis"^^xsd:string ;
@@ -657,11 +657,11 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns4:verzWoonzorgcentrum_Willem_DreeshuisED6DBFF1BA0C4CD7geo ;
+        geo:hasGeometry ns4:verzWoonzorgcentrum_Willem_Dreeshuis679D5086F3DD49B5geo ;
         ns3:lat "52.3488957692553"^^xsd:float ;
         ns3:long "4.9331018352181"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_Raai042E6A306EBF46E4> a :dayLocation,
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_RaaiAB94AD6E62334A82> a :dayLocation,
             :instantie,
             :nightLocation ;
         rdfs:label "Zorgcentrum d' Oude Raai"^^xsd:string ;
@@ -671,7 +671,7 @@
         :providesSpecialCare :day,
             :night ;
         :website "http://www.cordaan.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_Raai042E6A306EBF46E4geo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_RaaiAB94AD6E62334A82geo> ;
         ns3:lat "52.3493228577459"^^xsd:float ;
         ns3:long "4.89169451363604"^^xsd:float .
 
@@ -813,157 +813,157 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuisA98F376186C542CEgeo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzBeth_Shalom,_Joods_zorgcentrum_en_verpleeghuisBDA7DC0AFEFB455Dgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.88100928944689 52.3262060145577)"^^geo:wktLiteral .
 
-    ns4:verzCentrum_van_ouderen_Flesseman439D43789F8840A4geo a geo:Geometry ;
+    ns4:verzCentrum_van_ouderen_Flesseman552B2301F3A14097geo a geo:Geometry ;
         geo:asWKT "POINT(4.90067748047184 52.3720091926606)"^^geo:wktLiteral .
 
-    ns4:verzCentrum_voor_verpleeghuiszorg_De_Poort1ADBD7792AB44200geo a geo:Geometry ;
+    ns4:verzCentrum_voor_verpleeghuiszorg_De_PoortDE06F944B2074E34geo a geo:Geometry ;
         geo:asWKT "POINT(4.87236037950261 52.3725185912838)"^^geo:wktLiteral .
 
-    ns4:verzDe_GoodwillburghA13A7EE80EEF4B32geo a geo:Geometry ;
+    ns4:verzDe_GoodwillburghEB8847008B1D4609geo a geo:Geometry ;
         geo:asWKT "POINT(4.909060522152 52.3694369076746)"^^geo:wktLiteral .
 
-    ns4:verzDe_Hudsonhof60AE05F519674B68geo a geo:Geometry ;
+    ns4:verzDe_Hudsonhof7E43536BEBC14F4Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.85209947315776 52.3697863641605)"^^geo:wktLiteral .
 
-    ns4:verzEvean_De_Kimme64D09DFAD9ED46D0geo a geo:Geometry ;
+    ns4:verzEvean_De_Kimme54BE96B9AFF640E5geo a geo:Geometry ;
         geo:asWKT "POINT(4.95108431187849 52.3963104712899)"^^geo:wktLiteral .
 
-    ns4:verzEvean_Eduard_Douwes_DekkerD3AF417D1FCA4CE9geo a geo:Geometry ;
+    ns4:verzEvean_Eduard_Douwes_DekkerD452106A0AE540A8geo a geo:Geometry ;
         geo:asWKT "POINT(4.90769611986109 52.404645096468)"^^geo:wktLiteral .
 
-    ns4:verzEvean_Henriëtte_Roland_Holst8AA11F1A48034AACgeo a geo:Geometry ;
+    ns4:verzEvean_Henriëtte_Roland_Holst12E394A0071D41D2geo a geo:Geometry ;
         geo:asWKT "POINT(4.96978099676363 52.31428419715)"^^geo:wktLiteral .
 
-    ns4:verzEvean_KorthagenhuisBC38C90791CE4B3Fgeo a geo:Geometry ;
+    ns4:verzEvean_KorthagenhuisB9E5FF6F096E49F0geo a geo:Geometry ;
         geo:asWKT "POINT(4.93987619079198 52.4048428761997)"^^geo:wktLiteral .
 
-    ns4:verzEvean_TwiskehuisCB5C1EAF7E164B0Bgeo a geo:Geometry ;
+    ns4:verzEvean_TwiskehuisCC01C41626884B2Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.88037940833226 52.4160894934834)"^^geo:wktLiteral .
 
-    ns4:verzHet_FlevohuisAD784876EF724BE0geo a geo:Geometry ;
+    ns4:verzHet_FlevohuisAFCDD949DB044181geo a geo:Geometry ;
         geo:asWKT "POINT(4.94586623079635 52.3655533336182)"^^geo:wktLiteral .
 
-    ns4:verzHuize_Plantage2E98F738665844AEgeo a geo:Geometry ;
+    ns4:verzHuize_PlantageA0AE38BB464A4D3Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.91130936019787 52.3678551439604)"^^geo:wktLiteral .
 
-    ns4:verzLA_Rieshuis55E3761AAA1C4760geo a geo:Geometry ;
+    ns4:verzLA_Rieshuis1E8264081FE4432Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88433471579719 52.3835979652873)"^^geo:wktLiteral .
 
-    ns4:verzLutherhof18398262CA274810geo a geo:Geometry ;
+    ns4:verzLutherhof478BF9C1B09442E6geo a geo:Geometry ;
         geo:asWKT "POINT(4.8634954794259 52.3607955999308)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie99D4DD5E25EB41A8geo> a geo:Geometry ;
-        geo:asWKT "POINT(4.84440831816034 52.3707400053483)"^^geo:wktLiteral .
-
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie9F547024128E4065geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatie74FA8FE62C4E4A45geo> a geo:Geometry ;
         geo:asWKT "POINT(4.86684928835166 52.3603790314609)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_De_DieDE019EBB01B940E0geo a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzReade,_centrum_voor_reumatologie_en_revalidatieDC00C3F572054A66geo> a geo:Geometry ;
+        geo:asWKT "POINT(4.84440831816034 52.3707400053483)"^^geo:wktLiteral .
+
+    ns4:verzVerpleeghuis_De_Die856528757C7E4ACBgeo a geo:Geometry ;
         geo:asWKT "POINT(4.93203111019125 52.3989171074832)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_De_Open_HofD6AB5B6F95FF40CCgeo a geo:Geometry ;
+    ns4:verzVerpleeghuis_De_Open_HofB9095A3489984AC7geo a geo:Geometry ;
         geo:asWKT "POINT(4.92682557250361 52.3455550497961)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_Dr._SarphatihuisB2A4FFD8F1884259geo a geo:Geometry ;
+    ns4:verzVerpleeghuis_Dr._Sarphatihuis836B7B7451F947DCgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9105504148047 52.3646974046891)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_GaasperdamF8F9A0A10AC947DBgeo a geo:Geometry ;
+    ns4:verzVerpleeghuis_GaasperdamAC1EB75B15954DC1geo a geo:Geometry ;
         geo:asWKT "POINT(4.97904597848879 52.2954871199986)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_Jan_Bongastraat9115AA2DED7744A1geo a geo:Geometry ;
+    ns4:verzVerpleeghuis_Jan_Bongastraat59D9C35B16D844CFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80381857640939 52.3799391732458)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_OostpoortB9948B9BB7C14D3Bgeo a geo:Geometry ;
+    ns4:verzVerpleeghuis_OostpoortE3186EE40A4743B3geo a geo:Geometry ;
         geo:asWKT "POINT(4.93226710611238 52.3581478585392)"^^geo:wktLiteral .
 
-    ns4:verzVerpleeghuis_Slotervaart0D51002447424E80geo a geo:Geometry ;
+    ns4:verzVerpleeghuis_Slotervaart3BF1A7E053164B60geo a geo:Geometry ;
         geo:asWKT "POINT(4.82367762993562 52.347391770001)"^^geo:wktLiteral .
 
-    ns4:verzVerzorgingshuis_Emmahof299DBFA8A3984A2Ageo a geo:Geometry ;
+    ns4:verzVerzorgingshuis_Emmahof633EECDF241D4B1Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.87039972599071 52.3530066528232)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_Zorgcentrum_De_Riekerhof79D43D45878148FFgeo a geo:Geometry ;
+    ns4:verzWoon-_en_Zorgcentrum_De_RiekerhofDD4C6D444E014169geo a geo:Geometry ;
         geo:asWKT "POINT(4.84021945296963 52.3591534857157)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_Zorgcentrum_TorendaelA8F91FE3C8214500geo a geo:Geometry ;
+    ns4:verzWoon-_en_Zorgcentrum_TorendaelA35F49E34A4645A5geo a geo:Geometry ;
         geo:asWKT "POINT(4.89743542221235 52.33847156492)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_zorgcentrum_De_DenAF8CB0D19DAC463Dgeo a geo:Geometry ;
+    ns4:verzWoon-_en_zorgcentrum_De_DenC87B28AF19F74475geo a geo:Geometry ;
         geo:asWKT "POINT(4.80417004427809 52.3822507562623)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_zorgcentrum_De_SchutseC9AA5B3979894153geo a geo:Geometry ;
+    ns4:verzWoon-_en_zorgcentrum_De_Schutse8BBBA03374604278geo a geo:Geometry ;
         geo:asWKT "POINT(4.8225849901937 52.3594481743426)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_zorgcentrum_De_WerfA4A9580108D04248geo a geo:Geometry ;
+    ns4:verzWoon-_en_zorgcentrum_De_Werf1B50C07DFADA4BD5geo a geo:Geometry ;
         geo:asWKT "POINT(4.86846433520237 52.3724663455495)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_zorgcentrum_Nellestein37AFC541D9C54BE8geo a geo:Geometry ;
+    ns4:verzWoon-_en_zorgcentrum_Nellestein0E2420A608E949DFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.98473909271888 52.3094556713152)"^^geo:wktLiteral .
 
-    ns4:verzWoon-_en_zorgcentrum_Vondelstede9780D9D5AD61493Cgeo a geo:Geometry ;
+    ns4:verzWoon-_en_zorgcentrum_Vondelstede7186A49BBACD46AFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8697269177889 52.3603556944123)"^^geo:wktLiteral .
 
-    ns4:verzWoonvoorziening_Anton_de_KompleinC41F83601109461Dgeo a geo:Geometry ;
+    ns4:verzWoonvoorziening_Anton_de_Komplein98EBD03CFB3146A2geo a geo:Geometry ;
         geo:asWKT "POINT(4.95782241820682 52.3164793538397)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorg-_en_dienstencentrum_Menno_SimonsF3B929B55467489Dgeo a geo:Geometry ;
+    ns4:verzWoonzorg-_en_dienstencentrum_Menno_SimonsE370D3D7F03A48DDgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86650927552825 52.3267992005325)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Buitenveldert8CA902727C4C45ABgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Buitenveldert3322F5ECF6E94E82geo a geo:Geometry ;
         geo:asWKT "POINT(4.86136258208855 52.3228937032814)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_Boeg7834EF3CF34C485Egeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_BoegFA6BCFECFA984D4Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84663304536301 52.3761518131106)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_Bogt-WesterbeerE305E8C0164A4321geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Bogt-WesterbeerAE7A5E60941D4085geo a geo:Geometry ;
         geo:asWKT "POINT(4.87832393773277 52.3890098434285)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_BuitenhofC478C3BFCA8E4CCEgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Buitenhof8DDD17EB7D124EEEgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88819194823304 52.326667940013)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_Drie_Hoven234E742AC1504485geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Drie_Hoven489BDA30B2384A99geo a geo:Geometry ;
         geo:asWKT "POINT(4.82249424241385 52.3550437285358)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_Gooyer335C076889784247geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Gooyer5EF059BB93ED466Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9269244904145 52.3643217971066)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_KlinkerD86741F29D36436Bgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Klinker90A83CF3F7554D56geo a geo:Geometry ;
         geo:asWKT "POINT(4.86776038302481 52.3653173031291)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_Rietvinck16AFD27544CB48A5geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Rietvinck05C8A70095CA4C65geo a geo:Geometry ;
         geo:asWKT "POINT(4.88381739336356 52.3838833736781)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_De_Venser0B2C661D585145CDgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_De_Venser279CE14F82334FF2geo a geo:Geometry ;
         geo:asWKT "POINT(4.9468100149231 52.3177960271194)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Eben_HaëzerB6678FDEBFBB4D02geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Eben_HaëzerE7F5E58DF13345F0geo a geo:Geometry ;
         geo:asWKT "POINT(4.9857699344172 52.2976042896873)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Het_Schouw9DE8357149A747A4geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Het_Schouw51C635A23A1C4C2Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.94272159662606 52.3980589390245)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_KastanjehofD5508691E0F84139geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Kastanjehof564C0E7B17B046F5geo a geo:Geometry ;
         geo:asWKT "POINT(4.92309389704501 52.3585816703604)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Leo_Polakhuis48E175BC6F4A4FBDgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Leo_PolakhuisE46498269CD9435Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.78912683768205 52.3628699892704)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Nieuw_GeuzenveldBEE06C724B8E458Dgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Nieuw_Geuzenveld0B0F06296C244AFCgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79629926880019 52.382112877155)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Nieuw_VredenburghDCC776DB571045FDgeo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Nieuw_VredenburghBC206FC257064444geo a geo:Geometry ;
         geo:asWKT "POINT(4.85124634432981 52.3638326179335)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_VreugdehofBE71BC4176984698geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Vreugdehof0C56449B983340A5geo a geo:Geometry ;
         geo:asWKT "POINT(4.88426717632913 52.3338595297254)"^^geo:wktLiteral .
 
-    ns4:verzWoonzorgcentrum_Willem_DreeshuisED6DBFF1BA0C4CD7geo a geo:Geometry ;
+    ns4:verzWoonzorgcentrum_Willem_Dreeshuis679D5086F3DD49B5geo a geo:Geometry ;
         geo:asWKT "POINT(4.9331018352181 52.3488957692553)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_Raai042E6A306EBF46E4geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/verzZorgcentrum_d'_Oude_RaaiAB94AD6E62334A82geo> a geo:Geometry ;
         geo:asWKT "POINT(4.89169451363604 52.3493228577459)"^^geo:wktLiteral .
 
     :addictsPrevention a :knowledgeDomain,

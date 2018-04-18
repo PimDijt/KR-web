@@ -15,754 +15,754 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns1:lhbtAdviespraktijk_David_en_Van_Wezel5F679455E8F64E7D a :instantie ;
+    ns1:lhbtAdviespraktijk_David_en_Van_WezelA88E1087E7EB4690 a :instantie ;
         rdfs:label "Adviespraktijk David en Van Wezel"^^xsd:string ;
         ns3:latitude 5.23515e+01 ;
         ns3:longitude 4.940502e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.david-vanwezel.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtAdviespraktijk_David_en_Van_Wezel5F679455E8F64E7Dgeo ;
+        geo:hasGeometry ns1:lhbtAdviespraktijk_David_en_Van_WezelA88E1087E7EB4690geo ;
         ns4:lat "52.3515034043332"^^xsd:float ;
         ns4:long "4.9405019178603"^^xsd:float .
 
-    ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie7D5A17558B6C4460 a :instantie ;
+    ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie2595614F57694717 a :instantie ;
         rdfs:label "Amsterdam Groepspraktijk Psychotherapie"^^xsd:string ;
         ns3:latitude 5.236389e+01 ;
         ns3:longitude 4.871609e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.psychotherapiepraktijkamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie7D5A17558B6C4460geo ;
+        geo:hasGeometry ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie2595614F57694717geo ;
         ns4:lat "52.3638871010753"^^xsd:float ;
         ns4:long "4.87160901324048"^^xsd:float .
 
-    ns1:lhbtAssociatie_voor_PsychotherapieEB81914B5F9E4723 a :instantie ;
+    ns1:lhbtAssociatie_voor_PsychotherapieCE2343AD3A884CE3 a :instantie ;
         rdfs:label "Associatie voor Psychotherapie"^^xsd:string ;
         ns3:latitude 5.237299e+01 ;
         ns3:longitude 4.879756e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtAssociatie_voor_PsychotherapieEB81914B5F9E4723geo ;
+        geo:hasGeometry ns1:lhbtAssociatie_voor_PsychotherapieCE2343AD3A884CE3geo ;
         ns4:lat "52.3729909155503"^^xsd:float ;
         ns4:long "4.8797559162721"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie5A77AB120CAB469A> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie4416125400404AD6> a :instantie ;
         rdfs:label "Bo-link, praktijk voor haptotherapie"^^xsd:string ;
         ns3:latitude 5.232823e+01 ;
         ns3:longitude 4.979435e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.bo-link.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie5A77AB120CAB469Ageo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie4416125400404AD6geo> ;
         ns4:lat "52.3282309081226"^^xsd:float ;
         ns4:long "4.97943460432352"^^xsd:float .
 
-    ns1:lhbtCOC_AmsterdamDB3932E3B2CD4462 a :instantie ;
+    ns1:lhbtCOC_Amsterdam5D0DA3791FCA40C1 a :instantie ;
         rdfs:label "COC Amsterdam"^^xsd:string ;
         ns3:latitude 5.235762e+01 ;
         ns3:longitude 4.895316e+00 ;
         :providesCoachingAbout :lhtbtIssues ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.cocamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtCOC_AmsterdamDB3932E3B2CD4462geo ;
+        geo:hasGeometry ns1:lhbtCOC_Amsterdam5D0DA3791FCA40C1geo ;
         ns4:lat "52.357624660428"^^xsd:float ;
         ns4:long "4.89531572029783"^^xsd:float .
 
-    ns1:lhbtCentro_Cultural_de_HispanohablantesD82C4F5730464AB8 a :instantie ;
+    ns1:lhbtCentro_Cultural_de_HispanohablantesCB2AA283B387434A a :instantie ;
         rdfs:label "Centro Cultural de Hispanohablantes"^^xsd:string ;
         ns3:latitude 5.236753e+01 ;
         ns3:longitude 4.855049e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.hispanohablantes.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtCentro_Cultural_de_HispanohablantesD82C4F5730464AB8geo ;
+        geo:hasGeometry ns1:lhbtCentro_Cultural_de_HispanohablantesCB2AA283B387434Ageo ;
         ns4:lat "52.3675347454174"^^xsd:float ;
         ns4:long "4.85504850574835"^^xsd:float .
 
-    ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong7D884E833B974169 a :instantie ;
+    ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong3ECAF39039314AB7 a :instantie ;
         rdfs:label "Coaching en Supervisie Tim de Jong"^^xsd:string ;
         ns3:latitude 5.236119e+01 ;
         ns3:longitude 4.975741e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.timdejongcoaching.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong7D884E833B974169geo ;
+        geo:hasGeometry ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong3ECAF39039314AB7geo ;
         ns4:lat "52.3611850572203"^^xsd:float ;
         ns4:long "4.97574060776561"^^xsd:float .
 
-    ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_HulpverleningB269539C7E3D47B0 a :instantie ;
+    ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_Hulpverlening1610FBC51DB34CC7 a :instantie ;
         rdfs:label "Compaan Counseling Amsterdam - Homospecifieke Hulpverlening"^^xsd:string ;
         ns3:latitude 5.237466e+01 ;
         ns3:longitude 4.947934e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://homospecifiekehulpverlening.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_HulpverleningB269539C7E3D47B0geo ;
+        geo:hasGeometry ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_Hulpverlening1610FBC51DB34CC7geo ;
         ns4:lat "52.3746565596972"^^xsd:float ;
         ns4:long "4.94793435916976"^^xsd:float .
 
-    ns1:lhbtDe_Regenboog_GroepE6FAB507AE594B5F a :instantie ;
+    ns1:lhbtDe_Regenboog_Groep8E585F882C5A440A a :instantie ;
         rdfs:label "De Regenboog Groep"^^xsd:string ;
         ns3:latitude 5.238026e+01 ;
         ns3:longitude 4.894139e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.deregenboog.org"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtDe_Regenboog_GroepE6FAB507AE594B5Fgeo ;
+        geo:hasGeometry ns1:lhbtDe_Regenboog_Groep8E585F882C5A440Ageo ;
         ns4:lat "52.380259820669"^^xsd:float ;
         ns4:long "4.89413939550038"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteitA6496B8E3D204B24> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteit5C6D504A2ACC4337> a :instantie ;
         rdfs:label "Different, pastorale hulpverlening rond seksuele identiteit"^^xsd:string ;
         ns3:latitude 5.238091e+01 ;
         ns3:longitude 4.885334e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.totheildesvolks.nl/different/home"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteitA6496B8E3D204B24geo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteit5C6D504A2ACC4337geo> ;
         ns4:lat "52.3809148853129"^^xsd:float ;
         ns4:long "4.88533449545389"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum8BBE205BD1854494> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum7904049AF3224085> a :instantie ;
         rdfs:label "EFT relatie therapie & Zijnsorientatie Amsterdam Centrum"^^xsd:string ;
         ns3:latitude 5.236999e+01 ;
         ns3:longitude 4.88305e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.leveninverbondenheid.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum8BBE205BD1854494geo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum7904049AF3224085geo> ;
         ns4:lat "52.3699941016887"^^xsd:float ;
         ns4:long "4.88304994965762"^^xsd:float .
 
-    ns1:lhbtEerstelijnspsychologiepraktijk_BijleveldF0839BAF66234BAD a :instantie ;
+    ns1:lhbtEerstelijnspsychologiepraktijk_Bijleveld242E85B4B2D0475C a :instantie ;
         rdfs:label "Eerstelijnspsychologiepraktijk Bijleveld"^^xsd:string ;
         ns3:latitude 5.235667e+01 ;
         ns3:longitude 4.895884e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.annemiekebijleveld.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtEerstelijnspsychologiepraktijk_BijleveldF0839BAF66234BADgeo ;
+        geo:hasGeometry ns1:lhbtEerstelijnspsychologiepraktijk_Bijleveld242E85B4B2D0475Cgeo ;
         ns4:lat "52.3566743207169"^^xsd:float ;
         ns4:long "4.89588406142669"^^xsd:float .
 
-    ns1:lhbtGGZ_inGeest_Poliklinieken1E2BC22E537E40A5 a :instantie ;
-        rdfs:label "GGZ inGeest Poliklinieken"^^xsd:string ;
-        ns3:latitude 5.23318e+01 ;
-        ns3:longitude 4.864808e+00 ;
-        :providesInformationAbout :lhtbtIssues ;
-        :website "http://www.ggzingeest.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtGGZ_inGeest_Poliklinieken1E2BC22E537E40A5geo ;
-        ns4:lat "52.3317979058113"^^xsd:float ;
-        ns4:long "4.86480752128682"^^xsd:float .
-
-    ns1:lhbtGGZ_inGeest_PolikliniekenCF161982657247A9 a :instantie ;
+    ns1:lhbtGGZ_inGeest_PolikliniekenB0772BAD03D748F7 a :instantie ;
         rdfs:label "GGZ inGeest Poliklinieken"^^xsd:string ;
         ns3:latitude 5.233379e+01 ;
         ns3:longitude 4.858666e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.ggzingeest.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtGGZ_inGeest_PolikliniekenCF161982657247A9geo ;
+        geo:hasGeometry ns1:lhbtGGZ_inGeest_PolikliniekenB0772BAD03D748F7geo ;
         ns4:lat "52.333792887622"^^xsd:float ;
         ns4:long "4.85866599196468"^^xsd:float .
 
-    ns1:lhbtGestaltpraktijk_Amsterdam11E1E39B5B414D1C a :instantie ;
+    ns1:lhbtGGZ_inGeest_PolikliniekenEA1F853257E34439 a :instantie ;
+        rdfs:label "GGZ inGeest Poliklinieken"^^xsd:string ;
+        ns3:latitude 5.23318e+01 ;
+        ns3:longitude 4.864808e+00 ;
+        :providesInformationAbout :lhtbtIssues ;
+        :website "http://www.ggzingeest.nl"^^xsd:string ;
+        geo:hasGeometry ns1:lhbtGGZ_inGeest_PolikliniekenEA1F853257E34439geo ;
+        ns4:lat "52.3317979058113"^^xsd:float ;
+        ns4:long "4.86480752128682"^^xsd:float .
+
+    ns1:lhbtGestaltpraktijk_Amsterdam167DC177E3CC4D12 a :instantie ;
         rdfs:label "Gestaltpraktijk Amsterdam"^^xsd:string ;
         ns3:latitude 5.238267e+01 ;
         ns3:longitude 4.882583e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.gestaltpraktijkamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtGestaltpraktijk_Amsterdam11E1E39B5B414D1Cgeo ;
+        geo:hasGeometry ns1:lhbtGestaltpraktijk_Amsterdam167DC177E3CC4D12geo ;
         ns4:lat "52.3826737676468"^^xsd:float ;
         ns4:long "4.88258266517885"^^xsd:float .
 
-    ns1:lhbtGestaltpraktijk_Bloemgracht9ADA844A6F0D49BC a :instantie ;
+    ns1:lhbtGestaltpraktijk_BloemgrachtAE4AACCBB4454F88 a :instantie ;
         rdfs:label "Gestaltpraktijk Bloemgracht"^^xsd:string ;
         ns3:latitude 5.237433e+01 ;
         ns3:longitude 4.880051e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.gestalttherapiebloemgracht.nl/"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtGestaltpraktijk_Bloemgracht9ADA844A6F0D49BCgeo ;
+        geo:hasGeometry ns1:lhbtGestaltpraktijk_BloemgrachtAE4AACCBB4454F88geo ;
         ns4:lat "52.3743328399239"^^xsd:float ;
         ns4:long "4.88005068142241"^^xsd:float .
 
-    ns1:lhbtHiv_Vereniging_Nederland425302BDB37E43C3 a :instantie ;
+    ns1:lhbtHiv_Vereniging_Nederland354E6C41967B4486 a :instantie ;
         rdfs:label "Hiv Vereniging Nederland"^^xsd:string ;
         ns3:latitude 5.236392e+01 ;
         ns3:longitude 4.877202e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.hivnet.org"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHiv_Vereniging_Nederland425302BDB37E43C3geo ;
+        geo:hasGeometry ns1:lhbtHiv_Vereniging_Nederland354E6C41967B4486geo ;
         ns4:lat "52.3639203161796"^^xsd:float ;
         ns4:long "4.87720230168246"^^xsd:float .
 
-    ns1:lhbtHomogroep_BuitenveldertF0F4E79D8AC14026 a :instantie ;
+    ns1:lhbtHomogroep_Buitenveldert73262276863C4C73 a :instantie ;
         rdfs:label "Homogroep Buitenveldert"^^xsd:string ;
         ns3:latitude 5.233231e+01 ;
         ns3:longitude 4.878226e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://homogroep.blogspot.com"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHomogroep_BuitenveldertF0F4E79D8AC14026geo ;
+        geo:hasGeometry ns1:lhbtHomogroep_Buitenveldert73262276863C4C73geo ;
         ns4:lat "52.3323147607255"^^xsd:float ;
         ns4:long "4.87822550674615"^^xsd:float .
 
-    ns1:lhbtHuisarts_Amsterdam_Oost358933047B8C4A28 a :instantie ;
+    ns1:lhbtHuisarts_Amsterdam_OostB7CBA95EFA01447B a :instantie ;
         rdfs:label "Huisarts Amsterdam Oost"^^xsd:string ;
         ns3:latitude 5.235529e+01 ;
         ns3:longitude 4.914262e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.huisartsamsterdamoost.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisarts_Amsterdam_Oost358933047B8C4A28geo ;
+        geo:hasGeometry ns1:lhbtHuisarts_Amsterdam_OostB7CBA95EFA01447Bgeo ;
         ns4:lat "52.3552899971377"^^xsd:float ;
         ns4:long "4.91426234999649"^^xsd:float .
 
-    ns1:lhbtHuisarts_aan_de_PrinsengrachtD25DE3F7961546B0 a :instantie ;
+    ns1:lhbtHuisarts_aan_de_Prinsengracht50F8F446964444AC a :instantie ;
         rdfs:label "Huisarts aan de Prinsengracht"^^xsd:string ;
         ns3:latitude 5.236152e+01 ;
         ns3:longitude 4.897049e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.huisartsaandeprinsengracht.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisarts_aan_de_PrinsengrachtD25DE3F7961546B0geo ;
+        geo:hasGeometry ns1:lhbtHuisarts_aan_de_Prinsengracht50F8F446964444ACgeo ;
         ns4:lat "52.3615235365628"^^xsd:float ;
         ns4:long "4.89704886910981"^^xsd:float .
 
-    ns1:lhbtHuisartsen_Vrolikstraat9611597EE36444BE a :instantie ;
+    ns1:lhbtHuisartsen_Vrolikstraat69373B809B0149C6 a :instantie ;
         rdfs:label "Huisartsen Vrolikstraat"^^xsd:string ;
         ns3:latitude 5.235529e+01 ;
         ns3:longitude 4.914262e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.huisartsenvrolikstraat.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsen_Vrolikstraat9611597EE36444BEgeo ;
+        geo:hasGeometry ns1:lhbtHuisartsen_Vrolikstraat69373B809B0149C6geo ;
         ns4:lat "52.3552899971377"^^xsd:float ;
         ns4:long "4.91426234999649"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer81D23B2A3FD34501 a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer93C8F5907EAB491F a :instantie ;
         rdfs:label "Huisartsenpraktijk Bos en Lommer"^^xsd:string ;
         ns3:latitude 5.237759e+01 ;
         ns3:longitude 4.845896e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.hpbl.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer81D23B2A3FD34501geo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer93C8F5907EAB491Fgeo ;
         ns4:lat "52.377586482582"^^xsd:float ;
         ns4:long "4.84589593848699"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_Buijs_en_Windhausen89AEAAA72E0D4A8B a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Buijs_en_WindhausenBC70FBBBE8524260 a :instantie ;
         rdfs:label "Huisartsenpraktijk Buijs en Windhausen"^^xsd:string ;
         ns3:latitude 5.239833e+01 ;
         ns3:longitude 4.93023e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Buijs_en_Windhausen89AEAAA72E0D4A8Bgeo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Buijs_en_WindhausenBC70FBBBE8524260geo ;
         ns4:lat "52.3983259763612"^^xsd:float ;
         ns4:long "4.93022995325319"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_Grooff8BAADC0D0F414889 a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Grooff26647B27227A41CF a :instantie ;
         rdfs:label "Huisartsenpraktijk Grooff"^^xsd:string ;
         ns3:latitude 5.236898e+01 ;
         ns3:longitude 4.91463e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.huisartsgrooff.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Grooff8BAADC0D0F414889geo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Grooff26647B27227A41CFgeo ;
         ns4:lat "52.3689829211309"^^xsd:float ;
         ns4:long "4.91463034815041"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij7CEFE76BCD284F62 a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij9DB312910E4B46C3 a :instantie ;
         rdfs:label "Huisartsenpraktijk Heijnen en De Meij"^^xsd:string ;
         ns3:latitude 5.237228e+01 ;
         ns3:longitude 4.896783e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "https://heijnendemeij.zorgrotonde.net/"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij7CEFE76BCD284F62geo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij9DB312910E4B46C3geo ;
         ns4:lat "52.3722807335474"^^xsd:float ;
         ns4:long "4.8967831614502"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_Jonker_en_Koetsier9E85E86790E64CCF a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Jonker_en_KoetsierCAC1DE559B7D4F7B a :instantie ;
         rdfs:label "Huisartsenpraktijk Jonker en Koetsier"^^xsd:string ;
         ns3:latitude 5.239364e+01 ;
         ns3:longitude 4.955449e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.jonkerkoetsier.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Jonker_en_Koetsier9E85E86790E64CCFgeo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Jonker_en_KoetsierCAC1DE559B7D4F7Bgeo ;
         ns4:lat "52.3936400584394"^^xsd:float ;
         ns4:long "4.9554494917273"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_OudC0ABC4FF33574075 a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Oud63CB8B910CAE4157 a :instantie ;
         rdfs:label "Huisartsenpraktijk Oud"^^xsd:string ;
         ns3:latitude 5.234604e+01 ;
         ns3:longitude 4.900214e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.huisartsoud.com"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_OudC0ABC4FF33574075geo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Oud63CB8B910CAE4157geo ;
         ns4:lat "52.3460417358658"^^xsd:float ;
         ns4:long "4.90021364940399"^^xsd:float .
 
-    ns1:lhbtHuisartsenpraktijk_RustenburgerstraatB2E07F86C33C40B6 a :instantie ;
+    ns1:lhbtHuisartsenpraktijk_Rustenburgerstraat15851870980F4F23 a :instantie ;
         rdfs:label "Huisartsenpraktijk Rustenburgerstraat"^^xsd:string ;
         ns3:latitude 5.23528e+01 ;
         ns3:longitude 4.90011e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.huisartsenrustenburg.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_RustenburgerstraatB2E07F86C33C40B6geo ;
+        geo:hasGeometry ns1:lhbtHuisartsenpraktijk_Rustenburgerstraat15851870980F4F23geo ;
         ns4:lat "52.3528000954048"^^xsd:float ;
         ns4:long "4.9001101393223"^^xsd:float .
 
-    ns1:lhbtHypnotherapiepraktijk_Wim_Kijne55F7CE903A2F4367 a :instantie ;
+    ns1:lhbtHypnotherapiepraktijk_Wim_KijneA08429BCE3A045C0 a :instantie ;
         rdfs:label "Hypnotherapiepraktijk Wim Kijne"^^xsd:string ;
         ns3:latitude 5.23679e+01 ;
         ns3:longitude 4.871988e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.hemi-medi.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHypnotherapiepraktijk_Wim_Kijne55F7CE903A2F4367geo ;
+        geo:hasGeometry ns1:lhbtHypnotherapiepraktijk_Wim_KijneA08429BCE3A045C0geo ;
         ns4:lat "52.3678972812344"^^xsd:float ;
         ns4:long "4.87198820939063"^^xsd:float .
 
-    ns1:lhbtHypnotherapiepraktijk_Wim_KijneC27385BE135C492D a :instantie ;
+    ns1:lhbtHypnotherapiepraktijk_Wim_KijneCBC8E611F7CF449D a :instantie ;
         rdfs:label "Hypnotherapiepraktijk Wim Kijne"^^xsd:string ;
         ns3:latitude 5.238268e+01 ;
         ns3:longitude 4.853604e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.hemi-medi.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtHypnotherapiepraktijk_Wim_KijneC27385BE135C492Dgeo ;
+        geo:hasGeometry ns1:lhbtHypnotherapiepraktijk_Wim_KijneCBC8E611F7CF449Dgeo ;
         ns4:lat "52.3826815525289"^^xsd:float ;
         ns4:long "4.85360358674513"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_ZingevingE5452B80F3114421> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_ZingevingA3D1E36C18A5475D> a :instantie ;
         rdfs:label "In Transit, Coaching & Zingeving"^^xsd:string ;
         ns3:latitude 5.234636e+01 ;
         ns3:longitude 4.84343e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.intransitcoaching.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_ZingevingE5452B80F3114421geo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_ZingevingA3D1E36C18A5475Dgeo> ;
         ns4:lat "52.3463606953857"^^xsd:float ;
         ns4:long "4.8434296611728"^^xsd:float .
 
-    ns1:lhbtLA_Rieshuis77E8A323F1484BBD a :instantie ;
+    ns1:lhbtLA_Rieshuis21C6BA13EAAF48B4 a :instantie ;
         rdfs:label "LA Rieshuis"^^xsd:string ;
         ns3:latitude 5.23836e+01 ;
         ns3:longitude 4.884335e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.amstelring.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtLA_Rieshuis77E8A323F1484BBDgeo ;
+        geo:hasGeometry ns1:lhbtLA_Rieshuis21C6BA13EAAF48B4geo ;
         ns4:lat "52.3835979652873"^^xsd:float ;
         ns4:long "4.88433471579719"^^xsd:float .
 
-    ns1:lhbtMedisch_Centrum_Czaar_Peter8FDD511A21D84F6E a :instantie ;
+    ns1:lhbtMedisch_Centrum_Czaar_Peter9681D10867774061 a :instantie ;
         rdfs:label "Medisch Centrum Czaar Peter"^^xsd:string ;
         ns3:latitude 5.236845e+01 ;
         ns3:longitude 4.927073e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.medischcentrumczaarpeter.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtMedisch_Centrum_Czaar_Peter8FDD511A21D84F6Egeo ;
+        geo:hasGeometry ns1:lhbtMedisch_Centrum_Czaar_Peter9681D10867774061geo ;
         ns4:lat "52.3684477273567"^^xsd:float ;
         ns4:long "4.92707256261962"^^xsd:float .
 
-    ns1:lhbtNederlandse_Stichting_Gestalt995A90A465CF4987 a :instantie ;
+    ns1:lhbtNederlandse_Stichting_Gestalt2006C550430A480D a :instantie ;
         rdfs:label "Nederlandse Stichting Gestalt"^^xsd:string ;
         ns3:latitude 5.237592e+01 ;
         ns3:longitude 4.901075e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.nsgestalt.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtNederlandse_Stichting_Gestalt995A90A465CF4987geo ;
+        geo:hasGeometry ns1:lhbtNederlandse_Stichting_Gestalt2006C550430A480Dgeo ;
         ns4:lat "52.3759204762515"^^xsd:float ;
         ns4:long "4.90107514133759"^^xsd:float .
 
-    ns1:lhbtPS_Praktijk_Seksuologie841576B07A634562 a :instantie ;
+    ns1:lhbtPS_Praktijk_SeksuologieAD2303BFE5494B5A a :instantie ;
         rdfs:label "PS Praktijk Seksuologie"^^xsd:string ;
         ns3:latitude 5.236429e+01 ;
         ns3:longitude 4.870533e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.seksuologen.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPS_Praktijk_Seksuologie841576B07A634562geo ;
+        geo:hasGeometry ns1:lhbtPS_Praktijk_SeksuologieAD2303BFE5494B5Ageo ;
         ns4:lat "52.3642868564831"^^xsd:float ;
         ns4:long "4.87053260461939"^^xsd:float .
 
-    ns1:lhbtPatiëntenorganisatie_TransvisieE4A3693E4DC54052 a :instantie ;
+    ns1:lhbtPatiëntenorganisatie_TransvisieBF1A78E573774B0F a :instantie ;
         rdfs:label "Patiëntenorganisatie Transvisie"^^xsd:string ;
         ns3:latitude 5.235955e+01 ;
         ns3:longitude 4.896645e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.transvisie.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPatiëntenorganisatie_TransvisieE4A3693E4DC54052geo ;
+        geo:hasGeometry ns1:lhbtPatiëntenorganisatie_TransvisieBF1A78E573774B0Fgeo ;
         ns4:lat "52.3595535507462"^^xsd:float ;
         ns4:long "4.89664490710315"^^xsd:float .
 
-    ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_BosF5DF933311C24E30 a :instantie ;
+    ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_Bos2F1A6932CD4B4A6F a :instantie ;
         rdfs:label "Persoonsgerichte coaching en advies Marten Bos"^^xsd:string ;
         ns3:latitude 5.237195e+01 ;
         ns3:longitude 4.946155e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.martenbos.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_BosF5DF933311C24E30geo ;
+        geo:hasGeometry ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_Bos2F1A6932CD4B4A6Fgeo ;
         ns4:lat "52.3719536421817"^^xsd:float ;
         ns4:long "4.94615497433767"^^xsd:float .
 
-    ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling96E1B0BEA5364A4B a :instantie ;
+    ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling0C87B863168640C8 a :instantie ;
         rdfs:label "Praktijk voor moderne hypnotheraptie en counseling"^^xsd:string ;
         ns3:latitude 5.237695e+01 ;
         ns3:longitude 4.852733e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.modernehypnotherapie.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling96E1B0BEA5364A4Bgeo ;
+        geo:hasGeometry ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling0C87B863168640C8geo ;
         ns4:lat "52.3769524467572"^^xsd:float ;
         ns4:long "4.85273262134446"^^xsd:float .
 
-    ns1:lhbtPraktijk_voor_psychotherapie_Borgerdijn29EF9B0F4C564274 a :instantie ;
+    ns1:lhbtPraktijk_voor_psychotherapie_BorgerdijnD901F41CEE794F77 a :instantie ;
         rdfs:label "Praktijk voor psychotherapie Borgerdijn"^^xsd:string ;
         ns3:latitude 5.234573e+01 ;
         ns3:longitude 4.811811e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.nickborgerdijn.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPraktijk_voor_psychotherapie_Borgerdijn29EF9B0F4C564274geo ;
+        geo:hasGeometry ns1:lhbtPraktijk_voor_psychotherapie_BorgerdijnD901F41CEE794F77geo ;
         ns4:lat "52.3457348452527"^^xsd:float ;
         ns4:long "4.81181142600341"^^xsd:float .
 
-    ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma1F3659A223E247CF a :instantie ;
+    ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma0A11B6A4B3904CBB a :instantie ;
         rdfs:label "Praktijk voor therapie en coaching Prisma"^^xsd:string ;
         ns3:latitude 5.235268e+01 ;
         ns3:longitude 4.860481e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.prisma-praktijk.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma1F3659A223E247CFgeo ;
+        geo:hasGeometry ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma0A11B6A4B3904CBBgeo ;
         ns4:lat "52.3526753239009"^^xsd:float ;
         ns4:long "4.86048135883526"^^xsd:float .
 
-    ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_HettingaC8624E976F6F48B5 a :instantie ;
+    ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_Hettinga9C53C3A1A6F94B92 a :instantie ;
         rdfs:label "Psychiatrie- en psychotherapiepraktijk Hettinga"^^xsd:string ;
         ns3:latitude 5.236398e+01 ;
         ns3:longitude 4.90056e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_HettingaC8624E976F6F48B5geo ;
+        geo:hasGeometry ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_Hettinga9C53C3A1A6F94B92geo ;
         ns4:lat "52.3639826820487"^^xsd:float ;
         ns4:long "4.90055995720671"^^xsd:float .
 
-    ns1:lhbtPsychiatriepraktijk_Prins4DA0BC4DE27C4AB5 a :instantie ;
+    ns1:lhbtPsychiatriepraktijk_PrinsCF37BB66C69E4AD8 a :instantie ;
         rdfs:label "Psychiatriepraktijk Prins"^^xsd:string ;
         ns3:latitude 5.236093e+01 ;
         ns3:longitude 4.909123e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Prins4DA0BC4DE27C4AB5geo ;
+        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_PrinsCF37BB66C69E4AD8geo ;
         ns4:lat "52.3609347825002"^^xsd:float ;
         ns4:long "4.90912278001029"^^xsd:float .
 
-    ns1:lhbtPsychiatriepraktijk_Stortelder5DB7C439B41E423D a :instantie ;
+    ns1:lhbtPsychiatriepraktijk_StortelderE02BA234E8D646CF a :instantie ;
         rdfs:label "Psychiatriepraktijk Stortelder"^^xsd:string ;
         ns3:latitude 5.236394e+01 ;
         ns3:longitude 4.893601e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.psychiaterstortelder.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Stortelder5DB7C439B41E423Dgeo ;
+        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_StortelderE02BA234E8D646CFgeo ;
         ns4:lat "52.3639448862348"^^xsd:float ;
         ns4:long "4.8936013189139"^^xsd:float .
 
-    ns1:lhbtPsychiatriepraktijk_Van_Ham40F02FF272424B87 a :instantie ;
+    ns1:lhbtPsychiatriepraktijk_Van_HamC52B8FBD8D8C47B4 a :instantie ;
         rdfs:label "Psychiatriepraktijk Van Ham"^^xsd:string ;
         ns3:latitude 5.236057e+01 ;
         ns3:longitude 4.901919e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.pietheinvanham.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Van_Ham40F02FF272424B87geo ;
+        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Van_HamC52B8FBD8D8C47B4geo ;
         ns4:lat "52.3605729243724"^^xsd:float ;
         ns4:long "4.90191859153269"^^xsd:float .
 
-    ns1:lhbtPsychiatriepraktijk_Van_der_Plaats4F7F208CD1FF4087 a :instantie ;
+    ns1:lhbtPsychiatriepraktijk_Van_der_Plaats384D09EEBABE4F4B a :instantie ;
         rdfs:label "Psychiatriepraktijk Van der Plaats"^^xsd:string ;
         ns3:latitude 5.235366e+01 ;
         ns3:longitude 4.867295e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Van_der_Plaats4F7F208CD1FF4087geo ;
+        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Van_der_Plaats384D09EEBABE4F4Bgeo ;
         ns4:lat "52.3536581508939"^^xsd:float ;
         ns4:long "4.86729504562484"^^xsd:float .
 
-    ns1:lhbtPsychiatriepraktijk_Wasmann251970B3F9E646AD a :instantie ;
+    ns1:lhbtPsychiatriepraktijk_Wasmann3C1126BE7A92432C a :instantie ;
         rdfs:label "Psychiatriepraktijk Wasmann"^^xsd:string ;
         ns3:latitude 5.235294e+01 ;
         ns3:longitude 4.856779e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.efjwasmann.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Wasmann251970B3F9E646ADgeo ;
+        geo:hasGeometry ns1:lhbtPsychiatriepraktijk_Wasmann3C1126BE7A92432Cgeo ;
         ns4:lat "52.3529374132158"^^xsd:float ;
         ns4:long "4.85677940700581"^^xsd:float .
 
-    ns1:lhbtPsychologenpraktijk_Brainfact3BDDE8D1592047D0 a :instantie ;
+    ns1:lhbtPsychologenpraktijk_BrainfactF7DFDEF479D34007 a :instantie ;
         rdfs:label "Psychologenpraktijk Brainfact"^^xsd:string ;
         ns3:latitude 5.236478e+01 ;
         ns3:longitude 4.904765e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.brainfact.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologenpraktijk_Brainfact3BDDE8D1592047D0geo ;
+        geo:hasGeometry ns1:lhbtPsychologenpraktijk_BrainfactF7DFDEF479D34007geo ;
         ns4:lat "52.3647818230466"^^xsd:float ;
         ns4:long "4.90476487350719"^^xsd:float .
 
-    ns1:lhbtPsychologenpraktijk_Maasen90861A81DA91426F a :instantie ;
+    ns1:lhbtPsychologenpraktijk_MaasenD75BF9A706844A70 a :instantie ;
         rdfs:label "Psychologenpraktijk Maasen"^^xsd:string ;
         ns3:latitude 5.237225e+01 ;
         ns3:longitude 4.885594e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.homopsycholoog.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologenpraktijk_Maasen90861A81DA91426Fgeo ;
+        geo:hasGeometry ns1:lhbtPsychologenpraktijk_MaasenD75BF9A706844A70geo ;
         ns4:lat "52.3722518362472"^^xsd:float ;
         ns4:long "4.88559404273658"^^xsd:float .
 
-    ns1:lhbtPsychologenpraktijk_StaudenmayrC5AD0B252A2C46DB a :instantie ;
+    ns1:lhbtPsychologenpraktijk_Staudenmayr069C65A8CD6F4E64 a :instantie ;
         rdfs:label "Psychologenpraktijk Staudenmayr"^^xsd:string ;
         ns3:latitude 5.235956e+01 ;
         ns3:longitude 4.926768e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.centrumibt.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologenpraktijk_StaudenmayrC5AD0B252A2C46DBgeo ;
+        geo:hasGeometry ns1:lhbtPsychologenpraktijk_Staudenmayr069C65A8CD6F4E64geo ;
         ns4:lat "52.3595577043237"^^xsd:float ;
         ns4:long "4.92676838595457"^^xsd:float .
 
-    ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen21BF3CC619A543C8 a :instantie ;
+    ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen905425C087D7491B a :instantie ;
         rdfs:label "Psychologie- en psychotherapiepraktijk Kroonen"^^xsd:string ;
         ns3:latitude 5.236347e+01 ;
         ns3:longitude 4.926096e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen21BF3CC619A543C8geo ;
+        geo:hasGeometry ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen905425C087D7491Bgeo ;
         ns4:lat "52.3634737306796"^^xsd:float ;
         ns4:long "4.92609645036591"^^xsd:float .
 
-    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong2C0FCD791B364C19 a :instantie ;
-        rdfs:label "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
-        ns3:latitude 5.235704e+01 ;
-        ns3:longitude 4.852503e+00 ;
-        :providesInformationAbout :lhtbtIssues ;
-        :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong2C0FCD791B364C19geo ;
-        ns4:lat "52.3570435554619"^^xsd:float ;
-        ns4:long "4.85250268730243"^^xsd:float .
-
-    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_JongDF0729D583B64AC0 a :instantie ;
+    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong4D84CDBA5C6A4DAC a :instantie ;
         rdfs:label "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
         ns3:latitude 5.237725e+01 ;
         ns3:longitude 4.887212e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_JongDF0729D583B64AC0geo ;
+        geo:hasGeometry ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong4D84CDBA5C6A4DACgeo ;
         ns4:lat "52.3772468566837"^^xsd:float ;
         ns4:long "4.88721174869219"^^xsd:float .
 
-    ns1:lhbtPsychologiepraktijk_Van_Tilburg0750D39B748449B8 a :instantie ;
+    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong51BF9C9D6A4A4171 a :instantie ;
+        rdfs:label "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
+        ns3:latitude 5.235704e+01 ;
+        ns3:longitude 4.852503e+00 ;
+        :providesInformationAbout :lhtbtIssues ;
+        :website ""^^xsd:string ;
+        geo:hasGeometry ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong51BF9C9D6A4A4171geo ;
+        ns4:lat "52.3570435554619"^^xsd:float ;
+        ns4:long "4.85250268730243"^^xsd:float .
+
+    ns1:lhbtPsychologiepraktijk_Van_Tilburg1332D62F7D5B405A a :instantie ;
         rdfs:label "Psychologiepraktijk Van Tilburg"^^xsd:string ;
         ns3:latitude 5.235e+01 ;
         ns3:longitude 4.874794e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychologiepraktijk_Van_Tilburg0750D39B748449B8geo ;
+        geo:hasGeometry ns1:lhbtPsychologiepraktijk_Van_Tilburg1332D62F7D5B405Ageo ;
         ns4:lat "52.3499968819164"^^xsd:float ;
         ns4:long "4.8747938263093"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Baanbrekend7811333D6B2F492A a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Baanbrekend90035B48DE544B14 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Baanbrekend"^^xsd:string ;
         ns3:latitude 5.235379e+01 ;
         ns3:longitude 4.941125e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://bresserborsjevanderbaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Baanbrekend7811333D6B2F492Ageo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Baanbrekend90035B48DE544B14geo ;
         ns4:lat "52.3537886334998"^^xsd:float ;
         ns4:long "4.94112475624311"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Boers-StollF791511CE9D14574 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Boers-StollE69A5C8B5CDA4CC8 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Boers-Stoll"^^xsd:string ;
         ns3:latitude 5.23544e+01 ;
         ns3:longitude 4.836241e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Boers-StollF791511CE9D14574geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Boers-StollE69A5C8B5CDA4CC8geo ;
         ns4:lat "52.3543984813029"^^xsd:float ;
         ns4:long "4.83624148817536"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Fels855E7B6B05044718 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Fels0D554B644867434D a :instantie ;
         rdfs:label "Psychotherapiepraktijk Fels"^^xsd:string ;
         ns3:latitude 5.238537e+01 ;
         ns3:longitude 4.883109e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Fels855E7B6B05044718geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Fels0D554B644867434Dgeo ;
         ns4:lat "52.3853658097278"^^xsd:float ;
         ns4:long "4.88310884529111"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Kerkstraat19B08ED6101C47E2 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Kerkstraat5957D466E87D4998 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Kerkstraat"^^xsd:string ;
         ns3:latitude 5.236265e+01 ;
         ns3:longitude 4.894821e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Kerkstraat19B08ED6101C47E2geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Kerkstraat5957D466E87D4998geo ;
         ns4:lat "52.3626469770023"^^xsd:float ;
         ns4:long "4.89482057865867"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Leo_GoetstouwersF0BB6E0622F14E66 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Leo_Goetstouwers328D207441164222 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Leo Goetstouwers"^^xsd:string ;
         ns3:latitude 5.23979e+01 ;
         ns3:longitude 4.941768e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.therapieamsterdam.com"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Leo_GoetstouwersF0BB6E0622F14E66geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Leo_Goetstouwers328D207441164222geo ;
         ns4:lat "52.3979025678126"^^xsd:float ;
         ns4:long "4.94176813559006"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Living-History8FBD05AB04904C39 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Living-History8DC2AC234BD64B94 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Living-History"^^xsd:string ;
         ns3:latitude 5.237682e+01 ;
         ns3:longitude 4.870093e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.living-history.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Living-History8FBD05AB04904C39geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Living-History8DC2AC234BD64B94geo ;
         ns4:lat "52.3768228151066"^^xsd:float ;
         ns4:long "4.87009285330376"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Marcel_HoltslagC17616580CEA4486 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Marcel_HoltslagFFA2808D19EC4D55 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Marcel Holtslag"^^xsd:string ;
         ns3:latitude 5.237708e+01 ;
         ns3:longitude 4.918876e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.marcelholtslag.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Marcel_HoltslagC17616580CEA4486geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Marcel_HoltslagFFA2808D19EC4D55geo ;
         ns4:lat "52.3770797285167"^^xsd:float ;
         ns4:long "4.91887641126339"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Peter_Dekker84297F9ACA1D409E a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Peter_Dekker6321860B0F8643E4 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Peter Dekker"^^xsd:string ;
         ns3:latitude 5.2369e+01 ;
         ns3:longitude 4.886409e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://peterdekkerpsychotherapeut.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Peter_Dekker84297F9ACA1D409Egeo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Peter_Dekker6321860B0F8643E4geo ;
         ns4:lat "52.3690017325653"^^xsd:float ;
         ns4:long "4.88640900471472"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_Sinteze7D72CF99C7204D0F a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_Sinteze585C5DD41AA34D32 a :instantie ;
         rdfs:label "Psychotherapiepraktijk Sinteze"^^xsd:string ;
         ns3:latitude 5.236764e+01 ;
         ns3:longitude 4.92921e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "https://www.sinteze.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Sinteze7D72CF99C7204D0Fgeo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_Sinteze585C5DD41AA34D32geo ;
         ns4:lat "52.367638134004"^^xsd:float ;
         ns4:long "4.92920995675088"^^xsd:float .
 
-    ns1:lhbtPsychotherapiepraktijk_ter_HaarF47B8CD56F644CD4 a :instantie ;
+    ns1:lhbtPsychotherapiepraktijk_ter_HaarA8421B77B03247FC a :instantie ;
         rdfs:label "Psychotherapiepraktijk ter Haar"^^xsd:string ;
         ns3:latitude 5.237044e+01 ;
         ns3:longitude 4.896143e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://arnoutterhaar.praktijkinfo.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_ter_HaarF47B8CD56F644CD4geo ;
+        geo:hasGeometry ns1:lhbtPsychotherapiepraktijk_ter_HaarA8421B77B03247FCgeo ;
         ns4:lat "52.3704355990682"^^xsd:float ;
         ns4:long "4.89614279431077"^^xsd:float .
 
-    ns1:lhbtPuntP_volwassenenCB777678A1264718 a :instantie ;
-        rdfs:label "PuntP volwassenen"^^xsd:string ;
-        ns3:latitude 5.236202e+01 ;
-        ns3:longitude 4.91102e+00 ;
-        :providesInformationAbout :lhtbtIssues ;
-        :website "http://www.puntp.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPuntP_volwassenenCB777678A1264718geo ;
-        ns4:lat "52.3620209535306"^^xsd:float ;
-        ns4:long "4.91101959357631"^^xsd:float .
-
-    ns1:lhbtPuntP_volwassenenFC928287008E4FAF a :instantie ;
+    ns1:lhbtPuntP_volwassenen3992C5B187AE4915 a :instantie ;
         rdfs:label "PuntP volwassenen"^^xsd:string ;
         ns3:latitude 5.240455e+01 ;
         ns3:longitude 4.894736e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.puntp.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPuntP_volwassenenFC928287008E4FAFgeo ;
+        geo:hasGeometry ns1:lhbtPuntP_volwassenen3992C5B187AE4915geo ;
         ns4:lat "52.404546992831"^^xsd:float ;
         ns4:long "4.89473619464938"^^xsd:float .
 
-    ns1:lhbtPychotherapiepraktijk_Jordaan47CB487F8FB44A3C a :instantie ;
+    ns1:lhbtPuntP_volwassenen851D07F636BD4A22 a :instantie ;
+        rdfs:label "PuntP volwassenen"^^xsd:string ;
+        ns3:latitude 5.236202e+01 ;
+        ns3:longitude 4.91102e+00 ;
+        :providesInformationAbout :lhtbtIssues ;
+        :website "http://www.puntp.nl"^^xsd:string ;
+        geo:hasGeometry ns1:lhbtPuntP_volwassenen851D07F636BD4A22geo ;
+        ns4:lat "52.3620209535306"^^xsd:float ;
+        ns4:long "4.91101959357631"^^xsd:float .
+
+    ns1:lhbtPychotherapiepraktijk_JordaanA4C828095EBD442F a :instantie ;
         rdfs:label "Pychotherapiepraktijk Jordaan"^^xsd:string ;
         ns3:latitude 5.237628e+01 ;
         ns3:longitude 4.882097e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.praktijkjordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPychotherapiepraktijk_Jordaan47CB487F8FB44A3Cgeo ;
+        geo:hasGeometry ns1:lhbtPychotherapiepraktijk_JordaanA4C828095EBD442Fgeo ;
         ns4:lat "52.3762814418009"^^xsd:float ;
         ns4:long "4.88209734278334"^^xsd:float .
 
-    ns1:lhbtPychotherapiepraktijk_JordaanC8CB8982DCFC429D a :instantie ;
+    ns1:lhbtPychotherapiepraktijk_JordaanBC4154D4634C49F7 a :instantie ;
         rdfs:label "Pychotherapiepraktijk Jordaan"^^xsd:string ;
         ns3:latitude 5.23777e+01 ;
         ns3:longitude 4.883755e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.praktijkjordaan.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtPychotherapiepraktijk_JordaanC8CB8982DCFC429Dgeo ;
+        geo:hasGeometry ns1:lhbtPychotherapiepraktijk_JordaanBC4154D4634C49F7geo ;
         ns4:lat "52.3776995728738"^^xsd:float ;
         ns4:long "4.8837554085287"^^xsd:float .
 
-    ns1:lhbtRichting_in_Relaties140D44EFE220490A a :instantie ;
+    ns1:lhbtRichting_in_RelatiesB44F5951B97A457E a :instantie ;
         rdfs:label "Richting in Relaties"^^xsd:string ;
         ns3:latitude 5.235665e+01 ;
         ns3:longitude 4.894314e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.ploegcoaching.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtRichting_in_Relaties140D44EFE220490Ageo ;
+        geo:hasGeometry ns1:lhbtRichting_in_RelatiesB44F5951B97A457Egeo ;
         ns4:lat "52.3566498168972"^^xsd:float ;
         ns4:long "4.89431366541414"^^xsd:float .
 
-    ns1:lhbtStichting_Secret_GardenE916698355094C4F a :instantie ;
+    ns1:lhbtStichting_Secret_Garden6926C39D54AA4C30 a :instantie ;
         rdfs:label "Stichting Secret Garden"^^xsd:string ;
         ns3:latitude 5.23661e+01 ;
         ns3:longitude 4.904237e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.stichtingsecretgarden.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtStichting_Secret_GardenE916698355094C4Fgeo ;
+        geo:hasGeometry ns1:lhbtStichting_Secret_Garden6926C39D54AA4C30geo ;
         ns4:lat "52.3661008635734"^^xsd:float ;
         ns4:long "4.90423665123218"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_ExplorationsEC685187CE4C4DCB> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_ExplorationsE254FEE8A6D64DB1> a :instantie ;
         rdfs:label "Talk, Touch and Body Explorations"^^xsd:string ;
         ns3:latitude 5.235321e+01 ;
         ns3:longitude 4.854369e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://volkermoritznl.wordpress.com"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_ExplorationsEC685187CE4C4DCBgeo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_ExplorationsE254FEE8A6D64DB1geo> ;
         ns4:lat "52.3532052079227"^^xsd:float ;
         ns4:long "4.85436900892146"^^xsd:float .
 
-    ns1:lhbtTransgenders_Amsterdam087541B7FE67414A a :instantie ;
+    ns1:lhbtTransgenders_AmsterdamC49189C606374208 a :instantie ;
         rdfs:label "Transgenders Amsterdam"^^xsd:string ;
         ns3:latitude 5.237789e+01 ;
         ns3:longitude 4.879685e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://transgendersamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtTransgenders_Amsterdam087541B7FE67414Ageo ;
+        geo:hasGeometry ns1:lhbtTransgenders_AmsterdamC49189C606374208geo ;
         ns4:lat "52.3778889153558"^^xsd:float ;
         ns4:long "4.87968518771488"^^xsd:float .
 
-    ns1:lhbtTransvisie_Zorg8A522F2E3B6D4AE8 a :instantie ;
+    ns1:lhbtTransvisie_Zorg9ADE825A89AB4C7C a :instantie ;
         rdfs:label "Transvisie Zorg"^^xsd:string ;
         ns3:latitude 5.236078e+01 ;
         ns3:longitude 4.907671e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.transvisiezorg.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtTransvisie_Zorg8A522F2E3B6D4AE8geo ;
+        geo:hasGeometry ns1:lhbtTransvisie_Zorg9ADE825A89AB4C7Cgeo ;
         ns4:lat "52.3607761200273"^^xsd:float ;
         ns4:long "4.90767112130932"^^xsd:float .
 
-    ns1:lhbtVeilige_Haven2D0EAB1C259F44C2 a :instantie ;
+    ns1:lhbtVeilige_Haven89B662E31EC243A7 a :instantie ;
         rdfs:label "Veilige Haven"^^xsd:string ;
         ns3:latitude 5.237073e+01 ;
         ns3:longitude 4.898915e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.veiligehavenamsterdam.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtVeilige_Haven2D0EAB1C259F44C2geo ;
+        geo:hasGeometry ns1:lhbtVeilige_Haven89B662E31EC243A7geo ;
         ns4:lat "52.3707346695872"^^xsd:float ;
         ns4:long "4.89891472055574"^^xsd:float .
 
-    ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving6C86763F98954E9B a :instantie ;
+    ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving25CDA137E5E94ACE a :instantie ;
         rdfs:label "Wilfried Sluys Relatie- en Gestalttherapie Amsterdam en omgeving"^^xsd:string ;
         ns3:latitude 5.250354e+01 ;
         ns3:longitude 4.960073e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.ws-gestalttherapie.nl"^^xsd:string ;
-        geo:hasGeometry ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving6C86763F98954E9Bgeo ;
+        geo:hasGeometry ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving25CDA137E5E94ACEgeo ;
         ns4:lat "52.5035425746909"^^xsd:float ;
         ns4:long "4.96007296592279"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannenEDF7AE64F4A34CCB> a :instantie ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannenC496BEF8D9134865> a :instantie ;
         rdfs:label "Zóciëteit, vereniging voor homomannen"^^xsd:string ;
         ns3:latitude 5.235633e+01 ;
         ns3:longitude 4.844585e+00 ;
         :providesInformationAbout :lhtbtIssues ;
         :website "http://www.zocieteit.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannenEDF7AE64F4A34CCBgeo> ;
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannenC496BEF8D9134865geo> ;
         ns4:lat "52.3563334410551"^^xsd:float ;
         ns4:long "4.84458454261457"^^xsd:float .
 
@@ -919,229 +919,229 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    ns1:lhbtAdviespraktijk_David_en_Van_Wezel5F679455E8F64E7Dgeo a geo:Geometry ;
+    ns1:lhbtAdviespraktijk_David_en_Van_WezelA88E1087E7EB4690geo a geo:Geometry ;
         geo:asWKT "POINT(4.9405019178603 52.3515034043332)"^^geo:wktLiteral .
 
-    ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie7D5A17558B6C4460geo a geo:Geometry ;
+    ns1:lhbtAmsterdam_Groepspraktijk_Psychotherapie2595614F57694717geo a geo:Geometry ;
         geo:asWKT "POINT(4.87160901324048 52.3638871010753)"^^geo:wktLiteral .
 
-    ns1:lhbtAssociatie_voor_PsychotherapieEB81914B5F9E4723geo a geo:Geometry ;
+    ns1:lhbtAssociatie_voor_PsychotherapieCE2343AD3A884CE3geo a geo:Geometry ;
         geo:asWKT "POINT(4.8797559162721 52.3729909155503)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie5A77AB120CAB469Ageo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtBo-link,_praktijk_voor_haptotherapie4416125400404AD6geo> a geo:Geometry ;
         geo:asWKT "POINT(4.97943460432352 52.3282309081226)"^^geo:wktLiteral .
 
-    ns1:lhbtCOC_AmsterdamDB3932E3B2CD4462geo a geo:Geometry ;
+    ns1:lhbtCOC_Amsterdam5D0DA3791FCA40C1geo a geo:Geometry ;
         geo:asWKT "POINT(4.89531572029783 52.357624660428)"^^geo:wktLiteral .
 
-    ns1:lhbtCentro_Cultural_de_HispanohablantesD82C4F5730464AB8geo a geo:Geometry ;
+    ns1:lhbtCentro_Cultural_de_HispanohablantesCB2AA283B387434Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.85504850574835 52.3675347454174)"^^geo:wktLiteral .
 
-    ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong7D884E833B974169geo a geo:Geometry ;
+    ns1:lhbtCoaching_en_Supervisie_Tim_de_Jong3ECAF39039314AB7geo a geo:Geometry ;
         geo:asWKT "POINT(4.97574060776561 52.3611850572203)"^^geo:wktLiteral .
 
-    ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_HulpverleningB269539C7E3D47B0geo a geo:Geometry ;
+    ns1:lhbtCompaan_Counseling_Amsterdam_-_Homospecifieke_Hulpverlening1610FBC51DB34CC7geo a geo:Geometry ;
         geo:asWKT "POINT(4.94793435916976 52.3746565596972)"^^geo:wktLiteral .
 
-    ns1:lhbtDe_Regenboog_GroepE6FAB507AE594B5Fgeo a geo:Geometry ;
+    ns1:lhbtDe_Regenboog_Groep8E585F882C5A440Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.89413939550038 52.380259820669)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteitA6496B8E3D204B24geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtDifferent,_pastorale_hulpverlening_rond_seksuele_identiteit5C6D504A2ACC4337geo> a geo:Geometry ;
         geo:asWKT "POINT(4.88533449545389 52.3809148853129)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum8BBE205BD1854494geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtEFT_relatie_therapie_&_Zijnsorientatie_Amsterdam_Centrum7904049AF3224085geo> a geo:Geometry ;
         geo:asWKT "POINT(4.88304994965762 52.3699941016887)"^^geo:wktLiteral .
 
-    ns1:lhbtEerstelijnspsychologiepraktijk_BijleveldF0839BAF66234BADgeo a geo:Geometry ;
+    ns1:lhbtEerstelijnspsychologiepraktijk_Bijleveld242E85B4B2D0475Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89588406142669 52.3566743207169)"^^geo:wktLiteral .
 
-    ns1:lhbtGGZ_inGeest_Poliklinieken1E2BC22E537E40A5geo a geo:Geometry ;
-        geo:asWKT "POINT(4.86480752128682 52.3317979058113)"^^geo:wktLiteral .
-
-    ns1:lhbtGGZ_inGeest_PolikliniekenCF161982657247A9geo a geo:Geometry ;
+    ns1:lhbtGGZ_inGeest_PolikliniekenB0772BAD03D748F7geo a geo:Geometry ;
         geo:asWKT "POINT(4.85866599196468 52.333792887622)"^^geo:wktLiteral .
 
-    ns1:lhbtGestaltpraktijk_Amsterdam11E1E39B5B414D1Cgeo a geo:Geometry ;
+    ns1:lhbtGGZ_inGeest_PolikliniekenEA1F853257E34439geo a geo:Geometry ;
+        geo:asWKT "POINT(4.86480752128682 52.3317979058113)"^^geo:wktLiteral .
+
+    ns1:lhbtGestaltpraktijk_Amsterdam167DC177E3CC4D12geo a geo:Geometry ;
         geo:asWKT "POINT(4.88258266517885 52.3826737676468)"^^geo:wktLiteral .
 
-    ns1:lhbtGestaltpraktijk_Bloemgracht9ADA844A6F0D49BCgeo a geo:Geometry ;
+    ns1:lhbtGestaltpraktijk_BloemgrachtAE4AACCBB4454F88geo a geo:Geometry ;
         geo:asWKT "POINT(4.88005068142241 52.3743328399239)"^^geo:wktLiteral .
 
-    ns1:lhbtHiv_Vereniging_Nederland425302BDB37E43C3geo a geo:Geometry ;
+    ns1:lhbtHiv_Vereniging_Nederland354E6C41967B4486geo a geo:Geometry ;
         geo:asWKT "POINT(4.87720230168246 52.3639203161796)"^^geo:wktLiteral .
 
-    ns1:lhbtHomogroep_BuitenveldertF0F4E79D8AC14026geo a geo:Geometry ;
+    ns1:lhbtHomogroep_Buitenveldert73262276863C4C73geo a geo:Geometry ;
         geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisarts_Amsterdam_Oost358933047B8C4A28geo a geo:Geometry ;
+    ns1:lhbtHuisarts_Amsterdam_OostB7CBA95EFA01447Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91426234999649 52.3552899971377)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisarts_aan_de_PrinsengrachtD25DE3F7961546B0geo a geo:Geometry ;
+    ns1:lhbtHuisarts_aan_de_Prinsengracht50F8F446964444ACgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89704886910981 52.3615235365628)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsen_Vrolikstraat9611597EE36444BEgeo a geo:Geometry ;
+    ns1:lhbtHuisartsen_Vrolikstraat69373B809B0149C6geo a geo:Geometry ;
         geo:asWKT "POINT(4.91426234999649 52.3552899971377)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer81D23B2A3FD34501geo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Bos_en_Lommer93C8F5907EAB491Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84589593848699 52.377586482582)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_Buijs_en_Windhausen89AEAAA72E0D4A8Bgeo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Buijs_en_WindhausenBC70FBBBE8524260geo a geo:Geometry ;
         geo:asWKT "POINT(4.93022995325319 52.3983259763612)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_Grooff8BAADC0D0F414889geo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Grooff26647B27227A41CFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.91463034815041 52.3689829211309)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij7CEFE76BCD284F62geo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Heijnen_en_De_Meij9DB312910E4B46C3geo a geo:Geometry ;
         geo:asWKT "POINT(4.8967831614502 52.3722807335474)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_Jonker_en_Koetsier9E85E86790E64CCFgeo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Jonker_en_KoetsierCAC1DE559B7D4F7Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_OudC0ABC4FF33574075geo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Oud63CB8B910CAE4157geo a geo:Geometry ;
         geo:asWKT "POINT(4.90021364940399 52.3460417358658)"^^geo:wktLiteral .
 
-    ns1:lhbtHuisartsenpraktijk_RustenburgerstraatB2E07F86C33C40B6geo a geo:Geometry ;
+    ns1:lhbtHuisartsenpraktijk_Rustenburgerstraat15851870980F4F23geo a geo:Geometry ;
         geo:asWKT "POINT(4.9001101393223 52.3528000954048)"^^geo:wktLiteral .
 
-    ns1:lhbtHypnotherapiepraktijk_Wim_Kijne55F7CE903A2F4367geo a geo:Geometry ;
+    ns1:lhbtHypnotherapiepraktijk_Wim_KijneA08429BCE3A045C0geo a geo:Geometry ;
         geo:asWKT "POINT(4.87198820939063 52.3678972812344)"^^geo:wktLiteral .
 
-    ns1:lhbtHypnotherapiepraktijk_Wim_KijneC27385BE135C492Dgeo a geo:Geometry ;
+    ns1:lhbtHypnotherapiepraktijk_Wim_KijneCBC8E611F7CF449Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85360358674513 52.3826815525289)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_ZingevingE5452B80F3114421geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtIn_Transit,_Coaching_&_ZingevingA3D1E36C18A5475Dgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.8434296611728 52.3463606953857)"^^geo:wktLiteral .
 
-    ns1:lhbtLA_Rieshuis77E8A323F1484BBDgeo a geo:Geometry ;
+    ns1:lhbtLA_Rieshuis21C6BA13EAAF48B4geo a geo:Geometry ;
         geo:asWKT "POINT(4.88433471579719 52.3835979652873)"^^geo:wktLiteral .
 
-    ns1:lhbtMedisch_Centrum_Czaar_Peter8FDD511A21D84F6Egeo a geo:Geometry ;
+    ns1:lhbtMedisch_Centrum_Czaar_Peter9681D10867774061geo a geo:Geometry ;
         geo:asWKT "POINT(4.92707256261962 52.3684477273567)"^^geo:wktLiteral .
 
-    ns1:lhbtNederlandse_Stichting_Gestalt995A90A465CF4987geo a geo:Geometry ;
+    ns1:lhbtNederlandse_Stichting_Gestalt2006C550430A480Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90107514133759 52.3759204762515)"^^geo:wktLiteral .
 
-    ns1:lhbtPS_Praktijk_Seksuologie841576B07A634562geo a geo:Geometry ;
+    ns1:lhbtPS_Praktijk_SeksuologieAD2303BFE5494B5Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.87053260461939 52.3642868564831)"^^geo:wktLiteral .
 
-    ns1:lhbtPatiëntenorganisatie_TransvisieE4A3693E4DC54052geo a geo:Geometry ;
+    ns1:lhbtPatiëntenorganisatie_TransvisieBF1A78E573774B0Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89664490710315 52.3595535507462)"^^geo:wktLiteral .
 
-    ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_BosF5DF933311C24E30geo a geo:Geometry ;
+    ns1:lhbtPersoonsgerichte_coaching_en_advies_Marten_Bos2F1A6932CD4B4A6Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.94615497433767 52.3719536421817)"^^geo:wktLiteral .
 
-    ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling96E1B0BEA5364A4Bgeo a geo:Geometry ;
+    ns1:lhbtPraktijk_voor_moderne_hypnotheraptie_en_counseling0C87B863168640C8geo a geo:Geometry ;
         geo:asWKT "POINT(4.85273262134446 52.3769524467572)"^^geo:wktLiteral .
 
-    ns1:lhbtPraktijk_voor_psychotherapie_Borgerdijn29EF9B0F4C564274geo a geo:Geometry ;
+    ns1:lhbtPraktijk_voor_psychotherapie_BorgerdijnD901F41CEE794F77geo a geo:Geometry ;
         geo:asWKT "POINT(4.81181142600341 52.3457348452527)"^^geo:wktLiteral .
 
-    ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma1F3659A223E247CFgeo a geo:Geometry ;
+    ns1:lhbtPraktijk_voor_therapie_en_coaching_Prisma0A11B6A4B3904CBBgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86048135883526 52.3526753239009)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_HettingaC8624E976F6F48B5geo a geo:Geometry ;
+    ns1:lhbtPsychiatrie-_en_psychotherapiepraktijk_Hettinga9C53C3A1A6F94B92geo a geo:Geometry ;
         geo:asWKT "POINT(4.90055995720671 52.3639826820487)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychiatriepraktijk_Prins4DA0BC4DE27C4AB5geo a geo:Geometry ;
+    ns1:lhbtPsychiatriepraktijk_PrinsCF37BB66C69E4AD8geo a geo:Geometry ;
         geo:asWKT "POINT(4.90912278001029 52.3609347825002)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychiatriepraktijk_Stortelder5DB7C439B41E423Dgeo a geo:Geometry ;
+    ns1:lhbtPsychiatriepraktijk_StortelderE02BA234E8D646CFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8936013189139 52.3639448862348)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychiatriepraktijk_Van_Ham40F02FF272424B87geo a geo:Geometry ;
+    ns1:lhbtPsychiatriepraktijk_Van_HamC52B8FBD8D8C47B4geo a geo:Geometry ;
         geo:asWKT "POINT(4.90191859153269 52.3605729243724)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychiatriepraktijk_Van_der_Plaats4F7F208CD1FF4087geo a geo:Geometry ;
+    ns1:lhbtPsychiatriepraktijk_Van_der_Plaats384D09EEBABE4F4Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86729504562484 52.3536581508939)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychiatriepraktijk_Wasmann251970B3F9E646ADgeo a geo:Geometry ;
+    ns1:lhbtPsychiatriepraktijk_Wasmann3C1126BE7A92432Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85677940700581 52.3529374132158)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychologenpraktijk_Brainfact3BDDE8D1592047D0geo a geo:Geometry ;
+    ns1:lhbtPsychologenpraktijk_BrainfactF7DFDEF479D34007geo a geo:Geometry ;
         geo:asWKT "POINT(4.90476487350719 52.3647818230466)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychologenpraktijk_Maasen90861A81DA91426Fgeo a geo:Geometry ;
+    ns1:lhbtPsychologenpraktijk_MaasenD75BF9A706844A70geo a geo:Geometry ;
         geo:asWKT "POINT(4.88559404273658 52.3722518362472)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychologenpraktijk_StaudenmayrC5AD0B252A2C46DBgeo a geo:Geometry ;
+    ns1:lhbtPsychologenpraktijk_Staudenmayr069C65A8CD6F4E64geo a geo:Geometry ;
         geo:asWKT "POINT(4.92676838595457 52.3595577043237)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen21BF3CC619A543C8geo a geo:Geometry ;
+    ns1:lhbtPsychologie-_en_psychotherapiepraktijk_Kroonen905425C087D7491Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92609645036591 52.3634737306796)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong2C0FCD791B364C19geo a geo:Geometry ;
-        geo:asWKT "POINT(4.85250268730243 52.3570435554619)"^^geo:wktLiteral .
-
-    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_JongDF0729D583B64AC0geo a geo:Geometry ;
+    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong4D84CDBA5C6A4DACgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88721174869219 52.3772468566837)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychologiepraktijk_Van_Tilburg0750D39B748449B8geo a geo:Geometry ;
+    ns1:lhbtPsychologie-_en_seksuologiepraktijk_Reichling-de_Jong51BF9C9D6A4A4171geo a geo:Geometry ;
+        geo:asWKT "POINT(4.85250268730243 52.3570435554619)"^^geo:wktLiteral .
+
+    ns1:lhbtPsychologiepraktijk_Van_Tilburg1332D62F7D5B405Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.8747938263093 52.3499968819164)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Baanbrekend7811333D6B2F492Ageo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Baanbrekend90035B48DE544B14geo a geo:Geometry ;
         geo:asWKT "POINT(4.94112475624311 52.3537886334998)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Boers-StollF791511CE9D14574geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Boers-StollE69A5C8B5CDA4CC8geo a geo:Geometry ;
         geo:asWKT "POINT(4.83624148817536 52.3543984813029)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Fels855E7B6B05044718geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Fels0D554B644867434Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88310884529111 52.3853658097278)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Kerkstraat19B08ED6101C47E2geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Kerkstraat5957D466E87D4998geo a geo:Geometry ;
         geo:asWKT "POINT(4.89482057865867 52.3626469770023)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Leo_GoetstouwersF0BB6E0622F14E66geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Leo_Goetstouwers328D207441164222geo a geo:Geometry ;
         geo:asWKT "POINT(4.94176813559006 52.3979025678126)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Living-History8FBD05AB04904C39geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Living-History8DC2AC234BD64B94geo a geo:Geometry ;
         geo:asWKT "POINT(4.87009285330376 52.3768228151066)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Marcel_HoltslagC17616580CEA4486geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Marcel_HoltslagFFA2808D19EC4D55geo a geo:Geometry ;
         geo:asWKT "POINT(4.91887641126339 52.3770797285167)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Peter_Dekker84297F9ACA1D409Egeo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Peter_Dekker6321860B0F8643E4geo a geo:Geometry ;
         geo:asWKT "POINT(4.88640900471472 52.3690017325653)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_Sinteze7D72CF99C7204D0Fgeo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_Sinteze585C5DD41AA34D32geo a geo:Geometry ;
         geo:asWKT "POINT(4.92920995675088 52.367638134004)"^^geo:wktLiteral .
 
-    ns1:lhbtPsychotherapiepraktijk_ter_HaarF47B8CD56F644CD4geo a geo:Geometry ;
+    ns1:lhbtPsychotherapiepraktijk_ter_HaarA8421B77B03247FCgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89614279431077 52.3704355990682)"^^geo:wktLiteral .
 
-    ns1:lhbtPuntP_volwassenenCB777678A1264718geo a geo:Geometry ;
-        geo:asWKT "POINT(4.91101959357631 52.3620209535306)"^^geo:wktLiteral .
-
-    ns1:lhbtPuntP_volwassenenFC928287008E4FAFgeo a geo:Geometry ;
+    ns1:lhbtPuntP_volwassenen3992C5B187AE4915geo a geo:Geometry ;
         geo:asWKT "POINT(4.89473619464938 52.404546992831)"^^geo:wktLiteral .
 
-    ns1:lhbtPychotherapiepraktijk_Jordaan47CB487F8FB44A3Cgeo a geo:Geometry ;
+    ns1:lhbtPuntP_volwassenen851D07F636BD4A22geo a geo:Geometry ;
+        geo:asWKT "POINT(4.91101959357631 52.3620209535306)"^^geo:wktLiteral .
+
+    ns1:lhbtPychotherapiepraktijk_JordaanA4C828095EBD442Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88209734278334 52.3762814418009)"^^geo:wktLiteral .
 
-    ns1:lhbtPychotherapiepraktijk_JordaanC8CB8982DCFC429Dgeo a geo:Geometry ;
+    ns1:lhbtPychotherapiepraktijk_JordaanBC4154D4634C49F7geo a geo:Geometry ;
         geo:asWKT "POINT(4.8837554085287 52.3776995728738)"^^geo:wktLiteral .
 
-    ns1:lhbtRichting_in_Relaties140D44EFE220490Ageo a geo:Geometry ;
+    ns1:lhbtRichting_in_RelatiesB44F5951B97A457Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.89431366541414 52.3566498168972)"^^geo:wktLiteral .
 
-    ns1:lhbtStichting_Secret_GardenE916698355094C4Fgeo a geo:Geometry ;
+    ns1:lhbtStichting_Secret_Garden6926C39D54AA4C30geo a geo:Geometry ;
         geo:asWKT "POINT(4.90423665123218 52.3661008635734)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_ExplorationsEC685187CE4C4DCBgeo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtTalk,_Touch_and_Body_ExplorationsE254FEE8A6D64DB1geo> a geo:Geometry ;
         geo:asWKT "POINT(4.85436900892146 52.3532052079227)"^^geo:wktLiteral .
 
-    ns1:lhbtTransgenders_Amsterdam087541B7FE67414Ageo a geo:Geometry ;
+    ns1:lhbtTransgenders_AmsterdamC49189C606374208geo a geo:Geometry ;
         geo:asWKT "POINT(4.87968518771488 52.3778889153558)"^^geo:wktLiteral .
 
-    ns1:lhbtTransvisie_Zorg8A522F2E3B6D4AE8geo a geo:Geometry ;
+    ns1:lhbtTransvisie_Zorg9ADE825A89AB4C7Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90767112130932 52.3607761200273)"^^geo:wktLiteral .
 
-    ns1:lhbtVeilige_Haven2D0EAB1C259F44C2geo a geo:Geometry ;
+    ns1:lhbtVeilige_Haven89B662E31EC243A7geo a geo:Geometry ;
         geo:asWKT "POINT(4.89891472055574 52.3707346695872)"^^geo:wktLiteral .
 
-    ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving6C86763F98954E9Bgeo a geo:Geometry ;
+    ns1:lhbtWilfried_Sluys_Relatie-_en_Gestalttherapie_Amsterdam_en_omgeving25CDA137E5E94ACEgeo a geo:Geometry ;
         geo:asWKT "POINT(4.96007296592279 52.5035425746909)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannenEDF7AE64F4A34CCBgeo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/lhbtZóciëteit,_vereniging_voor_homomannenC496BEF8D9134865geo> a geo:Geometry ;
         geo:asWKT "POINT(4.84458454261457 52.3563334410551)"^^geo:wktLiteral .
 
     :addictsPrevention a :knowledgeDomain,

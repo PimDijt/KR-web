@@ -4,10 +4,10 @@
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix geof: <http://www.opengis.net/def/function/geosparql/> .
-@prefix ns1: <urn:x-rdflib:> .
-@prefix ns2: <http://dbpedia.org/property/> .
-@prefix ns3: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix ns4: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix ns3: <http://dbpedia.org/property/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,577 +15,577 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns4:spzwAGO_Zwembad_Diemen29C8214ECBB84B8A a :instantie,
+    ns1:spzwAGO_Zwembad_Diemen023600FA6E254786 a :instantie,
             :swimmingPool ;
         rdfs:label "AGO Zwembad Diemen"^^xsd:string ;
-        ns2:latitude 5.233658e+01 ;
-        ns2:longitude 4.975027e+00 ;
+        ns3:latitude 5.233658e+01 ;
+        ns3:longitude 4.975027e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.agozwembad.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwAGO_Zwembad_Diemen29C8214ECBB84B8Ageo ;
-        ns3:lat "52.3365841259384"^^xsd:float ;
-        ns3:long "4.97502660871402"^^xsd:float .
+        geo:hasGeometry ns1:spzwAGO_Zwembad_Diemen023600FA6E254786geo ;
+        ns4:lat "52.3365841259384"^^xsd:float ;
+        ns4:long "4.97502660871402"^^xsd:float .
 
-    ns4:spzwAmstelbad1125C3540A984883 a :instantie,
+    ns1:spzwAmstelbadC3A9F24476074B4C a :instantie,
             :swimmingPool ;
         rdfs:label "Amstelbad"^^xsd:string ;
-        ns2:latitude 5.230256e+01 ;
-        ns2:longitude 4.92082e+00 ;
+        ns3:latitude 5.230256e+01 ;
+        ns3:longitude 4.92082e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.amstelbad.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwAmstelbad1125C3540A984883geo ;
-        ns3:lat "52.3025599847525"^^xsd:float ;
-        ns3:long "4.9208204994718"^^xsd:float .
+        geo:hasGeometry ns1:spzwAmstelbadC3A9F24476074B4Cgeo ;
+        ns4:lat "52.3025599847525"^^xsd:float ;
+        ns4:long "4.9208204994718"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland913DD2F2E59045E6> a :instantie,
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland9AA0E905A1C34195> a :instantie,
             :sportcentrum ;
         rdfs:label "Amstelborgh/Borchland"^^xsd:string ;
-        ns2:latitude 5.231583e+01 ;
-        ns2:longitude 4.927626e+00 ;
+        ns3:latitude 5.231583e+01 ;
+        ns3:longitude 4.927626e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.borchland.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland913DD2F2E59045E6geo> ;
-        ns3:lat "52.315827562928"^^xsd:float ;
-        ns3:long "4.92762633362491"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland9AA0E905A1C34195geo> ;
+        ns4:lat "52.315827562928"^^xsd:float ;
+        ns4:long "4.92762633362491"^^xsd:float .
 
-    ns4:spzwAmstelcampusC35E2A183E584E8A a :instantie,
+    ns1:spzwAmstelcampusE1269266DBED4977 a :instantie,
             :sportcentrum ;
         rdfs:label "Amstelcampus"^^xsd:string ;
-        ns2:latitude 5.235863e+01 ;
-        ns2:longitude 4.91002e+00 ;
+        ns3:latitude 5.235863e+01 ;
+        ns3:longitude 4.91002e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.usc.uva.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwAmstelcampusC35E2A183E584E8Ageo ;
-        ns3:lat "52.3586335289101"^^xsd:float ;
-        ns3:long "4.91002037991248"^^xsd:float .
+        geo:hasGeometry ns1:spzwAmstelcampusE1269266DBED4977geo ;
+        ns4:lat "52.3586335289101"^^xsd:float ;
+        ns4:long "4.91002037991248"^^xsd:float .
 
-    ns4:spzwApollohal8A2DA3FEE934486D a :instantie,
+    ns1:spzwApollohal380D74ADEBD54F82 a :instantie,
             :sportcentrum ;
         rdfs:label "Apollohal"^^xsd:string ;
-        ns2:latitude 5.234807e+01 ;
-        ns2:longitude 4.884444e+00 ;
+        ns3:latitude 5.234807e+01 ;
+        ns3:longitude 4.884444e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwApollohal8A2DA3FEE934486Dgeo ;
-        ns3:lat "52.3480699452413"^^xsd:float ;
-        ns3:long "4.88444366331479"^^xsd:float .
+        geo:hasGeometry ns1:spzwApollohal380D74ADEBD54F82geo ;
+        ns4:lat "52.3480699452413"^^xsd:float ;
+        ns4:long "4.88444366331479"^^xsd:float .
 
-    ns4:spzwBijlmer_Sportcentrum04FD16BA48164706 a :instantie,
+    ns1:spzwBijlmer_SportcentrumB35B07B96B384F91 a :instantie,
             :swimmingPool ;
         rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
-        ns2:latitude 5.231544e+01 ;
-        ns2:longitude 4.958035e+00 ;
+        ns3:latitude 5.231544e+01 ;
+        ns3:longitude 4.958035e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string ;
-        geo:hasGeometry ns4:spzwBijlmer_Sportcentrum04FD16BA48164706geo ;
-        ns3:lat "52.3154432"^^xsd:float ;
-        ns3:long "4.958035"^^xsd:float .
+        geo:hasGeometry ns1:spzwBijlmer_SportcentrumB35B07B96B384F91geo ;
+        ns4:lat "52.3154432"^^xsd:float ;
+        ns4:long "4.958035"^^xsd:float .
 
-    ns4:spzwBijlmer_SportcentrumAE61B22C2DFB4FC6 a :instantie,
+    ns1:spzwBijlmer_SportcentrumCCB080F781954895 a :instantie,
             :sportcentrum ;
         rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
-        ns2:latitude 5.231544e+01 ;
-        ns2:longitude 4.958035e+00 ;
+        ns3:latitude 5.231544e+01 ;
+        ns3:longitude 4.958035e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string ;
-        geo:hasGeometry ns4:spzwBijlmer_SportcentrumAE61B22C2DFB4FC6geo ;
-        ns3:lat "52.3154432"^^xsd:float ;
-        ns3:long "4.958035"^^xsd:float .
+        geo:hasGeometry ns1:spzwBijlmer_SportcentrumCCB080F781954895geo ;
+        ns4:lat "52.3154432"^^xsd:float ;
+        ns4:long "4.958035"^^xsd:float .
 
-    ns4:spzwBlaashal_Gustav_Mahler7AFB5A1298BF484E a :instantie,
+    ns1:spzwBlaashal_Gustav_MahlerA7EDFFD7FFF04C40 a :instantie,
             :sportcentrum ;
         rdfs:label "Blaashal Gustav Mahler"^^xsd:string ;
-        ns2:latitude 5.233687e+01 ;
-        ns2:longitude 4.86783e+00 ;
+        ns3:latitude 5.233687e+01 ;
+        ns3:longitude 4.86783e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwBlaashal_Gustav_Mahler7AFB5A1298BF484Egeo ;
-        ns3:lat "52.3368696481677"^^xsd:float ;
-        ns3:long "4.86782993152642"^^xsd:float .
+        geo:hasGeometry ns1:spzwBlaashal_Gustav_MahlerA7EDFFD7FFF04C40geo ;
+        ns4:lat "52.3368696481677"^^xsd:float ;
+        ns4:long "4.86782993152642"^^xsd:float .
 
-    ns4:spzwBredius5D7216AC13D2442C a :instantie,
+    ns1:spzwBredius0F95B02361834354 a :instantie,
             :swimmingPool ;
         rdfs:label "Bredius"^^xsd:string ;
-        ns2:latitude 5.239247e+01 ;
-        ns2:longitude 4.868338e+00 ;
+        ns3:latitude 5.239247e+01 ;
+        ns3:longitude 4.868338e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwBredius5D7216AC13D2442Cgeo ;
-        ns3:lat "52.3924717160644"^^xsd:float ;
-        ns3:long "4.8683383115497"^^xsd:float .
+        geo:hasGeometry ns1:spzwBredius0F95B02361834354geo ;
+        ns4:lat "52.3924717160644"^^xsd:float ;
+        ns4:long "4.8683383115497"^^xsd:float .
 
-    ns4:spzwDavid_Lloyd57348764FF9246B4 a :instantie,
+    ns1:spzwDavid_LloydDB82FF3018B547A2 a :instantie,
             :swimmingPool ;
         rdfs:label "David Lloyd"^^xsd:string ;
-        ns2:latitude 5.235762e+01 ;
-        ns2:longitude 4.855931e+00 ;
+        ns3:latitude 5.235762e+01 ;
+        ns3:longitude 4.855931e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.davidlloyd.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwDavid_Lloyd57348764FF9246B4geo ;
-        ns3:lat "52.3576162311994"^^xsd:float ;
-        ns3:long "4.85593072171155"^^xsd:float .
+        geo:hasGeometry ns1:spzwDavid_LloydDB82FF3018B547A2geo ;
+        ns4:lat "52.3576162311994"^^xsd:float ;
+        ns4:long "4.85593072171155"^^xsd:float .
 
-    ns4:spzwDe_BreekDEB13443795845E1 a :instantie,
+    ns1:spzwDe_BreekE6C568148AFA4A25 a :instantie,
             :swimmingPool ;
         rdfs:label "De Breek"^^xsd:string ;
-        ns2:latitude 5.243097e+01 ;
-        ns2:longitude 4.908425e+00 ;
+        ns3:latitude 5.243097e+01 ;
+        ns3:longitude 4.908425e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.debreek.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwDe_BreekDEB13443795845E1geo ;
-        ns3:lat "52.4309747956077"^^xsd:float ;
-        ns3:long "4.90842546038853"^^xsd:float .
+        geo:hasGeometry ns1:spzwDe_BreekE6C568148AFA4A25geo ;
+        ns4:lat "52.4309747956077"^^xsd:float ;
+        ns4:long "4.90842546038853"^^xsd:float .
 
-    ns4:spzwDe_Mirandabad64693C6531644975 a :instantie,
+    ns1:spzwDe_MirandabadBFB109EFAEE74C3B a :instantie,
             :swimmingPool ;
         rdfs:label "De Mirandabad"^^xsd:string ;
-        ns2:latitude 5.233873e+01 ;
-        ns2:longitude 4.902275e+00 ;
+        ns3:latitude 5.233873e+01 ;
+        ns3:longitude 4.902275e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwDe_Mirandabad64693C6531644975geo ;
-        ns3:lat "52.3387341626056"^^xsd:float ;
-        ns3:long "4.90227461562702"^^xsd:float .
+        geo:hasGeometry ns1:spzwDe_MirandabadBFB109EFAEE74C3Bgeo ;
+        ns4:lat "52.3387341626056"^^xsd:float ;
+        ns4:long "4.90227461562702"^^xsd:float .
 
-    ns4:spzwFlevoparkbadBDBD0A6FD8F04A8E a :instantie,
+    ns1:spzwFlevoparkbad5E62C8EFA0654D51 a :instantie,
             :swimmingPool ;
         rdfs:label "Flevoparkbad"^^xsd:string ;
-        ns2:latitude 5.236493e+01 ;
-        ns2:longitude 4.95185e+00 ;
+        ns3:latitude 5.236493e+01 ;
+        ns3:longitude 4.95185e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwFlevoparkbadBDBD0A6FD8F04A8Egeo ;
-        ns3:lat "52.3649303332444"^^xsd:float ;
-        ns3:long "4.95185027116138"^^xsd:float .
+        geo:hasGeometry ns1:spzwFlevoparkbad5E62C8EFA0654D51geo ;
+        ns4:lat "52.3649303332444"^^xsd:float ;
+        ns4:long "4.95185027116138"^^xsd:float .
 
-    ns4:spzwFrans_Otten_stadionB08A29E34DC3430E a :instantie,
+    ns1:spzwFrans_Otten_stadionF228A96D86A44F3C a :instantie,
             :sportcentrum ;
         rdfs:label "Frans Otten stadion"^^xsd:string ;
-        ns2:latitude 5.233911e+01 ;
-        ns2:longitude 4.850591e+00 ;
+        ns3:latitude 5.233911e+01 ;
+        ns3:longitude 4.850591e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.fransottenstadion.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwFrans_Otten_stadionB08A29E34DC3430Egeo ;
-        ns3:lat "52.3391132721118"^^xsd:float ;
-        ns3:long "4.85059092919467"^^xsd:float .
+        geo:hasGeometry ns1:spzwFrans_Otten_stadionF228A96D86A44F3Cgeo ;
+        ns4:lat "52.3391132721118"^^xsd:float ;
+        ns4:long "4.85059092919467"^^xsd:float .
 
-    ns4:spzwFriendship_Sports_Centre05E51EE8B17C42B4 a :instantie,
-            :sportcentrum ;
-        rdfs:label "Friendship Sports Centre"^^xsd:string ;
-        ns2:latitude 5.240025e+01 ;
-        ns2:longitude 4.959847e+00 ;
-        :providesInformationAbout :movementIssues ;
-        :website "http://www.friendshipsc.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwFriendship_Sports_Centre05E51EE8B17C42B4geo ;
-        ns3:lat "52.4002520238461"^^xsd:float ;
-        ns3:long "4.9598468818715"^^xsd:float .
-
-    ns4:spzwFriendship_Sports_CentreE42D96DA79D24881 a :instantie,
+    ns1:spzwFriendship_Sports_CentreD48BC2AB3717418B a :instantie,
             :swimmingPool ;
         rdfs:label "Friendship Sports Centre"^^xsd:string ;
-        ns2:latitude 5.240025e+01 ;
-        ns2:longitude 4.959847e+00 ;
+        ns3:latitude 5.240025e+01 ;
+        ns3:longitude 4.959847e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.friendshipsc.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwFriendship_Sports_CentreE42D96DA79D24881geo ;
-        ns3:lat "52.4002520238461"^^xsd:float ;
-        ns3:long "4.9598468818715"^^xsd:float .
+        geo:hasGeometry ns1:spzwFriendship_Sports_CentreD48BC2AB3717418Bgeo ;
+        ns4:lat "52.4002520238461"^^xsd:float ;
+        ns4:long "4.9598468818715"^^xsd:float .
 
-    ns4:spzwHet_Marnix43F977EC96594BA5 a :instantie,
+    ns1:spzwFriendship_Sports_CentreD5F30481B62447C9 a :instantie,
+            :sportcentrum ;
+        rdfs:label "Friendship Sports Centre"^^xsd:string ;
+        ns3:latitude 5.240025e+01 ;
+        ns3:longitude 4.959847e+00 ;
+        :providesInformationAbout :movementIssues ;
+        :website "http://www.friendshipsc.nl"^^xsd:string ;
+        geo:hasGeometry ns1:spzwFriendship_Sports_CentreD5F30481B62447C9geo ;
+        ns4:lat "52.4002520238461"^^xsd:float ;
+        ns4:long "4.9598468818715"^^xsd:float .
+
+    ns1:spzwHet_Marnix641E9AB312314C18 a :instantie,
             :swimmingPool ;
         rdfs:label "Het Marnix"^^xsd:string ;
-        ns2:latitude 5.237799e+01 ;
-        ns2:longitude 4.87848e+00 ;
+        ns3:latitude 5.237799e+01 ;
+        ns3:longitude 4.87848e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.hetmarnix.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwHet_Marnix43F977EC96594BA5geo ;
-        ns3:lat "52.3779915943609"^^xsd:float ;
-        ns3:long "4.87847967626351"^^xsd:float .
+        geo:hasGeometry ns1:spzwHet_Marnix641E9AB312314C18geo ;
+        ns4:lat "52.3779915943609"^^xsd:float ;
+        ns4:long "4.87847967626351"^^xsd:float .
 
-    ns4:spzwHogendorp_Sportcentrum5104003902DC406E a :instantie,
+    ns1:spzwHogendorp_SportcentrumE2F3D4FD393246B4 a :instantie,
             :sportcentrum ;
         rdfs:label "Hogendorp Sportcentrum"^^xsd:string ;
-        ns2:latitude 5.238165e+01 ;
-        ns2:longitude 4.867584e+00 ;
+        ns3:latitude 5.238165e+01 ;
+        ns3:longitude 4.867584e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwHogendorp_Sportcentrum5104003902DC406Egeo ;
-        ns3:lat "52.3816472196877"^^xsd:float ;
-        ns3:long "4.86758372663217"^^xsd:float .
+        geo:hasGeometry ns1:spzwHogendorp_SportcentrumE2F3D4FD393246B4geo ;
+        ns4:lat "52.3816472196877"^^xsd:float ;
+        ns4:long "4.86758372663217"^^xsd:float .
 
-    ns4:spzwMatchZO653BA5A45D9B4CFE a :instantie,
+    ns1:spzwMatchZOC400C2B8BD854FA8 a :instantie,
             :sportcentrum ;
         rdfs:label "MatchZO"^^xsd:string ;
-        ns2:latitude 5.230881e+01 ;
-        ns2:longitude 5.014677e+00 ;
+        ns3:latitude 5.230881e+01 ;
+        ns3:longitude 5.014677e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.matchzo.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwMatchZO653BA5A45D9B4CFEgeo ;
-        ns3:lat "52.3088144095678"^^xsd:float ;
-        ns3:long "5.01467667406912"^^xsd:float .
+        geo:hasGeometry ns1:spzwMatchZOC400C2B8BD854FA8geo ;
+        ns4:lat "52.3088144095678"^^xsd:float ;
+        ns4:long "5.01467667406912"^^xsd:float .
 
-    ns4:spzwNoorderparkbad6EEA3967EF2D4F62 a :instantie,
+    ns1:spzwNoorderparkbadC1FA97C924B14874 a :instantie,
             :swimmingPool ;
         rdfs:label "Noorderparkbad"^^xsd:string ;
-        ns2:latitude 5.239827e+01 ;
-        ns2:longitude 4.918728e+00 ;
+        ns3:latitude 5.239827e+01 ;
+        ns3:longitude 4.918728e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwNoorderparkbad6EEA3967EF2D4F62geo ;
-        ns3:lat "52.3982696418449"^^xsd:float ;
-        ns3:long "4.91872829769865"^^xsd:float .
+        geo:hasGeometry ns1:spzwNoorderparkbadC1FA97C924B14874geo ;
+        ns4:lat "52.3982696418449"^^xsd:float ;
+        ns4:long "4.91872829769865"^^xsd:float .
 
-    ns4:spzwSloterparkbadF097D83E0BE545FA a :instantie,
+    ns1:spzwSloterparkbad4CFC26CD469B44AE a :instantie,
             :swimmingPool ;
         rdfs:label "Sloterparkbad"^^xsd:string ;
-        ns2:latitude 5.23717e+01 ;
-        ns2:longitude 4.815131e+00 ;
+        ns3:latitude 5.23717e+01 ;
+        ns3:longitude 4.815131e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSloterparkbadF097D83E0BE545FAgeo ;
-        ns3:lat "52.371698669115"^^xsd:float ;
-        ns3:long "4.81513094515367"^^xsd:float .
+        geo:hasGeometry ns1:spzwSloterparkbad4CFC26CD469B44AEgeo ;
+        ns4:lat "52.371698669115"^^xsd:float ;
+        ns4:long "4.81513094515367"^^xsd:float .
 
-    ns4:spzwSportPlaza_MercatorFC093492C88A4206 a :instantie,
+    ns1:spzwSportPlaza_Mercator324F8F9BAE9B4674 a :instantie,
             :swimmingPool ;
         rdfs:label "SportPlaza Mercator"^^xsd:string ;
-        ns2:latitude 5.237175e+01 ;
-        ns2:longitude 4.846099e+00 ;
+        ns3:latitude 5.237175e+01 ;
+        ns3:longitude 4.846099e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportplazamercator.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportPlaza_MercatorFC093492C88A4206geo ;
-        ns3:lat "52.3717453843494"^^xsd:float ;
-        ns3:long "4.84609931358316"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportPlaza_Mercator324F8F9BAE9B4674geo ;
+        ns4:lat "52.3717453843494"^^xsd:float ;
+        ns4:long "4.84609931358316"^^xsd:float .
 
-    ns4:spzwSportPlaza_de_Sporthoeve4163A5EB55704DFA a :instantie,
+    ns1:spzwSportPlaza_de_SporthoeveB260DE6AA93A4C99 a :instantie,
             :swimmingPool ;
         rdfs:label "SportPlaza de Sporthoeve"^^xsd:string ;
-        ns2:latitude 5.234307e+01 ;
-        ns2:longitude 4.77477e+00 ;
+        ns3:latitude 5.234307e+01 ;
+        ns3:longitude 4.77477e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportplazanet.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportPlaza_de_Sporthoeve4163A5EB55704DFAgeo ;
-        ns3:lat "52.3430666855622"^^xsd:float ;
-        ns3:long "4.77476973506546"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportPlaza_de_SporthoeveB260DE6AA93A4C99geo ;
+        ns4:lat "52.3430666855622"^^xsd:float ;
+        ns4:long "4.77476973506546"^^xsd:float .
 
-    ns4:spzwSportcentrum_CalandB0C67679EDFA4EE2 a :instantie,
+    ns1:spzwSportcentrum_CalandA3DC0F164D2C48C0 a :instantie,
             :sportcentrum ;
         rdfs:label "Sportcentrum Caland"^^xsd:string ;
-        ns2:latitude 5.235444e+01 ;
-        ns2:longitude 4.807133e+00 ;
+        ns3:latitude 5.235444e+01 ;
+        ns3:longitude 4.807133e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportcentrum_CalandB0C67679EDFA4EE2geo ;
-        ns3:lat "52.354439167766"^^xsd:float ;
-        ns3:long "4.80713349431224"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportcentrum_CalandA3DC0F164D2C48C0geo ;
+        ns4:lat "52.354439167766"^^xsd:float ;
+        ns4:long "4.80713349431224"^^xsd:float .
 
-    ns4:spzwSportcentrum_De_PijpE01B24D25D8A475C a :instantie,
+    ns1:spzwSportcentrum_De_PijpE0905B915DB84149 a :instantie,
             :sportcentrum ;
         rdfs:label "Sportcentrum De Pijp"^^xsd:string ;
-        ns2:latitude 5.234975e+01 ;
-        ns2:longitude 4.893715e+00 ;
+        ns3:latitude 5.234975e+01 ;
+        ns3:longitude 4.893715e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportcentrum_De_PijpE01B24D25D8A475Cgeo ;
-        ns3:lat "52.3497537230203"^^xsd:float ;
-        ns3:long "4.89371504249797"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportcentrum_De_PijpE0905B915DB84149geo ;
+        ns4:lat "52.3497537230203"^^xsd:float ;
+        ns4:long "4.89371504249797"^^xsd:float .
 
-    ns4:spzwSportcentrum_OokmeerACD5C9906D8540C8 a :instantie,
+    ns1:spzwSportcentrum_OokmeerE5C19ECE2A614B16 a :instantie,
             :sportcentrum ;
         rdfs:label "Sportcentrum Ookmeer"^^xsd:string ;
-        ns2:latitude 5.236786e+01 ;
-        ns2:longitude 4.803977e+00 ;
+        ns3:latitude 5.236786e+01 ;
+        ns3:longitude 4.803977e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportcentrum_OokmeerACD5C9906D8540C8geo ;
-        ns3:lat "52.3678604002299"^^xsd:float ;
-        ns3:long "4.80397736569512"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportcentrum_OokmeerE5C19ECE2A614B16geo ;
+        ns4:lat "52.3678604002299"^^xsd:float ;
+        ns4:long "4.80397736569512"^^xsd:float .
 
-    ns4:spzwSportcentrum_Reade_Therapiebad2A42B731FCCE41E1 a :instantie,
+    ns1:spzwSportcentrum_Reade_Therapiebad84F8B194581B49AC a :instantie,
             :swimmingPool ;
         rdfs:label "Sportcentrum Reade Therapiebad"^^xsd:string ;
-        ns2:latitude 5.236995e+01 ;
-        ns2:longitude 4.843713e+00 ;
+        ns3:latitude 5.236995e+01 ;
+        ns3:longitude 4.843713e+00 ;
         :providesInformationAbout :movementIssues ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportcentrum_Reade_Therapiebad2A42B731FCCE41E1geo ;
-        ns3:lat "52.3699548817072"^^xsd:float ;
-        ns3:long "4.84371304648247"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportcentrum_Reade_Therapiebad84F8B194581B49ACgeo ;
+        ns4:lat "52.3699548817072"^^xsd:float ;
+        ns4:long "4.84371304648247"^^xsd:float .
 
-    ns4:spzwSportfondsenbad_OostD27C9A73B50C4A6C a :instantie,
+    ns1:spzwSportfondsenbad_OostF549126978D742FF a :instantie,
             :swimmingPool ;
         rdfs:label "Sportfondsenbad Oost"^^xsd:string ;
-        ns2:latitude 5.235664e+01 ;
-        ns2:longitude 4.928487e+00 ;
+        ns3:latitude 5.235664e+01 ;
+        ns3:longitude 4.928487e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.sportfondsenbadamsterdamoost.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSportfondsenbad_OostD27C9A73B50C4A6Cgeo ;
-        ns3:lat "52.3566433667375"^^xsd:float ;
-        ns3:long "4.9284866522976"^^xsd:float .
+        geo:hasGeometry ns1:spzwSportfondsenbad_OostF549126978D742FFgeo ;
+        ns4:lat "52.3566433667375"^^xsd:float ;
+        ns4:long "4.9284866522976"^^xsd:float .
 
-    ns4:spzwSporthal_Aristos1C93348182E44594 a :instantie,
+    ns1:spzwSporthal_Aristos4199131E0B494C55 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Aristos"^^xsd:string ;
-        ns2:latitude 5.238206e+01 ;
-        ns2:longitude 4.784359e+00 ;
+        ns3:latitude 5.238206e+01 ;
+        ns3:longitude 4.784359e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Aristos1C93348182E44594geo ;
-        ns3:lat "52.3820616789518"^^xsd:float ;
-        ns3:long "4.78435881782003"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Aristos4199131E0B494C55geo ;
+        ns4:lat "52.3820616789518"^^xsd:float ;
+        ns4:long "4.78435881782003"^^xsd:float .
 
-    ns4:spzwSporthal_Blauw-WitAFA4CFB371574519 a :instantie,
+    ns1:spzwSporthal_Blauw-WitEE82E2D3DD1F42F1 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Blauw-Wit"^^xsd:string ;
-        ns2:latitude 5.237593e+01 ;
-        ns2:longitude 4.857356e+00 ;
+        ns3:latitude 5.237593e+01 ;
+        ns3:longitude 4.857356e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Blauw-WitAFA4CFB371574519geo ;
-        ns3:lat "52.3759306491138"^^xsd:float ;
-        ns3:long "4.85735613320338"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Blauw-WitEE82E2D3DD1F42F1geo ;
+        ns4:lat "52.3759306491138"^^xsd:float ;
+        ns4:long "4.85735613320338"^^xsd:float .
 
-    ns4:spzwSporthal_Calvijn292A3C6EECA54E8D a :instantie,
+    ns1:spzwSporthal_CalvijnB3AC39E88239413E a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Calvijn"^^xsd:string ;
-        ns2:latitude 5.23561e+01 ;
-        ns2:longitude 4.831522e+00 ;
+        ns3:latitude 5.23561e+01 ;
+        ns3:longitude 4.831522e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Calvijn292A3C6EECA54E8Dgeo ;
-        ns3:lat "52.3560953151682"^^xsd:float ;
-        ns3:long "4.83152227765652"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_CalvijnB3AC39E88239413Egeo ;
+        ns4:lat "52.3560953151682"^^xsd:float ;
+        ns4:long "4.83152227765652"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)ECEC1D1AF9844597> a :instantie,
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)76629BC3C8DD436E> a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Centrum voor Vrijetijd (CVT)"^^xsd:string ;
-        ns2:latitude 5.235682e+01 ;
-        ns2:longitude 4.99617e+00 ;
+        ns3:latitude 5.235682e+01 ;
+        ns3:longitude 4.99617e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)ECEC1D1AF9844597geo> ;
-        ns3:lat "52.3568233685245"^^xsd:float ;
-        ns3:long "4.99617026524992"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)76629BC3C8DD436Egeo> ;
+        ns4:lat "52.3568233685245"^^xsd:float ;
+        ns4:long "4.99617026524992"^^xsd:float .
 
-    ns4:spzwSporthal_De_WeerenC4F09AE6CC79477A a :instantie,
+    ns1:spzwSporthal_De_Weeren552A4CC478EC4696 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal De Weeren"^^xsd:string ;
-        ns2:latitude 5.240119e+01 ;
-        ns2:longitude 4.959338e+00 ;
+        ns3:latitude 5.240119e+01 ;
+        ns3:longitude 4.959338e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_De_WeerenC4F09AE6CC79477Ageo ;
-        ns3:lat "52.401193887907"^^xsd:float ;
-        ns3:long "4.9593382100179"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_De_Weeren552A4CC478EC4696geo ;
+        ns4:lat "52.401193887907"^^xsd:float ;
+        ns4:long "4.9593382100179"^^xsd:float .
 
-    ns4:spzwSporthal_Elzenhagen1806EE0198BD4B27 a :instantie,
+    ns1:spzwSporthal_Elzenhagen5E9590AF518C47DF a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Elzenhagen"^^xsd:string ;
-        ns2:latitude 5.240132e+01 ;
-        ns2:longitude 4.925659e+00 ;
+        ns3:latitude 5.240132e+01 ;
+        ns3:longitude 4.925659e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Elzenhagen1806EE0198BD4B27geo ;
-        ns3:lat "52.4013191119118"^^xsd:float ;
-        ns3:long "4.92565860990528"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Elzenhagen5E9590AF518C47DFgeo ;
+        ns4:lat "52.4013191119118"^^xsd:float ;
+        ns4:long "4.92565860990528"^^xsd:float .
 
-    ns4:spzwSporthal_Gaasperdam3F2030A7851D4D0B a :instantie,
+    ns1:spzwSporthal_Gaasperdam497ACB0C540741D3 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Gaasperdam"^^xsd:string ;
-        ns2:latitude 5.229677e+01 ;
-        ns2:longitude 4.978257e+00 ;
+        ns3:latitude 5.229677e+01 ;
+        ns3:longitude 4.978257e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Gaasperdam3F2030A7851D4D0Bgeo ;
-        ns3:lat "52.2967696"^^xsd:float ;
-        ns3:long "4.9782571"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Gaasperdam497ACB0C540741D3geo ;
+        ns4:lat "52.2967696"^^xsd:float ;
+        ns4:long "4.9782571"^^xsd:float .
 
-    ns4:spzwSporthal_IJburgEE43DDA311B74BAE a :instantie,
+    ns1:spzwSporthal_IJburg35CC4B8718A247F9 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal IJburg"^^xsd:string ;
-        ns2:latitude 5.23513e+01 ;
-        ns2:longitude 5.004335e+00 ;
+        ns3:latitude 5.23513e+01 ;
+        ns3:longitude 5.004335e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_IJburgEE43DDA311B74BAEgeo ;
-        ns3:lat "52.3512956678387"^^xsd:float ;
-        ns3:long "5.00433549265829"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_IJburg35CC4B8718A247F9geo ;
+        ns4:lat "52.3512956678387"^^xsd:float ;
+        ns4:long "5.00433549265829"^^xsd:float .
 
-    ns4:spzwSporthal_Laan_van_Spartaan339A73BD8A7D43F0 a :instantie,
+    ns1:spzwSporthal_Laan_van_SpartaanD721333212EC41C3 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Laan van Spartaan"^^xsd:string ;
-        ns2:latitude 5.237335e+01 ;
-        ns2:longitude 4.839175e+00 ;
+        ns3:latitude 5.237335e+01 ;
+        ns3:longitude 4.839175e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Laan_van_Spartaan339A73BD8A7D43F0geo ;
-        ns3:lat "52.3733534927739"^^xsd:float ;
-        ns3:long "4.83917466277764"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Laan_van_SpartaanD721333212EC41C3geo ;
+        ns4:lat "52.3733534927739"^^xsd:float ;
+        ns4:long "4.83917466277764"^^xsd:float .
 
-    ns4:spzwSporthal_OostenburgDE13FF9CDCB74F9C a :instantie,
+    ns1:spzwSporthal_OostenburgD4C8CA88CFBE4A25 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Oostenburg"^^xsd:string ;
-        ns2:latitude 5.236809e+01 ;
-        ns2:longitude 4.925211e+00 ;
+        ns3:latitude 5.236809e+01 ;
+        ns3:longitude 4.925211e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_OostenburgDE13FF9CDCB74F9Cgeo ;
-        ns3:lat "52.3680899592476"^^xsd:float ;
-        ns3:long "4.92521147894618"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_OostenburgD4C8CA88CFBE4A25geo ;
+        ns4:lat "52.3680899592476"^^xsd:float ;
+        ns4:long "4.92521147894618"^^xsd:float .
 
-    ns4:spzwSporthal_ROC_Europaboulevard9F43C502783B47A2 a :instantie,
+    ns1:spzwSporthal_ROC_Europaboulevard1F5466FF444F4E0D a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal ROC Europaboulevard"^^xsd:string ;
-        ns2:latitude 5.23396e+01 ;
-        ns2:longitude 4.892803e+00 ;
+        ns3:latitude 5.23396e+01 ;
+        ns3:longitude 4.892803e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_ROC_Europaboulevard9F43C502783B47A2geo ;
-        ns3:lat "52.3395968401921"^^xsd:float ;
-        ns3:long "4.89280289023346"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_ROC_Europaboulevard1F5466FF444F4E0Dgeo ;
+        ns4:lat "52.3395968401921"^^xsd:float ;
+        ns4:long "4.89280289023346"^^xsd:float .
 
-    ns4:spzwSporthal_Wethouder_Verheij60B5003D20DB4A9C a :instantie,
+    ns1:spzwSporthal_Wethouder_Verheij2F8696A516184F6A a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Wethouder Verheij"^^xsd:string ;
-        ns2:latitude 5.235789e+01 ;
-        ns2:longitude 4.931351e+00 ;
+        ns3:latitude 5.235789e+01 ;
+        ns3:longitude 4.931351e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Wethouder_Verheij60B5003D20DB4A9Cgeo ;
-        ns3:lat "52.3578857482758"^^xsd:float ;
-        ns3:long "4.93135099412906"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Wethouder_Verheij2F8696A516184F6Ageo ;
+        ns4:lat "52.3578857482758"^^xsd:float ;
+        ns4:long "4.93135099412906"^^xsd:float .
 
-    ns4:spzwSporthal_Zeeburg6E0C147A14B74282 a :instantie,
+    ns1:spzwSporthal_Zeeburg62CC6FDAC9C84AD4 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthal Zeeburg"^^xsd:string ;
-        ns2:latitude 5.236594e+01 ;
-        ns2:longitude 4.951309e+00 ;
+        ns3:latitude 5.236594e+01 ;
+        ns3:longitude 4.951309e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthal_Zeeburg6E0C147A14B74282geo ;
-        ns3:lat "52.3659419927137"^^xsd:float ;
-        ns3:long "4.95130937880119"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthal_Zeeburg62CC6FDAC9C84AD4geo ;
+        ns4:lat "52.3659419927137"^^xsd:float ;
+        ns4:long "4.95130937880119"^^xsd:float .
 
-    ns4:spzwSporthallen_ZuidECCD34F7AA2A4736 a :instantie,
+    ns1:spzwSporthallen_ZuidAA017EBF2A604558 a :instantie,
             :sportcentrum ;
         rdfs:label "Sporthallen Zuid"^^xsd:string ;
-        ns2:latitude 5.233998e+01 ;
-        ns2:longitude 4.854107e+00 ;
+        ns3:latitude 5.233998e+01 ;
+        ns3:longitude 4.854107e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSporthallen_ZuidECCD34F7AA2A4736geo ;
-        ns3:lat "52.3399792559976"^^xsd:float ;
-        ns3:long "4.85410701330591"^^xsd:float .
+        geo:hasGeometry ns1:spzwSporthallen_ZuidAA017EBF2A604558geo ;
+        ns4:lat "52.3399792559976"^^xsd:float ;
+        ns4:long "4.85410701330591"^^xsd:float .
 
-    ns4:spzwSwimgym904BD881F4364A09 a :instantie,
+    ns1:spzwSwimgymDF28D16E708447B6 a :instantie,
             :swimmingPool ;
         rdfs:label "Swimgym"^^xsd:string ;
-        ns2:latitude 5.235432e+01 ;
-        ns2:longitude 4.912729e+00 ;
+        ns3:latitude 5.235432e+01 ;
+        ns3:longitude 4.912729e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.swimgym.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwSwimgym904BD881F4364A09geo ;
-        ns3:lat "52.3543183260272"^^xsd:float ;
-        ns3:long "4.91272884235693"^^xsd:float .
+        geo:hasGeometry ns1:spzwSwimgymDF28D16E708447B6geo ;
+        ns4:lat "52.3543183260272"^^xsd:float ;
+        ns4:long "4.91272884235693"^^xsd:float .
 
-    ns4:spzwTennishal_StrandvlietDCF30B0F99C74D36 a :instantie,
+    ns1:spzwTennishal_Strandvliet0FD5DFA48F604A94 a :instantie,
             :tennisHall ;
         rdfs:label "Tennishal Strandvliet"^^xsd:string ;
-        ns2:latitude 5.231615e+01 ;
-        ns2:longitude 4.937356e+00 ;
+        ns3:latitude 5.231615e+01 ;
+        ns3:longitude 4.937356e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.tennishalstrandvliet.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwTennishal_StrandvlietDCF30B0F99C74D36geo ;
-        ns3:lat "52.3161516"^^xsd:float ;
-        ns3:long "4.9373557"^^xsd:float .
+        geo:hasGeometry ns1:spzwTennishal_Strandvliet0FD5DFA48F604A94geo ;
+        ns4:lat "52.3161516"^^xsd:float ;
+        ns4:long "4.9373557"^^xsd:float .
 
-    ns4:spzwUniversum8CA122AB293448CF a :instantie,
+    ns1:spzwUniversum32118351D1374195 a :instantie,
             :sportcentrum ;
         rdfs:label "Universum"^^xsd:string ;
-        ns2:latitude 5.235565e+01 ;
-        ns2:longitude 4.9563e+00 ;
+        ns3:latitude 5.235565e+01 ;
+        ns3:longitude 4.9563e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.usc.uva.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwUniversum8CA122AB293448CFgeo ;
-        ns3:lat "52.3556496837939"^^xsd:float ;
-        ns3:long "4.95629977047616"^^xsd:float .
+        geo:hasGeometry ns1:spzwUniversum32118351D1374195geo ;
+        ns4:lat "52.3556496837939"^^xsd:float ;
+        ns4:long "4.95629977047616"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)05001DBBB3F74229> a :instantie,
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)C1613E4FBB8C43D5> a :instantie,
             :sportcentrum ;
         rdfs:label "Velodrome (sporthal en wielerbaan)"^^xsd:string ;
-        ns2:latitude 5.234195e+01 ;
-        ns2:longitude 4.821956e+00 ;
+        ns3:latitude 5.234195e+01 ;
+        ns3:longitude 4.821956e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)05001DBBB3F74229geo> ;
-        ns3:lat "52.341945940292"^^xsd:float ;
-        ns3:long "4.82195642141917"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)C1613E4FBB8C43D5geo> ;
+        ns4:lat "52.341945940292"^^xsd:float ;
+        ns4:long "4.82195642141917"^^xsd:float .
 
-    ns4:spzwVictoriabad_WeespFC4B3DB37EC8489D a :instantie,
+    ns1:spzwVictoriabad_Weesp0EE37A3FECF94EA3 a :instantie,
             :swimmingPool ;
         rdfs:label "Victoriabad Weesp"^^xsd:string ;
-        ns2:latitude 5.22984e+01 ;
-        ns2:longitude 5.027111e+00 ;
+        ns3:latitude 5.22984e+01 ;
+        ns3:longitude 5.027111e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.zwembadweesp.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwVictoriabad_WeespFC4B3DB37EC8489Dgeo ;
-        ns3:lat "52.2983961978405"^^xsd:float ;
-        ns3:long "5.02711096870757"^^xsd:float .
+        geo:hasGeometry ns1:spzwVictoriabad_Weesp0EE37A3FECF94EA3geo ;
+        ns4:lat "52.2983961978405"^^xsd:float ;
+        ns4:long "5.02711096870757"^^xsd:float .
 
-    ns4:spzwZuiderbadA574B0FA798B456C a :instantie,
+    ns1:spzwZuiderbad1290B3368F2B4919 a :instantie,
             :swimmingPool ;
         rdfs:label "Zuiderbad"^^xsd:string ;
-        ns2:latitude 5.235867e+01 ;
-        ns2:longitude 4.886026e+00 ;
+        ns3:latitude 5.235867e+01 ;
+        ns3:longitude 4.886026e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
-        geo:hasGeometry ns4:spzwZuiderbadA574B0FA798B456Cgeo ;
-        ns3:lat "52.3586732124068"^^xsd:float ;
-        ns3:long "4.88602639199345"^^xsd:float .
+        geo:hasGeometry ns1:spzwZuiderbad1290B3368F2B4919geo ;
+        ns4:lat "52.3586732124068"^^xsd:float ;
+        ns4:long "4.88602639199345"^^xsd:float .
 
-    ns4:spzwZwembad_De_MeerkampE016E66A1C724755 a :instantie,
+    ns1:spzwZwembad_De_Meerkamp84B4482C6AA14691 a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad De Meerkamp"^^xsd:string ;
-        ns2:latitude 5.228843e+01 ;
-        ns2:longitude 4.852625e+00 ;
+        ns3:latitude 5.228843e+01 ;
+        ns3:longitude 4.852625e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.meerkamp.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwZwembad_De_MeerkampE016E66A1C724755geo ;
-        ns3:lat "52.2884276827045"^^xsd:float ;
-        ns3:long "4.85262528716609"^^xsd:float .
+        geo:hasGeometry ns1:spzwZwembad_De_Meerkamp84B4482C6AA14691geo ;
+        ns4:lat "52.2884276827045"^^xsd:float ;
+        ns4:long "4.85262528716609"^^xsd:float .
 
-    ns4:spzwZwembad_De_Werf4267D008C62941DA a :instantie,
+    ns1:spzwZwembad_De_Werf58122A2E2EF14FEE a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad De Werf"^^xsd:string ;
-        ns2:latitude 5.240708e+01 ;
-        ns2:longitude 4.895428e+00 ;
+        ns3:latitude 5.240708e+01 ;
+        ns3:longitude 4.895428e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "https://www.oerbron.nl/zwemmen/de-zwembaden/de-werf"^^xsd:string ;
-        geo:hasGeometry ns4:spzwZwembad_De_Werf4267D008C62941DAgeo ;
-        ns3:lat "52.4070753949463"^^xsd:float ;
-        ns3:long "4.89542812435133"^^xsd:float .
+        geo:hasGeometry ns1:spzwZwembad_De_Werf58122A2E2EF14FEEgeo ;
+        ns4:lat "52.4070753949463"^^xsd:float ;
+        ns4:long "4.89542812435133"^^xsd:float .
 
-    ns4:spzwZwembad_Drostenburg5371D1B7289C4116 a :instantie,
+    ns1:spzwZwembad_DrostenburgB89F2D423CCC43D9 a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad Drostenburg"^^xsd:string ;
-        ns2:latitude 5.232225e+01 ;
-        ns2:longitude 4.946877e+00 ;
+        ns3:latitude 5.232225e+01 ;
+        ns3:longitude 4.946877e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.orion.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwZwembad_Drostenburg5371D1B7289C4116geo ;
-        ns3:lat "52.3222548"^^xsd:float ;
-        ns3:long "4.9468771"^^xsd:float .
+        geo:hasGeometry ns1:spzwZwembad_DrostenburgB89F2D423CCC43D9geo ;
+        ns4:lat "52.3222548"^^xsd:float ;
+        ns4:long "4.9468771"^^xsd:float .
 
-    ns4:spzwZwembad_IJburg4FAFD91FFB674CBA a :instantie,
+    ns1:spzwZwembad_IJburg55E985E80758469F a :instantie,
             :swimmingPool ;
         rdfs:label "Zwembad IJburg"^^xsd:string ;
-        ns2:latitude 5.234844e+01 ;
-        ns2:longitude 5.009159e+00 ;
+        ns3:latitude 5.234844e+01 ;
+        ns3:longitude 5.009159e+00 ;
         :providesInformationAbout :movementIssues ;
         :website "http://www.zwembad-ijburg.nl"^^xsd:string ;
-        geo:hasGeometry ns4:spzwZwembad_IJburg4FAFD91FFB674CBAgeo ;
-        ns3:lat "52.3484351105465"^^xsd:float ;
-        ns3:long "5.00915932078483"^^xsd:float .
+        geo:hasGeometry ns1:spzwZwembad_IJburg55E985E80758469Fgeo ;
+        ns4:lat "52.3484351105465"^^xsd:float ;
+        ns4:long "5.00915932078483"^^xsd:float .
 
     : a owl:Ontology .
 
@@ -728,160 +728,160 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    ns4:spzwAGO_Zwembad_Diemen29C8214ECBB84B8Ageo a geo:Geometry ;
+    ns1:spzwAGO_Zwembad_Diemen023600FA6E254786geo a geo:Geometry ;
         geo:asWKT "POINT(4.97502660871402 52.3365841259384)"^^geo:wktLiteral .
 
-    ns4:spzwAmstelbad1125C3540A984883geo a geo:Geometry ;
+    ns1:spzwAmstelbadC3A9F24476074B4Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9208204994718 52.3025599847525)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland913DD2F2E59045E6geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwAmstelborgh/Borchland9AA0E905A1C34195geo> a geo:Geometry ;
         geo:asWKT "POINT(4.92762633362491 52.315827562928)"^^geo:wktLiteral .
 
-    ns4:spzwAmstelcampusC35E2A183E584E8Ageo a geo:Geometry ;
+    ns1:spzwAmstelcampusE1269266DBED4977geo a geo:Geometry ;
         geo:asWKT "POINT(4.91002037991248 52.3586335289101)"^^geo:wktLiteral .
 
-    ns4:spzwApollohal8A2DA3FEE934486Dgeo a geo:Geometry ;
+    ns1:spzwApollohal380D74ADEBD54F82geo a geo:Geometry ;
         geo:asWKT "POINT(4.88444366331479 52.3480699452413)"^^geo:wktLiteral .
 
-    ns4:spzwBijlmer_Sportcentrum04FD16BA48164706geo a geo:Geometry ;
+    ns1:spzwBijlmer_SportcentrumB35B07B96B384F91geo a geo:Geometry ;
         geo:asWKT "POINT(4.958035 52.3154432)"^^geo:wktLiteral .
 
-    ns4:spzwBijlmer_SportcentrumAE61B22C2DFB4FC6geo a geo:Geometry ;
+    ns1:spzwBijlmer_SportcentrumCCB080F781954895geo a geo:Geometry ;
         geo:asWKT "POINT(4.958035 52.3154432)"^^geo:wktLiteral .
 
-    ns4:spzwBlaashal_Gustav_Mahler7AFB5A1298BF484Egeo a geo:Geometry ;
+    ns1:spzwBlaashal_Gustav_MahlerA7EDFFD7FFF04C40geo a geo:Geometry ;
         geo:asWKT "POINT(4.86782993152642 52.3368696481677)"^^geo:wktLiteral .
 
-    ns4:spzwBredius5D7216AC13D2442Cgeo a geo:Geometry ;
+    ns1:spzwBredius0F95B02361834354geo a geo:Geometry ;
         geo:asWKT "POINT(4.8683383115497 52.3924717160644)"^^geo:wktLiteral .
 
-    ns4:spzwDavid_Lloyd57348764FF9246B4geo a geo:Geometry ;
+    ns1:spzwDavid_LloydDB82FF3018B547A2geo a geo:Geometry ;
         geo:asWKT "POINT(4.85593072171155 52.3576162311994)"^^geo:wktLiteral .
 
-    ns4:spzwDe_BreekDEB13443795845E1geo a geo:Geometry ;
+    ns1:spzwDe_BreekE6C568148AFA4A25geo a geo:Geometry ;
         geo:asWKT "POINT(4.90842546038853 52.4309747956077)"^^geo:wktLiteral .
 
-    ns4:spzwDe_Mirandabad64693C6531644975geo a geo:Geometry ;
+    ns1:spzwDe_MirandabadBFB109EFAEE74C3Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90227461562702 52.3387341626056)"^^geo:wktLiteral .
 
-    ns4:spzwFlevoparkbadBDBD0A6FD8F04A8Egeo a geo:Geometry ;
+    ns1:spzwFlevoparkbad5E62C8EFA0654D51geo a geo:Geometry ;
         geo:asWKT "POINT(4.95185027116138 52.3649303332444)"^^geo:wktLiteral .
 
-    ns4:spzwFrans_Otten_stadionB08A29E34DC3430Egeo a geo:Geometry ;
+    ns1:spzwFrans_Otten_stadionF228A96D86A44F3Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85059092919467 52.3391132721118)"^^geo:wktLiteral .
 
-    ns4:spzwFriendship_Sports_Centre05E51EE8B17C42B4geo a geo:Geometry ;
+    ns1:spzwFriendship_Sports_CentreD48BC2AB3717418Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9598468818715 52.4002520238461)"^^geo:wktLiteral .
 
-    ns4:spzwFriendship_Sports_CentreE42D96DA79D24881geo a geo:Geometry ;
+    ns1:spzwFriendship_Sports_CentreD5F30481B62447C9geo a geo:Geometry ;
         geo:asWKT "POINT(4.9598468818715 52.4002520238461)"^^geo:wktLiteral .
 
-    ns4:spzwHet_Marnix43F977EC96594BA5geo a geo:Geometry ;
+    ns1:spzwHet_Marnix641E9AB312314C18geo a geo:Geometry ;
         geo:asWKT "POINT(4.87847967626351 52.3779915943609)"^^geo:wktLiteral .
 
-    ns4:spzwHogendorp_Sportcentrum5104003902DC406Egeo a geo:Geometry ;
+    ns1:spzwHogendorp_SportcentrumE2F3D4FD393246B4geo a geo:Geometry ;
         geo:asWKT "POINT(4.86758372663217 52.3816472196877)"^^geo:wktLiteral .
 
-    ns4:spzwMatchZO653BA5A45D9B4CFEgeo a geo:Geometry ;
+    ns1:spzwMatchZOC400C2B8BD854FA8geo a geo:Geometry ;
         geo:asWKT "POINT(5.01467667406912 52.3088144095678)"^^geo:wktLiteral .
 
-    ns4:spzwNoorderparkbad6EEA3967EF2D4F62geo a geo:Geometry ;
+    ns1:spzwNoorderparkbadC1FA97C924B14874geo a geo:Geometry ;
         geo:asWKT "POINT(4.91872829769865 52.3982696418449)"^^geo:wktLiteral .
 
-    ns4:spzwSloterparkbadF097D83E0BE545FAgeo a geo:Geometry ;
+    ns1:spzwSloterparkbad4CFC26CD469B44AEgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81513094515367 52.371698669115)"^^geo:wktLiteral .
 
-    ns4:spzwSportPlaza_MercatorFC093492C88A4206geo a geo:Geometry ;
+    ns1:spzwSportPlaza_Mercator324F8F9BAE9B4674geo a geo:Geometry ;
         geo:asWKT "POINT(4.84609931358316 52.3717453843494)"^^geo:wktLiteral .
 
-    ns4:spzwSportPlaza_de_Sporthoeve4163A5EB55704DFAgeo a geo:Geometry ;
+    ns1:spzwSportPlaza_de_SporthoeveB260DE6AA93A4C99geo a geo:Geometry ;
         geo:asWKT "POINT(4.77476973506546 52.3430666855622)"^^geo:wktLiteral .
 
-    ns4:spzwSportcentrum_CalandB0C67679EDFA4EE2geo a geo:Geometry ;
+    ns1:spzwSportcentrum_CalandA3DC0F164D2C48C0geo a geo:Geometry ;
         geo:asWKT "POINT(4.80713349431224 52.354439167766)"^^geo:wktLiteral .
 
-    ns4:spzwSportcentrum_De_PijpE01B24D25D8A475Cgeo a geo:Geometry ;
+    ns1:spzwSportcentrum_De_PijpE0905B915DB84149geo a geo:Geometry ;
         geo:asWKT "POINT(4.89371504249797 52.3497537230203)"^^geo:wktLiteral .
 
-    ns4:spzwSportcentrum_OokmeerACD5C9906D8540C8geo a geo:Geometry ;
+    ns1:spzwSportcentrum_OokmeerE5C19ECE2A614B16geo a geo:Geometry ;
         geo:asWKT "POINT(4.80397736569512 52.3678604002299)"^^geo:wktLiteral .
 
-    ns4:spzwSportcentrum_Reade_Therapiebad2A42B731FCCE41E1geo a geo:Geometry ;
+    ns1:spzwSportcentrum_Reade_Therapiebad84F8B194581B49ACgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84371304648247 52.3699548817072)"^^geo:wktLiteral .
 
-    ns4:spzwSportfondsenbad_OostD27C9A73B50C4A6Cgeo a geo:Geometry ;
+    ns1:spzwSportfondsenbad_OostF549126978D742FFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9284866522976 52.3566433667375)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Aristos1C93348182E44594geo a geo:Geometry ;
+    ns1:spzwSporthal_Aristos4199131E0B494C55geo a geo:Geometry ;
         geo:asWKT "POINT(4.78435881782003 52.3820616789518)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Blauw-WitAFA4CFB371574519geo a geo:Geometry ;
+    ns1:spzwSporthal_Blauw-WitEE82E2D3DD1F42F1geo a geo:Geometry ;
         geo:asWKT "POINT(4.85735613320338 52.3759306491138)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Calvijn292A3C6EECA54E8Dgeo a geo:Geometry ;
+    ns1:spzwSporthal_CalvijnB3AC39E88239413Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.83152227765652 52.3560953151682)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)ECEC1D1AF9844597geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwSporthal_Centrum_voor_Vrijetijd_(CVT)76629BC3C8DD436Egeo> a geo:Geometry ;
         geo:asWKT "POINT(4.99617026524992 52.3568233685245)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_De_WeerenC4F09AE6CC79477Ageo a geo:Geometry ;
+    ns1:spzwSporthal_De_Weeren552A4CC478EC4696geo a geo:Geometry ;
         geo:asWKT "POINT(4.9593382100179 52.401193887907)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Elzenhagen1806EE0198BD4B27geo a geo:Geometry ;
+    ns1:spzwSporthal_Elzenhagen5E9590AF518C47DFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92565860990528 52.4013191119118)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Gaasperdam3F2030A7851D4D0Bgeo a geo:Geometry ;
+    ns1:spzwSporthal_Gaasperdam497ACB0C540741D3geo a geo:Geometry ;
         geo:asWKT "POINT(4.9782571 52.2967696)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_IJburgEE43DDA311B74BAEgeo a geo:Geometry ;
+    ns1:spzwSporthal_IJburg35CC4B8718A247F9geo a geo:Geometry ;
         geo:asWKT "POINT(5.00433549265829 52.3512956678387)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Laan_van_Spartaan339A73BD8A7D43F0geo a geo:Geometry ;
+    ns1:spzwSporthal_Laan_van_SpartaanD721333212EC41C3geo a geo:Geometry ;
         geo:asWKT "POINT(4.83917466277764 52.3733534927739)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_OostenburgDE13FF9CDCB74F9Cgeo a geo:Geometry ;
+    ns1:spzwSporthal_OostenburgD4C8CA88CFBE4A25geo a geo:Geometry ;
         geo:asWKT "POINT(4.92521147894618 52.3680899592476)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_ROC_Europaboulevard9F43C502783B47A2geo a geo:Geometry ;
+    ns1:spzwSporthal_ROC_Europaboulevard1F5466FF444F4E0Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89280289023346 52.3395968401921)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Wethouder_Verheij60B5003D20DB4A9Cgeo a geo:Geometry ;
+    ns1:spzwSporthal_Wethouder_Verheij2F8696A516184F6Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.93135099412906 52.3578857482758)"^^geo:wktLiteral .
 
-    ns4:spzwSporthal_Zeeburg6E0C147A14B74282geo a geo:Geometry ;
+    ns1:spzwSporthal_Zeeburg62CC6FDAC9C84AD4geo a geo:Geometry ;
         geo:asWKT "POINT(4.95130937880119 52.3659419927137)"^^geo:wktLiteral .
 
-    ns4:spzwSporthallen_ZuidECCD34F7AA2A4736geo a geo:Geometry ;
+    ns1:spzwSporthallen_ZuidAA017EBF2A604558geo a geo:Geometry ;
         geo:asWKT "POINT(4.85410701330591 52.3399792559976)"^^geo:wktLiteral .
 
-    ns4:spzwSwimgym904BD881F4364A09geo a geo:Geometry ;
+    ns1:spzwSwimgymDF28D16E708447B6geo a geo:Geometry ;
         geo:asWKT "POINT(4.91272884235693 52.3543183260272)"^^geo:wktLiteral .
 
-    ns4:spzwTennishal_StrandvlietDCF30B0F99C74D36geo a geo:Geometry ;
+    ns1:spzwTennishal_Strandvliet0FD5DFA48F604A94geo a geo:Geometry ;
         geo:asWKT "POINT(4.9373557 52.3161516)"^^geo:wktLiteral .
 
-    ns4:spzwUniversum8CA122AB293448CFgeo a geo:Geometry ;
+    ns1:spzwUniversum32118351D1374195geo a geo:Geometry ;
         geo:asWKT "POINT(4.95629977047616 52.3556496837939)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)05001DBBB3F74229geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/spzwVelodrome_(sporthal_en_wielerbaan)C1613E4FBB8C43D5geo> a geo:Geometry ;
         geo:asWKT "POINT(4.82195642141917 52.341945940292)"^^geo:wktLiteral .
 
-    ns4:spzwVictoriabad_WeespFC4B3DB37EC8489Dgeo a geo:Geometry ;
+    ns1:spzwVictoriabad_Weesp0EE37A3FECF94EA3geo a geo:Geometry ;
         geo:asWKT "POINT(5.02711096870757 52.2983961978405)"^^geo:wktLiteral .
 
-    ns4:spzwZuiderbadA574B0FA798B456Cgeo a geo:Geometry ;
+    ns1:spzwZuiderbad1290B3368F2B4919geo a geo:Geometry ;
         geo:asWKT "POINT(4.88602639199345 52.3586732124068)"^^geo:wktLiteral .
 
-    ns4:spzwZwembad_De_MeerkampE016E66A1C724755geo a geo:Geometry ;
+    ns1:spzwZwembad_De_Meerkamp84B4482C6AA14691geo a geo:Geometry ;
         geo:asWKT "POINT(4.85262528716609 52.2884276827045)"^^geo:wktLiteral .
 
-    ns4:spzwZwembad_De_Werf4267D008C62941DAgeo a geo:Geometry ;
+    ns1:spzwZwembad_De_Werf58122A2E2EF14FEEgeo a geo:Geometry ;
         geo:asWKT "POINT(4.89542812435133 52.4070753949463)"^^geo:wktLiteral .
 
-    ns4:spzwZwembad_Drostenburg5371D1B7289C4116geo a geo:Geometry ;
+    ns1:spzwZwembad_DrostenburgB89F2D423CCC43D9geo a geo:Geometry ;
         geo:asWKT "POINT(4.9468771 52.3222548)"^^geo:wktLiteral .
 
-    ns4:spzwZwembad_IJburg4FAFD91FFB674CBAgeo a geo:Geometry ;
+    ns1:spzwZwembad_IJburg55E985E80758469Fgeo a geo:Geometry ;
         geo:asWKT "POINT(5.00915932078483 52.3484351105465)"^^geo:wktLiteral .
 
     :addictsPrevention a :knowledgeDomain,

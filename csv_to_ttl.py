@@ -136,10 +136,10 @@ for i in range(len(filenames)):
             else:
                 dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['adults']))                
         if short[i] == "dakth":
-            substrdb = ["50", "work","Juttersdok", "HVO-Querido"]
-            substrbw = ["huis", "begeleid", "wonen","discus", "Woon", "HVO-Querido"]
-            substrih = ["jurist", "belangen", "Meldpunt", "HVO-Querido", "Stichting"]
-            substrvl = ["ettafel", "Heils"]
+            substrdb = ["50", "Inloophuis", "work","Juttersdok", "HVO-Querido"]
+            substrbw = ["doorstroomhuis", "begeleid", "wonen","discus", "Woon", "HVO-Querido"]
+            substrih = ["jurist", "Bosco", "elangen", "Meldpunt", "HVO-Querido", "Stichting"]
+            substrvl = ["ettafel", "Heils", "Inloophuis"]
             for esubstrdb in substrdb:
                 if esubstrdb in row['titel']:
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['dayActivity']))

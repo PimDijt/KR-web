@@ -4,10 +4,10 @@
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix geof: <http://www.opengis.net/def/function/geosparql/> .
-@prefix ns1: <urn:x-rdflib:> .
-@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix ns3: <http://dbpedia.org/property/> .
-@prefix ns4: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns1: <http://few.vu.nl/~mvr320/KRweb/resource/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix ns3: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns4: <http://dbpedia.org/property/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,775 +15,775 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns4:opvoBuro_Bloei140DD019F2D6407B a :childDevelopmentCenter,
+    ns1:opvoBuro_Bloei7DEE864418904B6C a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Buro Bloei"^^xsd:string ;
-        ns3:latitude 5.236134e+01 ;
-        ns3:longitude 4.876513e+00 ;
+        ns4:latitude 5.236134e+01 ;
+        ns4:longitude 4.876513e+00 ;
         :website "http://www.buro-bloei.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoBuro_Bloei140DD019F2D6407Bgeo ;
-        ns2:lat "52.361337862629"^^xsd:float ;
-        ns2:long "4.8765126304017"^^xsd:float .
+        geo:hasGeometry ns1:opvoBuro_Bloei7DEE864418904B6Cgeo ;
+        ns3:lat "52.361337862629"^^xsd:float ;
+        ns3:long "4.8765126304017"^^xsd:float .
 
-    ns4:opvoCentrum_Vrouw_en_Vaart7E0B5D6E3DE54112 a :childDevelopmentCenter,
+    ns1:opvoCentrum_Vrouw_en_Vaart33DB6E74571C4DA6 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Centrum Vrouw en Vaart"^^xsd:string ;
-        ns3:latitude 5.236568e+01 ;
-        ns3:longitude 4.805327e+00 ;
+        ns4:latitude 5.236568e+01 ;
+        ns4:longitude 4.805327e+00 ;
         :website "http://www.vrouwenvaart.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:opvoCentrum_Vrouw_en_Vaart7E0B5D6E3DE54112geo ;
-        ns2:lat "52.3656830141971"^^xsd:float ;
-        ns2:long "4.80532745726713"^^xsd:float .
+        geo:hasGeometry ns1:opvoCentrum_Vrouw_en_Vaart33DB6E74571C4DA6geo ;
+        ns3:lat "52.3656830141971"^^xsd:float ;
+        ns3:long "4.80532745726713"^^xsd:float .
 
-    ns4:opvoDe_Opvoedpoli1B6B44D860E84FF0 a :childDevelopmentCenter,
+    ns1:opvoDe_Opvoedpoli0F7EB860E2204313 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
-        ns3:latitude 5.235757e+01 ;
-        ns3:longitude 4.85006e+00 ;
+        ns4:latitude 5.236338e+01 ;
+        ns4:longitude 4.930135e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoDe_Opvoedpoli1B6B44D860E84FF0geo ;
-        ns2:lat "52.3575717600906"^^xsd:float ;
-        ns2:long "4.85005952852072"^^xsd:float .
+        geo:hasGeometry ns1:opvoDe_Opvoedpoli0F7EB860E2204313geo ;
+        ns3:lat "52.3633815376159"^^xsd:float ;
+        ns3:long "4.93013477444236"^^xsd:float .
 
-    ns4:opvoDe_Opvoedpoli52E16FC466D44F79 a :childDevelopmentCenter,
+    ns1:opvoDe_Opvoedpoli6D9921F8A68F4332 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
-        ns3:latitude 5.238588e+01 ;
-        ns3:longitude 4.882296e+00 ;
+        ns4:latitude 5.232165e+01 ;
+        ns4:longitude 4.969712e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoDe_Opvoedpoli52E16FC466D44F79geo ;
-        ns2:lat "52.3858811544946"^^xsd:float ;
-        ns2:long "4.88229645224543"^^xsd:float .
+        geo:hasGeometry ns1:opvoDe_Opvoedpoli6D9921F8A68F4332geo ;
+        ns3:lat "52.3216539197909"^^xsd:float ;
+        ns3:long "4.96971175371461"^^xsd:float .
 
-    ns4:opvoDe_Opvoedpoli91E3A881B4914DF5 a :childDevelopmentCenter,
+    ns1:opvoDe_OpvoedpoliA9A09DDDB6C444D1 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
-        ns3:latitude 5.232165e+01 ;
-        ns3:longitude 4.969712e+00 ;
+        ns4:latitude 5.23987e+01 ;
+        ns4:longitude 4.935604e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoDe_Opvoedpoli91E3A881B4914DF5geo ;
-        ns2:lat "52.3216539197909"^^xsd:float ;
-        ns2:long "4.96971175371461"^^xsd:float .
+        geo:hasGeometry ns1:opvoDe_OpvoedpoliA9A09DDDB6C444D1geo ;
+        ns3:lat "52.3986971027549"^^xsd:float ;
+        ns3:long "4.93560377481371"^^xsd:float .
 
-    ns4:opvoDe_OpvoedpoliCF26A0E5FFB443B2 a :childDevelopmentCenter,
+    ns1:opvoDe_OpvoedpoliC2B270A407154710 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
-        ns3:latitude 5.236338e+01 ;
-        ns3:longitude 4.930135e+00 ;
+        ns4:latitude 5.235757e+01 ;
+        ns4:longitude 4.85006e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoDe_OpvoedpoliCF26A0E5FFB443B2geo ;
-        ns2:lat "52.3633815376159"^^xsd:float ;
-        ns2:long "4.93013477444236"^^xsd:float .
+        geo:hasGeometry ns1:opvoDe_OpvoedpoliC2B270A407154710geo ;
+        ns3:lat "52.3575717600906"^^xsd:float ;
+        ns3:long "4.85005952852072"^^xsd:float .
 
-    ns4:opvoDe_OpvoedpoliD5BD45F802D44242 a :childDevelopmentCenter,
+    ns1:opvoDe_OpvoedpoliD6AF4B3656894814 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
-        ns3:latitude 5.23987e+01 ;
-        ns3:longitude 4.935604e+00 ;
+        ns4:latitude 5.238588e+01 ;
+        ns4:longitude 4.882296e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoDe_OpvoedpoliD5BD45F802D44242geo ;
-        ns2:lat "52.3986971027549"^^xsd:float ;
-        ns2:long "4.93560377481371"^^xsd:float .
+        geo:hasGeometry ns1:opvoDe_OpvoedpoliD6AF4B3656894814geo ;
+        ns3:lat "52.3858811544946"^^xsd:float ;
+        ns3:long "4.88229645224543"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders3CDC10D036834918> a :childDevelopmentCenter,
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_oudersDC2B0494024D4402> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Dream Support, trainingen voor kinderen en opvoedingsadvies voor ouders"^^xsd:string ;
-        ns3:latitude 5.236301e+01 ;
-        ns3:longitude 4.933794e+00 ;
+        ns4:latitude 5.236301e+01 ;
+        ns4:longitude 4.933794e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.dream-support.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders3CDC10D036834918geo> ;
-        ns2:lat "52.3630091376526"^^xsd:float ;
-        ns2:long "4.93379423043404"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_oudersDC2B0494024D4402geo> ;
+        ns3:lat "52.3630091376526"^^xsd:float ;
+        ns3:long "4.93379423043404"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_Borgerstraat89DF57BDA0D64E0E a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_Borgerstraat4917BB771D014DAC a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Borgerstraat"^^xsd:string ;
-        ns3:latitude 5.236533e+01 ;
-        ns3:longitude 4.866938e+00 ;
+        ns4:latitude 5.236533e+01 ;
+        ns4:longitude 4.866938e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-borgerstraat.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_Borgerstraat89DF57BDA0D64E0Egeo ;
-        ns2:lat "52.3653316675852"^^xsd:float ;
-        ns2:long "4.86693802090789"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_Borgerstraat4917BB771D014DACgeo ;
+        ns3:lat "52.3653316675852"^^xsd:float ;
+        ns3:long "4.86693802090789"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_De_KeyzerE507A60CF5734565 a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_De_KeyzerC126777C522F4839 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum De Keyzer"^^xsd:string ;
-        ns3:latitude 5.23683e+01 ;
-        ns3:longitude 4.926824e+00 ;
+        ns4:latitude 5.23683e+01 ;
+        ns4:longitude 4.926824e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-dekeyzer.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_De_KeyzerE507A60CF5734565geo ;
-        ns2:lat "52.3683029597381"^^xsd:float ;
-        ns2:long "4.92682445379144"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_De_KeyzerC126777C522F4839geo ;
+        ns3:lat "52.3683029597381"^^xsd:float ;
+        ns3:long "4.92682445379144"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_Helmersstraat79AC380510FE4ED7 a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_HelmersstraatA9C4B5E2982040EB a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Helmersstraat"^^xsd:string ;
-        ns3:latitude 5.236256e+01 ;
-        ns3:longitude 4.870054e+00 ;
+        ns4:latitude 5.236256e+01 ;
+        ns4:longitude 4.870054e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-helmersstraat.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_Helmersstraat79AC380510FE4ED7geo ;
-        ns2:lat "52.3625591188958"^^xsd:float ;
-        ns2:long "4.87005356613347"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_HelmersstraatA9C4B5E2982040EBgeo ;
+        ns3:lat "52.3625591188958"^^xsd:float ;
+        ns3:long "4.87005356613347"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_Holendrecht421EB2A633A24CCD a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_HolendrechtADCC62BC79374C65 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Holendrecht"^^xsd:string ;
-        ns3:latitude 5.229978e+01 ;
-        ns3:longitude 4.962452e+00 ;
+        ns4:latitude 5.229978e+01 ;
+        ns4:longitude 4.962452e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_Holendrecht421EB2A633A24CCDgeo ;
-        ns2:lat "52.2997825593225"^^xsd:float ;
-        ns2:long "4.96245183324276"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_HolendrechtADCC62BC79374C65geo ;
+        ns3:lat "52.2997825593225"^^xsd:float ;
+        ns3:long "4.96245183324276"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_Nellestein09C53E2F16E3450E a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_Nellestein2CF6600598B64F48 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Nellestein"^^xsd:string ;
-        ns3:latitude 5.230892e+01 ;
-        ns3:longitude 4.983674e+00 ;
+        ns4:latitude 5.230892e+01 ;
+        ns4:longitude 4.983674e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_Nellestein09C53E2F16E3450Egeo ;
-        ns2:lat "52.308921762602"^^xsd:float ;
-        ns2:long "4.98367350795929"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_Nellestein2CF6600598B64F48geo ;
+        ns3:lat "52.308921762602"^^xsd:float ;
+        ns3:long "4.98367350795929"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_OosthoekA79979E29E964AAF a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_Oosthoek834D80BB636840B7 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Oosthoek"^^xsd:string ;
-        ns3:latitude 5.236548e+01 ;
-        ns3:longitude 4.946592e+00 ;
+        ns4:latitude 5.236548e+01 ;
+        ns4:longitude 4.946592e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.gzc-oosthoek.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_OosthoekA79979E29E964AAFgeo ;
-        ns2:lat "52.3654750756"^^xsd:float ;
-        ns2:long "4.94659199211418"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_Oosthoek834D80BB636840B7geo ;
+        ns3:lat "52.3654750756"^^xsd:float ;
+        ns3:long "4.94659199211418"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_Reigersbos09493579FDD2441B a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_Reigersbos80E7C72B63804ABE a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Reigersbos"^^xsd:string ;
-        ns3:latitude 5.229372e+01 ;
-        ns3:longitude 4.976849e+00 ;
+        ns4:latitude 5.229372e+01 ;
+        ns4:longitude 4.976849e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_Reigersbos09493579FDD2441Bgeo ;
-        ns2:lat "52.2937179078976"^^xsd:float ;
-        ns2:long "4.97684882036092"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_Reigersbos80E7C72B63804ABEgeo ;
+        ns3:lat "52.2937179078976"^^xsd:float ;
+        ns3:long "4.97684882036092"^^xsd:float .
 
-    ns4:opvoGezondheidscentrum_Venserpolder97B3C7CF82504C23 a :childDevelopmentCenter,
+    ns1:opvoGezondheidscentrum_Venserpolder89063554DE3E4C91 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Gezondheidscentrum Venserpolder"^^xsd:string ;
-        ns3:latitude 5.231929e+01 ;
-        ns3:longitude 4.943231e+00 ;
+        ns4:latitude 5.231929e+01 ;
+        ns4:longitude 4.943231e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGezondheidscentrum_Venserpolder97B3C7CF82504C23geo ;
-        ns2:lat "52.3192925974688"^^xsd:float ;
-        ns2:long "4.94323116274827"^^xsd:float .
+        geo:hasGeometry ns1:opvoGezondheidscentrum_Venserpolder89063554DE3E4C91geo ;
+        ns3:lat "52.3192925974688"^^xsd:float ;
+        ns3:long "4.94323116274827"^^xsd:float .
 
-    ns4:opvoGrip_op_TalentED076AC8D7224B23 a :childDevelopmentCenter,
+    ns1:opvoGrip_op_TalentD17C58B798C94517 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Grip op Talent"^^xsd:string ;
-        ns3:latitude 5.232419e+01 ;
-        ns3:longitude 4.965097e+00 ;
+        ns4:latitude 5.232419e+01 ;
+        ns4:longitude 4.965097e+00 ;
         :website "http://gripoptalent.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoGrip_op_TalentED076AC8D7224B23geo ;
-        ns2:lat "52.3241900686499"^^xsd:float ;
-        ns2:long "4.96509672917559"^^xsd:float .
+        geo:hasGeometry ns1:opvoGrip_op_TalentD17C58B798C94517geo ;
+        ns3:lat "52.3241900686499"^^xsd:float ;
+        ns3:long "4.96509672917559"^^xsd:float .
 
-    ns4:opvoHet_Geboortecentrum2A678509B4214143 a :childDevelopmentCenter,
+    ns1:opvoHet_Geboortecentrum4CDF04955C6A45B6 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Het Geboortecentrum"^^xsd:string ;
-        ns3:latitude 5.236597e+01 ;
-        ns3:longitude 4.876386e+00 ;
+        ns4:latitude 5.236597e+01 ;
+        ns4:longitude 4.876386e+00 ;
         :website "http://www.geboortecentrum.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHet_Geboortecentrum2A678509B4214143geo ;
-        ns2:lat "52.3659749869885"^^xsd:float ;
-        ns2:long "4.87638584124133"^^xsd:float .
+        geo:hasGeometry ns1:opvoHet_Geboortecentrum4CDF04955C6A45B6geo ;
+        ns3:lat "52.3659749869885"^^xsd:float ;
+        ns3:long "4.87638584124133"^^xsd:float .
 
-    ns4:opvoHome-Start1A9250500D67427A a :childDevelopmentCenter,
+    ns1:opvoHome-Start0962131E4F61426A a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.233231e+01 ;
-        ns3:longitude 4.878226e+00 ;
+        ns4:latitude 5.238595e+01 ;
+        ns4:longitude 4.88199e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-Start1A9250500D67427Ageo ;
-        ns2:lat "52.3323147607255"^^xsd:float ;
-        ns2:long "4.87822550674615"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-Start0962131E4F61426Ageo ;
+        ns3:lat "52.3859495819503"^^xsd:float ;
+        ns3:long "4.88198973368755"^^xsd:float .
 
-    ns4:opvoHome-Start28F928FA2F4547D0 a :childDevelopmentCenter,
+    ns1:opvoHome-Start0C1578678A804D5D a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.237788e+01 ;
-        ns3:longitude 4.848697e+00 ;
+        ns4:latitude 5.235594e+01 ;
+        ns4:longitude 4.793081e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-Start28F928FA2F4547D0geo ;
-        ns2:lat "52.3778778758174"^^xsd:float ;
-        ns2:long "4.84869744789742"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-Start0C1578678A804D5Dgeo ;
+        ns3:lat "52.3559423314776"^^xsd:float ;
+        ns3:long "4.79308078810462"^^xsd:float .
 
-    ns4:opvoHome-Start2A19544EB15D4120 a :childDevelopmentCenter,
+    ns1:opvoHome-Start26DA6538F15F4E69 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.235068e+01 ;
-        ns3:longitude 4.895334e+00 ;
+        ns4:latitude 5.235068e+01 ;
+        ns4:longitude 4.895334e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-Start2A19544EB15D4120geo ;
-        ns2:lat "52.3506772126321"^^xsd:float ;
-        ns2:long "4.89533400658149"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-Start26DA6538F15F4E69geo ;
+        ns3:lat "52.3506772126321"^^xsd:float ;
+        ns3:long "4.89533400658149"^^xsd:float .
 
-    ns4:opvoHome-Start8E3D7344627B4420 a :childDevelopmentCenter,
+    ns1:opvoHome-Start670AEB2C91FC4EAD a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.238595e+01 ;
-        ns3:longitude 4.88199e+00 ;
+        ns4:latitude 5.237788e+01 ;
+        ns4:longitude 4.848697e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-Start8E3D7344627B4420geo ;
-        ns2:lat "52.3859495819503"^^xsd:float ;
-        ns2:long "4.88198973368755"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-Start670AEB2C91FC4EADgeo ;
+        ns3:lat "52.3778778758174"^^xsd:float ;
+        ns3:long "4.84869744789742"^^xsd:float .
 
-    ns4:opvoHome-Start9C4D00C55F8349A9 a :childDevelopmentCenter,
+    ns1:opvoHome-Start7859075778E04ABC a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.235978e+01 ;
-        ns3:longitude 4.902103e+00 ;
+        ns4:latitude 5.233231e+01 ;
+        ns4:longitude 4.878226e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-Start9C4D00C55F8349A9geo ;
-        ns2:lat "52.3597827618791"^^xsd:float ;
-        ns2:long "4.90210339499815"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-Start7859075778E04ABCgeo ;
+        ns3:lat "52.3323147607255"^^xsd:float ;
+        ns3:long "4.87822550674615"^^xsd:float .
 
-    ns4:opvoHome-StartB5DAAEEF13864685 a :childDevelopmentCenter,
+    ns1:opvoHome-Start9C3D46725310474A a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.239364e+01 ;
-        ns3:longitude 4.955449e+00 ;
+        ns4:latitude 5.235978e+01 ;
+        ns4:longitude 4.902103e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-StartB5DAAEEF13864685geo ;
-        ns2:lat "52.3936400584394"^^xsd:float ;
-        ns2:long "4.9554494917273"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-Start9C3D46725310474Ageo ;
+        ns3:lat "52.3597827618791"^^xsd:float ;
+        ns3:long "4.90210339499815"^^xsd:float .
 
-    ns4:opvoHome-StartC9A527C7BCC44648 a :childDevelopmentCenter,
+    ns1:opvoHome-StartB252A3E6400E48F7 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
-        ns3:latitude 5.235594e+01 ;
-        ns3:longitude 4.793081e+00 ;
+        ns4:latitude 5.239364e+01 ;
+        ns4:longitude 4.955449e+00 ;
         :website "http://www.home-start.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoHome-StartC9A527C7BCC44648geo ;
-        ns2:lat "52.3559423314776"^^xsd:float ;
-        ns2:long "4.79308078810462"^^xsd:float .
+        geo:hasGeometry ns1:opvoHome-StartB252A3E6400E48F7geo ;
+        ns3:lat "52.3936400584394"^^xsd:float ;
+        ns3:long "4.9554494917273"^^xsd:float .
 
-    ns4:opvoLa_Surprise12815875F6C74FD9 a :childDevelopmentCenter,
+    ns1:opvoLa_SurpriseBD64CC247C3B46E5 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "La Surprise"^^xsd:string ;
-        ns3:latitude 5.234604e+01 ;
-        ns3:longitude 4.900287e+00 ;
+        ns4:latitude 5.234604e+01 ;
+        ns4:longitude 4.900287e+00 ;
         :website ""^^xsd:string ;
-        geo:hasGeometry ns4:opvoLa_Surprise12815875F6C74FD9geo ;
-        ns2:lat "52.3460420377515"^^xsd:float ;
-        ns2:long "4.90028702419074"^^xsd:float .
+        geo:hasGeometry ns1:opvoLa_SurpriseBD64CC247C3B46E5geo ;
+        ns3:lat "52.3460420377515"^^xsd:float ;
+        ns3:long "4.90028702419074"^^xsd:float .
 
-    ns4:opvoMama_CaféFA09345B07C042C6 a :childDevelopmentCenter,
+    ns1:opvoMama_Café45FAE9DE640840B4 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Mama Café"^^xsd:string ;
-        ns3:latitude 5.236511e+01 ;
-        ns3:longitude 4.936239e+00 ;
+        ns4:latitude 5.236511e+01 ;
+        ns4:longitude 4.936239e+00 ;
         :website "http://www.mama-cafe.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoMama_CaféFA09345B07C042C6geo ;
-        ns2:lat "52.3651126104588"^^xsd:float ;
-        ns2:long "4.93623929333237"^^xsd:float .
+        geo:hasGeometry ns1:opvoMama_Café45FAE9DE640840B4geo ;
+        ns3:lat "52.3651126104588"^^xsd:float ;
+        ns3:long "4.93623929333237"^^xsd:float .
 
-    ns4:opvoMoedercentrum_DouniazadeD570EF2E21FA4309 a :childDevelopmentCenter,
+    ns1:opvoMoedercentrum_Douniazade5BFFBE22C63F46F9 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Moedercentrum Douniazade"^^xsd:string ;
-        ns3:latitude 5.238846e+01 ;
-        ns3:longitude 4.909105e+00 ;
+        ns4:latitude 5.238846e+01 ;
+        ns4:longitude 4.909105e+00 ;
         :website "http://www.combiwel.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoMoedercentrum_DouniazadeD570EF2E21FA4309geo ;
-        ns2:lat "52.3884640230981"^^xsd:float ;
-        ns2:long "4.90910506298851"^^xsd:float .
+        geo:hasGeometry ns1:opvoMoedercentrum_Douniazade5BFFBE22C63F46F9geo ;
+        ns3:lat "52.3884640230981"^^xsd:float ;
+        ns3:long "4.90910506298851"^^xsd:float .
 
-    ns4:opvoOKT_Albardakade3443288B585740B8 a :childDevelopmentCenter,
+    ns1:opvoOKT_AlbardakadeFB8B63372AF94BC2 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Albardakade"^^xsd:string ;
-        ns3:latitude 5.237803e+01 ;
-        ns3:longitude 4.802786e+00 ;
+        ns4:latitude 5.237803e+01 ;
+        ns4:longitude 4.802786e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Albardakade3443288B585740B8geo ;
-        ns2:lat "52.3780286788053"^^xsd:float ;
-        ns2:long "4.80278629499397"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_AlbardakadeFB8B63372AF94BC2geo ;
+        ns3:lat "52.3780286788053"^^xsd:float ;
+        ns3:long "4.80278629499397"^^xsd:float .
 
-    ns4:opvoOKT_Aldebaranplein4770D09FDC2A4434 a :childDevelopmentCenter,
+    ns1:opvoOKT_Aldebaranplein9601AC7F8CB04725 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Aldebaranplein"^^xsd:string ;
-        ns3:latitude 5.241125e+01 ;
-        ns3:longitude 4.892531e+00 ;
+        ns4:latitude 5.241125e+01 ;
+        ns4:longitude 4.892531e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Aldebaranplein4770D09FDC2A4434geo ;
-        ns2:lat "52.4112515737294"^^xsd:float ;
-        ns2:long "4.8925305760082"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Aldebaranplein9601AC7F8CB04725geo ;
+        ns3:lat "52.4112515737294"^^xsd:float ;
+        ns3:long "4.8925305760082"^^xsd:float .
 
-    ns4:opvoOKT_BinnenhofC3599A965C2B4BC0 a :childDevelopmentCenter,
+    ns1:opvoOKT_Binnenhof2F90DFFD0CD4490B a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Binnenhof"^^xsd:string ;
-        ns3:latitude 5.233231e+01 ;
-        ns3:longitude 4.878226e+00 ;
+        ns4:latitude 5.233231e+01 ;
+        ns4:longitude 4.878226e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_BinnenhofC3599A965C2B4BC0geo ;
-        ns2:lat "52.3323147607255"^^xsd:float ;
-        ns2:long "4.87822550674615"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Binnenhof2F90DFFD0CD4490Bgeo ;
+        ns3:lat "52.3323147607255"^^xsd:float ;
+        ns3:long "4.87822550674615"^^xsd:float .
 
-    ns4:opvoOKT_Bockesprong6E3229058A554774 a :childDevelopmentCenter,
+    ns1:opvoOKT_Bockesprong87C26CA72CE64158 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Bockesprong"^^xsd:string ;
-        ns3:latitude 5.235511e+01 ;
-        ns3:longitude 4.846141e+00 ;
+        ns4:latitude 5.235511e+01 ;
+        ns4:longitude 4.846141e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Bockesprong6E3229058A554774geo ;
-        ns2:lat "52.3551092403537"^^xsd:float ;
-        ns2:long "4.84614077202103"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Bockesprong87C26CA72CE64158geo ;
+        ns3:lat "52.3551092403537"^^xsd:float ;
+        ns3:long "4.84614077202103"^^xsd:float .
 
-    ns4:opvoOKT_Brederodestraat6F8FD2EF0EB94883 a :childDevelopmentCenter,
+    ns1:opvoOKT_Brederodestraat219A5F41B9B4450B a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Brederodestraat"^^xsd:string ;
-        ns3:latitude 5.236083e+01 ;
-        ns3:longitude 4.862131e+00 ;
+        ns4:latitude 5.236083e+01 ;
+        ns4:longitude 4.862131e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Brederodestraat6F8FD2EF0EB94883geo ;
-        ns2:lat "52.3608345505683"^^xsd:float ;
-        ns2:long "4.86213149015507"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Brederodestraat219A5F41B9B4450Bgeo ;
+        ns3:lat "52.3608345505683"^^xsd:float ;
+        ns3:long "4.86213149015507"^^xsd:float .
 
-    ns4:opvoOKT_FlevopoortCCFC8ED4C94440AB a :childDevelopmentCenter,
+    ns1:opvoOKT_FlevopoortFD20AAC2BCAE461B a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Flevopoort"^^xsd:string ;
-        ns3:latitude 5.236548e+01 ;
-        ns3:longitude 4.946592e+00 ;
+        ns4:latitude 5.236548e+01 ;
+        ns4:longitude 4.946592e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_FlevopoortCCFC8ED4C94440ABgeo ;
-        ns2:lat "52.3654750756"^^xsd:float ;
-        ns2:long "4.94659199211418"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_FlevopoortFD20AAC2BCAE461Bgeo ;
+        ns3:lat "52.3654750756"^^xsd:float ;
+        ns3:long "4.94659199211418"^^xsd:float .
 
-    ns4:opvoOKT_GaasperdamE92D29F5A3294F59 a :childDevelopmentCenter,
+    ns1:opvoOKT_GaasperdamEC74DC5DA5DF43E9 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Gaasperdam"^^xsd:string ;
-        ns3:latitude 5.229407e+01 ;
-        ns3:longitude 4.976494e+00 ;
+        ns4:latitude 5.229407e+01 ;
+        ns4:longitude 4.976494e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_GaasperdamE92D29F5A3294F59geo ;
-        ns2:lat "52.2940671998245"^^xsd:float ;
-        ns2:long "4.97649379538095"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_GaasperdamEC74DC5DA5DF43E9geo ;
+        ns3:lat "52.2940671998245"^^xsd:float ;
+        ns3:long "4.97649379538095"^^xsd:float .
 
-    ns4:opvoOKT_Het_Meervoud46195428FE244C09 a :childDevelopmentCenter,
+    ns1:opvoOKT_Het_MeervoudB8D7549846AD4443 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Het Meervoud"^^xsd:string ;
-        ns3:latitude 5.236306e+01 ;
-        ns3:longitude 4.83933e+00 ;
+        ns4:latitude 5.236306e+01 ;
+        ns4:longitude 4.83933e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Het_Meervoud46195428FE244C09geo ;
-        ns2:lat "52.3630587418573"^^xsd:float ;
-        ns2:long "4.83932955474092"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Het_MeervoudB8D7549846AD4443geo ;
+        ns3:lat "52.3630587418573"^^xsd:float ;
+        ns3:long "4.83932955474092"^^xsd:float .
 
-    ns4:opvoOKT_IJburg36FF5A7F21304005 a :childDevelopmentCenter,
+    ns1:opvoOKT_IJburgA7E3E85F6F2E4DB8 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT IJburg"^^xsd:string ;
-        ns3:latitude 5.235165e+01 ;
-        ns3:longitude 5.007402e+00 ;
+        ns4:latitude 5.235165e+01 ;
+        ns4:longitude 5.007402e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_IJburg36FF5A7F21304005geo ;
-        ns2:lat "52.3516458031716"^^xsd:float ;
-        ns2:long "5.00740212443746"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_IJburgA7E3E85F6F2E4DB8geo ;
+        ns3:lat "52.3516458031716"^^xsd:float ;
+        ns3:long "5.00740212443746"^^xsd:float .
 
-    ns4:opvoOKT_Jan_van_der_Heijdenstraat8B507AD834674158 a :childDevelopmentCenter,
+    ns1:opvoOKT_Jan_van_der_Heijdenstraat1F0A0AA42A444570 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Jan van der Heijdenstraat"^^xsd:string ;
-        ns3:latitude 5.235608e+01 ;
-        ns3:longitude 4.902276e+00 ;
+        ns4:latitude 5.235608e+01 ;
+        ns4:longitude 4.902276e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Jan_van_der_Heijdenstraat8B507AD834674158geo ;
-        ns2:lat "52.356080524128"^^xsd:float ;
-        ns2:long "4.90227597500529"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Jan_van_der_Heijdenstraat1F0A0AA42A444570geo ;
+        ns3:lat "52.356080524128"^^xsd:float ;
+        ns3:long "4.90227597500529"^^xsd:float .
 
-    ns4:opvoOKT_Klein_Gooioord82502820E6B54BBE a :childDevelopmentCenter,
+    ns1:opvoOKT_Klein_Gooioord6AD18732201944C2 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Klein Gooioord"^^xsd:string ;
-        ns3:latitude 5.232124e+01 ;
-        ns3:longitude 4.970684e+00 ;
+        ns4:latitude 5.232124e+01 ;
+        ns4:longitude 4.970684e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Klein_Gooioord82502820E6B54BBEgeo ;
-        ns2:lat "52.3212439083427"^^xsd:float ;
-        ns2:long "4.9706836526372"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Klein_Gooioord6AD18732201944C2geo ;
+        ns3:lat "52.3212439083427"^^xsd:float ;
+        ns3:long "4.9706836526372"^^xsd:float .
 
-    ns4:opvoOKT_KraijenhoffstraatEDA73AC460C24BFB a :childDevelopmentCenter,
+    ns1:opvoOKT_Kraijenhoffstraat44B0690AC044427D a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Kraijenhoffstraat"^^xsd:string ;
-        ns3:latitude 5.236941e+01 ;
-        ns3:longitude 4.93019e+00 ;
+        ns4:latitude 5.236941e+01 ;
+        ns4:longitude 4.93019e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_KraijenhoffstraatEDA73AC460C24BFBgeo ;
-        ns2:lat "52.3694124973057"^^xsd:float ;
-        ns2:long "4.93019010450497"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Kraijenhoffstraat44B0690AC044427Dgeo ;
+        ns3:lat "52.3694124973057"^^xsd:float ;
+        ns3:long "4.93019010450497"^^xsd:float .
 
-    ns4:opvoOKT_Lindengracht2578BD82BFBF4E3B a :childDevelopmentCenter,
+    ns1:opvoOKT_Lindengracht7BD1FAEB8DFF4546 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Lindengracht"^^xsd:string ;
-        ns3:latitude 5.23802e+01 ;
-        ns3:longitude 4.883507e+00 ;
+        ns4:latitude 5.23802e+01 ;
+        ns4:longitude 4.883507e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Lindengracht2578BD82BFBF4E3Bgeo ;
-        ns2:lat "52.3801970968937"^^xsd:float ;
-        ns2:long "4.88350675115323"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Lindengracht7BD1FAEB8DFF4546geo ;
+        ns3:lat "52.3801970968937"^^xsd:float ;
+        ns3:long "4.88350675115323"^^xsd:float .
 
-    ns4:opvoOKT_MagalhaenspleinDF543679A645499D a :childDevelopmentCenter,
+    ns1:opvoOKT_MagalhaenspleinCA494F106A92480C a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Magalhaensplein"^^xsd:string ;
-        ns3:latitude 5.236776e+01 ;
-        ns3:longitude 4.854282e+00 ;
+        ns4:latitude 5.236776e+01 ;
+        ns4:longitude 4.854282e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_MagalhaenspleinDF543679A645499Dgeo ;
-        ns2:lat "52.3677559927283"^^xsd:float ;
-        ns2:long "4.85428234350039"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_MagalhaenspleinCA494F106A92480Cgeo ;
+        ns3:lat "52.3677559927283"^^xsd:float ;
+        ns3:long "4.85428234350039"^^xsd:float .
 
-    ns4:opvoOKT_OsdorpBB514CE8C8B04F8A a :childDevelopmentCenter,
+    ns1:opvoOKT_Osdorp6819C05942834563 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Osdorp"^^xsd:string ;
-        ns3:latitude 5.235594e+01 ;
-        ns3:longitude 4.793081e+00 ;
+        ns4:latitude 5.235594e+01 ;
+        ns4:longitude 4.793081e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://oktamsterdam.nl/"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_OsdorpBB514CE8C8B04F8Ageo ;
-        ns2:lat "52.3559423314776"^^xsd:float ;
-        ns2:long "4.79308078810462"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Osdorp6819C05942834563geo ;
+        ns3:lat "52.3559423314776"^^xsd:float ;
+        ns3:long "4.79308078810462"^^xsd:float .
 
-    ns4:opvoOKT_Pontanusstraat48C6F5AA3BF44D0B a :childDevelopmentCenter,
+    ns1:opvoOKT_Pontanusstraat0B0CF13CA11148C4 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Pontanusstraat"^^xsd:string ;
-        ns3:latitude 5.23607e+01 ;
-        ns3:longitude 4.929986e+00 ;
+        ns4:latitude 5.23607e+01 ;
+        ns4:longitude 4.929986e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Pontanusstraat48C6F5AA3BF44D0Bgeo ;
-        ns2:lat "52.3607026272313"^^xsd:float ;
-        ns2:long "4.92998620349585"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Pontanusstraat0B0CF13CA11148C4geo ;
+        ns3:lat "52.3607026272313"^^xsd:float ;
+        ns3:long "4.92998620349585"^^xsd:float .
 
-    ns4:opvoOKT_Slotermeerlaan61D83DEEFEF24204 a :childDevelopmentCenter,
+    ns1:opvoOKT_Slotermeerlaan7B3C2AD8A8FF4D27 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Slotermeerlaan"^^xsd:string ;
-        ns3:latitude 5.23787e+01 ;
-        ns3:longitude 4.819917e+00 ;
+        ns4:latitude 5.23787e+01 ;
+        ns4:longitude 4.819917e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Slotermeerlaan61D83DEEFEF24204geo ;
-        ns2:lat "52.3786961907812"^^xsd:float ;
-        ns2:long "4.81991666740395"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Slotermeerlaan7B3C2AD8A8FF4D27geo ;
+        ns3:lat "52.3786961907812"^^xsd:float ;
+        ns3:long "4.81991666740395"^^xsd:float .
 
-    ns4:opvoOKT_Tijl_Uilenspiegelstraat91E3A68BA0E64384 a :childDevelopmentCenter,
+    ns1:opvoOKT_Tijl_UilenspiegelstraatE2ABA554B0F945D5 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Tijl Uilenspiegelstraat"^^xsd:string ;
-        ns3:latitude 5.237788e+01 ;
-        ns3:longitude 4.848697e+00 ;
+        ns4:latitude 5.237788e+01 ;
+        ns4:longitude 4.848697e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Tijl_Uilenspiegelstraat91E3A68BA0E64384geo ;
-        ns2:lat "52.3778778758174"^^xsd:float ;
-        ns2:long "4.84869744789742"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Tijl_UilenspiegelstraatE2ABA554B0F945D5geo ;
+        ns3:lat "52.3778778758174"^^xsd:float ;
+        ns3:long "4.84869744789742"^^xsd:float .
 
-    ns4:opvoOKT_Waterlandplein967B36D222F94778 a :childDevelopmentCenter,
+    ns1:opvoOKT_Waterlandplein18E0A414C57C4EA3 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Waterlandplein"^^xsd:string ;
-        ns3:latitude 5.239364e+01 ;
-        ns3:longitude 4.955449e+00 ;
+        ns4:latitude 5.239364e+01 ;
+        ns4:longitude 4.955449e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Waterlandplein967B36D222F94778geo ;
-        ns2:lat "52.3936400584394"^^xsd:float ;
-        ns2:long "4.9554494917273"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_Waterlandplein18E0A414C57C4EA3geo ;
+        ns3:lat "52.3936400584394"^^xsd:float ;
+        ns3:long "4.9554494917273"^^xsd:float .
 
-    ns4:opvoOKT_Westerpark3546D318105F4DD3 a :childDevelopmentCenter,
+    ns1:opvoOKT_WesterparkDCD780AA28AE4117 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Westerpark"^^xsd:string ;
-        ns3:latitude 5.23862e+01 ;
-        ns3:longitude 4.881206e+00 ;
+        ns4:latitude 5.23862e+01 ;
+        ns4:longitude 4.881206e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Westerpark3546D318105F4DD3geo ;
-        ns2:lat "52.3862000567205"^^xsd:float ;
-        ns2:long "4.88120583975014"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_WesterparkDCD780AA28AE4117geo ;
+        ns3:lat "52.3862000567205"^^xsd:float ;
+        ns3:long "4.88120583975014"^^xsd:float .
 
-    ns4:opvoOKT_Wingerdweg0720F53A0B8B401C a :childDevelopmentCenter,
+    ns1:opvoOKT_WingerdwegAF058241781C47CD a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT Wingerdweg"^^xsd:string ;
-        ns3:latitude 5.239101e+01 ;
-        ns3:longitude 4.916702e+00 ;
+        ns4:latitude 5.239101e+01 ;
+        ns4:longitude 4.916702e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_Wingerdweg0720F53A0B8B401Cgeo ;
-        ns2:lat "52.3910109917999"^^xsd:float ;
-        ns2:long "4.91670196390276"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_WingerdwegAF058241781C47CDgeo ;
+        ns3:lat "52.3910109917999"^^xsd:float ;
+        ns3:long "4.91670196390276"^^xsd:float .
 
-    ns4:opvoOKT_de_Kikker5B2EA7B4E0F0469D a :childDevelopmentCenter,
+    ns1:opvoOKT_de_KikkerBA761A6AC8C44A45 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "OKT de Kikker"^^xsd:string ;
-        ns3:latitude 5.235594e+01 ;
-        ns3:longitude 4.793081e+00 ;
+        ns4:latitude 5.235594e+01 ;
+        ns4:longitude 4.793081e+00 ;
         :providesExercisesFor :children ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOKT_de_Kikker5B2EA7B4E0F0469Dgeo ;
-        ns2:lat "52.3559423314776"^^xsd:float ;
-        ns2:long "4.79308078810462"^^xsd:float .
+        geo:hasGeometry ns1:opvoOKT_de_KikkerBA761A6AC8C44A45geo ;
+        ns3:lat "52.3559423314776"^^xsd:float ;
+        ns3:long "4.79308078810462"^^xsd:float .
 
-    ns4:opvoOmgangshuis_Noord-Holland22DB5990EC194C27 a :childDevelopmentCenter,
+    ns1:opvoOmgangshuis_Noord-Holland7198706BE6A6446A a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Omgangshuis Noord-Holland"^^xsd:string ;
-        ns3:latitude 5.244222e+01 ;
-        ns3:longitude 4.827574e+00 ;
+        ns4:latitude 5.244222e+01 ;
+        ns4:longitude 4.827574e+00 ;
         :website "http://www.omgangshuis.org"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOmgangshuis_Noord-Holland22DB5990EC194C27geo ;
-        ns2:lat "52.4422216021704"^^xsd:float ;
-        ns2:long "4.82757426293021"^^xsd:float .
+        geo:hasGeometry ns1:opvoOmgangshuis_Noord-Holland7198706BE6A6446Ageo ;
+        ns3:lat "52.4422216021704"^^xsd:float ;
+        ns3:long "4.82757426293021"^^xsd:float .
 
-    ns4:opvoOpvoedpunt_en_Spel-o-Theek_IJburgAFE16D39782B4F12 a :childDevelopmentCenter,
+    ns1:opvoOpvoedpunt_en_Spel-o-Theek_IJburg23385651A99542D4 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Opvoedpunt en Spel-o-Theek IJburg"^^xsd:string ;
-        ns3:latitude 5.235165e+01 ;
-        ns3:longitude 5.007402e+00 ;
+        ns4:latitude 5.235165e+01 ;
+        ns4:longitude 5.007402e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
-        geo:hasGeometry ns4:opvoOpvoedpunt_en_Spel-o-Theek_IJburgAFE16D39782B4F12geo ;
-        ns2:lat "52.3516458031716"^^xsd:float ;
-        ns2:long "5.00740212443746"^^xsd:float .
+        geo:hasGeometry ns1:opvoOpvoedpunt_en_Spel-o-Theek_IJburg23385651A99542D4geo ;
+        ns3:lat "52.3516458031716"^^xsd:float ;
+        ns3:long "5.00740212443746"^^xsd:float .
 
-    ns4:opvoProFor_bureau_voor_samenlevingsopbouwEA3B95FCDACD44F9 a :childDevelopmentCenter,
+    ns1:opvoProFor_bureau_voor_samenlevingsopbouw93D5922C01384E90 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "ProFor bureau voor samenlevingsopbouw"^^xsd:string ;
-        ns3:latitude 5.230973e+01 ;
-        ns3:longitude 4.958679e+00 ;
+        ns4:latitude 5.230973e+01 ;
+        ns4:longitude 4.958679e+00 ;
         :website "http://www.profor.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoProFor_bureau_voor_samenlevingsopbouwEA3B95FCDACD44F9geo ;
-        ns2:lat "52.3097326394224"^^xsd:float ;
-        ns2:long "4.95867943764597"^^xsd:float .
+        geo:hasGeometry ns1:opvoProFor_bureau_voor_samenlevingsopbouw93D5922C01384E90geo ;
+        ns3:lat "52.3097326394224"^^xsd:float ;
+        ns3:long "4.95867943764597"^^xsd:float .
 
-    ns4:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam642F9C0689784B2D a :childDevelopmentCenter,
+    ns1:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam4040F69701474ACD a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Psychodiagnostisch Centrum Child Support Amsterdam"^^xsd:string ;
-        ns3:latitude 5.235919e+01 ;
-        ns3:longitude 4.896722e+00 ;
+        ns4:latitude 5.235919e+01 ;
+        ns4:longitude 4.896722e+00 ;
         :website "http://www.child-support-europe.com"^^xsd:string ;
-        geo:hasGeometry ns4:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam642F9C0689784B2Dgeo ;
-        ns2:lat "52.3591943621047"^^xsd:float ;
-        ns2:long "4.89672227781917"^^xsd:float .
+        geo:hasGeometry ns1:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam4040F69701474ACDgeo ;
+        ns3:lat "52.3591943621047"^^xsd:float ;
+        ns3:long "4.89672227781917"^^xsd:float .
 
-    ns4:opvoSWAZOOM6EDD4F06EFC9467D a :childDevelopmentCenter,
+    ns1:opvoSWAZOOM778C12E596F54C53 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "SWAZOOM"^^xsd:string ;
-        ns3:latitude 5.232314e+01 ;
-        ns3:longitude 4.972661e+00 ;
+        ns4:latitude 5.232314e+01 ;
+        ns4:longitude 4.972661e+00 ;
         :website "http://www.swazoom.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoSWAZOOM6EDD4F06EFC9467Dgeo ;
-        ns2:lat "52.3231382806074"^^xsd:float ;
-        ns2:long "4.97266073745794"^^xsd:float .
+        geo:hasGeometry ns1:opvoSWAZOOM778C12E596F54C53geo ;
+        ns3:lat "52.3231382806074"^^xsd:float ;
+        ns3:long "4.97266073745794"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_Boomsspijkertje721B749ACCE04158> a :childDevelopmentCenter,
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_BoomsspijkertjeFDCC73707F284E4D> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek 't Boomsspijkertje"^^xsd:string ;
-        ns3:latitude 5.237196e+01 ;
-        ns3:longitude 4.903483e+00 ;
+        ns4:latitude 5.237196e+01 ;
+        ns4:longitude 4.903483e+00 ;
         :website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_Boomsspijkertje721B749ACCE04158geo> ;
-        ns2:lat "52.3719577721925"^^xsd:float ;
-        ns2:long "4.90348272556877"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_BoomsspijkertjeFDCC73707F284E4Dgeo> ;
+        ns3:lat "52.3719577721925"^^xsd:float ;
+        ns3:long "4.90348272556877"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_GuppieFA42B984B49E472B> a :childDevelopmentCenter,
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_GuppieAFD115D2C228433B> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek 't Guppie"^^xsd:string ;
-        ns3:latitude 5.234416e+01 ;
-        ns3:longitude 4.90631e+00 ;
+        ns4:latitude 5.234416e+01 ;
+        ns4:longitude 4.90631e+00 ;
         :website "http://www.tguppie.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_GuppieFA42B984B49E472Bgeo> ;
-        ns2:lat "52.3441612586095"^^xsd:float ;
-        ns2:long "4.90630972570487"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_GuppieAFD115D2C228433Bgeo> ;
+        ns3:lat "52.3441612586095"^^xsd:float ;
+        ns3:long "4.90630972570487"^^xsd:float .
 
-    ns4:opvoSpeel-o-theek_KraijenhoffF5C5B4C869DE4177 a :childDevelopmentCenter,
+    ns1:opvoSpeel-o-theek_KraijenhoffBBDF9CC93E63451D a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek Kraijenhoff"^^xsd:string ;
-        ns3:latitude 5.236941e+01 ;
-        ns3:longitude 4.93019e+00 ;
+        ns4:latitude 5.236941e+01 ;
+        ns4:longitude 4.93019e+00 ;
         :website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoSpeel-o-theek_KraijenhoffF5C5B4C869DE4177geo ;
-        ns2:lat "52.3694124973057"^^xsd:float ;
-        ns2:long "4.93019010450497"^^xsd:float .
+        geo:hasGeometry ns1:opvoSpeel-o-theek_KraijenhoffBBDF9CC93E63451Dgeo ;
+        ns3:lat "52.3694124973057"^^xsd:float ;
+        ns3:long "4.93019010450497"^^xsd:float .
 
-    ns4:opvoSpeel-o-theek_Lindengracht9E530DB1AA664B5F a :childDevelopmentCenter,
+    ns1:opvoSpeel-o-theek_Lindengracht0FA4A6C7D8314D61 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek Lindengracht"^^xsd:string ;
-        ns3:latitude 5.23802e+01 ;
-        ns3:longitude 4.883507e+00 ;
+        ns4:latitude 5.23802e+01 ;
+        ns4:longitude 4.883507e+00 ;
         :website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoSpeel-o-theek_Lindengracht9E530DB1AA664B5Fgeo ;
-        ns2:lat "52.3801970968937"^^xsd:float ;
-        ns2:long "4.88350675115323"^^xsd:float .
+        geo:hasGeometry ns1:opvoSpeel-o-theek_Lindengracht0FA4A6C7D8314D61geo ;
+        ns3:lat "52.3801970968937"^^xsd:float ;
+        ns3:long "4.88350675115323"^^xsd:float .
 
-    ns4:opvoSpeel-o-theek_Zeeburg00C4E931829548B6 a :childDevelopmentCenter,
+    ns1:opvoSpeel-o-theek_Zeeburg073C87ACEA6A4B8F a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek Zeeburg"^^xsd:string ;
-        ns3:latitude 5.236548e+01 ;
-        ns3:longitude 4.946592e+00 ;
+        ns4:latitude 5.236548e+01 ;
+        ns4:longitude 4.946592e+00 ;
         :website "http://www.speelotheek.net"^^xsd:string ;
-        geo:hasGeometry ns4:opvoSpeel-o-theek_Zeeburg00C4E931829548B6geo ;
-        ns2:lat "52.3654750756"^^xsd:float ;
-        ns2:long "4.94659199211418"^^xsd:float .
+        geo:hasGeometry ns1:opvoSpeel-o-theek_Zeeburg073C87ACEA6A4B8Fgeo ;
+        ns3:lat "52.3654750756"^^xsd:float ;
+        ns3:long "4.94659199211418"^^xsd:float .
 
-    ns4:opvoSpeel-o-theek_de_Baarsjes57DC6955AEFA4364 a :childDevelopmentCenter,
+    ns1:opvoSpeel-o-theek_de_Baarsjes707D58F443204A38 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Speel-o-theek de Baarsjes"^^xsd:string ;
-        ns3:latitude 5.236776e+01 ;
-        ns3:longitude 4.854282e+00 ;
+        ns4:latitude 5.236776e+01 ;
+        ns4:longitude 4.854282e+00 ;
         :website "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
-        geo:hasGeometry ns4:opvoSpeel-o-theek_de_Baarsjes57DC6955AEFA4364geo ;
-        ns2:lat "52.3677559927283"^^xsd:float ;
-        ns2:long "4.85428234350039"^^xsd:float .
+        geo:hasGeometry ns1:opvoSpeel-o-theek_de_Baarsjes707D58F443204A38geo ;
+        ns3:lat "52.3677559927283"^^xsd:float ;
+        ns3:long "4.85428234350039"^^xsd:float .
 
-    ns4:opvoSpel_aan_HuisE80AE668B5BC4B6C a :childDevelopmentCenter,
+    ns1:opvoSpel_aan_Huis271A24E203544829 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Spel aan Huis"^^xsd:string ;
-        ns3:latitude 5.235978e+01 ;
-        ns3:longitude 4.902103e+00 ;
+        ns4:latitude 5.235978e+01 ;
+        ns4:longitude 4.902103e+00 ;
         :website "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
-        geo:hasGeometry ns4:opvoSpel_aan_HuisE80AE668B5BC4B6Cgeo ;
-        ns2:lat "52.3597827618791"^^xsd:float ;
-        ns2:long "4.90210339499815"^^xsd:float .
+        geo:hasGeometry ns1:opvoSpel_aan_Huis271A24E203544829geo ;
+        ns3:lat "52.3597827618791"^^xsd:float ;
+        ns3:long "4.90210339499815"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp52093E4A8B4E4F74> a :childDevelopmentCenter,
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp1C5BF0B0BD514C51> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Spirit Jeugd & Opvoedhulp"^^xsd:string ;
-        ns3:latitude 5.234117e+01 ;
-        ns3:longitude 4.865842e+00 ;
+        ns4:latitude 5.234117e+01 ;
+        ns4:longitude 4.865842e+00 ;
         :providesInformationAbout :childDevelopment ;
         :website "http://www.spirit.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp52093E4A8B4E4F74geo> ;
-        ns2:lat "52.3411677452672"^^xsd:float ;
-        ns2:long "4.86584184990484"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp1C5BF0B0BD514C51geo> ;
+        ns3:lat "52.3411677452672"^^xsd:float ;
+        ns3:long "4.86584184990484"^^xsd:float .
 
-    ns4:opvoStichting_ABCD18E9F63D70B4345 a :childDevelopmentCenter,
+    ns1:opvoStichting_ABCE4E70898FE0F4EE5 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting ABC"^^xsd:string ;
-        ns3:latitude 5.236341e+01 ;
-        ns3:longitude 4.858284e+00 ;
+        ns4:latitude 5.236341e+01 ;
+        ns4:longitude 4.858284e+00 ;
         :website "http://www.hetabc.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoStichting_ABCD18E9F63D70B4345geo ;
-        ns2:lat "52.3634058940364"^^xsd:float ;
-        ns2:long "4.85828389454875"^^xsd:float .
+        geo:hasGeometry ns1:opvoStichting_ABCE4E70898FE0F4EE5geo ;
+        ns3:lat "52.3634058940364"^^xsd:float ;
+        ns3:long "4.85828389454875"^^xsd:float .
 
-    ns4:opvoStichting_De_Witte_Tulp15B63F53AAE64583 a :childDevelopmentCenter,
+    ns1:opvoStichting_De_Witte_TulpDAA7904B3C3A461B a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting De Witte Tulp"^^xsd:string ;
-        ns3:latitude 5.241146e+01 ;
-        ns3:longitude 4.921967e+00 ;
+        ns4:latitude 5.235362e+01 ;
+        ns4:longitude 4.800319e+00 ;
         :website "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoStichting_De_Witte_Tulp15B63F53AAE64583geo ;
-        ns2:lat "52.4114606940384"^^xsd:float ;
-        ns2:long "4.92196690191011"^^xsd:float .
+        geo:hasGeometry ns1:opvoStichting_De_Witte_TulpDAA7904B3C3A461Bgeo ;
+        ns3:lat "52.3536236364084"^^xsd:float ;
+        ns3:long "4.80031884424552"^^xsd:float .
 
-    ns4:opvoStichting_De_Witte_TulpCE50C55740ED4DD6 a :childDevelopmentCenter,
+    ns1:opvoStichting_De_Witte_TulpF35F1C61A3724AA2 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting De Witte Tulp"^^xsd:string ;
-        ns3:latitude 5.235362e+01 ;
-        ns3:longitude 4.800319e+00 ;
+        ns4:latitude 5.241146e+01 ;
+        ns4:longitude 4.921967e+00 ;
         :website "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoStichting_De_Witte_TulpCE50C55740ED4DD6geo ;
-        ns2:lat "52.3536236364084"^^xsd:float ;
-        ns2:long "4.80031884424552"^^xsd:float .
+        geo:hasGeometry ns1:opvoStichting_De_Witte_TulpF35F1C61A3724AA2geo ;
+        ns3:lat "52.4114606940384"^^xsd:float ;
+        ns3:long "4.92196690191011"^^xsd:float .
 
-    ns4:opvoStichting_KorrelatieEAAB998230514924 a :childDevelopmentCenter,
+    ns1:opvoStichting_Korrelatie88662A512049477F a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Korrelatie"^^xsd:string ;
-        ns3:latitude 5.237757e+01 ;
-        ns3:longitude 4.902584e+00 ;
+        ns4:latitude 5.237757e+01 ;
+        ns4:longitude 4.902584e+00 ;
         :website "http://www.korrelatie.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoStichting_KorrelatieEAAB998230514924geo ;
-        ns2:lat "52.377569325714"^^xsd:float ;
-        ns2:long "4.90258435901653"^^xsd:float .
+        geo:hasGeometry ns1:opvoStichting_Korrelatie88662A512049477Fgeo ;
+        ns3:lat "52.377569325714"^^xsd:float ;
+        ns3:long "4.90258435901653"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)8324AC0280C74CB0> a :childDevelopmentCenter,
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)F460FF8B63CE4B0B> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Samen Vooruit (SaVo)"^^xsd:string ;
-        ns3:latitude 5.232257e+01 ;
-        ns3:longitude 4.975821e+00 ;
+        ns4:latitude 5.232257e+01 ;
+        ns4:longitude 4.975821e+00 ;
         :website "http://www.stichtingsavo.nl"^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)8324AC0280C74CB0geo> ;
-        ns2:lat "52.3225712464425"^^xsd:float ;
-        ns2:long "4.97582135054318"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)F460FF8B63CE4B0Bgeo> ;
+        ns3:lat "52.3225712464425"^^xsd:float ;
+        ns3:long "4.97582135054318"^^xsd:float .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)E8881DD68BCB4127> a :childDevelopmentCenter,
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)DD7AC2F58769483F> a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Surinaamse Vrouwen Bijlmermeer (SVB)"^^xsd:string ;
-        ns3:latitude 5.232257e+01 ;
-        ns3:longitude 4.975821e+00 ;
+        ns4:latitude 5.232257e+01 ;
+        ns4:longitude 4.975821e+00 ;
         :website ""^^xsd:string ;
-        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)E8881DD68BCB4127geo> ;
-        ns2:lat "52.3225712464425"^^xsd:float ;
-        ns2:long "4.97582135054318"^^xsd:float .
+        geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)DD7AC2F58769483Fgeo> ;
+        ns3:lat "52.3225712464425"^^xsd:float ;
+        ns3:long "4.97582135054318"^^xsd:float .
 
-    ns4:opvoStichting_Vice_Versa953FDE87A15547E2 a :childDevelopmentCenter,
+    ns1:opvoStichting_Vice_VersaB7FB302CE9B24280 a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "Stichting Vice Versa"^^xsd:string ;
-        ns3:latitude 5.232257e+01 ;
-        ns3:longitude 4.975821e+00 ;
+        ns4:latitude 5.232257e+01 ;
+        ns4:longitude 4.975821e+00 ;
         :website "http://www.stichtingviceversa.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoStichting_Vice_Versa953FDE87A15547E2geo ;
-        ns2:lat "52.3225712464425"^^xsd:float ;
-        ns2:long "4.97582135054318"^^xsd:float .
+        geo:hasGeometry ns1:opvoStichting_Vice_VersaB7FB302CE9B24280geo ;
+        ns3:lat "52.3225712464425"^^xsd:float ;
+        ns3:long "4.97582135054318"^^xsd:float .
 
-    ns4:opvoVTO-Vroeghulp5166BA973E6341D0 a :childDevelopmentCenter,
+    ns1:opvoVTO-Vroeghulp63EB0CCAE8364F2B a :childDevelopmentCenter,
             :instantie ;
         rdfs:label "VTO-Vroeghulp"^^xsd:string ;
-        ns3:latitude 5.236253e+01 ;
-        ns3:longitude 4.909003e+00 ;
+        ns4:latitude 5.236253e+01 ;
+        ns4:longitude 4.909003e+00 ;
         :website "http://www.vtovroeghulp.nl"^^xsd:string ;
-        geo:hasGeometry ns4:opvoVTO-Vroeghulp5166BA973E6341D0geo ;
-        ns2:lat "52.3625251245642"^^xsd:float ;
-        ns2:long "4.90900287705508"^^xsd:float .
+        geo:hasGeometry ns1:opvoVTO-Vroeghulp63EB0CCAE8364F2Bgeo ;
+        ns3:lat "52.3625251245642"^^xsd:float ;
+        ns3:long "4.90900287705508"^^xsd:float .
 
     : a owl:Ontology .
 
@@ -935,217 +935,217 @@
     :work a :reintegrationPossibilites,
             owl:NamedIndividual .
 
-    ns4:opvoBuro_Bloei140DD019F2D6407Bgeo a geo:Geometry ;
+    ns1:opvoBuro_Bloei7DEE864418904B6Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8765126304017 52.361337862629)"^^geo:wktLiteral .
 
-    ns4:opvoCentrum_Vrouw_en_Vaart7E0B5D6E3DE54112geo a geo:Geometry ;
+    ns1:opvoCentrum_Vrouw_en_Vaart33DB6E74571C4DA6geo a geo:Geometry ;
         geo:asWKT "POINT(4.80532745726713 52.3656830141971)"^^geo:wktLiteral .
 
-    ns4:opvoDe_Opvoedpoli1B6B44D860E84FF0geo a geo:Geometry ;
-        geo:asWKT "POINT(4.85005952852072 52.3575717600906)"^^geo:wktLiteral .
-
-    ns4:opvoDe_Opvoedpoli52E16FC466D44F79geo a geo:Geometry ;
-        geo:asWKT "POINT(4.88229645224543 52.3858811544946)"^^geo:wktLiteral .
-
-    ns4:opvoDe_Opvoedpoli91E3A881B4914DF5geo a geo:Geometry ;
-        geo:asWKT "POINT(4.96971175371461 52.3216539197909)"^^geo:wktLiteral .
-
-    ns4:opvoDe_OpvoedpoliCF26A0E5FFB443B2geo a geo:Geometry ;
+    ns1:opvoDe_Opvoedpoli0F7EB860E2204313geo a geo:Geometry ;
         geo:asWKT "POINT(4.93013477444236 52.3633815376159)"^^geo:wktLiteral .
 
-    ns4:opvoDe_OpvoedpoliD5BD45F802D44242geo a geo:Geometry ;
+    ns1:opvoDe_Opvoedpoli6D9921F8A68F4332geo a geo:Geometry ;
+        geo:asWKT "POINT(4.96971175371461 52.3216539197909)"^^geo:wktLiteral .
+
+    ns1:opvoDe_OpvoedpoliA9A09DDDB6C444D1geo a geo:Geometry ;
         geo:asWKT "POINT(4.93560377481371 52.3986971027549)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders3CDC10D036834918geo> a geo:Geometry ;
+    ns1:opvoDe_OpvoedpoliC2B270A407154710geo a geo:Geometry ;
+        geo:asWKT "POINT(4.85005952852072 52.3575717600906)"^^geo:wktLiteral .
+
+    ns1:opvoDe_OpvoedpoliD6AF4B3656894814geo a geo:Geometry ;
+        geo:asWKT "POINT(4.88229645224543 52.3858811544946)"^^geo:wktLiteral .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoDream_Support,_trainingen_voor_kinderen_en_opvoedingsadvies_voor_oudersDC2B0494024D4402geo> a geo:Geometry ;
         geo:asWKT "POINT(4.93379423043404 52.3630091376526)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_Borgerstraat89DF57BDA0D64E0Egeo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_Borgerstraat4917BB771D014DACgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86693802090789 52.3653316675852)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_De_KeyzerE507A60CF5734565geo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_De_KeyzerC126777C522F4839geo a geo:Geometry ;
         geo:asWKT "POINT(4.92682445379144 52.3683029597381)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_Helmersstraat79AC380510FE4ED7geo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_HelmersstraatA9C4B5E2982040EBgeo a geo:Geometry ;
         geo:asWKT "POINT(4.87005356613347 52.3625591188958)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_Holendrecht421EB2A633A24CCDgeo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_HolendrechtADCC62BC79374C65geo a geo:Geometry ;
         geo:asWKT "POINT(4.96245183324276 52.2997825593225)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_Nellestein09C53E2F16E3450Egeo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_Nellestein2CF6600598B64F48geo a geo:Geometry ;
         geo:asWKT "POINT(4.98367350795929 52.308921762602)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_OosthoekA79979E29E964AAFgeo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_Oosthoek834D80BB636840B7geo a geo:Geometry ;
         geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_Reigersbos09493579FDD2441Bgeo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_Reigersbos80E7C72B63804ABEgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97684882036092 52.2937179078976)"^^geo:wktLiteral .
 
-    ns4:opvoGezondheidscentrum_Venserpolder97B3C7CF82504C23geo a geo:Geometry ;
+    ns1:opvoGezondheidscentrum_Venserpolder89063554DE3E4C91geo a geo:Geometry ;
         geo:asWKT "POINT(4.94323116274827 52.3192925974688)"^^geo:wktLiteral .
 
-    ns4:opvoGrip_op_TalentED076AC8D7224B23geo a geo:Geometry ;
+    ns1:opvoGrip_op_TalentD17C58B798C94517geo a geo:Geometry ;
         geo:asWKT "POINT(4.96509672917559 52.3241900686499)"^^geo:wktLiteral .
 
-    ns4:opvoHet_Geboortecentrum2A678509B4214143geo a geo:Geometry ;
+    ns1:opvoHet_Geboortecentrum4CDF04955C6A45B6geo a geo:Geometry ;
         geo:asWKT "POINT(4.87638584124133 52.3659749869885)"^^geo:wktLiteral .
 
-    ns4:opvoHome-Start1A9250500D67427Ageo a geo:Geometry ;
-        geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
-
-    ns4:opvoHome-Start28F928FA2F4547D0geo a geo:Geometry ;
-        geo:asWKT "POINT(4.84869744789742 52.3778778758174)"^^geo:wktLiteral .
-
-    ns4:opvoHome-Start2A19544EB15D4120geo a geo:Geometry ;
-        geo:asWKT "POINT(4.89533400658149 52.3506772126321)"^^geo:wktLiteral .
-
-    ns4:opvoHome-Start8E3D7344627B4420geo a geo:Geometry ;
+    ns1:opvoHome-Start0962131E4F61426Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.88198973368755 52.3859495819503)"^^geo:wktLiteral .
 
-    ns4:opvoHome-Start9C4D00C55F8349A9geo a geo:Geometry ;
-        geo:asWKT "POINT(4.90210339499815 52.3597827618791)"^^geo:wktLiteral .
-
-    ns4:opvoHome-StartB5DAAEEF13864685geo a geo:Geometry ;
-        geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
-
-    ns4:opvoHome-StartC9A527C7BCC44648geo a geo:Geometry ;
+    ns1:opvoHome-Start0C1578678A804D5Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
 
-    ns4:opvoLa_Surprise12815875F6C74FD9geo a geo:Geometry ;
-        geo:asWKT "POINT(4.90028702419074 52.3460420377515)"^^geo:wktLiteral .
+    ns1:opvoHome-Start26DA6538F15F4E69geo a geo:Geometry ;
+        geo:asWKT "POINT(4.89533400658149 52.3506772126321)"^^geo:wktLiteral .
 
-    ns4:opvoMama_CaféFA09345B07C042C6geo a geo:Geometry ;
-        geo:asWKT "POINT(4.93623929333237 52.3651126104588)"^^geo:wktLiteral .
-
-    ns4:opvoMoedercentrum_DouniazadeD570EF2E21FA4309geo a geo:Geometry ;
-        geo:asWKT "POINT(4.90910506298851 52.3884640230981)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Albardakade3443288B585740B8geo a geo:Geometry ;
-        geo:asWKT "POINT(4.80278629499397 52.3780286788053)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Aldebaranplein4770D09FDC2A4434geo a geo:Geometry ;
-        geo:asWKT "POINT(4.8925305760082 52.4112515737294)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_BinnenhofC3599A965C2B4BC0geo a geo:Geometry ;
-        geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Bockesprong6E3229058A554774geo a geo:Geometry ;
-        geo:asWKT "POINT(4.84614077202103 52.3551092403537)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Brederodestraat6F8FD2EF0EB94883geo a geo:Geometry ;
-        geo:asWKT "POINT(4.86213149015507 52.3608345505683)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_FlevopoortCCFC8ED4C94440ABgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_GaasperdamE92D29F5A3294F59geo a geo:Geometry ;
-        geo:asWKT "POINT(4.97649379538095 52.2940671998245)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Het_Meervoud46195428FE244C09geo a geo:Geometry ;
-        geo:asWKT "POINT(4.83932955474092 52.3630587418573)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_IJburg36FF5A7F21304005geo a geo:Geometry ;
-        geo:asWKT "POINT(5.00740212443746 52.3516458031716)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Jan_van_der_Heijdenstraat8B507AD834674158geo a geo:Geometry ;
-        geo:asWKT "POINT(4.90227597500529 52.356080524128)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Klein_Gooioord82502820E6B54BBEgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.9706836526372 52.3212439083427)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_KraijenhoffstraatEDA73AC460C24BFBgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.93019010450497 52.3694124973057)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Lindengracht2578BD82BFBF4E3Bgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.88350675115323 52.3801970968937)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_MagalhaenspleinDF543679A645499Dgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.85428234350039 52.3677559927283)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_OsdorpBB514CE8C8B04F8Ageo a geo:Geometry ;
-        geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Pontanusstraat48C6F5AA3BF44D0Bgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.92998620349585 52.3607026272313)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Slotermeerlaan61D83DEEFEF24204geo a geo:Geometry ;
-        geo:asWKT "POINT(4.81991666740395 52.3786961907812)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Tijl_Uilenspiegelstraat91E3A68BA0E64384geo a geo:Geometry ;
+    ns1:opvoHome-Start670AEB2C91FC4EADgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84869744789742 52.3778778758174)"^^geo:wktLiteral .
 
-    ns4:opvoOKT_Waterlandplein967B36D222F94778geo a geo:Geometry ;
-        geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
+    ns1:opvoHome-Start7859075778E04ABCgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
 
-    ns4:opvoOKT_Westerpark3546D318105F4DD3geo a geo:Geometry ;
-        geo:asWKT "POINT(4.88120583975014 52.3862000567205)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_Wingerdweg0720F53A0B8B401Cgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.91670196390276 52.3910109917999)"^^geo:wktLiteral .
-
-    ns4:opvoOKT_de_Kikker5B2EA7B4E0F0469Dgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
-
-    ns4:opvoOmgangshuis_Noord-Holland22DB5990EC194C27geo a geo:Geometry ;
-        geo:asWKT "POINT(4.82757426293021 52.4422216021704)"^^geo:wktLiteral .
-
-    ns4:opvoOpvoedpunt_en_Spel-o-Theek_IJburgAFE16D39782B4F12geo a geo:Geometry ;
-        geo:asWKT "POINT(5.00740212443746 52.3516458031716)"^^geo:wktLiteral .
-
-    ns4:opvoProFor_bureau_voor_samenlevingsopbouwEA3B95FCDACD44F9geo a geo:Geometry ;
-        geo:asWKT "POINT(4.95867943764597 52.3097326394224)"^^geo:wktLiteral .
-
-    ns4:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam642F9C0689784B2Dgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.89672227781917 52.3591943621047)"^^geo:wktLiteral .
-
-    ns4:opvoSWAZOOM6EDD4F06EFC9467Dgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.97266073745794 52.3231382806074)"^^geo:wktLiteral .
-
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_Boomsspijkertje721B749ACCE04158geo> a geo:Geometry ;
-        geo:asWKT "POINT(4.90348272556877 52.3719577721925)"^^geo:wktLiteral .
-
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_GuppieFA42B984B49E472Bgeo> a geo:Geometry ;
-        geo:asWKT "POINT(4.90630972570487 52.3441612586095)"^^geo:wktLiteral .
-
-    ns4:opvoSpeel-o-theek_KraijenhoffF5C5B4C869DE4177geo a geo:Geometry ;
-        geo:asWKT "POINT(4.93019010450497 52.3694124973057)"^^geo:wktLiteral .
-
-    ns4:opvoSpeel-o-theek_Lindengracht9E530DB1AA664B5Fgeo a geo:Geometry ;
-        geo:asWKT "POINT(4.88350675115323 52.3801970968937)"^^geo:wktLiteral .
-
-    ns4:opvoSpeel-o-theek_Zeeburg00C4E931829548B6geo a geo:Geometry ;
-        geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
-
-    ns4:opvoSpeel-o-theek_de_Baarsjes57DC6955AEFA4364geo a geo:Geometry ;
-        geo:asWKT "POINT(4.85428234350039 52.3677559927283)"^^geo:wktLiteral .
-
-    ns4:opvoSpel_aan_HuisE80AE668B5BC4B6Cgeo a geo:Geometry ;
+    ns1:opvoHome-Start9C3D46725310474Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.90210339499815 52.3597827618791)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp52093E4A8B4E4F74geo> a geo:Geometry ;
+    ns1:opvoHome-StartB252A3E6400E48F7geo a geo:Geometry ;
+        geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
+
+    ns1:opvoLa_SurpriseBD64CC247C3B46E5geo a geo:Geometry ;
+        geo:asWKT "POINT(4.90028702419074 52.3460420377515)"^^geo:wktLiteral .
+
+    ns1:opvoMama_Café45FAE9DE640840B4geo a geo:Geometry ;
+        geo:asWKT "POINT(4.93623929333237 52.3651126104588)"^^geo:wktLiteral .
+
+    ns1:opvoMoedercentrum_Douniazade5BFFBE22C63F46F9geo a geo:Geometry ;
+        geo:asWKT "POINT(4.90910506298851 52.3884640230981)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_AlbardakadeFB8B63372AF94BC2geo a geo:Geometry ;
+        geo:asWKT "POINT(4.80278629499397 52.3780286788053)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Aldebaranplein9601AC7F8CB04725geo a geo:Geometry ;
+        geo:asWKT "POINT(4.8925305760082 52.4112515737294)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Binnenhof2F90DFFD0CD4490Bgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Bockesprong87C26CA72CE64158geo a geo:Geometry ;
+        geo:asWKT "POINT(4.84614077202103 52.3551092403537)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Brederodestraat219A5F41B9B4450Bgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.86213149015507 52.3608345505683)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_FlevopoortFD20AAC2BCAE461Bgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_GaasperdamEC74DC5DA5DF43E9geo a geo:Geometry ;
+        geo:asWKT "POINT(4.97649379538095 52.2940671998245)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Het_MeervoudB8D7549846AD4443geo a geo:Geometry ;
+        geo:asWKT "POINT(4.83932955474092 52.3630587418573)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_IJburgA7E3E85F6F2E4DB8geo a geo:Geometry ;
+        geo:asWKT "POINT(5.00740212443746 52.3516458031716)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Jan_van_der_Heijdenstraat1F0A0AA42A444570geo a geo:Geometry ;
+        geo:asWKT "POINT(4.90227597500529 52.356080524128)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Klein_Gooioord6AD18732201944C2geo a geo:Geometry ;
+        geo:asWKT "POINT(4.9706836526372 52.3212439083427)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Kraijenhoffstraat44B0690AC044427Dgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.93019010450497 52.3694124973057)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Lindengracht7BD1FAEB8DFF4546geo a geo:Geometry ;
+        geo:asWKT "POINT(4.88350675115323 52.3801970968937)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_MagalhaenspleinCA494F106A92480Cgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.85428234350039 52.3677559927283)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Osdorp6819C05942834563geo a geo:Geometry ;
+        geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Pontanusstraat0B0CF13CA11148C4geo a geo:Geometry ;
+        geo:asWKT "POINT(4.92998620349585 52.3607026272313)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Slotermeerlaan7B3C2AD8A8FF4D27geo a geo:Geometry ;
+        geo:asWKT "POINT(4.81991666740395 52.3786961907812)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Tijl_UilenspiegelstraatE2ABA554B0F945D5geo a geo:Geometry ;
+        geo:asWKT "POINT(4.84869744789742 52.3778778758174)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_Waterlandplein18E0A414C57C4EA3geo a geo:Geometry ;
+        geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_WesterparkDCD780AA28AE4117geo a geo:Geometry ;
+        geo:asWKT "POINT(4.88120583975014 52.3862000567205)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_WingerdwegAF058241781C47CDgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.91670196390276 52.3910109917999)"^^geo:wktLiteral .
+
+    ns1:opvoOKT_de_KikkerBA761A6AC8C44A45geo a geo:Geometry ;
+        geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
+
+    ns1:opvoOmgangshuis_Noord-Holland7198706BE6A6446Ageo a geo:Geometry ;
+        geo:asWKT "POINT(4.82757426293021 52.4422216021704)"^^geo:wktLiteral .
+
+    ns1:opvoOpvoedpunt_en_Spel-o-Theek_IJburg23385651A99542D4geo a geo:Geometry ;
+        geo:asWKT "POINT(5.00740212443746 52.3516458031716)"^^geo:wktLiteral .
+
+    ns1:opvoProFor_bureau_voor_samenlevingsopbouw93D5922C01384E90geo a geo:Geometry ;
+        geo:asWKT "POINT(4.95867943764597 52.3097326394224)"^^geo:wktLiteral .
+
+    ns1:opvoPsychodiagnostisch_Centrum_Child_Support_Amsterdam4040F69701474ACDgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.89672227781917 52.3591943621047)"^^geo:wktLiteral .
+
+    ns1:opvoSWAZOOM778C12E596F54C53geo a geo:Geometry ;
+        geo:asWKT "POINT(4.97266073745794 52.3231382806074)"^^geo:wktLiteral .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_BoomsspijkertjeFDCC73707F284E4Dgeo> a geo:Geometry ;
+        geo:asWKT "POINT(4.90348272556877 52.3719577721925)"^^geo:wktLiteral .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpeel-o-theek_'t_GuppieAFD115D2C228433Bgeo> a geo:Geometry ;
+        geo:asWKT "POINT(4.90630972570487 52.3441612586095)"^^geo:wktLiteral .
+
+    ns1:opvoSpeel-o-theek_KraijenhoffBBDF9CC93E63451Dgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.93019010450497 52.3694124973057)"^^geo:wktLiteral .
+
+    ns1:opvoSpeel-o-theek_Lindengracht0FA4A6C7D8314D61geo a geo:Geometry ;
+        geo:asWKT "POINT(4.88350675115323 52.3801970968937)"^^geo:wktLiteral .
+
+    ns1:opvoSpeel-o-theek_Zeeburg073C87ACEA6A4B8Fgeo a geo:Geometry ;
+        geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
+
+    ns1:opvoSpeel-o-theek_de_Baarsjes707D58F443204A38geo a geo:Geometry ;
+        geo:asWKT "POINT(4.85428234350039 52.3677559927283)"^^geo:wktLiteral .
+
+    ns1:opvoSpel_aan_Huis271A24E203544829geo a geo:Geometry ;
+        geo:asWKT "POINT(4.90210339499815 52.3597827618791)"^^geo:wktLiteral .
+
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoSpirit_Jeugd_&_Opvoedhulp1C5BF0B0BD514C51geo> a geo:Geometry ;
         geo:asWKT "POINT(4.86584184990484 52.3411677452672)"^^geo:wktLiteral .
 
-    ns4:opvoStichting_ABCD18E9F63D70B4345geo a geo:Geometry ;
+    ns1:opvoStichting_ABCE4E70898FE0F4EE5geo a geo:Geometry ;
         geo:asWKT "POINT(4.85828389454875 52.3634058940364)"^^geo:wktLiteral .
 
-    ns4:opvoStichting_De_Witte_Tulp15B63F53AAE64583geo a geo:Geometry ;
-        geo:asWKT "POINT(4.92196690191011 52.4114606940384)"^^geo:wktLiteral .
-
-    ns4:opvoStichting_De_Witte_TulpCE50C55740ED4DD6geo a geo:Geometry ;
+    ns1:opvoStichting_De_Witte_TulpDAA7904B3C3A461Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80031884424552 52.3536236364084)"^^geo:wktLiteral .
 
-    ns4:opvoStichting_KorrelatieEAAB998230514924geo a geo:Geometry ;
+    ns1:opvoStichting_De_Witte_TulpF35F1C61A3724AA2geo a geo:Geometry ;
+        geo:asWKT "POINT(4.92196690191011 52.4114606940384)"^^geo:wktLiteral .
+
+    ns1:opvoStichting_Korrelatie88662A512049477Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90258435901653 52.377569325714)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)8324AC0280C74CB0geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Samen_Vooruit_(SaVo)F460FF8B63CE4B0Bgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.97582135054318 52.3225712464425)"^^geo:wktLiteral .
 
-    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)E8881DD68BCB4127geo> a geo:Geometry ;
+    <http://few.vu.nl/~mvr320/KRweb/resource/opvoStichting_Surinaamse_Vrouwen_Bijlmermeer_(SVB)DD7AC2F58769483Fgeo> a geo:Geometry ;
         geo:asWKT "POINT(4.97582135054318 52.3225712464425)"^^geo:wktLiteral .
 
-    ns4:opvoStichting_Vice_Versa953FDE87A15547E2geo a geo:Geometry ;
+    ns1:opvoStichting_Vice_VersaB7FB302CE9B24280geo a geo:Geometry ;
         geo:asWKT "POINT(4.97582135054318 52.3225712464425)"^^geo:wktLiteral .
 
-    ns4:opvoVTO-Vroeghulp5166BA973E6341D0geo a geo:Geometry ;
+    ns1:opvoVTO-Vroeghulp63EB0CCAE8364F2Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90900287705508 52.3625251245642)"^^geo:wktLiteral .
 
     :addictsPrevention a :knowledgeDomain,
