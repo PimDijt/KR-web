@@ -255,28 +255,75 @@ SELECT ?sup ?sub WHERE {
           query += " ?lat"+i;
           query += " ?lng"+i;
         }
-
-
-
         query += " WHERE{\n";
-        for(var i=0; i<count; i++){
-          query += " ?a"+i+" ns2:latitude ?lat"+i+" .\n";
-          query += " ?a"+i+" ns2:longitude ?lng"+i+" .\n";
-          query += " ?a"+i+" rdfs:label ?lab"+i+" .\n";
-          query += " ?a"+i+" rdf:type ?c"+i+" .\n";
-          query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
-          query += " ?a"+i+" geo:hasGeometry ?geo"+i+" .\n";
-        }
+
+        if(count < 3){
+          for(var i=0; i<count; i++){
+            query += " ?a"+i+" ns2:latitude ?lat"+i+" .\n";
+            query += " ?a"+i+" ns2:longitude ?lng"+i+" .\n";
+            query += " ?a"+i+" rdfs:label ?lab"+i+" .\n";
+            query += " ?a"+i+" rdf:type ?c"+i+" .\n";
+            query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
+            query += " ?a"+i+" geo:hasGeometry ?geo"+i+" .\n";
+          }
 
 
-        for(var i=0; i<count; i++){
-          for(var j=i+1; j<count; j++){
-            radius = parseInt(sub_classes[i].radius) + parseInt(sub_classes[j].radius);
-            query += " ?geo"+i+" geof:nearby (?geo"+j+" "+radius+" <http://qudt.org/vocab/unit#Meter>) .\n"
+          for(var i=0; i<count; i++){
+            for(var j=i+1; j<count; j++){
+              radius = parseInt(sub_classes[i].radius) + parseInt(sub_classes[j].radius);
+              query += " ?geo"+i+" geof:nearby (?geo"+j+" "+radius+" <http://qudt.org/vocab/unit#Meter>) .\n"
+            }
+          }
+
+          query += "\n}";
+        }else{
+          for(var i=0; i<(count-2); i++){
+            query += "{\n";
+            query += "SELECT DISTINCT ";
+            for(var j=i+1; j<count; j++){
+              query += " ?lab"+j;
+              query += " ?lat"+j;
+              query += " ?lng"+j;
+              query += " ?geo"+j;
+            }
+            query += " WHERE{\n";
+          }
+
+          query += " ?a"+(count-2)+" ns2:latitude ?lat"+(count-2)+" .\n";
+          query += " ?a"+(count-2)+" ns2:longitude ?lng"+(count-2)+" .\n";
+          query += " ?a"+(count-2)+" rdfs:label ?lab"+(count-2)+" .\n";
+          query += " ?a"+(count-2)+" rdf:type ?c"+(count-2)+" .\n";
+          query += " ?c"+(count-2)+" rdfs:label \""+sub_classes[(count-2)].name+"\"@en .\n";
+          query += " ?a"+(count-2)+" geo:hasGeometry ?geo"+(count-2)+" .\n";
+
+          query += " ?a"+(count-1)+" ns2:latitude ?lat"+(count-1)+" .\n";
+          query += " ?a"+(count-1)+" ns2:longitude ?lng"+(count-1)+" .\n";
+          query += " ?a"+(count-1)+" rdfs:label ?lab"+(count-1)+" .\n";
+          query += " ?a"+(count-1)+" rdf:type ?c"+(count-1)+" .\n";
+          query += " ?c"+(count-1)+" rdfs:label \""+sub_classes[(count-1)].name+"\"@en .\n";
+          query += " ?a"+(count-1)+" geo:hasGeometry ?geo"+(count-1)+" .\n";
+          query += " ?geo"+(count-1)+" geof:nearby (?geo"+(count-2)+" 1000 <http://qudt.org/vocab/unit#Meter>) .\n"
+
+
+          query += " }\n";
+
+          for(var i=(count-2); i>0; i--){
+
+            query += " }\n";
+
+            query += " ?a"+(i-1)+" ns2:latitude ?lat"+(i-1)+" .\n";
+            query += " ?a"+(i-1)+" ns2:longitude ?lng"+(i-1)+" .\n";
+            query += " ?a"+(i-1)+" rdfs:label ?lab"+(i-1)+" .\n";
+            query += " ?a"+(i-1)+" rdf:type ?c"+(i-1)+" .\n";
+            query += " ?c"+(i-1)+" rdfs:label \""+sub_classes[(i-1)].name+"\"@en .\n";
+            query += " ?a"+(i-1)+" geo:hasGeometry ?geo"+(i-1)+" .\n";
+
+            for(var j=i; j<count; j++){
+              query += " ?geo"+(i-1)+" geof:nearby (?geo"+j+" 1000 <http://qudt.org/vocab/unit#Meter>) .\n";
+            }
+            query += "}\n";
           }
         }
-
-        query += "\n}";
         console.log(query);
 
         var endpoint = 'http://localhost:5820/KRweb' + '/query';
@@ -298,7 +345,7 @@ SELECT ?sup ?sub WHERE {
                   map: map,
                   path:circlePath(poly_1_center,sub_classes[0].radius,100),
                   fillColor: '#000000',
-                  fillOpacity: 0.35,
+                  fillOpacity: 0.1,
                 });
 
                 add_marker(poly_1_center, item.lab0.value);
@@ -350,7 +397,7 @@ SELECT ?sup ?sub WHERE {
         });
         var intersectionArea = new google.maps.Polygon({
           fillColor: '#000000',
-          fillOpacity: 0.35,
+          fillOpacity: 0.1,
           paths: coords,
         });
         intersectionArea.setMap(map);
