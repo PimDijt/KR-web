@@ -97,7 +97,8 @@ _:genid2 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/FoodProvider
 
 :FoodProvider a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Food center"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/Homeless
 
@@ -125,7 +126,8 @@ _:genid4 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/InformationCentre
 
 :InformationCentre a owl:Class ;
-	rdfs:subClassOf :Location .
+	rdfs:subClassOf :Location ;
+	rdfs:label "Information centrum"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/JoodsVerpleegZorgHuis
 
@@ -204,7 +206,7 @@ _:genid12 a owl:Restriction ;
 	owl:hasValue :children .
 
 :ToyBorrowing rdfs:subClassOf :leisureLocation ;
-	rdfs:comment "Location to borrow Toys"@en .
+	rdfs:label "Location to borrow Toys"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/addictCare
 
