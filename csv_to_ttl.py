@@ -34,6 +34,9 @@ SCHEMA = Namespace(schema)
 vcard = 'http://www.w3.org/2006/vcard/ns#'
 VCARD = Namespace(vcard)
 
+void = 'http://rdfs.org/ns/void#'
+VOID = Namespace(void)
+
 filenames = ["lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
 short = ["lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
 for i in range(len(filenames)):
@@ -62,6 +65,7 @@ for i in range(len(filenames)):
     dataset.bind('schema',SCHEMA)
     dataset.bind('vcard',VCARD)
     dataset.bind('wgs',WGS)
+    dataset.bind('void',VOID)
 
     # We then get a new dataset object with our URI from the dataset.
     graph = dataset.graph(graph_uri)
@@ -180,7 +184,8 @@ for i in range(len(filenames)):
             for esubstrdb in substrdb:
                 if esubstrdb in row['titel']:
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['dayActivity']))
-                    dataset.add((thing, VOCAB['providesReintegration'], VOCAB['work']))
+                    if "Inloophuis" not in row['titel']:
+                        dataset.add((thing, VOCAB['providesReintegration'], VOCAB['work']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
             for esubstrbw in substrbw:
