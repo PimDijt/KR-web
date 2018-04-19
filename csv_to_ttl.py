@@ -107,7 +107,10 @@ for i in range(len(filenames)):
             if short[i] != "toe":
                 if short[i] != "spzw":
                     if short[i] != 'dakth':
-                        website = Literal(row['internet'], datatype=XSD['string'])
+                        if row['internet'] != "":
+                            website = Literal(row['internet'], datatype=XSD['string'])
+                        else:
+                            websiteBool = False
                     else:
                         if 'http' in row['straat']:
                             website = Literal(row['straat'], datatype=XSD['string'])
@@ -161,7 +164,6 @@ for i in range(len(filenames)):
             dataset.add((thinggeo, RDF['type'], GEO['Geometry']))
             dataset.add((thinggeo, GEO['asWKT'], point))
             dataset.add((thing, RDF['type'], VOCAB['park']))
-        dataset.add((thing, VOID['label'], name))
         if short[i] == "spzw":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['movementIssues']))
             if row['type'] == "Zwembad":
@@ -212,20 +214,23 @@ for i in range(len(filenames)):
                 if substr in row['titel']:
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['night']))
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
-                    dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
-                    dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
+                    dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['day']))
+                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
+                    #dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
             for substr in ["Stichting", "agcentrum", "ctiviteitencentrum"]:
                 if substr in row['titel']:
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
-                    dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
+                    dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['elderly']))
+                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['specialNeedCare']))
         if short[i] == "verz":
             for substr in ["erpleeghuis", "oon", "org"]:
                 if substr in row['titel']:
+                    dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['elderly']))
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['night']))
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
-                    dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
-                    dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
+                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
+                    #dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
             for substr in ["reuma"]:
                 if substr in row['titel']:
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['reumaCare']))
@@ -253,5 +258,6 @@ for i in range(len(filenames)):
                 if subs in row['titel']:
                     dataset.add((thing, VOCAB['providesCoachingAbout'], VOCAB['lhtbtIssues']))
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['lhtbtIssues']))
+            #Vieze dataset...
     with open('outputTTL/'+short[i]+'-rdf.trig','wb') as f:
         dataset.serialize(f, format='trig')
