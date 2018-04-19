@@ -58,6 +58,19 @@
 	void:triples "1157624328"^^xsd:nonNegativeInteger;
 	.
 
+:data-amsterdam_elderly_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam Verpleeg-en-Verzorgingshuizen Subset"@en;
+	dcterms:description "The elderly support and care organistaions in Amsterdam."@en;
+#Provenance
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/verpleeg-en-verzorgingshuizen/export/csv>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/verz-rdf.trig>;
+	.
+
 :data-amsterdam_sport_subset
 #General Metadata
 	a void:Dataset;
@@ -70,6 +83,7 @@
 	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
 #Dataset Access
 	void:dataDump <http://few.vu.nl/~mvr320/KRweb/spzw-rdf.trig>;
+	.
 
 :data-amsterdam_dentist_subset
 #General Metadata
@@ -83,6 +97,7 @@
 #Dataset Access
 	void:dataDump <http://few.vu.nl/~mvr320/KRweb/tooth-rdf.trig>;
 	.
+
 :data-amsterdam_homeless_subset
 #General Metadata
 	a void:Dataset;
@@ -94,6 +109,7 @@
 	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
 #Dataset Access
 	void:dataDump <http://few.vu.nl/~mvr320/KRweb/dakth-rdf.trig>;
+	.
 
 # Description of the ChemSpider subset relating to DrugBank
 :chemSpiderDataset_drugbank_subset
