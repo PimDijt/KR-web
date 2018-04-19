@@ -58,6 +58,19 @@
 	void:triples "1157624328"^^xsd:nonNegativeInteger;
 	.
 
+:data-amsterdam_toeg_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam entrance for physical disabled Subset"@en;
+	dcterms:description "The building of the government which are reachable for disabled people."@en;
+#Provenance
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/toegankelijkheid-gebouwen-2-8-2016/export/csv>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/zorbep-rdf.trig>;
+	.
+
 :data-amsterdam_zorbep_subset
 #General Metadata
 	a void:Dataset;
