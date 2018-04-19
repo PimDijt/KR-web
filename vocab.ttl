@@ -123,7 +123,8 @@ _:genid3 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/LivingLocation
 
 :LivingLocation a owl:Class ;
-	rdfs:subClassOf :daytimeLocation .
+	rdfs:subClassOf :daytimeLocation ;
+	rdfs:label "Living location"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/Location
 

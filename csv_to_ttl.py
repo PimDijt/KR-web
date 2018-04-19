@@ -133,6 +133,7 @@ for i in range(len(filenames)):
             dataset.add((thing, SCHEMA['PostalAddress'], addr))
             dataset.add((thing, VCARD['hasAddress'], addr))
             dataset.add((thing, DBO['address'], addr))
+            #eventueel voor BAG
             if short[i]!="toe":
                 if websiteBool:
                     dataset.add((thing, VOCAB['website'], website))
