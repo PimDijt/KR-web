@@ -258,11 +258,6 @@ _:genid9 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/homelessLivingLocation
 
 :homelessLivingLocation a owl:Class ;
-	rdfs:subClassOf :LivingLocation .
-# 
-# http://few.vu.nl/~mvr320/KRweb/vocab/homelessWorkLocation
-
-:homelessWorkLocation a owl:Class ;
 	owl:equivalentClass _:genid10 .
 
 _:genid10 owl:intersectionOf _:genid13 .
@@ -281,11 +276,40 @@ _:genid11 a rdf:List ;
 
 _:genid12 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
-	owl:hasValue :work .
+	owl:hasValue :livingAccomodation .
 
 _:genid11 rdf:rest rdf:nil .
 
 _:genid10 a owl:Class .
+
+:homelessLivingLocation rdfs:subClassOf :LivingLocation .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/homelessWorkLocation
+
+:homelessWorkLocation a owl:Class ;
+	owl:equivalentClass _:genid15 .
+
+_:genid15 owl:intersectionOf _:genid18 .
+
+_:genid18 a rdf:List ;
+	rdf:first _:genid19 .
+
+_:genid19 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :homelessReintegration .
+
+_:genid18 rdf:rest _:genid16 .
+
+_:genid16 a rdf:List ;
+	rdf:first _:genid17 .
+
+_:genid17 a owl:Restriction ;
+	owl:onProperty :providesReintegration ;
+	owl:hasValue :work .
+
+_:genid16 rdf:rest rdf:nil .
+
+_:genid15 a owl:Class .
 
 :homelessWorkLocation rdfs:subClassOf :DayWork .
 # 
@@ -461,7 +485,7 @@ _:genid10 a owl:Class .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/livingAccomodation
 
-:livingAccomodation a owl:NamedIndividual , :reintegrationPossibilites .
+:livingAccomodation a owl:NamedIndividual , :reintegrationHelp , :reintegrationPossibilites .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/medicalIssues
 
@@ -513,14 +537,14 @@ _:genid10 a owl:Class .
 # 
 # 
 
-_:genid15 a owl:AllDifferent ;
-	owl:distinctMembers _:genid17 .
+_:genid20 a owl:AllDifferent ;
+	owl:distinctMembers _:genid22 .
 
-_:genid17 a rdf:List ;
+_:genid22 a rdf:List ;
 	rdf:first :adults ;
-	rdf:rest _:genid16 .
+	rdf:rest _:genid21 .
 
-_:genid16 a rdf:List ;
+_:genid21 a rdf:List ;
 	rdf:first :children ;
 	rdf:rest rdf:nil .
 # 
