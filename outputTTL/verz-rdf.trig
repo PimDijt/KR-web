@@ -16,9 +16,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    g13data:verzbeth_shalom_joods_zorgcentrum_en_verpleeghuis1F143A3CF4CD4E8E a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzbeth_shalom_joods_zorgcentrum_en_verpleeghuis73DADA1D2797433F a g13vocab:instantie ;
         rdfs:label "Beth Shalom, Joods zorgcentrum en verpleeghuis"^^xsd:string ;
         dbo:PostalCode "1083DE"^^xsd:string ;
         dbo:Website "http://www.bethshalom.nl"^^xsd:string ;
@@ -28,18 +26,19 @@
         g13vocab:providesInformationAbout g13vocab:jewElderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.bethshalom.nl"^^xsd:string ;
         schema:PostalAddress "Kastelenstraat 80"^^xsd:string ;
         schema:WebSite "http://www.bethshalom.nl"^^xsd:string ;
         schema:postalCode "1083DE"^^xsd:string ;
-        geo:hasGeometry g13data:verzbeth_shalom_joods_zorgcentrum_en_verpleeghuis1F143A3CF4CD4E8Egeo ;
+        geo:hasGeometry g13data:verzbeth_shalom_joods_zorgcentrum_en_verpleeghuis73DADA1D2797433Fgeo ;
         rdfs:seeAlso "http://www.bethshalom.nl"^^xsd:string ;
         wgs:lat "52.3262060145577"^^xsd:float ;
         wgs:long "4.88100928944689"^^xsd:float ;
         vcard:hasAddress "Kastelenstraat 80"^^xsd:string ;
         vcard:hasPostalCode "1083DE"^^xsd:string .
 
-    g13data:verzcentrum_van_ouderen_flessemanB6F9F8C82F01451A a g13vocab:instantie ;
+    g13data:verzcentrum_van_ouderen_flesseman834A238C445345DC a g13vocab:instantie ;
         rdfs:label "Centrum van ouderen Flesseman"^^xsd:string ;
         dbo:PostalCode "1011MA"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -51,16 +50,14 @@
         schema:PostalAddress "Nieuwmarkt 77"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1011MA"^^xsd:string ;
-        geo:hasGeometry g13data:verzcentrum_van_ouderen_flessemanB6F9F8C82F01451Ageo ;
+        geo:hasGeometry g13data:verzcentrum_van_ouderen_flesseman834A238C445345DCgeo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3720091926606"^^xsd:float ;
         wgs:long "4.90067748047184"^^xsd:float ;
         vcard:hasAddress "Nieuwmarkt 77"^^xsd:string ;
         vcard:hasPostalCode "1011MA"^^xsd:string .
 
-    g13data:verzcentrum_voor_verpleeghuiszorg_de_poortD80E17EE4F814693 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzcentrum_voor_verpleeghuiszorg_de_poort707C6D5E9FBC4A4E a g13vocab:instantie ;
         rdfs:label "Centrum voor verpleeghuiszorg De Poort"^^xsd:string ;
         dbo:PostalCode "1052LS"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -70,18 +67,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Hugo de Grootkade 18"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1052LS"^^xsd:string ;
-        geo:hasGeometry g13data:verzcentrum_voor_verpleeghuiszorg_de_poortD80E17EE4F814693geo ;
+        geo:hasGeometry g13data:verzcentrum_voor_verpleeghuiszorg_de_poort707C6D5E9FBC4A4Egeo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3725185912838"^^xsd:float ;
         wgs:long "4.87236037950261"^^xsd:float ;
         vcard:hasAddress "Hugo de Grootkade 18"^^xsd:string ;
         vcard:hasPostalCode "1052LS"^^xsd:string .
 
-    g13data:verzde_goodwillburgh_198127531C5A24C2E a g13vocab:instantie ;
+    g13data:verzde_goodwillburgh_18D0048D9D73A4839 a g13vocab:instantie ;
         rdfs:label "De Goodwillburgh"^^xsd:string ;
         dbo:PostalCode "1011SR"^^xsd:string ;
         dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -93,14 +91,14 @@
         schema:PostalAddress "Anne Frankstraat 2"^^xsd:string ;
         schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
         schema:postalCode "1011SR"^^xsd:string ;
-        geo:hasGeometry g13data:verzde_goodwillburgh_198127531C5A24C2Egeo ;
+        geo:hasGeometry g13data:verzde_goodwillburgh_18D0048D9D73A4839geo ;
         rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
         wgs:lat "52.3694369076746"^^xsd:float ;
         wgs:long "4.909060522152"^^xsd:float ;
         vcard:hasAddress "Anne Frankstraat 2"^^xsd:string ;
         vcard:hasPostalCode "1011SR"^^xsd:string .
 
-    g13data:verzde_hudsonhofF4801D9FB22B4F5C a g13vocab:instantie ;
+    g13data:verzde_hudsonhof93F78095D02E43D9 a g13vocab:instantie ;
         rdfs:label "De Hudsonhof"^^xsd:string ;
         dbo:PostalCode "1057KP"^^xsd:string ;
         dbo:Website "http://hudsonhof.nl"^^xsd:string ;
@@ -112,14 +110,14 @@
         schema:PostalAddress "Hudsonhof 1"^^xsd:string ;
         schema:WebSite "http://hudsonhof.nl"^^xsd:string ;
         schema:postalCode "1057KP"^^xsd:string ;
-        geo:hasGeometry g13data:verzde_hudsonhofF4801D9FB22B4F5Cgeo ;
+        geo:hasGeometry g13data:verzde_hudsonhof93F78095D02E43D9geo ;
         rdfs:seeAlso "http://hudsonhof.nl"^^xsd:string ;
         wgs:lat "52.3697863641605"^^xsd:float ;
         wgs:long "4.85209947315776"^^xsd:float ;
         vcard:hasAddress "Hudsonhof 1"^^xsd:string ;
         vcard:hasPostalCode "1057KP"^^xsd:string .
 
-    g13data:verzevean_de_kimmeA204CD10C4D0472C a g13vocab:instantie ;
+    g13data:verzevean_de_kimme5A934FCB78DB4960 a g13vocab:instantie ;
         rdfs:label "Evean De Kimme"^^xsd:string ;
         dbo:PostalCode "1024BV"^^xsd:string ;
         dbo:Website "http://www.evean.nl"^^xsd:string ;
@@ -131,14 +129,14 @@
         schema:PostalAddress "Beemsterstraat 546"^^xsd:string ;
         schema:WebSite "http://www.evean.nl"^^xsd:string ;
         schema:postalCode "1024BV"^^xsd:string ;
-        geo:hasGeometry g13data:verzevean_de_kimmeA204CD10C4D0472Cgeo ;
+        geo:hasGeometry g13data:verzevean_de_kimme5A934FCB78DB4960geo ;
         rdfs:seeAlso "http://www.evean.nl"^^xsd:string ;
         wgs:lat "52.3963104712899"^^xsd:float ;
         wgs:long "4.95108431187849"^^xsd:float ;
         vcard:hasAddress "Beemsterstraat 546"^^xsd:string ;
         vcard:hasPostalCode "1024BV"^^xsd:string .
 
-    g13data:verzevean_eduard_douwes_dekker4A3D308005744F47 a g13vocab:instantie ;
+    g13data:verzevean_eduard_douwes_dekkerD51F47FB6A25495C a g13vocab:instantie ;
         rdfs:label "Evean Eduard Douwes Dekker"^^xsd:string ;
         dbo:PostalCode "1034XZ"^^xsd:string ;
         dbo:Website "http://www.evean.nl"^^xsd:string ;
@@ -150,14 +148,14 @@
         schema:PostalAddress "Schoenerstraat 11"^^xsd:string ;
         schema:WebSite "http://www.evean.nl"^^xsd:string ;
         schema:postalCode "1034XZ"^^xsd:string ;
-        geo:hasGeometry g13data:verzevean_eduard_douwes_dekker4A3D308005744F47geo ;
+        geo:hasGeometry g13data:verzevean_eduard_douwes_dekkerD51F47FB6A25495Cgeo ;
         rdfs:seeAlso "http://www.evean.nl"^^xsd:string ;
         wgs:lat "52.404645096468"^^xsd:float ;
         wgs:long "4.90769611986109"^^xsd:float ;
         vcard:hasAddress "Schoenerstraat 11"^^xsd:string ;
         vcard:hasPostalCode "1034XZ"^^xsd:string .
 
-    g13data:verzevean_henriette_roland_holst_1FF1C8B7F26744072 a g13vocab:instantie ;
+    g13data:verzevean_henriette_roland_holst_11960962561A946E2 a g13vocab:instantie ;
         rdfs:label "Evean Henriëtte Roland Holst"^^xsd:string ;
         dbo:PostalCode "1104NB"^^xsd:string ;
         dbo:Website "http://www.evean.nl"^^xsd:string ;
@@ -169,14 +167,14 @@
         schema:PostalAddress "Kortvoort 100"^^xsd:string ;
         schema:WebSite "http://www.evean.nl"^^xsd:string ;
         schema:postalCode "1104NB"^^xsd:string ;
-        geo:hasGeometry g13data:verzevean_henriette_roland_holst_1FF1C8B7F26744072geo ;
+        geo:hasGeometry g13data:verzevean_henriette_roland_holst_11960962561A946E2geo ;
         rdfs:seeAlso "http://www.evean.nl"^^xsd:string ;
         wgs:lat "52.31428419715"^^xsd:float ;
         wgs:long "4.96978099676363"^^xsd:float ;
         vcard:hasAddress "Kortvoort 100"^^xsd:string ;
         vcard:hasPostalCode "1104NB"^^xsd:string .
 
-    g13data:verzevean_korthagenhuis2B99903430FC4AD3 a g13vocab:instantie ;
+    g13data:verzevean_korthagenhuis4E0AC37411364612 a g13vocab:instantie ;
         rdfs:label "Evean Korthagenhuis"^^xsd:string ;
         dbo:PostalCode "1025ZZ"^^xsd:string ;
         dbo:Website "http://www.evean.nl"^^xsd:string ;
@@ -188,14 +186,14 @@
         schema:PostalAddress "Amerbos 590"^^xsd:string ;
         schema:WebSite "http://www.evean.nl"^^xsd:string ;
         schema:postalCode "1025ZZ"^^xsd:string ;
-        geo:hasGeometry g13data:verzevean_korthagenhuis2B99903430FC4AD3geo ;
+        geo:hasGeometry g13data:verzevean_korthagenhuis4E0AC37411364612geo ;
         rdfs:seeAlso "http://www.evean.nl"^^xsd:string ;
         wgs:lat "52.4048428761997"^^xsd:float ;
         wgs:long "4.93987619079198"^^xsd:float ;
         vcard:hasAddress "Amerbos 590"^^xsd:string ;
         vcard:hasPostalCode "1025ZZ"^^xsd:string .
 
-    g13data:verzevean_twiskehuis_35B096839380245D4 a g13vocab:instantie ;
+    g13data:verzevean_twiskehuis_3E1F4FC929F5E4F58 a g13vocab:instantie ;
         rdfs:label "Evean Twiskehuis"^^xsd:string ;
         dbo:PostalCode "1033AN"^^xsd:string ;
         dbo:Website "http://www.evean.nl"^^xsd:string ;
@@ -207,14 +205,14 @@
         schema:PostalAddress "Watermanstraat 2"^^xsd:string ;
         schema:WebSite "http://www.evean.nl"^^xsd:string ;
         schema:postalCode "1033AN"^^xsd:string ;
-        geo:hasGeometry g13data:verzevean_twiskehuis_35B096839380245D4geo ;
+        geo:hasGeometry g13data:verzevean_twiskehuis_3E1F4FC929F5E4F58geo ;
         rdfs:seeAlso "http://www.evean.nl"^^xsd:string ;
         wgs:lat "52.4160894934834"^^xsd:float ;
         wgs:long "4.88037940833226"^^xsd:float ;
         vcard:hasAddress "Watermanstraat 2"^^xsd:string ;
         vcard:hasPostalCode "1033AN"^^xsd:string .
 
-    g13data:verzhet_flevohuisD95B66206BEF4542 a g13vocab:instantie ;
+    g13data:verzhet_flevohuis9E8A71CDA9F540DA a g13vocab:instantie ;
         rdfs:label "Het Flevohuis"^^xsd:string ;
         dbo:PostalCode "1095LD"^^xsd:string ;
         dbo:Website "http://www.zgao.nl"^^xsd:string ;
@@ -226,14 +224,14 @@
         schema:PostalAddress "Kramatplantsoen 263"^^xsd:string ;
         schema:WebSite "http://www.zgao.nl"^^xsd:string ;
         schema:postalCode "1095LD"^^xsd:string ;
-        geo:hasGeometry g13data:verzhet_flevohuisD95B66206BEF4542geo ;
+        geo:hasGeometry g13data:verzhet_flevohuis9E8A71CDA9F540DAgeo ;
         rdfs:seeAlso "http://www.zgao.nl"^^xsd:string ;
         wgs:lat "52.3655533336182"^^xsd:float ;
         wgs:long "4.94586623079635"^^xsd:float ;
         vcard:hasAddress "Kramatplantsoen 263"^^xsd:string ;
         vcard:hasPostalCode "1095LD"^^xsd:string .
 
-    g13data:verzhuize_plantage8C062FFAC6434EE1 a g13vocab:instantie ;
+    g13data:verzhuize_plantage97D1D3E89F864E69 a g13vocab:instantie ;
         rdfs:label "Huize Plantage"^^xsd:string ;
         dbo:PostalCode "1018CP"^^xsd:string ;
         dbo:Website "http://huizeplantage.nl"^^xsd:string ;
@@ -245,14 +243,14 @@
         schema:PostalAddress "Henri Polaklaan 11A"^^xsd:string ;
         schema:WebSite "http://huizeplantage.nl"^^xsd:string ;
         schema:postalCode "1018CP"^^xsd:string ;
-        geo:hasGeometry g13data:verzhuize_plantage8C062FFAC6434EE1geo ;
+        geo:hasGeometry g13data:verzhuize_plantage97D1D3E89F864E69geo ;
         rdfs:seeAlso "http://huizeplantage.nl"^^xsd:string ;
         wgs:lat "52.3678551439604"^^xsd:float ;
         wgs:long "4.91130936019787"^^xsd:float ;
         vcard:hasAddress "Henri Polaklaan 11A"^^xsd:string ;
         vcard:hasPostalCode "1018CP"^^xsd:string .
 
-    g13data:verzla_rieshuis_16AA39A27ADD04866 a g13vocab:instantie ;
+    g13data:verzla_rieshuis_1FAE7F722536A4CB0 a g13vocab:instantie ;
         rdfs:label "LA Rieshuis"^^xsd:string ;
         dbo:PostalCode "1013JR"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -264,14 +262,14 @@
         schema:PostalAddress "Vinkenstraat 175"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1013JR"^^xsd:string ;
-        geo:hasGeometry g13data:verzla_rieshuis_16AA39A27ADD04866geo ;
+        geo:hasGeometry g13data:verzla_rieshuis_1FAE7F722536A4CB0geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3835979652873"^^xsd:float ;
         wgs:long "4.88433471579719"^^xsd:float ;
         vcard:hasAddress "Vinkenstraat 175"^^xsd:string ;
         vcard:hasPostalCode "1013JR"^^xsd:string .
 
-    g13data:verzlutherhofD3C8FF523E804883 a g13vocab:instantie ;
+    g13data:verzlutherhofC9C7FA6F718C4300 a g13vocab:instantie ;
         rdfs:label "Lutherhof"^^xsd:string ;
         dbo:PostalCode "1054VJ"^^xsd:string ;
         dbo:Website "http://www.lutherhof.nl"^^xsd:string ;
@@ -283,14 +281,14 @@
         schema:PostalAddress "Staringplein 9"^^xsd:string ;
         schema:WebSite "http://www.lutherhof.nl"^^xsd:string ;
         schema:postalCode "1054VJ"^^xsd:string ;
-        geo:hasGeometry g13data:verzlutherhofD3C8FF523E804883geo ;
+        geo:hasGeometry g13data:verzlutherhofC9C7FA6F718C4300geo ;
         rdfs:seeAlso "http://www.lutherhof.nl"^^xsd:string ;
         wgs:lat "52.3607955999308"^^xsd:float ;
         wgs:long "4.8634954794259"^^xsd:float ;
         vcard:hasAddress "Staringplein 9"^^xsd:string ;
         vcard:hasPostalCode "1054VJ"^^xsd:string .
 
-    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie0D9F4B851F934BB7 a g13vocab:instantie ;
+    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie22138E52A1C94999 a g13vocab:instantie ;
         rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
         dbo:PostalCode "1056AB"^^xsd:string ;
         dbo:Website "http://www.reade.nl"^^xsd:string ;
@@ -298,19 +296,20 @@
         dbp:latitude 5.237074e+01 ;
         dbp:longitude 4.844408e+00 ;
         g13vocab:providesInformationAbout g13vocab:elderlyCare,
+            g13vocab:movementIssues,
             g13vocab:reumaCare ;
         g13vocab:website "http://www.reade.nl"^^xsd:string ;
         schema:PostalAddress "Dr. Jan van Breemenstraat 2"^^xsd:string ;
         schema:WebSite "http://www.reade.nl"^^xsd:string ;
         schema:postalCode "1056AB"^^xsd:string ;
-        geo:hasGeometry g13data:verzreade_centrum_voor_reumatologie_en_revalidatie0D9F4B851F934BB7geo ;
+        geo:hasGeometry g13data:verzreade_centrum_voor_reumatologie_en_revalidatie22138E52A1C94999geo ;
         rdfs:seeAlso "http://www.reade.nl"^^xsd:string ;
         wgs:lat "52.3707400053483"^^xsd:float ;
         wgs:long "4.84440831816034"^^xsd:float ;
         vcard:hasAddress "Dr. Jan van Breemenstraat 2"^^xsd:string ;
         vcard:hasPostalCode "1056AB"^^xsd:string .
 
-    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie_19E2BC84C324E4616 a g13vocab:instantie ;
+    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie_138F920F2E3214750 a g13vocab:instantie ;
         rdfs:label "Reade, centrum voor reumatologie en revalidatie"^^xsd:string ;
         dbo:PostalCode "1054HW"^^xsd:string ;
         dbo:Website "http://www.reade.nl"^^xsd:string ;
@@ -318,21 +317,20 @@
         dbp:latitude 5.236038e+01 ;
         dbp:longitude 4.866849e+00 ;
         g13vocab:providesInformationAbout g13vocab:elderlyCare,
+            g13vocab:movementIssues,
             g13vocab:reumaCare ;
         g13vocab:website "http://www.reade.nl"^^xsd:string ;
         schema:PostalAddress "Overtoom 283"^^xsd:string ;
         schema:WebSite "http://www.reade.nl"^^xsd:string ;
         schema:postalCode "1054HW"^^xsd:string ;
-        geo:hasGeometry g13data:verzreade_centrum_voor_reumatologie_en_revalidatie_19E2BC84C324E4616geo ;
+        geo:hasGeometry g13data:verzreade_centrum_voor_reumatologie_en_revalidatie_138F920F2E3214750geo ;
         rdfs:seeAlso "http://www.reade.nl"^^xsd:string ;
         wgs:lat "52.3603790314609"^^xsd:float ;
         wgs:long "4.86684928835166"^^xsd:float ;
         vcard:hasAddress "Overtoom 283"^^xsd:string ;
         vcard:hasPostalCode "1054HW"^^xsd:string .
 
-    g13data:verzverpleeghuis_de_die461738322D434002 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_de_dieAB530208CE3C48D4 a g13vocab:instantie ;
         rdfs:label "Verpleeghuis De Die"^^xsd:string ;
         dbo:PostalCode "1025VR"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -342,20 +340,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Loenermark 900"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1025VR"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_de_die461738322D434002geo ;
+        geo:hasGeometry g13data:verzverpleeghuis_de_dieAB530208CE3C48D4geo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3989171074832"^^xsd:float ;
         wgs:long "4.93203111019125"^^xsd:float ;
         vcard:hasAddress "Loenermark 900"^^xsd:string ;
         vcard:hasPostalCode "1025VR"^^xsd:string .
 
-    g13data:verzverpleeghuis_de_open_hof7F081F60E93B46F2 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_de_open_hof1C1799C3F69744C4 a g13vocab:instantie ;
         rdfs:label "Verpleeghuis De Open Hof"^^xsd:string ;
         dbo:PostalCode "1097PP"^^xsd:string ;
         dbo:Website "http://www.zgao.nl"^^xsd:string ;
@@ -365,20 +362,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.zgao.nl"^^xsd:string ;
         schema:PostalAddress "Fahrenheitstraat 115"^^xsd:string ;
         schema:WebSite "http://www.zgao.nl"^^xsd:string ;
         schema:postalCode "1097PP"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_de_open_hof7F081F60E93B46F2geo ;
+        geo:hasGeometry g13data:verzverpleeghuis_de_open_hof1C1799C3F69744C4geo ;
         rdfs:seeAlso "http://www.zgao.nl"^^xsd:string ;
         wgs:lat "52.3455550497961"^^xsd:float ;
         wgs:long "4.92682557250361"^^xsd:float ;
         vcard:hasAddress "Fahrenheitstraat 115"^^xsd:string ;
         vcard:hasPostalCode "1097PP"^^xsd:string .
 
-    g13data:verzverpleeghuis_dr_sarphatihuis4F39A3AB273045F1 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_dr_sarphatihuisD1F976C03B1C4D85 a g13vocab:instantie ;
         rdfs:label "Verpleeghuis Dr. Sarphatihuis"^^xsd:string ;
         dbo:PostalCode "1018WC"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -388,20 +384,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Roetersstraat 2"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1018WC"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_dr_sarphatihuis4F39A3AB273045F1geo ;
+        geo:hasGeometry g13data:verzverpleeghuis_dr_sarphatihuisD1F976C03B1C4D85geo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3646974046891"^^xsd:float ;
         wgs:long "4.9105504148047"^^xsd:float ;
         vcard:hasAddress "Roetersstraat 2"^^xsd:string ;
         vcard:hasPostalCode "1018WC"^^xsd:string .
 
-    g13data:verzverpleeghuis_gaasperdamC6F493E195E84582 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_gaasperdam4F8F1050092349DC a g13vocab:instantie ;
         rdfs:label "Verpleeghuis Gaasperdam"^^xsd:string ;
         dbo:PostalCode "1107HG"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -411,20 +406,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Soestdijkstraat 4"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1107HG"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_gaasperdamC6F493E195E84582geo ;
+        geo:hasGeometry g13data:verzverpleeghuis_gaasperdam4F8F1050092349DCgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.2954871199986"^^xsd:float ;
         wgs:long "4.97904597848879"^^xsd:float ;
         vcard:hasAddress "Soestdijkstraat 4"^^xsd:string ;
         vcard:hasPostalCode "1107HG"^^xsd:string .
 
-    g13data:verzverpleeghuis_jan_bongastraatB518F438B5434B95 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_jan_bongastraat9C8A0E5A27B34667 a g13vocab:instantie ;
         rdfs:label "Verpleeghuis Jan Bongastraat"^^xsd:string ;
         dbo:PostalCode "1067HZ"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -434,20 +428,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Jan Bongastraat 5"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1067HZ"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_jan_bongastraatB518F438B5434B95geo ;
+        geo:hasGeometry g13data:verzverpleeghuis_jan_bongastraat9C8A0E5A27B34667geo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3799391732458"^^xsd:float ;
         wgs:long "4.80381857640939"^^xsd:float ;
         vcard:hasAddress "Jan Bongastraat 5"^^xsd:string ;
         vcard:hasPostalCode "1067HZ"^^xsd:string .
 
-    g13data:verzverpleeghuis_oostpoort068C03E332D94328 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_oostpoort903D5F863CC3417B a g13vocab:instantie ;
         rdfs:label "Verpleeghuis Oostpoort"^^xsd:string ;
         dbo:PostalCode "1093KP"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -457,20 +450,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Polderweg 340"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1093KP"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_oostpoort068C03E332D94328geo ;
+        geo:hasGeometry g13data:verzverpleeghuis_oostpoort903D5F863CC3417Bgeo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3581478585392"^^xsd:float ;
         wgs:long "4.93226710611238"^^xsd:float ;
         vcard:hasAddress "Polderweg 340"^^xsd:string ;
         vcard:hasPostalCode "1093KP"^^xsd:string .
 
-    g13data:verzverpleeghuis_slotervaartB53B3CA9DCD9446B a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverpleeghuis_slotervaart587703232050429D a g13vocab:instantie ;
         rdfs:label "Verpleeghuis Slotervaart"^^xsd:string ;
         dbo:PostalCode "1066EC"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -480,20 +472,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Louwesweg 10"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1066EC"^^xsd:string ;
-        geo:hasGeometry g13data:verzverpleeghuis_slotervaartB53B3CA9DCD9446Bgeo ;
+        geo:hasGeometry g13data:verzverpleeghuis_slotervaart587703232050429Dgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.347391770001"^^xsd:float ;
         wgs:long "4.82367762993562"^^xsd:float ;
         vcard:hasAddress "Louwesweg 10"^^xsd:string ;
         vcard:hasPostalCode "1066EC"^^xsd:string .
 
-    g13data:verzverzorgingshuis_emmahofC7AA955767884211 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzverzorgingshuis_emmahof5D46C8224B494944 a g13vocab:instantie ;
         rdfs:label "Verzorgingshuis Emmahof"^^xsd:string ;
         dbo:PostalCode "1071JB"^^xsd:string ;
         dbo:Website "http://www.pro-senectute.nl"^^xsd:string ;
@@ -503,20 +494,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.pro-senectute.nl"^^xsd:string ;
         schema:PostalAddress "Emmastraat 33"^^xsd:string ;
         schema:WebSite "http://www.pro-senectute.nl"^^xsd:string ;
         schema:postalCode "1071JB"^^xsd:string ;
-        geo:hasGeometry g13data:verzverzorgingshuis_emmahofC7AA955767884211geo ;
+        geo:hasGeometry g13data:verzverzorgingshuis_emmahof5D46C8224B494944geo ;
         rdfs:seeAlso "http://www.pro-senectute.nl"^^xsd:string ;
         wgs:lat "52.3530066528232"^^xsd:float ;
         wgs:long "4.87039972599071"^^xsd:float ;
         vcard:hasAddress "Emmastraat 33"^^xsd:string ;
         vcard:hasPostalCode "1071JB"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_de_denD5230EA5C04042B3 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_de_denCE7971F90B844BD5 a g13vocab:instantie ;
         rdfs:label "Woon- en zorgcentrum De Den"^^xsd:string ;
         dbo:PostalCode "1067BL"^^xsd:string ;
         dbo:Website "http://www.puurzuid.nl"^^xsd:string ;
@@ -526,20 +516,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.puurzuid.nl"^^xsd:string ;
         schema:PostalAddress "Ruys de Beerenbrouckstraat 23"^^xsd:string ;
         schema:WebSite "http://www.puurzuid.nl"^^xsd:string ;
         schema:postalCode "1067BL"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_denD5230EA5C04042B3geo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_denCE7971F90B844BD5geo ;
         rdfs:seeAlso "http://www.puurzuid.nl"^^xsd:string ;
         wgs:lat "52.3822507562623"^^xsd:float ;
         wgs:long "4.80417004427809"^^xsd:float ;
         vcard:hasAddress "Ruys de Beerenbrouckstraat 23"^^xsd:string ;
         vcard:hasPostalCode "1067BL"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_de_riekerhofB7FF33933936494A a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_de_riekerhofCFD53B46C6134148 a g13vocab:instantie ;
         rdfs:label "Woon- en Zorgcentrum De Riekerhof"^^xsd:string ;
         dbo:PostalCode "1062CK"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -549,20 +538,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Johan Jongkindstraat 3"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1062CK"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_riekerhofB7FF33933936494Ageo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_riekerhofCFD53B46C6134148geo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3591534857157"^^xsd:float ;
         wgs:long "4.84021945296963"^^xsd:float ;
         vcard:hasAddress "Johan Jongkindstraat 3"^^xsd:string ;
         vcard:hasPostalCode "1062CK"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_de_schutse4401329CC3924ED9 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_de_schutse445D08BA495946DF a g13vocab:instantie ;
         rdfs:label "Woon- en zorgcentrum De Schutse"^^xsd:string ;
         dbo:PostalCode "1065BH"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -572,20 +560,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Comeniusstraat 20"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1065BH"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_schutse4401329CC3924ED9geo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_schutse445D08BA495946DFgeo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3594481743426"^^xsd:float ;
         wgs:long "4.8225849901937"^^xsd:float ;
         vcard:hasAddress "Comeniusstraat 20"^^xsd:string ;
         vcard:hasPostalCode "1065BH"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_de_werf4239616BD70E4E70 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_de_werf010DA51C83CE47B9 a g13vocab:instantie ;
         rdfs:label "Woon- en zorgcentrum De Werf"^^xsd:string ;
         dbo:PostalCode "1052WN"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -595,20 +582,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Van Reigersbergenstraat 829"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1052WN"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_werf4239616BD70E4E70geo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_de_werf010DA51C83CE47B9geo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3724663455495"^^xsd:float ;
         wgs:long "4.86846433520237"^^xsd:float ;
         vcard:hasAddress "Van Reigersbergenstraat 829"^^xsd:string ;
         vcard:hasPostalCode "1052WN"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_nellestein93307FD722C4404E a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_nellesteinC9271283E9C14420 a g13vocab:instantie ;
         rdfs:label "Woon- en zorgcentrum Nellestein"^^xsd:string ;
         dbo:PostalCode "1108GH"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -618,20 +604,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Lopikhof 1"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1108GH"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_nellestein93307FD722C4404Egeo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_nellesteinC9271283E9C14420geo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3094556713152"^^xsd:float ;
         wgs:long "4.98473909271888"^^xsd:float ;
         vcard:hasAddress "Lopikhof 1"^^xsd:string ;
         vcard:hasPostalCode "1108GH"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_torendael1AF454956E3F41C6 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_torendaelAEBE19FB3D1C46C7 a g13vocab:instantie ;
         rdfs:label "Woon- en Zorgcentrum Torendael"^^xsd:string ;
         dbo:PostalCode "1079PX"^^xsd:string ;
         dbo:Website "http://www.puurzuid.nl"^^xsd:string ;
@@ -641,20 +626,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.puurzuid.nl"^^xsd:string ;
         schema:PostalAddress "Veluwelaan 21"^^xsd:string ;
         schema:WebSite "http://www.puurzuid.nl"^^xsd:string ;
         schema:postalCode "1079PX"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_torendael1AF454956E3F41C6geo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_torendaelAEBE19FB3D1C46C7geo ;
         rdfs:seeAlso "http://www.puurzuid.nl"^^xsd:string ;
         wgs:lat "52.33847156492"^^xsd:float ;
         wgs:long "4.89743542221235"^^xsd:float ;
         vcard:hasAddress "Veluwelaan 21"^^xsd:string ;
         vcard:hasPostalCode "1079PX"^^xsd:string .
 
-    g13data:verzwoon_en_zorgcentrum_vondelstedeCED49450ADBE4EE0 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoon_en_zorgcentrum_vondelstede13F9F182DBBB4738 a g13vocab:instantie ;
         rdfs:label "Woon- en zorgcentrum Vondelstede"^^xsd:string ;
         dbo:PostalCode "1054GZ"^^xsd:string ;
         dbo:Website "http://www.amsta.nl"^^xsd:string ;
@@ -664,20 +648,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amsta.nl"^^xsd:string ;
         schema:PostalAddress "Anna van den Vondelstraat 30"^^xsd:string ;
         schema:WebSite "http://www.amsta.nl"^^xsd:string ;
         schema:postalCode "1054GZ"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_vondelstedeCED49450ADBE4EE0geo ;
+        geo:hasGeometry g13data:verzwoon_en_zorgcentrum_vondelstede13F9F182DBBB4738geo ;
         rdfs:seeAlso "http://www.amsta.nl"^^xsd:string ;
         wgs:lat "52.3603556944123"^^xsd:float ;
         wgs:long "4.8697269177889"^^xsd:float ;
         vcard:hasAddress "Anna van den Vondelstraat 30"^^xsd:string ;
         vcard:hasPostalCode "1054GZ"^^xsd:string .
 
-    g13data:verzwoonvoorziening_anton_de_kompleinCAD1C031BFDE48F4 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonvoorziening_anton_de_komplein698F6077404F42FD a g13vocab:instantie ;
         rdfs:label "Woonvoorziening Anton de Komplein"^^xsd:string ;
         dbo:PostalCode "1102DR"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -687,20 +670,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Anton de Komplein 10"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1102DR"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonvoorziening_anton_de_kompleinCAD1C031BFDE48F4geo ;
+        geo:hasGeometry g13data:verzwoonvoorziening_anton_de_komplein698F6077404F42FDgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3164793538397"^^xsd:float ;
         wgs:long "4.95782241820682"^^xsd:float ;
         vcard:hasAddress "Anton de Komplein 10"^^xsd:string ;
         vcard:hasPostalCode "1102DR"^^xsd:string .
 
-    g13data:verzwoonzorg_en_dienstencentrum_menno_simons_16D23617B84F3441D a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorg_en_dienstencentrum_menno_simons_16511333684DC44AA a g13vocab:instantie ;
         rdfs:label "Woonzorg- en dienstencentrum Menno Simons"^^xsd:string ;
         dbo:PostalCode "1081AS"^^xsd:string ;
         dbo:Website "http://www.zhga.nl"^^xsd:string ;
@@ -710,20 +692,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.zhga.nl"^^xsd:string ;
         schema:PostalAddress "Noordhollandstraat 17a"^^xsd:string ;
         schema:WebSite "http://www.zhga.nl"^^xsd:string ;
         schema:postalCode "1081AS"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorg_en_dienstencentrum_menno_simons_16D23617B84F3441Dgeo ;
+        geo:hasGeometry g13data:verzwoonzorg_en_dienstencentrum_menno_simons_16511333684DC44AAgeo ;
         rdfs:seeAlso "http://www.zhga.nl"^^xsd:string ;
         wgs:lat "52.3267992005325"^^xsd:float ;
         wgs:long "4.86650927552825"^^xsd:float ;
         vcard:hasAddress "Noordhollandstraat 17a"^^xsd:string ;
         vcard:hasPostalCode "1081AS"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_buitenveldertF39B384AA3C34C3C a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_buitenveldert8872416200C6482F a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Buitenveldert"^^xsd:string ;
         dbo:PostalCode "1081JB"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -733,20 +714,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Doornburg 2"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1081JB"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_buitenveldertF39B384AA3C34C3Cgeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_buitenveldert8872416200C6482Fgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3228937032814"^^xsd:float ;
         wgs:long "4.86136258208855"^^xsd:float ;
         vcard:hasAddress "Doornburg 2"^^xsd:string ;
         vcard:hasPostalCode "1081JB"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_boegAEACD353A9944B16 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_boeg4F1C0A8AB6CF403F a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Boeg"^^xsd:string ;
         dbo:PostalCode "1055SC"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -756,20 +736,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Hoofdweg 495"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1055SC"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_boegAEACD353A9944B16geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_boeg4F1C0A8AB6CF403Fgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3761518131106"^^xsd:float ;
         wgs:long "4.84663304536301"^^xsd:float ;
         vcard:hasAddress "Hoofdweg 495"^^xsd:string ;
         vcard:hasPostalCode "1055SC"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_bogt_westerbeerE63652B21F524CD0 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_bogt_westerbeer6F42216B958546B1 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Bogt-Westerbeer"^^xsd:string ;
         dbo:PostalCode "1013VW"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -779,20 +758,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Polanenstraat 6"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1013VW"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_bogt_westerbeerE63652B21F524CD0geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_bogt_westerbeer6F42216B958546B1geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3890098434285"^^xsd:float ;
         wgs:long "4.87832393773277"^^xsd:float ;
         vcard:hasAddress "Polanenstraat 6"^^xsd:string ;
         vcard:hasPostalCode "1013VW"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_buitenhofE4A0B174599D497E a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_buitenhof9D1EE38672E847EA a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Buitenhof"^^xsd:string ;
         dbo:PostalCode "1083BD"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -802,20 +780,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Nieuw Herlaer 2"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1083BD"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_buitenhofE4A0B174599D497Egeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_buitenhof9D1EE38672E847EAgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.326667940013"^^xsd:float ;
         wgs:long "4.88819194823304"^^xsd:float ;
         vcard:hasAddress "Nieuw Herlaer 2"^^xsd:string ;
         vcard:hasPostalCode "1083BD"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_drie_hoven758464E406694FE8 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_drie_hoven11E64D32786F4829 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Drie Hoven"^^xsd:string ;
         dbo:PostalCode "1065NS"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -825,20 +802,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Louis Bouwmeesterstraat 377"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1065NS"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_drie_hoven758464E406694FE8geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_drie_hoven11E64D32786F4829geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3550437285358"^^xsd:float ;
         wgs:long "4.82249424241385"^^xsd:float ;
         vcard:hasAddress "Louis Bouwmeesterstraat 377"^^xsd:string ;
         vcard:hasPostalCode "1065NS"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_gooyer_1E422727FA7764E33 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_gooyer_131CA0F2EAAB64EF0 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Gooyer"^^xsd:string ;
         dbo:PostalCode "1093BJ"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -848,20 +824,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Von Zesenstraat 298"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1093BJ"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_gooyer_1E422727FA7764E33geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_gooyer_131CA0F2EAAB64EF0geo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3643217971066"^^xsd:float ;
         wgs:long "4.9269244904145"^^xsd:float ;
         vcard:hasAddress "Von Zesenstraat 298"^^xsd:string ;
         vcard:hasPostalCode "1093BJ"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_klinker_16D70C04F7C854D8E a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_klinker_1C5A5A19FF5DD45BA a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Klinker"^^xsd:string ;
         dbo:PostalCode "1053PB"^^xsd:string ;
         dbo:Website "https://www.amstelring.nl/"^^xsd:string ;
@@ -871,20 +846,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "https://www.amstelring.nl/"^^xsd:string ;
         schema:PostalAddress "Borgerstraat 45"^^xsd:string ;
         schema:WebSite "https://www.amstelring.nl/"^^xsd:string ;
         schema:postalCode "1053PB"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_klinker_16D70C04F7C854D8Egeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_klinker_1C5A5A19FF5DD45BAgeo ;
         rdfs:seeAlso "https://www.amstelring.nl/"^^xsd:string ;
         wgs:lat "52.3653173031291"^^xsd:float ;
         wgs:long "4.86776038302481"^^xsd:float ;
         vcard:hasAddress "Borgerstraat 45"^^xsd:string ;
         vcard:hasPostalCode "1053PB"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_rietvinck65D578D99D4C4EEF a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_rietvinck9F70B6A20D2A40C1 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Rietvinck"^^xsd:string ;
         dbo:PostalCode "1013JR"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -894,20 +868,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Vinkenstraat 185"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1013JR"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_rietvinck65D578D99D4C4EEFgeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_rietvinck9F70B6A20D2A40C1geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3838833736781"^^xsd:float ;
         wgs:long "4.88381739336356"^^xsd:float ;
         vcard:hasAddress "Vinkenstraat 185"^^xsd:string ;
         vcard:hasPostalCode "1013JR"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_de_venserFF5403994BA64F09 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_de_venserE8B11C7937444765 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum De Venser"^^xsd:string ;
         dbo:PostalCode "1102RA"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -917,20 +890,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Berthold Brechtstraat 1"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1102RA"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_de_venserFF5403994BA64F09geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_de_venserE8B11C7937444765geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3177960271194"^^xsd:float ;
         wgs:long "4.9468100149231"^^xsd:float ;
         vcard:hasAddress "Berthold Brechtstraat 1"^^xsd:string ;
         vcard:hasPostalCode "1102RA"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_eben_haezerCACB5F01E17343BE a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_eben_haezer780A8E7098EF4D4D a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Eben Haëzer"^^xsd:string ;
         dbo:PostalCode "1106MB"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -940,20 +912,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Wisseloord 219"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1106MB"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_eben_haezerCACB5F01E17343BEgeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_eben_haezer780A8E7098EF4D4Dgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.2976042896873"^^xsd:float ;
         wgs:long "4.9857699344172"^^xsd:float ;
         vcard:hasAddress "Wisseloord 219"^^xsd:string ;
         vcard:hasPostalCode "1106MB"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_het_schouwBD14EC0797774AD9 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_het_schouw675BEA505B364994 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Het Schouw"^^xsd:string ;
         dbo:PostalCode "1025XJ"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -963,20 +934,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Dollardplein 2"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1025XJ"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_het_schouwBD14EC0797774AD9geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_het_schouw675BEA505B364994geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3980589390245"^^xsd:float ;
         wgs:long "4.94272159662606"^^xsd:float ;
         vcard:hasAddress "Dollardplein 2"^^xsd:string ;
         vcard:hasPostalCode "1025XJ"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_kastanjehof_1BD0429EA1EDE4ABD a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_kastanjehof_15E98276AD0A343BB a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Kastanjehof"^^xsd:string ;
         dbo:PostalCode "1092LA"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -986,20 +956,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Kastanjeplein 60"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1092LA"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_kastanjehof_1BD0429EA1EDE4ABDgeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_kastanjehof_15E98276AD0A343BBgeo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3585816703604"^^xsd:float ;
         wgs:long "4.92309389704501"^^xsd:float ;
         vcard:hasAddress "Kastanjeplein 60"^^xsd:string ;
         vcard:hasPostalCode "1092LA"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_leo_polakhuisB1843D0A521F43A5 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_leo_polakhuis24CC1EDCFB884413 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Leo Polakhuis"^^xsd:string ;
         dbo:PostalCode "1069BW"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -1009,20 +978,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Saaftingestraat 8"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1069BW"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_leo_polakhuisB1843D0A521F43A5geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_leo_polakhuis24CC1EDCFB884413geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3628699892704"^^xsd:float ;
         wgs:long "4.78912683768205"^^xsd:float ;
         vcard:hasAddress "Saaftingestraat 8"^^xsd:string ;
         vcard:hasPostalCode "1069BW"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_nieuw_geuzenveld5D3D2A1643424F8C a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_nieuw_geuzenveld513F24E90D404490 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Nieuw Geuzenveld"^^xsd:string ;
         dbo:PostalCode "1067HG"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -1032,20 +1000,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Cornelis Outshoornstraat 126"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1067HG"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_nieuw_geuzenveld5D3D2A1643424F8Cgeo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_nieuw_geuzenveld513F24E90D404490geo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.382112877155"^^xsd:float ;
         wgs:long "4.79629926880019"^^xsd:float ;
         vcard:hasAddress "Cornelis Outshoornstraat 126"^^xsd:string ;
         vcard:hasPostalCode "1067HG"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_nieuw_vredenburgh29F4692F5CE54625 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_nieuw_vredenburgh7038A15A91C34191 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Nieuw Vredenburgh"^^xsd:string ;
         dbo:PostalCode "1057DZ"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -1055,20 +1022,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Postjesweg 125"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1057DZ"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_nieuw_vredenburgh29F4692F5CE54625geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_nieuw_vredenburgh7038A15A91C34191geo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3638326179335"^^xsd:float ;
         wgs:long "4.85124634432981"^^xsd:float ;
         vcard:hasAddress "Postjesweg 125"^^xsd:string ;
         vcard:hasPostalCode "1057DZ"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_vreugdehof347C8B71369F4322 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_vreugdehof5791410F702F43F0 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Vreugdehof"^^xsd:string ;
         dbo:PostalCode "1083HH"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -1078,20 +1044,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "De Klencke 111"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1083HH"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_vreugdehof347C8B71369F4322geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_vreugdehof5791410F702F43F0geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3338595297254"^^xsd:float ;
         wgs:long "4.88426717632913"^^xsd:float ;
         vcard:hasAddress "De Klencke 111"^^xsd:string ;
         vcard:hasPostalCode "1083HH"^^xsd:string .
 
-    g13data:verzwoonzorgcentrum_willem_dreeshuisA44B31BA1E944032 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzwoonzorgcentrum_willem_dreeshuis3F62B316BBE846D0 a g13vocab:instantie ;
         rdfs:label "Woonzorgcentrum Willem Dreeshuis"^^xsd:string ;
         dbo:PostalCode "1097EG"^^xsd:string ;
         dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -1101,20 +1066,19 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.amstelring.nl"^^xsd:string ;
         schema:PostalAddress "Hugo de Vrieslaan 65"^^xsd:string ;
         schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
         schema:postalCode "1097EG"^^xsd:string ;
-        geo:hasGeometry g13data:verzwoonzorgcentrum_willem_dreeshuisA44B31BA1E944032geo ;
+        geo:hasGeometry g13data:verzwoonzorgcentrum_willem_dreeshuis3F62B316BBE846D0geo ;
         rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
         wgs:lat "52.3488957692553"^^xsd:float ;
         wgs:long "4.9331018352181"^^xsd:float ;
         vcard:hasAddress "Hugo de Vrieslaan 65"^^xsd:string ;
         vcard:hasPostalCode "1097EG"^^xsd:string .
 
-    g13data:verzzorgcentrum_d_oude_raai311749F69D204942 a g13vocab:dayLocation,
-            g13vocab:instantie,
-            g13vocab:nightLocation ;
+    g13data:verzzorgcentrum_d_oude_raaiB9226044695D4870 a g13vocab:instantie ;
         rdfs:label "Zorgcentrum d' Oude Raai"^^xsd:string ;
         dbo:PostalCode "1072MA"^^xsd:string ;
         dbo:Website "http://www.cordaan.nl"^^xsd:string ;
@@ -1124,168 +1088,169 @@
         g13vocab:providesInformationAbout g13vocab:elderlyCare ;
         g13vocab:providesSpecialCare g13vocab:day,
             g13vocab:night ;
+        g13vocab:providesSpecialCareTo g13vocab:elderly ;
         g13vocab:website "http://www.cordaan.nl"^^xsd:string ;
         schema:PostalAddress "Ferdinand Bolstraat 321"^^xsd:string ;
         schema:WebSite "http://www.cordaan.nl"^^xsd:string ;
         schema:postalCode "1072MA"^^xsd:string ;
-        geo:hasGeometry g13data:verzzorgcentrum_d_oude_raai311749F69D204942geo ;
+        geo:hasGeometry g13data:verzzorgcentrum_d_oude_raaiB9226044695D4870geo ;
         rdfs:seeAlso "http://www.cordaan.nl"^^xsd:string ;
         wgs:lat "52.3493228577459"^^xsd:float ;
         wgs:long "4.89169451363604"^^xsd:float ;
         vcard:hasAddress "Ferdinand Bolstraat 321"^^xsd:string ;
         vcard:hasPostalCode "1072MA"^^xsd:string .
 
-    g13data:verzbeth_shalom_joods_zorgcentrum_en_verpleeghuis1F143A3CF4CD4E8Egeo a geo:Geometry ;
+    g13data:verzbeth_shalom_joods_zorgcentrum_en_verpleeghuis73DADA1D2797433Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88100928944689 52.3262060145577)"^^geo:wktLiteral .
 
-    g13data:verzcentrum_van_ouderen_flessemanB6F9F8C82F01451Ageo a geo:Geometry ;
+    g13data:verzcentrum_van_ouderen_flesseman834A238C445345DCgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90067748047184 52.3720091926606)"^^geo:wktLiteral .
 
-    g13data:verzcentrum_voor_verpleeghuiszorg_de_poortD80E17EE4F814693geo a geo:Geometry ;
+    g13data:verzcentrum_voor_verpleeghuiszorg_de_poort707C6D5E9FBC4A4Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.87236037950261 52.3725185912838)"^^geo:wktLiteral .
 
-    g13data:verzde_goodwillburgh_198127531C5A24C2Egeo a geo:Geometry ;
+    g13data:verzde_goodwillburgh_18D0048D9D73A4839geo a geo:Geometry ;
         geo:asWKT "POINT(4.909060522152 52.3694369076746)"^^geo:wktLiteral .
 
-    g13data:verzde_hudsonhofF4801D9FB22B4F5Cgeo a geo:Geometry ;
+    g13data:verzde_hudsonhof93F78095D02E43D9geo a geo:Geometry ;
         geo:asWKT "POINT(4.85209947315776 52.3697863641605)"^^geo:wktLiteral .
 
-    g13data:verzevean_de_kimmeA204CD10C4D0472Cgeo a geo:Geometry ;
+    g13data:verzevean_de_kimme5A934FCB78DB4960geo a geo:Geometry ;
         geo:asWKT "POINT(4.95108431187849 52.3963104712899)"^^geo:wktLiteral .
 
-    g13data:verzevean_eduard_douwes_dekker4A3D308005744F47geo a geo:Geometry ;
+    g13data:verzevean_eduard_douwes_dekkerD51F47FB6A25495Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90769611986109 52.404645096468)"^^geo:wktLiteral .
 
-    g13data:verzevean_henriette_roland_holst_1FF1C8B7F26744072geo a geo:Geometry ;
+    g13data:verzevean_henriette_roland_holst_11960962561A946E2geo a geo:Geometry ;
         geo:asWKT "POINT(4.96978099676363 52.31428419715)"^^geo:wktLiteral .
 
-    g13data:verzevean_korthagenhuis2B99903430FC4AD3geo a geo:Geometry ;
+    g13data:verzevean_korthagenhuis4E0AC37411364612geo a geo:Geometry ;
         geo:asWKT "POINT(4.93987619079198 52.4048428761997)"^^geo:wktLiteral .
 
-    g13data:verzevean_twiskehuis_35B096839380245D4geo a geo:Geometry ;
+    g13data:verzevean_twiskehuis_3E1F4FC929F5E4F58geo a geo:Geometry ;
         geo:asWKT "POINT(4.88037940833226 52.4160894934834)"^^geo:wktLiteral .
 
-    g13data:verzhet_flevohuisD95B66206BEF4542geo a geo:Geometry ;
+    g13data:verzhet_flevohuis9E8A71CDA9F540DAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.94586623079635 52.3655533336182)"^^geo:wktLiteral .
 
-    g13data:verzhuize_plantage8C062FFAC6434EE1geo a geo:Geometry ;
+    g13data:verzhuize_plantage97D1D3E89F864E69geo a geo:Geometry ;
         geo:asWKT "POINT(4.91130936019787 52.3678551439604)"^^geo:wktLiteral .
 
-    g13data:verzla_rieshuis_16AA39A27ADD04866geo a geo:Geometry ;
+    g13data:verzla_rieshuis_1FAE7F722536A4CB0geo a geo:Geometry ;
         geo:asWKT "POINT(4.88433471579719 52.3835979652873)"^^geo:wktLiteral .
 
-    g13data:verzlutherhofD3C8FF523E804883geo a geo:Geometry ;
+    g13data:verzlutherhofC9C7FA6F718C4300geo a geo:Geometry ;
         geo:asWKT "POINT(4.8634954794259 52.3607955999308)"^^geo:wktLiteral .
 
-    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie0D9F4B851F934BB7geo a geo:Geometry ;
+    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie22138E52A1C94999geo a geo:Geometry ;
         geo:asWKT "POINT(4.84440831816034 52.3707400053483)"^^geo:wktLiteral .
 
-    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie_19E2BC84C324E4616geo a geo:Geometry ;
+    g13data:verzreade_centrum_voor_reumatologie_en_revalidatie_138F920F2E3214750geo a geo:Geometry ;
         geo:asWKT "POINT(4.86684928835166 52.3603790314609)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_de_die461738322D434002geo a geo:Geometry ;
+    g13data:verzverpleeghuis_de_dieAB530208CE3C48D4geo a geo:Geometry ;
         geo:asWKT "POINT(4.93203111019125 52.3989171074832)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_de_open_hof7F081F60E93B46F2geo a geo:Geometry ;
+    g13data:verzverpleeghuis_de_open_hof1C1799C3F69744C4geo a geo:Geometry ;
         geo:asWKT "POINT(4.92682557250361 52.3455550497961)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_dr_sarphatihuis4F39A3AB273045F1geo a geo:Geometry ;
+    g13data:verzverpleeghuis_dr_sarphatihuisD1F976C03B1C4D85geo a geo:Geometry ;
         geo:asWKT "POINT(4.9105504148047 52.3646974046891)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_gaasperdamC6F493E195E84582geo a geo:Geometry ;
+    g13data:verzverpleeghuis_gaasperdam4F8F1050092349DCgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97904597848879 52.2954871199986)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_jan_bongastraatB518F438B5434B95geo a geo:Geometry ;
+    g13data:verzverpleeghuis_jan_bongastraat9C8A0E5A27B34667geo a geo:Geometry ;
         geo:asWKT "POINT(4.80381857640939 52.3799391732458)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_oostpoort068C03E332D94328geo a geo:Geometry ;
+    g13data:verzverpleeghuis_oostpoort903D5F863CC3417Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.93226710611238 52.3581478585392)"^^geo:wktLiteral .
 
-    g13data:verzverpleeghuis_slotervaartB53B3CA9DCD9446Bgeo a geo:Geometry ;
+    g13data:verzverpleeghuis_slotervaart587703232050429Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.82367762993562 52.347391770001)"^^geo:wktLiteral .
 
-    g13data:verzverzorgingshuis_emmahofC7AA955767884211geo a geo:Geometry ;
+    g13data:verzverzorgingshuis_emmahof5D46C8224B494944geo a geo:Geometry ;
         geo:asWKT "POINT(4.87039972599071 52.3530066528232)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_de_denD5230EA5C04042B3geo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_de_denCE7971F90B844BD5geo a geo:Geometry ;
         geo:asWKT "POINT(4.80417004427809 52.3822507562623)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_de_riekerhofB7FF33933936494Ageo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_de_riekerhofCFD53B46C6134148geo a geo:Geometry ;
         geo:asWKT "POINT(4.84021945296963 52.3591534857157)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_de_schutse4401329CC3924ED9geo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_de_schutse445D08BA495946DFgeo a geo:Geometry ;
         geo:asWKT "POINT(4.8225849901937 52.3594481743426)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_de_werf4239616BD70E4E70geo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_de_werf010DA51C83CE47B9geo a geo:Geometry ;
         geo:asWKT "POINT(4.86846433520237 52.3724663455495)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_nellestein93307FD722C4404Egeo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_nellesteinC9271283E9C14420geo a geo:Geometry ;
         geo:asWKT "POINT(4.98473909271888 52.3094556713152)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_torendael1AF454956E3F41C6geo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_torendaelAEBE19FB3D1C46C7geo a geo:Geometry ;
         geo:asWKT "POINT(4.89743542221235 52.33847156492)"^^geo:wktLiteral .
 
-    g13data:verzwoon_en_zorgcentrum_vondelstedeCED49450ADBE4EE0geo a geo:Geometry ;
+    g13data:verzwoon_en_zorgcentrum_vondelstede13F9F182DBBB4738geo a geo:Geometry ;
         geo:asWKT "POINT(4.8697269177889 52.3603556944123)"^^geo:wktLiteral .
 
-    g13data:verzwoonvoorziening_anton_de_kompleinCAD1C031BFDE48F4geo a geo:Geometry ;
+    g13data:verzwoonvoorziening_anton_de_komplein698F6077404F42FDgeo a geo:Geometry ;
         geo:asWKT "POINT(4.95782241820682 52.3164793538397)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorg_en_dienstencentrum_menno_simons_16D23617B84F3441Dgeo a geo:Geometry ;
+    g13data:verzwoonzorg_en_dienstencentrum_menno_simons_16511333684DC44AAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86650927552825 52.3267992005325)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_buitenveldertF39B384AA3C34C3Cgeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_buitenveldert8872416200C6482Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86136258208855 52.3228937032814)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_boegAEACD353A9944B16geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_boeg4F1C0A8AB6CF403Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84663304536301 52.3761518131106)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_bogt_westerbeerE63652B21F524CD0geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_bogt_westerbeer6F42216B958546B1geo a geo:Geometry ;
         geo:asWKT "POINT(4.87832393773277 52.3890098434285)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_buitenhofE4A0B174599D497Egeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_buitenhof9D1EE38672E847EAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88819194823304 52.326667940013)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_drie_hoven758464E406694FE8geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_drie_hoven11E64D32786F4829geo a geo:Geometry ;
         geo:asWKT "POINT(4.82249424241385 52.3550437285358)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_gooyer_1E422727FA7764E33geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_gooyer_131CA0F2EAAB64EF0geo a geo:Geometry ;
         geo:asWKT "POINT(4.9269244904145 52.3643217971066)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_klinker_16D70C04F7C854D8Egeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_klinker_1C5A5A19FF5DD45BAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.86776038302481 52.3653173031291)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_rietvinck65D578D99D4C4EEFgeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_rietvinck9F70B6A20D2A40C1geo a geo:Geometry ;
         geo:asWKT "POINT(4.88381739336356 52.3838833736781)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_de_venserFF5403994BA64F09geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_de_venserE8B11C7937444765geo a geo:Geometry ;
         geo:asWKT "POINT(4.9468100149231 52.3177960271194)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_eben_haezerCACB5F01E17343BEgeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_eben_haezer780A8E7098EF4D4Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9857699344172 52.2976042896873)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_het_schouwBD14EC0797774AD9geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_het_schouw675BEA505B364994geo a geo:Geometry ;
         geo:asWKT "POINT(4.94272159662606 52.3980589390245)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_kastanjehof_1BD0429EA1EDE4ABDgeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_kastanjehof_15E98276AD0A343BBgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92309389704501 52.3585816703604)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_leo_polakhuisB1843D0A521F43A5geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_leo_polakhuis24CC1EDCFB884413geo a geo:Geometry ;
         geo:asWKT "POINT(4.78912683768205 52.3628699892704)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_nieuw_geuzenveld5D3D2A1643424F8Cgeo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_nieuw_geuzenveld513F24E90D404490geo a geo:Geometry ;
         geo:asWKT "POINT(4.79629926880019 52.382112877155)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_nieuw_vredenburgh29F4692F5CE54625geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_nieuw_vredenburgh7038A15A91C34191geo a geo:Geometry ;
         geo:asWKT "POINT(4.85124634432981 52.3638326179335)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_vreugdehof347C8B71369F4322geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_vreugdehof5791410F702F43F0geo a geo:Geometry ;
         geo:asWKT "POINT(4.88426717632913 52.3338595297254)"^^geo:wktLiteral .
 
-    g13data:verzwoonzorgcentrum_willem_dreeshuisA44B31BA1E944032geo a geo:Geometry ;
+    g13data:verzwoonzorgcentrum_willem_dreeshuis3F62B316BBE846D0geo a geo:Geometry ;
         geo:asWKT "POINT(4.9331018352181 52.3488957692553)"^^geo:wktLiteral .
 
-    g13data:verzzorgcentrum_d_oude_raai311749F69D204942geo a geo:Geometry ;
+    g13data:verzzorgcentrum_d_oude_raaiB9226044695D4870geo a geo:Geometry ;
         geo:asWKT "POINT(4.89169451363604 52.3493228577459)"^^geo:wktLiteral .
 }
 

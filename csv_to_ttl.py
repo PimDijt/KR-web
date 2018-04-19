@@ -49,7 +49,7 @@ for i in range(len(filenames)):
 
 
     # The URI for our dataset
-    url = 'http://few.vu.nl/~mvr320/KRweb/resource/'+short[i]
+    url = 'http://few.vu.nl/~mvr320/KRweb/resource/'+short[i]+'/'
     SETNAME = Namespace(url)
     graph_uri = URIRef(url)
 
@@ -90,6 +90,7 @@ for i in range(len(filenames)):
         # All set... we are now going to add the triples to our dataset
         rndom = uuid.uuid4().hex[:16].upper()
         if short[i] != "prk":
+            print(url)
             thing = URIRef(to_iri(url+row['titel_key']+rndom))
             thinggeo = URIRef(to_iri(url+row['titel_key']+rndom+'geo'))
             points = row['locatie'][5:].split()
@@ -259,5 +260,5 @@ for i in range(len(filenames)):
                     dataset.add((thing, VOCAB['providesCoachingAbout'], VOCAB['lhtbtIssues']))
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['lhtbtIssues']))
             #Vieze dataset...
-    with open('outputTTL/'+short[i]+'-rdf.trig','wb') as f:
-        dataset.serialize(f, format='trig')
+    with open('outputTTL/'+short[i]+'-rdf.owl','wb') as f:
+        dataset.serialize(f, format='turtle')
