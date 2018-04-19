@@ -58,6 +58,20 @@
 	void:triples "1157624328"^^xsd:nonNegativeInteger;
 	.
 
+:data-amsterdam_lhbt_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam LHBT-hulpverlening Subset"@en;
+	dcterms:description "The support for LGBT issues, consists mainly of GP's in Amsterdam."@en;
+#Provenance
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/lhbt-hulpverlening/export/csv
+>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/lhbt-rdf.trig>;
+	.
+
 :data-amsterdam_elderly_subset
 #General Metadata
 	a void:Dataset;

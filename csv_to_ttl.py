@@ -260,5 +260,5 @@ for i in range(len(filenames)):
                     dataset.add((thing, VOCAB['providesCoachingAbout'], VOCAB['lhtbtIssues']))
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['lhtbtIssues']))
             #Vieze dataset...
-    with open('outputTTL/'+short[i]+'-rdf.owl','wb') as f:
+    with open('outputTTL/'+short[i]+'-rdf.ttl','wb') as f:
         dataset.serialize(f, format='turtle')
