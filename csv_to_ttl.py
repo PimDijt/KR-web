@@ -19,7 +19,7 @@ vocab = 'http://few.vu.nl/~mvr320/KRweb/vocab/'
 VOCAB = Namespace(vocab)
 
 # A namespace for our resources
-data = 'http://few.vu.nl/~mvr320/KRweb/resource'
+data = 'http://few.vu.nl/~mvr320/KRweb/resource/'
 DATA = Namespace(data)
 
 geo = 'http://www.opengis.net/ont/geosparql#'
@@ -28,10 +28,10 @@ GEO = Namespace(geo)
 geof = 'http://www.opengis.net/def/function/geosparql/'
 GEOF = Namespace(geof)
 
-schema = 'http://schema.org/postalCode'
+schema = 'http://schema.org/'
 SCHEMA = Namespace(schema)
 
-vcard = 'http://www.w3.org/2006/vcard/ns#VCard'
+vcard = 'http://www.w3.org/2006/vcard/ns#'
 VCARD = Namespace(vcard)
 
 filenames = ["lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
@@ -61,6 +61,7 @@ for i in range(len(filenames)):
     dataset.bind('dbp',DBP)
     dataset.bind('schema',SCHEMA)
     dataset.bind('vcard',VCARD)
+    dataset.bind('wgs',WGS)
 
     # We then get a new dataset object with our URI from the dataset.
     graph = dataset.graph(graph_uri)
@@ -182,15 +183,12 @@ for i in range(len(filenames)):
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['work']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
-                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
             for esubstrbw in substrbw:
                 if esubstrbw in row['titel']:
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['livingAccomodation']))
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['placeToSleep']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
-                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
-                    #dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
             for esubstrih in substrih:
                 if esubstrih in row['titel']:
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsPrevention']))
@@ -200,7 +198,6 @@ for i in range(len(filenames)):
             for esubstrvl in substrvl:
                 if esubstrih in row['titel']:
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['food']))
-                    dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
         if short[i] == "zorbep":

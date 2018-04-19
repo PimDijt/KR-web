@@ -1,1903 +1,1640 @@
-@prefix : <http://few.vu.nl/~mvr320/KRweb/vocab/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dbp: <http://dbpedia.org/property/> .
-@prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource> .
+@prefix g13data: <http://few.vu.nl/~mvr320/KRweb/resource/> .
 @prefix g13set: <http://few.vu.nl/~mvr320/KRweb/resource/opvo> .
 @prefix g13vocab: <http://few.vu.nl/~mvr320/KRweb/vocab/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix geof: <http://www.opengis.net/def/function/geosparql/> .
 @prefix ns1: <urn:x-rdflib:> .
-@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns4: <http://schema.org/> .
-@prefix ns5: <http://few.vu.nl/~mvr320/KRweb/resource/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/postalCode> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#VCard> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    ns5:opvoburo_bloei_2DE7853437D2A4B21 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvoburo_bloei_2B651EA8944F24651 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Buro Bloei"^^xsd:string ;
         dbo:PostalCode "1054EZ"^^xsd:string ;
         dbo:Website "http://www.buro-bloei.nl"^^xsd:string ;
         dbo:address "Roemer Visscherstraat 42"^^xsd:string ;
         dbp:latitude 5.236134e+01 ;
         dbp:longitude 4.876513e+00 ;
-        :website "http://www.buro-bloei.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Roemer Visscherstraat 42"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.buro-bloei.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1054EZ"^^xsd:string ;
-        geo:hasGeometry ns5:opvoburo_bloei_2DE7853437D2A4B21geo ;
+        g13vocab:website "http://www.buro-bloei.nl"^^xsd:string ;
+        schema:PostalAddress "Roemer Visscherstraat 42"^^xsd:string ;
+        schema:WebSite "http://www.buro-bloei.nl"^^xsd:string ;
+        schema:postalCode "1054EZ"^^xsd:string ;
+        geo:hasGeometry g13data:opvoburo_bloei_2B651EA8944F24651geo ;
         rdfs:seeAlso "http://www.buro-bloei.nl"^^xsd:string ;
-        ns2:lat "52.361337862629"^^xsd:float ;
-        ns2:long "4.8765126304017"^^xsd:float ;
-        ns3:VCardhasAddress "Roemer Visscherstraat 42"^^xsd:string ;
-        ns3:VCardhasPostalCode "1054EZ"^^xsd:string .
+        wgs:lat "52.361337862629"^^xsd:float ;
+        wgs:long "4.8765126304017"^^xsd:float ;
+        vcard:hasAddress "Roemer Visscherstraat 42"^^xsd:string ;
+        vcard:hasPostalCode "1054EZ"^^xsd:string .
 
-    ns5:opvocentrum_vrouw_en_vaart2CD62D8BB01042AD a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvocentrum_vrouw_en_vaartE8B9EDAB67BD4567 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Centrum Vrouw en Vaart"^^xsd:string ;
         dbo:PostalCode "1068VN"^^xsd:string ;
         dbo:Website "http://www.vrouwenvaart.nl/"^^xsd:string ;
         dbo:address "President Allendelaan 733"^^xsd:string ;
         dbp:latitude 5.236568e+01 ;
         dbp:longitude 4.805327e+00 ;
-        :website "http://www.vrouwenvaart.nl/"^^xsd:string ;
-        ns4:postalCodePostalAddress "President Allendelaan 733"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.vrouwenvaart.nl/"^^xsd:string ;
-        ns4:postalCodepostalCode "1068VN"^^xsd:string ;
-        geo:hasGeometry ns5:opvocentrum_vrouw_en_vaart2CD62D8BB01042ADgeo ;
+        g13vocab:website "http://www.vrouwenvaart.nl/"^^xsd:string ;
+        schema:PostalAddress "President Allendelaan 733"^^xsd:string ;
+        schema:WebSite "http://www.vrouwenvaart.nl/"^^xsd:string ;
+        schema:postalCode "1068VN"^^xsd:string ;
+        geo:hasGeometry g13data:opvocentrum_vrouw_en_vaartE8B9EDAB67BD4567geo ;
         rdfs:seeAlso "http://www.vrouwenvaart.nl/"^^xsd:string ;
-        ns2:lat "52.3656830141971"^^xsd:float ;
-        ns2:long "4.80532745726713"^^xsd:float ;
-        ns3:VCardhasAddress "President Allendelaan 733"^^xsd:string ;
-        ns3:VCardhasPostalCode "1068VN"^^xsd:string .
+        wgs:lat "52.3656830141971"^^xsd:float ;
+        wgs:long "4.80532745726713"^^xsd:float ;
+        vcard:hasAddress "President Allendelaan 733"^^xsd:string ;
+        vcard:hasPostalCode "1068VN"^^xsd:string .
 
-    ns5:opvode_opvoedpoliDBDDA62CAB3A42E4 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvode_opvoedpoli0268019C659C498F a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
         dbo:PostalCode "1025EX"^^xsd:string ;
         dbo:Website "http://www.opvoedpoli.nl"^^xsd:string ;
         dbo:address "Buikslotermeerplein 136"^^xsd:string ;
         dbp:latitude 5.23987e+01 ;
         dbp:longitude 4.935604e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Buikslotermeerplein 136"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1025EX"^^xsd:string ;
-        geo:hasGeometry ns5:opvode_opvoedpoliDBDDA62CAB3A42E4geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:PostalAddress "Buikslotermeerplein 136"^^xsd:string ;
+        schema:WebSite "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:postalCode "1025EX"^^xsd:string ;
+        geo:hasGeometry g13data:opvode_opvoedpoli0268019C659C498Fgeo ;
         rdfs:seeAlso "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns2:lat "52.3986971027549"^^xsd:float ;
-        ns2:long "4.93560377481371"^^xsd:float ;
-        ns3:VCardhasAddress "Buikslotermeerplein 136"^^xsd:string ;
-        ns3:VCardhasPostalCode "1025EX"^^xsd:string .
+        wgs:lat "52.3986971027549"^^xsd:float ;
+        wgs:long "4.93560377481371"^^xsd:float ;
+        vcard:hasAddress "Buikslotermeerplein 136"^^xsd:string ;
+        vcard:hasPostalCode "1025EX"^^xsd:string .
 
-    ns5:opvode_opvoedpoli_14AECBD9D740046D7 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvode_opvoedpoli_19211F9BD13E143F1 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
         dbo:PostalCode "1013RR"^^xsd:string ;
         dbo:Website "http://www.opvoedpoli.nl"^^xsd:string ;
         dbo:address "Houtmankade 332"^^xsd:string ;
         dbp:latitude 5.238588e+01 ;
         dbp:longitude 4.882296e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Houtmankade 332"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1013RR"^^xsd:string ;
-        geo:hasGeometry ns5:opvode_opvoedpoli_14AECBD9D740046D7geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:PostalAddress "Houtmankade 332"^^xsd:string ;
+        schema:WebSite "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:postalCode "1013RR"^^xsd:string ;
+        geo:hasGeometry g13data:opvode_opvoedpoli_19211F9BD13E143F1geo ;
         rdfs:seeAlso "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns2:lat "52.3858811544946"^^xsd:float ;
-        ns2:long "4.88229645224543"^^xsd:float ;
-        ns3:VCardhasAddress "Houtmankade 332"^^xsd:string ;
-        ns3:VCardhasPostalCode "1013RR"^^xsd:string .
+        wgs:lat "52.3858811544946"^^xsd:float ;
+        wgs:long "4.88229645224543"^^xsd:float ;
+        vcard:hasAddress "Houtmankade 332"^^xsd:string ;
+        vcard:hasPostalCode "1013RR"^^xsd:string .
 
-    ns5:opvode_opvoedpoli_2FDFBA035594B43CE a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvode_opvoedpoli_2A713C34C54BB45B4 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
         dbo:PostalCode "1093LC"^^xsd:string ;
         dbo:Website "http://www.opvoedpoli.nl"^^xsd:string ;
         dbo:address "Eerste Van Swindenstraat 555"^^xsd:string ;
         dbp:latitude 5.236338e+01 ;
         dbp:longitude 4.930135e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Eerste Van Swindenstraat 555"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1093LC"^^xsd:string ;
-        geo:hasGeometry ns5:opvode_opvoedpoli_2FDFBA035594B43CEgeo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:PostalAddress "Eerste Van Swindenstraat 555"^^xsd:string ;
+        schema:WebSite "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:postalCode "1093LC"^^xsd:string ;
+        geo:hasGeometry g13data:opvode_opvoedpoli_2A713C34C54BB45B4geo ;
         rdfs:seeAlso "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns2:lat "52.3633815376159"^^xsd:float ;
-        ns2:long "4.93013477444236"^^xsd:float ;
-        ns3:VCardhasAddress "Eerste Van Swindenstraat 555"^^xsd:string ;
-        ns3:VCardhasPostalCode "1093LC"^^xsd:string .
+        wgs:lat "52.3633815376159"^^xsd:float ;
+        wgs:long "4.93013477444236"^^xsd:float ;
+        vcard:hasAddress "Eerste Van Swindenstraat 555"^^xsd:string ;
+        vcard:hasPostalCode "1093LC"^^xsd:string .
 
-    ns5:opvode_opvoedpoli_3B1181818709848AA a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvode_opvoedpoli_353E6040DD5D44864 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
         dbo:PostalCode "1103JT"^^xsd:string ;
         dbo:Website "http://www.opvoedpoli.nl"^^xsd:string ;
         dbo:address "Bijlmerdreef 1134"^^xsd:string ;
         dbp:latitude 5.232165e+01 ;
         dbp:longitude 4.969712e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Bijlmerdreef 1134"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1103JT"^^xsd:string ;
-        geo:hasGeometry ns5:opvode_opvoedpoli_3B1181818709848AAgeo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:PostalAddress "Bijlmerdreef 1134"^^xsd:string ;
+        schema:WebSite "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:postalCode "1103JT"^^xsd:string ;
+        geo:hasGeometry g13data:opvode_opvoedpoli_353E6040DD5D44864geo ;
         rdfs:seeAlso "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns2:lat "52.3216539197909"^^xsd:float ;
-        ns2:long "4.96971175371461"^^xsd:float ;
-        ns3:VCardhasAddress "Bijlmerdreef 1134"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103JT"^^xsd:string .
+        wgs:lat "52.3216539197909"^^xsd:float ;
+        wgs:long "4.96971175371461"^^xsd:float ;
+        vcard:hasAddress "Bijlmerdreef 1134"^^xsd:string ;
+        vcard:hasPostalCode "1103JT"^^xsd:string .
 
-    ns5:opvode_opvoedpoli_427D612B916564664 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvode_opvoedpoli_4797F8A1C83F6499F a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "De Opvoedpoli"^^xsd:string ;
         dbo:PostalCode "1058GH"^^xsd:string ;
         dbo:Website "http://www.opvoedpoli.nl"^^xsd:string ;
         dbo:address "Surinameplein 85"^^xsd:string ;
         dbp:latitude 5.235757e+01 ;
         dbp:longitude 4.85006e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Surinameplein 85"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1058GH"^^xsd:string ;
-        geo:hasGeometry ns5:opvode_opvoedpoli_427D612B916564664geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:PostalAddress "Surinameplein 85"^^xsd:string ;
+        schema:WebSite "http://www.opvoedpoli.nl"^^xsd:string ;
+        schema:postalCode "1058GH"^^xsd:string ;
+        geo:hasGeometry g13data:opvode_opvoedpoli_4797F8A1C83F6499Fgeo ;
         rdfs:seeAlso "http://www.opvoedpoli.nl"^^xsd:string ;
-        ns2:lat "52.3575717600906"^^xsd:float ;
-        ns2:long "4.85005952852072"^^xsd:float ;
-        ns3:VCardhasAddress "Surinameplein 85"^^xsd:string ;
-        ns3:VCardhasPostalCode "1058GH"^^xsd:string .
+        wgs:lat "52.3575717600906"^^xsd:float ;
+        wgs:long "4.85005952852072"^^xsd:float ;
+        vcard:hasAddress "Surinameplein 85"^^xsd:string ;
+        vcard:hasPostalCode "1058GH"^^xsd:string .
 
-    ns5:opvodream_support_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders629BC12A91AB4C03 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvodream_support_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders844B80979E4D4F14 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Dream Support, trainingen voor kinderen en opvoedingsadvies voor ouders"^^xsd:string ;
         dbo:PostalCode "1094JN"^^xsd:string ;
         dbo:Website "http://www.dream-support.nl"^^xsd:string ;
         dbo:address "Balistraat 48"^^xsd:string ;
         dbp:latitude 5.236301e+01 ;
         dbp:longitude 4.933794e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.dream-support.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Balistraat 48"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.dream-support.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1094JN"^^xsd:string ;
-        geo:hasGeometry ns5:opvodream_support_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders629BC12A91AB4C03geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.dream-support.nl"^^xsd:string ;
+        schema:PostalAddress "Balistraat 48"^^xsd:string ;
+        schema:WebSite "http://www.dream-support.nl"^^xsd:string ;
+        schema:postalCode "1094JN"^^xsd:string ;
+        geo:hasGeometry g13data:opvodream_support_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders844B80979E4D4F14geo ;
         rdfs:seeAlso "http://www.dream-support.nl"^^xsd:string ;
-        ns2:lat "52.3630091376526"^^xsd:float ;
-        ns2:long "4.93379423043404"^^xsd:float ;
-        ns3:VCardhasAddress "Balistraat 48"^^xsd:string ;
-        ns3:VCardhasPostalCode "1094JN"^^xsd:string .
+        wgs:lat "52.3630091376526"^^xsd:float ;
+        wgs:long "4.93379423043404"^^xsd:float ;
+        vcard:hasAddress "Balistraat 48"^^xsd:string ;
+        vcard:hasPostalCode "1094JN"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_borgerstraat5C06A78CA43E4B18 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_borgerstraatEE650592AFED4681 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Borgerstraat"^^xsd:string ;
         dbo:PostalCode "1053PW"^^xsd:string ;
         dbo:Website "http://www.gzc-borgerstraat.nl"^^xsd:string ;
         dbo:address "Borgerstraat 86"^^xsd:string ;
         dbp:latitude 5.236533e+01 ;
         dbp:longitude 4.866938e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.gzc-borgerstraat.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Borgerstraat 86"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.gzc-borgerstraat.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1053PW"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_borgerstraat5C06A78CA43E4B18geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.gzc-borgerstraat.nl"^^xsd:string ;
+        schema:PostalAddress "Borgerstraat 86"^^xsd:string ;
+        schema:WebSite "http://www.gzc-borgerstraat.nl"^^xsd:string ;
+        schema:postalCode "1053PW"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_borgerstraatEE650592AFED4681geo ;
         rdfs:seeAlso "http://www.gzc-borgerstraat.nl"^^xsd:string ;
-        ns2:lat "52.3653316675852"^^xsd:float ;
-        ns2:long "4.86693802090789"^^xsd:float ;
-        ns3:VCardhasAddress "Borgerstraat 86"^^xsd:string ;
-        ns3:VCardhasPostalCode "1053PW"^^xsd:string .
+        wgs:lat "52.3653316675852"^^xsd:float ;
+        wgs:long "4.86693802090789"^^xsd:float ;
+        vcard:hasAddress "Borgerstraat 86"^^xsd:string ;
+        vcard:hasPostalCode "1053PW"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_de_keyzer288A459D86BC4CB7 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_de_keyzer368EC4C1C8474AC6 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum De Keyzer"^^xsd:string ;
         dbo:PostalCode "1018PR"^^xsd:string ;
         dbo:Website "http://www.gzc-dekeyzer.nl"^^xsd:string ;
         dbo:address "Czaar Peterstraat 4"^^xsd:string ;
         dbp:latitude 5.23683e+01 ;
         dbp:longitude 4.926824e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.gzc-dekeyzer.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Czaar Peterstraat 4"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.gzc-dekeyzer.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1018PR"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_de_keyzer288A459D86BC4CB7geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.gzc-dekeyzer.nl"^^xsd:string ;
+        schema:PostalAddress "Czaar Peterstraat 4"^^xsd:string ;
+        schema:WebSite "http://www.gzc-dekeyzer.nl"^^xsd:string ;
+        schema:postalCode "1018PR"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_de_keyzer368EC4C1C8474AC6geo ;
         rdfs:seeAlso "http://www.gzc-dekeyzer.nl"^^xsd:string ;
-        ns2:lat "52.3683029597381"^^xsd:float ;
-        ns2:long "4.92682445379144"^^xsd:float ;
-        ns3:VCardhasAddress "Czaar Peterstraat 4"^^xsd:string ;
-        ns3:VCardhasPostalCode "1018PR"^^xsd:string .
+        wgs:lat "52.3683029597381"^^xsd:float ;
+        wgs:long "4.92682445379144"^^xsd:float ;
+        vcard:hasAddress "Czaar Peterstraat 4"^^xsd:string ;
+        vcard:hasPostalCode "1018PR"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_helmersstraat5B5DECB7C4E14E89 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_helmersstraatC514ED8861EB46F2 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Helmersstraat"^^xsd:string ;
         dbo:PostalCode "1054NJ"^^xsd:string ;
         dbo:Website "http://www.gzc-helmersstraat.nl"^^xsd:string ;
         dbo:address "Anna Spenglerstraat 101"^^xsd:string ;
         dbp:latitude 5.236256e+01 ;
         dbp:longitude 4.870054e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.gzc-helmersstraat.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Anna Spenglerstraat 101"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.gzc-helmersstraat.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1054NJ"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_helmersstraat5B5DECB7C4E14E89geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.gzc-helmersstraat.nl"^^xsd:string ;
+        schema:PostalAddress "Anna Spenglerstraat 101"^^xsd:string ;
+        schema:WebSite "http://www.gzc-helmersstraat.nl"^^xsd:string ;
+        schema:postalCode "1054NJ"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_helmersstraatC514ED8861EB46F2geo ;
         rdfs:seeAlso "http://www.gzc-helmersstraat.nl"^^xsd:string ;
-        ns2:lat "52.3625591188958"^^xsd:float ;
-        ns2:long "4.87005356613347"^^xsd:float ;
-        ns3:VCardhasAddress "Anna Spenglerstraat 101"^^xsd:string ;
-        ns3:VCardhasPostalCode "1054NJ"^^xsd:string .
+        wgs:lat "52.3625591188958"^^xsd:float ;
+        wgs:long "4.87005356613347"^^xsd:float ;
+        vcard:hasAddress "Anna Spenglerstraat 101"^^xsd:string ;
+        vcard:hasPostalCode "1054NJ"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_holendrecht390DE5C36BB443A0 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_holendrecht42AA928EF8C74C4D a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Holendrecht"^^xsd:string ;
         dbo:PostalCode "1106SB"^^xsd:string ;
         dbo:Website "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
         dbo:address "Niftrikhof 20"^^xsd:string ;
         dbp:latitude 5.229978e+01 ;
         dbp:longitude 4.962452e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
-        ns4:postalCodePostalAddress "Niftrikhof 20"^^xsd:string ;
-        ns4:postalCodeWebSite "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
-        ns4:postalCodepostalCode "1106SB"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_holendrecht390DE5C36BB443A0geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
+        schema:PostalAddress "Niftrikhof 20"^^xsd:string ;
+        schema:WebSite "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
+        schema:postalCode "1106SB"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_holendrecht42AA928EF8C74C4Dgeo ;
         rdfs:seeAlso "http://gezondheidscentrumholendrecht.praktijkinfo.nl/"^^xsd:string ;
-        ns2:lat "52.2997825593225"^^xsd:float ;
-        ns2:long "4.96245183324276"^^xsd:float ;
-        ns3:VCardhasAddress "Niftrikhof 20"^^xsd:string ;
-        ns3:VCardhasPostalCode "1106SB"^^xsd:string .
+        wgs:lat "52.2997825593225"^^xsd:float ;
+        wgs:long "4.96245183324276"^^xsd:float ;
+        vcard:hasAddress "Niftrikhof 20"^^xsd:string ;
+        vcard:hasPostalCode "1106SB"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_nellestein_11F4E23CC2BD14F5F a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_nellestein_1794AEEBEB0AF4C83 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Nellestein"^^xsd:string ;
         dbo:PostalCode "1108HE"^^xsd:string ;
         dbo:Website "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
         dbo:address "Liendenhof 114"^^xsd:string ;
         dbp:latitude 5.230892e+01 ;
         dbp:longitude 4.983674e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Liendenhof 114"^^xsd:string ;
-        ns4:postalCodeWebSite "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1108HE"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_nellestein_11F4E23CC2BD14F5Fgeo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
+        schema:PostalAddress "Liendenhof 114"^^xsd:string ;
+        schema:WebSite "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
+        schema:postalCode "1108HE"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_nellestein_1794AEEBEB0AF4C83geo ;
         rdfs:seeAlso "https://gc-nellestein.praktijkinfo.nl"^^xsd:string ;
-        ns2:lat "52.308921762602"^^xsd:float ;
-        ns2:long "4.98367350795929"^^xsd:float ;
-        ns3:VCardhasAddress "Liendenhof 114"^^xsd:string ;
-        ns3:VCardhasPostalCode "1108HE"^^xsd:string .
+        wgs:lat "52.308921762602"^^xsd:float ;
+        wgs:long "4.98367350795929"^^xsd:float ;
+        vcard:hasAddress "Liendenhof 114"^^xsd:string ;
+        vcard:hasPostalCode "1108HE"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_oosthoekAFF53E049EB94701 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_oosthoekE41D57289D5A4FA3 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Oosthoek"^^xsd:string ;
         dbo:PostalCode "1095LB"^^xsd:string ;
         dbo:Website "http://www.gzc-oosthoek.nl"^^xsd:string ;
         dbo:address "Kramatplantsoen 101e"^^xsd:string ;
         dbp:latitude 5.236548e+01 ;
         dbp:longitude 4.946592e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.gzc-oosthoek.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Kramatplantsoen 101e"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.gzc-oosthoek.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1095LB"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_oosthoekAFF53E049EB94701geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.gzc-oosthoek.nl"^^xsd:string ;
+        schema:PostalAddress "Kramatplantsoen 101e"^^xsd:string ;
+        schema:WebSite "http://www.gzc-oosthoek.nl"^^xsd:string ;
+        schema:postalCode "1095LB"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_oosthoekE41D57289D5A4FA3geo ;
         rdfs:seeAlso "http://www.gzc-oosthoek.nl"^^xsd:string ;
-        ns2:lat "52.3654750756"^^xsd:float ;
-        ns2:long "4.94659199211418"^^xsd:float ;
-        ns3:VCardhasAddress "Kramatplantsoen 101e"^^xsd:string ;
-        ns3:VCardhasPostalCode "1095LB"^^xsd:string .
+        wgs:lat "52.3654750756"^^xsd:float ;
+        wgs:long "4.94659199211418"^^xsd:float ;
+        vcard:hasAddress "Kramatplantsoen 101e"^^xsd:string ;
+        vcard:hasPostalCode "1095LB"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_reigersbosACFC21FC67514668 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_reigersbos2175068706394462 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Reigersbos"^^xsd:string ;
         dbo:PostalCode "1107GA"^^xsd:string ;
         dbo:Website "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
         dbo:address "Schonerwoerdstraat 7"^^xsd:string ;
         dbp:latitude 5.229372e+01 ;
         dbp:longitude 4.976849e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Schonerwoerdstraat 7"^^xsd:string ;
-        ns4:postalCodeWebSite "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1107GA"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_reigersbosACFC21FC67514668geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
+        schema:PostalAddress "Schonerwoerdstraat 7"^^xsd:string ;
+        schema:WebSite "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
+        schema:postalCode "1107GA"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_reigersbos2175068706394462geo ;
         rdfs:seeAlso "https://gezondheidscentrumreigersbos.praktijkinfo.nl"^^xsd:string ;
-        ns2:lat "52.2937179078976"^^xsd:float ;
-        ns2:long "4.97684882036092"^^xsd:float ;
-        ns3:VCardhasAddress "Schonerwoerdstraat 7"^^xsd:string ;
-        ns3:VCardhasPostalCode "1107GA"^^xsd:string .
+        wgs:lat "52.2937179078976"^^xsd:float ;
+        wgs:long "4.97684882036092"^^xsd:float ;
+        vcard:hasAddress "Schonerwoerdstraat 7"^^xsd:string ;
+        vcard:hasPostalCode "1107GA"^^xsd:string .
 
-    ns5:opvogezondheidscentrum_venserpolder_1DEA5FDE6023B421D a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogezondheidscentrum_venserpolder_170340E4C9B154B01 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Gezondheidscentrum Venserpolder"^^xsd:string ;
         dbo:PostalCode "1102VL"^^xsd:string ;
         dbo:Website "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
         dbo:address "Alfred D&#246;blinstraat 56"^^xsd:string ;
         dbp:latitude 5.231929e+01 ;
         dbp:longitude 4.943231e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Alfred D&#246;blinstraat 56"^^xsd:string ;
-        ns4:postalCodeWebSite "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1102VL"^^xsd:string ;
-        geo:hasGeometry ns5:opvogezondheidscentrum_venserpolder_1DEA5FDE6023B421Dgeo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
+        schema:PostalAddress "Alfred D&#246;blinstraat 56"^^xsd:string ;
+        schema:WebSite "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
+        schema:postalCode "1102VL"^^xsd:string ;
+        geo:hasGeometry g13data:opvogezondheidscentrum_venserpolder_170340E4C9B154B01geo ;
         rdfs:seeAlso "http://gezondheidscentrumvenserpolder.praktijkinfo.nl"^^xsd:string ;
-        ns2:lat "52.3192925974688"^^xsd:float ;
-        ns2:long "4.94323116274827"^^xsd:float ;
-        ns3:VCardhasAddress "Alfred D&#246;blinstraat 56"^^xsd:string ;
-        ns3:VCardhasPostalCode "1102VL"^^xsd:string .
+        wgs:lat "52.3192925974688"^^xsd:float ;
+        wgs:long "4.94323116274827"^^xsd:float ;
+        vcard:hasAddress "Alfred D&#246;blinstraat 56"^^xsd:string ;
+        vcard:hasPostalCode "1102VL"^^xsd:string .
 
-    ns5:opvogrip_op_talent686C93E46F8F4F6B a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvogrip_op_talentD04797507B90485F a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Grip op Talent"^^xsd:string ;
         dbo:PostalCode "1103AV"^^xsd:string ;
         dbo:Website "http://gripoptalent.nl"^^xsd:string ;
         dbo:address "Emanzana 37"^^xsd:string ;
         dbp:latitude 5.232419e+01 ;
         dbp:longitude 4.965097e+00 ;
-        :website "http://gripoptalent.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Emanzana 37"^^xsd:string ;
-        ns4:postalCodeWebSite "http://gripoptalent.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1103AV"^^xsd:string ;
-        geo:hasGeometry ns5:opvogrip_op_talent686C93E46F8F4F6Bgeo ;
+        g13vocab:website "http://gripoptalent.nl"^^xsd:string ;
+        schema:PostalAddress "Emanzana 37"^^xsd:string ;
+        schema:WebSite "http://gripoptalent.nl"^^xsd:string ;
+        schema:postalCode "1103AV"^^xsd:string ;
+        geo:hasGeometry g13data:opvogrip_op_talentD04797507B90485Fgeo ;
         rdfs:seeAlso "http://gripoptalent.nl"^^xsd:string ;
-        ns2:lat "52.3241900686499"^^xsd:float ;
-        ns2:long "4.96509672917559"^^xsd:float ;
-        ns3:VCardhasAddress "Emanzana 37"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103AV"^^xsd:string .
+        wgs:lat "52.3241900686499"^^xsd:float ;
+        wgs:long "4.96509672917559"^^xsd:float ;
+        vcard:hasAddress "Emanzana 37"^^xsd:string ;
+        vcard:hasPostalCode "1103AV"^^xsd:string .
 
-    ns5:opvohet_geboortecentrum4F53C9B732474C51 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohet_geboortecentrumF4B6F664EDFD42DA a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Het Geboortecentrum"^^xsd:string ;
         dbo:PostalCode "1054AW"^^xsd:string ;
         dbo:Website "http://www.geboortecentrum.nl/"^^xsd:string ;
         dbo:address "De Genestetstraat 1-jan"^^xsd:string ;
         dbp:latitude 5.236597e+01 ;
         dbp:longitude 4.876386e+00 ;
-        :website "http://www.geboortecentrum.nl/"^^xsd:string ;
-        ns4:postalCodePostalAddress "De Genestetstraat 1-jan"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.geboortecentrum.nl/"^^xsd:string ;
-        ns4:postalCodepostalCode "1054AW"^^xsd:string ;
-        geo:hasGeometry ns5:opvohet_geboortecentrum4F53C9B732474C51geo ;
+        g13vocab:website "http://www.geboortecentrum.nl/"^^xsd:string ;
+        schema:PostalAddress "De Genestetstraat 1-jan"^^xsd:string ;
+        schema:WebSite "http://www.geboortecentrum.nl/"^^xsd:string ;
+        schema:postalCode "1054AW"^^xsd:string ;
+        geo:hasGeometry g13data:opvohet_geboortecentrumF4B6F664EDFD42DAgeo ;
         rdfs:seeAlso "http://www.geboortecentrum.nl/"^^xsd:string ;
-        ns2:lat "52.3659749869885"^^xsd:float ;
-        ns2:long "4.87638584124133"^^xsd:float ;
-        ns3:VCardhasAddress "De Genestetstraat 1-jan"^^xsd:string ;
-        ns3:VCardhasPostalCode "1054AW"^^xsd:string .
+        wgs:lat "52.3659749869885"^^xsd:float ;
+        wgs:long "4.87638584124133"^^xsd:float ;
+        vcard:hasAddress "De Genestetstraat 1-jan"^^xsd:string ;
+        vcard:hasPostalCode "1054AW"^^xsd:string .
 
-    ns5:opvohome_start6B71AF2069E44B03 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start48DABFABB2FE4CEB a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1069RK"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Evertsweertplantsoen 3a"^^xsd:string ;
         dbp:latitude 5.235594e+01 ;
         dbp:longitude 4.793081e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Evertsweertplantsoen 3a"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1069RK"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start6B71AF2069E44B03geo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Evertsweertplantsoen 3a"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1069RK"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start48DABFABB2FE4CEBgeo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3559423314776"^^xsd:float ;
-        ns2:long "4.79308078810462"^^xsd:float ;
-        ns3:VCardhasAddress "Evertsweertplantsoen 3a"^^xsd:string ;
-        ns3:VCardhasPostalCode "1069RK"^^xsd:string .
+        wgs:lat "52.3559423314776"^^xsd:float ;
+        wgs:long "4.79308078810462"^^xsd:float ;
+        vcard:hasAddress "Evertsweertplantsoen 3a"^^xsd:string ;
+        vcard:hasPostalCode "1069RK"^^xsd:string .
 
-    ns5:opvohome_start_1F5DE6A3DC2564F8C a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start_1EBEF7451DA214216 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1024VL"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Beverwijkstraat 3"^^xsd:string ;
         dbp:latitude 5.239364e+01 ;
         dbp:longitude 4.955449e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Beverwijkstraat 3"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1024VL"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start_1F5DE6A3DC2564F8Cgeo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Beverwijkstraat 3"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1024VL"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start_1EBEF7451DA214216geo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3936400584394"^^xsd:float ;
-        ns2:long "4.9554494917273"^^xsd:float ;
-        ns3:VCardhasAddress "Beverwijkstraat 3"^^xsd:string ;
-        ns3:VCardhasPostalCode "1024VL"^^xsd:string .
+        wgs:lat "52.3936400584394"^^xsd:float ;
+        wgs:long "4.9554494917273"^^xsd:float ;
+        vcard:hasAddress "Beverwijkstraat 3"^^xsd:string ;
+        vcard:hasPostalCode "1024VL"^^xsd:string .
 
-    ns5:opvohome_start_20C739BE1F6FA4FB2 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start_2DBF07B133CCC4A2A a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1013RR"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Houtmankade 334"^^xsd:string ;
         dbp:latitude 5.238595e+01 ;
         dbp:longitude 4.88199e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Houtmankade 334"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1013RR"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start_20C739BE1F6FA4FB2geo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Houtmankade 334"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1013RR"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start_2DBF07B133CCC4A2Ageo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3859495819503"^^xsd:float ;
-        ns2:long "4.88198973368755"^^xsd:float ;
-        ns3:VCardhasAddress "Houtmankade 334"^^xsd:string ;
-        ns3:VCardhasPostalCode "1013RR"^^xsd:string .
+        wgs:lat "52.3859495819503"^^xsd:float ;
+        wgs:long "4.88198973368755"^^xsd:float ;
+        vcard:hasAddress "Houtmankade 334"^^xsd:string ;
+        vcard:hasPostalCode "1013RR"^^xsd:string .
 
-    ns5:opvohome_start_346B341141C7A494C a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start_3971C615E90C748CD a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1017WS"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Sarphatistraat 4"^^xsd:string ;
         dbp:latitude 5.235978e+01 ;
         dbp:longitude 4.902103e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Sarphatistraat 4"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1017WS"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start_346B341141C7A494Cgeo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Sarphatistraat 4"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1017WS"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start_3971C615E90C748CDgeo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3597827618791"^^xsd:float ;
-        ns2:long "4.90210339499815"^^xsd:float ;
-        ns3:VCardhasAddress "Sarphatistraat 4"^^xsd:string ;
-        ns3:VCardhasPostalCode "1017WS"^^xsd:string .
+        wgs:lat "52.3597827618791"^^xsd:float ;
+        wgs:long "4.90210339499815"^^xsd:float ;
+        vcard:hasAddress "Sarphatistraat 4"^^xsd:string ;
+        vcard:hasPostalCode "1017WS"^^xsd:string .
 
-    ns5:opvohome_start_4937F55EB44304975 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start_4757B711982814F5F a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1055CK"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Tijl Uilenspiegelstraat 12"^^xsd:string ;
         dbp:latitude 5.237788e+01 ;
         dbp:longitude 4.848697e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1055CK"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start_4937F55EB44304975geo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1055CK"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start_4757B711982814F5Fgeo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3778778758174"^^xsd:float ;
-        ns2:long "4.84869744789742"^^xsd:float ;
-        ns3:VCardhasAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
-        ns3:VCardhasPostalCode "1055CK"^^xsd:string .
+        wgs:lat "52.3778778758174"^^xsd:float ;
+        wgs:long "4.84869744789742"^^xsd:float ;
+        vcard:hasAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
+        vcard:hasPostalCode "1055CK"^^xsd:string .
 
-    ns5:opvohome_start_54555A705C5644E0F a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start_57C6B196AF9934084 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1073GN"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Lutmastraat 61"^^xsd:string ;
         dbp:latitude 5.235068e+01 ;
         dbp:longitude 4.895334e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Lutmastraat 61"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1073GN"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start_54555A705C5644E0Fgeo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Lutmastraat 61"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1073GN"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start_57C6B196AF9934084geo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3506772126321"^^xsd:float ;
-        ns2:long "4.89533400658149"^^xsd:float ;
-        ns3:VCardhasAddress "Lutmastraat 61"^^xsd:string ;
-        ns3:VCardhasPostalCode "1073GN"^^xsd:string .
+        wgs:lat "52.3506772126321"^^xsd:float ;
+        wgs:long "4.89533400658149"^^xsd:float ;
+        vcard:hasAddress "Lutmastraat 61"^^xsd:string ;
+        vcard:hasPostalCode "1073GN"^^xsd:string .
 
-    ns5:opvohome_start_64DB13707BA5A4DEA a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvohome_start_6713B5831C2994C20 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Home-Start"^^xsd:string ;
         dbo:PostalCode "1082LP"^^xsd:string ;
         dbo:Website "http://www.home-start.nl"^^xsd:string ;
         dbo:address "Arent Janszoon Ernststraat 112"^^xsd:string ;
         dbp:latitude 5.233231e+01 ;
         dbp:longitude 4.878226e+00 ;
-        :website "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.home-start.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1082LP"^^xsd:string ;
-        geo:hasGeometry ns5:opvohome_start_64DB13707BA5A4DEAgeo ;
+        g13vocab:website "http://www.home-start.nl"^^xsd:string ;
+        schema:PostalAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
+        schema:WebSite "http://www.home-start.nl"^^xsd:string ;
+        schema:postalCode "1082LP"^^xsd:string ;
+        geo:hasGeometry g13data:opvohome_start_6713B5831C2994C20geo ;
         rdfs:seeAlso "http://www.home-start.nl"^^xsd:string ;
-        ns2:lat "52.3323147607255"^^xsd:float ;
-        ns2:long "4.87822550674615"^^xsd:float ;
-        ns3:VCardhasAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
-        ns3:VCardhasPostalCode "1082LP"^^xsd:string .
+        wgs:lat "52.3323147607255"^^xsd:float ;
+        wgs:long "4.87822550674615"^^xsd:float ;
+        vcard:hasAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
+        vcard:hasPostalCode "1082LP"^^xsd:string .
 
-    ns5:opvola_surprise74B02F6A6B5545B9 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvola_surprise08660A287FD14F80 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "La Surprise"^^xsd:string ;
         dbo:PostalCode "1078NG"^^xsd:string ;
         dbo:Website ""^^xsd:string ;
         dbo:address "Merwedeplein 50"^^xsd:string ;
         dbp:latitude 5.234604e+01 ;
         dbp:longitude 4.900287e+00 ;
-        :website ""^^xsd:string ;
-        ns4:postalCodePostalAddress "Merwedeplein 50"^^xsd:string ;
-        ns4:postalCodeWebSite ""^^xsd:string ;
-        ns4:postalCodepostalCode "1078NG"^^xsd:string ;
-        geo:hasGeometry ns5:opvola_surprise74B02F6A6B5545B9geo ;
+        g13vocab:website ""^^xsd:string ;
+        schema:PostalAddress "Merwedeplein 50"^^xsd:string ;
+        schema:WebSite ""^^xsd:string ;
+        schema:postalCode "1078NG"^^xsd:string ;
+        geo:hasGeometry g13data:opvola_surprise08660A287FD14F80geo ;
         rdfs:seeAlso ""^^xsd:string ;
-        ns2:lat "52.3460420377515"^^xsd:float ;
-        ns2:long "4.90028702419074"^^xsd:float ;
-        ns3:VCardhasAddress "Merwedeplein 50"^^xsd:string ;
-        ns3:VCardhasPostalCode "1078NG"^^xsd:string .
+        wgs:lat "52.3460420377515"^^xsd:float ;
+        wgs:long "4.90028702419074"^^xsd:float ;
+        vcard:hasAddress "Merwedeplein 50"^^xsd:string ;
+        vcard:hasPostalCode "1078NG"^^xsd:string .
 
-    ns5:opvomama_cafeAC92B32D5A5B463E a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvomama_cafeD3C6C5E7285346B6 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Mama Café"^^xsd:string ;
         dbo:PostalCode "1094CC"^^xsd:string ;
         dbo:Website "http://www.mama-cafe.nl"^^xsd:string ;
         dbo:address "Timorplein 62"^^xsd:string ;
         dbp:latitude 5.236511e+01 ;
         dbp:longitude 4.936239e+00 ;
-        :website "http://www.mama-cafe.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Timorplein 62"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.mama-cafe.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1094CC"^^xsd:string ;
-        geo:hasGeometry ns5:opvomama_cafeAC92B32D5A5B463Egeo ;
+        g13vocab:website "http://www.mama-cafe.nl"^^xsd:string ;
+        schema:PostalAddress "Timorplein 62"^^xsd:string ;
+        schema:WebSite "http://www.mama-cafe.nl"^^xsd:string ;
+        schema:postalCode "1094CC"^^xsd:string ;
+        geo:hasGeometry g13data:opvomama_cafeD3C6C5E7285346B6geo ;
         rdfs:seeAlso "http://www.mama-cafe.nl"^^xsd:string ;
-        ns2:lat "52.3651126104588"^^xsd:float ;
-        ns2:long "4.93623929333237"^^xsd:float ;
-        ns3:VCardhasAddress "Timorplein 62"^^xsd:string ;
-        ns3:VCardhasPostalCode "1094CC"^^xsd:string .
+        wgs:lat "52.3651126104588"^^xsd:float ;
+        wgs:long "4.93623929333237"^^xsd:float ;
+        vcard:hasAddress "Timorplein 62"^^xsd:string ;
+        vcard:hasPostalCode "1094CC"^^xsd:string .
 
-    ns5:opvomoedercentrum_douniazadeAD016D0F1383454E a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvomoedercentrum_douniazade89D5DC72AA6448F2 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Moedercentrum Douniazade"^^xsd:string ;
         dbo:PostalCode "1031CR"^^xsd:string ;
         dbo:Website "http://www.combiwel.nl"^^xsd:string ;
         dbo:address "Van der Pekstraat 49"^^xsd:string ;
         dbp:latitude 5.238846e+01 ;
         dbp:longitude 4.909105e+00 ;
-        :website "http://www.combiwel.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Van der Pekstraat 49"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.combiwel.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1031CR"^^xsd:string ;
-        geo:hasGeometry ns5:opvomoedercentrum_douniazadeAD016D0F1383454Egeo ;
+        g13vocab:website "http://www.combiwel.nl"^^xsd:string ;
+        schema:PostalAddress "Van der Pekstraat 49"^^xsd:string ;
+        schema:WebSite "http://www.combiwel.nl"^^xsd:string ;
+        schema:postalCode "1031CR"^^xsd:string ;
+        geo:hasGeometry g13data:opvomoedercentrum_douniazade89D5DC72AA6448F2geo ;
         rdfs:seeAlso "http://www.combiwel.nl"^^xsd:string ;
-        ns2:lat "52.3884640230981"^^xsd:float ;
-        ns2:long "4.90910506298851"^^xsd:float ;
-        ns3:VCardhasAddress "Van der Pekstraat 49"^^xsd:string ;
-        ns3:VCardhasPostalCode "1031CR"^^xsd:string .
+        wgs:lat "52.3884640230981"^^xsd:float ;
+        wgs:long "4.90910506298851"^^xsd:float ;
+        vcard:hasAddress "Van der Pekstraat 49"^^xsd:string ;
+        vcard:hasPostalCode "1031CR"^^xsd:string .
 
-    ns5:opvookt_albardakade54CD4A3A86C04C5D a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_albardakade80FFDD3FB3C8474C a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Albardakade"^^xsd:string ;
         dbo:PostalCode "1067DD"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Albardakade 9"^^xsd:string ;
         dbp:latitude 5.237803e+01 ;
         dbp:longitude 4.802786e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Albardakade 9"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1067DD"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_albardakade54CD4A3A86C04C5Dgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Albardakade 9"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1067DD"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_albardakade80FFDD3FB3C8474Cgeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3780286788053"^^xsd:float ;
-        ns2:long "4.80278629499397"^^xsd:float ;
-        ns3:VCardhasAddress "Albardakade 9"^^xsd:string ;
-        ns3:VCardhasPostalCode "1067DD"^^xsd:string .
+        wgs:lat "52.3780286788053"^^xsd:float ;
+        wgs:long "4.80278629499397"^^xsd:float ;
+        vcard:hasAddress "Albardakade 9"^^xsd:string ;
+        vcard:hasPostalCode "1067DD"^^xsd:string .
 
-    ns5:opvookt_aldebaranplein04E56BC5D36B4F61 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_aldebaranplein7E237751A2EE44A2 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Aldebaranplein"^^xsd:string ;
         dbo:PostalCode "1033GS"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Aldebaranplein 2f"^^xsd:string ;
         dbp:latitude 5.241125e+01 ;
         dbp:longitude 4.892531e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Aldebaranplein 2f"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1033GS"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_aldebaranplein04E56BC5D36B4F61geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Aldebaranplein 2f"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1033GS"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_aldebaranplein7E237751A2EE44A2geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.4112515737294"^^xsd:float ;
-        ns2:long "4.8925305760082"^^xsd:float ;
-        ns3:VCardhasAddress "Aldebaranplein 2f"^^xsd:string ;
-        ns3:VCardhasPostalCode "1033GS"^^xsd:string .
+        wgs:lat "52.4112515737294"^^xsd:float ;
+        wgs:long "4.8925305760082"^^xsd:float ;
+        vcard:hasAddress "Aldebaranplein 2f"^^xsd:string ;
+        vcard:hasPostalCode "1033GS"^^xsd:string .
 
-    ns5:opvookt_binnenhof204518740D96408F a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_binnenhof6A3548D31C7D48A4 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Binnenhof"^^xsd:string ;
         dbo:PostalCode "1082LP"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Arent Janszoon Ernststraat 112"^^xsd:string ;
         dbp:latitude 5.233231e+01 ;
         dbp:longitude 4.878226e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1082LP"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_binnenhof204518740D96408Fgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1082LP"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_binnenhof6A3548D31C7D48A4geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3323147607255"^^xsd:float ;
-        ns2:long "4.87822550674615"^^xsd:float ;
-        ns3:VCardhasAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
-        ns3:VCardhasPostalCode "1082LP"^^xsd:string .
+        wgs:lat "52.3323147607255"^^xsd:float ;
+        wgs:long "4.87822550674615"^^xsd:float ;
+        vcard:hasAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
+        vcard:hasPostalCode "1082LP"^^xsd:string .
 
-    ns5:opvookt_bockesprongDA48E788834444F8 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_bockesprongE1024AC18EEE4BE6 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Bockesprong"^^xsd:string ;
         dbo:PostalCode "1058VC"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Theophile de Bockstraat 100e"^^xsd:string ;
         dbp:latitude 5.235511e+01 ;
         dbp:longitude 4.846141e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Theophile de Bockstraat 100e"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1058VC"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_bockesprongDA48E788834444F8geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Theophile de Bockstraat 100e"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1058VC"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_bockesprongE1024AC18EEE4BE6geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3551092403537"^^xsd:float ;
-        ns2:long "4.84614077202103"^^xsd:float ;
-        ns3:VCardhasAddress "Theophile de Bockstraat 100e"^^xsd:string ;
-        ns3:VCardhasPostalCode "1058VC"^^xsd:string .
+        wgs:lat "52.3551092403537"^^xsd:float ;
+        wgs:long "4.84614077202103"^^xsd:float ;
+        vcard:hasAddress "Theophile de Bockstraat 100e"^^xsd:string ;
+        vcard:hasPostalCode "1058VC"^^xsd:string .
 
-    ns5:opvookt_brederodestraatDAB1456B307046B7 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_brederodestraat231DEB09E270477A a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Brederodestraat"^^xsd:string ;
         dbo:PostalCode "1054VH"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Brederodestraat 108"^^xsd:string ;
         dbp:latitude 5.236083e+01 ;
         dbp:longitude 4.862131e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Brederodestraat 108"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1054VH"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_brederodestraatDAB1456B307046B7geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Brederodestraat 108"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1054VH"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_brederodestraat231DEB09E270477Ageo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3608345505683"^^xsd:float ;
-        ns2:long "4.86213149015507"^^xsd:float ;
-        ns3:VCardhasAddress "Brederodestraat 108"^^xsd:string ;
-        ns3:VCardhasPostalCode "1054VH"^^xsd:string .
+        wgs:lat "52.3608345505683"^^xsd:float ;
+        wgs:long "4.86213149015507"^^xsd:float ;
+        vcard:hasAddress "Brederodestraat 108"^^xsd:string ;
+        vcard:hasPostalCode "1054VH"^^xsd:string .
 
-    ns5:opvookt_de_kikkerE22D0E1D662F4FF0 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_de_kikker25BBD8AA451A4033 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT de Kikker"^^xsd:string ;
         dbo:PostalCode "1069RK"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Evertsweertplantsoen 3a"^^xsd:string ;
         dbp:latitude 5.235594e+01 ;
         dbp:longitude 4.793081e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Evertsweertplantsoen 3a"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1069RK"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_de_kikkerE22D0E1D662F4FF0geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Evertsweertplantsoen 3a"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1069RK"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_de_kikker25BBD8AA451A4033geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3559423314776"^^xsd:float ;
-        ns2:long "4.79308078810462"^^xsd:float ;
-        ns3:VCardhasAddress "Evertsweertplantsoen 3a"^^xsd:string ;
-        ns3:VCardhasPostalCode "1069RK"^^xsd:string .
+        wgs:lat "52.3559423314776"^^xsd:float ;
+        wgs:long "4.79308078810462"^^xsd:float ;
+        vcard:hasAddress "Evertsweertplantsoen 3a"^^xsd:string ;
+        vcard:hasPostalCode "1069RK"^^xsd:string .
 
-    ns5:opvookt_flevopoortCC3C44EEFA114E6D a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_flevopoort6238E4987D6F4B5E a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Flevopoort"^^xsd:string ;
         dbo:PostalCode "1095LB"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Kramatplantsoen 101d"^^xsd:string ;
         dbp:latitude 5.236548e+01 ;
         dbp:longitude 4.946592e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Kramatplantsoen 101d"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1095LB"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_flevopoortCC3C44EEFA114E6Dgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Kramatplantsoen 101d"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1095LB"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_flevopoort6238E4987D6F4B5Egeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3654750756"^^xsd:float ;
-        ns2:long "4.94659199211418"^^xsd:float ;
-        ns3:VCardhasAddress "Kramatplantsoen 101d"^^xsd:string ;
-        ns3:VCardhasPostalCode "1095LB"^^xsd:string .
+        wgs:lat "52.3654750756"^^xsd:float ;
+        wgs:long "4.94659199211418"^^xsd:float ;
+        vcard:hasAddress "Kramatplantsoen 101d"^^xsd:string ;
+        vcard:hasPostalCode "1095LB"^^xsd:string .
 
-    ns5:opvookt_gaasperdam43634918D4724A6B a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_gaasperdamB65A2BCF193A4A20 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Gaasperdam"^^xsd:string ;
         dbo:PostalCode "1107EZ"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Reigersbos 309"^^xsd:string ;
         dbp:latitude 5.229407e+01 ;
         dbp:longitude 4.976494e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Reigersbos 309"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1107EZ"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_gaasperdam43634918D4724A6Bgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Reigersbos 309"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1107EZ"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_gaasperdamB65A2BCF193A4A20geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.2940671998245"^^xsd:float ;
-        ns2:long "4.97649379538095"^^xsd:float ;
-        ns3:VCardhasAddress "Reigersbos 309"^^xsd:string ;
-        ns3:VCardhasPostalCode "1107EZ"^^xsd:string .
+        wgs:lat "52.2940671998245"^^xsd:float ;
+        wgs:long "4.97649379538095"^^xsd:float ;
+        vcard:hasAddress "Reigersbos 309"^^xsd:string ;
+        vcard:hasPostalCode "1107EZ"^^xsd:string .
 
-    ns5:opvookt_het_meervoudC0A873ADB55B4F8A a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_het_meervoud932B9340C4384899 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Het Meervoud"^^xsd:string ;
         dbo:PostalCode "1062AA"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "August Alleb&#233;plein 11"^^xsd:string ;
         dbp:latitude 5.236306e+01 ;
         dbp:longitude 4.83933e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "August Alleb&#233;plein 11"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1062AA"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_het_meervoudC0A873ADB55B4F8Ageo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "August Alleb&#233;plein 11"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1062AA"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_het_meervoud932B9340C4384899geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3630587418573"^^xsd:float ;
-        ns2:long "4.83932955474092"^^xsd:float ;
-        ns3:VCardhasAddress "August Alleb&#233;plein 11"^^xsd:string ;
-        ns3:VCardhasPostalCode "1062AA"^^xsd:string .
+        wgs:lat "52.3630587418573"^^xsd:float ;
+        wgs:long "4.83932955474092"^^xsd:float ;
+        vcard:hasAddress "August Alleb&#233;plein 11"^^xsd:string ;
+        vcard:hasPostalCode "1062AA"^^xsd:string .
 
-    ns5:opvookt_ijburgD9C9485B91D74DBD a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_ijburg735C0B14110F484E a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT IJburg"^^xsd:string ;
         dbo:PostalCode "1087LA"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Pampuslaan 26"^^xsd:string ;
         dbp:latitude 5.235165e+01 ;
         dbp:longitude 5.007402e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Pampuslaan 26"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1087LA"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_ijburgD9C9485B91D74DBDgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Pampuslaan 26"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1087LA"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_ijburg735C0B14110F484Egeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3516458031716"^^xsd:float ;
-        ns2:long "5.00740212443746"^^xsd:float ;
-        ns3:VCardhasAddress "Pampuslaan 26"^^xsd:string ;
-        ns3:VCardhasPostalCode "1087LA"^^xsd:string .
+        wgs:lat "52.3516458031716"^^xsd:float ;
+        wgs:long "5.00740212443746"^^xsd:float ;
+        vcard:hasAddress "Pampuslaan 26"^^xsd:string ;
+        vcard:hasPostalCode "1087LA"^^xsd:string .
 
-    ns5:opvookt_jan_van_der_heijdenstraatD03C2F5D383E4911 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_jan_van_der_heijdenstraat3B2825ACA5924CCD a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Jan van der Heijdenstraat"^^xsd:string ;
         dbo:PostalCode "1074XR"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Tweede Jan van der Heijdenstraat 75"^^xsd:string ;
         dbp:latitude 5.235608e+01 ;
         dbp:longitude 4.902276e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Tweede Jan van der Heijdenstraat 75"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1074XR"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_jan_van_der_heijdenstraatD03C2F5D383E4911geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Tweede Jan van der Heijdenstraat 75"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1074XR"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_jan_van_der_heijdenstraat3B2825ACA5924CCDgeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.356080524128"^^xsd:float ;
-        ns2:long "4.90227597500529"^^xsd:float ;
-        ns3:VCardhasAddress "Tweede Jan van der Heijdenstraat 75"^^xsd:string ;
-        ns3:VCardhasPostalCode "1074XR"^^xsd:string .
+        wgs:lat "52.356080524128"^^xsd:float ;
+        wgs:long "4.90227597500529"^^xsd:float ;
+        vcard:hasAddress "Tweede Jan van der Heijdenstraat 75"^^xsd:string ;
+        vcard:hasPostalCode "1074XR"^^xsd:string .
 
-    ns5:opvookt_klein_gooioordE6F9CBB434F343EB a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_klein_gooioord83C5E2F071474E21 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Klein Gooioord"^^xsd:string ;
         dbo:PostalCode "1103TW"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Bijlmerdreef 1005c"^^xsd:string ;
         dbp:latitude 5.232124e+01 ;
         dbp:longitude 4.970684e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Bijlmerdreef 1005c"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1103TW"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_klein_gooioordE6F9CBB434F343EBgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Bijlmerdreef 1005c"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1103TW"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_klein_gooioord83C5E2F071474E21geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3212439083427"^^xsd:float ;
-        ns2:long "4.9706836526372"^^xsd:float ;
-        ns3:VCardhasAddress "Bijlmerdreef 1005c"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103TW"^^xsd:string .
+        wgs:lat "52.3212439083427"^^xsd:float ;
+        wgs:long "4.9706836526372"^^xsd:float ;
+        vcard:hasAddress "Bijlmerdreef 1005c"^^xsd:string ;
+        vcard:hasPostalCode "1103TW"^^xsd:string .
 
-    ns5:opvookt_kraijenhoffstraat7536FAA70C3E43EE a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_kraijenhoffstraat096007EC63C04093 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Kraijenhoffstraat"^^xsd:string ;
         dbo:PostalCode "1018RL"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Kraijenhoffstraat 32"^^xsd:string ;
         dbp:latitude 5.236941e+01 ;
         dbp:longitude 4.93019e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Kraijenhoffstraat 32"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1018RL"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_kraijenhoffstraat7536FAA70C3E43EEgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Kraijenhoffstraat 32"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1018RL"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_kraijenhoffstraat096007EC63C04093geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3694124973057"^^xsd:float ;
-        ns2:long "4.93019010450497"^^xsd:float ;
-        ns3:VCardhasAddress "Kraijenhoffstraat 32"^^xsd:string ;
-        ns3:VCardhasPostalCode "1018RL"^^xsd:string .
+        wgs:lat "52.3694124973057"^^xsd:float ;
+        wgs:long "4.93019010450497"^^xsd:float ;
+        vcard:hasAddress "Kraijenhoffstraat 32"^^xsd:string ;
+        vcard:hasPostalCode "1018RL"^^xsd:string .
 
-    ns5:opvookt_lindengracht1818E639E86F4353 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_lindengracht27D003DEA3344E33 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Lindengracht"^^xsd:string ;
         dbo:PostalCode "1015KL"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Lindengracht 204a"^^xsd:string ;
         dbp:latitude 5.23802e+01 ;
         dbp:longitude 4.883507e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Lindengracht 204a"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1015KL"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_lindengracht1818E639E86F4353geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Lindengracht 204a"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1015KL"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_lindengracht27D003DEA3344E33geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3801970968937"^^xsd:float ;
-        ns2:long "4.88350675115323"^^xsd:float ;
-        ns3:VCardhasAddress "Lindengracht 204a"^^xsd:string ;
-        ns3:VCardhasPostalCode "1015KL"^^xsd:string .
+        wgs:lat "52.3801970968937"^^xsd:float ;
+        wgs:long "4.88350675115323"^^xsd:float ;
+        vcard:hasAddress "Lindengracht 204a"^^xsd:string ;
+        vcard:hasPostalCode "1015KL"^^xsd:string .
 
-    ns5:opvookt_magalhaenspleinC82C9B4C21474899 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_magalhaenspleinDCE8FA7CE31B4F74 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Magalhaensplein"^^xsd:string ;
         dbo:PostalCode "1057VG"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Magalhaensplein 2"^^xsd:string ;
         dbp:latitude 5.236776e+01 ;
         dbp:longitude 4.854282e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Magalhaensplein 2"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1057VG"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_magalhaenspleinC82C9B4C21474899geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Magalhaensplein 2"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1057VG"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_magalhaenspleinDCE8FA7CE31B4F74geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3677559927283"^^xsd:float ;
-        ns2:long "4.85428234350039"^^xsd:float ;
-        ns3:VCardhasAddress "Magalhaensplein 2"^^xsd:string ;
-        ns3:VCardhasPostalCode "1057VG"^^xsd:string .
+        wgs:lat "52.3677559927283"^^xsd:float ;
+        wgs:long "4.85428234350039"^^xsd:float ;
+        vcard:hasAddress "Magalhaensplein 2"^^xsd:string ;
+        vcard:hasPostalCode "1057VG"^^xsd:string .
 
-    ns5:opvookt_osdorp48AFC07A8C164722 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_osdorpBC04E627744F4D74 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Osdorp"^^xsd:string ;
         dbo:PostalCode "1069RK"^^xsd:string ;
         dbo:Website "http://oktamsterdam.nl/"^^xsd:string ;
         dbo:address "Evertsweertplantsoen 3"^^xsd:string ;
         dbp:latitude 5.235594e+01 ;
         dbp:longitude 4.793081e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://oktamsterdam.nl/"^^xsd:string ;
-        ns4:postalCodePostalAddress "Evertsweertplantsoen 3"^^xsd:string ;
-        ns4:postalCodeWebSite "http://oktamsterdam.nl/"^^xsd:string ;
-        ns4:postalCodepostalCode "1069RK"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_osdorp48AFC07A8C164722geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://oktamsterdam.nl/"^^xsd:string ;
+        schema:PostalAddress "Evertsweertplantsoen 3"^^xsd:string ;
+        schema:WebSite "http://oktamsterdam.nl/"^^xsd:string ;
+        schema:postalCode "1069RK"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_osdorpBC04E627744F4D74geo ;
         rdfs:seeAlso "http://oktamsterdam.nl/"^^xsd:string ;
-        ns2:lat "52.3559423314776"^^xsd:float ;
-        ns2:long "4.79308078810462"^^xsd:float ;
-        ns3:VCardhasAddress "Evertsweertplantsoen 3"^^xsd:string ;
-        ns3:VCardhasPostalCode "1069RK"^^xsd:string .
+        wgs:lat "52.3559423314776"^^xsd:float ;
+        wgs:long "4.79308078810462"^^xsd:float ;
+        vcard:hasAddress "Evertsweertplantsoen 3"^^xsd:string ;
+        vcard:hasPostalCode "1069RK"^^xsd:string .
 
-    ns5:opvookt_pontanusstraat935313A273744BFD a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_pontanusstraatE386439B432A4167 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Pontanusstraat"^^xsd:string ;
         dbo:PostalCode "1093SH"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Pontanusstraat 278"^^xsd:string ;
         dbp:latitude 5.23607e+01 ;
         dbp:longitude 4.929986e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Pontanusstraat 278"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1093SH"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_pontanusstraat935313A273744BFDgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Pontanusstraat 278"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1093SH"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_pontanusstraatE386439B432A4167geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3607026272313"^^xsd:float ;
-        ns2:long "4.92998620349585"^^xsd:float ;
-        ns3:VCardhasAddress "Pontanusstraat 278"^^xsd:string ;
-        ns3:VCardhasPostalCode "1093SH"^^xsd:string .
+        wgs:lat "52.3607026272313"^^xsd:float ;
+        wgs:long "4.92998620349585"^^xsd:float ;
+        vcard:hasAddress "Pontanusstraat 278"^^xsd:string ;
+        vcard:hasPostalCode "1093SH"^^xsd:string .
 
-    ns5:opvookt_slotermeerlaanA9F00F2628B2481C a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_slotermeerlaan7128776FE7F94A4B a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Slotermeerlaan"^^xsd:string ;
         dbo:PostalCode "1063JN"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Slotermeerlaan 103f"^^xsd:string ;
         dbp:latitude 5.23787e+01 ;
         dbp:longitude 4.819917e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Slotermeerlaan 103f"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1063JN"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_slotermeerlaanA9F00F2628B2481Cgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Slotermeerlaan 103f"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1063JN"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_slotermeerlaan7128776FE7F94A4Bgeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3786961907812"^^xsd:float ;
-        ns2:long "4.81991666740395"^^xsd:float ;
-        ns3:VCardhasAddress "Slotermeerlaan 103f"^^xsd:string ;
-        ns3:VCardhasPostalCode "1063JN"^^xsd:string .
+        wgs:lat "52.3786961907812"^^xsd:float ;
+        wgs:long "4.81991666740395"^^xsd:float ;
+        vcard:hasAddress "Slotermeerlaan 103f"^^xsd:string ;
+        vcard:hasPostalCode "1063JN"^^xsd:string .
 
-    ns5:opvookt_tijl_uilenspiegelstraat57E8A11CB5D9446F a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_tijl_uilenspiegelstraatE11D37BB796B4986 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Tijl Uilenspiegelstraat"^^xsd:string ;
         dbo:PostalCode "1055CK"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Tijl Uilenspiegelstraat 12"^^xsd:string ;
         dbp:latitude 5.237788e+01 ;
         dbp:longitude 4.848697e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1055CK"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_tijl_uilenspiegelstraat57E8A11CB5D9446Fgeo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1055CK"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_tijl_uilenspiegelstraatE11D37BB796B4986geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3778778758174"^^xsd:float ;
-        ns2:long "4.84869744789742"^^xsd:float ;
-        ns3:VCardhasAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
-        ns3:VCardhasPostalCode "1055CK"^^xsd:string .
+        wgs:lat "52.3778778758174"^^xsd:float ;
+        wgs:long "4.84869744789742"^^xsd:float ;
+        vcard:hasAddress "Tijl Uilenspiegelstraat 12"^^xsd:string ;
+        vcard:hasPostalCode "1055CK"^^xsd:string .
 
-    ns5:opvookt_waterlandpleinE3F9C049426743E8 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_waterlandplein6FD2981375AE4F4F a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Waterlandplein"^^xsd:string ;
         dbo:PostalCode "1024VL"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Beverwijkstraat 3"^^xsd:string ;
         dbp:latitude 5.239364e+01 ;
         dbp:longitude 4.955449e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Beverwijkstraat 3"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1024VL"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_waterlandpleinE3F9C049426743E8geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Beverwijkstraat 3"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1024VL"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_waterlandplein6FD2981375AE4F4Fgeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3936400584394"^^xsd:float ;
-        ns2:long "4.9554494917273"^^xsd:float ;
-        ns3:VCardhasAddress "Beverwijkstraat 3"^^xsd:string ;
-        ns3:VCardhasPostalCode "1024VL"^^xsd:string .
+        wgs:lat "52.3936400584394"^^xsd:float ;
+        wgs:long "4.9554494917273"^^xsd:float ;
+        vcard:hasAddress "Beverwijkstraat 3"^^xsd:string ;
+        vcard:hasPostalCode "1024VL"^^xsd:string .
 
-    ns5:opvookt_westerparkA1E054EEF3FD4B18 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_westerpark62758E0693614F2F a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Westerpark"^^xsd:string ;
         dbo:PostalCode "1013RR"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Westerpark 1a"^^xsd:string ;
         dbp:latitude 5.23862e+01 ;
         dbp:longitude 4.881206e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Westerpark 1a"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1013RR"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_westerparkA1E054EEF3FD4B18geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Westerpark 1a"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1013RR"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_westerpark62758E0693614F2Fgeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3862000567205"^^xsd:float ;
-        ns2:long "4.88120583975014"^^xsd:float ;
-        ns3:VCardhasAddress "Westerpark 1a"^^xsd:string ;
-        ns3:VCardhasPostalCode "1013RR"^^xsd:string .
+        wgs:lat "52.3862000567205"^^xsd:float ;
+        wgs:long "4.88120583975014"^^xsd:float ;
+        vcard:hasAddress "Westerpark 1a"^^xsd:string ;
+        vcard:hasPostalCode "1013RR"^^xsd:string .
 
-    ns5:opvookt_wingerdweg8B102144BCD342E4 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvookt_wingerdwegCD8DB5A841B94828 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "OKT Wingerdweg"^^xsd:string ;
         dbo:PostalCode "1032AN"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc"^^xsd:string ;
         dbo:address "Wingerdweg 52"^^xsd:string ;
         dbp:latitude 5.239101e+01 ;
         dbp:longitude 4.916702e+00 ;
-        :providesExercisesFor :children ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodePostalAddress "Wingerdweg 52"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns4:postalCodepostalCode "1032AN"^^xsd:string ;
-        geo:hasGeometry ns5:opvookt_wingerdweg8B102144BCD342E4geo ;
+        g13vocab:providesExercisesFor g13vocab:children ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:PostalAddress "Wingerdweg 52"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc"^^xsd:string ;
+        schema:postalCode "1032AN"^^xsd:string ;
+        geo:hasGeometry g13data:opvookt_wingerdwegCD8DB5A841B94828geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc"^^xsd:string ;
-        ns2:lat "52.3910109917999"^^xsd:float ;
-        ns2:long "4.91670196390276"^^xsd:float ;
-        ns3:VCardhasAddress "Wingerdweg 52"^^xsd:string ;
-        ns3:VCardhasPostalCode "1032AN"^^xsd:string .
+        wgs:lat "52.3910109917999"^^xsd:float ;
+        wgs:long "4.91670196390276"^^xsd:float ;
+        vcard:hasAddress "Wingerdweg 52"^^xsd:string ;
+        vcard:hasPostalCode "1032AN"^^xsd:string .
 
-    ns5:opvoomgangshuis_noord_holland_18D0835F33B29446D a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvoomgangshuis_noord_holland_13C0A738E783E4F6D a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Omgangshuis Noord-Holland"^^xsd:string ;
         dbo:PostalCode "1502VE"^^xsd:string ;
         dbo:Website "http://www.omgangshuis.org"^^xsd:string ;
         dbo:address "Symon Claeszstraat 2"^^xsd:string ;
         dbp:latitude 5.244222e+01 ;
         dbp:longitude 4.827574e+00 ;
-        :website "http://www.omgangshuis.org"^^xsd:string ;
-        ns4:postalCodePostalAddress "Symon Claeszstraat 2"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.omgangshuis.org"^^xsd:string ;
-        ns4:postalCodepostalCode "1502VE"^^xsd:string ;
-        geo:hasGeometry ns5:opvoomgangshuis_noord_holland_18D0835F33B29446Dgeo ;
+        g13vocab:website "http://www.omgangshuis.org"^^xsd:string ;
+        schema:PostalAddress "Symon Claeszstraat 2"^^xsd:string ;
+        schema:WebSite "http://www.omgangshuis.org"^^xsd:string ;
+        schema:postalCode "1502VE"^^xsd:string ;
+        geo:hasGeometry g13data:opvoomgangshuis_noord_holland_13C0A738E783E4F6Dgeo ;
         rdfs:seeAlso "http://www.omgangshuis.org"^^xsd:string ;
-        ns2:lat "52.4422216021704"^^xsd:float ;
-        ns2:long "4.82757426293021"^^xsd:float ;
-        ns3:VCardhasAddress "Symon Claeszstraat 2"^^xsd:string ;
-        ns3:VCardhasPostalCode "1502VE"^^xsd:string .
+        wgs:lat "52.4422216021704"^^xsd:float ;
+        wgs:long "4.82757426293021"^^xsd:float ;
+        vcard:hasAddress "Symon Claeszstraat 2"^^xsd:string ;
+        vcard:hasPostalCode "1502VE"^^xsd:string .
 
-    ns5:opvoopvoedpunt_en_spel_o_theek_ijburg67E6E206B2A64368 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvoopvoedpunt_en_spel_o_theek_ijburg2AA2688B35A44D80 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Opvoedpunt en Spel-o-Theek IJburg"^^xsd:string ;
         dbo:PostalCode "1087LA"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
         dbo:address "Pampuslaan 26"^^xsd:string ;
         dbp:latitude 5.235165e+01 ;
         dbp:longitude 5.007402e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
-        ns4:postalCodePostalAddress "Pampuslaan 26"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
-        ns4:postalCodepostalCode "1087LA"^^xsd:string ;
-        geo:hasGeometry ns5:opvoopvoedpunt_en_spel_o_theek_ijburg67E6E206B2A64368geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
+        schema:PostalAddress "Pampuslaan 26"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
+        schema:postalCode "1087LA"^^xsd:string ;
+        geo:hasGeometry g13data:opvoopvoedpunt_en_spel_o_theek_ijburg2AA2688B35A44D80geo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc/okc_in_de_buurt/oost/okc_ijburglaan/"^^xsd:string ;
-        ns2:lat "52.3516458031716"^^xsd:float ;
-        ns2:long "5.00740212443746"^^xsd:float ;
-        ns3:VCardhasAddress "Pampuslaan 26"^^xsd:string ;
-        ns3:VCardhasPostalCode "1087LA"^^xsd:string .
+        wgs:lat "52.3516458031716"^^xsd:float ;
+        wgs:long "5.00740212443746"^^xsd:float ;
+        vcard:hasAddress "Pampuslaan 26"^^xsd:string ;
+        vcard:hasPostalCode "1087LA"^^xsd:string .
 
-    ns5:opvoprofor_bureau_voor_samenlevingsopbouw2A0565EFD4B941F7 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvoprofor_bureau_voor_samenlevingsopbouw048A04B324AD40EE a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "ProFor bureau voor samenlevingsopbouw"^^xsd:string ;
         dbo:PostalCode "1102HK"^^xsd:string ;
         dbo:Website "http://www.profor.nl"^^xsd:string ;
         dbo:address "Hogevecht 188a"^^xsd:string ;
         dbp:latitude 5.230973e+01 ;
         dbp:longitude 4.958679e+00 ;
-        :website "http://www.profor.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Hogevecht 188a"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.profor.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1102HK"^^xsd:string ;
-        geo:hasGeometry ns5:opvoprofor_bureau_voor_samenlevingsopbouw2A0565EFD4B941F7geo ;
+        g13vocab:website "http://www.profor.nl"^^xsd:string ;
+        schema:PostalAddress "Hogevecht 188a"^^xsd:string ;
+        schema:WebSite "http://www.profor.nl"^^xsd:string ;
+        schema:postalCode "1102HK"^^xsd:string ;
+        geo:hasGeometry g13data:opvoprofor_bureau_voor_samenlevingsopbouw048A04B324AD40EEgeo ;
         rdfs:seeAlso "http://www.profor.nl"^^xsd:string ;
-        ns2:lat "52.3097326394224"^^xsd:float ;
-        ns2:long "4.95867943764597"^^xsd:float ;
-        ns3:VCardhasAddress "Hogevecht 188a"^^xsd:string ;
-        ns3:VCardhasPostalCode "1102HK"^^xsd:string .
+        wgs:lat "52.3097326394224"^^xsd:float ;
+        wgs:long "4.95867943764597"^^xsd:float ;
+        vcard:hasAddress "Hogevecht 188a"^^xsd:string ;
+        vcard:hasPostalCode "1102HK"^^xsd:string .
 
-    ns5:opvopsychodiagnostisch_centrum_child_support_amsterdamEF375D7E01C44A04 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvopsychodiagnostisch_centrum_child_support_amsterdam65F6EA4DBA49433E a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Psychodiagnostisch Centrum Child Support Amsterdam"^^xsd:string ;
         dbo:PostalCode "1017XT"^^xsd:string ;
         dbo:Website "http://www.child-support-europe.com"^^xsd:string ;
         dbo:address "Weteringschans 124"^^xsd:string ;
         dbp:latitude 5.235919e+01 ;
         dbp:longitude 4.896722e+00 ;
-        :website "http://www.child-support-europe.com"^^xsd:string ;
-        ns4:postalCodePostalAddress "Weteringschans 124"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.child-support-europe.com"^^xsd:string ;
-        ns4:postalCodepostalCode "1017XT"^^xsd:string ;
-        geo:hasGeometry ns5:opvopsychodiagnostisch_centrum_child_support_amsterdamEF375D7E01C44A04geo ;
+        g13vocab:website "http://www.child-support-europe.com"^^xsd:string ;
+        schema:PostalAddress "Weteringschans 124"^^xsd:string ;
+        schema:WebSite "http://www.child-support-europe.com"^^xsd:string ;
+        schema:postalCode "1017XT"^^xsd:string ;
+        geo:hasGeometry g13data:opvopsychodiagnostisch_centrum_child_support_amsterdam65F6EA4DBA49433Egeo ;
         rdfs:seeAlso "http://www.child-support-europe.com"^^xsd:string ;
-        ns2:lat "52.3591943621047"^^xsd:float ;
-        ns2:long "4.89672227781917"^^xsd:float ;
-        ns3:VCardhasAddress "Weteringschans 124"^^xsd:string ;
-        ns3:VCardhasPostalCode "1017XT"^^xsd:string .
+        wgs:lat "52.3591943621047"^^xsd:float ;
+        wgs:long "4.89672227781917"^^xsd:float ;
+        vcard:hasAddress "Weteringschans 124"^^xsd:string ;
+        vcard:hasPostalCode "1017XT"^^xsd:string .
 
-    ns5:opvospeel_o_theek_de_baarsjes1F2029DCC151499F a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospeel_o_theek_de_baarsjes2AF185D9DB834F2D a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Speel-o-theek de Baarsjes"^^xsd:string ;
         dbo:PostalCode "1057VG"^^xsd:string ;
         dbo:Website "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
         dbo:address "Magalhaensplein 2"^^xsd:string ;
         dbp:latitude 5.236776e+01 ;
         dbp:longitude 4.854282e+00 ;
-        :website "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
-        ns4:postalCodePostalAddress "Magalhaensplein 2"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
-        ns4:postalCodepostalCode "1057VG"^^xsd:string ;
-        geo:hasGeometry ns5:opvospeel_o_theek_de_baarsjes1F2029DCC151499Fgeo ;
+        g13vocab:website "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
+        schema:PostalAddress "Magalhaensplein 2"^^xsd:string ;
+        schema:WebSite "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
+        schema:postalCode "1057VG"^^xsd:string ;
+        geo:hasGeometry g13data:opvospeel_o_theek_de_baarsjes2AF185D9DB834F2Dgeo ;
         rdfs:seeAlso "http://www.amsterdam.nl/okc/okc_in_de_buurt/west/okc_magalhaensplein/"^^xsd:string ;
-        ns2:lat "52.3677559927283"^^xsd:float ;
-        ns2:long "4.85428234350039"^^xsd:float ;
-        ns3:VCardhasAddress "Magalhaensplein 2"^^xsd:string ;
-        ns3:VCardhasPostalCode "1057VG"^^xsd:string .
+        wgs:lat "52.3677559927283"^^xsd:float ;
+        wgs:long "4.85428234350039"^^xsd:float ;
+        vcard:hasAddress "Magalhaensplein 2"^^xsd:string ;
+        vcard:hasPostalCode "1057VG"^^xsd:string .
 
-    ns5:opvospeel_o_theek_kraijenhoff81D4311ECD784F89 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospeel_o_theek_kraijenhoff97EDB9B3F30548A4 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Speel-o-theek Kraijenhoff"^^xsd:string ;
         dbo:PostalCode "1018RL"^^xsd:string ;
         dbo:Website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
         dbo:address "Kraijenhoffstraat 32"^^xsd:string ;
         dbp:latitude 5.236941e+01 ;
         dbp:longitude 4.93019e+00 ;
-        :website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Kraijenhoffstraat 32"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1018RL"^^xsd:string ;
-        geo:hasGeometry ns5:opvospeel_o_theek_kraijenhoff81D4311ECD784F89geo ;
+        g13vocab:website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
+        schema:PostalAddress "Kraijenhoffstraat 32"^^xsd:string ;
+        schema:WebSite "http://www.welzijn.ijsterk.nl"^^xsd:string ;
+        schema:postalCode "1018RL"^^xsd:string ;
+        geo:hasGeometry g13data:opvospeel_o_theek_kraijenhoff97EDB9B3F30548A4geo ;
         rdfs:seeAlso "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns2:lat "52.3694124973057"^^xsd:float ;
-        ns2:long "4.93019010450497"^^xsd:float ;
-        ns3:VCardhasAddress "Kraijenhoffstraat 32"^^xsd:string ;
-        ns3:VCardhasPostalCode "1018RL"^^xsd:string .
+        wgs:lat "52.3694124973057"^^xsd:float ;
+        wgs:long "4.93019010450497"^^xsd:float ;
+        vcard:hasAddress "Kraijenhoffstraat 32"^^xsd:string ;
+        vcard:hasPostalCode "1018RL"^^xsd:string .
 
-    ns5:opvospeel_o_theek_lindengracht3AE79582D663404D a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospeel_o_theek_lindengracht81B06B6E8CB847BB a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Speel-o-theek Lindengracht"^^xsd:string ;
         dbo:PostalCode "1015KL"^^xsd:string ;
         dbo:Website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
         dbo:address "Lindengracht 204"^^xsd:string ;
         dbp:latitude 5.23802e+01 ;
         dbp:longitude 4.883507e+00 ;
-        :website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Lindengracht 204"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1015KL"^^xsd:string ;
-        geo:hasGeometry ns5:opvospeel_o_theek_lindengracht3AE79582D663404Dgeo ;
+        g13vocab:website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
+        schema:PostalAddress "Lindengracht 204"^^xsd:string ;
+        schema:WebSite "http://www.welzijn.ijsterk.nl"^^xsd:string ;
+        schema:postalCode "1015KL"^^xsd:string ;
+        geo:hasGeometry g13data:opvospeel_o_theek_lindengracht81B06B6E8CB847BBgeo ;
         rdfs:seeAlso "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns2:lat "52.3801970968937"^^xsd:float ;
-        ns2:long "4.88350675115323"^^xsd:float ;
-        ns3:VCardhasAddress "Lindengracht 204"^^xsd:string ;
-        ns3:VCardhasPostalCode "1015KL"^^xsd:string .
+        wgs:lat "52.3801970968937"^^xsd:float ;
+        wgs:long "4.88350675115323"^^xsd:float ;
+        vcard:hasAddress "Lindengracht 204"^^xsd:string ;
+        vcard:hasPostalCode "1015KL"^^xsd:string .
 
-    ns5:opvospeel_o_theek_t_boomsspijkertjeF6142CE355394B31 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospeel_o_theek_t_boomsspijkertjeFA691AB8CA6B4822 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Speel-o-theek 't Boomsspijkertje"^^xsd:string ;
         dbo:PostalCode "1011EC"^^xsd:string ;
         dbo:Website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
         dbo:address "Recht Boomssloot 52"^^xsd:string ;
         dbp:latitude 5.237196e+01 ;
         dbp:longitude 4.903483e+00 ;
-        :website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Recht Boomssloot 52"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1011EC"^^xsd:string ;
-        geo:hasGeometry ns5:opvospeel_o_theek_t_boomsspijkertjeF6142CE355394B31geo ;
+        g13vocab:website "http://www.welzijn.ijsterk.nl"^^xsd:string ;
+        schema:PostalAddress "Recht Boomssloot 52"^^xsd:string ;
+        schema:WebSite "http://www.welzijn.ijsterk.nl"^^xsd:string ;
+        schema:postalCode "1011EC"^^xsd:string ;
+        geo:hasGeometry g13data:opvospeel_o_theek_t_boomsspijkertjeFA691AB8CA6B4822geo ;
         rdfs:seeAlso "http://www.welzijn.ijsterk.nl"^^xsd:string ;
-        ns2:lat "52.3719577721925"^^xsd:float ;
-        ns2:long "4.90348272556877"^^xsd:float ;
-        ns3:VCardhasAddress "Recht Boomssloot 52"^^xsd:string ;
-        ns3:VCardhasPostalCode "1011EC"^^xsd:string .
+        wgs:lat "52.3719577721925"^^xsd:float ;
+        wgs:long "4.90348272556877"^^xsd:float ;
+        vcard:hasAddress "Recht Boomssloot 52"^^xsd:string ;
+        vcard:hasPostalCode "1011EC"^^xsd:string .
 
-    ns5:opvospeel_o_theek_t_guppie_16A7D1B14AE1A40EF a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospeel_o_theek_t_guppie_141CE07A02E614972 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Speel-o-theek 't Guppie"^^xsd:string ;
         dbo:PostalCode "1079HA"^^xsd:string ;
         dbo:Website "http://www.tguppie.nl"^^xsd:string ;
         dbo:address "Rijnstraat 115"^^xsd:string ;
         dbp:latitude 5.234416e+01 ;
         dbp:longitude 4.90631e+00 ;
-        :website "http://www.tguppie.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Rijnstraat 115"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.tguppie.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1079HA"^^xsd:string ;
-        geo:hasGeometry ns5:opvospeel_o_theek_t_guppie_16A7D1B14AE1A40EFgeo ;
+        g13vocab:website "http://www.tguppie.nl"^^xsd:string ;
+        schema:PostalAddress "Rijnstraat 115"^^xsd:string ;
+        schema:WebSite "http://www.tguppie.nl"^^xsd:string ;
+        schema:postalCode "1079HA"^^xsd:string ;
+        geo:hasGeometry g13data:opvospeel_o_theek_t_guppie_141CE07A02E614972geo ;
         rdfs:seeAlso "http://www.tguppie.nl"^^xsd:string ;
-        ns2:lat "52.3441612586095"^^xsd:float ;
-        ns2:long "4.90630972570487"^^xsd:float ;
-        ns3:VCardhasAddress "Rijnstraat 115"^^xsd:string ;
-        ns3:VCardhasPostalCode "1079HA"^^xsd:string .
+        wgs:lat "52.3441612586095"^^xsd:float ;
+        wgs:long "4.90630972570487"^^xsd:float ;
+        vcard:hasAddress "Rijnstraat 115"^^xsd:string ;
+        vcard:hasPostalCode "1079HA"^^xsd:string .
 
-    ns5:opvospeel_o_theek_zeeburgBB11CDF872DC4D06 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospeel_o_theek_zeeburg62DED733085B42E8 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Speel-o-theek Zeeburg"^^xsd:string ;
         dbo:PostalCode "1095LB"^^xsd:string ;
         dbo:Website "http://www.speelotheek.net"^^xsd:string ;
         dbo:address "Kramatplantsoen 101"^^xsd:string ;
         dbp:latitude 5.236548e+01 ;
         dbp:longitude 4.946592e+00 ;
-        :website "http://www.speelotheek.net"^^xsd:string ;
-        ns4:postalCodePostalAddress "Kramatplantsoen 101"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.speelotheek.net"^^xsd:string ;
-        ns4:postalCodepostalCode "1095LB"^^xsd:string ;
-        geo:hasGeometry ns5:opvospeel_o_theek_zeeburgBB11CDF872DC4D06geo ;
+        g13vocab:website "http://www.speelotheek.net"^^xsd:string ;
+        schema:PostalAddress "Kramatplantsoen 101"^^xsd:string ;
+        schema:WebSite "http://www.speelotheek.net"^^xsd:string ;
+        schema:postalCode "1095LB"^^xsd:string ;
+        geo:hasGeometry g13data:opvospeel_o_theek_zeeburg62DED733085B42E8geo ;
         rdfs:seeAlso "http://www.speelotheek.net"^^xsd:string ;
-        ns2:lat "52.3654750756"^^xsd:float ;
-        ns2:long "4.94659199211418"^^xsd:float ;
-        ns3:VCardhasAddress "Kramatplantsoen 101"^^xsd:string ;
-        ns3:VCardhasPostalCode "1095LB"^^xsd:string .
+        wgs:lat "52.3654750756"^^xsd:float ;
+        wgs:long "4.94659199211418"^^xsd:float ;
+        vcard:hasAddress "Kramatplantsoen 101"^^xsd:string ;
+        vcard:hasPostalCode "1095LB"^^xsd:string .
 
-    ns5:opvospel_aan_huis95A32E73E5014474 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospel_aan_huis39900CC4A71A4741 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Spel aan Huis"^^xsd:string ;
         dbo:PostalCode "1017WS"^^xsd:string ;
         dbo:Website "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
         dbo:address "Sarphatistraat 4"^^xsd:string ;
         dbp:latitude 5.235978e+01 ;
         dbp:longitude 4.902103e+00 ;
-        :website "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
-        ns4:postalCodePostalAddress "Sarphatistraat 4"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
-        ns4:postalCodepostalCode "1017WS"^^xsd:string ;
-        geo:hasGeometry ns5:opvospel_aan_huis95A32E73E5014474geo ;
+        g13vocab:website "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
+        schema:PostalAddress "Sarphatistraat 4"^^xsd:string ;
+        schema:WebSite "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
+        schema:postalCode "1017WS"^^xsd:string ;
+        geo:hasGeometry g13data:opvospel_aan_huis39900CC4A71A4741geo ;
         rdfs:seeAlso "http://www.humanitas.nl/project/301A12001"^^xsd:string ;
-        ns2:lat "52.3597827618791"^^xsd:float ;
-        ns2:long "4.90210339499815"^^xsd:float ;
-        ns3:VCardhasAddress "Sarphatistraat 4"^^xsd:string ;
-        ns3:VCardhasPostalCode "1017WS"^^xsd:string .
+        wgs:lat "52.3597827618791"^^xsd:float ;
+        wgs:long "4.90210339499815"^^xsd:float ;
+        vcard:hasAddress "Sarphatistraat 4"^^xsd:string ;
+        vcard:hasPostalCode "1017WS"^^xsd:string .
 
-    ns5:opvospirit_jeugd_opvoedhulp47A4F02503304239 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvospirit_jeugd_opvoedhulp2A77AC9138F84719 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Spirit Jeugd & Opvoedhulp"^^xsd:string ;
         dbo:PostalCode "1076EC"^^xsd:string ;
         dbo:Website "http://www.spirit.nl"^^xsd:string ;
         dbo:address "Fred. Roeskestraat 73"^^xsd:string ;
         dbp:latitude 5.234117e+01 ;
         dbp:longitude 4.865842e+00 ;
-        :providesInformationAbout :childDevelopment ;
-        :website "http://www.spirit.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Fred. Roeskestraat 73"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.spirit.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1076EC"^^xsd:string ;
-        geo:hasGeometry ns5:opvospirit_jeugd_opvoedhulp47A4F02503304239geo ;
+        g13vocab:providesInformationAbout g13vocab:childDevelopment ;
+        g13vocab:website "http://www.spirit.nl"^^xsd:string ;
+        schema:PostalAddress "Fred. Roeskestraat 73"^^xsd:string ;
+        schema:WebSite "http://www.spirit.nl"^^xsd:string ;
+        schema:postalCode "1076EC"^^xsd:string ;
+        geo:hasGeometry g13data:opvospirit_jeugd_opvoedhulp2A77AC9138F84719geo ;
         rdfs:seeAlso "http://www.spirit.nl"^^xsd:string ;
-        ns2:lat "52.3411677452672"^^xsd:float ;
-        ns2:long "4.86584184990484"^^xsd:float ;
-        ns3:VCardhasAddress "Fred. Roeskestraat 73"^^xsd:string ;
-        ns3:VCardhasPostalCode "1076EC"^^xsd:string .
+        wgs:lat "52.3411677452672"^^xsd:float ;
+        wgs:long "4.86584184990484"^^xsd:float ;
+        vcard:hasAddress "Fred. Roeskestraat 73"^^xsd:string ;
+        vcard:hasPostalCode "1076EC"^^xsd:string .
 
-    ns5:opvostichting_abc00539EAAB44E4376 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_abc21FE613006614047 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting ABC"^^xsd:string ;
         dbo:PostalCode "1058AA"^^xsd:string ;
         dbo:Website "http://www.hetabc.nl"^^xsd:string ;
         dbo:address "Baarsjesweg 224"^^xsd:string ;
         dbp:latitude 5.236341e+01 ;
         dbp:longitude 4.858284e+00 ;
-        :website "http://www.hetabc.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Baarsjesweg 224"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.hetabc.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1058AA"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_abc00539EAAB44E4376geo ;
+        g13vocab:website "http://www.hetabc.nl"^^xsd:string ;
+        schema:PostalAddress "Baarsjesweg 224"^^xsd:string ;
+        schema:WebSite "http://www.hetabc.nl"^^xsd:string ;
+        schema:postalCode "1058AA"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_abc21FE613006614047geo ;
         rdfs:seeAlso "http://www.hetabc.nl"^^xsd:string ;
-        ns2:lat "52.3634058940364"^^xsd:float ;
-        ns2:long "4.85828389454875"^^xsd:float ;
-        ns3:VCardhasAddress "Baarsjesweg 224"^^xsd:string ;
-        ns3:VCardhasPostalCode "1058AA"^^xsd:string .
+        wgs:lat "52.3634058940364"^^xsd:float ;
+        wgs:long "4.85828389454875"^^xsd:float ;
+        vcard:hasAddress "Baarsjesweg 224"^^xsd:string ;
+        vcard:hasPostalCode "1058AA"^^xsd:string .
 
-    ns5:opvostichting_de_witte_tulpAFBAEB95ADA54251 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_de_witte_tulp02C2314CEB754BFA a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting De Witte Tulp"^^xsd:string ;
         dbo:PostalCode "1034PZ"^^xsd:string ;
         dbo:Website "http://www.stichtingwittetulp.nl"^^xsd:string ;
         dbo:address "Parlevinker 12"^^xsd:string ;
         dbp:latitude 5.241146e+01 ;
         dbp:longitude 4.921967e+00 ;
-        :website "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Parlevinker 12"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1034PZ"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_de_witte_tulpAFBAEB95ADA54251geo ;
+        g13vocab:website "http://www.stichtingwittetulp.nl"^^xsd:string ;
+        schema:PostalAddress "Parlevinker 12"^^xsd:string ;
+        schema:WebSite "http://www.stichtingwittetulp.nl"^^xsd:string ;
+        schema:postalCode "1034PZ"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_de_witte_tulp02C2314CEB754BFAgeo ;
         rdfs:seeAlso "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        ns2:lat "52.4114606940384"^^xsd:float ;
-        ns2:long "4.92196690191011"^^xsd:float ;
-        ns3:VCardhasAddress "Parlevinker 12"^^xsd:string ;
-        ns3:VCardhasPostalCode "1034PZ"^^xsd:string .
+        wgs:lat "52.4114606940384"^^xsd:float ;
+        wgs:long "4.92196690191011"^^xsd:float ;
+        vcard:hasAddress "Parlevinker 12"^^xsd:string ;
+        vcard:hasPostalCode "1034PZ"^^xsd:string .
 
-    ns5:opvostichting_de_witte_tulp_1DFC855AADFD24F2A a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_de_witte_tulp_18C30C281202D48BA a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting De Witte Tulp"^^xsd:string ;
         dbo:PostalCode "1069JR"^^xsd:string ;
         dbo:Website "http://www.stichtingwittetulp.nl"^^xsd:string ;
         dbo:address "Koos Vorrinkweg 3"^^xsd:string ;
         dbp:latitude 5.235362e+01 ;
         dbp:longitude 4.800319e+00 ;
-        :website "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Koos Vorrinkweg 3"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1069JR"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_de_witte_tulp_1DFC855AADFD24F2Ageo ;
+        g13vocab:website "http://www.stichtingwittetulp.nl"^^xsd:string ;
+        schema:PostalAddress "Koos Vorrinkweg 3"^^xsd:string ;
+        schema:WebSite "http://www.stichtingwittetulp.nl"^^xsd:string ;
+        schema:postalCode "1069JR"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_de_witte_tulp_18C30C281202D48BAgeo ;
         rdfs:seeAlso "http://www.stichtingwittetulp.nl"^^xsd:string ;
-        ns2:lat "52.3536236364084"^^xsd:float ;
-        ns2:long "4.80031884424552"^^xsd:float ;
-        ns3:VCardhasAddress "Koos Vorrinkweg 3"^^xsd:string ;
-        ns3:VCardhasPostalCode "1069JR"^^xsd:string .
+        wgs:lat "52.3536236364084"^^xsd:float ;
+        wgs:long "4.80031884424552"^^xsd:float ;
+        vcard:hasAddress "Koos Vorrinkweg 3"^^xsd:string ;
+        vcard:hasPostalCode "1069JR"^^xsd:string .
 
-    ns5:opvostichting_korrelatie3B6BA43076C64DF9 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_korrelatieD6206409D6BA40A4 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting Korrelatie"^^xsd:string ;
         dbo:PostalCode "3818LE"^^xsd:string ;
         dbo:Website "http://www.korrelatie.nl"^^xsd:string ;
         dbo:address "Stationsplein 125"^^xsd:string ;
         dbp:latitude 5.237757e+01 ;
         dbp:longitude 4.902584e+00 ;
-        :website "http://www.korrelatie.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Stationsplein 125"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.korrelatie.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "3818LE"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_korrelatie3B6BA43076C64DF9geo ;
+        g13vocab:website "http://www.korrelatie.nl"^^xsd:string ;
+        schema:PostalAddress "Stationsplein 125"^^xsd:string ;
+        schema:WebSite "http://www.korrelatie.nl"^^xsd:string ;
+        schema:postalCode "3818LE"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_korrelatieD6206409D6BA40A4geo ;
         rdfs:seeAlso "http://www.korrelatie.nl"^^xsd:string ;
-        ns2:lat "52.377569325714"^^xsd:float ;
-        ns2:long "4.90258435901653"^^xsd:float ;
-        ns3:VCardhasAddress "Stationsplein 125"^^xsd:string ;
-        ns3:VCardhasPostalCode "3818LE"^^xsd:string .
+        wgs:lat "52.377569325714"^^xsd:float ;
+        wgs:long "4.90258435901653"^^xsd:float ;
+        vcard:hasAddress "Stationsplein 125"^^xsd:string ;
+        vcard:hasPostalCode "3818LE"^^xsd:string .
 
-    ns5:opvostichting_samen_vooruit_savoD7C12D8CF65A4C0F a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_samen_vooruit_savo42B84D2B68514A9D a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting Samen Vooruit (SaVo)"^^xsd:string ;
         dbo:PostalCode "1103TV"^^xsd:string ;
         dbo:Website "http://www.stichtingsavo.nl"^^xsd:string ;
         dbo:address "Bijlmerdreef 1301"^^xsd:string ;
         dbp:latitude 5.232257e+01 ;
         dbp:longitude 4.975821e+00 ;
-        :website "http://www.stichtingsavo.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Bijlmerdreef 1301"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.stichtingsavo.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1103TV"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_samen_vooruit_savoD7C12D8CF65A4C0Fgeo ;
+        g13vocab:website "http://www.stichtingsavo.nl"^^xsd:string ;
+        schema:PostalAddress "Bijlmerdreef 1301"^^xsd:string ;
+        schema:WebSite "http://www.stichtingsavo.nl"^^xsd:string ;
+        schema:postalCode "1103TV"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_samen_vooruit_savo42B84D2B68514A9Dgeo ;
         rdfs:seeAlso "http://www.stichtingsavo.nl"^^xsd:string ;
-        ns2:lat "52.3225712464425"^^xsd:float ;
-        ns2:long "4.97582135054318"^^xsd:float ;
-        ns3:VCardhasAddress "Bijlmerdreef 1301"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103TV"^^xsd:string .
+        wgs:lat "52.3225712464425"^^xsd:float ;
+        wgs:long "4.97582135054318"^^xsd:float ;
+        vcard:hasAddress "Bijlmerdreef 1301"^^xsd:string ;
+        vcard:hasPostalCode "1103TV"^^xsd:string .
 
-    ns5:opvostichting_surinaamse_vrouwen_bijlmermeer_svbF348699430A64482 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_surinaamse_vrouwen_bijlmermeer_svb69FC4BCEDC0E4489 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting Surinaamse Vrouwen Bijlmermeer (SVB)"^^xsd:string ;
         dbo:PostalCode "1103TV"^^xsd:string ;
         dbo:Website ""^^xsd:string ;
         dbo:address "Bijlmerdreef 1301"^^xsd:string ;
         dbp:latitude 5.232257e+01 ;
         dbp:longitude 4.975821e+00 ;
-        :website ""^^xsd:string ;
-        ns4:postalCodePostalAddress "Bijlmerdreef 1301"^^xsd:string ;
-        ns4:postalCodeWebSite ""^^xsd:string ;
-        ns4:postalCodepostalCode "1103TV"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_surinaamse_vrouwen_bijlmermeer_svbF348699430A64482geo ;
+        g13vocab:website ""^^xsd:string ;
+        schema:PostalAddress "Bijlmerdreef 1301"^^xsd:string ;
+        schema:WebSite ""^^xsd:string ;
+        schema:postalCode "1103TV"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_surinaamse_vrouwen_bijlmermeer_svb69FC4BCEDC0E4489geo ;
         rdfs:seeAlso ""^^xsd:string ;
-        ns2:lat "52.3225712464425"^^xsd:float ;
-        ns2:long "4.97582135054318"^^xsd:float ;
-        ns3:VCardhasAddress "Bijlmerdreef 1301"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103TV"^^xsd:string .
+        wgs:lat "52.3225712464425"^^xsd:float ;
+        wgs:long "4.97582135054318"^^xsd:float ;
+        vcard:hasAddress "Bijlmerdreef 1301"^^xsd:string ;
+        vcard:hasPostalCode "1103TV"^^xsd:string .
 
-    ns5:opvostichting_vice_versa0D38E48797554A6E a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvostichting_vice_versaE39E8E180526497D a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "Stichting Vice Versa"^^xsd:string ;
         dbo:PostalCode "1103TV"^^xsd:string ;
         dbo:Website "http://www.stichtingviceversa.nl"^^xsd:string ;
         dbo:address "Bijlmerdreef 1301"^^xsd:string ;
         dbp:latitude 5.232257e+01 ;
         dbp:longitude 4.975821e+00 ;
-        :website "http://www.stichtingviceversa.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Bijlmerdreef 1301"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.stichtingviceversa.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1103TV"^^xsd:string ;
-        geo:hasGeometry ns5:opvostichting_vice_versa0D38E48797554A6Egeo ;
+        g13vocab:website "http://www.stichtingviceversa.nl"^^xsd:string ;
+        schema:PostalAddress "Bijlmerdreef 1301"^^xsd:string ;
+        schema:WebSite "http://www.stichtingviceversa.nl"^^xsd:string ;
+        schema:postalCode "1103TV"^^xsd:string ;
+        geo:hasGeometry g13data:opvostichting_vice_versaE39E8E180526497Dgeo ;
         rdfs:seeAlso "http://www.stichtingviceversa.nl"^^xsd:string ;
-        ns2:lat "52.3225712464425"^^xsd:float ;
-        ns2:long "4.97582135054318"^^xsd:float ;
-        ns3:VCardhasAddress "Bijlmerdreef 1301"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103TV"^^xsd:string .
+        wgs:lat "52.3225712464425"^^xsd:float ;
+        wgs:long "4.97582135054318"^^xsd:float ;
+        vcard:hasAddress "Bijlmerdreef 1301"^^xsd:string ;
+        vcard:hasPostalCode "1103TV"^^xsd:string .
 
-    ns5:opvoswazoom8F1DC9FB182547FD a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvoswazoom65D80A75AD8646D8 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "SWAZOOM"^^xsd:string ;
         dbo:PostalCode "1103JP"^^xsd:string ;
         dbo:Website "http://www.swazoom.nl"^^xsd:string ;
         dbo:address "Harriet Freezerstraat 119b"^^xsd:string ;
         dbp:latitude 5.232314e+01 ;
         dbp:longitude 4.972661e+00 ;
-        :website "http://www.swazoom.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Harriet Freezerstraat 119b"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.swazoom.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1103JP"^^xsd:string ;
-        geo:hasGeometry ns5:opvoswazoom8F1DC9FB182547FDgeo ;
+        g13vocab:website "http://www.swazoom.nl"^^xsd:string ;
+        schema:PostalAddress "Harriet Freezerstraat 119b"^^xsd:string ;
+        schema:WebSite "http://www.swazoom.nl"^^xsd:string ;
+        schema:postalCode "1103JP"^^xsd:string ;
+        geo:hasGeometry g13data:opvoswazoom65D80A75AD8646D8geo ;
         rdfs:seeAlso "http://www.swazoom.nl"^^xsd:string ;
-        ns2:lat "52.3231382806074"^^xsd:float ;
-        ns2:long "4.97266073745794"^^xsd:float ;
-        ns3:VCardhasAddress "Harriet Freezerstraat 119b"^^xsd:string ;
-        ns3:VCardhasPostalCode "1103JP"^^xsd:string .
+        wgs:lat "52.3231382806074"^^xsd:float ;
+        wgs:long "4.97266073745794"^^xsd:float ;
+        vcard:hasAddress "Harriet Freezerstraat 119b"^^xsd:string ;
+        vcard:hasPostalCode "1103JP"^^xsd:string .
 
-    ns5:opvovto_vroeghulpE64AB2EEBBFF49D7 a :childDevelopmentCenter,
-            :instantie ;
+    g13data:opvovto_vroeghulpCE9701BD66834AB9 a g13vocab:childDevelopmentCenter,
+            g13vocab:instantie ;
         rdfs:label "VTO-Vroeghulp"^^xsd:string ;
         dbo:PostalCode "1018WT"^^xsd:string ;
         dbo:Website "http://www.vtovroeghulp.nl"^^xsd:string ;
         dbo:address "Nieuwe Achtergracht 100"^^xsd:string ;
         dbp:latitude 5.236253e+01 ;
         dbp:longitude 4.909003e+00 ;
-        :website "http://www.vtovroeghulp.nl"^^xsd:string ;
-        ns4:postalCodePostalAddress "Nieuwe Achtergracht 100"^^xsd:string ;
-        ns4:postalCodeWebSite "http://www.vtovroeghulp.nl"^^xsd:string ;
-        ns4:postalCodepostalCode "1018WT"^^xsd:string ;
-        geo:hasGeometry ns5:opvovto_vroeghulpE64AB2EEBBFF49D7geo ;
+        g13vocab:website "http://www.vtovroeghulp.nl"^^xsd:string ;
+        schema:PostalAddress "Nieuwe Achtergracht 100"^^xsd:string ;
+        schema:WebSite "http://www.vtovroeghulp.nl"^^xsd:string ;
+        schema:postalCode "1018WT"^^xsd:string ;
+        geo:hasGeometry g13data:opvovto_vroeghulpCE9701BD66834AB9geo ;
         rdfs:seeAlso "http://www.vtovroeghulp.nl"^^xsd:string ;
-        ns2:lat "52.3625251245642"^^xsd:float ;
-        ns2:long "4.90900287705508"^^xsd:float ;
-        ns3:VCardhasAddress "Nieuwe Achtergracht 100"^^xsd:string ;
-        ns3:VCardhasPostalCode "1018WT"^^xsd:string .
+        wgs:lat "52.3625251245642"^^xsd:float ;
+        wgs:long "4.90900287705508"^^xsd:float ;
+        vcard:hasAddress "Nieuwe Achtergracht 100"^^xsd:string ;
+        vcard:hasPostalCode "1018WT"^^xsd:string .
 
-    : a owl:Ontology .
-
-    :JoodsVerpleegZorgHuis a owl:Class ;
-        rdfs:subClassOf :verpleegZorgHuis .
-
-    :LivingFacilities a owl:Class ;
-        rdfs:label "Living faculties"@en ;
-        rdfs:subClassOf :elderlyLocation .
-
-    :addictCare a owl:Class ;
-        rdfs:subClassOf :organisations ;
-        owl:equivalentClass [ a owl:Restriction ;
-                owl:hasValue :addictsPrevention ;
-                owl:onProperty :providesInformationAbout ],
-            [ a owl:Restriction ;
-                owl:hasValue :addictsReintegration ;
-                owl:onProperty :providesInformationAbout ] .
-
-    :addictSleepLocation a owl:Class ;
-        rdfs:subClassOf :sleepLocation ;
-        owl:equivalentClass [ a owl:Restriction ;
-                owl:hasValue :placeToSleep ;
-                owl:onProperty :providesReintegration ] .
-
-    :addicts a :riskGroups,
-            owl:NamedIndividual .
-
-    :adultDentist a owl:Class ;
-        rdfs:label "Adult dentist"@en ;
-        rdfs:subClassOf :medicalLocation ;
-        owl:equivalentClass [ a owl:Restriction ;
-                owl:hasValue :adults ;
-                owl:onProperty :providesDentalcareTo ] .
-
-    :careLocation a owl:Class ;
-        rdfs:label "General Care location"@en ;
-        rdfs:subClassOf :elderlyLocation .
-
-    :childDentist a owl:Class ;
-        rdfs:label "Child dentist"@en ;
-        rdfs:subClassOf :medicalLocation ;
-        owl:equivalentClass [ a owl:Restriction ;
-                owl:hasValue :children ;
-                owl:onProperty :providesDentalcareTo ] .
-
-    :day a :careTimes,
-            owl:NamedIndividual .
-
-    :dayActivity a :reintegrationPossibilites,
-            owl:NamedIndividual .
-
-    :dentalCare a owl:Class ;
-        rdfs:subClassOf :healthCare ;
-        owl:equivalentClass [ a owl:Restriction ;
-                owl:onProperty :providesDentalcareTo ;
-                owl:someValuesFrom :ageGroups ] .
-
-    :dentist a owl:Class ;
-        rdfs:label "Dentist"@en ;
-        rdfs:subClassOf :medicalLocation .
-
-    :disabledLocations a owl:Class ;
-        rdfs:label "Location for Disabled people"@en ;
-        rdfs:subClassOf :Location .
-
-    :elderly a :riskGroups,
-            owl:NamedIndividual .
-
-    :elderlyCare a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :food a :reintegrationPossibilites,
-            owl:NamedIndividual .
-
-    :generalPractitioner a owl:Class ;
-        rdfs:subClassOf :healthCare .
-
-    :homelessPeople a :riskGroups,
-            owl:NamedIndividual .
-
-    :homelessPrevention a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :homelessWorkLocation a owl:Class ;
-        rdfs:subClassOf :DayWork ;
-        owl:equivalentClass [ a owl:Class ;
-                owl:intersectionOf [ a rdf:List ;
-                        rdf:first [ a owl:Restriction ;
-                                owl:hasValue :homelessReintegration ;
-                                owl:onProperty :providesInformationAbout ] ;
-                        rdf:rest [ a rdf:List ;
-                                rdf:first [ a owl:Restriction ;
-                                        owl:hasValue :work ;
-                                        owl:onProperty :providesReintegration ] ;
-                                rdf:rest () ] ] ] .
-
-    :jewElderlyCare a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :jewishCareLocation a owl:Class ;
-        rdfs:label "Jewish care location"@en ;
-        rdfs:subClassOf :elderlyLocation .
-
-    :lhbt a :riskGroups,
-            owl:NamedIndividual .
-
-    :lhbtIssues a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :livingAccomodation a :reintegrationPossibilites,
-            owl:NamedIndividual .
-
-    :medicalIssues a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :night a :careTimes,
-            owl:NamedIndividual .
-
-    :park a owl:Class ;
-        rdfs:label "Park"@en ;
-        rdfs:subClassOf :leisureLocation .
-
-    :providesSpecialCare a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :careTimes ;
-        rdfs:subPropertyOf :provides .
-
-    :reumaCare a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :rheumatismCenter a owl:Class ;
-        rdfs:subClassOf :healthCare .
-
-    :specialNeedCare a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :sportInterestedGroups a owl:Class ;
-        rdfs:subClassOf :groups .
-
-    :sportcentrum a owl:Class ;
-        rdfs:label "Sportcentrum"@en ;
-        rdfs:subClassOf :leisureLocation .
-
-    :swimmingPool a owl:Class ;
-        rdfs:label "Swimmingpool"@en ;
-        rdfs:subClassOf :leisureLocation .
-
-    :tennisHall a owl:Class ;
-        rdfs:label "Hall for Tennis"@en ;
-        rdfs:subClassOf :leisureLocation .
-
-    :website a owl:ObjectProperty .
-
-    ns5:opvoburo_bloei_2DE7853437D2A4B21geo a geo:Geometry ;
+    g13data:opvoburo_bloei_2B651EA8944F24651geo a geo:Geometry ;
         geo:asWKT "POINT(4.8765126304017 52.361337862629)"^^geo:wktLiteral .
 
-    ns5:opvocentrum_vrouw_en_vaart2CD62D8BB01042ADgeo a geo:Geometry ;
+    g13data:opvocentrum_vrouw_en_vaartE8B9EDAB67BD4567geo a geo:Geometry ;
         geo:asWKT "POINT(4.80532745726713 52.3656830141971)"^^geo:wktLiteral .
 
-    ns5:opvode_opvoedpoliDBDDA62CAB3A42E4geo a geo:Geometry ;
+    g13data:opvode_opvoedpoli0268019C659C498Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.93560377481371 52.3986971027549)"^^geo:wktLiteral .
 
-    ns5:opvode_opvoedpoli_14AECBD9D740046D7geo a geo:Geometry ;
+    g13data:opvode_opvoedpoli_19211F9BD13E143F1geo a geo:Geometry ;
         geo:asWKT "POINT(4.88229645224543 52.3858811544946)"^^geo:wktLiteral .
 
-    ns5:opvode_opvoedpoli_2FDFBA035594B43CEgeo a geo:Geometry ;
+    g13data:opvode_opvoedpoli_2A713C34C54BB45B4geo a geo:Geometry ;
         geo:asWKT "POINT(4.93013477444236 52.3633815376159)"^^geo:wktLiteral .
 
-    ns5:opvode_opvoedpoli_3B1181818709848AAgeo a geo:Geometry ;
+    g13data:opvode_opvoedpoli_353E6040DD5D44864geo a geo:Geometry ;
         geo:asWKT "POINT(4.96971175371461 52.3216539197909)"^^geo:wktLiteral .
 
-    ns5:opvode_opvoedpoli_427D612B916564664geo a geo:Geometry ;
+    g13data:opvode_opvoedpoli_4797F8A1C83F6499Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85005952852072 52.3575717600906)"^^geo:wktLiteral .
 
-    ns5:opvodream_support_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders629BC12A91AB4C03geo a geo:Geometry ;
+    g13data:opvodream_support_trainingen_voor_kinderen_en_opvoedingsadvies_voor_ouders844B80979E4D4F14geo a geo:Geometry ;
         geo:asWKT "POINT(4.93379423043404 52.3630091376526)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_borgerstraat5C06A78CA43E4B18geo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_borgerstraatEE650592AFED4681geo a geo:Geometry ;
         geo:asWKT "POINT(4.86693802090789 52.3653316675852)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_de_keyzer288A459D86BC4CB7geo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_de_keyzer368EC4C1C8474AC6geo a geo:Geometry ;
         geo:asWKT "POINT(4.92682445379144 52.3683029597381)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_helmersstraat5B5DECB7C4E14E89geo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_helmersstraatC514ED8861EB46F2geo a geo:Geometry ;
         geo:asWKT "POINT(4.87005356613347 52.3625591188958)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_holendrecht390DE5C36BB443A0geo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_holendrecht42AA928EF8C74C4Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.96245183324276 52.2997825593225)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_nellestein_11F4E23CC2BD14F5Fgeo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_nellestein_1794AEEBEB0AF4C83geo a geo:Geometry ;
         geo:asWKT "POINT(4.98367350795929 52.308921762602)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_oosthoekAFF53E049EB94701geo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_oosthoekE41D57289D5A4FA3geo a geo:Geometry ;
         geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_reigersbosACFC21FC67514668geo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_reigersbos2175068706394462geo a geo:Geometry ;
         geo:asWKT "POINT(4.97684882036092 52.2937179078976)"^^geo:wktLiteral .
 
-    ns5:opvogezondheidscentrum_venserpolder_1DEA5FDE6023B421Dgeo a geo:Geometry ;
+    g13data:opvogezondheidscentrum_venserpolder_170340E4C9B154B01geo a geo:Geometry ;
         geo:asWKT "POINT(4.94323116274827 52.3192925974688)"^^geo:wktLiteral .
 
-    ns5:opvogrip_op_talent686C93E46F8F4F6Bgeo a geo:Geometry ;
+    g13data:opvogrip_op_talentD04797507B90485Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.96509672917559 52.3241900686499)"^^geo:wktLiteral .
 
-    ns5:opvohet_geboortecentrum4F53C9B732474C51geo a geo:Geometry ;
+    g13data:opvohet_geboortecentrumF4B6F664EDFD42DAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.87638584124133 52.3659749869885)"^^geo:wktLiteral .
 
-    ns5:opvohome_start6B71AF2069E44B03geo a geo:Geometry ;
+    g13data:opvohome_start48DABFABB2FE4CEBgeo a geo:Geometry ;
         geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
 
-    ns5:opvohome_start_1F5DE6A3DC2564F8Cgeo a geo:Geometry ;
+    g13data:opvohome_start_1EBEF7451DA214216geo a geo:Geometry ;
         geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
 
-    ns5:opvohome_start_20C739BE1F6FA4FB2geo a geo:Geometry ;
+    g13data:opvohome_start_2DBF07B133CCC4A2Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.88198973368755 52.3859495819503)"^^geo:wktLiteral .
 
-    ns5:opvohome_start_346B341141C7A494Cgeo a geo:Geometry ;
+    g13data:opvohome_start_3971C615E90C748CDgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90210339499815 52.3597827618791)"^^geo:wktLiteral .
 
-    ns5:opvohome_start_4937F55EB44304975geo a geo:Geometry ;
+    g13data:opvohome_start_4757B711982814F5Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.84869744789742 52.3778778758174)"^^geo:wktLiteral .
 
-    ns5:opvohome_start_54555A705C5644E0Fgeo a geo:Geometry ;
+    g13data:opvohome_start_57C6B196AF9934084geo a geo:Geometry ;
         geo:asWKT "POINT(4.89533400658149 52.3506772126321)"^^geo:wktLiteral .
 
-    ns5:opvohome_start_64DB13707BA5A4DEAgeo a geo:Geometry ;
+    g13data:opvohome_start_6713B5831C2994C20geo a geo:Geometry ;
         geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
 
-    ns5:opvola_surprise74B02F6A6B5545B9geo a geo:Geometry ;
+    g13data:opvola_surprise08660A287FD14F80geo a geo:Geometry ;
         geo:asWKT "POINT(4.90028702419074 52.3460420377515)"^^geo:wktLiteral .
 
-    ns5:opvomama_cafeAC92B32D5A5B463Egeo a geo:Geometry ;
+    g13data:opvomama_cafeD3C6C5E7285346B6geo a geo:Geometry ;
         geo:asWKT "POINT(4.93623929333237 52.3651126104588)"^^geo:wktLiteral .
 
-    ns5:opvomoedercentrum_douniazadeAD016D0F1383454Egeo a geo:Geometry ;
+    g13data:opvomoedercentrum_douniazade89D5DC72AA6448F2geo a geo:Geometry ;
         geo:asWKT "POINT(4.90910506298851 52.3884640230981)"^^geo:wktLiteral .
 
-    ns5:opvookt_albardakade54CD4A3A86C04C5Dgeo a geo:Geometry ;
+    g13data:opvookt_albardakade80FFDD3FB3C8474Cgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80278629499397 52.3780286788053)"^^geo:wktLiteral .
 
-    ns5:opvookt_aldebaranplein04E56BC5D36B4F61geo a geo:Geometry ;
+    g13data:opvookt_aldebaranplein7E237751A2EE44A2geo a geo:Geometry ;
         geo:asWKT "POINT(4.8925305760082 52.4112515737294)"^^geo:wktLiteral .
 
-    ns5:opvookt_binnenhof204518740D96408Fgeo a geo:Geometry ;
+    g13data:opvookt_binnenhof6A3548D31C7D48A4geo a geo:Geometry ;
         geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
 
-    ns5:opvookt_bockesprongDA48E788834444F8geo a geo:Geometry ;
+    g13data:opvookt_bockesprongE1024AC18EEE4BE6geo a geo:Geometry ;
         geo:asWKT "POINT(4.84614077202103 52.3551092403537)"^^geo:wktLiteral .
 
-    ns5:opvookt_brederodestraatDAB1456B307046B7geo a geo:Geometry ;
+    g13data:opvookt_brederodestraat231DEB09E270477Ageo a geo:Geometry ;
         geo:asWKT "POINT(4.86213149015507 52.3608345505683)"^^geo:wktLiteral .
 
-    ns5:opvookt_de_kikkerE22D0E1D662F4FF0geo a geo:Geometry ;
+    g13data:opvookt_de_kikker25BBD8AA451A4033geo a geo:Geometry ;
         geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
 
-    ns5:opvookt_flevopoortCC3C44EEFA114E6Dgeo a geo:Geometry ;
+    g13data:opvookt_flevopoort6238E4987D6F4B5Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
 
-    ns5:opvookt_gaasperdam43634918D4724A6Bgeo a geo:Geometry ;
+    g13data:opvookt_gaasperdamB65A2BCF193A4A20geo a geo:Geometry ;
         geo:asWKT "POINT(4.97649379538095 52.2940671998245)"^^geo:wktLiteral .
 
-    ns5:opvookt_het_meervoudC0A873ADB55B4F8Ageo a geo:Geometry ;
+    g13data:opvookt_het_meervoud932B9340C4384899geo a geo:Geometry ;
         geo:asWKT "POINT(4.83932955474092 52.3630587418573)"^^geo:wktLiteral .
 
-    ns5:opvookt_ijburgD9C9485B91D74DBDgeo a geo:Geometry ;
+    g13data:opvookt_ijburg735C0B14110F484Egeo a geo:Geometry ;
         geo:asWKT "POINT(5.00740212443746 52.3516458031716)"^^geo:wktLiteral .
 
-    ns5:opvookt_jan_van_der_heijdenstraatD03C2F5D383E4911geo a geo:Geometry ;
+    g13data:opvookt_jan_van_der_heijdenstraat3B2825ACA5924CCDgeo a geo:Geometry ;
         geo:asWKT "POINT(4.90227597500529 52.356080524128)"^^geo:wktLiteral .
 
-    ns5:opvookt_klein_gooioordE6F9CBB434F343EBgeo a geo:Geometry ;
+    g13data:opvookt_klein_gooioord83C5E2F071474E21geo a geo:Geometry ;
         geo:asWKT "POINT(4.9706836526372 52.3212439083427)"^^geo:wktLiteral .
 
-    ns5:opvookt_kraijenhoffstraat7536FAA70C3E43EEgeo a geo:Geometry ;
+    g13data:opvookt_kraijenhoffstraat096007EC63C04093geo a geo:Geometry ;
         geo:asWKT "POINT(4.93019010450497 52.3694124973057)"^^geo:wktLiteral .
 
-    ns5:opvookt_lindengracht1818E639E86F4353geo a geo:Geometry ;
+    g13data:opvookt_lindengracht27D003DEA3344E33geo a geo:Geometry ;
         geo:asWKT "POINT(4.88350675115323 52.3801970968937)"^^geo:wktLiteral .
 
-    ns5:opvookt_magalhaenspleinC82C9B4C21474899geo a geo:Geometry ;
+    g13data:opvookt_magalhaenspleinDCE8FA7CE31B4F74geo a geo:Geometry ;
         geo:asWKT "POINT(4.85428234350039 52.3677559927283)"^^geo:wktLiteral .
 
-    ns5:opvookt_osdorp48AFC07A8C164722geo a geo:Geometry ;
+    g13data:opvookt_osdorpBC04E627744F4D74geo a geo:Geometry ;
         geo:asWKT "POINT(4.79308078810462 52.3559423314776)"^^geo:wktLiteral .
 
-    ns5:opvookt_pontanusstraat935313A273744BFDgeo a geo:Geometry ;
+    g13data:opvookt_pontanusstraatE386439B432A4167geo a geo:Geometry ;
         geo:asWKT "POINT(4.92998620349585 52.3607026272313)"^^geo:wktLiteral .
 
-    ns5:opvookt_slotermeerlaanA9F00F2628B2481Cgeo a geo:Geometry ;
+    g13data:opvookt_slotermeerlaan7128776FE7F94A4Bgeo a geo:Geometry ;
         geo:asWKT "POINT(4.81991666740395 52.3786961907812)"^^geo:wktLiteral .
 
-    ns5:opvookt_tijl_uilenspiegelstraat57E8A11CB5D9446Fgeo a geo:Geometry ;
+    g13data:opvookt_tijl_uilenspiegelstraatE11D37BB796B4986geo a geo:Geometry ;
         geo:asWKT "POINT(4.84869744789742 52.3778778758174)"^^geo:wktLiteral .
 
-    ns5:opvookt_waterlandpleinE3F9C049426743E8geo a geo:Geometry ;
+    g13data:opvookt_waterlandplein6FD2981375AE4F4Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
 
-    ns5:opvookt_westerparkA1E054EEF3FD4B18geo a geo:Geometry ;
+    g13data:opvookt_westerpark62758E0693614F2Fgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88120583975014 52.3862000567205)"^^geo:wktLiteral .
 
-    ns5:opvookt_wingerdweg8B102144BCD342E4geo a geo:Geometry ;
+    g13data:opvookt_wingerdwegCD8DB5A841B94828geo a geo:Geometry ;
         geo:asWKT "POINT(4.91670196390276 52.3910109917999)"^^geo:wktLiteral .
 
-    ns5:opvoomgangshuis_noord_holland_18D0835F33B29446Dgeo a geo:Geometry ;
+    g13data:opvoomgangshuis_noord_holland_13C0A738E783E4F6Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.82757426293021 52.4422216021704)"^^geo:wktLiteral .
 
-    ns5:opvoopvoedpunt_en_spel_o_theek_ijburg67E6E206B2A64368geo a geo:Geometry ;
+    g13data:opvoopvoedpunt_en_spel_o_theek_ijburg2AA2688B35A44D80geo a geo:Geometry ;
         geo:asWKT "POINT(5.00740212443746 52.3516458031716)"^^geo:wktLiteral .
 
-    ns5:opvoprofor_bureau_voor_samenlevingsopbouw2A0565EFD4B941F7geo a geo:Geometry ;
+    g13data:opvoprofor_bureau_voor_samenlevingsopbouw048A04B324AD40EEgeo a geo:Geometry ;
         geo:asWKT "POINT(4.95867943764597 52.3097326394224)"^^geo:wktLiteral .
 
-    ns5:opvopsychodiagnostisch_centrum_child_support_amsterdamEF375D7E01C44A04geo a geo:Geometry ;
+    g13data:opvopsychodiagnostisch_centrum_child_support_amsterdam65F6EA4DBA49433Egeo a geo:Geometry ;
         geo:asWKT "POINT(4.89672227781917 52.3591943621047)"^^geo:wktLiteral .
 
-    ns5:opvospeel_o_theek_de_baarsjes1F2029DCC151499Fgeo a geo:Geometry ;
+    g13data:opvospeel_o_theek_de_baarsjes2AF185D9DB834F2Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.85428234350039 52.3677559927283)"^^geo:wktLiteral .
 
-    ns5:opvospeel_o_theek_kraijenhoff81D4311ECD784F89geo a geo:Geometry ;
+    g13data:opvospeel_o_theek_kraijenhoff97EDB9B3F30548A4geo a geo:Geometry ;
         geo:asWKT "POINT(4.93019010450497 52.3694124973057)"^^geo:wktLiteral .
 
-    ns5:opvospeel_o_theek_lindengracht3AE79582D663404Dgeo a geo:Geometry ;
+    g13data:opvospeel_o_theek_lindengracht81B06B6E8CB847BBgeo a geo:Geometry ;
         geo:asWKT "POINT(4.88350675115323 52.3801970968937)"^^geo:wktLiteral .
 
-    ns5:opvospeel_o_theek_t_boomsspijkertjeF6142CE355394B31geo a geo:Geometry ;
+    g13data:opvospeel_o_theek_t_boomsspijkertjeFA691AB8CA6B4822geo a geo:Geometry ;
         geo:asWKT "POINT(4.90348272556877 52.3719577721925)"^^geo:wktLiteral .
 
-    ns5:opvospeel_o_theek_t_guppie_16A7D1B14AE1A40EFgeo a geo:Geometry ;
+    g13data:opvospeel_o_theek_t_guppie_141CE07A02E614972geo a geo:Geometry ;
         geo:asWKT "POINT(4.90630972570487 52.3441612586095)"^^geo:wktLiteral .
 
-    ns5:opvospeel_o_theek_zeeburgBB11CDF872DC4D06geo a geo:Geometry ;
+    g13data:opvospeel_o_theek_zeeburg62DED733085B42E8geo a geo:Geometry ;
         geo:asWKT "POINT(4.94659199211418 52.3654750756)"^^geo:wktLiteral .
 
-    ns5:opvospel_aan_huis95A32E73E5014474geo a geo:Geometry ;
+    g13data:opvospel_aan_huis39900CC4A71A4741geo a geo:Geometry ;
         geo:asWKT "POINT(4.90210339499815 52.3597827618791)"^^geo:wktLiteral .
 
-    ns5:opvospirit_jeugd_opvoedhulp47A4F02503304239geo a geo:Geometry ;
+    g13data:opvospirit_jeugd_opvoedhulp2A77AC9138F84719geo a geo:Geometry ;
         geo:asWKT "POINT(4.86584184990484 52.3411677452672)"^^geo:wktLiteral .
 
-    ns5:opvostichting_abc00539EAAB44E4376geo a geo:Geometry ;
+    g13data:opvostichting_abc21FE613006614047geo a geo:Geometry ;
         geo:asWKT "POINT(4.85828389454875 52.3634058940364)"^^geo:wktLiteral .
 
-    ns5:opvostichting_de_witte_tulpAFBAEB95ADA54251geo a geo:Geometry ;
+    g13data:opvostichting_de_witte_tulp02C2314CEB754BFAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.92196690191011 52.4114606940384)"^^geo:wktLiteral .
 
-    ns5:opvostichting_de_witte_tulp_1DFC855AADFD24F2Ageo a geo:Geometry ;
+    g13data:opvostichting_de_witte_tulp_18C30C281202D48BAgeo a geo:Geometry ;
         geo:asWKT "POINT(4.80031884424552 52.3536236364084)"^^geo:wktLiteral .
 
-    ns5:opvostichting_korrelatie3B6BA43076C64DF9geo a geo:Geometry ;
+    g13data:opvostichting_korrelatieD6206409D6BA40A4geo a geo:Geometry ;
         geo:asWKT "POINT(4.90258435901653 52.377569325714)"^^geo:wktLiteral .
 
-    ns5:opvostichting_samen_vooruit_savoD7C12D8CF65A4C0Fgeo a geo:Geometry ;
+    g13data:opvostichting_samen_vooruit_savo42B84D2B68514A9Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97582135054318 52.3225712464425)"^^geo:wktLiteral .
 
-    ns5:opvostichting_surinaamse_vrouwen_bijlmermeer_svbF348699430A64482geo a geo:Geometry ;
+    g13data:opvostichting_surinaamse_vrouwen_bijlmermeer_svb69FC4BCEDC0E4489geo a geo:Geometry ;
         geo:asWKT "POINT(4.97582135054318 52.3225712464425)"^^geo:wktLiteral .
 
-    ns5:opvostichting_vice_versa0D38E48797554A6Egeo a geo:Geometry ;
+    g13data:opvostichting_vice_versaE39E8E180526497Dgeo a geo:Geometry ;
         geo:asWKT "POINT(4.97582135054318 52.3225712464425)"^^geo:wktLiteral .
 
-    ns5:opvoswazoom8F1DC9FB182547FDgeo a geo:Geometry ;
+    g13data:opvoswazoom65D80A75AD8646D8geo a geo:Geometry ;
         geo:asWKT "POINT(4.97266073745794 52.3231382806074)"^^geo:wktLiteral .
 
-    ns5:opvovto_vroeghulpE64AB2EEBBFF49D7geo a geo:Geometry ;
+    g13data:opvovto_vroeghulpCE9701BD66834AB9geo a geo:Geometry ;
         geo:asWKT "POINT(4.90900287705508 52.3625251245642)"^^geo:wktLiteral .
-
-    :DayWork a owl:Class ;
-        rdfs:label "Work"@en ;
-        rdfs:subClassOf :daytimeLocation .
-
-    :addictsPrevention a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :addictsReintegration a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :daytimeLocation a owl:Class ;
-        rdfs:label "Day spending location"@en ;
-        rdfs:subClassOf :Location .
-
-    :homelessReintegration a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :nightLocation a owl:Class ;
-        rdfs:label "Night Location"@en ;
-        rdfs:subClassOf :Location .
-
-    :placeToSleep a :reintegrationHelp,
-            owl:NamedIndividual .
-
-    :reintegrationHelp a owl:Class .
-
-    :sleepLocation a :reintegrationPossibilites,
-            owl:Class,
-            owl:NamedIndividual ;
-        rdfs:label "Sleeping Location"@en ;
-        rdfs:subClassOf :nightLocation .
-
-    :verpleegZorgHuis a owl:Class ;
-        rdfs:subClassOf :healthCare .
-
-    :work a :reintegrationPossibilites,
-            owl:NamedIndividual .
-
-    :adults a :ageGroups,
-            owl:NamedIndividual .
-
-    :groups a owl:Class .
-
-    :providesReintegration a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :reintegrationPossibilites ;
-        rdfs:subPropertyOf :provides .
-
-    :careTimes a owl:Class .
-
-    :elderlyLocation a owl:Class ;
-        rdfs:label "Location for Elderly people"@en ;
-        rdfs:subClassOf :Location .
-
-    :medicalLocation a owl:Class ;
-        rdfs:label "Medical Location"@en ;
-        rdfs:subClassOf :Location .
-
-    :providesDentalcareTo a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :ageGroups ;
-        rdfs:subPropertyOf :provides .
-
-    :providesInformationAbout a owl:ObjectProperty ;
-        rdfs:domain :organisations ;
-        rdfs:range :knowledgeDomain ;
-        rdfs:subPropertyOf :provides .
-
-    :ageGroups a owl:Class .
-
-    :healthCare a owl:Class ;
-        rdfs:subClassOf :organisations .
-
-    :leisureLocation a owl:Class ;
-        rdfs:label "Location for Leisure"@en ;
-        rdfs:subClassOf :Location .
-
-    :provides a owl:ObjectProperty .
-
-    :riskGroups a owl:Class ;
-        rdfs:subClassOf :groups .
-
-    :Location a owl:Class .
-
-    :organisations a owl:Class .
-
-    :reintegrationPossibilites a owl:Class .
-
-    :knowledgeDomain a owl:Class .
-
-    :children a :ageGroups,
-            owl:NamedIndividual .
-
-    :childDevelopment a :knowledgeDomain,
-            owl:NamedIndividual .
-
-    :instantie a owl:Class .
-
-    [] a owl:AllDifferent ;
-        owl:distinctMembers [ a rdf:List ;
-                rdf:first :adults ;
-                rdf:rest [ a rdf:List ;
-                        rdf:first :children ;
-                        rdf:rest () ] ] .
 }
 
