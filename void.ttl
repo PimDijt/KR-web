@@ -16,27 +16,27 @@
 	dcterms:title "A VoID Description of a subset of instances in Amsterdam"@en;
 	dcterms:description 
 		"""This dataset consists of different organisations in Amsterdam with their location both on the web and geographical location and what those organisations provide to riskgroups."@en;
-	pav:createdBy <http://www.cs.man.ac.uk/~graya/me.ttl>;
-	pav:createdOn "2012-05-02T14:48:03Z"^^xsd:dateTime;
-	pav:lastUpdateOn "2012-08-10T09:32:49Z"^^xsd:dateTime;
-	pav:derivedFrom <http://rdf.chemspider.com/void.rdf>;
-	foaf:primaryTopic :chemSpiderDataset;
+	pav:createdBy <http://few.vu.nl/~mvr320/KRweb/group13>;
+	pav:createdOn "2018-04-19T23:48:03Z"^^xsd:dateTime;
+	pav:lastUpdateOn "2018-04-19T23:48:03Z"^^xsd:dateTime;
+	pav:derivedFrom <http://few.vu.nl/~mvr320/KRweb/void.ttl>;
+	foaf:primaryTopic :data-amsterdam;
 	.
 
-# Description of the ChemSpider dataset
-:chemSpiderDataset 
+# Description of the Amsterdam dataset
+:data-amsterdam
 # General metadata
 	a void:Dataset;
-	dcterms:title "ChemSpider"@en;
-	dcterms:description "ChemSpider's Public Dataset"@en;
-	foaf:homepage <http://rdf.chemspider.com/>;
-	foaf:page <http://www.chemspider.com/>;
-	dcterms:license <http://www.chemspider.com/Disclaimer.aspx>;
-	void:uriSpace "http://rdf.chemspider.com/"^^xsd:string;
+	dcterms:title "Interesting locations for risk groups in Amsterdam"@en;
+	dcterms:description "This dataset consists of the location and classification of the provided services for a subset of the riskgroups in Amsterdam as Proof of Concept. Based on the data provided by the Amsterdam city counsel."@en;
+	foaf:homepage <http://few.vu.nl/~mvr320/KRweb/dataset.html>;
+	foaf:page <http://data.amsterdam.nl>;
+	dcterms:license <http://few.vu.nl/~mvr320/KRweb/licence.html>;
+	void:uriSpace "http://few.vu.nl/~mvr320/KRweb/"^^xsd:string;
 #Provenance
-	dcterms:publisher <http://www.chemspider.com/>;
-	dcterms:created "2007-03-01T00:00:00"^^xsd:dateTime;
-	dcterms:modified "2012-10-16T00:00:00"^^xsd:dateTime;
+	dcterms:publisher <http://few.vu.nl/~mvr320/KRweb/group13>;
+	dcterms:created "2018-04-19T23:48:03Z"^^xsd:dateTime;
+	dcterms:modified "2018-04-19T23:48:03Z"^^xsd:dateTime;
 #Subsets
 	void:subset :chemSpiderDataset_chembl_subset,:chemSpiderDataset_drugbank_subset;
 #Vocabularies, topics, resources
@@ -55,7 +55,7 @@
 	# Technical features
 	void:feature <http://www.w3.org/ns/formats/RDF_XML>;
 	# Dataset statistics
-	void:triples "1157624328"^^xsd:nonNegativeInteger;
+	void:triples "31943"^^xsd:nonNegativeInteger;
 	.
 
 :data-amsterdam_toeg_subset
