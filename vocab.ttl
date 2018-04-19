@@ -15,46 +15,40 @@
 # #################################################################
 # 
 # 
-# http://few.vu.nl/~mvr320/KRweb/vocab/provides
-
-:provides a owl:ObjectProperty .
-# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/providesCoachingAbout
 
 :providesCoachingAbout a owl:ObjectProperty ;
-	rdfs:subPropertyOf :provides ;
 	rdfs:range :knowledgeDomain .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/providesDentalcareTo
 
 :providesDentalcareTo a owl:ObjectProperty ;
-	rdfs:subPropertyOf :provides ;
 	rdfs:domain :organisations ;
 	rdfs:range :ageGroups .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/providesExercisesFor
+
+:providesExercisesFor a owl:ObjectProperty .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/providesInformationAbout
 
-:providesInformationAbout a owl:ObjectProperty ;
-	rdfs:subPropertyOf :provides .
+:providesInformationAbout a owl:ObjectProperty .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/providesReintegration
 
 :providesReintegration a owl:ObjectProperty ;
-	rdfs:subPropertyOf :provides ;
 	rdfs:domain :organisations ;
 	rdfs:range :reintegrationPossibilites .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/providesSpecialCare
 
 :providesSpecialCare a owl:ObjectProperty ;
-	rdfs:subPropertyOf :provides ;
 	rdfs:domain :organisations ;
 	rdfs:range :careTimes .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/providesSpecialCareTo
 
 :providesSpecialCareTo a owl:ObjectProperty ;
-	rdfs:subPropertyOf :provides ;
 	rdfs:range :groups .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/website
@@ -200,18 +194,30 @@ _:genid7 a owl:Class .
 :SupportLivingFacilities rdfs:subClassOf :elderlyLocation ;
 	rdfs:label "Support Independant Living faculties"@en .
 # 
-# http://few.vu.nl/~mvr320/KRweb/vocab/addictCare
+# http://few.vu.nl/~mvr320/KRweb/vocab/ToyBorrowing
 
-:addictCare a owl:Class ;
+:ToyBorrowing a owl:Class ;
 	owl:equivalentClass _:genid12 .
 
 _:genid12 a owl:Restriction ;
+	owl:onProperty :providesExercisesFor ;
+	owl:hasValue :children .
+
+:ToyBorrowing rdfs:subClassOf :leisureLocation ;
+	rdfs:comment "Location to borrow Toys"@en .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/addictCare
+
+:addictCare a owl:Class ;
+	owl:equivalentClass _:genid13 .
+
+_:genid13 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
 	owl:hasValue :addictsPrevention .
 
-:addictCare owl:equivalentClass _:genid13 .
+:addictCare owl:equivalentClass _:genid14 .
 
-_:genid13 a owl:Restriction ;
+_:genid14 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
 	owl:hasValue :addictsReintegration .
 
@@ -220,9 +226,9 @@ _:genid13 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/addictSleepLocation
 
 :addictSleepLocation a owl:Class ;
-	owl:equivalentClass _:genid14 .
+	owl:equivalentClass _:genid15 .
 
-_:genid14 a owl:Restriction ;
+_:genid15 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
 	owl:hasValue :placeToSleep .
 
@@ -231,29 +237,29 @@ _:genid14 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/addictWorkLocation
 
 :addictWorkLocation a owl:Class ;
-	owl:equivalentClass _:genid15 .
+	owl:equivalentClass _:genid16 .
 
-_:genid15 owl:intersectionOf _:genid18 .
+_:genid16 owl:intersectionOf _:genid19 .
 
-_:genid18 a rdf:List ;
-	rdf:first _:genid19 .
+_:genid19 a rdf:List ;
+	rdf:first _:genid20 .
 
-_:genid19 a owl:Restriction ;
+_:genid20 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
 	owl:hasValue :addictsReintegration .
 
-_:genid18 rdf:rest _:genid16 .
+_:genid19 rdf:rest _:genid17 .
 
-_:genid16 a rdf:List ;
-	rdf:first _:genid17 .
+_:genid17 a rdf:List ;
+	rdf:first _:genid18 .
 
-_:genid17 a owl:Restriction ;
+_:genid18 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
 	owl:hasValue :work .
 
-_:genid16 rdf:rest rdf:nil .
+_:genid17 rdf:rest rdf:nil .
 
-_:genid15 a owl:Class .
+_:genid16 a owl:Class .
 
 :addictWorkLocation rdfs:subClassOf :DayWork .
 # 
@@ -265,9 +271,9 @@ _:genid15 a owl:Class .
 # http://few.vu.nl/~mvr320/KRweb/vocab/adultDentist
 
 :adultDentist a owl:Class ;
-	owl:equivalentClass _:genid20 .
+	owl:equivalentClass _:genid21 .
 
-_:genid20 a owl:Restriction ;
+_:genid21 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:hasValue :adults .
 
@@ -281,29 +287,29 @@ _:genid20 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/careLocation
 
 :careLocation a owl:Class ;
-	owl:equivalentClass _:genid21 .
+	owl:equivalentClass _:genid22 .
 
-_:genid21 owl:intersectionOf _:genid24 .
+_:genid22 owl:intersectionOf _:genid25 .
 
-_:genid24 a rdf:List ;
-	rdf:first _:genid25 .
+_:genid25 a rdf:List ;
+	rdf:first _:genid26 .
 
-_:genid25 a owl:Restriction ;
+_:genid26 a owl:Restriction ;
 	owl:onProperty :providesSpecialCare ;
 	owl:hasValue :day .
 
-_:genid24 rdf:rest _:genid22 .
+_:genid25 rdf:rest _:genid23 .
 
-_:genid22 a rdf:List ;
-	rdf:first _:genid23 .
+_:genid23 a rdf:List ;
+	rdf:first _:genid24 .
 
-_:genid23 a owl:Restriction ;
+_:genid24 a owl:Restriction ;
 	owl:onProperty :providesSpecialCare ;
 	owl:hasValue :night .
 
-_:genid22 rdf:rest rdf:nil .
+_:genid23 rdf:rest rdf:nil .
 
-_:genid21 a owl:Class .
+_:genid22 a owl:Class .
 
 :careLocation rdfs:subClassOf :elderlyLocation ;
 	rdfs:label "General Care location"@en .
@@ -315,14 +321,26 @@ _:genid21 a owl:Class .
 # http://few.vu.nl/~mvr320/KRweb/vocab/childDentist
 
 :childDentist a owl:Class ;
-	owl:equivalentClass _:genid26 .
+	owl:equivalentClass _:genid27 .
 
-_:genid26 a owl:Restriction ;
+_:genid27 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:hasValue :children .
 
 :childDentist rdfs:subClassOf :medicalLocation ;
 	rdfs:label "Child dentist"@en .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/childDevelopmentInformationCentre
+
+:childDevelopmentInformationCentre a owl:Class ;
+	owl:equivalentClass _:genid28 .
+
+_:genid28 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :childDevelopment .
+
+:childDevelopmentInformationCentre rdfs:subClassOf :InformationCentre ;
+	rdfs:comment "Children development"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/daytimeLocation
 
@@ -333,9 +351,9 @@ _:genid26 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/dentalCare
 
 :dentalCare a owl:Class ;
-	owl:equivalentClass _:genid27 .
+	owl:equivalentClass _:genid29 .
 
-_:genid27 a owl:Restriction ;
+_:genid29 a owl:Restriction ;
 	owl:onProperty :providesDentalcareTo ;
 	owl:someValuesFrom :ageGroups .
 
@@ -385,58 +403,58 @@ _:genid27 a owl:Restriction ;
 # http://few.vu.nl/~mvr320/KRweb/vocab/homelessLivingLocation
 
 :homelessLivingLocation a owl:Class ;
-	owl:equivalentClass _:genid28 .
+	owl:equivalentClass _:genid30 .
 
-_:genid28 owl:intersectionOf _:genid31 .
+_:genid30 owl:intersectionOf _:genid33 .
+
+_:genid33 a rdf:List ;
+	rdf:first _:genid34 .
+
+_:genid34 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :homelessReintegration .
+
+_:genid33 rdf:rest _:genid31 .
 
 _:genid31 a rdf:List ;
 	rdf:first _:genid32 .
 
 _:genid32 a owl:Restriction ;
-	owl:onProperty :providesInformationAbout ;
-	owl:hasValue :homelessReintegration .
-
-_:genid31 rdf:rest _:genid29 .
-
-_:genid29 a rdf:List ;
-	rdf:first _:genid30 .
-
-_:genid30 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
 	owl:hasValue :livingAccomodation .
 
-_:genid29 rdf:rest rdf:nil .
+_:genid31 rdf:rest rdf:nil .
 
-_:genid28 a owl:Class .
+_:genid30 a owl:Class .
 
 :homelessLivingLocation rdfs:subClassOf :LivingLocation .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/homelessWorkLocation
 
 :homelessWorkLocation a owl:Class ;
-	owl:equivalentClass _:genid33 .
+	owl:equivalentClass _:genid35 .
 
-_:genid33 owl:intersectionOf _:genid36 .
+_:genid35 owl:intersectionOf _:genid38 .
+
+_:genid38 a rdf:List ;
+	rdf:first _:genid39 .
+
+_:genid39 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :homelessReintegration .
+
+_:genid38 rdf:rest _:genid36 .
 
 _:genid36 a rdf:List ;
 	rdf:first _:genid37 .
 
 _:genid37 a owl:Restriction ;
-	owl:onProperty :providesInformationAbout ;
-	owl:hasValue :homelessReintegration .
-
-_:genid36 rdf:rest _:genid34 .
-
-_:genid34 a rdf:List ;
-	rdf:first _:genid35 .
-
-_:genid35 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
 	owl:hasValue :work .
 
-_:genid34 rdf:rest rdf:nil .
+_:genid36 rdf:rest rdf:nil .
 
-_:genid33 a owl:Class .
+_:genid35 a owl:Class .
 
 :homelessWorkLocation rdfs:subClassOf :DayWork .
 # 
@@ -447,16 +465,25 @@ _:genid33 a owl:Class .
 # http://few.vu.nl/~mvr320/KRweb/vocab/jewishCareLocation
 
 :jewishCareLocation a owl:Class ;
-	owl:equivalentClass _:genid38 .
+	owl:equivalentClass _:genid40 .
 
-_:genid38 owl:intersectionOf _:genid43 .
+_:genid40 owl:intersectionOf _:genid45 .
+
+_:genid45 a rdf:List ;
+	rdf:first _:genid46 .
+
+_:genid46 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :jewElderlyCare .
+
+_:genid45 rdf:rest _:genid43 .
 
 _:genid43 a rdf:List ;
 	rdf:first _:genid44 .
 
 _:genid44 a owl:Restriction ;
-	owl:onProperty :providesInformationAbout ;
-	owl:hasValue :jewElderlyCare .
+	owl:onProperty :providesSpecialCare ;
+	owl:hasValue :day .
 
 _:genid43 rdf:rest _:genid41 .
 
@@ -465,20 +492,11 @@ _:genid41 a rdf:List ;
 
 _:genid42 a owl:Restriction ;
 	owl:onProperty :providesSpecialCare ;
-	owl:hasValue :day .
-
-_:genid41 rdf:rest _:genid39 .
-
-_:genid39 a rdf:List ;
-	rdf:first _:genid40 .
-
-_:genid40 a owl:Restriction ;
-	owl:onProperty :providesSpecialCare ;
 	owl:hasValue :night .
 
-_:genid39 rdf:rest rdf:nil .
+_:genid41 rdf:rest rdf:nil .
 
-_:genid38 a owl:Class .
+_:genid40 a owl:Class .
 
 :jewishCareLocation rdfs:subClassOf :elderlyLocation ;
 	rdfs:label "Jewish care location"@en .
@@ -502,9 +520,9 @@ _:genid38 a owl:Class .
 # http://few.vu.nl/~mvr320/KRweb/vocab/movementInformation
 
 :movementInformation a owl:Class ;
-	owl:equivalentClass _:genid45 .
+	owl:equivalentClass _:genid47 .
 
-_:genid45 a owl:Restriction ;
+_:genid47 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
 	owl:hasValue :movementIssues .
 
@@ -623,6 +641,14 @@ _:genid45 a owl:Restriction ;
 
 :dayActivity a owl:NamedIndividual , :reintegrationPossibilites .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/disabledPeople
+
+:disabledPeople a owl:NamedIndividual , :riskGroups .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/disabledPeopleCare
+
+:disabledPeopleCare a owl:NamedIndividual , :knowledgeDomain .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/elderly
 
 :elderly a owl:NamedIndividual , :riskGroups .
@@ -687,10 +713,6 @@ _:genid45 a owl:Restriction ;
 
 :sleepLocation a owl:NamedIndividual , :reintegrationPossibilites .
 # 
-# http://few.vu.nl/~mvr320/KRweb/vocab/specialNeedCare
-
-:specialNeedCare a owl:NamedIndividual , :knowledgeDomain .
-# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/work
 
 :work a owl:NamedIndividual , :reintegrationPossibilites .
@@ -717,14 +739,14 @@ _:genid45 a owl:Restriction ;
 # 
 # 
 
-_:genid46 a owl:AllDifferent ;
-	owl:distinctMembers _:genid48 .
+_:genid48 a owl:AllDifferent ;
+	owl:distinctMembers _:genid50 .
 
-_:genid48 a rdf:List ;
+_:genid50 a rdf:List ;
 	rdf:first :adults ;
-	rdf:rest _:genid47 .
+	rdf:rest _:genid49 .
 
-_:genid47 a rdf:List ;
+_:genid49 a rdf:List ;
 	rdf:first :children ;
 	rdf:rest rdf:nil .
 # 

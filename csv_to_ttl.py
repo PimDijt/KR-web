@@ -90,7 +90,6 @@ for i in range(len(filenames)):
         # All set... we are now going to add the triples to our dataset
         rndom = uuid.uuid4().hex[:16].upper()
         if short[i] != "prk":
-            print(url)
             thing = URIRef(to_iri(url+row['titel_key']+rndom))
             thinggeo = URIRef(to_iri(url+row['titel_key']+rndom+'geo'))
             points = row['locatie'][5:].split()
@@ -100,8 +99,8 @@ for i in range(len(filenames)):
             name = Literal(row['titel'], datatype=XSD['string'])
             lat = Literal(lati, datatype=XSD['double'])
             lng = Literal(lngi, datatype=XSD['double'])
-            latw = Literal(lat, datatype=XSD['float'])
-            lngw = Literal(lng, datatype=XSD['float'])
+            latw = Literal(lati, datatype=XSD['float'])
+            lngw = Literal(lngi, datatype=XSD['float'])
             addr = Literal(row['adres'], datatype=XSD['string'])
             pcode = Literal(row['postcode'], datatype=XSD['string'])
             point = Literal(row['locatie'], datatype=GEO['wktLiteral'])
@@ -148,14 +147,14 @@ for i in range(len(filenames)):
         else:
             thing = URIRef(to_iri(url+row['Naam']+rndom))
             thinggeo = URIRef(to_iri(url+row['Naam']+rndom+'geo'))
-            lati = row['LAT']
-            lngi = row['LON']
-            point = Literal('POINT( '+row['LON']+' '+row['LAT']+' )', datatype=GEO['wktLiteral'])
+            lati = row['LAT'].replace(',','.')
+            lngi = row['LNG'].replace(',','.')
+            point = Literal('POINT( '+row['LNG']+' '+row['LAT']+' )', datatype=GEO['wktLiteral'])
             name = Literal(row['Naam'], datatype=XSD['string'])
             lat = Literal(lati, datatype=XSD['double'])
             lng = Literal(lngi, datatype=XSD['double'])
-            latw = Literal(lat, datatype=XSD['float'])
-            lngw = Literal(lng, datatype=XSD['float'])
+            latw = Literal(lati, datatype=XSD['float'])
+            lngw = Literal(lngi, datatype=XSD['float'])
             dataset.add((thing, RDFS['label'], name))
             dataset.add((thing, DBP['latitude'], lat))
             dataset.add((thing, DBP['longitude'], lng))
@@ -176,10 +175,10 @@ for i in range(len(filenames)):
                     dataset.add((thing, RDF['type'], VOCAB['sportcentrum']))
         if short[i] == "tooth":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['dentalIssues']))
-            dataset.add((thing, RDF['type'], VOCAB['dentist']))
-            if "Kindertandheelkunde" not in row['titel']:
+            if "Kindertandheelkunde" in row['titel']:
                 dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['children']))
             else:
+                dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['children']))
                 dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['adults']))                
         if short[i] == "dakth":
             substrdb = ["50", "Inloophuis", "work","Juttersdok", "HVO-Querido"]
@@ -215,15 +214,16 @@ for i in range(len(filenames)):
                 if substr in row['titel']:
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['night']))
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
-                    dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['day']))
+                    dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['disabledPeople']))
                     #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
                     #dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
             for substr in ["Stichting", "agcentrum", "ctiviteitencentrum"]:
                 if substr in row['titel']:
                     dataset.add((thing, VOCAB['providesSpecialCare'], VOCAB['day']))
-                    dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['elderly']))
+                    if "Stichting" not in row['titel']:
+                        dataset.add((thing, VOCAB['providesSpecialCareTo'], VOCAB['disabledPeople']))
                     #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
-            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['specialNeedCare']))
+            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['disabledPeopleCare']))
         if short[i] == "verz":
             for substr in ["erpleeghuis", "oon", "org"]:
                 if substr in row['titel']:
@@ -252,13 +252,13 @@ for i in range(len(filenames)):
             substrkg = ["peel", "pel"]
             if substr in row['titel']:
                 dataset.add((thing, VOCAB['providesExercisesFor'], VOCAB['children']))
-            dataset.add((thing, RDF['type'], VOCAB['childDevelopmentCenter']))
+            #dataset.add((thing, RDF['type'], VOCAB['childDevelopmentCenter']))
         if short[i] == "lhbt":
-            substr = ["COC", "HIV"]
+            substr = ["COC", "Hiv","Coaching", "Trans", "seksuele identiteit"]
             for subs in substr:
                 if subs in row['titel']:
-                    dataset.add((thing, VOCAB['providesCoachingAbout'], VOCAB['lhtbtIssues']))
-            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['lhtbtIssues']))
+                    dataset.add((thing, VOCAB['providesCoachingAbout'], VOCAB['lhbtIssues']))
+            dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['lhbtIssues']))
             #Vieze dataset...
     with open('outputTTL/'+short[i]+'-rdf.ttl','wb') as f:
         dataset.serialize(f, format='turtle')

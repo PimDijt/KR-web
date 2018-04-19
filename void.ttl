@@ -58,6 +58,45 @@
 	void:triples "1157624328"^^xsd:nonNegativeInteger;
 	.
 
+:data-amsterdam_zorbep_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam disabled Subset"@en;
+	dcterms:description "The different organisations to help/support people with a disability in different levels."@en;
+#Provenance
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/zorg-voor-mensen-met-een-beperking/export/csv>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/zorbep-rdf.trig>;
+	.
+
+:data-amsterdam_opvo_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam ChildDevelopment Subset"@en;
+	dcterms:description "The different child education support facilities in Amsterdam together consisting of infromation centra and associations which provide materials."@en;
+#Provenance
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/opvoedingsondersteuning/export/csv>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/opvo-rdf.trig>;
+	.
+
+:data-amsterdam_prk_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam Parks Subset"@en;
+	dcterms:description "The different parks in Amsterdam together with if it is allowed to BBQ, only the longitude and latitude are used."@en;
+#Provenance
+	pav:retrievedFrom <https://maps.amsterdam.nl/open_geodata/excel.php?KAARTLAAG=PARKPLANTSOENGROEN&THEMA=stadsparken>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/lhbt-rdf.trig>;
+	.
+
 :data-amsterdam_lhbt_subset
 #General Metadata
 	a void:Dataset;
