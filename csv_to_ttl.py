@@ -66,7 +66,7 @@ for i in range(len(filenames)):
     graph = dataset.graph(graph_uri)
 
     # Load the externally defined schema into the default dataset (context) of the dataset
-    dataset.default_context.parse('vocab.ttl', format='turtle')
+    #dataset.default_context.parse('vocab.ttl', format='turtle')
 
     # Let's iterate over the dictionary, and create some triples
     # Let's pretend we know exactly what the 'schema' of our CSV file is
@@ -182,15 +182,15 @@ for i in range(len(filenames)):
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['work']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
-                    dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
+                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
             for esubstrbw in substrbw:
                 if esubstrbw in row['titel']:
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['livingAccomodation']))
                     dataset.add((thing, VOCAB['providesReintegration'], VOCAB['placeToSleep']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsReintegration']))
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['homelessReintegration']))
-                    dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
-                    dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
+                    #dataset.add((thing, RDF['type'], VOCAB['dayLocation']))
+                    #dataset.add((thing, RDF['type'], VOCAB['nightLocation']))
             for esubstrih in substrih:
                 if esubstrih in row['titel']:
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['addictsPrevention']))
