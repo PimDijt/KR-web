@@ -161,6 +161,7 @@ for i in range(len(filenames)):
             dataset.add((thinggeo, RDF['type'], GEO['Geometry']))
             dataset.add((thinggeo, GEO['asWKT'], point))
             dataset.add((thing, RDF['type'], VOCAB['park']))
+        dataset.add((thing, VOID['label'], name))
         if short[i] == "spzw":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['movementIssues']))
             if row['type'] == "Zwembad":
@@ -173,7 +174,7 @@ for i in range(len(filenames)):
         if short[i] == "tooth":
             dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['dentalIssues']))
             dataset.add((thing, RDF['type'], VOCAB['dentist']))
-            if "Kindertandheelkunde" in row['titel']:
+            if "Kindertandheelkunde" not in row['titel']:
                 dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['children']))
             else:
                 dataset.add((thing, VOCAB['providesDentalcareTo'], VOCAB['adults']))                
@@ -228,6 +229,7 @@ for i in range(len(filenames)):
             for substr in ["reuma"]:
                 if substr in row['titel']:
                     dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['reumaCare']))
+                    dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['movementIssues']))
             if "Joods" in row['titel']:
                 dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['jewElderlyCare']))
             else:

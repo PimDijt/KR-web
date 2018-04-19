@@ -58,18 +58,29 @@
 	void:triples "1157624328"^^xsd:nonNegativeInteger;
 	.
 
-:chemSpiderDataset_chembl_subset
+:data-amsterdam_dentist_subset
 #General Metadata
 	a void:Dataset;
-	dcterms:title "ChemSpider ChEMBL Subset"@en;
-	dcterms:description "The slice of ChemSpider data that corresponds to ChEMBL molecules."@en;
+	dcterms:title "Data.Amsterdam Tandartsen Subset"@en;
+	dcterms:description "The different adult and children dentists."@en;
 #Provenance
-	pav:retrievedFrom <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_13/chembl_13.sdf.gz>;
-	pav:retrievedOn "2012-08-02T10:23:56Z"^^xsd:dateTime;
-	pav:retrievedBy <http://www.chemspider.com> ;
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/tandartsen/export/csv>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
 #Dataset Access
-	void:dataDump <https://www.dropbox.com/sh/6zboa8z9i9vrzyl/7NxayhkUH0/ChEMBL20120731.zip>;
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/tooth-rdf.trig>;
 	.
+:data-amsterdam_homeless_subset
+#General Metadata
+	a void:Dataset;
+	dcterms:title "Data.Amsterdam dak-en-thuislozenzorg Subset"@en;
+	dcterms:description "The homeless care organisations and their locations."@en;
+#Provenance
+	pav:retrievedFrom <https://kaart.amsterdam.nl/datasets/datasets-item/t/dak-en-thuislozenzorg/export/csv>;
+	pav:retrievedOn "2018-04-11T00:00:00Z"^^xsd:dateTime;
+	pav:retrievedBy <http://few.vu.nl/~mvr320/KRweb/group13> ;
+#Dataset Access
+	void:dataDump <http://few.vu.nl/~mvr320/KRweb/dakth-rdf.trig>;
 
 # Description of the ChemSpider subset relating to DrugBank
 :chemSpiderDataset_drugbank_subset
