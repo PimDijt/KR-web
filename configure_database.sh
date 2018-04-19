@@ -1,6 +1,7 @@
-STARDOG_JAVA_ARGS="-Xmx15g -Xms15g"
-STARDOG_SERVER_JAVA_ARGS="-Xmx15g -Xms15g"
-#export $STARDOG_JAVA_ARGS
+STARDOG_JAVA_ARGS="-Xms14g -Xmx14g -XX:MaxDirectMemorySize=13g"
+STARDOG_SERVER_JAVA_ARGS="-Xms14g -Xmx14g -XX:MaxDirectMemorySize=13g"
+export STARDOG_SERVER_JAVA_ARGS
+export STARDOG_JAVA_ARGS
 
 ~/stardog-5.2.3/bin/stardog-admin server stop
 ~/stardog-5.2.3/bin/stardog-admin server start --disable-security

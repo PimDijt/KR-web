@@ -244,6 +244,7 @@ for i in range(len(filenames)):
             newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/resource/'+row['type']))
             dataset.add((thing, RDF['type'], newClass))
             dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
+            dataset.add((newClass, RDFS['label'], Literal(row['type'], datatype=XSD['string'])))
         if short[i] == "opvo":
             substrkg = ["ezond", "pvoed", "OKT"]
             for substr in substrkg:

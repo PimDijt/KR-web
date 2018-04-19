@@ -264,8 +264,8 @@ SELECT ?sup ?sub WHERE {
 
         if(count < 3){
           for(var i=0; i<count; i++){
-            query += " ?a"+i+" ns2:latitude ?lat"+i+" .\n";
-            query += " ?a"+i+" ns2:longitude ?lng"+i+" .\n";
+            query += " ?a"+i+" dbp:latitude ?lat"+i+" .\n";
+            query += " ?a"+i+" dbp:longitude ?lng"+i+" .\n";
             query += " ?a"+i+" rdfs:label ?lab"+i+" .\n";
             query += " ?a"+i+" rdf:type ?c"+i+" .\n";
             query += " ?c"+i+" rdfs:label \""+sub_classes[i].name+"\"@en .\n";
@@ -294,15 +294,15 @@ SELECT ?sup ?sub WHERE {
             query += " WHERE{\n";
           }
 
-          query += " ?a"+(count-2)+" ns2:latitude ?lat"+(count-2)+" .\n";
-          query += " ?a"+(count-2)+" ns2:longitude ?lng"+(count-2)+" .\n";
+          query += " ?a"+(count-2)+" dbp:latitude ?lat"+(count-2)+" .\n";
+          query += " ?a"+(count-2)+" dbp:longitude ?lng"+(count-2)+" .\n";
           query += " ?a"+(count-2)+" rdfs:label ?lab"+(count-2)+" .\n";
           query += " ?a"+(count-2)+" rdf:type ?c"+(count-2)+" .\n";
           query += " ?c"+(count-2)+" rdfs:label \""+sub_classes[(count-2)].name+"\"@en .\n";
           query += " ?a"+(count-2)+" geo:hasGeometry ?geo"+(count-2)+" .\n";
 
-          query += " ?a"+(count-1)+" ns2:latitude ?lat"+(count-1)+" .\n";
-          query += " ?a"+(count-1)+" ns2:longitude ?lng"+(count-1)+" .\n";
+          query += " ?a"+(count-1)+" dbp:latitude ?lat"+(count-1)+" .\n";
+          query += " ?a"+(count-1)+" dbp:longitude ?lng"+(count-1)+" .\n";
           query += " ?a"+(count-1)+" rdfs:label ?lab"+(count-1)+" .\n";
           query += " ?a"+(count-1)+" rdf:type ?c"+(count-1)+" .\n";
           query += " ?c"+(count-1)+" rdfs:label \""+sub_classes[(count-1)].name+"\"@en .\n";
@@ -318,8 +318,8 @@ SELECT ?sup ?sub WHERE {
 
             query += " }\n";
 
-            query += " ?a"+(i-1)+" ns2:latitude ?lat"+(i-1)+" .\n";
-            query += " ?a"+(i-1)+" ns2:longitude ?lng"+(i-1)+" .\n";
+            query += " ?a"+(i-1)+" dbp:latitude ?lat"+(i-1)+" .\n";
+            query += " ?a"+(i-1)+" dbp:longitude ?lng"+(i-1)+" .\n";
             query += " ?a"+(i-1)+" rdfs:label ?lab"+(i-1)+" .\n";
             query += " ?a"+(i-1)+" rdf:type ?c"+(i-1)+" .\n";
             query += " ?c"+(i-1)+" rdfs:label \""+sub_classes[(i-1)].name+"\"@en .\n";
@@ -336,6 +336,8 @@ SELECT ?sup ?sub WHERE {
 
         var endpoint = 'http://localhost:5820/KRweb' + '/query';
         var format = 'JSON';
+
+        console.log(query)
 
         $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
           var results = json.results.bindings;
