@@ -218,12 +218,6 @@ _:genid9 a owl:Restriction ;
 
 :dentalCare rdfs:subClassOf :healthCare .
 # 
-# http://few.vu.nl/~mvr320/KRweb/vocab/dentist
-
-:dentist a owl:Class ;
-	rdfs:subClassOf :medicalLocation ;
-	rdfs:label "Dentist"@en .
-# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/disabledLocations
 
 :disabledLocations a owl:Class ;
