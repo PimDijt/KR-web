@@ -75,6 +75,12 @@
 
 :Location a owl:Class .
 # 
+# http://few.vu.nl/~mvr320/KRweb/vocab/Work
+
+:DayWork a owl:Class ;
+	rdfs:subClassOf :daytimeLocation ;
+	rdfs:label "Work"@en .
+# 
 # http://few.vu.nl/~mvr320/KRweb/vocab/addictCare
 
 :addictCare a owl:Class ;
@@ -189,6 +195,35 @@ _:genid6 a owl:Restriction ;
 
 :healthCare a owl:Class ;
 	rdfs:subClassOf :organisations .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/homelessWorkLocation
+
+:homelessWorkLocation a owl:Class ;
+	owl:equivalentClass _:genid7 .
+
+_:genid7 owl:intersectionOf _:genid10 .
+
+_:genid10 a rdf:List ;
+	rdf:first _:genid11 .
+
+_:genid11 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :homelessReintegration .
+
+_:genid10 rdf:rest _:genid8 .
+
+_:genid8 a rdf:List ;
+	rdf:first _:genid9 .
+
+_:genid9 a owl:Restriction ;
+	owl:onProperty :providesReintegration ;
+	owl:hasValue :work .
+
+_:genid8 rdf:rest rdf:nil .
+
+_:genid7 a owl:Class .
+
+:homelessWorkLocation rdfs:subClassOf :DayWork .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/instantie
 
@@ -414,14 +449,14 @@ _:genid6 a owl:Restriction ;
 # 
 # 
 
-_:genid7 a owl:AllDifferent ;
-	owl:distinctMembers _:genid9 .
+_:genid12 a owl:AllDifferent ;
+	owl:distinctMembers _:genid14 .
 
-_:genid9 a rdf:List ;
+_:genid14 a rdf:List ;
 	rdf:first :adults ;
-	rdf:rest _:genid8 .
+	rdf:rest _:genid13 .
 
-_:genid8 a rdf:List ;
+_:genid13 a rdf:List ;
 	rdf:first :children ;
 	rdf:rest rdf:nil .
 # 

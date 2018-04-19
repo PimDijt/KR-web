@@ -8,6 +8,9 @@ import uuid
 dbp = 'http://dbpedia.org/property/'
 DBP = Namespace(dbp)
 
+dbo = 'http://dbpedia.org/ontology/'
+DBO = Namespace(dbo)
+
 wgs = 'http://www.w3.org/2003/01/geo/wgs84_pos#'
 WGS = Namespace(wgs)
 
@@ -24,6 +27,12 @@ GEO = Namespace(geo)
 
 geof = 'http://www.opengis.net/def/function/geosparql/'
 GEOF = Namespace(geof)
+
+schema = 'http://schema.org/postalCode'
+SCHEMA = Namespace(schema)
+
+vcard = 'http://www.w3.org/2006/vcard/ns#VCard'
+VCARD = Namespace(vcard)
 
 filenames = ["lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
 short = ["lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
@@ -48,6 +57,10 @@ for i in range(len(filenames)):
     dataset.bind('g13set',SETNAME)
     dataset.bind('geo', GEO)
     dataset.bind('geof',GEOF)
+    dataset.bind('dbo',DBO)
+    dataset.bind('dbp',DBP)
+    dataset.bind('schema',SCHEMA)
+    dataset.bind('vcard',VCARD)
 
     # We then get a new dataset object with our URI from the dataset.
     graph = dataset.graph(graph_uri)
@@ -72,20 +85,33 @@ for i in range(len(filenames)):
         # All set... we are now going to add the triples to our dataset
         rndom = uuid.uuid4().hex[:16].upper()
         if short[i] != "prk":
-            thing = URIRef(to_iri(url+row['titel']+rndom))
-            thinggeo = URIRef(to_iri(url+row['titel']+rndom+'geo'))
+            thing = URIRef(to_iri(url+row['titel_key']+rndom))
+            thinggeo = URIRef(to_iri(url+row['titel_key']+rndom+'geo'))
             points = row['locatie'][5:].split()
             lati = points[1][:-1]
             lngi = points[0][1:]
+            websiteBool = True
             name = Literal(row['titel'], datatype=XSD['string'])
             lat = Literal(lati, datatype=XSD['double'])
             lng = Literal(lngi, datatype=XSD['double'])
             latw = Literal(lat, datatype=XSD['float'])
             lngw = Literal(lng, datatype=XSD['float'])
+            addr = Literal(row['adres'], datatype=XSD['string'])
+            pcode = Literal(row['postcode'], datatype=XSD['string'])
             point = Literal(row['locatie'], datatype=GEO['wktLiteral'])
             if short[i] != "toe":
                 if short[i] != "spzw":
-                    website = Literal(row['internet'], datatype=XSD['string'])
+                    if short[i] != 'dakth':
+                        website = Literal(row['internet'], datatype=XSD['string'])
+                    else:
+                        if 'http' in row['straat']:
+                            website = Literal(row['straat'], datatype=XSD['string'])
+                        elif 'http' in row['internet']:
+                            website = Literal(row['internet'], datatype=XSD['string'])
+                        elif 'http' in row['plaats_2']:
+                            website = Literal(row['plaats_2'], datatype=XSD['string'])
+                        else:
+                            websiteBool = False
                 else:
                     website = Literal(row['Website'], datatype=XSD['string'])
             dataset.add((thing, RDFS['label'], name))
@@ -96,8 +122,18 @@ for i in range(len(filenames)):
             dataset.add((thing, GEO['hasGeometry'], thinggeo))
             dataset.add((thinggeo, RDF['type'], GEO['Geometry']))
             dataset.add((thinggeo, GEO['asWKT'], point))
+            dataset.add((thing, SCHEMA['postalCode'], pcode))
+            dataset.add((thing, VCARD['hasPostalCode'], pcode))
+            dataset.add((thing, DBO['PostalCode'], pcode))
+            dataset.add((thing, SCHEMA['PostalAddress'], addr))
+            dataset.add((thing, VCARD['hasAddress'], addr))
+            dataset.add((thing, DBO['address'], addr))
             if short[i]!="toe":
-                dataset.add((thing, VOCAB['website'], website))
+                if websiteBool:
+                    dataset.add((thing, VOCAB['website'], website))
+                    dataset.add((thing, DBO['Website'], website))
+                    dataset.add((thing, SCHEMA['WebSite'], website))
+                    dataset.add((thing, RDFS['seeAlso'], website))
             dataset.add((thing, RDF['type'], VOCAB['instantie']))
         else:
             thing = URIRef(to_iri(url+row['Naam']+rndom))
