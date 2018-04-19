@@ -37,8 +37,8 @@ VCARD = Namespace(vcard)
 void = 'http://rdfs.org/ns/void#'
 VOID = Namespace(void)
 
-filenames = ["lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
-short = ["lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
+filenames = ["parkplantsoen.csv", "lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
+short = ["prk", "lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
 for i in range(len(filenames)):
     print(short[i])
     filename = 'data/'+filenames[i];
