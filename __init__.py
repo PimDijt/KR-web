@@ -8,28 +8,12 @@ import json
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+def home():
     return render_template('home.html')
 
 @app.route('/map')
 def map():
-    detlz = parse_csv('dak-en-thuislozenzorg.csv')
-    lhbt = parse_csv('lhbt-hulpverlening.csv')
-    zorg = parse_csv('verpleeg-en-verzorgingshuizen.csv')
-    result = [(0, "green", True, detlz), (1, "red", True, lhbt), (2, "blue", True, zorg)]
-    return render_template('google_maps.html', results = result)
-
-@app.route('/map_filter')
-def map_filter():
-    detlz = parse_csv('dak-en-thuislozenzorg.csv')
-    lhbt = parse_csv('lhbt-hulpverlening.csv')
-    zorg = parse_csv('verpleeg-en-verzorgingshuizen.csv')
-    result = [(0, "dak-en-thuislozenzorg", "green", "true", detlz), (1, "lhbt-hulpverlening", "red", "true", lhbt), (2, "verpleeg-en-verzorgingshuizen", "blue", "true", zorg)]
-    return render_template('google_maps_filter.html', results = result)
-
-@app.route('/map_final')
-def map_test():
-    return render_template('google_maps_final.html')
+    return render_template('google_maps.html')
 
 @app.route('/sparql2', methods=['GET'])
 def sparql2():
@@ -53,7 +37,6 @@ def sparql2():
             if return_format == 'RDF':
                 return response.serialize(format='turtle')
             else:
-                #return make_filter_page(response["results"]["bindings"])
                 return jsonify(response)
         except Exception as e:
             traceback.print_exc()
