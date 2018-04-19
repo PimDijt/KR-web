@@ -250,14 +250,9 @@ _:genid9 a owl:Restriction ;
 :healthCare a owl:Class ;
 	rdfs:subClassOf :organisations .
 # 
-# http://few.vu.nl/~mvr320/KRweb/vocab/homelessKnowledge
+# http://few.vu.nl/~mvr320/KRweb/vocab/homelessDayActivity
 
-:homelessKnowledge a owl:Class ;
-	rdfs:subClassOf :knowledgeDomain .
-# 
-# http://few.vu.nl/~mvr320/KRweb/vocab/homelessLivingLocation
-
-:homelessLivingLocation a owl:Class ;
+:homelessDayActivity a owl:Class ;
 	owl:equivalentClass _:genid10 .
 
 _:genid10 owl:intersectionOf _:genid13 .
@@ -265,9 +260,26 @@ _:genid10 owl:intersectionOf _:genid13 .
 _:genid13 a rdf:List ;
 	rdf:first _:genid14 .
 
-_:genid14 a owl:Restriction ;
+_:genid14 a owl:Class ;
+	owl:unionOf _:genid17 .
+
+_:genid17 a rdf:List ;
+	rdf:first _:genid18 .
+
+_:genid18 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
-	owl:hasValue :homelessReintegration .
+	owl:someValuesFrom :addictsKnowledge .
+
+_:genid17 rdf:rest _:genid15 .
+
+_:genid15 a rdf:List ;
+	rdf:first _:genid16 .
+
+_:genid16 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:someValuesFrom :homelessKnowledge .
+
+_:genid15 rdf:rest rdf:nil .
 
 _:genid13 rdf:rest _:genid11 .
 
@@ -276,40 +288,74 @@ _:genid11 a rdf:List ;
 
 _:genid12 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
-	owl:hasValue :livingAccomodation .
+	owl:hasValue :dayActivity .
 
 _:genid11 rdf:rest rdf:nil .
 
 _:genid10 a owl:Class .
+
+:homelessDayActivity rdfs:subClassOf :LivingLocation .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/homelessKnowledge
+
+:homelessKnowledge a owl:Class ;
+	rdfs:subClassOf :knowledgeDomain .
+# 
+# http://few.vu.nl/~mvr320/KRweb/vocab/homelessLivingLocation
+
+:homelessLivingLocation a owl:Class ;
+	owl:equivalentClass _:genid19 .
+
+_:genid19 owl:intersectionOf _:genid22 .
+
+_:genid22 a rdf:List ;
+	rdf:first _:genid23 .
+
+_:genid23 a owl:Restriction ;
+	owl:onProperty :providesInformationAbout ;
+	owl:hasValue :homelessReintegration .
+
+_:genid22 rdf:rest _:genid20 .
+
+_:genid20 a rdf:List ;
+	rdf:first _:genid21 .
+
+_:genid21 a owl:Restriction ;
+	owl:onProperty :providesReintegration ;
+	owl:hasValue :livingAccomodation .
+
+_:genid20 rdf:rest rdf:nil .
+
+_:genid19 a owl:Class .
 
 :homelessLivingLocation rdfs:subClassOf :LivingLocation .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/homelessWorkLocation
 
 :homelessWorkLocation a owl:Class ;
-	owl:equivalentClass _:genid15 .
+	owl:equivalentClass _:genid24 .
 
-_:genid15 owl:intersectionOf _:genid18 .
+_:genid24 owl:intersectionOf _:genid27 .
 
-_:genid18 a rdf:List ;
-	rdf:first _:genid19 .
+_:genid27 a rdf:List ;
+	rdf:first _:genid28 .
 
-_:genid19 a owl:Restriction ;
+_:genid28 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
 	owl:hasValue :homelessReintegration .
 
-_:genid18 rdf:rest _:genid16 .
+_:genid27 rdf:rest _:genid25 .
 
-_:genid16 a rdf:List ;
-	rdf:first _:genid17 .
+_:genid25 a rdf:List ;
+	rdf:first _:genid26 .
 
-_:genid17 a owl:Restriction ;
+_:genid26 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
 	owl:hasValue :work .
 
-_:genid16 rdf:rest rdf:nil .
+_:genid25 rdf:rest rdf:nil .
 
-_:genid15 a owl:Class .
+_:genid24 a owl:Class .
 
 :homelessWorkLocation rdfs:subClassOf :DayWork .
 # 
@@ -537,14 +583,14 @@ _:genid15 a owl:Class .
 # 
 # 
 
-_:genid20 a owl:AllDifferent ;
-	owl:distinctMembers _:genid22 .
+_:genid29 a owl:AllDifferent ;
+	owl:distinctMembers _:genid31 .
 
-_:genid22 a rdf:List ;
+_:genid31 a rdf:List ;
 	rdf:first :adults ;
-	rdf:rest _:genid21 .
+	rdf:rest _:genid30 .
 
-_:genid21 a rdf:List ;
+_:genid30 a rdf:List ;
 	rdf:first :children ;
 	rdf:rest rdf:nil .
 # 
