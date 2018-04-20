@@ -40,7 +40,7 @@
 
     </style>
   </head>
-  <body>
+  <body onload="init()">
     <textarea type="hidden" id="query" style="display:none">
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?sup ?sub WHERE {
@@ -106,29 +106,23 @@ SELECT ?sup ?sub WHERE {
 
         var div = document.getElementById('floating-panel');
         var ul = document.createElement('ul');
+        ul.setAttribute("class", "superlist");
         var li;
         filter.forEach(function(item){
           li = document.createElement('li');
 
-          /*
-          var radio_name = document.createElement('input');
-          radio_name.setAttribute('checked', true);
-          radio_name.setAttribute('type', 'checkbox');
-          radio_name.setAttribute('id', item.id);
-          radio_name.setAttribute('onclick', 'change_selection(this)');
-          */
+          var class_label = document.createElement('label');
+          class_label.style.textDecoration = "underline";
+          class_label.click(function() {
+            $(this).parent().find('ul').toggle();
+        });
+          class_label.appendChild(document.createTextNode(item.name));
 
-
-
-          var radio_name_label = document.createElement('label');
-          radio_name_label.appendChild(document.createTextNode(item.name));
-
-          //li.appendChild(radio_name);
-          li.appendChild(radio_name_label);
-
+          li.appendChild(class_label);
 
           item.sub_classes.forEach(function(sub){
             var nes_ul = document.createElement('ul');
+            nes_ul.style.display="none";
             var nes_li1 =  document.createElement('li');
             var sub_radio = document.createElement('input');
             //sub_radio.setAttribute('checked', true);
@@ -163,6 +157,11 @@ SELECT ?sup ?sub WHERE {
           });
         });
         div.appendChild(ul);
+
+        $('.superlist > li label').click(function() {
+          $(this).parent().find('ul').toggle();
+      });
+      init();
       });
 
 
@@ -337,8 +336,6 @@ SELECT ?sup ?sub WHERE {
         var endpoint = 'http://localhost:5820/KRweb' + '/query';
         var format = 'JSON';
 
-        console.log(query)
-
         $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
           var results = json.results.bindings;
           var markers = {};
@@ -412,6 +409,14 @@ SELECT ?sup ?sub WHERE {
         });
         intersectionArea.setMap(map);
       }
+
+      function init(){
+
+        $('.superlist > li label').click(function() {
+          $(this).parent().find('ul').toggle();
+      });
+      }
+
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map&libraries=geometry">
