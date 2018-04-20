@@ -117,6 +117,7 @@ SELECT ?sup ?sub WHERE {
             $(this).parent().find('ul').toggle();
         });
           class_label.appendChild(document.createTextNode(item.name));
+          class_label.setAttribute('onclick', "$(this).parent().find('ul').toggle();");
 
           li.appendChild(class_label);
 
@@ -157,6 +158,7 @@ SELECT ?sup ?sub WHERE {
           });
         });
         div.appendChild(ul);
+
 
         $('.superlist > li label').click(function() {
           $(this).parent().find('ul').toggle();
@@ -342,7 +344,11 @@ SELECT ?sup ?sub WHERE {
           var windows = {};
           var count = 0;
           var colors = ["#FF0000","#00FF00","#0000FF"];
+          if(results.length == 0){
+            alert("Voor deze selectie zijn helaas geen resultaten gevonden");
+          }
           console.log(results);
+
           results.forEach(function(item){
             var sub_count = 0;
             var num = Object.keys(item).length / 3;
@@ -414,12 +420,17 @@ SELECT ?sup ?sub WHERE {
 
         $('.superlist > li label').click(function() {
           $(this).parent().find('ul').toggle();
-      });
+        });
       }
 
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map&libraries=geometry">
     </script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <style>
   </body>
 </html>
