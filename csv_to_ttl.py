@@ -90,7 +90,6 @@ for i in range(len(filenames)):
         # All set... we are now going to add the triples to our dataset
         rndom = uuid.uuid4().hex[:16].upper()
         if short[i] != "prk":
-            print(row['titel_key'])
             thing = URIRef(to_iri(url+row['titel_key']+rndom))
             thinggeo = URIRef(to_iri(url+row['titel_key']+rndom+'geo'))
             points = row['locatie'][5:].split()
@@ -242,7 +241,7 @@ for i in range(len(filenames)):
             else:
                 dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['elderlyCare']))
         if short[i] == "toe":
-            newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/vocab/'+short[i]+'/'+row['type']))
+            newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/vocab/'+row['type']))
             dataset.add((thing, RDF['type'], newClass))
             dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
             #dataset.add((newClass, RDFS['label'], Literal(row['type'], lang="nl")))#, datatype=XSD['string'])))
