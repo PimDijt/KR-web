@@ -37,22 +37,20 @@
 	dcterms:created "2018-04-19T23:48:03Z"^^xsd:dateTime;
 	dcterms:modified "2018-04-19T23:48:03Z"^^xsd:dateTime;
 #Subsets
-	void:subset :chemSpiderDataset_chembl_subset,:chemSpiderDataset_drugbank_subset;
+	void:subset :data-amsterdam_toeg_subset,:data-amsterdam_zorbep_subset,:data-amsterdam_opvo_subset,:data-amsterdam_prk_subset,:data-amsterdam_lhbt_subset,:data-amsterdam_elderly_subset,:data-amsterdam_sport_subset,:data-amsterdam_dentist_subset,:data-amsterdam_homeless_subset;
 #Vocabularies, topics, resources
 	void:vocabulary <http://purl.org/dc/elements/1.1/>,
 		<http://purl.org/dc/terms/>,
 		<http://www.openarchives.org/ore/terms/>,
 		<http://www.polymerinformatics.com/ChemAxiom/ChemDomain.owl#>,
 		<http://xmlns.com/foaf/0.1/>;
-	dcterms:subject <http://dbpedia.org/resource/Molecule>;
-	void:exampleResource <http://rdf.chemspider.com/2157>;
+	dcterms:subject <http://dbpedia.org/resource/Amsterdam>;
 #Dataset Access	
-	void:sparqlEndpoint <http://rdf.chemspider.com/sparql>;
 #Update Frequency
 	voag:frequencyOfChange freq:continuous;
 #Other Metadata
 	# Technical features
-	void:feature <http://www.w3.org/ns/formats/RDF_XML>;
+	void:feature <http://www.w3.org/ns/formats/Turtle>;
 	# Dataset statistics
 	void:triples "31943"^^xsd:nonNegativeInteger;
 	.
