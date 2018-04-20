@@ -14,7 +14,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-g13set:adviespraktijk_david_en_van_wezel_100B3201D2B864B6D a g13vocab:instantie ;
+g13set:adviespraktijk_david_en_van_wezel_1BEA74E3D94714FD9 a g13vocab:instantie ;
     rdfs:label "Adviespraktijk David en Van Wezel"^^xsd:string ;
     dbo:PostalCode "1098PE"^^xsd:string ;
     dbo:Website "http://www.david-vanwezel.nl"^^xsd:string ;
@@ -26,14 +26,14 @@ g13set:adviespraktijk_david_en_van_wezel_100B3201D2B864B6D a g13vocab:instantie 
     schema:PostalAddress "Johannes van der Waalsstraat 39"^^xsd:string ;
     schema:WebSite "http://www.david-vanwezel.nl"^^xsd:string ;
     schema:postalCode "1098PE"^^xsd:string ;
-    geo:hasGeometry g13set:adviespraktijk_david_en_van_wezel_100B3201D2B864B6Dgeo ;
+    geo:hasGeometry g13set:adviespraktijk_david_en_van_wezel_1BEA74E3D94714FD9geo ;
     rdfs:seeAlso "http://www.david-vanwezel.nl"^^xsd:string ;
     wgs:lat "52.3515034043332"^^xsd:float ;
     wgs:long "4.9405019178603"^^xsd:float ;
     vcard:hasAddress "Johannes van der Waalsstraat 39"^^xsd:string ;
     vcard:hasPostalCode "1098PE"^^xsd:string .
 
-g13set:amsterdam_groepspraktijk_psychotherapie_2444641E0866B4A51 a g13vocab:instantie ;
+g13set:amsterdam_groepspraktijk_psychotherapie_2735A61E6E3134E38 a g13vocab:instantie ;
     rdfs:label "Amsterdam Groepspraktijk Psychotherapie"^^xsd:string ;
     dbo:PostalCode "1054RB"^^xsd:string ;
     dbo:Website "http://www.psychotherapiepraktijkamsterdam.nl"^^xsd:string ;
@@ -45,14 +45,14 @@ g13set:amsterdam_groepspraktijk_psychotherapie_2444641E0866B4A51 a g13vocab:inst
     schema:PostalAddress "WG-plein 44"^^xsd:string ;
     schema:WebSite "http://www.psychotherapiepraktijkamsterdam.nl"^^xsd:string ;
     schema:postalCode "1054RB"^^xsd:string ;
-    geo:hasGeometry g13set:amsterdam_groepspraktijk_psychotherapie_2444641E0866B4A51geo ;
+    geo:hasGeometry g13set:amsterdam_groepspraktijk_psychotherapie_2735A61E6E3134E38geo ;
     rdfs:seeAlso "http://www.psychotherapiepraktijkamsterdam.nl"^^xsd:string ;
     wgs:lat "52.3638871010753"^^xsd:float ;
     wgs:long "4.87160901324048"^^xsd:float ;
     vcard:hasAddress "WG-plein 44"^^xsd:string ;
     vcard:hasPostalCode "1054RB"^^xsd:string .
 
-g13set:associatie_voor_psychotherapie_23A82E7E7098640CD a g13vocab:instantie ;
+g13set:associatie_voor_psychotherapie_22ABB883384AD42C4 a g13vocab:instantie ;
     rdfs:label "Associatie voor Psychotherapie"^^xsd:string ;
     dbo:PostalCode "1016LV"^^xsd:string ;
     dbo:address "Rozengracht 105"^^xsd:string ;
@@ -61,13 +61,13 @@ g13set:associatie_voor_psychotherapie_23A82E7E7098640CD a g13vocab:instantie ;
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Rozengracht 105"^^xsd:string ;
     schema:postalCode "1016LV"^^xsd:string ;
-    geo:hasGeometry g13set:associatie_voor_psychotherapie_23A82E7E7098640CDgeo ;
+    geo:hasGeometry g13set:associatie_voor_psychotherapie_22ABB883384AD42C4geo ;
     wgs:lat "52.3729909155503"^^xsd:float ;
     wgs:long "4.8797559162721"^^xsd:float ;
     vcard:hasAddress "Rozengracht 105"^^xsd:string ;
     vcard:hasPostalCode "1016LV"^^xsd:string .
 
-g13set:bo_link_praktijk_voor_haptotherapieFB167A1D9B2C4C7E a g13vocab:instantie ;
+g13set:bo_link_praktijk_voor_haptotherapie2A4E26D5198048FF a g13vocab:instantie ;
     rdfs:label "Bo-link, praktijk voor haptotherapie"^^xsd:string ;
     dbo:PostalCode "1103RG"^^xsd:string ;
     dbo:Website "http://www.bo-link.nl"^^xsd:string ;
@@ -79,14 +79,14 @@ g13set:bo_link_praktijk_voor_haptotherapieFB167A1D9B2C4C7E a g13vocab:instantie 
     schema:PostalAddress "Geerdinkhof 480"^^xsd:string ;
     schema:WebSite "http://www.bo-link.nl"^^xsd:string ;
     schema:postalCode "1103RG"^^xsd:string ;
-    geo:hasGeometry g13set:bo_link_praktijk_voor_haptotherapieFB167A1D9B2C4C7Egeo ;
+    geo:hasGeometry g13set:bo_link_praktijk_voor_haptotherapie2A4E26D5198048FFgeo ;
     rdfs:seeAlso "http://www.bo-link.nl"^^xsd:string ;
     wgs:lat "52.3282309081226"^^xsd:float ;
     wgs:long "4.97943460432352"^^xsd:float ;
     vcard:hasAddress "Geerdinkhof 480"^^xsd:string ;
     vcard:hasPostalCode "1103RG"^^xsd:string .
 
-g13set:centro_cultural_de_hispanohablantes9D1253C5476B4F83 a g13vocab:instantie ;
+g13set:centro_cultural_de_hispanohablantes3C879E698C5D4FD0 a g13vocab:instantie ;
     rdfs:label "Centro Cultural de Hispanohablantes"^^xsd:string ;
     dbo:PostalCode "1057DL"^^xsd:string ;
     dbo:Website "http://www.hispanohablantes.nl"^^xsd:string ;
@@ -98,14 +98,14 @@ g13set:centro_cultural_de_hispanohablantes9D1253C5476B4F83 a g13vocab:instantie 
     schema:PostalAddress "Willem Schoutenstraat 1"^^xsd:string ;
     schema:WebSite "http://www.hispanohablantes.nl"^^xsd:string ;
     schema:postalCode "1057DL"^^xsd:string ;
-    geo:hasGeometry g13set:centro_cultural_de_hispanohablantes9D1253C5476B4F83geo ;
+    geo:hasGeometry g13set:centro_cultural_de_hispanohablantes3C879E698C5D4FD0geo ;
     rdfs:seeAlso "http://www.hispanohablantes.nl"^^xsd:string ;
     wgs:lat "52.3675347454174"^^xsd:float ;
     wgs:long "4.85504850574835"^^xsd:float ;
     vcard:hasAddress "Willem Schoutenstraat 1"^^xsd:string ;
     vcard:hasPostalCode "1057DL"^^xsd:string .
 
-g13set:coaching_en_supervisie_tim_de_jong9F7215ABC5D34BFF a g13vocab:instantie ;
+g13set:coaching_en_supervisie_tim_de_jongFC9E2FB034734844 a g13vocab:instantie ;
     rdfs:label "Coaching en Supervisie Tim de Jong"^^xsd:string ;
     dbo:PostalCode "1086XZ"^^xsd:string ;
     dbo:Website "http://www.timdejongcoaching.nl"^^xsd:string ;
@@ -118,14 +118,14 @@ g13set:coaching_en_supervisie_tim_de_jong9F7215ABC5D34BFF a g13vocab:instantie ;
     schema:PostalAddress "Jan Olphert Vaillantlaan 151"^^xsd:string ;
     schema:WebSite "http://www.timdejongcoaching.nl"^^xsd:string ;
     schema:postalCode "1086XZ"^^xsd:string ;
-    geo:hasGeometry g13set:coaching_en_supervisie_tim_de_jong9F7215ABC5D34BFFgeo ;
+    geo:hasGeometry g13set:coaching_en_supervisie_tim_de_jongFC9E2FB034734844geo ;
     rdfs:seeAlso "http://www.timdejongcoaching.nl"^^xsd:string ;
     wgs:lat "52.3611850572203"^^xsd:float ;
     wgs:long "4.97574060776561"^^xsd:float ;
     vcard:hasAddress "Jan Olphert Vaillantlaan 151"^^xsd:string ;
     vcard:hasPostalCode "1086XZ"^^xsd:string .
 
-g13set:coc_amsterdam_182424D027E964B33 a g13vocab:instantie ;
+g13set:coc_amsterdam_154C25402622F4F06 a g13vocab:instantie ;
     rdfs:label "COC Amsterdam"^^xsd:string ;
     dbo:PostalCode "1073AV"^^xsd:string ;
     dbo:Website "http://www.cocamsterdam.nl"^^xsd:string ;
@@ -138,14 +138,14 @@ g13set:coc_amsterdam_182424D027E964B33 a g13vocab:instantie ;
     schema:PostalAddress "Stadhouderskade 89"^^xsd:string ;
     schema:WebSite "http://www.cocamsterdam.nl"^^xsd:string ;
     schema:postalCode "1073AV"^^xsd:string ;
-    geo:hasGeometry g13set:coc_amsterdam_182424D027E964B33geo ;
+    geo:hasGeometry g13set:coc_amsterdam_154C25402622F4F06geo ;
     rdfs:seeAlso "http://www.cocamsterdam.nl"^^xsd:string ;
     wgs:lat "52.357624660428"^^xsd:float ;
     wgs:long "4.89531572029783"^^xsd:float ;
     vcard:hasAddress "Stadhouderskade 89"^^xsd:string ;
     vcard:hasPostalCode "1073AV"^^xsd:string .
 
-g13set:compaan_counseling_amsterdam_homospecifieke_hulpverleningFDBCB1DFF0FA493C a g13vocab:instantie ;
+g13set:compaan_counseling_amsterdam_homospecifieke_hulpverlening35F34186921A449C a g13vocab:instantie ;
     rdfs:label "Compaan Counseling Amsterdam - Homospecifieke Hulpverlening"^^xsd:string ;
     dbo:PostalCode "1019DC"^^xsd:string ;
     dbo:Website "http://homospecifiekehulpverlening.nl/"^^xsd:string ;
@@ -157,14 +157,14 @@ g13set:compaan_counseling_amsterdam_homospecifieke_hulpverleningFDBCB1DFF0FA493C
     schema:PostalAddress "J.F. van Hengelstraat 30"^^xsd:string ;
     schema:WebSite "http://homospecifiekehulpverlening.nl/"^^xsd:string ;
     schema:postalCode "1019DC"^^xsd:string ;
-    geo:hasGeometry g13set:compaan_counseling_amsterdam_homospecifieke_hulpverleningFDBCB1DFF0FA493Cgeo ;
+    geo:hasGeometry g13set:compaan_counseling_amsterdam_homospecifieke_hulpverlening35F34186921A449Cgeo ;
     rdfs:seeAlso "http://homospecifiekehulpverlening.nl/"^^xsd:string ;
     wgs:lat "52.3746565596972"^^xsd:float ;
     wgs:long "4.94793435916976"^^xsd:float ;
     vcard:hasAddress "J.F. van Hengelstraat 30"^^xsd:string ;
     vcard:hasPostalCode "1019DC"^^xsd:string .
 
-g13set:de_regenboog_groep_3C7496B61CB734526 a g13vocab:instantie ;
+g13set:de_regenboog_groep_3CFB4266C66384AED a g13vocab:instantie ;
     rdfs:label "De Regenboog Groep"^^xsd:string ;
     dbo:PostalCode "1013GE"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -176,14 +176,14 @@ g13set:de_regenboog_groep_3C7496B61CB734526 a g13vocab:instantie ;
     schema:PostalAddress "Droogbak 1"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1013GE"^^xsd:string ;
-    geo:hasGeometry g13set:de_regenboog_groep_3C7496B61CB734526geo ;
+    geo:hasGeometry g13set:de_regenboog_groep_3CFB4266C66384AEDgeo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.380259820669"^^xsd:float ;
     wgs:long "4.89413939550038"^^xsd:float ;
     vcard:hasAddress "Droogbak 1"^^xsd:string ;
     vcard:hasPostalCode "1013GE"^^xsd:string .
 
-g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit23F6DB3770774D62 a g13vocab:instantie ;
+g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit3FE2D7C0839D4308 a g13vocab:instantie ;
     rdfs:label "Different, pastorale hulpverlening rond seksuele identiteit"^^xsd:string ;
     dbo:PostalCode "1015JR"^^xsd:string ;
     dbo:Website "http://www.totheildesvolks.nl/different/home"^^xsd:string ;
@@ -196,14 +196,14 @@ g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit23F6DB3770774D6
     schema:PostalAddress "Goudsbloemstraat 38"^^xsd:string ;
     schema:WebSite "http://www.totheildesvolks.nl/different/home"^^xsd:string ;
     schema:postalCode "1015JR"^^xsd:string ;
-    geo:hasGeometry g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit23F6DB3770774D62geo ;
+    geo:hasGeometry g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit3FE2D7C0839D4308geo ;
     rdfs:seeAlso "http://www.totheildesvolks.nl/different/home"^^xsd:string ;
     wgs:lat "52.3809148853129"^^xsd:float ;
     wgs:long "4.88533449545389"^^xsd:float ;
     vcard:hasAddress "Goudsbloemstraat 38"^^xsd:string ;
     vcard:hasPostalCode "1015JR"^^xsd:string .
 
-g13set:eerstelijnspsychologiepraktijk_bijleveld_1036FE77153DC4D9D a g13vocab:instantie ;
+g13set:eerstelijnspsychologiepraktijk_bijleveld_187BD013C2B8F4F33 a g13vocab:instantie ;
     rdfs:label "Eerstelijnspsychologiepraktijk Bijleveld"^^xsd:string ;
     dbo:PostalCode "1073VV"^^xsd:string ;
     dbo:Website "http://www.annemiekebijleveld.nl"^^xsd:string ;
@@ -215,14 +215,14 @@ g13set:eerstelijnspsychologiepraktijk_bijleveld_1036FE77153DC4D9D a g13vocab:ins
     schema:PostalAddress "Gerard Doustraat 145"^^xsd:string ;
     schema:WebSite "http://www.annemiekebijleveld.nl"^^xsd:string ;
     schema:postalCode "1073VV"^^xsd:string ;
-    geo:hasGeometry g13set:eerstelijnspsychologiepraktijk_bijleveld_1036FE77153DC4D9Dgeo ;
+    geo:hasGeometry g13set:eerstelijnspsychologiepraktijk_bijleveld_187BD013C2B8F4F33geo ;
     rdfs:seeAlso "http://www.annemiekebijleveld.nl"^^xsd:string ;
     wgs:lat "52.3566743207169"^^xsd:float ;
     wgs:long "4.89588406142669"^^xsd:float ;
     vcard:hasAddress "Gerard Doustraat 145"^^xsd:string ;
     vcard:hasPostalCode "1073VV"^^xsd:string .
 
-g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrumD5CD350ED1BC4159 a g13vocab:instantie ;
+g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrum56192DCC52FC42E4 a g13vocab:instantie ;
     rdfs:label "EFT relatie therapie & Zijnsorientatie Amsterdam Centrum"^^xsd:string ;
     dbo:PostalCode "1016HP"^^xsd:string ;
     dbo:Website "http://www.leveninverbondenheid.nl"^^xsd:string ;
@@ -234,14 +234,14 @@ g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrumD5CD350ED1BC4159 a 
     schema:PostalAddress "Prinsengracht 471"^^xsd:string ;
     schema:WebSite "http://www.leveninverbondenheid.nl"^^xsd:string ;
     schema:postalCode "1016HP"^^xsd:string ;
-    geo:hasGeometry g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrumD5CD350ED1BC4159geo ;
+    geo:hasGeometry g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrum56192DCC52FC42E4geo ;
     rdfs:seeAlso "http://www.leveninverbondenheid.nl"^^xsd:string ;
     wgs:lat "52.3699941016887"^^xsd:float ;
     wgs:long "4.88304994965762"^^xsd:float ;
     vcard:hasAddress "Prinsengracht 471"^^xsd:string ;
     vcard:hasPostalCode "1016HP"^^xsd:string .
 
-g13set:gestaltpraktijk_amsterdam_18CD97232EBB7491F a g13vocab:instantie ;
+g13set:gestaltpraktijk_amsterdam_1AF5E8AC1887D49CB a g13vocab:instantie ;
     rdfs:label "Gestaltpraktijk Amsterdam"^^xsd:string ;
     dbo:PostalCode "1015GW"^^xsd:string ;
     dbo:Website "http://www.gestaltpraktijkamsterdam.nl"^^xsd:string ;
@@ -253,14 +253,14 @@ g13set:gestaltpraktijk_amsterdam_18CD97232EBB7491F a g13vocab:instantie ;
     schema:PostalAddress "Lijnbaansgracht 67"^^xsd:string ;
     schema:WebSite "http://www.gestaltpraktijkamsterdam.nl"^^xsd:string ;
     schema:postalCode "1015GW"^^xsd:string ;
-    geo:hasGeometry g13set:gestaltpraktijk_amsterdam_18CD97232EBB7491Fgeo ;
+    geo:hasGeometry g13set:gestaltpraktijk_amsterdam_1AF5E8AC1887D49CBgeo ;
     rdfs:seeAlso "http://www.gestaltpraktijkamsterdam.nl"^^xsd:string ;
     wgs:lat "52.3826737676468"^^xsd:float ;
     wgs:long "4.88258266517885"^^xsd:float ;
     vcard:hasAddress "Lijnbaansgracht 67"^^xsd:string ;
     vcard:hasPostalCode "1015GW"^^xsd:string .
 
-g13set:gestaltpraktijk_bloemgracht_1A5C955AD98F34CD5 a g13vocab:instantie ;
+g13set:gestaltpraktijk_bloemgracht_1AAEE5BE1311A42B7 a g13vocab:instantie ;
     rdfs:label "Gestaltpraktijk Bloemgracht"^^xsd:string ;
     dbo:PostalCode "1016KG"^^xsd:string ;
     dbo:Website "http://www.gestalttherapiebloemgracht.nl/"^^xsd:string ;
@@ -272,14 +272,14 @@ g13set:gestaltpraktijk_bloemgracht_1A5C955AD98F34CD5 a g13vocab:instantie ;
     schema:PostalAddress "Bloemgracht 79"^^xsd:string ;
     schema:WebSite "http://www.gestalttherapiebloemgracht.nl/"^^xsd:string ;
     schema:postalCode "1016KG"^^xsd:string ;
-    geo:hasGeometry g13set:gestaltpraktijk_bloemgracht_1A5C955AD98F34CD5geo ;
+    geo:hasGeometry g13set:gestaltpraktijk_bloemgracht_1AAEE5BE1311A42B7geo ;
     rdfs:seeAlso "http://www.gestalttherapiebloemgracht.nl/"^^xsd:string ;
     wgs:lat "52.3743328399239"^^xsd:float ;
     wgs:long "4.88005068142241"^^xsd:float ;
     vcard:hasAddress "Bloemgracht 79"^^xsd:string ;
     vcard:hasPostalCode "1016KG"^^xsd:string .
 
-g13set:ggz_ingeest_poliklinieken_48599F8BCD05D43E9 a g13vocab:instantie ;
+g13set:ggz_ingeest_poliklinieken_4A13A4B61C96748D9 a g13vocab:instantie ;
     rdfs:label "GGZ inGeest Poliklinieken"^^xsd:string ;
     dbo:PostalCode "1081JC"^^xsd:string ;
     dbo:Website "http://www.ggzingeest.nl"^^xsd:string ;
@@ -291,14 +291,14 @@ g13set:ggz_ingeest_poliklinieken_48599F8BCD05D43E9 a g13vocab:instantie ;
     schema:PostalAddress "Amstelveenseweg 589"^^xsd:string ;
     schema:WebSite "http://www.ggzingeest.nl"^^xsd:string ;
     schema:postalCode "1081JC"^^xsd:string ;
-    geo:hasGeometry g13set:ggz_ingeest_poliklinieken_48599F8BCD05D43E9geo ;
+    geo:hasGeometry g13set:ggz_ingeest_poliklinieken_4A13A4B61C96748D9geo ;
     rdfs:seeAlso "http://www.ggzingeest.nl"^^xsd:string ;
     wgs:lat "52.333792887622"^^xsd:float ;
     wgs:long "4.85866599196468"^^xsd:float ;
     vcard:hasAddress "Amstelveenseweg 589"^^xsd:string ;
     vcard:hasPostalCode "1081JC"^^xsd:string .
 
-g13set:ggz_ingeest_poliklinieken_59FED3F8B6A65418B a g13vocab:instantie ;
+g13set:ggz_ingeest_poliklinieken_5D4DFC854D2E44021 a g13vocab:instantie ;
     rdfs:label "GGZ inGeest Poliklinieken"^^xsd:string ;
     dbo:PostalCode "1081HL"^^xsd:string ;
     dbo:Website "http://www.ggzingeest.nl"^^xsd:string ;
@@ -310,14 +310,14 @@ g13set:ggz_ingeest_poliklinieken_59FED3F8B6A65418B a g13vocab:instantie ;
     schema:PostalAddress "Arent Janszoon Ernststraat 1187"^^xsd:string ;
     schema:WebSite "http://www.ggzingeest.nl"^^xsd:string ;
     schema:postalCode "1081HL"^^xsd:string ;
-    geo:hasGeometry g13set:ggz_ingeest_poliklinieken_59FED3F8B6A65418Bgeo ;
+    geo:hasGeometry g13set:ggz_ingeest_poliklinieken_5D4DFC854D2E44021geo ;
     rdfs:seeAlso "http://www.ggzingeest.nl"^^xsd:string ;
     wgs:lat "52.3317979058113"^^xsd:float ;
     wgs:long "4.86480752128682"^^xsd:float ;
     vcard:hasAddress "Arent Janszoon Ernststraat 1187"^^xsd:string ;
     vcard:hasPostalCode "1081HL"^^xsd:string .
 
-g13set:hiv_vereniging_nederland6F8564097EA24989 a g13vocab:instantie ;
+g13set:hiv_vereniging_nederlandEBD0F48677544314 a g13vocab:instantie ;
     rdfs:label "Hiv Vereniging Nederland"^^xsd:string ;
     dbo:PostalCode "1054CX"^^xsd:string ;
     dbo:Website "http://www.hivnet.org"^^xsd:string ;
@@ -330,14 +330,14 @@ g13set:hiv_vereniging_nederland6F8564097EA24989 a g13vocab:instantie ;
     schema:PostalAddress "Eerste Helmersstraat 17"^^xsd:string ;
     schema:WebSite "http://www.hivnet.org"^^xsd:string ;
     schema:postalCode "1054CX"^^xsd:string ;
-    geo:hasGeometry g13set:hiv_vereniging_nederland6F8564097EA24989geo ;
+    geo:hasGeometry g13set:hiv_vereniging_nederlandEBD0F48677544314geo ;
     rdfs:seeAlso "http://www.hivnet.org"^^xsd:string ;
     wgs:lat "52.3639203161796"^^xsd:float ;
     wgs:long "4.87720230168246"^^xsd:float ;
     vcard:hasAddress "Eerste Helmersstraat 17"^^xsd:string ;
     vcard:hasPostalCode "1054CX"^^xsd:string .
 
-g13set:homogroep_buitenveldert7CCF99A1AC9F4593 a g13vocab:instantie ;
+g13set:homogroep_buitenveldertE11D8284B3744201 a g13vocab:instantie ;
     rdfs:label "Homogroep Buitenveldert"^^xsd:string ;
     dbo:PostalCode "1082LP"^^xsd:string ;
     dbo:Website "http://homogroep.blogspot.com"^^xsd:string ;
@@ -349,14 +349,14 @@ g13set:homogroep_buitenveldert7CCF99A1AC9F4593 a g13vocab:instantie ;
     schema:PostalAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
     schema:WebSite "http://homogroep.blogspot.com"^^xsd:string ;
     schema:postalCode "1082LP"^^xsd:string ;
-    geo:hasGeometry g13set:homogroep_buitenveldert7CCF99A1AC9F4593geo ;
+    geo:hasGeometry g13set:homogroep_buitenveldertE11D8284B3744201geo ;
     rdfs:seeAlso "http://homogroep.blogspot.com"^^xsd:string ;
     wgs:lat "52.3323147607255"^^xsd:float ;
     wgs:long "4.87822550674615"^^xsd:float ;
     vcard:hasAddress "Arent Janszoon Ernststraat 112"^^xsd:string ;
     vcard:hasPostalCode "1082LP"^^xsd:string .
 
-g13set:huisarts_aan_de_prinsengracht_2846D0A839CD147A2 a g13vocab:instantie ;
+g13set:huisarts_aan_de_prinsengracht_2D78AC8DF537D4D03 a g13vocab:instantie ;
     rdfs:label "Huisarts aan de Prinsengracht"^^xsd:string ;
     dbo:PostalCode "1017LD"^^xsd:string ;
     dbo:Website "http://www.huisartsaandeprinsengracht.nl"^^xsd:string ;
@@ -368,14 +368,14 @@ g13set:huisarts_aan_de_prinsengracht_2846D0A839CD147A2 a g13vocab:instantie ;
     schema:PostalAddress "Prinsengracht 762"^^xsd:string ;
     schema:WebSite "http://www.huisartsaandeprinsengracht.nl"^^xsd:string ;
     schema:postalCode "1017LD"^^xsd:string ;
-    geo:hasGeometry g13set:huisarts_aan_de_prinsengracht_2846D0A839CD147A2geo ;
+    geo:hasGeometry g13set:huisarts_aan_de_prinsengracht_2D78AC8DF537D4D03geo ;
     rdfs:seeAlso "http://www.huisartsaandeprinsengracht.nl"^^xsd:string ;
     wgs:lat "52.3615235365628"^^xsd:float ;
     wgs:long "4.89704886910981"^^xsd:float ;
     vcard:hasAddress "Prinsengracht 762"^^xsd:string ;
     vcard:hasPostalCode "1017LD"^^xsd:string .
 
-g13set:huisarts_amsterdam_oostA0F8B3FA10B047D1 a g13vocab:instantie ;
+g13set:huisarts_amsterdam_oostE4F66DAFDDD045E3 a g13vocab:instantie ;
     rdfs:label "Huisarts Amsterdam Oost"^^xsd:string ;
     dbo:PostalCode "1091TW"^^xsd:string ;
     dbo:Website "http://www.huisartsamsterdamoost.nl"^^xsd:string ;
@@ -387,14 +387,14 @@ g13set:huisarts_amsterdam_oostA0F8B3FA10B047D1 a g13vocab:instantie ;
     schema:PostalAddress "Vrolikstraat 191"^^xsd:string ;
     schema:WebSite "http://www.huisartsamsterdamoost.nl"^^xsd:string ;
     schema:postalCode "1091TW"^^xsd:string ;
-    geo:hasGeometry g13set:huisarts_amsterdam_oostA0F8B3FA10B047D1geo ;
+    geo:hasGeometry g13set:huisarts_amsterdam_oostE4F66DAFDDD045E3geo ;
     rdfs:seeAlso "http://www.huisartsamsterdamoost.nl"^^xsd:string ;
     wgs:lat "52.3552899971377"^^xsd:float ;
     wgs:long "4.91426234999649"^^xsd:float ;
     vcard:hasAddress "Vrolikstraat 191"^^xsd:string ;
     vcard:hasPostalCode "1091TW"^^xsd:string .
 
-g13set:huisartsen_vrolikstraat_1ABB96DB645064A0E a g13vocab:instantie ;
+g13set:huisartsen_vrolikstraat_14ED1063E9BE54B01 a g13vocab:instantie ;
     rdfs:label "Huisartsen Vrolikstraat"^^xsd:string ;
     dbo:PostalCode "1091TW"^^xsd:string ;
     dbo:Website "http://www.huisartsenvrolikstraat.nl"^^xsd:string ;
@@ -406,14 +406,14 @@ g13set:huisartsen_vrolikstraat_1ABB96DB645064A0E a g13vocab:instantie ;
     schema:PostalAddress "Vrolikstraat 191"^^xsd:string ;
     schema:WebSite "http://www.huisartsenvrolikstraat.nl"^^xsd:string ;
     schema:postalCode "1091TW"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsen_vrolikstraat_1ABB96DB645064A0Egeo ;
+    geo:hasGeometry g13set:huisartsen_vrolikstraat_14ED1063E9BE54B01geo ;
     rdfs:seeAlso "http://www.huisartsenvrolikstraat.nl"^^xsd:string ;
     wgs:lat "52.3552899971377"^^xsd:float ;
     wgs:long "4.91426234999649"^^xsd:float ;
     vcard:hasAddress "Vrolikstraat 191"^^xsd:string ;
     vcard:hasPostalCode "1091TW"^^xsd:string .
 
-g13set:huisartsenpraktijk_bos_en_lommer9A98A7C61FBE4ACF a g13vocab:instantie ;
+g13set:huisartsenpraktijk_bos_en_lommer590B094D2E9A4BD6 a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Bos en Lommer"^^xsd:string ;
     dbo:PostalCode "1055AD"^^xsd:string ;
     dbo:Website "http://www.hpbl.nl"^^xsd:string ;
@@ -425,14 +425,14 @@ g13set:huisartsenpraktijk_bos_en_lommer9A98A7C61FBE4ACF a g13vocab:instantie ;
     schema:PostalAddress "Bos en Lommerplein 73"^^xsd:string ;
     schema:WebSite "http://www.hpbl.nl"^^xsd:string ;
     schema:postalCode "1055AD"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_bos_en_lommer9A98A7C61FBE4ACFgeo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_bos_en_lommer590B094D2E9A4BD6geo ;
     rdfs:seeAlso "http://www.hpbl.nl"^^xsd:string ;
     wgs:lat "52.377586482582"^^xsd:float ;
     wgs:long "4.84589593848699"^^xsd:float ;
     vcard:hasAddress "Bos en Lommerplein 73"^^xsd:string ;
     vcard:hasPostalCode "1055AD"^^xsd:string .
 
-g13set:huisartsenpraktijk_buijs_en_windhausen_199734BED7B9C46A2 a g13vocab:instantie ;
+g13set:huisartsenpraktijk_buijs_en_windhausen_1825ECF53E7B543C9 a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Buijs en Windhausen"^^xsd:string ;
     dbo:PostalCode "1025SP"^^xsd:string ;
     dbo:address "Loenermark 162"^^xsd:string ;
@@ -441,13 +441,13 @@ g13set:huisartsenpraktijk_buijs_en_windhausen_199734BED7B9C46A2 a g13vocab:insta
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Loenermark 162"^^xsd:string ;
     schema:postalCode "1025SP"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_buijs_en_windhausen_199734BED7B9C46A2geo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_buijs_en_windhausen_1825ECF53E7B543C9geo ;
     wgs:lat "52.3983259763612"^^xsd:float ;
     wgs:long "4.93022995325319"^^xsd:float ;
     vcard:hasAddress "Loenermark 162"^^xsd:string ;
     vcard:hasPostalCode "1025SP"^^xsd:string .
 
-g13set:huisartsenpraktijk_grooff_1CC9F6030310E4557 a g13vocab:instantie ;
+g13set:huisartsenpraktijk_grooff_178660660E8CA4365 a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Grooff"^^xsd:string ;
     dbo:PostalCode "1018ZD"^^xsd:string ;
     dbo:Website "http://www.huisartsgrooff.nl"^^xsd:string ;
@@ -459,14 +459,14 @@ g13set:huisartsenpraktijk_grooff_1CC9F6030310E4557 a g13vocab:instantie ;
     schema:PostalAddress "Laagte Kadijk 146"^^xsd:string ;
     schema:WebSite "http://www.huisartsgrooff.nl"^^xsd:string ;
     schema:postalCode "1018ZD"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_grooff_1CC9F6030310E4557geo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_grooff_178660660E8CA4365geo ;
     rdfs:seeAlso "http://www.huisartsgrooff.nl"^^xsd:string ;
     wgs:lat "52.3689829211309"^^xsd:float ;
     wgs:long "4.91463034815041"^^xsd:float ;
     vcard:hasAddress "Laagte Kadijk 146"^^xsd:string ;
     vcard:hasPostalCode "1018ZD"^^xsd:string .
 
-g13set:huisartsenpraktijk_heijnen_en_de_meij_184ACCC1432C9439C a g13vocab:instantie ;
+g13set:huisartsenpraktijk_heijnen_en_de_meij_1BA15C08BC7FF45A2 a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Heijnen en De Meij"^^xsd:string ;
     dbo:PostalCode "1012ES"^^xsd:string ;
     dbo:Website "https://heijnendemeij.zorgrotonde.net/"^^xsd:string ;
@@ -478,14 +478,14 @@ g13set:huisartsenpraktijk_heijnen_en_de_meij_184ACCC1432C9439C a g13vocab:instan
     schema:PostalAddress "Oudezijds Voorburgwal 151"^^xsd:string ;
     schema:WebSite "https://heijnendemeij.zorgrotonde.net/"^^xsd:string ;
     schema:postalCode "1012ES"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_heijnen_en_de_meij_184ACCC1432C9439Cgeo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_heijnen_en_de_meij_1BA15C08BC7FF45A2geo ;
     rdfs:seeAlso "https://heijnendemeij.zorgrotonde.net/"^^xsd:string ;
     wgs:lat "52.3722807335474"^^xsd:float ;
     wgs:long "4.8967831614502"^^xsd:float ;
     vcard:hasAddress "Oudezijds Voorburgwal 151"^^xsd:string ;
     vcard:hasPostalCode "1012ES"^^xsd:string .
 
-g13set:huisartsenpraktijk_jonker_en_koetsier_11C39180F60FD4725 a g13vocab:instantie ;
+g13set:huisartsenpraktijk_jonker_en_koetsier_1B2817D1262FE48AC a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Jonker en Koetsier"^^xsd:string ;
     dbo:PostalCode "1024VL"^^xsd:string ;
     dbo:Website "http://www.jonkerkoetsier.nl"^^xsd:string ;
@@ -497,14 +497,14 @@ g13set:huisartsenpraktijk_jonker_en_koetsier_11C39180F60FD4725 a g13vocab:instan
     schema:PostalAddress "Beverwijkstraat 9"^^xsd:string ;
     schema:WebSite "http://www.jonkerkoetsier.nl"^^xsd:string ;
     schema:postalCode "1024VL"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_jonker_en_koetsier_11C39180F60FD4725geo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_jonker_en_koetsier_1B2817D1262FE48ACgeo ;
     rdfs:seeAlso "http://www.jonkerkoetsier.nl"^^xsd:string ;
     wgs:lat "52.3936400584394"^^xsd:float ;
     wgs:long "4.9554494917273"^^xsd:float ;
     vcard:hasAddress "Beverwijkstraat 9"^^xsd:string ;
     vcard:hasPostalCode "1024VL"^^xsd:string .
 
-g13set:huisartsenpraktijk_oud_2C3E8AC3527B64D7A a g13vocab:instantie ;
+g13set:huisartsenpraktijk_oud_2F6A5A968F2A44602 a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Oud"^^xsd:string ;
     dbo:PostalCode "1078NG"^^xsd:string ;
     dbo:Website "http://www.huisartsoud.com"^^xsd:string ;
@@ -516,14 +516,14 @@ g13set:huisartsenpraktijk_oud_2C3E8AC3527B64D7A a g13vocab:instantie ;
     schema:PostalAddress "Merwedeplein 52"^^xsd:string ;
     schema:WebSite "http://www.huisartsoud.com"^^xsd:string ;
     schema:postalCode "1078NG"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_oud_2C3E8AC3527B64D7Ageo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_oud_2F6A5A968F2A44602geo ;
     rdfs:seeAlso "http://www.huisartsoud.com"^^xsd:string ;
     wgs:lat "52.3460417358658"^^xsd:float ;
     wgs:long "4.90021364940399"^^xsd:float ;
     vcard:hasAddress "Merwedeplein 52"^^xsd:string ;
     vcard:hasPostalCode "1078NG"^^xsd:string .
 
-g13set:huisartsenpraktijk_rustenburgerstraat_6CC5924CE13AB4C24 a g13vocab:instantie ;
+g13set:huisartsenpraktijk_rustenburgerstraat_60C2FF193BE9F40A9 a g13vocab:instantie ;
     rdfs:label "Huisartsenpraktijk Rustenburgerstraat"^^xsd:string ;
     dbo:PostalCode "1073GJ"^^xsd:string ;
     dbo:Website "http://www.huisartsenrustenburg.nl"^^xsd:string ;
@@ -535,14 +535,14 @@ g13set:huisartsenpraktijk_rustenburgerstraat_6CC5924CE13AB4C24 a g13vocab:instan
     schema:PostalAddress "Rustenburgerstraat 144"^^xsd:string ;
     schema:WebSite "http://www.huisartsenrustenburg.nl"^^xsd:string ;
     schema:postalCode "1073GJ"^^xsd:string ;
-    geo:hasGeometry g13set:huisartsenpraktijk_rustenburgerstraat_6CC5924CE13AB4C24geo ;
+    geo:hasGeometry g13set:huisartsenpraktijk_rustenburgerstraat_60C2FF193BE9F40A9geo ;
     rdfs:seeAlso "http://www.huisartsenrustenburg.nl"^^xsd:string ;
     wgs:lat "52.3528000954048"^^xsd:float ;
     wgs:long "4.9001101393223"^^xsd:float ;
     vcard:hasAddress "Rustenburgerstraat 144"^^xsd:string ;
     vcard:hasPostalCode "1073GJ"^^xsd:string .
 
-g13set:hypnotherapiepraktijk_wim_kijne612C8BB9E31A4651 a g13vocab:instantie ;
+g13set:hypnotherapiepraktijk_wim_kijne8320DB493D0948B6 a g13vocab:instantie ;
     rdfs:label "Hypnotherapiepraktijk Wim Kijne"^^xsd:string ;
     dbo:PostalCode "1053KP"^^xsd:string ;
     dbo:Website "http://www.hemi-medi.nl"^^xsd:string ;
@@ -554,14 +554,14 @@ g13set:hypnotherapiepraktijk_wim_kijne612C8BB9E31A4651 a g13vocab:instantie ;
     schema:PostalAddress "Bilderdijkstraat 165"^^xsd:string ;
     schema:WebSite "http://www.hemi-medi.nl"^^xsd:string ;
     schema:postalCode "1053KP"^^xsd:string ;
-    geo:hasGeometry g13set:hypnotherapiepraktijk_wim_kijne612C8BB9E31A4651geo ;
+    geo:hasGeometry g13set:hypnotherapiepraktijk_wim_kijne8320DB493D0948B6geo ;
     rdfs:seeAlso "http://www.hemi-medi.nl"^^xsd:string ;
     wgs:lat "52.3678972812344"^^xsd:float ;
     wgs:long "4.87198820939063"^^xsd:float ;
     vcard:hasAddress "Bilderdijkstraat 165"^^xsd:string ;
     vcard:hasPostalCode "1053KP"^^xsd:string .
 
-g13set:hypnotherapiepraktijk_wim_kijne_179D51A3FD1974860 a g13vocab:instantie ;
+g13set:hypnotherapiepraktijk_wim_kijne_11CD8016456444E75 a g13vocab:instantie ;
     rdfs:label "Hypnotherapiepraktijk Wim Kijne"^^xsd:string ;
     dbo:PostalCode "1055ZH"^^xsd:string ;
     dbo:Website "http://www.hemi-medi.nl"^^xsd:string ;
@@ -573,14 +573,14 @@ g13set:hypnotherapiepraktijk_wim_kijne_179D51A3FD1974860 a g13vocab:instantie ;
     schema:PostalAddress "Solebaystraat 3"^^xsd:string ;
     schema:WebSite "http://www.hemi-medi.nl"^^xsd:string ;
     schema:postalCode "1055ZH"^^xsd:string ;
-    geo:hasGeometry g13set:hypnotherapiepraktijk_wim_kijne_179D51A3FD1974860geo ;
+    geo:hasGeometry g13set:hypnotherapiepraktijk_wim_kijne_11CD8016456444E75geo ;
     rdfs:seeAlso "http://www.hemi-medi.nl"^^xsd:string ;
     wgs:lat "52.3826815525289"^^xsd:float ;
     wgs:long "4.85360358674513"^^xsd:float ;
     vcard:hasAddress "Solebaystraat 3"^^xsd:string ;
     vcard:hasPostalCode "1055ZH"^^xsd:string .
 
-g13set:in_transit_coaching_zingevingFC2D0A467B30461C a g13vocab:instantie ;
+g13set:in_transit_coaching_zingeving632E1C29A55A489E a g13vocab:instantie ;
     rdfs:label "In Transit, Coaching & Zingeving"^^xsd:string ;
     dbo:PostalCode "1059GL"^^xsd:string ;
     dbo:Website "http://www.intransitcoaching.nl"^^xsd:string ;
@@ -593,14 +593,14 @@ g13set:in_transit_coaching_zingevingFC2D0A467B30461C a g13vocab:instantie ;
     schema:PostalAddress "Vlaardingenlaan 9e"^^xsd:string ;
     schema:WebSite "http://www.intransitcoaching.nl"^^xsd:string ;
     schema:postalCode "1059GL"^^xsd:string ;
-    geo:hasGeometry g13set:in_transit_coaching_zingevingFC2D0A467B30461Cgeo ;
+    geo:hasGeometry g13set:in_transit_coaching_zingeving632E1C29A55A489Egeo ;
     rdfs:seeAlso "http://www.intransitcoaching.nl"^^xsd:string ;
     wgs:lat "52.3463606953857"^^xsd:float ;
     wgs:long "4.8434296611728"^^xsd:float ;
     vcard:hasAddress "Vlaardingenlaan 9e"^^xsd:string ;
     vcard:hasPostalCode "1059GL"^^xsd:string .
 
-g13set:la_rieshuis_20FD314DEF0EC439C a g13vocab:instantie ;
+g13set:la_rieshuis_2AFB798091F3642A4 a g13vocab:instantie ;
     rdfs:label "LA Rieshuis"^^xsd:string ;
     dbo:PostalCode "1013JR"^^xsd:string ;
     dbo:Website "http://www.amstelring.nl"^^xsd:string ;
@@ -612,14 +612,14 @@ g13set:la_rieshuis_20FD314DEF0EC439C a g13vocab:instantie ;
     schema:PostalAddress "Vinkenstraat 175"^^xsd:string ;
     schema:WebSite "http://www.amstelring.nl"^^xsd:string ;
     schema:postalCode "1013JR"^^xsd:string ;
-    geo:hasGeometry g13set:la_rieshuis_20FD314DEF0EC439Cgeo ;
+    geo:hasGeometry g13set:la_rieshuis_2AFB798091F3642A4geo ;
     rdfs:seeAlso "http://www.amstelring.nl"^^xsd:string ;
     wgs:lat "52.3835979652873"^^xsd:float ;
     wgs:long "4.88433471579719"^^xsd:float ;
     vcard:hasAddress "Vinkenstraat 175"^^xsd:string ;
     vcard:hasPostalCode "1013JR"^^xsd:string .
 
-g13set:medisch_centrum_czaar_peter_243D666EDB7894557 a g13vocab:instantie ;
+g13set:medisch_centrum_czaar_peter_2D49EDDA6030D487D a g13vocab:instantie ;
     rdfs:label "Medisch Centrum Czaar Peter"^^xsd:string ;
     dbo:PostalCode "1018PR"^^xsd:string ;
     dbo:Website "http://www.medischcentrumczaarpeter.nl"^^xsd:string ;
@@ -631,14 +631,14 @@ g13set:medisch_centrum_czaar_peter_243D666EDB7894557 a g13vocab:instantie ;
     schema:PostalAddress "Czaar Peterstraat 8"^^xsd:string ;
     schema:WebSite "http://www.medischcentrumczaarpeter.nl"^^xsd:string ;
     schema:postalCode "1018PR"^^xsd:string ;
-    geo:hasGeometry g13set:medisch_centrum_czaar_peter_243D666EDB7894557geo ;
+    geo:hasGeometry g13set:medisch_centrum_czaar_peter_2D49EDDA6030D487Dgeo ;
     rdfs:seeAlso "http://www.medischcentrumczaarpeter.nl"^^xsd:string ;
     wgs:lat "52.3684477273567"^^xsd:float ;
     wgs:long "4.92707256261962"^^xsd:float ;
     vcard:hasAddress "Czaar Peterstraat 8"^^xsd:string ;
     vcard:hasPostalCode "1018PR"^^xsd:string .
 
-g13set:nederlandse_stichting_gestalt_2F91535FB3E484DAA a g13vocab:instantie ;
+g13set:nederlandse_stichting_gestalt_252A427217E0E49D8 a g13vocab:instantie ;
     rdfs:label "Nederlandse Stichting Gestalt"^^xsd:string ;
     dbo:PostalCode "1012AL"^^xsd:string ;
     dbo:Website "http://www.nsgestalt.nl"^^xsd:string ;
@@ -650,14 +650,14 @@ g13set:nederlandse_stichting_gestalt_2F91535FB3E484DAA a g13vocab:instantie ;
     schema:PostalAddress "Oudezijds Kolk 13"^^xsd:string ;
     schema:WebSite "http://www.nsgestalt.nl"^^xsd:string ;
     schema:postalCode "1012AL"^^xsd:string ;
-    geo:hasGeometry g13set:nederlandse_stichting_gestalt_2F91535FB3E484DAAgeo ;
+    geo:hasGeometry g13set:nederlandse_stichting_gestalt_252A427217E0E49D8geo ;
     rdfs:seeAlso "http://www.nsgestalt.nl"^^xsd:string ;
     wgs:lat "52.3759204762515"^^xsd:float ;
     wgs:long "4.90107514133759"^^xsd:float ;
     vcard:hasAddress "Oudezijds Kolk 13"^^xsd:string ;
     vcard:hasPostalCode "1012AL"^^xsd:string .
 
-g13set:patientenorganisatie_transvisie64AA06460E4F4B99 a g13vocab:instantie ;
+g13set:patientenorganisatie_transvisie4CACDD7B0E4F48C8 a g13vocab:instantie ;
     rdfs:label "Patiëntenorganisatie Transvisie"^^xsd:string ;
     dbo:PostalCode "1017XJ"^^xsd:string ;
     dbo:Website "http://www.transvisie.nl"^^xsd:string ;
@@ -670,14 +670,14 @@ g13set:patientenorganisatie_transvisie64AA06460E4F4B99 a g13vocab:instantie ;
     schema:PostalAddress "Weteringschans 259"^^xsd:string ;
     schema:WebSite "http://www.transvisie.nl"^^xsd:string ;
     schema:postalCode "1017XJ"^^xsd:string ;
-    geo:hasGeometry g13set:patientenorganisatie_transvisie64AA06460E4F4B99geo ;
+    geo:hasGeometry g13set:patientenorganisatie_transvisie4CACDD7B0E4F48C8geo ;
     rdfs:seeAlso "http://www.transvisie.nl"^^xsd:string ;
     wgs:lat "52.3595535507462"^^xsd:float ;
     wgs:long "4.89664490710315"^^xsd:float ;
     vcard:hasAddress "Weteringschans 259"^^xsd:string ;
     vcard:hasPostalCode "1017XJ"^^xsd:string .
 
-g13set:persoonsgerichte_coaching_en_advies_marten_bosD45AC77B34174600 a g13vocab:instantie ;
+g13set:persoonsgerichte_coaching_en_advies_marten_bos183B54852CAB42A8 a g13vocab:instantie ;
     rdfs:label "Persoonsgerichte coaching en advies Marten Bos"^^xsd:string ;
     dbo:PostalCode "1019WJ"^^xsd:string ;
     dbo:Website "http://www.martenbos.nl"^^xsd:string ;
@@ -689,14 +689,14 @@ g13set:persoonsgerichte_coaching_en_advies_marten_bosD45AC77B34174600 a g13vocab
     schema:PostalAddress "R.J.H. Fortuynstraat 27"^^xsd:string ;
     schema:WebSite "http://www.martenbos.nl"^^xsd:string ;
     schema:postalCode "1019WJ"^^xsd:string ;
-    geo:hasGeometry g13set:persoonsgerichte_coaching_en_advies_marten_bosD45AC77B34174600geo ;
+    geo:hasGeometry g13set:persoonsgerichte_coaching_en_advies_marten_bos183B54852CAB42A8geo ;
     rdfs:seeAlso "http://www.martenbos.nl"^^xsd:string ;
     wgs:lat "52.3719536421817"^^xsd:float ;
     wgs:long "4.94615497433767"^^xsd:float ;
     vcard:hasAddress "R.J.H. Fortuynstraat 27"^^xsd:string ;
     vcard:hasPostalCode "1019WJ"^^xsd:string .
 
-g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling470E95D0F441480E a g13vocab:instantie ;
+g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling31830861299C4FDC a g13vocab:instantie ;
     rdfs:label "Praktijk voor moderne hypnotheraptie en counseling"^^xsd:string ;
     dbo:PostalCode "1055GK"^^xsd:string ;
     dbo:Website "http://www.modernehypnotherapie.nl"^^xsd:string ;
@@ -708,14 +708,14 @@ g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling470E95D0F441480E a g13v
     schema:PostalAddress "Egidiusstraat 3"^^xsd:string ;
     schema:WebSite "http://www.modernehypnotherapie.nl"^^xsd:string ;
     schema:postalCode "1055GK"^^xsd:string ;
-    geo:hasGeometry g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling470E95D0F441480Egeo ;
+    geo:hasGeometry g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling31830861299C4FDCgeo ;
     rdfs:seeAlso "http://www.modernehypnotherapie.nl"^^xsd:string ;
     wgs:lat "52.3769524467572"^^xsd:float ;
     wgs:long "4.85273262134446"^^xsd:float ;
     vcard:hasAddress "Egidiusstraat 3"^^xsd:string ;
     vcard:hasPostalCode "1055GK"^^xsd:string .
 
-g13set:praktijk_voor_psychotherapie_borgerdijn_1B3324B3F62044EE5 a g13vocab:instantie ;
+g13set:praktijk_voor_psychotherapie_borgerdijn_1096145C501E64130 a g13vocab:instantie ;
     rdfs:label "Praktijk voor psychotherapie Borgerdijn"^^xsd:string ;
     dbo:PostalCode "1066SC"^^xsd:string ;
     dbo:Website "http://www.nickborgerdijn.nl"^^xsd:string ;
@@ -727,14 +727,14 @@ g13set:praktijk_voor_psychotherapie_borgerdijn_1B3324B3F62044EE5 a g13vocab:inst
     schema:PostalAddress "Belgi&#235;plein 62"^^xsd:string ;
     schema:WebSite "http://www.nickborgerdijn.nl"^^xsd:string ;
     schema:postalCode "1066SC"^^xsd:string ;
-    geo:hasGeometry g13set:praktijk_voor_psychotherapie_borgerdijn_1B3324B3F62044EE5geo ;
+    geo:hasGeometry g13set:praktijk_voor_psychotherapie_borgerdijn_1096145C501E64130geo ;
     rdfs:seeAlso "http://www.nickborgerdijn.nl"^^xsd:string ;
     wgs:lat "52.3457348452527"^^xsd:float ;
     wgs:long "4.81181142600341"^^xsd:float ;
     vcard:hasAddress "Belgi&#235;plein 62"^^xsd:string ;
     vcard:hasPostalCode "1066SC"^^xsd:string .
 
-g13set:praktijk_voor_therapie_en_coaching_prisma_2826F5A64ED85434A a g13vocab:instantie ;
+g13set:praktijk_voor_therapie_en_coaching_prisma_2A9C5C5FE25214FD5 a g13vocab:instantie ;
     rdfs:label "Praktijk voor therapie en coaching Prisma"^^xsd:string ;
     dbo:PostalCode "1075EG"^^xsd:string ;
     dbo:Website "http://www.prisma-praktijk.nl"^^xsd:string ;
@@ -746,14 +746,14 @@ g13set:praktijk_voor_therapie_en_coaching_prisma_2826F5A64ED85434A a g13vocab:in
     schema:PostalAddress "Koninginneweg 162"^^xsd:string ;
     schema:WebSite "http://www.prisma-praktijk.nl"^^xsd:string ;
     schema:postalCode "1075EG"^^xsd:string ;
-    geo:hasGeometry g13set:praktijk_voor_therapie_en_coaching_prisma_2826F5A64ED85434Ageo ;
+    geo:hasGeometry g13set:praktijk_voor_therapie_en_coaching_prisma_2A9C5C5FE25214FD5geo ;
     rdfs:seeAlso "http://www.prisma-praktijk.nl"^^xsd:string ;
     wgs:lat "52.3526753239009"^^xsd:float ;
     wgs:long "4.86048135883526"^^xsd:float ;
     vcard:hasAddress "Koninginneweg 162"^^xsd:string ;
     vcard:hasPostalCode "1075EG"^^xsd:string .
 
-g13set:ps_praktijk_seksuologieD484311A48234278 a g13vocab:instantie ;
+g13set:ps_praktijk_seksuologie9D85C2D44EE8482B a g13vocab:instantie ;
     rdfs:label "PS Praktijk Seksuologie"^^xsd:string ;
     dbo:PostalCode "1054SC"^^xsd:string ;
     dbo:Website "http://www.seksuologen.nl"^^xsd:string ;
@@ -765,14 +765,14 @@ g13set:ps_praktijk_seksuologieD484311A48234278 a g13vocab:instantie ;
     schema:PostalAddress "WG-plein 172"^^xsd:string ;
     schema:WebSite "http://www.seksuologen.nl"^^xsd:string ;
     schema:postalCode "1054SC"^^xsd:string ;
-    geo:hasGeometry g13set:ps_praktijk_seksuologieD484311A48234278geo ;
+    geo:hasGeometry g13set:ps_praktijk_seksuologie9D85C2D44EE8482Bgeo ;
     rdfs:seeAlso "http://www.seksuologen.nl"^^xsd:string ;
     wgs:lat "52.3642868564831"^^xsd:float ;
     wgs:long "4.87053260461939"^^xsd:float ;
     vcard:hasAddress "WG-plein 172"^^xsd:string ;
     vcard:hasPostalCode "1054SC"^^xsd:string .
 
-g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_2473D0880BD30474D a g13vocab:instantie ;
+g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_23088D9919D814C42 a g13vocab:instantie ;
     rdfs:label "Psychiatrie- en psychotherapiepraktijk Hettinga"^^xsd:string ;
     dbo:PostalCode "1017ED"^^xsd:string ;
     dbo:address "Keizersgracht 810"^^xsd:string ;
@@ -781,13 +781,13 @@ g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_2473D0880BD30474D a g13voc
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Keizersgracht 810"^^xsd:string ;
     schema:postalCode "1017ED"^^xsd:string ;
-    geo:hasGeometry g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_2473D0880BD30474Dgeo ;
+    geo:hasGeometry g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_23088D9919D814C42geo ;
     wgs:lat "52.3639826820487"^^xsd:float ;
     wgs:long "4.90055995720671"^^xsd:float ;
     vcard:hasAddress "Keizersgracht 810"^^xsd:string ;
     vcard:hasPostalCode "1017ED"^^xsd:string .
 
-g13set:psychiatriepraktijk_prins_2697957C6F7E64FA3 a g13vocab:instantie ;
+g13set:psychiatriepraktijk_prins_23CE64187116C417D a g13vocab:instantie ;
     rdfs:label "Psychiatriepraktijk Prins"^^xsd:string ;
     dbo:PostalCode "1018HD"^^xsd:string ;
     dbo:address "Spinozastraat 3"^^xsd:string ;
@@ -796,13 +796,13 @@ g13set:psychiatriepraktijk_prins_2697957C6F7E64FA3 a g13vocab:instantie ;
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Spinozastraat 3"^^xsd:string ;
     schema:postalCode "1018HD"^^xsd:string ;
-    geo:hasGeometry g13set:psychiatriepraktijk_prins_2697957C6F7E64FA3geo ;
+    geo:hasGeometry g13set:psychiatriepraktijk_prins_23CE64187116C417Dgeo ;
     wgs:lat "52.3609347825002"^^xsd:float ;
     wgs:long "4.90912278001029"^^xsd:float ;
     vcard:hasAddress "Spinozastraat 3"^^xsd:string ;
     vcard:hasPostalCode "1018HD"^^xsd:string .
 
-g13set:psychiatriepraktijk_stortelder_1FC8FD73F96AD4281 a g13vocab:instantie ;
+g13set:psychiatriepraktijk_stortelder_174713C6A5FD545E6 a g13vocab:instantie ;
     rdfs:label "Psychiatriepraktijk Stortelder"^^xsd:string ;
     dbo:PostalCode "1017DS"^^xsd:string ;
     dbo:Website "http://www.psychiaterstortelder.nl"^^xsd:string ;
@@ -814,14 +814,14 @@ g13set:psychiatriepraktijk_stortelder_1FC8FD73F96AD4281 a g13vocab:instantie ;
     schema:PostalAddress "Keizersgracht 615"^^xsd:string ;
     schema:WebSite "http://www.psychiaterstortelder.nl"^^xsd:string ;
     schema:postalCode "1017DS"^^xsd:string ;
-    geo:hasGeometry g13set:psychiatriepraktijk_stortelder_1FC8FD73F96AD4281geo ;
+    geo:hasGeometry g13set:psychiatriepraktijk_stortelder_174713C6A5FD545E6geo ;
     rdfs:seeAlso "http://www.psychiaterstortelder.nl"^^xsd:string ;
     wgs:lat "52.3639448862348"^^xsd:float ;
     wgs:long "4.8936013189139"^^xsd:float ;
     vcard:hasAddress "Keizersgracht 615"^^xsd:string ;
     vcard:hasPostalCode "1017DS"^^xsd:string .
 
-g13set:psychiatriepraktijk_van_der_plaats_1CED62EB1A16949F1 a g13vocab:instantie ;
+g13set:psychiatriepraktijk_van_der_plaats_1E2657FB69D6C4176 a g13vocab:instantie ;
     rdfs:label "Psychiatriepraktijk Van der Plaats"^^xsd:string ;
     dbo:PostalCode "1075EP"^^xsd:string ;
     dbo:address "Valeriusstraat 103"^^xsd:string ;
@@ -830,13 +830,13 @@ g13set:psychiatriepraktijk_van_der_plaats_1CED62EB1A16949F1 a g13vocab:instantie
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Valeriusstraat 103"^^xsd:string ;
     schema:postalCode "1075EP"^^xsd:string ;
-    geo:hasGeometry g13set:psychiatriepraktijk_van_der_plaats_1CED62EB1A16949F1geo ;
+    geo:hasGeometry g13set:psychiatriepraktijk_van_der_plaats_1E2657FB69D6C4176geo ;
     wgs:lat "52.3536581508939"^^xsd:float ;
     wgs:long "4.86729504562484"^^xsd:float ;
     vcard:hasAddress "Valeriusstraat 103"^^xsd:string ;
     vcard:hasPostalCode "1075EP"^^xsd:string .
 
-g13set:psychiatriepraktijk_van_ham_1B2E2CA0C0E2742B4 a g13vocab:instantie ;
+g13set:psychiatriepraktijk_van_ham_1C98C5427332F4356 a g13vocab:instantie ;
     rdfs:label "Psychiatriepraktijk Van Ham"^^xsd:string ;
     dbo:PostalCode "1017VX"^^xsd:string ;
     dbo:Website "http://www.pietheinvanham.nl"^^xsd:string ;
@@ -848,14 +848,14 @@ g13set:psychiatriepraktijk_van_ham_1B2E2CA0C0E2742B4 a g13vocab:instantie ;
     schema:PostalAddress "Maarten Jansz. Kosterstraat 13"^^xsd:string ;
     schema:WebSite "http://www.pietheinvanham.nl"^^xsd:string ;
     schema:postalCode "1017VX"^^xsd:string ;
-    geo:hasGeometry g13set:psychiatriepraktijk_van_ham_1B2E2CA0C0E2742B4geo ;
+    geo:hasGeometry g13set:psychiatriepraktijk_van_ham_1C98C5427332F4356geo ;
     rdfs:seeAlso "http://www.pietheinvanham.nl"^^xsd:string ;
     wgs:lat "52.3605729243724"^^xsd:float ;
     wgs:long "4.90191859153269"^^xsd:float ;
     vcard:hasAddress "Maarten Jansz. Kosterstraat 13"^^xsd:string ;
     vcard:hasPostalCode "1017VX"^^xsd:string .
 
-g13set:psychiatriepraktijk_wasmann_1BB1025732EA74227 a g13vocab:instantie ;
+g13set:psychiatriepraktijk_wasmann_185679577CDCD4F27 a g13vocab:instantie ;
     rdfs:label "Psychiatriepraktijk Wasmann"^^xsd:string ;
     dbo:PostalCode "1075CD"^^xsd:string ;
     dbo:Website "http://www.efjwasmann.nl"^^xsd:string ;
@@ -867,14 +867,14 @@ g13set:psychiatriepraktijk_wasmann_1BB1025732EA74227 a g13vocab:instantie ;
     schema:PostalAddress "Saxen-Weimarlaan 38"^^xsd:string ;
     schema:WebSite "http://www.efjwasmann.nl"^^xsd:string ;
     schema:postalCode "1075CD"^^xsd:string ;
-    geo:hasGeometry g13set:psychiatriepraktijk_wasmann_1BB1025732EA74227geo ;
+    geo:hasGeometry g13set:psychiatriepraktijk_wasmann_185679577CDCD4F27geo ;
     rdfs:seeAlso "http://www.efjwasmann.nl"^^xsd:string ;
     wgs:lat "52.3529374132158"^^xsd:float ;
     wgs:long "4.85677940700581"^^xsd:float ;
     vcard:hasAddress "Saxen-Weimarlaan 38"^^xsd:string ;
     vcard:hasPostalCode "1075CD"^^xsd:string .
 
-g13set:psychologenpraktijk_brainfact_1D8B84214F17F4970 a g13vocab:instantie ;
+g13set:psychologenpraktijk_brainfact_1CD9FC756FF904A76 a g13vocab:instantie ;
     rdfs:label "Psychologenpraktijk Brainfact"^^xsd:string ;
     dbo:PostalCode "1018DT"^^xsd:string ;
     dbo:Website "http://www.brainfact.nl"^^xsd:string ;
@@ -886,14 +886,14 @@ g13set:psychologenpraktijk_brainfact_1D8B84214F17F4970 a g13vocab:instantie ;
     schema:PostalAddress "Nieuwe Keizersgracht 58"^^xsd:string ;
     schema:WebSite "http://www.brainfact.nl"^^xsd:string ;
     schema:postalCode "1018DT"^^xsd:string ;
-    geo:hasGeometry g13set:psychologenpraktijk_brainfact_1D8B84214F17F4970geo ;
+    geo:hasGeometry g13set:psychologenpraktijk_brainfact_1CD9FC756FF904A76geo ;
     rdfs:seeAlso "http://www.brainfact.nl"^^xsd:string ;
     wgs:lat "52.3647818230466"^^xsd:float ;
     wgs:long "4.90476487350719"^^xsd:float ;
     vcard:hasAddress "Nieuwe Keizersgracht 58"^^xsd:string ;
     vcard:hasPostalCode "1018DT"^^xsd:string .
 
-g13set:psychologenpraktijk_maasen_22EF2B4F940CB456A a g13vocab:instantie ;
+g13set:psychologenpraktijk_maasen_20F362406745D4F6E a g13vocab:instantie ;
     rdfs:label "Psychologenpraktijk Maasen"^^xsd:string ;
     dbo:PostalCode "1016CA"^^xsd:string ;
     dbo:Website "http://www.homopsycholoog.nl"^^xsd:string ;
@@ -905,14 +905,14 @@ g13set:psychologenpraktijk_maasen_22EF2B4F940CB456A a g13vocab:instantie ;
     schema:PostalAddress "Hartenstraat 31"^^xsd:string ;
     schema:WebSite "http://www.homopsycholoog.nl"^^xsd:string ;
     schema:postalCode "1016CA"^^xsd:string ;
-    geo:hasGeometry g13set:psychologenpraktijk_maasen_22EF2B4F940CB456Ageo ;
+    geo:hasGeometry g13set:psychologenpraktijk_maasen_20F362406745D4F6Egeo ;
     rdfs:seeAlso "http://www.homopsycholoog.nl"^^xsd:string ;
     wgs:lat "52.3722518362472"^^xsd:float ;
     wgs:long "4.88559404273658"^^xsd:float ;
     vcard:hasAddress "Hartenstraat 31"^^xsd:string ;
     vcard:hasPostalCode "1016CA"^^xsd:string .
 
-g13set:psychologenpraktijk_staudenmayr_22486D45CE481405F a g13vocab:instantie ;
+g13set:psychologenpraktijk_staudenmayr_24F84A0D8A153490E a g13vocab:instantie ;
     rdfs:label "Psychologenpraktijk Staudenmayr"^^xsd:string ;
     dbo:PostalCode "1093MA"^^xsd:string ;
     dbo:Website "http://www.centrumibt.nl"^^xsd:string ;
@@ -924,14 +924,14 @@ g13set:psychologenpraktijk_staudenmayr_22486D45CE481405F a g13vocab:instantie ;
     schema:PostalAddress "Domselaerstraat 30"^^xsd:string ;
     schema:WebSite "http://www.centrumibt.nl"^^xsd:string ;
     schema:postalCode "1093MA"^^xsd:string ;
-    geo:hasGeometry g13set:psychologenpraktijk_staudenmayr_22486D45CE481405Fgeo ;
+    geo:hasGeometry g13set:psychologenpraktijk_staudenmayr_24F84A0D8A153490Egeo ;
     rdfs:seeAlso "http://www.centrumibt.nl"^^xsd:string ;
     wgs:lat "52.3595577043237"^^xsd:float ;
     wgs:long "4.92676838595457"^^xsd:float ;
     vcard:hasAddress "Domselaerstraat 30"^^xsd:string ;
     vcard:hasPostalCode "1093MA"^^xsd:string .
 
-g13set:psychologie_en_psychotherapiepraktijk_kroonen_2966C4135F5F34177 a g13vocab:instantie ;
+g13set:psychologie_en_psychotherapiepraktijk_kroonen_264C0BF73A26D42C7 a g13vocab:instantie ;
     rdfs:label "Psychologie- en psychotherapiepraktijk Kroonen"^^xsd:string ;
     dbo:PostalCode "1093VD"^^xsd:string ;
     dbo:address "Commelinstraat 216"^^xsd:string ;
@@ -940,13 +940,13 @@ g13set:psychologie_en_psychotherapiepraktijk_kroonen_2966C4135F5F34177 a g13voca
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Commelinstraat 216"^^xsd:string ;
     schema:postalCode "1093VD"^^xsd:string ;
-    geo:hasGeometry g13set:psychologie_en_psychotherapiepraktijk_kroonen_2966C4135F5F34177geo ;
+    geo:hasGeometry g13set:psychologie_en_psychotherapiepraktijk_kroonen_264C0BF73A26D42C7geo ;
     wgs:lat "52.3634737306796"^^xsd:float ;
     wgs:long "4.92609645036591"^^xsd:float ;
     vcard:hasAddress "Commelinstraat 216"^^xsd:string ;
     vcard:hasPostalCode "1093VD"^^xsd:string .
 
-g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_464F13105FB5145EC a g13vocab:instantie ;
+g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_4D915BA0FDAD44077 a g13vocab:instantie ;
     rdfs:label "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
     dbo:PostalCode "1058JB"^^xsd:string ;
     dbo:address "Jacob Marisstraat 114"^^xsd:string ;
@@ -955,13 +955,13 @@ g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_464F13105FB5145EC a 
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Jacob Marisstraat 114"^^xsd:string ;
     schema:postalCode "1058JB"^^xsd:string ;
-    geo:hasGeometry g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_464F13105FB5145ECgeo ;
+    geo:hasGeometry g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_4D915BA0FDAD44077geo ;
     wgs:lat "52.3570435554619"^^xsd:float ;
     wgs:long "4.85250268730243"^^xsd:float ;
     vcard:hasAddress "Jacob Marisstraat 114"^^xsd:string ;
     vcard:hasPostalCode "1058JB"^^xsd:string .
 
-g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_578F8DDAB3DF943E5 a g13vocab:instantie ;
+g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_59AF9FE80505A4F52 a g13vocab:instantie ;
     rdfs:label "Psychologie- en seksuologiepraktijk Reichling-de Jong"^^xsd:string ;
     dbo:PostalCode "1015CV"^^xsd:string ;
     dbo:address "Keizersgracht 106"^^xsd:string ;
@@ -970,13 +970,13 @@ g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_578F8DDAB3DF943E5 a 
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Keizersgracht 106"^^xsd:string ;
     schema:postalCode "1015CV"^^xsd:string ;
-    geo:hasGeometry g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_578F8DDAB3DF943E5geo ;
+    geo:hasGeometry g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_59AF9FE80505A4F52geo ;
     wgs:lat "52.3772468566837"^^xsd:float ;
     wgs:long "4.88721174869219"^^xsd:float ;
     vcard:hasAddress "Keizersgracht 106"^^xsd:string ;
     vcard:hasPostalCode "1015CV"^^xsd:string .
 
-g13set:psychologiepraktijk_van_tilburg_1FA3FF47C64BD439A a g13vocab:instantie ;
+g13set:psychologiepraktijk_van_tilburg_134BB822D66784EB4 a g13vocab:instantie ;
     rdfs:label "Psychologiepraktijk Van Tilburg"^^xsd:string ;
     dbo:PostalCode "1077LP"^^xsd:string ;
     dbo:address "Memlingstraat 9"^^xsd:string ;
@@ -985,13 +985,13 @@ g13set:psychologiepraktijk_van_tilburg_1FA3FF47C64BD439A a g13vocab:instantie ;
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Memlingstraat 9"^^xsd:string ;
     schema:postalCode "1077LP"^^xsd:string ;
-    geo:hasGeometry g13set:psychologiepraktijk_van_tilburg_1FA3FF47C64BD439Ageo ;
+    geo:hasGeometry g13set:psychologiepraktijk_van_tilburg_134BB822D66784EB4geo ;
     wgs:lat "52.3499968819164"^^xsd:float ;
     wgs:long "4.8747938263093"^^xsd:float ;
     vcard:hasAddress "Memlingstraat 9"^^xsd:string ;
     vcard:hasPostalCode "1077LP"^^xsd:string .
 
-g13set:psychotherapiepraktijk_baanbrekend_1B8FB11B464934C20 a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_baanbrekend_189C62812FD5C4D88 a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Baanbrekend"^^xsd:string ;
     dbo:PostalCode "1098NN"^^xsd:string ;
     dbo:Website "http://bresserborsjevanderbaan.nl"^^xsd:string ;
@@ -1003,14 +1003,14 @@ g13set:psychotherapiepraktijk_baanbrekend_1B8FB11B464934C20 a g13vocab:instantie
     schema:PostalAddress "Voltaplein 15"^^xsd:string ;
     schema:WebSite "http://bresserborsjevanderbaan.nl"^^xsd:string ;
     schema:postalCode "1098NN"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_baanbrekend_1B8FB11B464934C20geo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_baanbrekend_189C62812FD5C4D88geo ;
     rdfs:seeAlso "http://bresserborsjevanderbaan.nl"^^xsd:string ;
     wgs:lat "52.3537886334998"^^xsd:float ;
     wgs:long "4.94112475624311"^^xsd:float ;
     vcard:hasAddress "Voltaplein 15"^^xsd:string ;
     vcard:hasPostalCode "1098NN"^^xsd:string .
 
-g13set:psychotherapiepraktijk_boers_stoll_2C1C4FEE1B798460D a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_boers_stoll_2FDD8626395D3450F a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Boers-Stoll"^^xsd:string ;
     dbo:PostalCode "1062KG"^^xsd:string ;
     dbo:address "Wittgensteinlaan 247"^^xsd:string ;
@@ -1019,13 +1019,13 @@ g13set:psychotherapiepraktijk_boers_stoll_2C1C4FEE1B798460D a g13vocab:instantie
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Wittgensteinlaan 247"^^xsd:string ;
     schema:postalCode "1062KG"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_boers_stoll_2C1C4FEE1B798460Dgeo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_boers_stoll_2FDD8626395D3450Fgeo ;
     wgs:lat "52.3543984813029"^^xsd:float ;
     wgs:long "4.83624148817536"^^xsd:float ;
     vcard:hasAddress "Wittgensteinlaan 247"^^xsd:string ;
     vcard:hasPostalCode "1062KG"^^xsd:string .
 
-g13set:psychotherapiepraktijk_fels_1B77F82BE6C63488B a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_fels_1AB8C9A3743E043DA a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Fels"^^xsd:string ;
     dbo:PostalCode "1013HS"^^xsd:string ;
     dbo:address "Haarlemmerplein 48a"^^xsd:string ;
@@ -1034,13 +1034,13 @@ g13set:psychotherapiepraktijk_fels_1B77F82BE6C63488B a g13vocab:instantie ;
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Haarlemmerplein 48a"^^xsd:string ;
     schema:postalCode "1013HS"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_fels_1B77F82BE6C63488Bgeo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_fels_1AB8C9A3743E043DAgeo ;
     wgs:lat "52.3853658097278"^^xsd:float ;
     wgs:long "4.88310884529111"^^xsd:float ;
     vcard:hasAddress "Haarlemmerplein 48a"^^xsd:string ;
     vcard:hasPostalCode "1013HS"^^xsd:string .
 
-g13set:psychotherapiepraktijk_kerkstraat_18D18D04761A04923 a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_kerkstraat_13CDC1E482B8E412F a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Kerkstraat"^^xsd:string ;
     dbo:PostalCode "1017GZ"^^xsd:string ;
     dbo:address "Kerkstraat 299"^^xsd:string ;
@@ -1049,13 +1049,13 @@ g13set:psychotherapiepraktijk_kerkstraat_18D18D04761A04923 a g13vocab:instantie 
     g13vocab:providesInformationAbout g13vocab:lhbtIssues ;
     schema:PostalAddress "Kerkstraat 299"^^xsd:string ;
     schema:postalCode "1017GZ"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_kerkstraat_18D18D04761A04923geo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_kerkstraat_13CDC1E482B8E412Fgeo ;
     wgs:lat "52.3626469770023"^^xsd:float ;
     wgs:long "4.89482057865867"^^xsd:float ;
     vcard:hasAddress "Kerkstraat 299"^^xsd:string ;
     vcard:hasPostalCode "1017GZ"^^xsd:string .
 
-g13set:psychotherapiepraktijk_leo_goetstouwers_2CAFABA73591A4036 a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_leo_goetstouwers_276EAF3304870458D a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Leo Goetstouwers"^^xsd:string ;
     dbo:PostalCode "1025WR"^^xsd:string ;
     dbo:Website "http://www.therapieamsterdam.com"^^xsd:string ;
@@ -1067,14 +1067,14 @@ g13set:psychotherapiepraktijk_leo_goetstouwers_2CAFABA73591A4036 a g13vocab:inst
     schema:PostalAddress "Buikslotermeerplein 527"^^xsd:string ;
     schema:WebSite "http://www.therapieamsterdam.com"^^xsd:string ;
     schema:postalCode "1025WR"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_leo_goetstouwers_2CAFABA73591A4036geo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_leo_goetstouwers_276EAF3304870458Dgeo ;
     rdfs:seeAlso "http://www.therapieamsterdam.com"^^xsd:string ;
     wgs:lat "52.3979025678126"^^xsd:float ;
     wgs:long "4.94176813559006"^^xsd:float ;
     vcard:hasAddress "Buikslotermeerplein 527"^^xsd:string ;
     vcard:hasPostalCode "1025WR"^^xsd:string .
 
-g13set:psychotherapiepraktijk_living_history_1A6A2D351112240CA a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_living_history_1776F422FCB4047E1 a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Living-History"^^xsd:string ;
     dbo:PostalCode "1051MG"^^xsd:string ;
     dbo:Website "http://www.living-history.nl"^^xsd:string ;
@@ -1086,14 +1086,14 @@ g13set:psychotherapiepraktijk_living_history_1A6A2D351112240CA a g13vocab:instan
     schema:PostalAddress "Visseringstraat 51"^^xsd:string ;
     schema:WebSite "http://www.living-history.nl"^^xsd:string ;
     schema:postalCode "1051MG"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_living_history_1A6A2D351112240CAgeo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_living_history_1776F422FCB4047E1geo ;
     rdfs:seeAlso "http://www.living-history.nl"^^xsd:string ;
     wgs:lat "52.3768228151066"^^xsd:float ;
     wgs:long "4.87009285330376"^^xsd:float ;
     vcard:hasAddress "Visseringstraat 51"^^xsd:string ;
     vcard:hasPostalCode "1051MG"^^xsd:string .
 
-g13set:psychotherapiepraktijk_marcel_holtslag_1A1C512BB129B4287 a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_marcel_holtslag_14B8B3203B31D432A a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Marcel Holtslag"^^xsd:string ;
     dbo:PostalCode "1019GM"^^xsd:string ;
     dbo:Website "http://www.marcelholtslag.nl"^^xsd:string ;
@@ -1105,14 +1105,14 @@ g13set:psychotherapiepraktijk_marcel_holtslag_1A1C512BB129B4287 a g13vocab:insta
     schema:PostalAddress "Piet Heinkade 145"^^xsd:string ;
     schema:WebSite "http://www.marcelholtslag.nl"^^xsd:string ;
     schema:postalCode "1019GM"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_marcel_holtslag_1A1C512BB129B4287geo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_marcel_holtslag_14B8B3203B31D432Ageo ;
     rdfs:seeAlso "http://www.marcelholtslag.nl"^^xsd:string ;
     wgs:lat "52.3770797285167"^^xsd:float ;
     wgs:long "4.91887641126339"^^xsd:float ;
     vcard:hasAddress "Piet Heinkade 145"^^xsd:string ;
     vcard:hasPostalCode "1019GM"^^xsd:string .
 
-g13set:psychotherapiepraktijk_peter_dekker_1BEBAAF144D5941DD a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_peter_dekker_17D9231F21AFC47F5 a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Peter Dekker"^^xsd:string ;
     dbo:PostalCode "1016CG"^^xsd:string ;
     dbo:Website "http://peterdekkerpsychotherapeut.nl"^^xsd:string ;
@@ -1124,14 +1124,14 @@ g13set:psychotherapiepraktijk_peter_dekker_1BEBAAF144D5941DD a g13vocab:instanti
     schema:PostalAddress "Herengracht 348"^^xsd:string ;
     schema:WebSite "http://peterdekkerpsychotherapeut.nl"^^xsd:string ;
     schema:postalCode "1016CG"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_peter_dekker_1BEBAAF144D5941DDgeo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_peter_dekker_17D9231F21AFC47F5geo ;
     rdfs:seeAlso "http://peterdekkerpsychotherapeut.nl"^^xsd:string ;
     wgs:lat "52.3690017325653"^^xsd:float ;
     wgs:long "4.88640900471472"^^xsd:float ;
     vcard:hasAddress "Herengracht 348"^^xsd:string ;
     vcard:hasPostalCode "1016CG"^^xsd:string .
 
-g13set:psychotherapiepraktijk_sinteze_29672E31A91FB4161 a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_sinteze_2FE772702417E4830 a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk Sinteze"^^xsd:string ;
     dbo:PostalCode "1018AM"^^xsd:string ;
     dbo:Website "https://www.sinteze.nl"^^xsd:string ;
@@ -1143,14 +1143,14 @@ g13set:psychotherapiepraktijk_sinteze_29672E31A91FB4161 a g13vocab:instantie ;
     schema:PostalAddress "Cruquiuskade 113"^^xsd:string ;
     schema:WebSite "https://www.sinteze.nl"^^xsd:string ;
     schema:postalCode "1018AM"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_sinteze_29672E31A91FB4161geo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_sinteze_2FE772702417E4830geo ;
     rdfs:seeAlso "https://www.sinteze.nl"^^xsd:string ;
     wgs:lat "52.367638134004"^^xsd:float ;
     wgs:long "4.92920995675088"^^xsd:float ;
     vcard:hasAddress "Cruquiuskade 113"^^xsd:string ;
     vcard:hasPostalCode "1018AM"^^xsd:string .
 
-g13set:psychotherapiepraktijk_ter_haar_1BEFBF89C03C1468E a g13vocab:instantie ;
+g13set:psychotherapiepraktijk_ter_haar_131D103AB19B34A4C a g13vocab:instantie ;
     rdfs:label "Psychotherapiepraktijk ter Haar"^^xsd:string ;
     dbo:PostalCode "1012DK"^^xsd:string ;
     dbo:Website "http://arnoutterhaar.praktijkinfo.nl"^^xsd:string ;
@@ -1162,14 +1162,14 @@ g13set:psychotherapiepraktijk_ter_haar_1BEFBF89C03C1468E a g13vocab:instantie ;
     schema:PostalAddress "Oudezijds Achterburgwal 189"^^xsd:string ;
     schema:WebSite "http://arnoutterhaar.praktijkinfo.nl"^^xsd:string ;
     schema:postalCode "1012DK"^^xsd:string ;
-    geo:hasGeometry g13set:psychotherapiepraktijk_ter_haar_1BEFBF89C03C1468Egeo ;
+    geo:hasGeometry g13set:psychotherapiepraktijk_ter_haar_131D103AB19B34A4Cgeo ;
     rdfs:seeAlso "http://arnoutterhaar.praktijkinfo.nl"^^xsd:string ;
     wgs:lat "52.3704355990682"^^xsd:float ;
     wgs:long "4.89614279431077"^^xsd:float ;
     vcard:hasAddress "Oudezijds Achterburgwal 189"^^xsd:string ;
     vcard:hasPostalCode "1012DK"^^xsd:string .
 
-g13set:puntp_volwassenen_4614EBFB386F14796 a g13vocab:instantie ;
+g13set:puntp_volwassenen_401079F3E374241FE a g13vocab:instantie ;
     rdfs:label "PuntP volwassenen"^^xsd:string ;
     dbo:PostalCode "1018WE"^^xsd:string ;
     dbo:Website "http://www.puntp.nl"^^xsd:string ;
@@ -1181,14 +1181,14 @@ g13set:puntp_volwassenen_4614EBFB386F14796 a g13vocab:instantie ;
     schema:PostalAddress "Roetersstraat 210"^^xsd:string ;
     schema:WebSite "http://www.puntp.nl"^^xsd:string ;
     schema:postalCode "1018WE"^^xsd:string ;
-    geo:hasGeometry g13set:puntp_volwassenen_4614EBFB386F14796geo ;
+    geo:hasGeometry g13set:puntp_volwassenen_401079F3E374241FEgeo ;
     rdfs:seeAlso "http://www.puntp.nl"^^xsd:string ;
     wgs:lat "52.3620209535306"^^xsd:float ;
     wgs:long "4.91101959357631"^^xsd:float ;
     vcard:hasAddress "Roetersstraat 210"^^xsd:string ;
     vcard:hasPostalCode "1018WE"^^xsd:string .
 
-g13set:puntp_volwassenen_576A7F8F784A8406C a g13vocab:instantie ;
+g13set:puntp_volwassenen_5F6F7F35477134EBE a g13vocab:instantie ;
     rdfs:label "PuntP volwassenen"^^xsd:string ;
     dbo:PostalCode "1033DA"^^xsd:string ;
     dbo:Website "http://www.puntp.nl"^^xsd:string ;
@@ -1200,14 +1200,14 @@ g13set:puntp_volwassenen_576A7F8F784A8406C a g13vocab:instantie ;
     schema:PostalAddress "Strekkerweg 77"^^xsd:string ;
     schema:WebSite "http://www.puntp.nl"^^xsd:string ;
     schema:postalCode "1033DA"^^xsd:string ;
-    geo:hasGeometry g13set:puntp_volwassenen_576A7F8F784A8406Cgeo ;
+    geo:hasGeometry g13set:puntp_volwassenen_5F6F7F35477134EBEgeo ;
     rdfs:seeAlso "http://www.puntp.nl"^^xsd:string ;
     wgs:lat "52.404546992831"^^xsd:float ;
     wgs:long "4.89473619464938"^^xsd:float ;
     vcard:hasAddress "Strekkerweg 77"^^xsd:string ;
     vcard:hasPostalCode "1033DA"^^xsd:string .
 
-g13set:pychotherapiepraktijk_jordaan_2AABC3EC4CDAF4B30 a g13vocab:instantie ;
+g13set:pychotherapiepraktijk_jordaan_2615944F297324DF5 a g13vocab:instantie ;
     rdfs:label "Pychotherapiepraktijk Jordaan"^^xsd:string ;
     dbo:PostalCode "1015RT"^^xsd:string ;
     dbo:Website "http://www.praktijkjordaan.nl"^^xsd:string ;
@@ -1219,14 +1219,14 @@ g13set:pychotherapiepraktijk_jordaan_2AABC3EC4CDAF4B30 a g13vocab:instantie ;
     schema:PostalAddress "Eerste Tuindwarsstraat 5"^^xsd:string ;
     schema:WebSite "http://www.praktijkjordaan.nl"^^xsd:string ;
     schema:postalCode "1015RT"^^xsd:string ;
-    geo:hasGeometry g13set:pychotherapiepraktijk_jordaan_2AABC3EC4CDAF4B30geo ;
+    geo:hasGeometry g13set:pychotherapiepraktijk_jordaan_2615944F297324DF5geo ;
     rdfs:seeAlso "http://www.praktijkjordaan.nl"^^xsd:string ;
     wgs:lat "52.3776995728738"^^xsd:float ;
     wgs:long "4.8837554085287"^^xsd:float ;
     vcard:hasAddress "Eerste Tuindwarsstraat 5"^^xsd:string ;
     vcard:hasPostalCode "1015RT"^^xsd:string .
 
-g13set:pychotherapiepraktijk_jordaan_36975914434C24C58 a g13vocab:instantie ;
+g13set:pychotherapiepraktijk_jordaan_3EDAF7AED6C824CDE a g13vocab:instantie ;
     rdfs:label "Pychotherapiepraktijk Jordaan"^^xsd:string ;
     dbo:PostalCode "1015RM"^^xsd:string ;
     dbo:Website "http://www.praktijkjordaan.nl"^^xsd:string ;
@@ -1238,14 +1238,14 @@ g13set:pychotherapiepraktijk_jordaan_36975914434C24C58 a g13vocab:instantie ;
     schema:PostalAddress "Egelantiersgracht 76"^^xsd:string ;
     schema:WebSite "http://www.praktijkjordaan.nl"^^xsd:string ;
     schema:postalCode "1015RM"^^xsd:string ;
-    geo:hasGeometry g13set:pychotherapiepraktijk_jordaan_36975914434C24C58geo ;
+    geo:hasGeometry g13set:pychotherapiepraktijk_jordaan_3EDAF7AED6C824CDEgeo ;
     rdfs:seeAlso "http://www.praktijkjordaan.nl"^^xsd:string ;
     wgs:lat "52.3762814418009"^^xsd:float ;
     wgs:long "4.88209734278334"^^xsd:float ;
     vcard:hasAddress "Egelantiersgracht 76"^^xsd:string ;
     vcard:hasPostalCode "1015RM"^^xsd:string .
 
-g13set:richting_in_relatiesF037AC6E276A43F5 a g13vocab:instantie ;
+g13set:richting_in_relatiesFD446EB1084F4BC7 a g13vocab:instantie ;
     rdfs:label "Richting in Relaties"^^xsd:string ;
     dbo:PostalCode "1073XJ"^^xsd:string ;
     dbo:Website "http://www.ploegcoaching.nl"^^xsd:string ;
@@ -1257,14 +1257,14 @@ g13set:richting_in_relatiesF037AC6E276A43F5 a g13vocab:instantie ;
     schema:PostalAddress "Quellijnstraat 133d"^^xsd:string ;
     schema:WebSite "http://www.ploegcoaching.nl"^^xsd:string ;
     schema:postalCode "1073XJ"^^xsd:string ;
-    geo:hasGeometry g13set:richting_in_relatiesF037AC6E276A43F5geo ;
+    geo:hasGeometry g13set:richting_in_relatiesFD446EB1084F4BC7geo ;
     rdfs:seeAlso "http://www.ploegcoaching.nl"^^xsd:string ;
     wgs:lat "52.3566498168972"^^xsd:float ;
     wgs:long "4.89431366541414"^^xsd:float ;
     vcard:hasAddress "Quellijnstraat 133d"^^xsd:string ;
     vcard:hasPostalCode "1073XJ"^^xsd:string .
 
-g13set:stichting_secret_garden394DAD4CF9364356 a g13vocab:instantie ;
+g13set:stichting_secret_garden48FF2534988E4AA6 a g13vocab:instantie ;
     rdfs:label "Stichting Secret Garden"^^xsd:string ;
     dbo:PostalCode "1018DP"^^xsd:string ;
     dbo:Website "http://www.stichtingsecretgarden.nl"^^xsd:string ;
@@ -1276,14 +1276,14 @@ g13set:stichting_secret_garden394DAD4CF9364356 a g13vocab:instantie ;
     schema:PostalAddress "Nieuwe Herengracht 20"^^xsd:string ;
     schema:WebSite "http://www.stichtingsecretgarden.nl"^^xsd:string ;
     schema:postalCode "1018DP"^^xsd:string ;
-    geo:hasGeometry g13set:stichting_secret_garden394DAD4CF9364356geo ;
+    geo:hasGeometry g13set:stichting_secret_garden48FF2534988E4AA6geo ;
     rdfs:seeAlso "http://www.stichtingsecretgarden.nl"^^xsd:string ;
     wgs:lat "52.3661008635734"^^xsd:float ;
     wgs:long "4.90423665123218"^^xsd:float ;
     vcard:hasAddress "Nieuwe Herengracht 20"^^xsd:string ;
     vcard:hasPostalCode "1018DP"^^xsd:string .
 
-g13set:talk_touch_and_body_explorations187AFA348A294FE6 a g13vocab:instantie ;
+g13set:talk_touch_and_body_explorations8884A0BF79BB4815 a g13vocab:instantie ;
     rdfs:label "Talk, Touch and Body Explorations"^^xsd:string ;
     dbo:PostalCode "1075TP"^^xsd:string ;
     dbo:Website "http://volkermoritznl.wordpress.com"^^xsd:string ;
@@ -1295,14 +1295,14 @@ g13set:talk_touch_and_body_explorations187AFA348A294FE6 a g13vocab:instantie ;
     schema:PostalAddress "Tweede Schinkelstraat 31"^^xsd:string ;
     schema:WebSite "http://volkermoritznl.wordpress.com"^^xsd:string ;
     schema:postalCode "1075TP"^^xsd:string ;
-    geo:hasGeometry g13set:talk_touch_and_body_explorations187AFA348A294FE6geo ;
+    geo:hasGeometry g13set:talk_touch_and_body_explorations8884A0BF79BB4815geo ;
     rdfs:seeAlso "http://volkermoritznl.wordpress.com"^^xsd:string ;
     wgs:lat "52.3532052079227"^^xsd:float ;
     wgs:long "4.85436900892146"^^xsd:float ;
     vcard:hasAddress "Tweede Schinkelstraat 31"^^xsd:string ;
     vcard:hasPostalCode "1075TP"^^xsd:string .
 
-g13set:transgenders_amsterdam48FB913297B14F0C a g13vocab:instantie ;
+g13set:transgenders_amsterdam61A27A274E764F6C a g13vocab:instantie ;
     rdfs:label "Transgenders Amsterdam"^^xsd:string ;
     dbo:PostalCode "1015MT"^^xsd:string ;
     dbo:Website "http://transgendersamsterdam.nl"^^xsd:string ;
@@ -1315,14 +1315,14 @@ g13set:transgenders_amsterdam48FB913297B14F0C a g13vocab:instantie ;
     schema:PostalAddress "Westerstraat 266"^^xsd:string ;
     schema:WebSite "http://transgendersamsterdam.nl"^^xsd:string ;
     schema:postalCode "1015MT"^^xsd:string ;
-    geo:hasGeometry g13set:transgenders_amsterdam48FB913297B14F0Cgeo ;
+    geo:hasGeometry g13set:transgenders_amsterdam61A27A274E764F6Cgeo ;
     rdfs:seeAlso "http://transgendersamsterdam.nl"^^xsd:string ;
     wgs:lat "52.3778889153558"^^xsd:float ;
     wgs:long "4.87968518771488"^^xsd:float ;
     vcard:hasAddress "Westerstraat 266"^^xsd:string ;
     vcard:hasPostalCode "1015MT"^^xsd:string .
 
-g13set:transvisie_zorg_1497DAF86FAED434E a g13vocab:instantie ;
+g13set:transvisie_zorg_12889D6D562504072 a g13vocab:instantie ;
     rdfs:label "Transvisie Zorg"^^xsd:string ;
     dbo:PostalCode "1018TX"^^xsd:string ;
     dbo:Website "http://www.transvisiezorg.nl"^^xsd:string ;
@@ -1335,14 +1335,14 @@ g13set:transvisie_zorg_1497DAF86FAED434E a g13vocab:instantie ;
     schema:PostalAddress "Rhijnspoorplein 26"^^xsd:string ;
     schema:WebSite "http://www.transvisiezorg.nl"^^xsd:string ;
     schema:postalCode "1018TX"^^xsd:string ;
-    geo:hasGeometry g13set:transvisie_zorg_1497DAF86FAED434Egeo ;
+    geo:hasGeometry g13set:transvisie_zorg_12889D6D562504072geo ;
     rdfs:seeAlso "http://www.transvisiezorg.nl"^^xsd:string ;
     wgs:lat "52.3607761200273"^^xsd:float ;
     wgs:long "4.90767112130932"^^xsd:float ;
     vcard:hasAddress "Rhijnspoorplein 26"^^xsd:string ;
     vcard:hasPostalCode "1018TX"^^xsd:string .
 
-g13set:veilige_havenD07ED881B3994911 a g13vocab:instantie ;
+g13set:veilige_haven744C07546CB64A6B a g13vocab:instantie ;
     rdfs:label "Veilige Haven"^^xsd:string ;
     dbo:PostalCode "1011JW"^^xsd:string ;
     dbo:Website "http://www.veiligehavenamsterdam.nl"^^xsd:string ;
@@ -1354,14 +1354,14 @@ g13set:veilige_havenD07ED881B3994911 a g13vocab:instantie ;
     schema:PostalAddress "Kloveniersburgwal 43"^^xsd:string ;
     schema:WebSite "http://www.veiligehavenamsterdam.nl"^^xsd:string ;
     schema:postalCode "1011JW"^^xsd:string ;
-    geo:hasGeometry g13set:veilige_havenD07ED881B3994911geo ;
+    geo:hasGeometry g13set:veilige_haven744C07546CB64A6Bgeo ;
     rdfs:seeAlso "http://www.veiligehavenamsterdam.nl"^^xsd:string ;
     wgs:lat "52.3707346695872"^^xsd:float ;
     wgs:long "4.89891472055574"^^xsd:float ;
     vcard:hasAddress "Kloveniersburgwal 43"^^xsd:string ;
     vcard:hasPostalCode "1011JW"^^xsd:string .
 
-g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1ECDD40D8209C4F8A a g13vocab:instantie ;
+g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1F301A309B9F4499D a g13vocab:instantie ;
     rdfs:label "Wilfried Sluys Relatie- en Gestalttherapie Amsterdam en omgeving"^^xsd:string ;
     dbo:PostalCode "1441RS"^^xsd:string ;
     dbo:Website "http://www.ws-gestalttherapie.nl"^^xsd:string ;
@@ -1373,14 +1373,14 @@ g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1ECDD40D8
     schema:PostalAddress "Waterlandlaan 81"^^xsd:string ;
     schema:WebSite "http://www.ws-gestalttherapie.nl"^^xsd:string ;
     schema:postalCode "1441RS"^^xsd:string ;
-    geo:hasGeometry g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1ECDD40D8209C4F8Ageo ;
+    geo:hasGeometry g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1F301A309B9F4499Dgeo ;
     rdfs:seeAlso "http://www.ws-gestalttherapie.nl"^^xsd:string ;
     wgs:lat "52.5035425746909"^^xsd:float ;
     wgs:long "4.96007296592279"^^xsd:float ;
     vcard:hasAddress "Waterlandlaan 81"^^xsd:string ;
     vcard:hasPostalCode "1441RS"^^xsd:string .
 
-g13set:zocieteit_vereniging_voor_homomannen78A780ADB3C84BE6 a g13vocab:instantie ;
+g13set:zocieteit_vereniging_voor_homomannenA6E51D30F44D4874 a g13vocab:instantie ;
     rdfs:label "Zóciëteit, vereniging voor homomannen"^^xsd:string ;
     dbo:PostalCode "1058GA"^^xsd:string ;
     dbo:Website "http://www.zocieteit.nl"^^xsd:string ;
@@ -1392,235 +1392,235 @@ g13set:zocieteit_vereniging_voor_homomannen78A780ADB3C84BE6 a g13vocab:instantie
     schema:PostalAddress "Saskia van Uijlenburgkade 5"^^xsd:string ;
     schema:WebSite "http://www.zocieteit.nl"^^xsd:string ;
     schema:postalCode "1058GA"^^xsd:string ;
-    geo:hasGeometry g13set:zocieteit_vereniging_voor_homomannen78A780ADB3C84BE6geo ;
+    geo:hasGeometry g13set:zocieteit_vereniging_voor_homomannenA6E51D30F44D4874geo ;
     rdfs:seeAlso "http://www.zocieteit.nl"^^xsd:string ;
     wgs:lat "52.3563334410551"^^xsd:float ;
     wgs:long "4.84458454261457"^^xsd:float ;
     vcard:hasAddress "Saskia van Uijlenburgkade 5"^^xsd:string ;
     vcard:hasPostalCode "1058GA"^^xsd:string .
 
-g13set:adviespraktijk_david_en_van_wezel_100B3201D2B864B6Dgeo a geo:Geometry ;
+g13set:adviespraktijk_david_en_van_wezel_1BEA74E3D94714FD9geo a geo:Geometry ;
     geo:asWKT "POINT(4.9405019178603 52.3515034043332)"^^geo:wktLiteral .
 
-g13set:amsterdam_groepspraktijk_psychotherapie_2444641E0866B4A51geo a geo:Geometry ;
+g13set:amsterdam_groepspraktijk_psychotherapie_2735A61E6E3134E38geo a geo:Geometry ;
     geo:asWKT "POINT(4.87160901324048 52.3638871010753)"^^geo:wktLiteral .
 
-g13set:associatie_voor_psychotherapie_23A82E7E7098640CDgeo a geo:Geometry ;
+g13set:associatie_voor_psychotherapie_22ABB883384AD42C4geo a geo:Geometry ;
     geo:asWKT "POINT(4.8797559162721 52.3729909155503)"^^geo:wktLiteral .
 
-g13set:bo_link_praktijk_voor_haptotherapieFB167A1D9B2C4C7Egeo a geo:Geometry ;
+g13set:bo_link_praktijk_voor_haptotherapie2A4E26D5198048FFgeo a geo:Geometry ;
     geo:asWKT "POINT(4.97943460432352 52.3282309081226)"^^geo:wktLiteral .
 
-g13set:centro_cultural_de_hispanohablantes9D1253C5476B4F83geo a geo:Geometry ;
+g13set:centro_cultural_de_hispanohablantes3C879E698C5D4FD0geo a geo:Geometry ;
     geo:asWKT "POINT(4.85504850574835 52.3675347454174)"^^geo:wktLiteral .
 
-g13set:coaching_en_supervisie_tim_de_jong9F7215ABC5D34BFFgeo a geo:Geometry ;
+g13set:coaching_en_supervisie_tim_de_jongFC9E2FB034734844geo a geo:Geometry ;
     geo:asWKT "POINT(4.97574060776561 52.3611850572203)"^^geo:wktLiteral .
 
-g13set:coc_amsterdam_182424D027E964B33geo a geo:Geometry ;
+g13set:coc_amsterdam_154C25402622F4F06geo a geo:Geometry ;
     geo:asWKT "POINT(4.89531572029783 52.357624660428)"^^geo:wktLiteral .
 
-g13set:compaan_counseling_amsterdam_homospecifieke_hulpverleningFDBCB1DFF0FA493Cgeo a geo:Geometry ;
+g13set:compaan_counseling_amsterdam_homospecifieke_hulpverlening35F34186921A449Cgeo a geo:Geometry ;
     geo:asWKT "POINT(4.94793435916976 52.3746565596972)"^^geo:wktLiteral .
 
-g13set:de_regenboog_groep_3C7496B61CB734526geo a geo:Geometry ;
+g13set:de_regenboog_groep_3CFB4266C66384AEDgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89413939550038 52.380259820669)"^^geo:wktLiteral .
 
-g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit23F6DB3770774D62geo a geo:Geometry ;
+g13set:different_pastorale_hulpverlening_rond_seksuele_identiteit3FE2D7C0839D4308geo a geo:Geometry ;
     geo:asWKT "POINT(4.88533449545389 52.3809148853129)"^^geo:wktLiteral .
 
-g13set:eerstelijnspsychologiepraktijk_bijleveld_1036FE77153DC4D9Dgeo a geo:Geometry ;
+g13set:eerstelijnspsychologiepraktijk_bijleveld_187BD013C2B8F4F33geo a geo:Geometry ;
     geo:asWKT "POINT(4.89588406142669 52.3566743207169)"^^geo:wktLiteral .
 
-g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrumD5CD350ED1BC4159geo a geo:Geometry ;
+g13set:eft_relatie_therapie_zijnsorientatie_amsterdam_centrum56192DCC52FC42E4geo a geo:Geometry ;
     geo:asWKT "POINT(4.88304994965762 52.3699941016887)"^^geo:wktLiteral .
 
-g13set:gestaltpraktijk_amsterdam_18CD97232EBB7491Fgeo a geo:Geometry ;
+g13set:gestaltpraktijk_amsterdam_1AF5E8AC1887D49CBgeo a geo:Geometry ;
     geo:asWKT "POINT(4.88258266517885 52.3826737676468)"^^geo:wktLiteral .
 
-g13set:gestaltpraktijk_bloemgracht_1A5C955AD98F34CD5geo a geo:Geometry ;
+g13set:gestaltpraktijk_bloemgracht_1AAEE5BE1311A42B7geo a geo:Geometry ;
     geo:asWKT "POINT(4.88005068142241 52.3743328399239)"^^geo:wktLiteral .
 
-g13set:ggz_ingeest_poliklinieken_48599F8BCD05D43E9geo a geo:Geometry ;
+g13set:ggz_ingeest_poliklinieken_4A13A4B61C96748D9geo a geo:Geometry ;
     geo:asWKT "POINT(4.85866599196468 52.333792887622)"^^geo:wktLiteral .
 
-g13set:ggz_ingeest_poliklinieken_59FED3F8B6A65418Bgeo a geo:Geometry ;
+g13set:ggz_ingeest_poliklinieken_5D4DFC854D2E44021geo a geo:Geometry ;
     geo:asWKT "POINT(4.86480752128682 52.3317979058113)"^^geo:wktLiteral .
 
-g13set:hiv_vereniging_nederland6F8564097EA24989geo a geo:Geometry ;
+g13set:hiv_vereniging_nederlandEBD0F48677544314geo a geo:Geometry ;
     geo:asWKT "POINT(4.87720230168246 52.3639203161796)"^^geo:wktLiteral .
 
-g13set:homogroep_buitenveldert7CCF99A1AC9F4593geo a geo:Geometry ;
+g13set:homogroep_buitenveldertE11D8284B3744201geo a geo:Geometry ;
     geo:asWKT "POINT(4.87822550674615 52.3323147607255)"^^geo:wktLiteral .
 
-g13set:huisarts_aan_de_prinsengracht_2846D0A839CD147A2geo a geo:Geometry ;
+g13set:huisarts_aan_de_prinsengracht_2D78AC8DF537D4D03geo a geo:Geometry ;
     geo:asWKT "POINT(4.89704886910981 52.3615235365628)"^^geo:wktLiteral .
 
-g13set:huisarts_amsterdam_oostA0F8B3FA10B047D1geo a geo:Geometry ;
+g13set:huisarts_amsterdam_oostE4F66DAFDDD045E3geo a geo:Geometry ;
     geo:asWKT "POINT(4.91426234999649 52.3552899971377)"^^geo:wktLiteral .
 
-g13set:huisartsen_vrolikstraat_1ABB96DB645064A0Egeo a geo:Geometry ;
+g13set:huisartsen_vrolikstraat_14ED1063E9BE54B01geo a geo:Geometry ;
     geo:asWKT "POINT(4.91426234999649 52.3552899971377)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_bos_en_lommer9A98A7C61FBE4ACFgeo a geo:Geometry ;
+g13set:huisartsenpraktijk_bos_en_lommer590B094D2E9A4BD6geo a geo:Geometry ;
     geo:asWKT "POINT(4.84589593848699 52.377586482582)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_buijs_en_windhausen_199734BED7B9C46A2geo a geo:Geometry ;
+g13set:huisartsenpraktijk_buijs_en_windhausen_1825ECF53E7B543C9geo a geo:Geometry ;
     geo:asWKT "POINT(4.93022995325319 52.3983259763612)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_grooff_1CC9F6030310E4557geo a geo:Geometry ;
+g13set:huisartsenpraktijk_grooff_178660660E8CA4365geo a geo:Geometry ;
     geo:asWKT "POINT(4.91463034815041 52.3689829211309)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_heijnen_en_de_meij_184ACCC1432C9439Cgeo a geo:Geometry ;
+g13set:huisartsenpraktijk_heijnen_en_de_meij_1BA15C08BC7FF45A2geo a geo:Geometry ;
     geo:asWKT "POINT(4.8967831614502 52.3722807335474)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_jonker_en_koetsier_11C39180F60FD4725geo a geo:Geometry ;
+g13set:huisartsenpraktijk_jonker_en_koetsier_1B2817D1262FE48ACgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9554494917273 52.3936400584394)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_oud_2C3E8AC3527B64D7Ageo a geo:Geometry ;
+g13set:huisartsenpraktijk_oud_2F6A5A968F2A44602geo a geo:Geometry ;
     geo:asWKT "POINT(4.90021364940399 52.3460417358658)"^^geo:wktLiteral .
 
-g13set:huisartsenpraktijk_rustenburgerstraat_6CC5924CE13AB4C24geo a geo:Geometry ;
+g13set:huisartsenpraktijk_rustenburgerstraat_60C2FF193BE9F40A9geo a geo:Geometry ;
     geo:asWKT "POINT(4.9001101393223 52.3528000954048)"^^geo:wktLiteral .
 
-g13set:hypnotherapiepraktijk_wim_kijne612C8BB9E31A4651geo a geo:Geometry ;
+g13set:hypnotherapiepraktijk_wim_kijne8320DB493D0948B6geo a geo:Geometry ;
     geo:asWKT "POINT(4.87198820939063 52.3678972812344)"^^geo:wktLiteral .
 
-g13set:hypnotherapiepraktijk_wim_kijne_179D51A3FD1974860geo a geo:Geometry ;
+g13set:hypnotherapiepraktijk_wim_kijne_11CD8016456444E75geo a geo:Geometry ;
     geo:asWKT "POINT(4.85360358674513 52.3826815525289)"^^geo:wktLiteral .
 
-g13set:in_transit_coaching_zingevingFC2D0A467B30461Cgeo a geo:Geometry ;
+g13set:in_transit_coaching_zingeving632E1C29A55A489Egeo a geo:Geometry ;
     geo:asWKT "POINT(4.8434296611728 52.3463606953857)"^^geo:wktLiteral .
 
-g13set:la_rieshuis_20FD314DEF0EC439Cgeo a geo:Geometry ;
+g13set:la_rieshuis_2AFB798091F3642A4geo a geo:Geometry ;
     geo:asWKT "POINT(4.88433471579719 52.3835979652873)"^^geo:wktLiteral .
 
-g13set:medisch_centrum_czaar_peter_243D666EDB7894557geo a geo:Geometry ;
+g13set:medisch_centrum_czaar_peter_2D49EDDA6030D487Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.92707256261962 52.3684477273567)"^^geo:wktLiteral .
 
-g13set:nederlandse_stichting_gestalt_2F91535FB3E484DAAgeo a geo:Geometry ;
+g13set:nederlandse_stichting_gestalt_252A427217E0E49D8geo a geo:Geometry ;
     geo:asWKT "POINT(4.90107514133759 52.3759204762515)"^^geo:wktLiteral .
 
-g13set:patientenorganisatie_transvisie64AA06460E4F4B99geo a geo:Geometry ;
+g13set:patientenorganisatie_transvisie4CACDD7B0E4F48C8geo a geo:Geometry ;
     geo:asWKT "POINT(4.89664490710315 52.3595535507462)"^^geo:wktLiteral .
 
-g13set:persoonsgerichte_coaching_en_advies_marten_bosD45AC77B34174600geo a geo:Geometry ;
+g13set:persoonsgerichte_coaching_en_advies_marten_bos183B54852CAB42A8geo a geo:Geometry ;
     geo:asWKT "POINT(4.94615497433767 52.3719536421817)"^^geo:wktLiteral .
 
-g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling470E95D0F441480Egeo a geo:Geometry ;
+g13set:praktijk_voor_moderne_hypnotheraptie_en_counseling31830861299C4FDCgeo a geo:Geometry ;
     geo:asWKT "POINT(4.85273262134446 52.3769524467572)"^^geo:wktLiteral .
 
-g13set:praktijk_voor_psychotherapie_borgerdijn_1B3324B3F62044EE5geo a geo:Geometry ;
+g13set:praktijk_voor_psychotherapie_borgerdijn_1096145C501E64130geo a geo:Geometry ;
     geo:asWKT "POINT(4.81181142600341 52.3457348452527)"^^geo:wktLiteral .
 
-g13set:praktijk_voor_therapie_en_coaching_prisma_2826F5A64ED85434Ageo a geo:Geometry ;
+g13set:praktijk_voor_therapie_en_coaching_prisma_2A9C5C5FE25214FD5geo a geo:Geometry ;
     geo:asWKT "POINT(4.86048135883526 52.3526753239009)"^^geo:wktLiteral .
 
-g13set:ps_praktijk_seksuologieD484311A48234278geo a geo:Geometry ;
+g13set:ps_praktijk_seksuologie9D85C2D44EE8482Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.87053260461939 52.3642868564831)"^^geo:wktLiteral .
 
-g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_2473D0880BD30474Dgeo a geo:Geometry ;
+g13set:psychiatrie_en_psychotherapiepraktijk_hettinga_23088D9919D814C42geo a geo:Geometry ;
     geo:asWKT "POINT(4.90055995720671 52.3639826820487)"^^geo:wktLiteral .
 
-g13set:psychiatriepraktijk_prins_2697957C6F7E64FA3geo a geo:Geometry ;
+g13set:psychiatriepraktijk_prins_23CE64187116C417Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.90912278001029 52.3609347825002)"^^geo:wktLiteral .
 
-g13set:psychiatriepraktijk_stortelder_1FC8FD73F96AD4281geo a geo:Geometry ;
+g13set:psychiatriepraktijk_stortelder_174713C6A5FD545E6geo a geo:Geometry ;
     geo:asWKT "POINT(4.8936013189139 52.3639448862348)"^^geo:wktLiteral .
 
-g13set:psychiatriepraktijk_van_der_plaats_1CED62EB1A16949F1geo a geo:Geometry ;
+g13set:psychiatriepraktijk_van_der_plaats_1E2657FB69D6C4176geo a geo:Geometry ;
     geo:asWKT "POINT(4.86729504562484 52.3536581508939)"^^geo:wktLiteral .
 
-g13set:psychiatriepraktijk_van_ham_1B2E2CA0C0E2742B4geo a geo:Geometry ;
+g13set:psychiatriepraktijk_van_ham_1C98C5427332F4356geo a geo:Geometry ;
     geo:asWKT "POINT(4.90191859153269 52.3605729243724)"^^geo:wktLiteral .
 
-g13set:psychiatriepraktijk_wasmann_1BB1025732EA74227geo a geo:Geometry ;
+g13set:psychiatriepraktijk_wasmann_185679577CDCD4F27geo a geo:Geometry ;
     geo:asWKT "POINT(4.85677940700581 52.3529374132158)"^^geo:wktLiteral .
 
-g13set:psychologenpraktijk_brainfact_1D8B84214F17F4970geo a geo:Geometry ;
+g13set:psychologenpraktijk_brainfact_1CD9FC756FF904A76geo a geo:Geometry ;
     geo:asWKT "POINT(4.90476487350719 52.3647818230466)"^^geo:wktLiteral .
 
-g13set:psychologenpraktijk_maasen_22EF2B4F940CB456Ageo a geo:Geometry ;
+g13set:psychologenpraktijk_maasen_20F362406745D4F6Egeo a geo:Geometry ;
     geo:asWKT "POINT(4.88559404273658 52.3722518362472)"^^geo:wktLiteral .
 
-g13set:psychologenpraktijk_staudenmayr_22486D45CE481405Fgeo a geo:Geometry ;
+g13set:psychologenpraktijk_staudenmayr_24F84A0D8A153490Egeo a geo:Geometry ;
     geo:asWKT "POINT(4.92676838595457 52.3595577043237)"^^geo:wktLiteral .
 
-g13set:psychologie_en_psychotherapiepraktijk_kroonen_2966C4135F5F34177geo a geo:Geometry ;
+g13set:psychologie_en_psychotherapiepraktijk_kroonen_264C0BF73A26D42C7geo a geo:Geometry ;
     geo:asWKT "POINT(4.92609645036591 52.3634737306796)"^^geo:wktLiteral .
 
-g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_464F13105FB5145ECgeo a geo:Geometry ;
+g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_4D915BA0FDAD44077geo a geo:Geometry ;
     geo:asWKT "POINT(4.85250268730243 52.3570435554619)"^^geo:wktLiteral .
 
-g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_578F8DDAB3DF943E5geo a geo:Geometry ;
+g13set:psychologie_en_seksuologiepraktijk_reichling_de_jong_59AF9FE80505A4F52geo a geo:Geometry ;
     geo:asWKT "POINT(4.88721174869219 52.3772468566837)"^^geo:wktLiteral .
 
-g13set:psychologiepraktijk_van_tilburg_1FA3FF47C64BD439Ageo a geo:Geometry ;
+g13set:psychologiepraktijk_van_tilburg_134BB822D66784EB4geo a geo:Geometry ;
     geo:asWKT "POINT(4.8747938263093 52.3499968819164)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_baanbrekend_1B8FB11B464934C20geo a geo:Geometry ;
+g13set:psychotherapiepraktijk_baanbrekend_189C62812FD5C4D88geo a geo:Geometry ;
     geo:asWKT "POINT(4.94112475624311 52.3537886334998)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_boers_stoll_2C1C4FEE1B798460Dgeo a geo:Geometry ;
+g13set:psychotherapiepraktijk_boers_stoll_2FDD8626395D3450Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.83624148817536 52.3543984813029)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_fels_1B77F82BE6C63488Bgeo a geo:Geometry ;
+g13set:psychotherapiepraktijk_fels_1AB8C9A3743E043DAgeo a geo:Geometry ;
     geo:asWKT "POINT(4.88310884529111 52.3853658097278)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_kerkstraat_18D18D04761A04923geo a geo:Geometry ;
+g13set:psychotherapiepraktijk_kerkstraat_13CDC1E482B8E412Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89482057865867 52.3626469770023)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_leo_goetstouwers_2CAFABA73591A4036geo a geo:Geometry ;
+g13set:psychotherapiepraktijk_leo_goetstouwers_276EAF3304870458Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.94176813559006 52.3979025678126)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_living_history_1A6A2D351112240CAgeo a geo:Geometry ;
+g13set:psychotherapiepraktijk_living_history_1776F422FCB4047E1geo a geo:Geometry ;
     geo:asWKT "POINT(4.87009285330376 52.3768228151066)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_marcel_holtslag_1A1C512BB129B4287geo a geo:Geometry ;
+g13set:psychotherapiepraktijk_marcel_holtslag_14B8B3203B31D432Ageo a geo:Geometry ;
     geo:asWKT "POINT(4.91887641126339 52.3770797285167)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_peter_dekker_1BEBAAF144D5941DDgeo a geo:Geometry ;
+g13set:psychotherapiepraktijk_peter_dekker_17D9231F21AFC47F5geo a geo:Geometry ;
     geo:asWKT "POINT(4.88640900471472 52.3690017325653)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_sinteze_29672E31A91FB4161geo a geo:Geometry ;
+g13set:psychotherapiepraktijk_sinteze_2FE772702417E4830geo a geo:Geometry ;
     geo:asWKT "POINT(4.92920995675088 52.367638134004)"^^geo:wktLiteral .
 
-g13set:psychotherapiepraktijk_ter_haar_1BEFBF89C03C1468Egeo a geo:Geometry ;
+g13set:psychotherapiepraktijk_ter_haar_131D103AB19B34A4Cgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89614279431077 52.3704355990682)"^^geo:wktLiteral .
 
-g13set:puntp_volwassenen_4614EBFB386F14796geo a geo:Geometry ;
+g13set:puntp_volwassenen_401079F3E374241FEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.91101959357631 52.3620209535306)"^^geo:wktLiteral .
 
-g13set:puntp_volwassenen_576A7F8F784A8406Cgeo a geo:Geometry ;
+g13set:puntp_volwassenen_5F6F7F35477134EBEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89473619464938 52.404546992831)"^^geo:wktLiteral .
 
-g13set:pychotherapiepraktijk_jordaan_2AABC3EC4CDAF4B30geo a geo:Geometry ;
+g13set:pychotherapiepraktijk_jordaan_2615944F297324DF5geo a geo:Geometry ;
     geo:asWKT "POINT(4.8837554085287 52.3776995728738)"^^geo:wktLiteral .
 
-g13set:pychotherapiepraktijk_jordaan_36975914434C24C58geo a geo:Geometry ;
+g13set:pychotherapiepraktijk_jordaan_3EDAF7AED6C824CDEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.88209734278334 52.3762814418009)"^^geo:wktLiteral .
 
-g13set:richting_in_relatiesF037AC6E276A43F5geo a geo:Geometry ;
+g13set:richting_in_relatiesFD446EB1084F4BC7geo a geo:Geometry ;
     geo:asWKT "POINT(4.89431366541414 52.3566498168972)"^^geo:wktLiteral .
 
-g13set:stichting_secret_garden394DAD4CF9364356geo a geo:Geometry ;
+g13set:stichting_secret_garden48FF2534988E4AA6geo a geo:Geometry ;
     geo:asWKT "POINT(4.90423665123218 52.3661008635734)"^^geo:wktLiteral .
 
-g13set:talk_touch_and_body_explorations187AFA348A294FE6geo a geo:Geometry ;
+g13set:talk_touch_and_body_explorations8884A0BF79BB4815geo a geo:Geometry ;
     geo:asWKT "POINT(4.85436900892146 52.3532052079227)"^^geo:wktLiteral .
 
-g13set:transgenders_amsterdam48FB913297B14F0Cgeo a geo:Geometry ;
+g13set:transgenders_amsterdam61A27A274E764F6Cgeo a geo:Geometry ;
     geo:asWKT "POINT(4.87968518771488 52.3778889153558)"^^geo:wktLiteral .
 
-g13set:transvisie_zorg_1497DAF86FAED434Egeo a geo:Geometry ;
+g13set:transvisie_zorg_12889D6D562504072geo a geo:Geometry ;
     geo:asWKT "POINT(4.90767112130932 52.3607761200273)"^^geo:wktLiteral .
 
-g13set:veilige_havenD07ED881B3994911geo a geo:Geometry ;
+g13set:veilige_haven744C07546CB64A6Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89891472055574 52.3707346695872)"^^geo:wktLiteral .
 
-g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1ECDD40D8209C4F8Ageo a geo:Geometry ;
+g13set:wilfried_sluys_relatie_en_gestalttherapie_amsterdam_en_omgeving_1F301A309B9F4499Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.96007296592279 52.5035425746909)"^^geo:wktLiteral .
 
-g13set:zocieteit_vereniging_voor_homomannen78A780ADB3C84BE6geo a geo:Geometry ;
+g13set:zocieteit_vereniging_voor_homomannenA6E51D30F44D4874geo a geo:Geometry ;
     geo:asWKT "POINT(4.84458454261457 52.3563334410551)"^^geo:wktLiteral .
 

@@ -14,7 +14,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-g13set:ago_zwembad_diemenF0FC01A2A76A4DA4 a g13vocab:instantie,
+g13set:ago_zwembad_diemen9BE289649D10455F a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "AGO Zwembad Diemen"^^xsd:string ;
     dbo:PostalCode "1111 PT"^^xsd:string ;
@@ -27,14 +27,14 @@ g13set:ago_zwembad_diemenF0FC01A2A76A4DA4 a g13vocab:instantie,
     schema:PostalAddress "Kriekenoord 17"^^xsd:string ;
     schema:WebSite "http://www.agozwembad.nl"^^xsd:string ;
     schema:postalCode "1111 PT"^^xsd:string ;
-    geo:hasGeometry g13set:ago_zwembad_diemenF0FC01A2A76A4DA4geo ;
+    geo:hasGeometry g13set:ago_zwembad_diemen9BE289649D10455Fgeo ;
     rdfs:seeAlso "http://www.agozwembad.nl"^^xsd:string ;
     wgs:lat "52.3365841259384"^^xsd:float ;
     wgs:long "4.97502660871402"^^xsd:float ;
     vcard:hasAddress "Kriekenoord 17"^^xsd:string ;
     vcard:hasPostalCode "1111 PT"^^xsd:string .
 
-g13set:amstelbadFCDD43EE621447F3 a g13vocab:instantie,
+g13set:amstelbadF3371E7B7BFD461C a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Amstelbad"^^xsd:string ;
     dbo:PostalCode "1191 EB"^^xsd:string ;
@@ -47,14 +47,14 @@ g13set:amstelbadFCDD43EE621447F3 a g13vocab:instantie,
     schema:PostalAddress "Wethouder Koolhaasweg 10"^^xsd:string ;
     schema:WebSite "http://www.amstelbad.nl"^^xsd:string ;
     schema:postalCode "1191 EB"^^xsd:string ;
-    geo:hasGeometry g13set:amstelbadFCDD43EE621447F3geo ;
+    geo:hasGeometry g13set:amstelbadF3371E7B7BFD461Cgeo ;
     rdfs:seeAlso "http://www.amstelbad.nl"^^xsd:string ;
     wgs:lat "52.3025599847525"^^xsd:float ;
     wgs:long "4.9208204994718"^^xsd:float ;
     vcard:hasAddress "Wethouder Koolhaasweg 10"^^xsd:string ;
     vcard:hasPostalCode "1191 EB"^^xsd:string .
 
-g13set:amstelborgh_borchland803C2FDDA97342C8 a g13vocab:instantie,
+g13set:amstelborgh_borchland999A7A62BD7F42FB a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Amstelborgh/Borchland"^^xsd:string ;
     dbo:PostalCode "1114 BD"^^xsd:string ;
@@ -67,14 +67,14 @@ g13set:amstelborgh_borchland803C2FDDA97342C8 a g13vocab:instantie,
     schema:PostalAddress "Borchlandweg 6-10"^^xsd:string ;
     schema:WebSite "http://www.borchland.nl"^^xsd:string ;
     schema:postalCode "1114 BD"^^xsd:string ;
-    geo:hasGeometry g13set:amstelborgh_borchland803C2FDDA97342C8geo ;
+    geo:hasGeometry g13set:amstelborgh_borchland999A7A62BD7F42FBgeo ;
     rdfs:seeAlso "http://www.borchland.nl"^^xsd:string ;
     wgs:lat "52.315827562928"^^xsd:float ;
     wgs:long "4.92762633362491"^^xsd:float ;
     vcard:hasAddress "Borchlandweg 6-10"^^xsd:string ;
     vcard:hasPostalCode "1114 BD"^^xsd:string .
 
-g13set:amstelcampusA837F3B2BF2A40AE a g13vocab:instantie,
+g13set:amstelcampusD9B431BBE7DB46B1 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Amstelcampus"^^xsd:string ;
     dbo:PostalCode "1091 AN"^^xsd:string ;
@@ -87,14 +87,14 @@ g13set:amstelcampusA837F3B2BF2A40AE a g13vocab:instantie,
     schema:PostalAddress "Tweede Boerhaavestraat 10"^^xsd:string ;
     schema:WebSite "http://www.usc.uva.nl"^^xsd:string ;
     schema:postalCode "1091 AN"^^xsd:string ;
-    geo:hasGeometry g13set:amstelcampusA837F3B2BF2A40AEgeo ;
+    geo:hasGeometry g13set:amstelcampusD9B431BBE7DB46B1geo ;
     rdfs:seeAlso "http://www.usc.uva.nl"^^xsd:string ;
     wgs:lat "52.3586335289101"^^xsd:float ;
     wgs:long "4.91002037991248"^^xsd:float ;
     vcard:hasAddress "Tweede Boerhaavestraat 10"^^xsd:string ;
     vcard:hasPostalCode "1091 AN"^^xsd:string .
 
-g13set:apollohal_145BE2A4E17F2449C a g13vocab:instantie,
+g13set:apollohal_1834F3BE1B8094267 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Apollohal"^^xsd:string ;
     dbo:PostalCode "1077 BA"^^xsd:string ;
@@ -107,14 +107,14 @@ g13set:apollohal_145BE2A4E17F2449C a g13vocab:instantie,
     schema:PostalAddress "Apollolaan 4"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1077 BA"^^xsd:string ;
-    geo:hasGeometry g13set:apollohal_145BE2A4E17F2449Cgeo ;
+    geo:hasGeometry g13set:apollohal_1834F3BE1B8094267geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3480699452413"^^xsd:float ;
     wgs:long "4.88444366331479"^^xsd:float ;
     vcard:hasAddress "Apollolaan 4"^^xsd:string ;
     vcard:hasPostalCode "1077 BA"^^xsd:string .
 
-g13set:bijlmer_sportcentrum9BF5840824E64338 a g13vocab:instantie,
+g13set:bijlmer_sportcentrum330113EA130141CE a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
     dbo:PostalCode "1102 DR"^^xsd:string ;
@@ -127,14 +127,14 @@ g13set:bijlmer_sportcentrum9BF5840824E64338 a g13vocab:instantie,
     schema:PostalAddress "Anton de Komplein 157"^^xsd:string ;
     schema:WebSite "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string ;
     schema:postalCode "1102 DR"^^xsd:string ;
-    geo:hasGeometry g13set:bijlmer_sportcentrum9BF5840824E64338geo ;
+    geo:hasGeometry g13set:bijlmer_sportcentrum330113EA130141CEgeo ;
     rdfs:seeAlso "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string ;
     wgs:lat "52.3154432"^^xsd:float ;
     wgs:long "4.958035"^^xsd:float ;
     vcard:hasAddress "Anton de Komplein 157"^^xsd:string ;
     vcard:hasPostalCode "1102 DR"^^xsd:string .
 
-g13set:bijlmer_sportcentrum_3492E44466BC5464B a g13vocab:instantie,
+g13set:bijlmer_sportcentrum_3AA6B08F659734A1F a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Bijlmer Sportcentrum"^^xsd:string ;
     dbo:PostalCode "1102 DR"^^xsd:string ;
@@ -147,14 +147,14 @@ g13set:bijlmer_sportcentrum_3492E44466BC5464B a g13vocab:instantie,
     schema:PostalAddress "Anton de Komplein 157"^^xsd:string ;
     schema:WebSite "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string ;
     schema:postalCode "1102 DR"^^xsd:string ;
-    geo:hasGeometry g13set:bijlmer_sportcentrum_3492E44466BC5464Bgeo ;
+    geo:hasGeometry g13set:bijlmer_sportcentrum_3AA6B08F659734A1Fgeo ;
     rdfs:seeAlso "https://www.optisport.nl/bijlmersportcentrum"^^xsd:string ;
     wgs:lat "52.3154432"^^xsd:float ;
     wgs:long "4.958035"^^xsd:float ;
     vcard:hasAddress "Anton de Komplein 157"^^xsd:string ;
     vcard:hasPostalCode "1102 DR"^^xsd:string .
 
-g13set:blaashal_gustav_mahlerEB1BCCD3FE224C0A a g13vocab:instantie,
+g13set:blaashal_gustav_mahler40FCB41A9DD6419D a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Blaashal Gustav Mahler"^^xsd:string ;
     dbo:PostalCode "1081 LB"^^xsd:string ;
@@ -167,14 +167,14 @@ g13set:blaashal_gustav_mahlerEB1BCCD3FE224C0A a g13vocab:instantie,
     schema:PostalAddress "Gustav Mahlerlaan 2920"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1081 LB"^^xsd:string ;
-    geo:hasGeometry g13set:blaashal_gustav_mahlerEB1BCCD3FE224C0Ageo ;
+    geo:hasGeometry g13set:blaashal_gustav_mahler40FCB41A9DD6419Dgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3368696481677"^^xsd:float ;
     wgs:long "4.86782993152642"^^xsd:float ;
     vcard:hasAddress "Gustav Mahlerlaan 2920"^^xsd:string ;
     vcard:hasPostalCode "1081 LB"^^xsd:string .
 
-g13set:bredius367F179280BD4A2C a g13vocab:instantie,
+g13set:brediusC2A7B2255AAF46DE a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Bredius"^^xsd:string ;
     dbo:PostalCode "1013 ZX"^^xsd:string ;
@@ -187,14 +187,14 @@ g13set:bredius367F179280BD4A2C a g13vocab:instantie,
     schema:PostalAddress "Spaarndammerdijk 306"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1013 ZX"^^xsd:string ;
-    geo:hasGeometry g13set:bredius367F179280BD4A2Cgeo ;
+    geo:hasGeometry g13set:brediusC2A7B2255AAF46DEgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3924717160644"^^xsd:float ;
     wgs:long "4.8683383115497"^^xsd:float ;
     vcard:hasAddress "Spaarndammerdijk 306"^^xsd:string ;
     vcard:hasPostalCode "1013 ZX"^^xsd:string .
 
-g13set:david_lloyd_2EF320B1F7B5B4176 a g13vocab:instantie,
+g13set:david_lloyd_259355ACFEA0944E7 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "David Lloyd"^^xsd:string ;
     dbo:PostalCode "1054 LK"^^xsd:string ;
@@ -207,14 +207,14 @@ g13set:david_lloyd_2EF320B1F7B5B4176 a g13vocab:instantie,
     schema:PostalAddress "Overtoom 557"^^xsd:string ;
     schema:WebSite "http://www.davidlloyd.nl"^^xsd:string ;
     schema:postalCode "1054 LK"^^xsd:string ;
-    geo:hasGeometry g13set:david_lloyd_2EF320B1F7B5B4176geo ;
+    geo:hasGeometry g13set:david_lloyd_259355ACFEA0944E7geo ;
     rdfs:seeAlso "http://www.davidlloyd.nl"^^xsd:string ;
     wgs:lat "52.3576162311994"^^xsd:float ;
     wgs:long "4.85593072171155"^^xsd:float ;
     vcard:hasAddress "Overtoom 557"^^xsd:string ;
     vcard:hasPostalCode "1054 LK"^^xsd:string .
 
-g13set:de_breek16589838E1D94DA3 a g13vocab:instantie,
+g13set:de_breek3DF2D4B05D0C4506 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "De Breek"^^xsd:string ;
     dbo:PostalCode "1024 LK"^^xsd:string ;
@@ -227,14 +227,14 @@ g13set:de_breek16589838E1D94DA3 a g13vocab:instantie,
     schema:PostalAddress "Sportpark 7"^^xsd:string ;
     schema:WebSite "http://www.debreek.nl"^^xsd:string ;
     schema:postalCode "1024 LK"^^xsd:string ;
-    geo:hasGeometry g13set:de_breek16589838E1D94DA3geo ;
+    geo:hasGeometry g13set:de_breek3DF2D4B05D0C4506geo ;
     rdfs:seeAlso "http://www.debreek.nl"^^xsd:string ;
     wgs:lat "52.4309747956077"^^xsd:float ;
     wgs:long "4.90842546038853"^^xsd:float ;
     vcard:hasAddress "Sportpark 7"^^xsd:string ;
     vcard:hasPostalCode "1024 LK"^^xsd:string .
 
-g13set:de_mirandabad809D723EB5A34F37 a g13vocab:instantie,
+g13set:de_mirandabadAE86F44A52D549FC a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "De Mirandabad"^^xsd:string ;
     dbo:PostalCode "1079 PA"^^xsd:string ;
@@ -247,14 +247,14 @@ g13set:de_mirandabad809D723EB5A34F37 a g13vocab:instantie,
     schema:PostalAddress "De Mirandalaan 9"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1079 PA"^^xsd:string ;
-    geo:hasGeometry g13set:de_mirandabad809D723EB5A34F37geo ;
+    geo:hasGeometry g13set:de_mirandabadAE86F44A52D549FCgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3387341626056"^^xsd:float ;
     wgs:long "4.90227461562702"^^xsd:float ;
     vcard:hasAddress "De Mirandalaan 9"^^xsd:string ;
     vcard:hasPostalCode "1079 PA"^^xsd:string .
 
-g13set:flevoparkbad_236FB14EE3AEE4008 a g13vocab:instantie,
+g13set:flevoparkbad_2282C9727867A4E73 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Flevoparkbad"^^xsd:string ;
     dbo:PostalCode "1095 DH"^^xsd:string ;
@@ -267,14 +267,14 @@ g13set:flevoparkbad_236FB14EE3AEE4008 a g13vocab:instantie,
     schema:PostalAddress "Insulindeweg 1002"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1095 DH"^^xsd:string ;
-    geo:hasGeometry g13set:flevoparkbad_236FB14EE3AEE4008geo ;
+    geo:hasGeometry g13set:flevoparkbad_2282C9727867A4E73geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3649303332444"^^xsd:float ;
     wgs:long "4.95185027116138"^^xsd:float ;
     vcard:hasAddress "Insulindeweg 1002"^^xsd:string ;
     vcard:hasPostalCode "1095 DH"^^xsd:string .
 
-g13set:frans_otten_stadion_33DAED4590EF944A4 a g13vocab:instantie,
+g13set:frans_otten_stadion_33E847E6FEF9B4083 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Frans Otten stadion"^^xsd:string ;
     dbo:PostalCode "1076 CV"^^xsd:string ;
@@ -287,14 +287,14 @@ g13set:frans_otten_stadion_33DAED4590EF944A4 a g13vocab:instantie,
     schema:PostalAddress "IJsbaanpad 43"^^xsd:string ;
     schema:WebSite "http://www.fransottenstadion.nl"^^xsd:string ;
     schema:postalCode "1076 CV"^^xsd:string ;
-    geo:hasGeometry g13set:frans_otten_stadion_33DAED4590EF944A4geo ;
+    geo:hasGeometry g13set:frans_otten_stadion_33E847E6FEF9B4083geo ;
     rdfs:seeAlso "http://www.fransottenstadion.nl"^^xsd:string ;
     wgs:lat "52.3391132721118"^^xsd:float ;
     wgs:long "4.85059092919467"^^xsd:float ;
     vcard:hasAddress "IJsbaanpad 43"^^xsd:string ;
     vcard:hasPostalCode "1076 CV"^^xsd:string .
 
-g13set:friendship_sports_centre_2FFA3F6706CD9479D a g13vocab:instantie,
+g13set:friendship_sports_centre_281506E0BF26E46F9 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Friendship Sports Centre"^^xsd:string ;
     dbo:PostalCode "1027 ED"^^xsd:string ;
@@ -307,14 +307,14 @@ g13set:friendship_sports_centre_2FFA3F6706CD9479D a g13vocab:instantie,
     schema:PostalAddress "Beemsterstraat 652"^^xsd:string ;
     schema:WebSite "http://www.friendshipsc.nl"^^xsd:string ;
     schema:postalCode "1027 ED"^^xsd:string ;
-    geo:hasGeometry g13set:friendship_sports_centre_2FFA3F6706CD9479Dgeo ;
+    geo:hasGeometry g13set:friendship_sports_centre_281506E0BF26E46F9geo ;
     rdfs:seeAlso "http://www.friendshipsc.nl"^^xsd:string ;
     wgs:lat "52.4002520238461"^^xsd:float ;
     wgs:long "4.9598468818715"^^xsd:float ;
     vcard:hasAddress "Beemsterstraat 652"^^xsd:string ;
     vcard:hasPostalCode "1027 ED"^^xsd:string .
 
-g13set:friendship_sports_centre_34036AFAE71AC4A53 a g13vocab:instantie,
+g13set:friendship_sports_centre_3EE7B5839B76F47EC a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Friendship Sports Centre"^^xsd:string ;
     dbo:PostalCode "1027 ED"^^xsd:string ;
@@ -327,14 +327,14 @@ g13set:friendship_sports_centre_34036AFAE71AC4A53 a g13vocab:instantie,
     schema:PostalAddress "Beemsterstraat 652"^^xsd:string ;
     schema:WebSite "http://www.friendshipsc.nl"^^xsd:string ;
     schema:postalCode "1027 ED"^^xsd:string ;
-    geo:hasGeometry g13set:friendship_sports_centre_34036AFAE71AC4A53geo ;
+    geo:hasGeometry g13set:friendship_sports_centre_3EE7B5839B76F47ECgeo ;
     rdfs:seeAlso "http://www.friendshipsc.nl"^^xsd:string ;
     wgs:lat "52.4002520238461"^^xsd:float ;
     wgs:long "4.9598468818715"^^xsd:float ;
     vcard:hasAddress "Beemsterstraat 652"^^xsd:string ;
     vcard:hasPostalCode "1027 ED"^^xsd:string .
 
-g13set:het_marnix_216716C25688446D7 a g13vocab:instantie,
+g13set:het_marnix_2002FEF62708E4092 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Het Marnix"^^xsd:string ;
     dbo:PostalCode "1015 ZN"^^xsd:string ;
@@ -347,14 +347,14 @@ g13set:het_marnix_216716C25688446D7 a g13vocab:instantie,
     schema:PostalAddress "Marnixplein 1"^^xsd:string ;
     schema:WebSite "http://www.hetmarnix.nl"^^xsd:string ;
     schema:postalCode "1015 ZN"^^xsd:string ;
-    geo:hasGeometry g13set:het_marnix_216716C25688446D7geo ;
+    geo:hasGeometry g13set:het_marnix_2002FEF62708E4092geo ;
     rdfs:seeAlso "http://www.hetmarnix.nl"^^xsd:string ;
     wgs:lat "52.3779915943609"^^xsd:float ;
     wgs:long "4.87847967626351"^^xsd:float ;
     vcard:hasAddress "Marnixplein 1"^^xsd:string ;
     vcard:hasPostalCode "1015 ZN"^^xsd:string .
 
-g13set:hogendorp_sportcentrum9E00EEB537AF423E a g13vocab:instantie,
+g13set:hogendorp_sportcentrumFFDAEFE05E894F88 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Hogendorp Sportcentrum"^^xsd:string ;
     dbo:PostalCode "1051 CE"^^xsd:string ;
@@ -367,14 +367,14 @@ g13set:hogendorp_sportcentrum9E00EEB537AF423E a g13vocab:instantie,
     schema:PostalAddress "Van Hogendorpstraat 921"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1051 CE"^^xsd:string ;
-    geo:hasGeometry g13set:hogendorp_sportcentrum9E00EEB537AF423Egeo ;
+    geo:hasGeometry g13set:hogendorp_sportcentrumFFDAEFE05E894F88geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3816472196877"^^xsd:float ;
     wgs:long "4.86758372663217"^^xsd:float ;
     vcard:hasAddress "Van Hogendorpstraat 921"^^xsd:string ;
     vcard:hasPostalCode "1051 CE"^^xsd:string .
 
-g13set:matchzo6F4140BF886A4CC4 a g13vocab:instantie,
+g13set:matchzoC25596830A1A4E5F a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "MatchZO"^^xsd:string ;
     dbo:PostalCode "1109 BR"^^xsd:string ;
@@ -387,14 +387,14 @@ g13set:matchzo6F4140BF886A4CC4 a g13vocab:instantie,
     schema:PostalAddress "Stammerlandweg 10"^^xsd:string ;
     schema:WebSite "http://www.matchzo.nl"^^xsd:string ;
     schema:postalCode "1109 BR"^^xsd:string ;
-    geo:hasGeometry g13set:matchzo6F4140BF886A4CC4geo ;
+    geo:hasGeometry g13set:matchzoC25596830A1A4E5Fgeo ;
     rdfs:seeAlso "http://www.matchzo.nl"^^xsd:string ;
     wgs:lat "52.3088144095678"^^xsd:float ;
     wgs:long "5.01467667406912"^^xsd:float ;
     vcard:hasAddress "Stammerlandweg 10"^^xsd:string ;
     vcard:hasPostalCode "1109 BR"^^xsd:string .
 
-g13set:noorderparkbad_1E3437193658E4098 a g13vocab:instantie,
+g13set:noorderparkbad_1C1570E4C9FFD4040 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Noorderparkbad"^^xsd:string ;
     dbo:PostalCode "1032 VS"^^xsd:string ;
@@ -407,14 +407,14 @@ g13set:noorderparkbad_1E3437193658E4098 a g13vocab:instantie,
     schema:PostalAddress "Sneeuwbalweg 5"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1032 VS"^^xsd:string ;
-    geo:hasGeometry g13set:noorderparkbad_1E3437193658E4098geo ;
+    geo:hasGeometry g13set:noorderparkbad_1C1570E4C9FFD4040geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3982696418449"^^xsd:float ;
     wgs:long "4.91872829769865"^^xsd:float ;
     vcard:hasAddress "Sneeuwbalweg 5"^^xsd:string ;
     vcard:hasPostalCode "1032 VS"^^xsd:string .
 
-g13set:sloterparkbad56741D1BBF894922 a g13vocab:instantie,
+g13set:sloterparkbad0517041D68E543E9 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Sloterparkbad"^^xsd:string ;
     dbo:PostalCode "1064 GW"^^xsd:string ;
@@ -427,14 +427,14 @@ g13set:sloterparkbad56741D1BBF894922 a g13vocab:instantie,
     schema:PostalAddress "Pres. Allendelaan 2-4"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1064 GW"^^xsd:string ;
-    geo:hasGeometry g13set:sloterparkbad56741D1BBF894922geo ;
+    geo:hasGeometry g13set:sloterparkbad0517041D68E543E9geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.371698669115"^^xsd:float ;
     wgs:long "4.81513094515367"^^xsd:float ;
     vcard:hasAddress "Pres. Allendelaan 2-4"^^xsd:string ;
     vcard:hasPostalCode "1064 GW"^^xsd:string .
 
-g13set:sportcentrum_calandD7EE9CF1553F4F68 a g13vocab:instantie,
+g13set:sportcentrum_caland40F29227EE9142C8 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sportcentrum Caland"^^xsd:string ;
     dbo:PostalCode "1068 RR"^^xsd:string ;
@@ -447,14 +447,14 @@ g13set:sportcentrum_calandD7EE9CF1553F4F68 a g13vocab:instantie,
     schema:PostalAddress "Eliza van Calcarstraat 2"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1068 RR"^^xsd:string ;
-    geo:hasGeometry g13set:sportcentrum_calandD7EE9CF1553F4F68geo ;
+    geo:hasGeometry g13set:sportcentrum_caland40F29227EE9142C8geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.354439167766"^^xsd:float ;
     wgs:long "4.80713349431224"^^xsd:float ;
     vcard:hasAddress "Eliza van Calcarstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1068 RR"^^xsd:string .
 
-g13set:sportcentrum_de_pijp_2E45A01EA5AFD416B a g13vocab:instantie,
+g13set:sportcentrum_de_pijp_2DB1769714B8845F8 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sportcentrum De Pijp"^^xsd:string ;
     dbo:PostalCode "1072 RD"^^xsd:string ;
@@ -467,14 +467,14 @@ g13set:sportcentrum_de_pijp_2E45A01EA5AFD416B a g13vocab:instantie,
     schema:PostalAddress "Lizzy Ansinghstraat 88"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1072 RD"^^xsd:string ;
-    geo:hasGeometry g13set:sportcentrum_de_pijp_2E45A01EA5AFD416Bgeo ;
+    geo:hasGeometry g13set:sportcentrum_de_pijp_2DB1769714B8845F8geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3497537230203"^^xsd:float ;
     wgs:long "4.89371504249797"^^xsd:float ;
     vcard:hasAddress "Lizzy Ansinghstraat 88"^^xsd:string ;
     vcard:hasPostalCode "1072 RD"^^xsd:string .
 
-g13set:sportcentrum_ookmeerC63C06451BE04A3F a g13vocab:instantie,
+g13set:sportcentrum_ookmeer3C5601B381AD49BF a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sportcentrum Ookmeer"^^xsd:string ;
     dbo:PostalCode "1067 SM"^^xsd:string ;
@@ -487,14 +487,14 @@ g13set:sportcentrum_ookmeerC63C06451BE04A3F a g13vocab:instantie,
     schema:PostalAddress "Dokter Meurerlaan 7"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1067 SM"^^xsd:string ;
-    geo:hasGeometry g13set:sportcentrum_ookmeerC63C06451BE04A3Fgeo ;
+    geo:hasGeometry g13set:sportcentrum_ookmeer3C5601B381AD49BFgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3678604002299"^^xsd:float ;
     wgs:long "4.80397736569512"^^xsd:float ;
     vcard:hasAddress "Dokter Meurerlaan 7"^^xsd:string ;
     vcard:hasPostalCode "1067 SM"^^xsd:string .
 
-g13set:sportcentrum_reade_therapiebadA7E39D02A520413A a g13vocab:instantie,
+g13set:sportcentrum_reade_therapiebad64250432F0B74CBC a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Sportcentrum Reade Therapiebad"^^xsd:string ;
     dbo:PostalCode "1056 AB"^^xsd:string ;
@@ -507,14 +507,14 @@ g13set:sportcentrum_reade_therapiebadA7E39D02A520413A a g13vocab:instantie,
     schema:PostalAddress "Dr. Jan van Breemenstraat 2"^^xsd:string ;
     schema:WebSite ""^^xsd:string ;
     schema:postalCode "1056 AB"^^xsd:string ;
-    geo:hasGeometry g13set:sportcentrum_reade_therapiebadA7E39D02A520413Ageo ;
+    geo:hasGeometry g13set:sportcentrum_reade_therapiebad64250432F0B74CBCgeo ;
     rdfs:seeAlso ""^^xsd:string ;
     wgs:lat "52.3699548817072"^^xsd:float ;
     wgs:long "4.84371304648247"^^xsd:float ;
     vcard:hasAddress "Dr. Jan van Breemenstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1056 AB"^^xsd:string .
 
-g13set:sportfondsenbad_oost_43996A07E072C4BD8 a g13vocab:instantie,
+g13set:sportfondsenbad_oost_4984149F080A24C57 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Sportfondsenbad Oost"^^xsd:string ;
     dbo:PostalCode "1093 NB"^^xsd:string ;
@@ -527,14 +527,14 @@ g13set:sportfondsenbad_oost_43996A07E072C4BD8 a g13vocab:instantie,
     schema:PostalAddress "Land van Cocagneplein 44"^^xsd:string ;
     schema:WebSite "http://www.sportfondsenbadamsterdamoost.nl/"^^xsd:string ;
     schema:postalCode "1093 NB"^^xsd:string ;
-    geo:hasGeometry g13set:sportfondsenbad_oost_43996A07E072C4BD8geo ;
+    geo:hasGeometry g13set:sportfondsenbad_oost_4984149F080A24C57geo ;
     rdfs:seeAlso "http://www.sportfondsenbadamsterdamoost.nl/"^^xsd:string ;
     wgs:lat "52.3566433667375"^^xsd:float ;
     wgs:long "4.9284866522976"^^xsd:float ;
     vcard:hasAddress "Land van Cocagneplein 44"^^xsd:string ;
     vcard:hasPostalCode "1093 NB"^^xsd:string .
 
-g13set:sporthal_aristos3CEA37EAA2B848C8 a g13vocab:instantie,
+g13set:sporthal_aristosF62587AEC1FD4789 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Aristos"^^xsd:string ;
     dbo:PostalCode "1067 MC"^^xsd:string ;
@@ -547,14 +547,14 @@ g13set:sporthal_aristos3CEA37EAA2B848C8 a g13vocab:instantie,
     schema:PostalAddress "Tom Schreursweg 10"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1067 MC"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_aristos3CEA37EAA2B848C8geo ;
+    geo:hasGeometry g13set:sporthal_aristosF62587AEC1FD4789geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3820616789518"^^xsd:float ;
     wgs:long "4.78435881782003"^^xsd:float ;
     vcard:hasAddress "Tom Schreursweg 10"^^xsd:string ;
     vcard:hasPostalCode "1067 MC"^^xsd:string .
 
-g13set:sporthal_blauw_wit_11B9BD2FA80F246C2 a g13vocab:instantie,
+g13set:sporthal_blauw_wit_1803936E042664FD4 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Blauw-Wit"^^xsd:string ;
     dbo:PostalCode "1056 EP"^^xsd:string ;
@@ -567,14 +567,14 @@ g13set:sporthal_blauw_wit_11B9BD2FA80F246C2 a g13vocab:instantie,
     schema:PostalAddress "Joos Banckersweg 18 A"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1056 EP"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_blauw_wit_11B9BD2FA80F246C2geo ;
+    geo:hasGeometry g13set:sporthal_blauw_wit_1803936E042664FD4geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3759306491138"^^xsd:float ;
     wgs:long "4.85735613320338"^^xsd:float ;
     vcard:hasAddress "Joos Banckersweg 18 A"^^xsd:string ;
     vcard:hasPostalCode "1056 EP"^^xsd:string .
 
-g13set:sporthal_calvijn956E439A3BD149BA a g13vocab:instantie,
+g13set:sporthal_calvijnA890F77812BC474D a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Calvijn"^^xsd:string ;
     dbo:PostalCode "1065 KH"^^xsd:string ;
@@ -587,14 +587,14 @@ g13set:sporthal_calvijn956E439A3BD149BA a g13vocab:instantie,
     schema:PostalAddress "Pieter Calandlaan 3"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1065 KH"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_calvijn956E439A3BD149BAgeo ;
+    geo:hasGeometry g13set:sporthal_calvijnA890F77812BC474Dgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3560953151682"^^xsd:float ;
     wgs:long "4.83152227765652"^^xsd:float ;
     vcard:hasAddress "Pieter Calandlaan 3"^^xsd:string ;
     vcard:hasPostalCode "1065 KH"^^xsd:string .
 
-g13set:sporthal_centrum_voor_vrijetijd_cvtB9DD4DE17F164465 a g13vocab:instantie,
+g13set:sporthal_centrum_voor_vrijetijd_cvt6F09710020094CA3 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Centrum voor Vrijetijd (CVT)"^^xsd:string ;
     dbo:PostalCode "1087 EJ"^^xsd:string ;
@@ -607,14 +607,14 @@ g13set:sporthal_centrum_voor_vrijetijd_cvtB9DD4DE17F164465 a g13vocab:instantie,
     schema:PostalAddress "Ed Pelsterpark 8"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1087 EJ"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_centrum_voor_vrijetijd_cvtB9DD4DE17F164465geo ;
+    geo:hasGeometry g13set:sporthal_centrum_voor_vrijetijd_cvt6F09710020094CA3geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3568233685245"^^xsd:float ;
     wgs:long "4.99617026524992"^^xsd:float ;
     vcard:hasAddress "Ed Pelsterpark 8"^^xsd:string ;
     vcard:hasPostalCode "1087 EJ"^^xsd:string .
 
-g13set:sporthal_de_weeren_197D1DC47A3D94485 a g13vocab:instantie,
+g13set:sporthal_de_weeren_1FECD2150677D4A4F a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal De Weeren"^^xsd:string ;
     dbo:PostalCode "1027 ED"^^xsd:string ;
@@ -627,14 +627,14 @@ g13set:sporthal_de_weeren_197D1DC47A3D94485 a g13vocab:instantie,
     schema:PostalAddress "Beemsterstraat 656"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1027 ED"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_de_weeren_197D1DC47A3D94485geo ;
+    geo:hasGeometry g13set:sporthal_de_weeren_1FECD2150677D4A4Fgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.401193887907"^^xsd:float ;
     wgs:long "4.9593382100179"^^xsd:float ;
     vcard:hasAddress "Beemsterstraat 656"^^xsd:string ;
     vcard:hasPostalCode "1027 ED"^^xsd:string .
 
-g13set:sporthal_elzenhagen_134660BE0713E46E6 a g13vocab:instantie,
+g13set:sporthal_elzenhagen_12CD1680E138E4AAE a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Elzenhagen"^^xsd:string ;
     dbo:PostalCode "1025 WK"^^xsd:string ;
@@ -647,14 +647,14 @@ g13set:sporthal_elzenhagen_134660BE0713E46E6 a g13vocab:instantie,
     schema:PostalAddress "J.H. Hisgenpad 1"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1025 WK"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_elzenhagen_134660BE0713E46E6geo ;
+    geo:hasGeometry g13set:sporthal_elzenhagen_12CD1680E138E4AAEgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.4013191119118"^^xsd:float ;
     wgs:long "4.92565860990528"^^xsd:float ;
     vcard:hasAddress "J.H. Hisgenpad 1"^^xsd:string ;
     vcard:hasPostalCode "1025 WK"^^xsd:string .
 
-g13set:sporthal_gaasperdam_4C580035DF91A4E65 a g13vocab:instantie,
+g13set:sporthal_gaasperdam_4076FEE73229C4611 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Gaasperdam"^^xsd:string ;
     dbo:PostalCode "1106 AW"^^xsd:string ;
@@ -667,14 +667,14 @@ g13set:sporthal_gaasperdam_4C580035DF91A4E65 a g13vocab:instantie,
     schema:PostalAddress "Ravenswaaipad 5"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1106 AW"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_gaasperdam_4C580035DF91A4E65geo ;
+    geo:hasGeometry g13set:sporthal_gaasperdam_4076FEE73229C4611geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.2967696"^^xsd:float ;
     wgs:long "4.9782571"^^xsd:float ;
     vcard:hasAddress "Ravenswaaipad 5"^^xsd:string ;
     vcard:hasPostalCode "1106 AW"^^xsd:string .
 
-g13set:sporthal_ijburgFA3616D24C9A46D7 a g13vocab:instantie,
+g13set:sporthal_ijburgFCF7AD72D39B4EB5 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal IJburg"^^xsd:string ;
     dbo:PostalCode "1087 HP"^^xsd:string ;
@@ -687,14 +687,14 @@ g13set:sporthal_ijburgFA3616D24C9A46D7 a g13vocab:instantie,
     schema:PostalAddress "Pampuslaan 1"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1087 HP"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_ijburgFA3616D24C9A46D7geo ;
+    geo:hasGeometry g13set:sporthal_ijburgFCF7AD72D39B4EB5geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3512956678387"^^xsd:float ;
     wgs:long "5.00433549265829"^^xsd:float ;
     vcard:hasAddress "Pampuslaan 1"^^xsd:string ;
     vcard:hasPostalCode "1087 HP"^^xsd:string .
 
-g13set:sporthal_laan_van_spartaan06DBEDB2FDAD475D a g13vocab:instantie,
+g13set:sporthal_laan_van_spartaan02C45E60BD534A93 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Laan van Spartaan"^^xsd:string ;
     dbo:PostalCode "1061 MB"^^xsd:string ;
@@ -707,14 +707,14 @@ g13set:sporthal_laan_van_spartaan06DBEDB2FDAD475D a g13vocab:instantie,
     schema:PostalAddress "Rinus Michelslaan 26"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1061 MB"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_laan_van_spartaan06DBEDB2FDAD475Dgeo ;
+    geo:hasGeometry g13set:sporthal_laan_van_spartaan02C45E60BD534A93geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3733534927739"^^xsd:float ;
     wgs:long "4.83917466277764"^^xsd:float ;
     vcard:hasAddress "Rinus Michelslaan 26"^^xsd:string ;
     vcard:hasPostalCode "1061 MB"^^xsd:string .
 
-g13set:sporthal_oostenburg_171D2FCF6D34542AD a g13vocab:instantie,
+g13set:sporthal_oostenburg_16CA5C494CC1A43E8 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Oostenburg"^^xsd:string ;
     dbo:PostalCode "1018 ND"^^xsd:string ;
@@ -727,14 +727,14 @@ g13set:sporthal_oostenburg_171D2FCF6D34542AD a g13vocab:instantie,
     schema:PostalAddress "Oostenburgergracht 151"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1018 ND"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_oostenburg_171D2FCF6D34542ADgeo ;
+    geo:hasGeometry g13set:sporthal_oostenburg_16CA5C494CC1A43E8geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3680899592476"^^xsd:float ;
     wgs:long "4.92521147894618"^^xsd:float ;
     vcard:hasAddress "Oostenburgergracht 151"^^xsd:string ;
     vcard:hasPostalCode "1018 ND"^^xsd:string .
 
-g13set:sporthal_roc_europaboulevardB1CAF4D918F14E49 a g13vocab:instantie,
+g13set:sporthal_roc_europaboulevard8E2B59C152234238 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal ROC Europaboulevard"^^xsd:string ;
     dbo:PostalCode "1079 PC"^^xsd:string ;
@@ -747,14 +747,14 @@ g13set:sporthal_roc_europaboulevardB1CAF4D918F14E49 a g13vocab:instantie,
     schema:PostalAddress "Europaboulevard 13"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1079 PC"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_roc_europaboulevardB1CAF4D918F14E49geo ;
+    geo:hasGeometry g13set:sporthal_roc_europaboulevard8E2B59C152234238geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3395968401921"^^xsd:float ;
     wgs:long "4.89280289023346"^^xsd:float ;
     vcard:hasAddress "Europaboulevard 13"^^xsd:string ;
     vcard:hasPostalCode "1079 PC"^^xsd:string .
 
-g13set:sporthal_wethouder_verheij_1F70FDEE381C94E77 a g13vocab:instantie,
+g13set:sporthal_wethouder_verheij_1C7BF5608AD2E4996 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Wethouder Verheij"^^xsd:string ;
     dbo:PostalCode "1093 KP"^^xsd:string ;
@@ -767,14 +767,14 @@ g13set:sporthal_wethouder_verheij_1F70FDEE381C94E77 a g13vocab:instantie,
     schema:PostalAddress "Polderweg 300"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1093 KP"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_wethouder_verheij_1F70FDEE381C94E77geo ;
+    geo:hasGeometry g13set:sporthal_wethouder_verheij_1C7BF5608AD2E4996geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3578857482758"^^xsd:float ;
     wgs:long "4.93135099412906"^^xsd:float ;
     vcard:hasAddress "Polderweg 300"^^xsd:string ;
     vcard:hasPostalCode "1093 KP"^^xsd:string .
 
-g13set:sporthal_zeeburg_1070DB606B6B345A7 a g13vocab:instantie,
+g13set:sporthal_zeeburg_192CB5E53B0394803 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthal Zeeburg"^^xsd:string ;
     dbo:PostalCode "1095 DH"^^xsd:string ;
@@ -787,14 +787,14 @@ g13set:sporthal_zeeburg_1070DB606B6B345A7 a g13vocab:instantie,
     schema:PostalAddress "Insulindeweg 1001"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1095 DH"^^xsd:string ;
-    geo:hasGeometry g13set:sporthal_zeeburg_1070DB606B6B345A7geo ;
+    geo:hasGeometry g13set:sporthal_zeeburg_192CB5E53B0394803geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3659419927137"^^xsd:float ;
     wgs:long "4.95130937880119"^^xsd:float ;
     vcard:hasAddress "Insulindeweg 1001"^^xsd:string ;
     vcard:hasPostalCode "1095 DH"^^xsd:string .
 
-g13set:sporthallen_zuid_36BC3E802FD01444B a g13vocab:instantie,
+g13set:sporthallen_zuid_37895960638834B92 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Sporthallen Zuid"^^xsd:string ;
     dbo:PostalCode "1076 EP"^^xsd:string ;
@@ -807,14 +807,14 @@ g13set:sporthallen_zuid_36BC3E802FD01444B a g13vocab:instantie,
     schema:PostalAddress "Burgerweeshuispad 54"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1076 EP"^^xsd:string ;
-    geo:hasGeometry g13set:sporthallen_zuid_36BC3E802FD01444Bgeo ;
+    geo:hasGeometry g13set:sporthallen_zuid_37895960638834B92geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3399792559976"^^xsd:float ;
     wgs:long "4.85410701330591"^^xsd:float ;
     vcard:hasAddress "Burgerweeshuispad 54"^^xsd:string ;
     vcard:hasPostalCode "1076 EP"^^xsd:string .
 
-g13set:sportplaza_de_sporthoeveEFCEE9460E0946D0 a g13vocab:instantie,
+g13set:sportplaza_de_sporthoeve1CA767DD23BA45F2 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "SportPlaza de Sporthoeve"^^xsd:string ;
     dbo:PostalCode "1171 CZ"^^xsd:string ;
@@ -827,14 +827,14 @@ g13set:sportplaza_de_sporthoeveEFCEE9460E0946D0 a g13vocab:instantie,
     schema:PostalAddress "Snelliuslaan 1"^^xsd:string ;
     schema:WebSite "http://www.sportplazanet.nl"^^xsd:string ;
     schema:postalCode "1171 CZ"^^xsd:string ;
-    geo:hasGeometry g13set:sportplaza_de_sporthoeveEFCEE9460E0946D0geo ;
+    geo:hasGeometry g13set:sportplaza_de_sporthoeve1CA767DD23BA45F2geo ;
     rdfs:seeAlso "http://www.sportplazanet.nl"^^xsd:string ;
     wgs:lat "52.3430666855622"^^xsd:float ;
     wgs:long "4.77476973506546"^^xsd:float ;
     vcard:hasAddress "Snelliuslaan 1"^^xsd:string ;
     vcard:hasPostalCode "1171 CZ"^^xsd:string .
 
-g13set:sportplaza_mercatorB767A42F87874763 a g13vocab:instantie,
+g13set:sportplaza_mercator2AC69429DDAB433C a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "SportPlaza Mercator"^^xsd:string ;
     dbo:PostalCode "1056 CB"^^xsd:string ;
@@ -847,14 +847,14 @@ g13set:sportplaza_mercatorB767A42F87874763 a g13vocab:instantie,
     schema:PostalAddress "Jan van Galenstraat 315"^^xsd:string ;
     schema:WebSite "http://www.sportplazamercator.nl"^^xsd:string ;
     schema:postalCode "1056 CB"^^xsd:string ;
-    geo:hasGeometry g13set:sportplaza_mercatorB767A42F87874763geo ;
+    geo:hasGeometry g13set:sportplaza_mercator2AC69429DDAB433Cgeo ;
     rdfs:seeAlso "http://www.sportplazamercator.nl"^^xsd:string ;
     wgs:lat "52.3717453843494"^^xsd:float ;
     wgs:long "4.84609931358316"^^xsd:float ;
     vcard:hasAddress "Jan van Galenstraat 315"^^xsd:string ;
     vcard:hasPostalCode "1056 CB"^^xsd:string .
 
-g13set:swimgymD9B4A80F3EB6405C a g13vocab:instantie,
+g13set:swimgym372B7A1BC96D49F3 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Swimgym"^^xsd:string ;
     dbo:PostalCode "1091 GL"^^xsd:string ;
@@ -867,14 +867,14 @@ g13set:swimgymD9B4A80F3EB6405C a g13vocab:instantie,
     schema:PostalAddress "Wibautstraat 131b"^^xsd:string ;
     schema:WebSite "http://www.swimgym.nl"^^xsd:string ;
     schema:postalCode "1091 GL"^^xsd:string ;
-    geo:hasGeometry g13set:swimgymD9B4A80F3EB6405Cgeo ;
+    geo:hasGeometry g13set:swimgym372B7A1BC96D49F3geo ;
     rdfs:seeAlso "http://www.swimgym.nl"^^xsd:string ;
     wgs:lat "52.3543183260272"^^xsd:float ;
     wgs:long "4.91272884235693"^^xsd:float ;
     vcard:hasAddress "Wibautstraat 131b"^^xsd:string ;
     vcard:hasPostalCode "1091 GL"^^xsd:string .
 
-g13set:tennishal_strandvliet7B4CFF9FBFCA45F1 a g13vocab:instantie,
+g13set:tennishal_strandvliet0C36C1D8B0C546D3 a g13vocab:instantie,
         g13vocab:tennisHall ;
     rdfs:label "Tennishal Strandvliet"^^xsd:string ;
     dbo:PostalCode "1114 BH"^^xsd:string ;
@@ -887,14 +887,14 @@ g13set:tennishal_strandvliet7B4CFF9FBFCA45F1 a g13vocab:instantie,
     schema:PostalAddress "Passage 3"^^xsd:string ;
     schema:WebSite "http://www.tennishalstrandvliet.nl/"^^xsd:string ;
     schema:postalCode "1114 BH"^^xsd:string ;
-    geo:hasGeometry g13set:tennishal_strandvliet7B4CFF9FBFCA45F1geo ;
+    geo:hasGeometry g13set:tennishal_strandvliet0C36C1D8B0C546D3geo ;
     rdfs:seeAlso "http://www.tennishalstrandvliet.nl/"^^xsd:string ;
     wgs:lat "52.3161516"^^xsd:float ;
     wgs:long "4.9373557"^^xsd:float ;
     vcard:hasAddress "Passage 3"^^xsd:string ;
     vcard:hasPostalCode "1114 BH"^^xsd:string .
 
-g13set:universum9E844E482C244286 a g13vocab:instantie,
+g13set:universumF639A282954E48B1 a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Universum"^^xsd:string ;
     dbo:PostalCode "1098 XH"^^xsd:string ;
@@ -907,14 +907,14 @@ g13set:universum9E844E482C244286 a g13vocab:instantie,
     schema:PostalAddress "Science Park 306"^^xsd:string ;
     schema:WebSite "http://www.usc.uva.nl"^^xsd:string ;
     schema:postalCode "1098 XH"^^xsd:string ;
-    geo:hasGeometry g13set:universum9E844E482C244286geo ;
+    geo:hasGeometry g13set:universumF639A282954E48B1geo ;
     rdfs:seeAlso "http://www.usc.uva.nl"^^xsd:string ;
     wgs:lat "52.3556496837939"^^xsd:float ;
     wgs:long "4.95629977047616"^^xsd:float ;
     vcard:hasAddress "Science Park 306"^^xsd:string ;
     vcard:hasPostalCode "1098 XH"^^xsd:string .
 
-g13set:velodrome_sporthal_en_wielerbaan_189CF123AE69F40DD a g13vocab:instantie,
+g13set:velodrome_sporthal_en_wielerbaan_1B0B40E19F79A47AE a g13vocab:instantie,
         g13vocab:sportcentrum ;
     rdfs:label "Velodrome (sporthal en wielerbaan)"^^xsd:string ;
     dbo:PostalCode "1066 CD"^^xsd:string ;
@@ -927,14 +927,14 @@ g13set:velodrome_sporthal_en_wielerbaan_189CF123AE69F40DD a g13vocab:instantie,
     schema:PostalAddress "Sloterweg 1043M"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1066 CD"^^xsd:string ;
-    geo:hasGeometry g13set:velodrome_sporthal_en_wielerbaan_189CF123AE69F40DDgeo ;
+    geo:hasGeometry g13set:velodrome_sporthal_en_wielerbaan_1B0B40E19F79A47AEgeo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.341945940292"^^xsd:float ;
     wgs:long "4.82195642141917"^^xsd:float ;
     vcard:hasAddress "Sloterweg 1043M"^^xsd:string ;
     vcard:hasPostalCode "1066 CD"^^xsd:string .
 
-g13set:victoriabad_weesp2A67234FB1CB4999 a g13vocab:instantie,
+g13set:victoriabad_weesp314C5C7FF67240FA a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Victoriabad Weesp"^^xsd:string ;
     dbo:PostalCode "1383 NC"^^xsd:string ;
@@ -947,14 +947,14 @@ g13set:victoriabad_weesp2A67234FB1CB4999 a g13vocab:instantie,
     schema:PostalAddress "Basisweg 1"^^xsd:string ;
     schema:WebSite "http://www.zwembadweesp.nl"^^xsd:string ;
     schema:postalCode "1383 NC"^^xsd:string ;
-    geo:hasGeometry g13set:victoriabad_weesp2A67234FB1CB4999geo ;
+    geo:hasGeometry g13set:victoriabad_weesp314C5C7FF67240FAgeo ;
     rdfs:seeAlso "http://www.zwembadweesp.nl"^^xsd:string ;
     wgs:lat "52.2983961978405"^^xsd:float ;
     wgs:long "5.02711096870757"^^xsd:float ;
     vcard:hasAddress "Basisweg 1"^^xsd:string ;
     vcard:hasPostalCode "1383 NC"^^xsd:string .
 
-g13set:zuiderbad_1AC9CB374A0DB4BDD a g13vocab:instantie,
+g13set:zuiderbad_1833D0630810B4FC7 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Zuiderbad"^^xsd:string ;
     dbo:PostalCode "1071 ZC"^^xsd:string ;
@@ -967,14 +967,14 @@ g13set:zuiderbad_1AC9CB374A0DB4BDD a g13vocab:instantie,
     schema:PostalAddress "Hobbemastraat 26"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     schema:postalCode "1071 ZC"^^xsd:string ;
-    geo:hasGeometry g13set:zuiderbad_1AC9CB374A0DB4BDDgeo ;
+    geo:hasGeometry g13set:zuiderbad_1833D0630810B4FC7geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/sport/waar-sporten/sporthallen/"^^xsd:string ;
     wgs:lat "52.3586732124068"^^xsd:float ;
     wgs:long "4.88602639199345"^^xsd:float ;
     vcard:hasAddress "Hobbemastraat 26"^^xsd:string ;
     vcard:hasPostalCode "1071 ZC"^^xsd:string .
 
-g13set:zwembad_de_meerkamp4FA9736C490C4180 a g13vocab:instantie,
+g13set:zwembad_de_meerkamp3BC543EA01804DC6 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Zwembad De Meerkamp"^^xsd:string ;
     dbo:PostalCode "1185 LN"^^xsd:string ;
@@ -987,14 +987,14 @@ g13set:zwembad_de_meerkamp4FA9736C490C4180 a g13vocab:instantie,
     schema:PostalAddress "Van der Hooplaan 239"^^xsd:string ;
     schema:WebSite "http://www.meerkamp.nl"^^xsd:string ;
     schema:postalCode "1185 LN"^^xsd:string ;
-    geo:hasGeometry g13set:zwembad_de_meerkamp4FA9736C490C4180geo ;
+    geo:hasGeometry g13set:zwembad_de_meerkamp3BC543EA01804DC6geo ;
     rdfs:seeAlso "http://www.meerkamp.nl"^^xsd:string ;
     wgs:lat "52.2884276827045"^^xsd:float ;
     wgs:long "4.85262528716609"^^xsd:float ;
     vcard:hasAddress "Van der Hooplaan 239"^^xsd:string ;
     vcard:hasPostalCode "1185 LN"^^xsd:string .
 
-g13set:zwembad_de_werfCF364068B3B84AA1 a g13vocab:instantie,
+g13set:zwembad_de_werf671D60CBEA31414F a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Zwembad De Werf"^^xsd:string ;
     dbo:PostalCode "1033 PK"^^xsd:string ;
@@ -1007,14 +1007,14 @@ g13set:zwembad_de_werfCF364068B3B84AA1 a g13vocab:instantie,
     schema:PostalAddress "Klinkerweg 75"^^xsd:string ;
     schema:WebSite "https://www.oerbron.nl/zwemmen/de-zwembaden/de-werf"^^xsd:string ;
     schema:postalCode "1033 PK"^^xsd:string ;
-    geo:hasGeometry g13set:zwembad_de_werfCF364068B3B84AA1geo ;
+    geo:hasGeometry g13set:zwembad_de_werf671D60CBEA31414Fgeo ;
     rdfs:seeAlso "https://www.oerbron.nl/zwemmen/de-zwembaden/de-werf"^^xsd:string ;
     wgs:lat "52.4070753949463"^^xsd:float ;
     wgs:long "4.89542812435133"^^xsd:float ;
     vcard:hasAddress "Klinkerweg 75"^^xsd:string ;
     vcard:hasPostalCode "1033 PK"^^xsd:string .
 
-g13set:zwembad_drostenburg332DC8F346044B94 a g13vocab:instantie,
+g13set:zwembad_drostenburg0FC813058A6243AD a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Zwembad Drostenburg"^^xsd:string ;
     dbo:PostalCode "1102 AB"^^xsd:string ;
@@ -1027,14 +1027,14 @@ g13set:zwembad_drostenburg332DC8F346044B94 a g13vocab:instantie,
     schema:PostalAddress "Drostenburg 1-4"^^xsd:string ;
     schema:WebSite "http://www.orion.nl"^^xsd:string ;
     schema:postalCode "1102 AB"^^xsd:string ;
-    geo:hasGeometry g13set:zwembad_drostenburg332DC8F346044B94geo ;
+    geo:hasGeometry g13set:zwembad_drostenburg0FC813058A6243ADgeo ;
     rdfs:seeAlso "http://www.orion.nl"^^xsd:string ;
     wgs:lat "52.3222548"^^xsd:float ;
     wgs:long "4.9468771"^^xsd:float ;
     vcard:hasAddress "Drostenburg 1-4"^^xsd:string ;
     vcard:hasPostalCode "1102 AB"^^xsd:string .
 
-g13set:zwembad_ijburgC404BEF6B4904148 a g13vocab:instantie,
+g13set:zwembad_ijburg73F0C0ED19364992 a g13vocab:instantie,
         g13vocab:swimmingPool ;
     rdfs:label "Zwembad IJburg"^^xsd:string ;
     dbo:PostalCode "1087 LL"^^xsd:string ;
@@ -1047,166 +1047,166 @@ g13set:zwembad_ijburgC404BEF6B4904148 a g13vocab:instantie,
     schema:PostalAddress "F.D. Kahlenbergstraat 66"^^xsd:string ;
     schema:WebSite "http://www.zwembad-ijburg.nl"^^xsd:string ;
     schema:postalCode "1087 LL"^^xsd:string ;
-    geo:hasGeometry g13set:zwembad_ijburgC404BEF6B4904148geo ;
+    geo:hasGeometry g13set:zwembad_ijburg73F0C0ED19364992geo ;
     rdfs:seeAlso "http://www.zwembad-ijburg.nl"^^xsd:string ;
     wgs:lat "52.3484351105465"^^xsd:float ;
     wgs:long "5.00915932078483"^^xsd:float ;
     vcard:hasAddress "F.D. Kahlenbergstraat 66"^^xsd:string ;
     vcard:hasPostalCode "1087 LL"^^xsd:string .
 
-g13set:ago_zwembad_diemenF0FC01A2A76A4DA4geo a geo:Geometry ;
+g13set:ago_zwembad_diemen9BE289649D10455Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.97502660871402 52.3365841259384)"^^geo:wktLiteral .
 
-g13set:amstelbadFCDD43EE621447F3geo a geo:Geometry ;
+g13set:amstelbadF3371E7B7BFD461Cgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9208204994718 52.3025599847525)"^^geo:wktLiteral .
 
-g13set:amstelborgh_borchland803C2FDDA97342C8geo a geo:Geometry ;
+g13set:amstelborgh_borchland999A7A62BD7F42FBgeo a geo:Geometry ;
     geo:asWKT "POINT(4.92762633362491 52.315827562928)"^^geo:wktLiteral .
 
-g13set:amstelcampusA837F3B2BF2A40AEgeo a geo:Geometry ;
+g13set:amstelcampusD9B431BBE7DB46B1geo a geo:Geometry ;
     geo:asWKT "POINT(4.91002037991248 52.3586335289101)"^^geo:wktLiteral .
 
-g13set:apollohal_145BE2A4E17F2449Cgeo a geo:Geometry ;
+g13set:apollohal_1834F3BE1B8094267geo a geo:Geometry ;
     geo:asWKT "POINT(4.88444366331479 52.3480699452413)"^^geo:wktLiteral .
 
-g13set:bijlmer_sportcentrum9BF5840824E64338geo a geo:Geometry ;
+g13set:bijlmer_sportcentrum330113EA130141CEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.958035 52.3154432)"^^geo:wktLiteral .
 
-g13set:bijlmer_sportcentrum_3492E44466BC5464Bgeo a geo:Geometry ;
+g13set:bijlmer_sportcentrum_3AA6B08F659734A1Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.958035 52.3154432)"^^geo:wktLiteral .
 
-g13set:blaashal_gustav_mahlerEB1BCCD3FE224C0Ageo a geo:Geometry ;
+g13set:blaashal_gustav_mahler40FCB41A9DD6419Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.86782993152642 52.3368696481677)"^^geo:wktLiteral .
 
-g13set:bredius367F179280BD4A2Cgeo a geo:Geometry ;
+g13set:brediusC2A7B2255AAF46DEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.8683383115497 52.3924717160644)"^^geo:wktLiteral .
 
-g13set:david_lloyd_2EF320B1F7B5B4176geo a geo:Geometry ;
+g13set:david_lloyd_259355ACFEA0944E7geo a geo:Geometry ;
     geo:asWKT "POINT(4.85593072171155 52.3576162311994)"^^geo:wktLiteral .
 
-g13set:de_breek16589838E1D94DA3geo a geo:Geometry ;
+g13set:de_breek3DF2D4B05D0C4506geo a geo:Geometry ;
     geo:asWKT "POINT(4.90842546038853 52.4309747956077)"^^geo:wktLiteral .
 
-g13set:de_mirandabad809D723EB5A34F37geo a geo:Geometry ;
+g13set:de_mirandabadAE86F44A52D549FCgeo a geo:Geometry ;
     geo:asWKT "POINT(4.90227461562702 52.3387341626056)"^^geo:wktLiteral .
 
-g13set:flevoparkbad_236FB14EE3AEE4008geo a geo:Geometry ;
+g13set:flevoparkbad_2282C9727867A4E73geo a geo:Geometry ;
     geo:asWKT "POINT(4.95185027116138 52.3649303332444)"^^geo:wktLiteral .
 
-g13set:frans_otten_stadion_33DAED4590EF944A4geo a geo:Geometry ;
+g13set:frans_otten_stadion_33E847E6FEF9B4083geo a geo:Geometry ;
     geo:asWKT "POINT(4.85059092919467 52.3391132721118)"^^geo:wktLiteral .
 
-g13set:friendship_sports_centre_2FFA3F6706CD9479Dgeo a geo:Geometry ;
+g13set:friendship_sports_centre_281506E0BF26E46F9geo a geo:Geometry ;
     geo:asWKT "POINT(4.9598468818715 52.4002520238461)"^^geo:wktLiteral .
 
-g13set:friendship_sports_centre_34036AFAE71AC4A53geo a geo:Geometry ;
+g13set:friendship_sports_centre_3EE7B5839B76F47ECgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9598468818715 52.4002520238461)"^^geo:wktLiteral .
 
-g13set:het_marnix_216716C25688446D7geo a geo:Geometry ;
+g13set:het_marnix_2002FEF62708E4092geo a geo:Geometry ;
     geo:asWKT "POINT(4.87847967626351 52.3779915943609)"^^geo:wktLiteral .
 
-g13set:hogendorp_sportcentrum9E00EEB537AF423Egeo a geo:Geometry ;
+g13set:hogendorp_sportcentrumFFDAEFE05E894F88geo a geo:Geometry ;
     geo:asWKT "POINT(4.86758372663217 52.3816472196877)"^^geo:wktLiteral .
 
-g13set:matchzo6F4140BF886A4CC4geo a geo:Geometry ;
+g13set:matchzoC25596830A1A4E5Fgeo a geo:Geometry ;
     geo:asWKT "POINT(5.01467667406912 52.3088144095678)"^^geo:wktLiteral .
 
-g13set:noorderparkbad_1E3437193658E4098geo a geo:Geometry ;
+g13set:noorderparkbad_1C1570E4C9FFD4040geo a geo:Geometry ;
     geo:asWKT "POINT(4.91872829769865 52.3982696418449)"^^geo:wktLiteral .
 
-g13set:sloterparkbad56741D1BBF894922geo a geo:Geometry ;
+g13set:sloterparkbad0517041D68E543E9geo a geo:Geometry ;
     geo:asWKT "POINT(4.81513094515367 52.371698669115)"^^geo:wktLiteral .
 
-g13set:sportcentrum_calandD7EE9CF1553F4F68geo a geo:Geometry ;
+g13set:sportcentrum_caland40F29227EE9142C8geo a geo:Geometry ;
     geo:asWKT "POINT(4.80713349431224 52.354439167766)"^^geo:wktLiteral .
 
-g13set:sportcentrum_de_pijp_2E45A01EA5AFD416Bgeo a geo:Geometry ;
+g13set:sportcentrum_de_pijp_2DB1769714B8845F8geo a geo:Geometry ;
     geo:asWKT "POINT(4.89371504249797 52.3497537230203)"^^geo:wktLiteral .
 
-g13set:sportcentrum_ookmeerC63C06451BE04A3Fgeo a geo:Geometry ;
+g13set:sportcentrum_ookmeer3C5601B381AD49BFgeo a geo:Geometry ;
     geo:asWKT "POINT(4.80397736569512 52.3678604002299)"^^geo:wktLiteral .
 
-g13set:sportcentrum_reade_therapiebadA7E39D02A520413Ageo a geo:Geometry ;
+g13set:sportcentrum_reade_therapiebad64250432F0B74CBCgeo a geo:Geometry ;
     geo:asWKT "POINT(4.84371304648247 52.3699548817072)"^^geo:wktLiteral .
 
-g13set:sportfondsenbad_oost_43996A07E072C4BD8geo a geo:Geometry ;
+g13set:sportfondsenbad_oost_4984149F080A24C57geo a geo:Geometry ;
     geo:asWKT "POINT(4.9284866522976 52.3566433667375)"^^geo:wktLiteral .
 
-g13set:sporthal_aristos3CEA37EAA2B848C8geo a geo:Geometry ;
+g13set:sporthal_aristosF62587AEC1FD4789geo a geo:Geometry ;
     geo:asWKT "POINT(4.78435881782003 52.3820616789518)"^^geo:wktLiteral .
 
-g13set:sporthal_blauw_wit_11B9BD2FA80F246C2geo a geo:Geometry ;
+g13set:sporthal_blauw_wit_1803936E042664FD4geo a geo:Geometry ;
     geo:asWKT "POINT(4.85735613320338 52.3759306491138)"^^geo:wktLiteral .
 
-g13set:sporthal_calvijn956E439A3BD149BAgeo a geo:Geometry ;
+g13set:sporthal_calvijnA890F77812BC474Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.83152227765652 52.3560953151682)"^^geo:wktLiteral .
 
-g13set:sporthal_centrum_voor_vrijetijd_cvtB9DD4DE17F164465geo a geo:Geometry ;
+g13set:sporthal_centrum_voor_vrijetijd_cvt6F09710020094CA3geo a geo:Geometry ;
     geo:asWKT "POINT(4.99617026524992 52.3568233685245)"^^geo:wktLiteral .
 
-g13set:sporthal_de_weeren_197D1DC47A3D94485geo a geo:Geometry ;
+g13set:sporthal_de_weeren_1FECD2150677D4A4Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9593382100179 52.401193887907)"^^geo:wktLiteral .
 
-g13set:sporthal_elzenhagen_134660BE0713E46E6geo a geo:Geometry ;
+g13set:sporthal_elzenhagen_12CD1680E138E4AAEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.92565860990528 52.4013191119118)"^^geo:wktLiteral .
 
-g13set:sporthal_gaasperdam_4C580035DF91A4E65geo a geo:Geometry ;
+g13set:sporthal_gaasperdam_4076FEE73229C4611geo a geo:Geometry ;
     geo:asWKT "POINT(4.9782571 52.2967696)"^^geo:wktLiteral .
 
-g13set:sporthal_ijburgFA3616D24C9A46D7geo a geo:Geometry ;
+g13set:sporthal_ijburgFCF7AD72D39B4EB5geo a geo:Geometry ;
     geo:asWKT "POINT(5.00433549265829 52.3512956678387)"^^geo:wktLiteral .
 
-g13set:sporthal_laan_van_spartaan06DBEDB2FDAD475Dgeo a geo:Geometry ;
+g13set:sporthal_laan_van_spartaan02C45E60BD534A93geo a geo:Geometry ;
     geo:asWKT "POINT(4.83917466277764 52.3733534927739)"^^geo:wktLiteral .
 
-g13set:sporthal_oostenburg_171D2FCF6D34542ADgeo a geo:Geometry ;
+g13set:sporthal_oostenburg_16CA5C494CC1A43E8geo a geo:Geometry ;
     geo:asWKT "POINT(4.92521147894618 52.3680899592476)"^^geo:wktLiteral .
 
-g13set:sporthal_roc_europaboulevardB1CAF4D918F14E49geo a geo:Geometry ;
+g13set:sporthal_roc_europaboulevard8E2B59C152234238geo a geo:Geometry ;
     geo:asWKT "POINT(4.89280289023346 52.3395968401921)"^^geo:wktLiteral .
 
-g13set:sporthal_wethouder_verheij_1F70FDEE381C94E77geo a geo:Geometry ;
+g13set:sporthal_wethouder_verheij_1C7BF5608AD2E4996geo a geo:Geometry ;
     geo:asWKT "POINT(4.93135099412906 52.3578857482758)"^^geo:wktLiteral .
 
-g13set:sporthal_zeeburg_1070DB606B6B345A7geo a geo:Geometry ;
+g13set:sporthal_zeeburg_192CB5E53B0394803geo a geo:Geometry ;
     geo:asWKT "POINT(4.95130937880119 52.3659419927137)"^^geo:wktLiteral .
 
-g13set:sporthallen_zuid_36BC3E802FD01444Bgeo a geo:Geometry ;
+g13set:sporthallen_zuid_37895960638834B92geo a geo:Geometry ;
     geo:asWKT "POINT(4.85410701330591 52.3399792559976)"^^geo:wktLiteral .
 
-g13set:sportplaza_de_sporthoeveEFCEE9460E0946D0geo a geo:Geometry ;
+g13set:sportplaza_de_sporthoeve1CA767DD23BA45F2geo a geo:Geometry ;
     geo:asWKT "POINT(4.77476973506546 52.3430666855622)"^^geo:wktLiteral .
 
-g13set:sportplaza_mercatorB767A42F87874763geo a geo:Geometry ;
+g13set:sportplaza_mercator2AC69429DDAB433Cgeo a geo:Geometry ;
     geo:asWKT "POINT(4.84609931358316 52.3717453843494)"^^geo:wktLiteral .
 
-g13set:swimgymD9B4A80F3EB6405Cgeo a geo:Geometry ;
+g13set:swimgym372B7A1BC96D49F3geo a geo:Geometry ;
     geo:asWKT "POINT(4.91272884235693 52.3543183260272)"^^geo:wktLiteral .
 
-g13set:tennishal_strandvliet7B4CFF9FBFCA45F1geo a geo:Geometry ;
+g13set:tennishal_strandvliet0C36C1D8B0C546D3geo a geo:Geometry ;
     geo:asWKT "POINT(4.9373557 52.3161516)"^^geo:wktLiteral .
 
-g13set:universum9E844E482C244286geo a geo:Geometry ;
+g13set:universumF639A282954E48B1geo a geo:Geometry ;
     geo:asWKT "POINT(4.95629977047616 52.3556496837939)"^^geo:wktLiteral .
 
-g13set:velodrome_sporthal_en_wielerbaan_189CF123AE69F40DDgeo a geo:Geometry ;
+g13set:velodrome_sporthal_en_wielerbaan_1B0B40E19F79A47AEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.82195642141917 52.341945940292)"^^geo:wktLiteral .
 
-g13set:victoriabad_weesp2A67234FB1CB4999geo a geo:Geometry ;
+g13set:victoriabad_weesp314C5C7FF67240FAgeo a geo:Geometry ;
     geo:asWKT "POINT(5.02711096870757 52.2983961978405)"^^geo:wktLiteral .
 
-g13set:zuiderbad_1AC9CB374A0DB4BDDgeo a geo:Geometry ;
+g13set:zuiderbad_1833D0630810B4FC7geo a geo:Geometry ;
     geo:asWKT "POINT(4.88602639199345 52.3586732124068)"^^geo:wktLiteral .
 
-g13set:zwembad_de_meerkamp4FA9736C490C4180geo a geo:Geometry ;
+g13set:zwembad_de_meerkamp3BC543EA01804DC6geo a geo:Geometry ;
     geo:asWKT "POINT(4.85262528716609 52.2884276827045)"^^geo:wktLiteral .
 
-g13set:zwembad_de_werfCF364068B3B84AA1geo a geo:Geometry ;
+g13set:zwembad_de_werf671D60CBEA31414Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89542812435133 52.4070753949463)"^^geo:wktLiteral .
 
-g13set:zwembad_drostenburg332DC8F346044B94geo a geo:Geometry ;
+g13set:zwembad_drostenburg0FC813058A6243ADgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9468771 52.3222548)"^^geo:wktLiteral .
 
-g13set:zwembad_ijburgC404BEF6B4904148geo a geo:Geometry ;
+g13set:zwembad_ijburg73F0C0ED19364992geo a geo:Geometry ;
     geo:asWKT "POINT(5.00915932078483 52.3484351105465)"^^geo:wktLiteral .
 
