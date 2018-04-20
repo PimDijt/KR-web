@@ -37,7 +37,7 @@ VCARD = Namespace(vcard)
 void = 'http://rdfs.org/ns/void#'
 VOID = Namespace(void)
 
-filenames = ["parkplantsoen.csv", "lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016.csv"]
+filenames = ["parkplantsoen.csv", "lhbt-hulpverlening.csv", "opvoedingsondersteuning.csv", "sporthallen-en-zwembaden-1.csv", "dak-en-thuislozenzorg.csv", "tandartsen.csv", "verpleeg-en-verzorgingshuizen.csv", "zorg-voor-mensen-met-een-beperking.csv", "toegankelijkheid-gebouwen-2-8-2016-2.csv"]
 short = ["prk", "lhbt", "opvo", "spzw", "dakth", "tooth", "verz", "zorbep", "toe"]
 for i in range(len(filenames)):
     print(short[i])
@@ -90,6 +90,7 @@ for i in range(len(filenames)):
         # All set... we are now going to add the triples to our dataset
         rndom = uuid.uuid4().hex[:16].upper()
         if short[i] != "prk":
+            print(row['titel_key'])
             thing = URIRef(to_iri(url+row['titel_key']+rndom))
             thinggeo = URIRef(to_iri(url+row['titel_key']+rndom+'geo'))
             points = row['locatie'][5:].split()
@@ -244,7 +245,11 @@ for i in range(len(filenames)):
             newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/resource/'+row['type']))
             dataset.add((thing, RDF['type'], newClass))
             dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
-            dataset.add((newClass, RDFS['label'], Literal(row['type'], lang="en")))#, datatype=XSD['string'])))
+            dataset.add((newClass, RDFS['label'], Literal(row['type'], lang="nl")))#, datatype=XSD['string'])))
+            if row['type'] != "Huisartsenposten":
+                dataset.add((newClass, RDFS['label'], Literal(row['type_en'], lang="en")))#, datatype=XSD['string'])))
+            else:
+                dataset.add((newClass, RDFS['label'], Literal(row['type_en']+" - Out of office hours", lang="en")))#, datatype=XSD['string'])))
         if short[i] == "opvo":
             substrkg = ["ezond", "pvoed", "OKT"]
             for substr in substrkg:
