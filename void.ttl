@@ -1,4 +1,4 @@
-@prefix : <http://few.vu.nl/~mvr320/KRweb/data-amsterdam.rdf#>
+@prefix : <http://few.vu.nl/~mvr320/KRweb/data-amsterdam.rdf#> .
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix freq: <http://purl.org/cld/freq/> .
@@ -176,18 +176,3 @@
 #Dataset Access
 	void:dataDump <http://few.vu.nl/~mvr320/KRweb/dakth-rdf.trig>;
 	.
-
-# Description of the ChemSpider subset relating to DrugBank
-:chemSpiderDataset_drugbank_subset
-#General Metadata
-	a void:Dataset;
-	dcterms:title "ChemSpider DrugBank Subset"@en;
-	dcterms:description "Data corresponding to DrugBank."@en;
-#Provenance
-	pav:retrievedFrom <http://www.drugbank.ca/system/downloads/current/structures/all.sdf.zip>;
-	pav:retrievedOn "2012-08-02T10:24:06Z"^^xsd:dateTime;
-	pav:retrievedBy <http://www.chemspider.com> ;
-#Dataset Access
-	void:dataDump <https://www.dropbox.com/sh/6zboa8z9i9vrzyl/qcFZzbLM77/DrugBank20120731.zip>;
-	.
-
