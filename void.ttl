@@ -14,8 +14,7 @@
 <http://few.vu.nl/~mvr320/KRweb/data-amsterdam.rdf>
 	a void:DatasetDescription;
 	dcterms:title "A VoID Description of a subset of instances in Amsterdam"@en;
-	dcterms:description 
-		"""This dataset consists of different organisations in Amsterdam with their location both on the web and geographical location and what those organisations provide to riskgroups."@en;
+	dcterms:description "This dataset consists of different organisations in Amsterdam with their location both on the web and geographical location and what those organisations provide to riskgroups."@en;
 	pav:createdBy <http://few.vu.nl/~mvr320/KRweb/group13>;
 	pav:createdOn "2018-04-19T23:48:03Z"^^xsd:dateTime;
 	pav:lastUpdateOn "2018-04-19T23:48:03Z"^^xsd:dateTime;
