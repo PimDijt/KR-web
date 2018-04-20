@@ -121,7 +121,8 @@ _:genid4 a owl:Restriction ;
 	owl:onProperty :providesReintegration ;
 	owl:hasValue :food .
 
-:HomelessAddicts rdfs:subClassOf :FoodProvider .
+:HomelessAddicts rdfs:subClassOf :FoodProvider ;
+	rdfs:label "'Homeless food center'"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/InformationCentre
 
@@ -144,7 +145,7 @@ _:genid5 a owl:Restriction ;
 	owl:hasValue :lhbtIssues .
 
 :LGBTIssues rdfs:subClassOf :InformationCentre ;
-	rdfs:label "LHBT Issues"@en .
+	rdfs:label "LGBT Issues"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/LHBTcoaching
 
@@ -155,7 +156,8 @@ _:genid6 a owl:Restriction ;
 	owl:onProperty :providesCoachingAbout ;
 	owl:hasValue :lhbtIssues .
 
-:LHBTcoaching rdfs:subClassOf :medicalLocation .
+:LHBTcoaching rdfs:subClassOf :medicalLocation ;
+	rdfs:label "LGBT Coaching"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/LivingLocation
 
@@ -352,7 +354,7 @@ _:genid30 a owl:Restriction ;
 	owl:hasValue :childDevelopment .
 
 :childDevelopmentInformationCentre rdfs:subClassOf :InformationCentre ;
-	rdfs:comment "Children development"@en .
+	rdfs:label "Children development"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/daytimeLocation
 
