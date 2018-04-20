@@ -241,7 +241,7 @@ for i in range(len(filenames)):
             else:
                 dataset.add((thing, VOCAB['providesInformationAbout'], VOCAB['elderlyCare']))
         if short[i] == "toe":
-            newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/vocab/'+row['type'].replace("/", "ting")))
+            newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/vocab/'+row['type'].replace("_/_", "__")))
             dataset.add((thing, RDF['type'], newClass))
             dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
             #dataset.add((newClass, RDFS['label'], Literal(row['type'], lang="nl")))#, datatype=XSD['string'])))

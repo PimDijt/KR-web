@@ -14,7 +14,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter1A780FBFB2DF4E5D> a g13vocab:instantie ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter7F68052E87A44949> a g13vocab:instantie ;
     rdfs:label "50|50 Workcenter"^^xsd:string ;
     dbo:PostalCode "1059CE"^^xsd:string ;
     dbo:Website "http://5050-workcenter.nl/"^^xsd:string ;
@@ -29,14 +29,14 @@
     schema:PostalAddress "Helicopterstraat 13"^^xsd:string ;
     schema:WebSite "http://5050-workcenter.nl/"^^xsd:string ;
     schema:postalCode "1059CE"^^xsd:string ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter1A780FBFB2DF4E5Dgeo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter7F68052E87A44949geo> ;
     rdfs:seeAlso "http://5050-workcenter.nl/"^^xsd:string ;
     wgs:lat "52.3413429970878"^^xsd:float ;
     wgs:long "4.84484113957734"^^xsd:float ;
     vcard:hasAddress "Helicopterstraat 13"^^xsd:string ;
     vcard:hasPostalCode "1059CE"^^xsd:string .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_1E077194D416D4425> a g13vocab:instantie ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_10D0D5D717DF643B1> a g13vocab:instantie ;
     rdfs:label "50|50 Workcenter"^^xsd:string ;
     dbo:PostalCode "1104SE"^^xsd:string ;
     dbo:Website "http://5050-workcenter.nl/"^^xsd:string ;
@@ -51,14 +51,14 @@
     schema:PostalAddress "Karspeldreef 1089"^^xsd:string ;
     schema:WebSite "http://5050-workcenter.nl/"^^xsd:string ;
     schema:postalCode "1104SE"^^xsd:string ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_1E077194D416D4425geo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_10D0D5D717DF643B1geo> ;
     rdfs:seeAlso "http://5050-workcenter.nl/"^^xsd:string ;
     wgs:lat "52.3153003814072"^^xsd:float ;
     wgs:long "4.97569185702311"^^xsd:float ;
     vcard:hasAddress "Karspeldreef 1089"^^xsd:string ;
     vcard:hasPostalCode "1104SE"^^xsd:string .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_2B93A67CF7DA04847> a g13vocab:instantie ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_2C2E767361C084A6C> a g13vocab:instantie ;
     rdfs:label "50|50 Workcenter"^^xsd:string ;
     dbo:PostalCode "1097BM"^^xsd:string ;
     dbo:Website "http://5050-workcenter.nl/"^^xsd:string ;
@@ -73,14 +73,14 @@
     schema:PostalAddress "Middenweg 14"^^xsd:string ;
     schema:WebSite "http://5050-workcenter.nl/"^^xsd:string ;
     schema:postalCode "1097BM"^^xsd:string ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_2B93A67CF7DA04847geo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_2C2E767361C084A6Cgeo> ;
     rdfs:seeAlso "http://5050-workcenter.nl/"^^xsd:string ;
     wgs:lat "52.354748001418"^^xsd:float ;
     wgs:long "4.92875584394249"^^xsd:float ;
     vcard:hasAddress "Middenweg 14"^^xsd:string ;
     vcard:hasPostalCode "1097BM"^^xsd:string .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_3F7FA6C9210444284> a g13vocab:instantie ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_377750687B5C6438C> a g13vocab:instantie ;
     rdfs:label "50|50 Workcenter"^^xsd:string ;
     dbo:PostalCode "1025KN"^^xsd:string ;
     dbo:Website "http://5050-workcenter.nl/"^^xsd:string ;
@@ -95,14 +95,14 @@
     schema:PostalAddress "Rode Kruisstraat 24b"^^xsd:string ;
     schema:WebSite "http://5050-workcenter.nl/"^^xsd:string ;
     schema:postalCode "1025KN"^^xsd:string ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_3F7FA6C9210444284geo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_377750687B5C6438Cgeo> ;
     rdfs:seeAlso "http://5050-workcenter.nl/"^^xsd:string ;
     wgs:lat "52.3955340707404"^^xsd:float ;
     wgs:long "4.92874546109189"^^xsd:float ;
     vcard:hasAddress "Rode Kruisstraat 24b"^^xsd:string ;
     vcard:hasPostalCode "1025KN"^^xsd:string .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_4C1A7943E58554DE5> a g13vocab:instantie ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_494CD580461ED4E88> a g13vocab:instantie ;
     rdfs:label "50|50 Workcenter"^^xsd:string ;
     dbo:PostalCode "1019AE"^^xsd:string ;
     dbo:Website "http://5050-workcenter.nl/"^^xsd:string ;
@@ -117,14 +117,14 @@
     schema:PostalAddress "Zeeburgerpad 105"^^xsd:string ;
     schema:WebSite "http://5050-workcenter.nl/"^^xsd:string ;
     schema:postalCode "1019AE"^^xsd:string ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_4C1A7943E58554DE5geo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_494CD580461ED4E88geo> ;
     rdfs:seeAlso "http://5050-workcenter.nl/"^^xsd:string ;
     wgs:lat "52.366856160969"^^xsd:float ;
     wgs:long "4.92721191783484"^^xsd:float ;
     vcard:hasAddress "Zeeburgerpad 105"^^xsd:string ;
     vcard:hasPostalCode "1019AE"^^xsd:string .
 
-g13set:aha_inloophuis_voor_dak_en_thuislozenCD9375B9BCEA44D3 a g13vocab:instantie ;
+g13set:aha_inloophuis_voor_dak_en_thuislozen1A0EAEF24DC4478B a g13vocab:instantie ;
     rdfs:label "AHA Inloophuis voor dak- en thuislozen"^^xsd:string ;
     dbo:PostalCode "1012EP"^^xsd:string ;
     dbo:Website "http://www.aha-dagopvang.nl"^^xsd:string ;
@@ -138,14 +138,14 @@ g13set:aha_inloophuis_voor_dak_en_thuislozenCD9375B9BCEA44D3 a g13vocab:instanti
     schema:PostalAddress "Oudezijds Voorburgwal 125"^^xsd:string ;
     schema:WebSite "http://www.aha-dagopvang.nl"^^xsd:string ;
     schema:postalCode "1012EP"^^xsd:string ;
-    geo:hasGeometry g13set:aha_inloophuis_voor_dak_en_thuislozenCD9375B9BCEA44D3geo ;
+    geo:hasGeometry g13set:aha_inloophuis_voor_dak_en_thuislozen1A0EAEF24DC4478Bgeo ;
     rdfs:seeAlso "http://www.aha-dagopvang.nl"^^xsd:string ;
     wgs:lat "52.3728768729646"^^xsd:float ;
     wgs:long "4.89749611098668"^^xsd:float ;
     vcard:hasAddress "Oudezijds Voorburgwal 125"^^xsd:string ;
     vcard:hasPostalCode "1012EP"^^xsd:string .
 
-g13set:begeleid_wonen_de_vaart0088AA030BB24E14 a g13vocab:instantie ;
+g13set:begeleid_wonen_de_vaartD8EE6A0696EF4556 a g13vocab:instantie ;
     rdfs:label "Begeleid wonen De Vaart"^^xsd:string ;
     dbo:PostalCode "1018MR"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl/"^^xsd:string ;
@@ -160,14 +160,14 @@ g13set:begeleid_wonen_de_vaart0088AA030BB24E14 a g13vocab:instantie ;
     schema:PostalAddress "Oostenburgervoorstraat 2"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl/"^^xsd:string ;
     schema:postalCode "1018MR"^^xsd:string ;
-    geo:hasGeometry g13set:begeleid_wonen_de_vaart0088AA030BB24E14geo ;
+    geo:hasGeometry g13set:begeleid_wonen_de_vaartD8EE6A0696EF4556geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl/"^^xsd:string ;
     wgs:lat "52.368951447216"^^xsd:float ;
     wgs:long "4.92257428563768"^^xsd:float ;
     vcard:hasAddress "Oostenburgervoorstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1018MR"^^xsd:string .
 
-g13set:begeleid_zelfstandig_wonen_fleerde1A48F451FC99499A a g13vocab:instantie ;
+g13set:begeleid_zelfstandig_wonen_fleerde6E7B0986CE0646FC a g13vocab:instantie ;
     rdfs:label "Begeleid Zelfstandig Wonen Fleerde"^^xsd:string ;
     dbo:PostalCode "1102BA"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -180,14 +180,14 @@ g13set:begeleid_zelfstandig_wonen_fleerde1A48F451FC99499A a g13vocab:instantie ;
     schema:PostalAddress "Florijn 24"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1102BA"^^xsd:string ;
-    geo:hasGeometry g13set:begeleid_zelfstandig_wonen_fleerde1A48F451FC99499Ageo ;
+    geo:hasGeometry g13set:begeleid_zelfstandig_wonen_fleerde6E7B0986CE0646FCgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3200385988841"^^xsd:float ;
     wgs:long "4.9578466875549"^^xsd:float ;
     vcard:hasAddress "Florijn 24"^^xsd:string ;
     vcard:hasPostalCode "1102BA"^^xsd:string .
 
-g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt4598ADCBA0E04AD5 a g13vocab:instantie ;
+g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt9C81FEEA8AE54A8D a g13vocab:instantie ;
     rdfs:label "Belangenbehartiging Amsterdamse Dak- en Thuislozen (BADT)"^^xsd:string ;
     dbo:PostalCode "1018DP"^^xsd:string ;
     dbo:Website "http://www.badt.nl"^^xsd:string ;
@@ -202,14 +202,14 @@ g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt4598ADCBA0E04AD5 a 
     schema:PostalAddress "Nieuwe Herengracht 18"^^xsd:string ;
     schema:WebSite "http://www.badt.nl"^^xsd:string ;
     schema:postalCode "1018DP"^^xsd:string ;
-    geo:hasGeometry g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt4598ADCBA0E04AD5geo ;
+    geo:hasGeometry g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt9C81FEEA8AE54A8Dgeo ;
     rdfs:seeAlso "http://www.badt.nl"^^xsd:string ;
     wgs:lat "52.366009072994"^^xsd:float ;
     wgs:long "4.90376781934102"^^xsd:float ;
     vcard:hasAddress "Nieuwe Herengracht 18"^^xsd:string ;
     vcard:hasPostalCode "1018DP"^^xsd:string .
 
-g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen49D3707E59F2409D a g13vocab:instantie ;
+g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen5DDDA350ADF84D81 a g13vocab:instantie ;
     rdfs:label "Bureau Straatjurist : juridisch steunpunt voor dak- en thuislozen"^^xsd:string ;
     dbo:PostalCode "1018DP"^^xsd:string ;
     dbo:Website "http://straatjurist.nl"^^xsd:string ;
@@ -224,14 +224,14 @@ g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen49D3707E59F
     schema:PostalAddress "Nieuwe Herengracht 18"^^xsd:string ;
     schema:WebSite "http://straatjurist.nl"^^xsd:string ;
     schema:postalCode "1018DP"^^xsd:string ;
-    geo:hasGeometry g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen49D3707E59F2409Dgeo ;
+    geo:hasGeometry g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen5DDDA350ADF84D81geo ;
     rdfs:seeAlso "http://straatjurist.nl"^^xsd:string ;
     wgs:lat "52.366009072994"^^xsd:float ;
     wgs:long "4.90376781934102"^^xsd:float ;
     vcard:hasAddress "Nieuwe Herengracht 18"^^xsd:string ;
     vcard:hasPostalCode "1018DP"^^xsd:string .
 
-g13set:centraal_meldpunt_dakloze_gezinnen0D1D1E32F5EA4594 a g13vocab:instantie ;
+g13set:centraal_meldpunt_dakloze_gezinnen48AE66D4254F4313 a g13vocab:instantie ;
     rdfs:label "Centraal Meldpunt dakloze gezinnen"^^xsd:string ;
     dbo:PostalCode "1018WT"^^xsd:string ;
     dbo:address "Nieuwe Achtergracht 100"^^xsd:string ;
@@ -243,13 +243,13 @@ g13set:centraal_meldpunt_dakloze_gezinnen0D1D1E32F5EA4594 a g13vocab:instantie ;
         g13vocab:homelessReintegration ;
     schema:PostalAddress "Nieuwe Achtergracht 100"^^xsd:string ;
     schema:postalCode "1018WT"^^xsd:string ;
-    geo:hasGeometry g13set:centraal_meldpunt_dakloze_gezinnen0D1D1E32F5EA4594geo ;
+    geo:hasGeometry g13set:centraal_meldpunt_dakloze_gezinnen48AE66D4254F4313geo ;
     wgs:lat "52.3625251245642"^^xsd:float ;
     wgs:long "4.90900287705508"^^xsd:float ;
     vcard:hasAddress "Nieuwe Achtergracht 100"^^xsd:string ;
     vcard:hasPostalCode "1018WT"^^xsd:string .
 
-g13set:centrum_ps553CD2C92E17483E a g13vocab:instantie ;
+g13set:centrum_ps539E87B1381E4E74 a g13vocab:instantie ;
     rdfs:label "Centrum PS"^^xsd:string ;
     dbo:PostalCode "1052RL"^^xsd:string ;
     dbo:Website "http://www.volksbond.nl"^^xsd:string ;
@@ -262,14 +262,14 @@ g13set:centrum_ps553CD2C92E17483E a g13vocab:instantie ;
     schema:PostalAddress "Tweede Kostverlorenkade 15"^^xsd:string ;
     schema:WebSite "http://www.volksbond.nl"^^xsd:string ;
     schema:postalCode "1052RL"^^xsd:string ;
-    geo:hasGeometry g13set:centrum_ps553CD2C92E17483Egeo ;
+    geo:hasGeometry g13set:centrum_ps539E87B1381E4E74geo ;
     rdfs:seeAlso "http://www.volksbond.nl"^^xsd:string ;
     wgs:lat "52.3703867207915"^^xsd:float ;
     wgs:long "4.86579213870465"^^xsd:float ;
     vcard:hasAddress "Tweede Kostverlorenkade 15"^^xsd:string ;
     vcard:hasPostalCode "1052RL"^^xsd:string .
 
-g13set:clusterwonenC5325E91517F4D2F a g13vocab:instantie ;
+g13set:clusterwonenC7B1D3A05EA84A9A a g13vocab:instantie ;
     rdfs:label "Clusterwonen"^^xsd:string ;
     dbo:PostalCode "1018CM"^^xsd:string ;
     dbo:Website "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
@@ -284,14 +284,14 @@ g13set:clusterwonenC5325E91517F4D2F a g13vocab:instantie ;
     schema:PostalAddress "Plantage Doklaan 16"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
     schema:postalCode "1018CM"^^xsd:string ;
-    geo:hasGeometry g13set:clusterwonenC5325E91517F4D2Fgeo ;
+    geo:hasGeometry g13set:clusterwonenC7B1D3A05EA84A9Ageo ;
     rdfs:seeAlso "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
     wgs:lat "52.3684236452534"^^xsd:float ;
     wgs:long "4.91187589928303"^^xsd:float ;
     vcard:hasAddress "Plantage Doklaan 16"^^xsd:string ;
     vcard:hasPostalCode "1018CM"^^xsd:string .
 
-g13set:dagactiviteitencentrum_de_miranda83D05D656CA04CF5 a g13vocab:instantie ;
+g13set:dagactiviteitencentrum_de_miranda5536991AA4C24F54 a g13vocab:instantie ;
     rdfs:label "Dagactiviteitencentrum De Miranda"^^xsd:string ;
     dbo:PostalCode "1079RN"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl/"^^xsd:string ;
@@ -304,14 +304,14 @@ g13set:dagactiviteitencentrum_de_miranda83D05D656CA04CF5 a g13vocab:instantie ;
     schema:PostalAddress "Peelstraat 85"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl/"^^xsd:string ;
     schema:postalCode "1079RN"^^xsd:string ;
-    geo:hasGeometry g13set:dagactiviteitencentrum_de_miranda83D05D656CA04CF5geo ;
+    geo:hasGeometry g13set:dagactiviteitencentrum_de_miranda5536991AA4C24F54geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl/"^^xsd:string ;
     wgs:lat "52.33893485117"^^xsd:float ;
     wgs:long "4.90080516418065"^^xsd:float ;
     vcard:hasAddress "Peelstraat 85"^^xsd:string ;
     vcard:hasPostalCode "1079RN"^^xsd:string .
 
-g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen1B2BE177877F468F a g13vocab:instantie ;
+g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen82206392886A43DD a g13vocab:instantie ;
     rdfs:label "De Aak, zorgvoorziening voor dak- en thuislozen"^^xsd:string ;
     dbo:PostalCode "1069GD"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -324,14 +324,14 @@ g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen1B2BE177877F468F a g13vocab:
     schema:PostalAddress "Akerwateringstraat 241"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1069GD"^^xsd:string ;
-    geo:hasGeometry g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen1B2BE177877F468Fgeo ;
+    geo:hasGeometry g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen82206392886A43DDgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3541001812015"^^xsd:float ;
     wgs:long "4.78573633465077"^^xsd:float ;
     vcard:hasAddress "Akerwateringstraat 241"^^xsd:string ;
     vcard:hasPostalCode "1069GD"^^xsd:string .
 
-g13set:de_goodwillburgh183E12A1732D4308 a g13vocab:instantie ;
+g13set:de_goodwillburghB5D3BFCDBEB24148 a g13vocab:instantie ;
     rdfs:label "De Goodwillburgh"^^xsd:string ;
     dbo:PostalCode "1011SR"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -344,14 +344,14 @@ g13set:de_goodwillburgh183E12A1732D4308 a g13vocab:instantie ;
     schema:PostalAddress "Anne Frankstraat 2"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1011SR"^^xsd:string ;
-    geo:hasGeometry g13set:de_goodwillburgh183E12A1732D4308geo ;
+    geo:hasGeometry g13set:de_goodwillburghB5D3BFCDBEB24148geo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3694369076746"^^xsd:float ;
     wgs:long "4.909060522152"^^xsd:float ;
     vcard:hasAddress "Anne Frankstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1011SR"^^xsd:string .
 
-g13set:de_klif1B39F0C9001E43FE a g13vocab:instantie ;
+g13set:de_klifC10E38C592284CDC a g13vocab:instantie ;
     rdfs:label "De Klif"^^xsd:string ;
     dbo:PostalCode "1102LA"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -364,14 +364,14 @@ g13set:de_klif1B39F0C9001E43FE a g13vocab:instantie ;
     schema:PostalAddress "Hakfort 42"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1102LA"^^xsd:string ;
-    geo:hasGeometry g13set:de_klif1B39F0C9001E43FEgeo ;
+    geo:hasGeometry g13set:de_klifC10E38C592284CDCgeo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3051420009543"^^xsd:float ;
     wgs:long "4.9567883058941"^^xsd:float ;
     vcard:hasAddress "Hakfort 42"^^xsd:string ;
     vcard:hasPostalCode "1102LA"^^xsd:string .
 
-g13set:de_regenboog_groepBB0F253F5A90406E a g13vocab:instantie ;
+g13set:de_regenboog_groep0CCF749369624B0E a g13vocab:instantie ;
     rdfs:label "De Regenboog Groep"^^xsd:string ;
     dbo:PostalCode "1013GE"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -384,14 +384,14 @@ g13set:de_regenboog_groepBB0F253F5A90406E a g13vocab:instantie ;
     schema:PostalAddress "Droogbak 1d"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1013GE"^^xsd:string ;
-    geo:hasGeometry g13set:de_regenboog_groepBB0F253F5A90406Egeo ;
+    geo:hasGeometry g13set:de_regenboog_groep0CCF749369624B0Egeo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.380259820669"^^xsd:float ;
     wgs:long "4.89413939550038"^^xsd:float ;
     vcard:hasAddress "Droogbak 1d"^^xsd:string ;
     vcard:hasPostalCode "1013GE"^^xsd:string .
 
-g13set:discus_amsterdam_31516493707074BC5 a g13vocab:instantie ;
+g13set:discus_amsterdam_3962AA6F011694498 a g13vocab:instantie ;
     rdfs:label "Discus Amsterdam"^^xsd:string ;
     dbo:PostalCode "1076VK"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -404,14 +404,14 @@ g13set:discus_amsterdam_31516493707074BC5 a g13vocab:instantie ;
     schema:PostalAddress "Discusstraat 15"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1076VK"^^xsd:string ;
-    geo:hasGeometry g13set:discus_amsterdam_31516493707074BC5geo ;
+    geo:hasGeometry g13set:discus_amsterdam_3962AA6F011694498geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3461246948313"^^xsd:float ;
     wgs:long "4.86080857521283"^^xsd:float ;
     vcard:hasAddress "Discusstraat 15"^^xsd:string ;
     vcard:hasPostalCode "1076VK"^^xsd:string .
 
-g13set:discus_amsterdam_4C23957FCBFB048D0 a g13vocab:instantie ;
+g13set:discus_amsterdam_49EA144D8569A4445 a g13vocab:instantie ;
     rdfs:label "Discus Amsterdam"^^xsd:string ;
     dbo:PostalCode "1065JE"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -424,14 +424,14 @@ g13set:discus_amsterdam_4C23957FCBFB048D0 a g13vocab:instantie ;
     schema:PostalAddress "Johan Huizingalaan 126"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1065JE"^^xsd:string ;
-    geo:hasGeometry g13set:discus_amsterdam_4C23957FCBFB048D0geo ;
+    geo:hasGeometry g13set:discus_amsterdam_49EA144D8569A4445geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3601154834516"^^xsd:float ;
     wgs:long "4.82683380111803"^^xsd:float ;
     vcard:hasAddress "Johan Huizingalaan 126"^^xsd:string ;
     vcard:hasPostalCode "1065JE"^^xsd:string .
 
-g13set:discus_amsterdam_544A419C4FF9C4FB3 a g13vocab:instantie ;
+g13set:discus_amsterdam_5A370CB4D9FBD4D2A a g13vocab:instantie ;
     rdfs:label "Discus Amsterdam"^^xsd:string ;
     dbo:PostalCode "1091GC"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -444,14 +444,14 @@ g13set:discus_amsterdam_544A419C4FF9C4FB3 a g13vocab:instantie ;
     schema:PostalAddress "Mauritskade 22c"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1091GC"^^xsd:string ;
-    geo:hasGeometry g13set:discus_amsterdam_544A419C4FF9C4FB3geo ;
+    geo:hasGeometry g13set:discus_amsterdam_5A370CB4D9FBD4D2Ageo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3610529898951"^^xsd:float ;
     wgs:long "4.91393673509129"^^xsd:float ;
     vcard:hasAddress "Mauritskade 22c"^^xsd:string ;
     vcard:hasPostalCode "1091GC"^^xsd:string .
 
-g13set:don_boscohuis_amsterdam38763710D3CD4153 a g13vocab:instantie ;
+g13set:don_boscohuis_amsterdam7811AC7486E94343 a g13vocab:instantie ;
     rdfs:label "Don Boscohuis Amsterdam"^^xsd:string ;
     dbo:PostalCode "1077AM"^^xsd:string ;
     dbo:Website "http://www.donboscoamsterdam.nl"^^xsd:string ;
@@ -466,14 +466,14 @@ g13set:don_boscohuis_amsterdam38763710D3CD4153 a g13vocab:instantie ;
     schema:PostalAddress "Apollolaan 91"^^xsd:string ;
     schema:WebSite "http://www.donboscoamsterdam.nl"^^xsd:string ;
     schema:postalCode "1077AM"^^xsd:string ;
-    geo:hasGeometry g13set:don_boscohuis_amsterdam38763710D3CD4153geo ;
+    geo:hasGeometry g13set:don_boscohuis_amsterdam7811AC7486E94343geo ;
     rdfs:seeAlso "http://www.donboscoamsterdam.nl"^^xsd:string ;
     wgs:lat "52.3503606896394"^^xsd:float ;
     wgs:long "4.8778718112844"^^xsd:float ;
     vcard:hasAddress "Apollolaan 91"^^xsd:string ;
     vcard:hasPostalCode "1077AM"^^xsd:string .
 
-g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurF5AC331FF87E46A2 a g13vocab:instantie ;
+g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurBA8822A147B14708 a g13vocab:instantie ;
     rdfs:label "Dr. Valckenier spreekuur (huisarts inloopspreekuur)"^^xsd:string ;
     dbo:PostalCode "1018XG"^^xsd:string ;
     dbo:Website "http://www.ggd.amsterdam.nl/drugs/dr-valckenier/"^^xsd:string ;
@@ -486,14 +486,14 @@ g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurF5AC331FF87E46A2 a g13voc
     schema:PostalAddress "Valckenierstraat 2"^^xsd:string ;
     schema:WebSite "http://www.ggd.amsterdam.nl/drugs/dr-valckenier/"^^xsd:string ;
     schema:postalCode "1018XG"^^xsd:string ;
-    geo:hasGeometry g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurF5AC331FF87E46A2geo ;
+    geo:hasGeometry g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurBA8822A147B14708geo ;
     rdfs:seeAlso "http://www.ggd.amsterdam.nl/drugs/dr-valckenier/"^^xsd:string ;
     wgs:lat "52.3616872859729"^^xsd:float ;
     wgs:long "4.90851275987104"^^xsd:float ;
     vcard:hasAddress "Valckenierstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1018XG"^^xsd:string .
 
-g13set:eettafel_filah2A40F028913F4AF5 a g13vocab:instantie ;
+g13set:eettafel_filah8F572C2239E14F06 a g13vocab:instantie ;
     rdfs:label "Eettafel Filah"^^xsd:string ;
     dbo:PostalCode "1051VB"^^xsd:string ;
     dbo:Website "http://www.nassaukerk.nl"^^xsd:string ;
@@ -506,14 +506,14 @@ g13set:eettafel_filah2A40F028913F4AF5 a g13vocab:instantie ;
     schema:PostalAddress "Van der Hoopstraat 43"^^xsd:string ;
     schema:WebSite "http://www.nassaukerk.nl"^^xsd:string ;
     schema:postalCode "1051VB"^^xsd:string ;
-    geo:hasGeometry g13set:eettafel_filah2A40F028913F4AF5geo ;
+    geo:hasGeometry g13set:eettafel_filah8F572C2239E14F06geo ;
     rdfs:seeAlso "http://www.nassaukerk.nl"^^xsd:string ;
     wgs:lat "52.3843445492948"^^xsd:float ;
     wgs:long "4.87400036001581"^^xsd:float ;
     vcard:hasAddress "Van der Hoopstraat 43"^^xsd:string ;
     vcard:hasPostalCode "1051VB"^^xsd:string .
 
-g13set:geintegreerde_voorziening_gv_centrum_1EA57716287B042DA a g13vocab:instantie ;
+g13set:geintegreerde_voorziening_gv_centrum_1822C48A52EAB48D2 a g13vocab:instantie ;
     rdfs:label "Geïntegreerde Voorziening (GV) Centrum"^^xsd:string ;
     dbo:PostalCode "1018XG"^^xsd:string ;
     dbo:Website "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
@@ -526,14 +526,14 @@ g13set:geintegreerde_voorziening_gv_centrum_1EA57716287B042DA a g13vocab:instant
     schema:PostalAddress "Valckenierstraat 2"^^xsd:string ;
     schema:WebSite "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
     schema:postalCode "1018XG"^^xsd:string ;
-    geo:hasGeometry g13set:geintegreerde_voorziening_gv_centrum_1EA57716287B042DAgeo ;
+    geo:hasGeometry g13set:geintegreerde_voorziening_gv_centrum_1822C48A52EAB48D2geo ;
     rdfs:seeAlso "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
     wgs:lat "52.3616872859729"^^xsd:float ;
     wgs:long "4.90851275987104"^^xsd:float ;
     vcard:hasAddress "Valckenierstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1018XG"^^xsd:string .
 
-g13set:geintegreerde_voorziening_gv_west_1E18BBB1710E74171 a g13vocab:instantie ;
+g13set:geintegreerde_voorziening_gv_west_1956641007B7D4265 a g13vocab:instantie ;
     rdfs:label "Geïntegreerde Voorziening (GV) West"^^xsd:string ;
     dbo:PostalCode "1052RR"^^xsd:string ;
     dbo:Website "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
@@ -546,14 +546,14 @@ g13set:geintegreerde_voorziening_gv_west_1E18BBB1710E74171 a g13vocab:instantie 
     schema:PostalAddress "Elisabeth Wolffstraat 2"^^xsd:string ;
     schema:WebSite "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
     schema:postalCode "1052RR"^^xsd:string ;
-    geo:hasGeometry g13set:geintegreerde_voorziening_gv_west_1E18BBB1710E74171geo ;
+    geo:hasGeometry g13set:geintegreerde_voorziening_gv_west_1956641007B7D4265geo ;
     rdfs:seeAlso "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
     wgs:lat "52.3708845094098"^^xsd:float ;
     wgs:long "4.86657921660121"^^xsd:float ;
     vcard:hasAddress "Elisabeth Wolffstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1052RR"^^xsd:string .
 
-g13set:geintegreerde_voorziening_gv_zuidoost_13462939A87BA4FA4 a g13vocab:instantie ;
+g13set:geintegreerde_voorziening_gv_zuidoost_1172C4BDAEEC24E8B a g13vocab:instantie ;
     rdfs:label "Geïntegreerde Voorziening (GV) Zuidoost"^^xsd:string ;
     dbo:PostalCode "1102BV"^^xsd:string ;
     dbo:Website "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
@@ -566,14 +566,14 @@ g13set:geintegreerde_voorziening_gv_zuidoost_13462939A87BA4FA4 a g13vocab:instan
     schema:PostalAddress "Flierbosdreef 23"^^xsd:string ;
     schema:WebSite "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
     schema:postalCode "1102BV"^^xsd:string ;
-    geo:hasGeometry g13set:geintegreerde_voorziening_gv_zuidoost_13462939A87BA4FA4geo ;
+    geo:hasGeometry g13set:geintegreerde_voorziening_gv_zuidoost_1172C4BDAEEC24E8Bgeo ;
     rdfs:seeAlso "http://www.amsterdam.nl/zorg-welzijn/geintegreerde"^^xsd:string ;
     wgs:lat "52.3136855304352"^^xsd:float ;
     wgs:long "4.95820137186839"^^xsd:float ;
     vcard:hasAddress "Flierbosdreef 23"^^xsd:string ;
     vcard:hasPostalCode "1102BV"^^xsd:string .
 
-g13set:herstart_rosaburgh313586061FE64EB6 a g13vocab:instantie ;
+g13set:herstart_rosaburghE8D907E5786E4ACB a g13vocab:instantie ;
     rdfs:label "Herstart Rosaburgh"^^xsd:string ;
     dbo:PostalCode "1031BV"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -586,14 +586,14 @@ g13set:herstart_rosaburgh313586061FE64EB6 a g13vocab:instantie ;
     schema:PostalAddress "Hagedoornplein 4"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1031BV"^^xsd:string ;
-    geo:hasGeometry g13set:herstart_rosaburgh313586061FE64EB6geo ;
+    geo:hasGeometry g13set:herstart_rosaburghE8D907E5786E4ACBgeo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3883241251527"^^xsd:float ;
     wgs:long "4.91455641582723"^^xsd:float ;
     vcard:hasAddress "Hagedoornplein 4"^^xsd:string ;
     vcard:hasPostalCode "1031BV"^^xsd:string .
 
-g13set:herstart_westburghF344450E99024BE5 a g13vocab:instantie ;
+g13set:herstart_westburgh929FB80070114232 a g13vocab:instantie ;
     rdfs:label "Herstart Westburgh"^^xsd:string ;
     dbo:PostalCode "1014AT"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -606,14 +606,14 @@ g13set:herstart_westburghF344450E99024BE5 a g13vocab:instantie ;
     schema:PostalAddress "Generatorstraat 2"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1014AT"^^xsd:string ;
-    geo:hasGeometry g13set:herstart_westburghF344450E99024BE5geo ;
+    geo:hasGeometry g13set:herstart_westburgh929FB80070114232geo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3947459029794"^^xsd:float ;
     wgs:long "4.85423702744119"^^xsd:float ;
     vcard:hasAddress "Generatorstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1014AT"^^xsd:string .
 
-g13set:herstart_zuiderburgh0D95ECC744644C46 a g13vocab:instantie ;
+g13set:herstart_zuiderburgh29BA3E590D504E6C a g13vocab:instantie ;
     rdfs:label "Herstart Zuiderburgh"^^xsd:string ;
     dbo:PostalCode "1071WG"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -626,14 +626,14 @@ g13set:herstart_zuiderburgh0D95ECC744644C46 a g13vocab:instantie ;
     schema:PostalAddress "Joh.M. Coenenstraat 2"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1071WG"^^xsd:string ;
-    geo:hasGeometry g13set:herstart_zuiderburgh0D95ECC744644C46geo ;
+    geo:hasGeometry g13set:herstart_zuiderburgh29BA3E590D504E6Cgeo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3526686259663"^^xsd:float ;
     wgs:long "4.88161752822785"^^xsd:float ;
     vcard:hasAddress "Joh.M. Coenenstraat 2"^^xsd:string ;
     vcard:hasPostalCode "1071WG"^^xsd:string .
 
-g13set:hvo_querido69BEE3D5717543F5 a g13vocab:instantie ;
+g13set:hvo_querido05BA004C514C457A a g13vocab:instantie ;
     rdfs:label "HVO-Querido"^^xsd:string ;
     dbo:PostalCode "1097BC"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl/"^^xsd:string ;
@@ -652,14 +652,14 @@ g13set:hvo_querido69BEE3D5717543F5 a g13vocab:instantie ;
     schema:PostalAddress "Eerste Ringdijkstraat 5"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl/"^^xsd:string ;
     schema:postalCode "1097BC"^^xsd:string ;
-    geo:hasGeometry g13set:hvo_querido69BEE3D5717543F5geo ;
+    geo:hasGeometry g13set:hvo_querido05BA004C514C457Ageo ;
     rdfs:seeAlso "http://www.hvoquerido.nl/"^^xsd:string ;
     wgs:lat "52.3501253517124"^^xsd:float ;
     wgs:long "4.91891283765617"^^xsd:float ;
     vcard:hasAddress "Eerste Ringdijkstraat 5"^^xsd:string ;
     vcard:hasPostalCode "1097BC"^^xsd:string .
 
-g13set:hvo_querido_191E6BAD1C01B461B a g13vocab:instantie ;
+g13set:hvo_querido_1ED0B3C0D4D49459F a g13vocab:instantie ;
     rdfs:label "HVO-Querido"^^xsd:string ;
     dbo:PostalCode "1015ZL"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl/"^^xsd:string ;
@@ -678,14 +678,14 @@ g13set:hvo_querido_191E6BAD1C01B461B a g13vocab:instantie ;
     schema:PostalAddress "Marnixkade 109F"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl/"^^xsd:string ;
     schema:postalCode "1015ZL"^^xsd:string ;
-    geo:hasGeometry g13set:hvo_querido_191E6BAD1C01B461Bgeo ;
+    geo:hasGeometry g13set:hvo_querido_1ED0B3C0D4D49459Fgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl/"^^xsd:string ;
     wgs:lat "52.3755844114509"^^xsd:float ;
     wgs:long "4.87674510359242"^^xsd:float ;
     vcard:hasAddress "Marnixkade 109F"^^xsd:string ;
     vcard:hasPostalCode "1015ZL"^^xsd:string .
 
-g13set:informele_zorg_westerpark34F294EABB704321 a g13vocab:instantie ;
+g13set:informele_zorg_westerparkCDFEB4B80373493B a g13vocab:instantie ;
     rdfs:label "Informele Zorg Westerpark"^^xsd:string ;
     dbo:PostalCode "1051VD"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -698,14 +698,14 @@ g13set:informele_zorg_westerpark34F294EABB704321 a g13vocab:instantie ;
     schema:PostalAddress "Van der Hoopstraat 93"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1051VD"^^xsd:string ;
-    geo:hasGeometry g13set:informele_zorg_westerpark34F294EABB704321geo ;
+    geo:hasGeometry g13set:informele_zorg_westerparkCDFEB4B80373493Bgeo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.384208520709"^^xsd:float ;
     wgs:long "4.87165180945169"^^xsd:float ;
     vcard:hasAddress "Van der Hoopstraat 93"^^xsd:string ;
     vcard:hasPostalCode "1051VD"^^xsd:string .
 
-g13set:inloophuis_de_kloofC25133B68C764E36 a g13vocab:instantie ;
+g13set:inloophuis_de_kloof6454F4603D3E48CD a g13vocab:instantie ;
     rdfs:label "Inloophuis De Kloof"^^xsd:string ;
     dbo:PostalCode "1011KB"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -719,14 +719,14 @@ g13set:inloophuis_de_kloofC25133B68C764E36 a g13vocab:instantie ;
     schema:PostalAddress "Kloveniersburgwal 93"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1011KB"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_de_kloofC25133B68C764E36geo ;
+    geo:hasGeometry g13set:inloophuis_de_kloof6454F4603D3E48CDgeo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.3692007640883"^^xsd:float ;
     wgs:long "4.89746327600569"^^xsd:float ;
     vcard:hasAddress "Kloveniersburgwal 93"^^xsd:string ;
     vcard:hasPostalCode "1011KB"^^xsd:string .
 
-g13set:inloophuis_de_spreekbuis3A5483841FC94FDE a g13vocab:instantie ;
+g13set:inloophuis_de_spreekbuisB1FE8BAC2FDB4F92 a g13vocab:instantie ;
     rdfs:label "Inloophuis De Spreekbuis"^^xsd:string ;
     dbo:PostalCode "1091JG"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org/"^^xsd:string ;
@@ -740,14 +740,14 @@ g13set:inloophuis_de_spreekbuis3A5483841FC94FDE a g13vocab:instantie ;
     schema:PostalAddress "Tweede Oosterparkstraat 72"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org/"^^xsd:string ;
     schema:postalCode "1091JG"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_de_spreekbuis3A5483841FC94FDEgeo ;
+    geo:hasGeometry g13set:inloophuis_de_spreekbuisB1FE8BAC2FDB4F92geo ;
     rdfs:seeAlso "http://www.deregenboog.org/"^^xsd:string ;
     wgs:lat "52.3566102914183"^^xsd:float ;
     wgs:long "4.91549606200291"^^xsd:float ;
     vcard:hasAddress "Tweede Oosterparkstraat 72"^^xsd:string ;
     vcard:hasPostalCode "1091JG"^^xsd:string .
 
-g13set:inloophuis_de_tweede_mijlD3EACA03D39D4C4B a g13vocab:instantie ;
+g13set:inloophuis_de_tweede_mijlF0FDEE89A5A849D9 a g13vocab:instantie ;
     rdfs:label "Inloophuis De Tweede Mijl"^^xsd:string ;
     dbo:PostalCode "1015HW"^^xsd:string ;
     dbo:Website "http://www.detweedemijl.nl"^^xsd:string ;
@@ -761,14 +761,14 @@ g13set:inloophuis_de_tweede_mijlD3EACA03D39D4C4B a g13vocab:instantie ;
     schema:PostalAddress "Willemsstraat 39"^^xsd:string ;
     schema:WebSite "http://www.detweedemijl.nl"^^xsd:string ;
     schema:postalCode "1015HW"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_de_tweede_mijlD3EACA03D39D4C4Bgeo ;
+    geo:hasGeometry g13set:inloophuis_de_tweede_mijlF0FDEE89A5A849D9geo ;
     rdfs:seeAlso "http://www.detweedemijl.nl"^^xsd:string ;
     wgs:lat "52.3812464803589"^^xsd:float ;
     wgs:long "4.88511043336344"^^xsd:float ;
     vcard:hasAddress "Willemsstraat 39"^^xsd:string ;
     vcard:hasPostalCode "1015HW"^^xsd:string .
 
-g13set:inloophuis_en_gebruikersruimte_blaka_watra74FEB8F0AFB54089 a g13vocab:instantie ;
+g13set:inloophuis_en_gebruikersruimte_blaka_watraD1636B486B6B4724 a g13vocab:instantie ;
     rdfs:label "Inloophuis en Gebruikersruimte Blaka Watra"^^xsd:string ;
     dbo:PostalCode "1013GE"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -782,14 +782,14 @@ g13set:inloophuis_en_gebruikersruimte_blaka_watra74FEB8F0AFB54089 a g13vocab:ins
     schema:PostalAddress "Droogbak 1c"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1013GE"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_en_gebruikersruimte_blaka_watra74FEB8F0AFB54089geo ;
+    geo:hasGeometry g13set:inloophuis_en_gebruikersruimte_blaka_watraD1636B486B6B4724geo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.380259820669"^^xsd:float ;
     wgs:long "4.89413939550038"^^xsd:float ;
     vcard:hasAddress "Droogbak 1c"^^xsd:string ;
     vcard:hasPostalCode "1013GE"^^xsd:string .
 
-g13set:inloophuis_en_gebruikersruimte_de_princehof34CD963165AE4AC5 a g13vocab:instantie ;
+g13set:inloophuis_en_gebruikersruimte_de_princehof5DE34FA7CD4642D7 a g13vocab:instantie ;
     rdfs:label "Inloophuis en gebruikersruimte De Princehof"^^xsd:string ;
     dbo:PostalCode "1012ET"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -803,14 +803,14 @@ g13set:inloophuis_en_gebruikersruimte_de_princehof34CD963165AE4AC5 a g13vocab:in
     schema:PostalAddress "Oudezijds Voorburgwal 165"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1012ET"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_en_gebruikersruimte_de_princehof34CD963165AE4AC5geo ;
+    geo:hasGeometry g13set:inloophuis_en_gebruikersruimte_de_princehof5DE34FA7CD4642D7geo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.3720459079945"^^xsd:float ;
     wgs:long "4.89650675736408"^^xsd:float ;
     vcard:hasAddress "Oudezijds Voorburgwal 165"^^xsd:string ;
     vcard:hasPostalCode "1012ET"^^xsd:string .
 
-g13set:inloophuis_haarlemmerstraat0C6A0544913644FF a g13vocab:instantie ;
+g13set:inloophuis_haarlemmerstraatAE3985EE32BE493A a g13vocab:instantie ;
     rdfs:label "Inloophuis Haarlemmerstraat"^^xsd:string ;
     dbo:PostalCode "1013EZ"^^xsd:string ;
     dbo:Website "http://www.volksbond.nl"^^xsd:string ;
@@ -824,14 +824,14 @@ g13set:inloophuis_haarlemmerstraat0C6A0544913644FF a g13vocab:instantie ;
     schema:PostalAddress "Haarlemmerstraat 146"^^xsd:string ;
     schema:WebSite "http://www.volksbond.nl"^^xsd:string ;
     schema:postalCode "1013EZ"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_haarlemmerstraat0C6A0544913644FFgeo ;
+    geo:hasGeometry g13set:inloophuis_haarlemmerstraatAE3985EE32BE493Ageo ;
     rdfs:seeAlso "http://www.volksbond.nl"^^xsd:string ;
     wgs:lat "52.3813379646705"^^xsd:float ;
     wgs:long "4.88975058921189"^^xsd:float ;
     vcard:hasAddress "Haarlemmerstraat 146"^^xsd:string ;
     vcard:hasPostalCode "1013EZ"^^xsd:string .
 
-g13set:inloophuis_makom_kledinginzamelplek28CB64BE18B34F1F a g13vocab:instantie ;
+g13set:inloophuis_makom_kledinginzamelplek8C22C7027C3C4310 a g13vocab:instantie ;
     rdfs:label "Inloophuis Makom - kledinginzamelplek"^^xsd:string ;
     dbo:PostalCode "1073TK"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -845,14 +845,14 @@ g13set:inloophuis_makom_kledinginzamelplek28CB64BE18B34F1F a g13vocab:instantie 
     schema:PostalAddress "Van Ostadestraat 153"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1073TK"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_makom_kledinginzamelplek28CB64BE18B34F1Fgeo ;
+    geo:hasGeometry g13set:inloophuis_makom_kledinginzamelplek8C22C7027C3C4310geo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.3527994423332"^^xsd:float ;
     wgs:long "4.8956040443583"^^xsd:float ;
     vcard:hasAddress "Van Ostadestraat 153"^^xsd:string ;
     vcard:hasPostalCode "1073TK"^^xsd:string .
 
-g13set:inloophuis_ondro_bongC6E44C87D93D4D97 a g13vocab:instantie ;
+g13set:inloophuis_ondro_bong70617D15B13E4954 a g13vocab:instantie ;
     rdfs:label "Inloophuis Ondro Bong"^^xsd:string ;
     dbo:PostalCode "1094AA"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -866,14 +866,14 @@ g13set:inloophuis_ondro_bongC6E44C87D93D4D97 a g13vocab:instantie ;
     schema:PostalAddress "Zeeburgerdijk 53"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1094AA"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_ondro_bongC6E44C87D93D4D97geo ;
+    geo:hasGeometry g13set:inloophuis_ondro_bong70617D15B13E4954geo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.3662567725479"^^xsd:float ;
     wgs:long "4.93459793085432"^^xsd:float ;
     vcard:hasAddress "Zeeburgerdijk 53"^^xsd:string ;
     vcard:hasPostalCode "1094AA"^^xsd:string .
 
-g13set:inloophuis_oud_west30F8D4D86CD34E25 a g13vocab:instantie ;
+g13set:inloophuis_oud_west2869CB7E11434382 a g13vocab:instantie ;
     rdfs:label "Inloophuis Oud-West"^^xsd:string ;
     dbo:PostalCode "1053LD"^^xsd:string ;
     dbo:Website "http://www.deregenboog.org"^^xsd:string ;
@@ -887,14 +887,14 @@ g13set:inloophuis_oud_west30F8D4D86CD34E25 a g13vocab:instantie ;
     schema:PostalAddress "Bilderdijkstraat 182"^^xsd:string ;
     schema:WebSite "http://www.deregenboog.org"^^xsd:string ;
     schema:postalCode "1053LD"^^xsd:string ;
-    geo:hasGeometry g13set:inloophuis_oud_west30F8D4D86CD34E25geo ;
+    geo:hasGeometry g13set:inloophuis_oud_west2869CB7E11434382geo ;
     rdfs:seeAlso "http://www.deregenboog.org"^^xsd:string ;
     wgs:lat "52.3667300210668"^^xsd:float ;
     wgs:long "4.87225136776195"^^xsd:float ;
     vcard:hasAddress "Bilderdijkstraat 182"^^xsd:string ;
     vcard:hasPostalCode "1053LD"^^xsd:string .
 
-g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen0D81B0BA3D884105 a g13vocab:instantie ;
+g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen17D494BBFE5C4A18 a g13vocab:instantie ;
     rdfs:label "Je Eigen Stek, doorstroomhuis voor ex-daklozen"^^xsd:string ;
     dbo:PostalCode "1073SE"^^xsd:string ;
     dbo:Website "http://www.jeeigenstek.nl/"^^xsd:string ;
@@ -909,14 +909,14 @@ g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen0D81B0BA3D884105 a g13vocab:
     schema:PostalAddress "Tolstraat 86"^^xsd:string ;
     schema:WebSite "http://www.jeeigenstek.nl/"^^xsd:string ;
     schema:postalCode "1073SE"^^xsd:string ;
-    geo:hasGeometry g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen0D81B0BA3D884105geo ;
+    geo:hasGeometry g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen17D494BBFE5C4A18geo ;
     rdfs:seeAlso "http://www.jeeigenstek.nl/"^^xsd:string ;
     wgs:lat "52.3519547962319"^^xsd:float ;
     wgs:long "4.90218895414779"^^xsd:float ;
     vcard:hasAddress "Tolstraat 86"^^xsd:string ;
     vcard:hasPostalCode "1073SE"^^xsd:string .
 
-g13set:juttersdok_kringloop_amsterdamFEFBF326843E4EBF a g13vocab:instantie ;
+g13set:juttersdok_kringloop_amsterdam5A7FADBEC84040B6 a g13vocab:instantie ;
     rdfs:label "Juttersdok Kringloop Amsterdam"^^xsd:string ;
     dbo:PostalCode "1017JA"^^xsd:string ;
     dbo:Website "http://www.juttersdok.nl"^^xsd:string ;
@@ -931,14 +931,14 @@ g13set:juttersdok_kringloop_amsterdamFEFBF326843E4EBF a g13vocab:instantie ;
     schema:PostalAddress "Kerkstraat 354"^^xsd:string ;
     schema:WebSite "http://www.juttersdok.nl"^^xsd:string ;
     schema:postalCode "1017JA"^^xsd:string ;
-    geo:hasGeometry g13set:juttersdok_kringloop_amsterdamFEFBF326843E4EBFgeo ;
+    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam5A7FADBEC84040B6geo ;
     rdfs:seeAlso "http://www.juttersdok.nl"^^xsd:string ;
     wgs:lat "52.3629806195318"^^xsd:float ;
     wgs:long "4.89948453727621"^^xsd:float ;
     vcard:hasAddress "Kerkstraat 354"^^xsd:string ;
     vcard:hasPostalCode "1017JA"^^xsd:string .
 
-g13set:juttersdok_kringloop_amsterdam_1F50B9960AFE14C24 a g13vocab:instantie ;
+g13set:juttersdok_kringloop_amsterdam_1C7CCF809CB98401D a g13vocab:instantie ;
     rdfs:label "Juttersdok Kringloop Amsterdam"^^xsd:string ;
     dbo:PostalCode "1058DE"^^xsd:string ;
     dbo:Website "http://www.juttersdok.nl"^^xsd:string ;
@@ -953,14 +953,14 @@ g13set:juttersdok_kringloop_amsterdam_1F50B9960AFE14C24 a g13vocab:instantie ;
     schema:PostalAddress "Nickeriestraat 2"^^xsd:string ;
     schema:WebSite "http://www.juttersdok.nl"^^xsd:string ;
     schema:postalCode "1058DE"^^xsd:string ;
-    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_1F50B9960AFE14C24geo ;
+    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_1C7CCF809CB98401Dgeo ;
     rdfs:seeAlso "http://www.juttersdok.nl"^^xsd:string ;
     wgs:lat "52.3629187877545"^^xsd:float ;
     wgs:long "4.85588197702385"^^xsd:float ;
     vcard:hasAddress "Nickeriestraat 2"^^xsd:string ;
     vcard:hasPostalCode "1058DE"^^xsd:string .
 
-g13set:juttersdok_kringloop_amsterdam_24517A6A0BD914782 a g13vocab:instantie ;
+g13set:juttersdok_kringloop_amsterdam_235C68F08416943DA a g13vocab:instantie ;
     rdfs:label "Juttersdok Kringloop Amsterdam"^^xsd:string ;
     dbo:PostalCode "1032KE"^^xsd:string ;
     dbo:Website "http://www.juttersdok.nl"^^xsd:string ;
@@ -975,14 +975,14 @@ g13set:juttersdok_kringloop_amsterdam_24517A6A0BD914782 a g13vocab:instantie ;
     schema:PostalAddress "Papaverweg 17"^^xsd:string ;
     schema:WebSite "http://www.juttersdok.nl"^^xsd:string ;
     schema:postalCode "1032KE"^^xsd:string ;
-    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_24517A6A0BD914782geo ;
+    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_235C68F08416943DAgeo ;
     rdfs:seeAlso "http://www.juttersdok.nl"^^xsd:string ;
     wgs:lat "52.3945121102935"^^xsd:float ;
     wgs:long "4.91118481587054"^^xsd:float ;
     vcard:hasAddress "Papaverweg 17"^^xsd:string ;
     vcard:hasPostalCode "1032KE"^^xsd:string .
 
-g13set:juttersdok_kringloop_amsterdam_301B96048E97E4FB4 a g13vocab:instantie ;
+g13set:juttersdok_kringloop_amsterdam_3EC14260FCFF84840 a g13vocab:instantie ;
     rdfs:label "Juttersdok Kringloop Amsterdam"^^xsd:string ;
     dbo:PostalCode "1058DE"^^xsd:string ;
     dbo:Website "http://www.juttersdok.nl"^^xsd:string ;
@@ -997,14 +997,14 @@ g13set:juttersdok_kringloop_amsterdam_301B96048E97E4FB4 a g13vocab:instantie ;
     schema:PostalAddress "Postjeskade 23"^^xsd:string ;
     schema:WebSite "http://www.juttersdok.nl"^^xsd:string ;
     schema:postalCode "1058DE"^^xsd:string ;
-    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_301B96048E97E4FB4geo ;
+    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_3EC14260FCFF84840geo ;
     rdfs:seeAlso "http://www.juttersdok.nl"^^xsd:string ;
     wgs:lat "52.3635641571681"^^xsd:float ;
     wgs:long "4.85549253040184"^^xsd:float ;
     vcard:hasAddress "Postjeskade 23"^^xsd:string ;
     vcard:hasPostalCode "1058DE"^^xsd:string .
 
-g13set:juttersdok_kringloop_amsterdam_42B03AA41AD6D4276 a g13vocab:instantie ;
+g13set:juttersdok_kringloop_amsterdam_4D411328C90ED4E78 a g13vocab:instantie ;
     rdfs:label "Juttersdok Kringloop Amsterdam"^^xsd:string ;
     dbo:PostalCode "1019AD"^^xsd:string ;
     dbo:Website "http://www.juttersdok.nl"^^xsd:string ;
@@ -1019,14 +1019,14 @@ g13set:juttersdok_kringloop_amsterdam_42B03AA41AD6D4276 a g13vocab:instantie ;
     schema:PostalAddress "Zeeburgerpad 90"^^xsd:string ;
     schema:WebSite "http://www.juttersdok.nl"^^xsd:string ;
     schema:postalCode "1019AD"^^xsd:string ;
-    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_42B03AA41AD6D4276geo ;
+    geo:hasGeometry g13set:juttersdok_kringloop_amsterdam_4D411328C90ED4E78geo ;
     rdfs:seeAlso "http://www.juttersdok.nl"^^xsd:string ;
     wgs:lat "52.3671977028861"^^xsd:float ;
     wgs:long "4.94530460620432"^^xsd:float ;
     vcard:hasAddress "Zeeburgerpad 90"^^xsd:string ;
     vcard:hasPostalCode "1019AD"^^xsd:string .
 
-g13set:leger_des_heils_goodwill_centra_amsterdam_gwca9CD77DEC754548FA a g13vocab:instantie ;
+g13set:leger_des_heils_goodwill_centra_amsterdam_gwca5730360EE47644A7 a g13vocab:instantie ;
     rdfs:label "Leger des Heils Goodwill Centra Amsterdam (GWCA)"^^xsd:string ;
     dbo:PostalCode "1025KN"^^xsd:string ;
     dbo:Website "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
@@ -1039,14 +1039,14 @@ g13set:leger_des_heils_goodwill_centra_amsterdam_gwca9CD77DEC754548FA a g13vocab
     schema:PostalAddress "Rode Kruisstraat 24b"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
     schema:postalCode "1025KN"^^xsd:string ;
-    geo:hasGeometry g13set:leger_des_heils_goodwill_centra_amsterdam_gwca9CD77DEC754548FAgeo ;
+    geo:hasGeometry g13set:leger_des_heils_goodwill_centra_amsterdam_gwca5730360EE47644A7geo ;
     rdfs:seeAlso "http://www.legerdesheils-goodwillcentra.nl"^^xsd:string ;
     wgs:lat "52.3955340707404"^^xsd:float ;
     wgs:long "4.92874546109189"^^xsd:float ;
     vcard:hasAddress "Rode Kruisstraat 24b"^^xsd:string ;
     vcard:hasPostalCode "1025KN"^^xsd:string .
 
-g13set:maatschappelijke_opvang_atlantispleinB5AB4C9D43CC40B9 a g13vocab:instantie ;
+g13set:maatschappelijke_opvang_atlantispleinCF7F14EA96D34C83 a g13vocab:instantie ;
     rdfs:label "Maatschappelijke Opvang Atlantisplein"^^xsd:string ;
     dbo:PostalCode "1093NE"^^xsd:string ;
     dbo:Website "http://www.volksbond.nl"^^xsd:string ;
@@ -1059,14 +1059,14 @@ g13set:maatschappelijke_opvang_atlantispleinB5AB4C9D43CC40B9 a g13vocab:instanti
     schema:PostalAddress "Atlantisplein 5"^^xsd:string ;
     schema:WebSite "http://www.volksbond.nl"^^xsd:string ;
     schema:postalCode "1093NE"^^xsd:string ;
-    geo:hasGeometry g13set:maatschappelijke_opvang_atlantispleinB5AB4C9D43CC40B9geo ;
+    geo:hasGeometry g13set:maatschappelijke_opvang_atlantispleinCF7F14EA96D34C83geo ;
     rdfs:seeAlso "http://www.volksbond.nl"^^xsd:string ;
     wgs:lat "52.3573607050883"^^xsd:float ;
     wgs:long "4.93088921146546"^^xsd:float ;
     vcard:hasAddress "Atlantisplein 5"^^xsd:string ;
     vcard:hasPostalCode "1093NE"^^xsd:string .
 
-g13set:majoor_bosshardtburghA15A53E2D0F04F46 a g13vocab:instantie ;
+g13set:majoor_bosshardtburgh95D298402FB14C3E a g13vocab:instantie ;
     rdfs:label "Majoor Bosshardtburgh"^^xsd:string ;
     dbo:PostalCode "1012GP"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -1079,14 +1079,14 @@ g13set:majoor_bosshardtburghA15A53E2D0F04F46 a g13vocab:instantie ;
     schema:PostalAddress "Oudezijds Armsteeg 11"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1012GP"^^xsd:string ;
-    geo:hasGeometry g13set:majoor_bosshardtburghA15A53E2D0F04F46geo ;
+    geo:hasGeometry g13set:majoor_bosshardtburgh95D298402FB14C3Egeo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3756427401087"^^xsd:float ;
     wgs:long "4.89943202370827"^^xsd:float ;
     vcard:hasAddress "Oudezijds Armsteeg 11"^^xsd:string ;
     vcard:hasPostalCode "1012GP"^^xsd:string .
 
-g13set:martien_schaaperhuis3F41D52787D94A6D a g13vocab:instantie ;
+g13set:martien_schaaperhuis98290424F7A14549 a g13vocab:instantie ;
     rdfs:label "Martien Schaaperhuis"^^xsd:string ;
     dbo:PostalCode "1086XK"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1099,14 +1099,14 @@ g13set:martien_schaaperhuis3F41D52787D94A6D a g13vocab:instantie ;
     schema:PostalAddress "Pedro de Medinalaan 12"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1086XK"^^xsd:string ;
-    geo:hasGeometry g13set:martien_schaaperhuis3F41D52787D94A6Dgeo ;
+    geo:hasGeometry g13set:martien_schaaperhuis98290424F7A14549geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3629004977753"^^xsd:float ;
     wgs:long "4.97798559474576"^^xsd:float ;
     vcard:hasAddress "Pedro de Medinalaan 12"^^xsd:string ;
     vcard:hasPostalCode "1086XK"^^xsd:string .
 
-g13set:mobiel_service_centrum_mscF5B9D8051B7D4528 a g13vocab:instantie ;
+g13set:mobiel_service_centrum_msc511D14868DD44146 a g13vocab:instantie ;
     rdfs:label "Mobiel Service Centrum (MSC)"^^xsd:string ;
     dbo:PostalCode "1012SN"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -1119,14 +1119,14 @@ g13set:mobiel_service_centrum_mscF5B9D8051B7D4528 a g13vocab:instantie ;
     schema:PostalAddress "Hekelveld 8"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1012SN"^^xsd:string ;
-    geo:hasGeometry g13set:mobiel_service_centrum_mscF5B9D8051B7D4528geo ;
+    geo:hasGeometry g13set:mobiel_service_centrum_msc511D14868DD44146geo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3777660593735"^^xsd:float ;
     wgs:long "4.89529795202281"^^xsd:float ;
     vcard:hasAddress "Hekelveld 8"^^xsd:string ;
     vcard:hasPostalCode "1012SN"^^xsd:string .
 
-g13set:mobiel_team_hvo_queridoEC3B4821507F457E a g13vocab:instantie ;
+g13set:mobiel_team_hvo_querido7FC9FA0CE57C4346 a g13vocab:instantie ;
     rdfs:label "Mobiel Team HVO-Querido"^^xsd:string ;
     dbo:PostalCode "1059VM"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1145,14 +1145,14 @@ g13set:mobiel_team_hvo_queridoEC3B4821507F457E a g13vocab:instantie ;
     schema:PostalAddress "Poeldijkstraat 10"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1059VM"^^xsd:string ;
-    geo:hasGeometry g13set:mobiel_team_hvo_queridoEC3B4821507F457Egeo ;
+    geo:hasGeometry g13set:mobiel_team_hvo_querido7FC9FA0CE57C4346geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3505857944772"^^xsd:float ;
     wgs:long "4.8436127325802"^^xsd:float ;
     vcard:hasAddress "Poeldijkstraat 10"^^xsd:string ;
     vcard:hasPostalCode "1059VM"^^xsd:string .
 
-g13set:opvang_poeldijkstraat7366A7EB1F884886 a g13vocab:instantie ;
+g13set:opvang_poeldijkstraat0990C45FA2784484 a g13vocab:instantie ;
     rdfs:label "Opvang Poeldijkstraat"^^xsd:string ;
     dbo:PostalCode "1059VM"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1165,14 +1165,14 @@ g13set:opvang_poeldijkstraat7366A7EB1F884886 a g13vocab:instantie ;
     schema:PostalAddress "Poeldijkstraat 10"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1059VM"^^xsd:string ;
-    geo:hasGeometry g13set:opvang_poeldijkstraat7366A7EB1F884886geo ;
+    geo:hasGeometry g13set:opvang_poeldijkstraat0990C45FA2784484geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3505857944772"^^xsd:float ;
     wgs:long "4.8436127325802"^^xsd:float ;
     vcard:hasAddress "Poeldijkstraat 10"^^xsd:string ;
     vcard:hasPostalCode "1059VM"^^xsd:string .
 
-g13set:opvangvoorziening_anton_de_kompleinEFBD82D9B9234135 a g13vocab:instantie ;
+g13set:opvangvoorziening_anton_de_komplein42C1B336AE4440F7 a g13vocab:instantie ;
     rdfs:label "Opvangvoorziening Anton de Komplein"^^xsd:string ;
     dbo:PostalCode "1102DR"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1185,14 +1185,14 @@ g13set:opvangvoorziening_anton_de_kompleinEFBD82D9B9234135 a g13vocab:instantie 
     schema:PostalAddress "Anton de Komplein 232"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1102DR"^^xsd:string ;
-    geo:hasGeometry g13set:opvangvoorziening_anton_de_kompleinEFBD82D9B9234135geo ;
+    geo:hasGeometry g13set:opvangvoorziening_anton_de_komplein42C1B336AE4440F7geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.314216839017"^^xsd:float ;
     wgs:long "4.95835399432476"^^xsd:float ;
     vcard:hasAddress "Anton de Komplein 232"^^xsd:string ;
     vcard:hasPostalCode "1102DR"^^xsd:string .
 
-g13set:passantenhotel_boerhaaveA2FE599DEBD2424A a g13vocab:instantie ;
+g13set:passantenhotel_boerhaaveD44913B2425A432B a g13vocab:instantie ;
     rdfs:label "Passantenhotel Boerhaave"^^xsd:string ;
     dbo:PostalCode "1091AR"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1205,14 +1205,14 @@ g13set:passantenhotel_boerhaaveA2FE599DEBD2424A a g13vocab:instantie ;
     schema:PostalAddress "Tweede Boerhaavestraat 80"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1091AR"^^xsd:string ;
-    geo:hasGeometry g13set:passantenhotel_boerhaaveA2FE599DEBD2424Ageo ;
+    geo:hasGeometry g13set:passantenhotel_boerhaaveD44913B2425A432Bgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3599986360393"^^xsd:float ;
     wgs:long "4.91548940374903"^^xsd:float ;
     vcard:hasAddress "Tweede Boerhaavestraat 80"^^xsd:string ;
     vcard:hasPostalCode "1091AR"^^xsd:string .
 
-g13set:protestantse_diaconie_amsterdam32ED7C932D104620 a g13vocab:instantie ;
+g13set:protestantse_diaconie_amsterdamF2FDB1AE2EB24A03 a g13vocab:instantie ;
     rdfs:label "Protestantse Diaconie Amsterdam"^^xsd:string ;
     dbo:PostalCode "1018DP"^^xsd:string ;
     dbo:Website "http://www.diaconie.org"^^xsd:string ;
@@ -1225,14 +1225,14 @@ g13set:protestantse_diaconie_amsterdam32ED7C932D104620 a g13vocab:instantie ;
     schema:PostalAddress "Nieuwe Herengracht 18"^^xsd:string ;
     schema:WebSite "http://www.diaconie.org"^^xsd:string ;
     schema:postalCode "1018DP"^^xsd:string ;
-    geo:hasGeometry g13set:protestantse_diaconie_amsterdam32ED7C932D104620geo ;
+    geo:hasGeometry g13set:protestantse_diaconie_amsterdamF2FDB1AE2EB24A03geo ;
     rdfs:seeAlso "http://www.diaconie.org"^^xsd:string ;
     wgs:lat "52.366009072994"^^xsd:float ;
     wgs:long "4.90376781934102"^^xsd:float ;
     vcard:hasAddress "Nieuwe Herengracht 18"^^xsd:string ;
     vcard:hasPostalCode "1018DP"^^xsd:string .
 
-g13set:restart_intensieve_woonbegeleiding070242B730FB4199 a g13vocab:instantie ;
+g13set:restart_intensieve_woonbegeleidingFD938055E0E44EB9 a g13vocab:instantie ;
     rdfs:label "Restart Intensieve Woonbegeleiding"^^xsd:string ;
     dbo:PostalCode "1025KN"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -1247,14 +1247,14 @@ g13set:restart_intensieve_woonbegeleiding070242B730FB4199 a g13vocab:instantie ;
     schema:PostalAddress "Rode Kruisstraat 24b"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1025KN"^^xsd:string ;
-    geo:hasGeometry g13set:restart_intensieve_woonbegeleiding070242B730FB4199geo ;
+    geo:hasGeometry g13set:restart_intensieve_woonbegeleidingFD938055E0E44EB9geo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3955340707404"^^xsd:float ;
     wgs:long "4.92874546109189"^^xsd:float ;
     vcard:hasAddress "Rode Kruisstraat 24b"^^xsd:string ;
     vcard:hasPostalCode "1025KN"^^xsd:string .
 
-g13set:ribw_mo_jan_rebelstraatE99C3F1A0E5C4B82 a g13vocab:instantie ;
+g13set:ribw_mo_jan_rebelstraat8015B58B915545A5 a g13vocab:instantie ;
     rdfs:label "RIBW / MO Jan Rebelstraat"^^xsd:string ;
     dbo:PostalCode "1069CC"^^xsd:string ;
     dbo:Website "http://www.volksbond.nl"^^xsd:string ;
@@ -1267,14 +1267,14 @@ g13set:ribw_mo_jan_rebelstraatE99C3F1A0E5C4B82 a g13vocab:instantie ;
     schema:PostalAddress "Jan Rebelstraat 20"^^xsd:string ;
     schema:WebSite "http://www.volksbond.nl"^^xsd:string ;
     schema:postalCode "1069CC"^^xsd:string ;
-    geo:hasGeometry g13set:ribw_mo_jan_rebelstraatE99C3F1A0E5C4B82geo ;
+    geo:hasGeometry g13set:ribw_mo_jan_rebelstraat8015B58B915545A5geo ;
     rdfs:seeAlso "http://www.volksbond.nl"^^xsd:string ;
     wgs:lat "52.3617438570837"^^xsd:float ;
     wgs:long "4.78585944911415"^^xsd:float ;
     vcard:hasAddress "Jan Rebelstraat 20"^^xsd:string ;
     vcard:hasPostalCode "1069CC"^^xsd:string .
 
-g13set:robert_koch_wonenC03B659CAB4C4A24 a g13vocab:instantie ;
+g13set:robert_koch_wonen9894F85D3E354A6F a g13vocab:instantie ;
     rdfs:label "Robert Koch Wonen"^^xsd:string ;
     dbo:PostalCode "1097GG"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl/"^^xsd:string ;
@@ -1287,14 +1287,14 @@ g13set:robert_koch_wonenC03B659CAB4C4A24 a g13vocab:instantie ;
     schema:PostalAddress "Robert Kochplantsoen 35"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl/"^^xsd:string ;
     schema:postalCode "1097GG"^^xsd:string ;
-    geo:hasGeometry g13set:robert_koch_wonenC03B659CAB4C4A24geo ;
+    geo:hasGeometry g13set:robert_koch_wonen9894F85D3E354A6Fgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl/"^^xsd:string ;
     wgs:lat "52.3471188334591"^^xsd:float ;
     wgs:long "4.93850608365938"^^xsd:float ;
     vcard:hasAddress "Robert Kochplantsoen 35"^^xsd:string ;
     vcard:hasPostalCode "1097GG"^^xsd:string .
 
-g13set:schakel_inloop_maaltijden_kringloop1320CCCC2F2D4837 a g13vocab:instantie ;
+g13set:schakel_inloop_maaltijden_kringloop0FA08A82CD8A4512 a g13vocab:instantie ;
     rdfs:label "Schakel, inloop / maaltijden / kringloop"^^xsd:string ;
     dbo:PostalCode "1052AG"^^xsd:string ;
     dbo:Website "http://www.kerkkoepelwest.nl"^^xsd:string ;
@@ -1307,14 +1307,14 @@ g13set:schakel_inloop_maaltijden_kringloop1320CCCC2F2D4837 a g13vocab:instantie 
     schema:PostalAddress "De Wittenkade 109"^^xsd:string ;
     schema:WebSite "http://www.kerkkoepelwest.nl"^^xsd:string ;
     schema:postalCode "1052AG"^^xsd:string ;
-    geo:hasGeometry g13set:schakel_inloop_maaltijden_kringloop1320CCCC2F2D4837geo ;
+    geo:hasGeometry g13set:schakel_inloop_maaltijden_kringloop0FA08A82CD8A4512geo ;
     rdfs:seeAlso "http://www.kerkkoepelwest.nl"^^xsd:string ;
     wgs:lat "52.3828297892819"^^xsd:float ;
     wgs:long "4.87704358256216"^^xsd:float ;
     vcard:hasAddress "De Wittenkade 109"^^xsd:string ;
     vcard:hasPostalCode "1052AG"^^xsd:string .
 
-g13set:screeningsbalie_bijzondere_doelgroepen_15A63046E332C4CC2 a g13vocab:instantie ;
+g13set:screeningsbalie_bijzondere_doelgroepen_1AC8FC60CCDBD4EB4 a g13vocab:instantie ;
     rdfs:label "Screeningsbalie Bijzondere Doelgroepen"^^xsd:string ;
     dbo:PostalCode "1056CH"^^xsd:string ;
     dbo:Website "https://www.amsterdam.nl/zorg-welzijn/amsterdam-biedt/"^^xsd:string ;
@@ -1327,14 +1327,14 @@ g13set:screeningsbalie_bijzondere_doelgroepen_15A63046E332C4CC2 a g13vocab:insta
     schema:PostalAddress "Jan van Galenstraat 323"^^xsd:string ;
     schema:WebSite "https://www.amsterdam.nl/zorg-welzijn/amsterdam-biedt/"^^xsd:string ;
     schema:postalCode "1056CH"^^xsd:string ;
-    geo:hasGeometry g13set:screeningsbalie_bijzondere_doelgroepen_15A63046E332C4CC2geo ;
+    geo:hasGeometry g13set:screeningsbalie_bijzondere_doelgroepen_1AC8FC60CCDBD4EB4geo ;
     rdfs:seeAlso "https://www.amsterdam.nl/zorg-welzijn/amsterdam-biedt/"^^xsd:string ;
     wgs:lat "52.3717031714839"^^xsd:float ;
     wgs:long "4.84422096785895"^^xsd:float ;
     vcard:hasAddress "Jan van Galenstraat 323"^^xsd:string ;
     vcard:hasPostalCode "1056CH"^^xsd:string .
 
-g13set:stichting_kruispost145244A371CE4107 a g13vocab:instantie ;
+g13set:stichting_kruispost81BBFC954BC64221 a g13vocab:instantie ;
     rdfs:label "Stichting Kruispost"^^xsd:string ;
     dbo:PostalCode "1012EP"^^xsd:string ;
     dbo:Website "http://www.kruispost.nl"^^xsd:string ;
@@ -1350,14 +1350,14 @@ g13set:stichting_kruispost145244A371CE4107 a g13vocab:instantie ;
     schema:PostalAddress "Oudezijds Voorburgwal 129"^^xsd:string ;
     schema:WebSite "http://www.kruispost.nl"^^xsd:string ;
     schema:postalCode "1012EP"^^xsd:string ;
-    geo:hasGeometry g13set:stichting_kruispost145244A371CE4107geo ;
+    geo:hasGeometry g13set:stichting_kruispost81BBFC954BC64221geo ;
     rdfs:seeAlso "http://www.kruispost.nl"^^xsd:string ;
     wgs:lat "52.3727812920455"^^xsd:float ;
     wgs:long "4.89736002794718"^^xsd:float ;
     vcard:hasAddress "Oudezijds Voorburgwal 129"^^xsd:string ;
     vcard:hasPostalCode "1012EP"^^xsd:string .
 
-g13set:stichting_stoelenprojectA799AB9C9DF44502 a g13vocab:instantie ;
+g13set:stichting_stoelenproject5D91949E212E433E a g13vocab:instantie ;
     rdfs:label "Stichting Stoelenproject"^^xsd:string ;
     dbo:PostalCode "1016TL"^^xsd:string ;
     dbo:Website "http://www.stoelenproject.nl"^^xsd:string ;
@@ -1373,14 +1373,14 @@ g13set:stichting_stoelenprojectA799AB9C9DF44502 a g13vocab:instantie ;
     schema:PostalAddress "Marnixstraat 248"^^xsd:string ;
     schema:WebSite "http://www.stoelenproject.nl"^^xsd:string ;
     schema:postalCode "1016TL"^^xsd:string ;
-    geo:hasGeometry g13set:stichting_stoelenprojectA799AB9C9DF44502geo ;
+    geo:hasGeometry g13set:stichting_stoelenproject5D91949E212E433Egeo ;
     rdfs:seeAlso "http://www.stoelenproject.nl"^^xsd:string ;
     wgs:lat "52.3699310371543"^^xsd:float ;
     wgs:long "4.87672205863238"^^xsd:float ;
     vcard:hasAddress "Marnixstraat 248"^^xsd:string ;
     vcard:hasPostalCode "1016TL"^^xsd:string .
 
-g13set:stichting_streetcornerwork_amsterdamBFDC46FE5A364AEB a g13vocab:instantie ;
+g13set:stichting_streetcornerwork_amsterdam686B3C98A6F24D1F a g13vocab:instantie ;
     rdfs:label "Stichting Streetcornerwork Amsterdam"^^xsd:string ;
     dbo:PostalCode "1016CG"^^xsd:string ;
     dbo:Website "http://www.streetcornerwork.eu"^^xsd:string ;
@@ -1398,14 +1398,14 @@ g13set:stichting_streetcornerwork_amsterdamBFDC46FE5A364AEB a g13vocab:instantie
     schema:PostalAddress "Herengracht 352"^^xsd:string ;
     schema:WebSite "http://www.streetcornerwork.eu"^^xsd:string ;
     schema:postalCode "1016CG"^^xsd:string ;
-    geo:hasGeometry g13set:stichting_streetcornerwork_amsterdamBFDC46FE5A364AEBgeo ;
+    geo:hasGeometry g13set:stichting_streetcornerwork_amsterdam686B3C98A6F24D1Fgeo ;
     rdfs:seeAlso "http://www.streetcornerwork.eu"^^xsd:string ;
     wgs:lat "52.3689297721381"^^xsd:float ;
     wgs:long "4.88639513387154"^^xsd:float ;
     vcard:hasAddress "Herengracht 352"^^xsd:string ;
     vcard:hasPostalCode "1016CG"^^xsd:string .
 
-g13set:stichting_volksbond_amsterdam91E4BA141FD34285 a g13vocab:instantie ;
+g13set:stichting_volksbond_amsterdam9FD30CD602A0491B a g13vocab:instantie ;
     rdfs:label "Stichting Volksbond Amsterdam"^^xsd:string ;
     dbo:PostalCode "1097BC"^^xsd:string ;
     dbo:Website "http://www.volksbond.nl"^^xsd:string ;
@@ -1421,14 +1421,14 @@ g13set:stichting_volksbond_amsterdam91E4BA141FD34285 a g13vocab:instantie ;
     schema:PostalAddress "Eerste Ringdijkstraat 5B"^^xsd:string ;
     schema:WebSite "http://www.volksbond.nl"^^xsd:string ;
     schema:postalCode "1097BC"^^xsd:string ;
-    geo:hasGeometry g13set:stichting_volksbond_amsterdam91E4BA141FD34285geo ;
+    geo:hasGeometry g13set:stichting_volksbond_amsterdam9FD30CD602A0491Bgeo ;
     rdfs:seeAlso "http://www.volksbond.nl"^^xsd:string ;
     wgs:lat "52.3501253517124"^^xsd:float ;
     wgs:long "4.91891283765617"^^xsd:float ;
     vcard:hasAddress "Eerste Ringdijkstraat 5B"^^xsd:string ;
     vcard:hasPostalCode "1097BC"^^xsd:string .
 
-g13set:stichting_z04FB945318F749F1 a g13vocab:instantie ;
+g13set:stichting_z4C66263B81C54F22 a g13vocab:instantie ;
     rdfs:label "Stichting Z"^^xsd:string ;
     dbo:PostalCode "1091JG"^^xsd:string ;
     dbo:Website "http://www.z-krant.nl"^^xsd:string ;
@@ -1444,14 +1444,14 @@ g13set:stichting_z04FB945318F749F1 a g13vocab:instantie ;
     schema:PostalAddress "Tweede Oosterparkstraat 72"^^xsd:string ;
     schema:WebSite "http://www.z-krant.nl"^^xsd:string ;
     schema:postalCode "1091JG"^^xsd:string ;
-    geo:hasGeometry g13set:stichting_z04FB945318F749F1geo ;
+    geo:hasGeometry g13set:stichting_z4C66263B81C54F22geo ;
     rdfs:seeAlso "http://www.z-krant.nl"^^xsd:string ;
     wgs:lat "52.3566102914183"^^xsd:float ;
     wgs:long "4.91549606200291"^^xsd:float ;
     vcard:hasAddress "Tweede Oosterparkstraat 72"^^xsd:string ;
     vcard:hasPostalCode "1091JG"^^xsd:string .
 
-g13set:streetcornerwork_team_centrum9EAA322527174434 a g13vocab:instantie ;
+g13set:streetcornerwork_team_centrumD02168A093694535 a g13vocab:instantie ;
     rdfs:label "Streetcornerwork Team Centrum"^^xsd:string ;
     dbo:PostalCode "1012SB"^^xsd:string ;
     dbo:Website "http://www.streetcornerwork.eu"^^xsd:string ;
@@ -1466,14 +1466,14 @@ g13set:streetcornerwork_team_centrum9EAA322527174434 a g13vocab:instantie ;
     schema:PostalAddress "Nieuwezijds Voorburgwal 38"^^xsd:string ;
     schema:WebSite "http://www.streetcornerwork.eu"^^xsd:string ;
     schema:postalCode "1012SB"^^xsd:string ;
-    geo:hasGeometry g13set:streetcornerwork_team_centrum9EAA322527174434geo ;
+    geo:hasGeometry g13set:streetcornerwork_team_centrumD02168A093694535geo ;
     rdfs:seeAlso "http://www.streetcornerwork.eu"^^xsd:string ;
     wgs:lat "52.3768263734079"^^xsd:float ;
     wgs:long "4.89410413753967"^^xsd:float ;
     vcard:hasAddress "Nieuwezijds Voorburgwal 38"^^xsd:string ;
     vcard:hasPostalCode "1012SB"^^xsd:string .
 
-g13set:woonbegeleiding_de_eerste_helmerAF2945A13C9B4E99 a g13vocab:instantie ;
+g13set:woonbegeleiding_de_eerste_helmerE86CDF8E533D45DE a g13vocab:instantie ;
     rdfs:label "Woonbegeleiding De Eerste Helmer"^^xsd:string ;
     dbo:PostalCode "1054DJ"^^xsd:string ;
     dbo:Website "http://www.volksbond.nl"^^xsd:string ;
@@ -1488,14 +1488,14 @@ g13set:woonbegeleiding_de_eerste_helmerAF2945A13C9B4E99 a g13vocab:instantie ;
     schema:PostalAddress "Eerste Helmersstraat 40"^^xsd:string ;
     schema:WebSite "http://www.volksbond.nl"^^xsd:string ;
     schema:postalCode "1054DJ"^^xsd:string ;
-    geo:hasGeometry g13set:woonbegeleiding_de_eerste_helmerAF2945A13C9B4E99geo ;
+    geo:hasGeometry g13set:woonbegeleiding_de_eerste_helmerE86CDF8E533D45DEgeo ;
     rdfs:seeAlso "http://www.volksbond.nl"^^xsd:string ;
     wgs:lat "52.3637891119"^^xsd:float ;
     wgs:long "4.8759558811229"^^xsd:float ;
     vcard:hasAddress "Eerste Helmersstraat 40"^^xsd:string ;
     vcard:hasPostalCode "1054DJ"^^xsd:string .
 
-g13set:woonhotel_de_nassau1FCE9365E14C4B01 a g13vocab:instantie ;
+g13set:woonhotel_de_nassauC40D1F445996471F a g13vocab:instantie ;
     rdfs:label "Woonhotel De Nassau"^^xsd:string ;
     dbo:PostalCode "1052BH"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1510,14 +1510,14 @@ g13set:woonhotel_de_nassau1FCE9365E14C4B01 a g13vocab:instantie ;
     schema:PostalAddress "Eerste Nassaustraat 30a"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1052BH"^^xsd:string ;
-    geo:hasGeometry g13set:woonhotel_de_nassau1FCE9365E14C4B01geo ;
+    geo:hasGeometry g13set:woonhotel_de_nassauC40D1F445996471Fgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3835662189401"^^xsd:float ;
     wgs:long "4.8790033102617"^^xsd:float ;
     vcard:hasAddress "Eerste Nassaustraat 30a"^^xsd:string ;
     vcard:hasPostalCode "1052BH"^^xsd:string .
 
-g13set:woonhotel_ruysdael0F09DDED0C7E4E15 a g13vocab:instantie ;
+g13set:woonhotel_ruysdael51E72D02771648DB a g13vocab:instantie ;
     rdfs:label "Woonhotel Ruysdael"^^xsd:string ;
     dbo:PostalCode "1072AW"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl/"^^xsd:string ;
@@ -1532,14 +1532,14 @@ g13set:woonhotel_ruysdael0F09DDED0C7E4E15 a g13vocab:instantie ;
     schema:PostalAddress "Ruysdaelkade 225"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl/"^^xsd:string ;
     schema:postalCode "1072AW"^^xsd:string ;
-    geo:hasGeometry g13set:woonhotel_ruysdael0F09DDED0C7E4E15geo ;
+    geo:hasGeometry g13set:woonhotel_ruysdael51E72D02771648DBgeo ;
     rdfs:seeAlso "http://www.hvoquerido.nl/"^^xsd:string ;
     wgs:lat "52.3506060799724"^^xsd:float ;
     wgs:long "4.88693947191758"^^xsd:float ;
     vcard:hasAddress "Ruysdaelkade 225"^^xsd:string ;
     vcard:hasPostalCode "1072AW"^^xsd:string .
 
-g13set:woonvoorziening_de_vesteD0B75A2F438E4346 a g13vocab:instantie ;
+g13set:woonvoorziening_de_veste916208837AF84305 a g13vocab:instantie ;
     rdfs:label "Woonvoorziening De Veste"^^xsd:string ;
     dbo:PostalCode "1059VM"^^xsd:string ;
     dbo:Website "http://www.hvoquerido.nl"^^xsd:string ;
@@ -1554,14 +1554,14 @@ g13set:woonvoorziening_de_vesteD0B75A2F438E4346 a g13vocab:instantie ;
     schema:PostalAddress "Poeldijkstraat 10"^^xsd:string ;
     schema:WebSite "http://www.hvoquerido.nl"^^xsd:string ;
     schema:postalCode "1059VM"^^xsd:string ;
-    geo:hasGeometry g13set:woonvoorziening_de_vesteD0B75A2F438E4346geo ;
+    geo:hasGeometry g13set:woonvoorziening_de_veste916208837AF84305geo ;
     rdfs:seeAlso "http://www.hvoquerido.nl"^^xsd:string ;
     wgs:lat "52.3505857944772"^^xsd:float ;
     wgs:long "4.8436127325802"^^xsd:float ;
     vcard:hasAddress "Poeldijkstraat 10"^^xsd:string ;
     vcard:hasPostalCode "1059VM"^^xsd:string .
 
-g13set:woonvoorziening_noorderburghF52F7A1B6C294265 a g13vocab:instantie ;
+g13set:woonvoorziening_noorderburgh301A1EE4DC904094 a g13vocab:instantie ;
     rdfs:label "Woonvoorziening Noorderburgh"^^xsd:string ;
     dbo:PostalCode "1032JB"^^xsd:string ;
     dbo:Website "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
@@ -1576,232 +1576,232 @@ g13set:woonvoorziening_noorderburghF52F7A1B6C294265 a g13vocab:instantie ;
     schema:PostalAddress "Heggerankweg 53"^^xsd:string ;
     schema:WebSite "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     schema:postalCode "1032JB"^^xsd:string ;
-    geo:hasGeometry g13set:woonvoorziening_noorderburghF52F7A1B6C294265geo ;
+    geo:hasGeometry g13set:woonvoorziening_noorderburgh301A1EE4DC904094geo ;
     rdfs:seeAlso "http://www.legerdesheils.nl/goodwillcentra-amsterdam/"^^xsd:string ;
     wgs:lat "52.3961448188178"^^xsd:float ;
     wgs:long "4.91266588675667"^^xsd:float ;
     vcard:hasAddress "Heggerankweg 53"^^xsd:string ;
     vcard:hasPostalCode "1032JB"^^xsd:string .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter1A780FBFB2DF4E5Dgeo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter7F68052E87A44949geo> a geo:Geometry ;
     geo:asWKT "POINT(4.84484113957734 52.3413429970878)"^^geo:wktLiteral .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_1E077194D416D4425geo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_10D0D5D717DF643B1geo> a geo:Geometry ;
     geo:asWKT "POINT(4.97569185702311 52.3153003814072)"^^geo:wktLiteral .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_2B93A67CF7DA04847geo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_2C2E767361C084A6Cgeo> a geo:Geometry ;
     geo:asWKT "POINT(4.92875584394249 52.354748001418)"^^geo:wktLiteral .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_3F7FA6C9210444284geo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_377750687B5C6438Cgeo> a geo:Geometry ;
     geo:asWKT "POINT(4.92874546109189 52.3955340707404)"^^geo:wktLiteral .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_4C1A7943E58554DE5geo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/dakth/50_50_workcenter_494CD580461ED4E88geo> a geo:Geometry ;
     geo:asWKT "POINT(4.92721191783484 52.366856160969)"^^geo:wktLiteral .
 
-g13set:aha_inloophuis_voor_dak_en_thuislozenCD9375B9BCEA44D3geo a geo:Geometry ;
+g13set:aha_inloophuis_voor_dak_en_thuislozen1A0EAEF24DC4478Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89749611098668 52.3728768729646)"^^geo:wktLiteral .
 
-g13set:begeleid_wonen_de_vaart0088AA030BB24E14geo a geo:Geometry ;
+g13set:begeleid_wonen_de_vaartD8EE6A0696EF4556geo a geo:Geometry ;
     geo:asWKT "POINT(4.92257428563768 52.368951447216)"^^geo:wktLiteral .
 
-g13set:begeleid_zelfstandig_wonen_fleerde1A48F451FC99499Ageo a geo:Geometry ;
+g13set:begeleid_zelfstandig_wonen_fleerde6E7B0986CE0646FCgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9578466875549 52.3200385988841)"^^geo:wktLiteral .
 
-g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt4598ADCBA0E04AD5geo a geo:Geometry ;
+g13set:belangenbehartiging_amsterdamse_dak_en_thuislozen_badt9C81FEEA8AE54A8Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.90376781934102 52.366009072994)"^^geo:wktLiteral .
 
-g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen49D3707E59F2409Dgeo a geo:Geometry ;
+g13set:bureau_straatjurist_juridisch_steunpunt_voor_dak_en_thuislozen5DDDA350ADF84D81geo a geo:Geometry ;
     geo:asWKT "POINT(4.90376781934102 52.366009072994)"^^geo:wktLiteral .
 
-g13set:centraal_meldpunt_dakloze_gezinnen0D1D1E32F5EA4594geo a geo:Geometry ;
+g13set:centraal_meldpunt_dakloze_gezinnen48AE66D4254F4313geo a geo:Geometry ;
     geo:asWKT "POINT(4.90900287705508 52.3625251245642)"^^geo:wktLiteral .
 
-g13set:centrum_ps553CD2C92E17483Egeo a geo:Geometry ;
+g13set:centrum_ps539E87B1381E4E74geo a geo:Geometry ;
     geo:asWKT "POINT(4.86579213870465 52.3703867207915)"^^geo:wktLiteral .
 
-g13set:clusterwonenC5325E91517F4D2Fgeo a geo:Geometry ;
+g13set:clusterwonenC7B1D3A05EA84A9Ageo a geo:Geometry ;
     geo:asWKT "POINT(4.91187589928303 52.3684236452534)"^^geo:wktLiteral .
 
-g13set:dagactiviteitencentrum_de_miranda83D05D656CA04CF5geo a geo:Geometry ;
+g13set:dagactiviteitencentrum_de_miranda5536991AA4C24F54geo a geo:Geometry ;
     geo:asWKT "POINT(4.90080516418065 52.33893485117)"^^geo:wktLiteral .
 
-g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen1B2BE177877F468Fgeo a geo:Geometry ;
+g13set:de_aak_zorgvoorziening_voor_dak_en_thuislozen82206392886A43DDgeo a geo:Geometry ;
     geo:asWKT "POINT(4.78573633465077 52.3541001812015)"^^geo:wktLiteral .
 
-g13set:de_goodwillburgh183E12A1732D4308geo a geo:Geometry ;
+g13set:de_goodwillburghB5D3BFCDBEB24148geo a geo:Geometry ;
     geo:asWKT "POINT(4.909060522152 52.3694369076746)"^^geo:wktLiteral .
 
-g13set:de_klif1B39F0C9001E43FEgeo a geo:Geometry ;
+g13set:de_klifC10E38C592284CDCgeo a geo:Geometry ;
     geo:asWKT "POINT(4.9567883058941 52.3051420009543)"^^geo:wktLiteral .
 
-g13set:de_regenboog_groepBB0F253F5A90406Egeo a geo:Geometry ;
+g13set:de_regenboog_groep0CCF749369624B0Egeo a geo:Geometry ;
     geo:asWKT "POINT(4.89413939550038 52.380259820669)"^^geo:wktLiteral .
 
-g13set:discus_amsterdam_31516493707074BC5geo a geo:Geometry ;
+g13set:discus_amsterdam_3962AA6F011694498geo a geo:Geometry ;
     geo:asWKT "POINT(4.86080857521283 52.3461246948313)"^^geo:wktLiteral .
 
-g13set:discus_amsterdam_4C23957FCBFB048D0geo a geo:Geometry ;
+g13set:discus_amsterdam_49EA144D8569A4445geo a geo:Geometry ;
     geo:asWKT "POINT(4.82683380111803 52.3601154834516)"^^geo:wktLiteral .
 
-g13set:discus_amsterdam_544A419C4FF9C4FB3geo a geo:Geometry ;
+g13set:discus_amsterdam_5A370CB4D9FBD4D2Ageo a geo:Geometry ;
     geo:asWKT "POINT(4.91393673509129 52.3610529898951)"^^geo:wktLiteral .
 
-g13set:don_boscohuis_amsterdam38763710D3CD4153geo a geo:Geometry ;
+g13set:don_boscohuis_amsterdam7811AC7486E94343geo a geo:Geometry ;
     geo:asWKT "POINT(4.8778718112844 52.3503606896394)"^^geo:wktLiteral .
 
-g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurF5AC331FF87E46A2geo a geo:Geometry ;
+g13set:dr_valckenier_spreekuur_huisarts_inloopspreekuurBA8822A147B14708geo a geo:Geometry ;
     geo:asWKT "POINT(4.90851275987104 52.3616872859729)"^^geo:wktLiteral .
 
-g13set:eettafel_filah2A40F028913F4AF5geo a geo:Geometry ;
+g13set:eettafel_filah8F572C2239E14F06geo a geo:Geometry ;
     geo:asWKT "POINT(4.87400036001581 52.3843445492948)"^^geo:wktLiteral .
 
-g13set:geintegreerde_voorziening_gv_centrum_1EA57716287B042DAgeo a geo:Geometry ;
+g13set:geintegreerde_voorziening_gv_centrum_1822C48A52EAB48D2geo a geo:Geometry ;
     geo:asWKT "POINT(4.90851275987104 52.3616872859729)"^^geo:wktLiteral .
 
-g13set:geintegreerde_voorziening_gv_west_1E18BBB1710E74171geo a geo:Geometry ;
+g13set:geintegreerde_voorziening_gv_west_1956641007B7D4265geo a geo:Geometry ;
     geo:asWKT "POINT(4.86657921660121 52.3708845094098)"^^geo:wktLiteral .
 
-g13set:geintegreerde_voorziening_gv_zuidoost_13462939A87BA4FA4geo a geo:Geometry ;
+g13set:geintegreerde_voorziening_gv_zuidoost_1172C4BDAEEC24E8Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.95820137186839 52.3136855304352)"^^geo:wktLiteral .
 
-g13set:herstart_rosaburgh313586061FE64EB6geo a geo:Geometry ;
+g13set:herstart_rosaburghE8D907E5786E4ACBgeo a geo:Geometry ;
     geo:asWKT "POINT(4.91455641582723 52.3883241251527)"^^geo:wktLiteral .
 
-g13set:herstart_westburghF344450E99024BE5geo a geo:Geometry ;
+g13set:herstart_westburgh929FB80070114232geo a geo:Geometry ;
     geo:asWKT "POINT(4.85423702744119 52.3947459029794)"^^geo:wktLiteral .
 
-g13set:herstart_zuiderburgh0D95ECC744644C46geo a geo:Geometry ;
+g13set:herstart_zuiderburgh29BA3E590D504E6Cgeo a geo:Geometry ;
     geo:asWKT "POINT(4.88161752822785 52.3526686259663)"^^geo:wktLiteral .
 
-g13set:hvo_querido69BEE3D5717543F5geo a geo:Geometry ;
+g13set:hvo_querido05BA004C514C457Ageo a geo:Geometry ;
     geo:asWKT "POINT(4.91891283765617 52.3501253517124)"^^geo:wktLiteral .
 
-g13set:hvo_querido_191E6BAD1C01B461Bgeo a geo:Geometry ;
+g13set:hvo_querido_1ED0B3C0D4D49459Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.87674510359242 52.3755844114509)"^^geo:wktLiteral .
 
-g13set:informele_zorg_westerpark34F294EABB704321geo a geo:Geometry ;
+g13set:informele_zorg_westerparkCDFEB4B80373493Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.87165180945169 52.384208520709)"^^geo:wktLiteral .
 
-g13set:inloophuis_de_kloofC25133B68C764E36geo a geo:Geometry ;
+g13set:inloophuis_de_kloof6454F4603D3E48CDgeo a geo:Geometry ;
     geo:asWKT "POINT(4.89746327600569 52.3692007640883)"^^geo:wktLiteral .
 
-g13set:inloophuis_de_spreekbuis3A5483841FC94FDEgeo a geo:Geometry ;
+g13set:inloophuis_de_spreekbuisB1FE8BAC2FDB4F92geo a geo:Geometry ;
     geo:asWKT "POINT(4.91549606200291 52.3566102914183)"^^geo:wktLiteral .
 
-g13set:inloophuis_de_tweede_mijlD3EACA03D39D4C4Bgeo a geo:Geometry ;
+g13set:inloophuis_de_tweede_mijlF0FDEE89A5A849D9geo a geo:Geometry ;
     geo:asWKT "POINT(4.88511043336344 52.3812464803589)"^^geo:wktLiteral .
 
-g13set:inloophuis_en_gebruikersruimte_blaka_watra74FEB8F0AFB54089geo a geo:Geometry ;
+g13set:inloophuis_en_gebruikersruimte_blaka_watraD1636B486B6B4724geo a geo:Geometry ;
     geo:asWKT "POINT(4.89413939550038 52.380259820669)"^^geo:wktLiteral .
 
-g13set:inloophuis_en_gebruikersruimte_de_princehof34CD963165AE4AC5geo a geo:Geometry ;
+g13set:inloophuis_en_gebruikersruimte_de_princehof5DE34FA7CD4642D7geo a geo:Geometry ;
     geo:asWKT "POINT(4.89650675736408 52.3720459079945)"^^geo:wktLiteral .
 
-g13set:inloophuis_haarlemmerstraat0C6A0544913644FFgeo a geo:Geometry ;
+g13set:inloophuis_haarlemmerstraatAE3985EE32BE493Ageo a geo:Geometry ;
     geo:asWKT "POINT(4.88975058921189 52.3813379646705)"^^geo:wktLiteral .
 
-g13set:inloophuis_makom_kledinginzamelplek28CB64BE18B34F1Fgeo a geo:Geometry ;
+g13set:inloophuis_makom_kledinginzamelplek8C22C7027C3C4310geo a geo:Geometry ;
     geo:asWKT "POINT(4.8956040443583 52.3527994423332)"^^geo:wktLiteral .
 
-g13set:inloophuis_ondro_bongC6E44C87D93D4D97geo a geo:Geometry ;
+g13set:inloophuis_ondro_bong70617D15B13E4954geo a geo:Geometry ;
     geo:asWKT "POINT(4.93459793085432 52.3662567725479)"^^geo:wktLiteral .
 
-g13set:inloophuis_oud_west30F8D4D86CD34E25geo a geo:Geometry ;
+g13set:inloophuis_oud_west2869CB7E11434382geo a geo:Geometry ;
     geo:asWKT "POINT(4.87225136776195 52.3667300210668)"^^geo:wktLiteral .
 
-g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen0D81B0BA3D884105geo a geo:Geometry ;
+g13set:je_eigen_stek_doorstroomhuis_voor_ex_daklozen17D494BBFE5C4A18geo a geo:Geometry ;
     geo:asWKT "POINT(4.90218895414779 52.3519547962319)"^^geo:wktLiteral .
 
-g13set:juttersdok_kringloop_amsterdamFEFBF326843E4EBFgeo a geo:Geometry ;
+g13set:juttersdok_kringloop_amsterdam5A7FADBEC84040B6geo a geo:Geometry ;
     geo:asWKT "POINT(4.89948453727621 52.3629806195318)"^^geo:wktLiteral .
 
-g13set:juttersdok_kringloop_amsterdam_1F50B9960AFE14C24geo a geo:Geometry ;
+g13set:juttersdok_kringloop_amsterdam_1C7CCF809CB98401Dgeo a geo:Geometry ;
     geo:asWKT "POINT(4.85588197702385 52.3629187877545)"^^geo:wktLiteral .
 
-g13set:juttersdok_kringloop_amsterdam_24517A6A0BD914782geo a geo:Geometry ;
+g13set:juttersdok_kringloop_amsterdam_235C68F08416943DAgeo a geo:Geometry ;
     geo:asWKT "POINT(4.91118481587054 52.3945121102935)"^^geo:wktLiteral .
 
-g13set:juttersdok_kringloop_amsterdam_301B96048E97E4FB4geo a geo:Geometry ;
+g13set:juttersdok_kringloop_amsterdam_3EC14260FCFF84840geo a geo:Geometry ;
     geo:asWKT "POINT(4.85549253040184 52.3635641571681)"^^geo:wktLiteral .
 
-g13set:juttersdok_kringloop_amsterdam_42B03AA41AD6D4276geo a geo:Geometry ;
+g13set:juttersdok_kringloop_amsterdam_4D411328C90ED4E78geo a geo:Geometry ;
     geo:asWKT "POINT(4.94530460620432 52.3671977028861)"^^geo:wktLiteral .
 
-g13set:leger_des_heils_goodwill_centra_amsterdam_gwca9CD77DEC754548FAgeo a geo:Geometry ;
+g13set:leger_des_heils_goodwill_centra_amsterdam_gwca5730360EE47644A7geo a geo:Geometry ;
     geo:asWKT "POINT(4.92874546109189 52.3955340707404)"^^geo:wktLiteral .
 
-g13set:maatschappelijke_opvang_atlantispleinB5AB4C9D43CC40B9geo a geo:Geometry ;
+g13set:maatschappelijke_opvang_atlantispleinCF7F14EA96D34C83geo a geo:Geometry ;
     geo:asWKT "POINT(4.93088921146546 52.3573607050883)"^^geo:wktLiteral .
 
-g13set:majoor_bosshardtburghA15A53E2D0F04F46geo a geo:Geometry ;
+g13set:majoor_bosshardtburgh95D298402FB14C3Egeo a geo:Geometry ;
     geo:asWKT "POINT(4.89943202370827 52.3756427401087)"^^geo:wktLiteral .
 
-g13set:martien_schaaperhuis3F41D52787D94A6Dgeo a geo:Geometry ;
+g13set:martien_schaaperhuis98290424F7A14549geo a geo:Geometry ;
     geo:asWKT "POINT(4.97798559474576 52.3629004977753)"^^geo:wktLiteral .
 
-g13set:mobiel_service_centrum_mscF5B9D8051B7D4528geo a geo:Geometry ;
+g13set:mobiel_service_centrum_msc511D14868DD44146geo a geo:Geometry ;
     geo:asWKT "POINT(4.89529795202281 52.3777660593735)"^^geo:wktLiteral .
 
-g13set:mobiel_team_hvo_queridoEC3B4821507F457Egeo a geo:Geometry ;
+g13set:mobiel_team_hvo_querido7FC9FA0CE57C4346geo a geo:Geometry ;
     geo:asWKT "POINT(4.8436127325802 52.3505857944772)"^^geo:wktLiteral .
 
-g13set:opvang_poeldijkstraat7366A7EB1F884886geo a geo:Geometry ;
+g13set:opvang_poeldijkstraat0990C45FA2784484geo a geo:Geometry ;
     geo:asWKT "POINT(4.8436127325802 52.3505857944772)"^^geo:wktLiteral .
 
-g13set:opvangvoorziening_anton_de_kompleinEFBD82D9B9234135geo a geo:Geometry ;
+g13set:opvangvoorziening_anton_de_komplein42C1B336AE4440F7geo a geo:Geometry ;
     geo:asWKT "POINT(4.95835399432476 52.314216839017)"^^geo:wktLiteral .
 
-g13set:passantenhotel_boerhaaveA2FE599DEBD2424Ageo a geo:Geometry ;
+g13set:passantenhotel_boerhaaveD44913B2425A432Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.91548940374903 52.3599986360393)"^^geo:wktLiteral .
 
-g13set:protestantse_diaconie_amsterdam32ED7C932D104620geo a geo:Geometry ;
+g13set:protestantse_diaconie_amsterdamF2FDB1AE2EB24A03geo a geo:Geometry ;
     geo:asWKT "POINT(4.90376781934102 52.366009072994)"^^geo:wktLiteral .
 
-g13set:restart_intensieve_woonbegeleiding070242B730FB4199geo a geo:Geometry ;
+g13set:restart_intensieve_woonbegeleidingFD938055E0E44EB9geo a geo:Geometry ;
     geo:asWKT "POINT(4.92874546109189 52.3955340707404)"^^geo:wktLiteral .
 
-g13set:ribw_mo_jan_rebelstraatE99C3F1A0E5C4B82geo a geo:Geometry ;
+g13set:ribw_mo_jan_rebelstraat8015B58B915545A5geo a geo:Geometry ;
     geo:asWKT "POINT(4.78585944911415 52.3617438570837)"^^geo:wktLiteral .
 
-g13set:robert_koch_wonenC03B659CAB4C4A24geo a geo:Geometry ;
+g13set:robert_koch_wonen9894F85D3E354A6Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.93850608365938 52.3471188334591)"^^geo:wktLiteral .
 
-g13set:schakel_inloop_maaltijden_kringloop1320CCCC2F2D4837geo a geo:Geometry ;
+g13set:schakel_inloop_maaltijden_kringloop0FA08A82CD8A4512geo a geo:Geometry ;
     geo:asWKT "POINT(4.87704358256216 52.3828297892819)"^^geo:wktLiteral .
 
-g13set:screeningsbalie_bijzondere_doelgroepen_15A63046E332C4CC2geo a geo:Geometry ;
+g13set:screeningsbalie_bijzondere_doelgroepen_1AC8FC60CCDBD4EB4geo a geo:Geometry ;
     geo:asWKT "POINT(4.84422096785895 52.3717031714839)"^^geo:wktLiteral .
 
-g13set:stichting_kruispost145244A371CE4107geo a geo:Geometry ;
+g13set:stichting_kruispost81BBFC954BC64221geo a geo:Geometry ;
     geo:asWKT "POINT(4.89736002794718 52.3727812920455)"^^geo:wktLiteral .
 
-g13set:stichting_stoelenprojectA799AB9C9DF44502geo a geo:Geometry ;
+g13set:stichting_stoelenproject5D91949E212E433Egeo a geo:Geometry ;
     geo:asWKT "POINT(4.87672205863238 52.3699310371543)"^^geo:wktLiteral .
 
-g13set:stichting_streetcornerwork_amsterdamBFDC46FE5A364AEBgeo a geo:Geometry ;
+g13set:stichting_streetcornerwork_amsterdam686B3C98A6F24D1Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.88639513387154 52.3689297721381)"^^geo:wktLiteral .
 
-g13set:stichting_volksbond_amsterdam91E4BA141FD34285geo a geo:Geometry ;
+g13set:stichting_volksbond_amsterdam9FD30CD602A0491Bgeo a geo:Geometry ;
     geo:asWKT "POINT(4.91891283765617 52.3501253517124)"^^geo:wktLiteral .
 
-g13set:stichting_z04FB945318F749F1geo a geo:Geometry ;
+g13set:stichting_z4C66263B81C54F22geo a geo:Geometry ;
     geo:asWKT "POINT(4.91549606200291 52.3566102914183)"^^geo:wktLiteral .
 
-g13set:streetcornerwork_team_centrum9EAA322527174434geo a geo:Geometry ;
+g13set:streetcornerwork_team_centrumD02168A093694535geo a geo:Geometry ;
     geo:asWKT "POINT(4.89410413753967 52.3768263734079)"^^geo:wktLiteral .
 
-g13set:woonbegeleiding_de_eerste_helmerAF2945A13C9B4E99geo a geo:Geometry ;
+g13set:woonbegeleiding_de_eerste_helmerE86CDF8E533D45DEgeo a geo:Geometry ;
     geo:asWKT "POINT(4.8759558811229 52.3637891119)"^^geo:wktLiteral .
 
-g13set:woonhotel_de_nassau1FCE9365E14C4B01geo a geo:Geometry ;
+g13set:woonhotel_de_nassauC40D1F445996471Fgeo a geo:Geometry ;
     geo:asWKT "POINT(4.8790033102617 52.3835662189401)"^^geo:wktLiteral .
 
-g13set:woonhotel_ruysdael0F09DDED0C7E4E15geo a geo:Geometry ;
+g13set:woonhotel_ruysdael51E72D02771648DBgeo a geo:Geometry ;
     geo:asWKT "POINT(4.88693947191758 52.3506060799724)"^^geo:wktLiteral .
 
-g13set:woonvoorziening_de_vesteD0B75A2F438E4346geo a geo:Geometry ;
+g13set:woonvoorziening_de_veste916208837AF84305geo a geo:Geometry ;
     geo:asWKT "POINT(4.8436127325802 52.3505857944772)"^^geo:wktLiteral .
 
-g13set:woonvoorziening_noorderburghF52F7A1B6C294265geo a geo:Geometry ;
+g13set:woonvoorziening_noorderburgh301A1EE4DC904094geo a geo:Geometry ;
     geo:asWKT "POINT(4.91266588675667 52.3961448188178)"^^geo:wktLiteral .
 
