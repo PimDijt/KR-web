@@ -143,7 +143,8 @@ _:genid5 a owl:Restriction ;
 	owl:onProperty :providesInformationAbout ;
 	owl:hasValue :lhbtIssues .
 
-:LGBTIssues rdfs:subClassOf :InformationCentre .
+:LGBTIssues rdfs:subClassOf :InformationCentre ;
+	rdfs:label "LHBT Issues"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/LHBTcoaching
 

@@ -332,6 +332,8 @@ SELECT ?sup ?sub WHERE {
         var endpoint = 'http://localhost:5820/KRweb' + '/query';
         var format = 'JSON';
 
+        console.log(query)
+
         $.get('/sparql2',data={'endpoint': endpoint, 'query': query, 'format': format}, function(json){
           var results = json.results.bindings;
           var markers = {};
