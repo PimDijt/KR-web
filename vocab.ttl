@@ -178,7 +178,7 @@ _:genid10 a rdf:List ;
 
 _:genid11 a owl:Restriction ;
 	owl:onProperty :providesSpecialCare ;
-	owl:hasValue :dayActivity .
+	owl:hasValue :day .
 
 _:genid10 rdf:rest _:genid8 .
 
