@@ -24,6 +24,8 @@
         padding: 5px;
         border: 1px solid #999;
         font-family: 'Roboto','sans-serif';
+        overflow:scroll;
+        height: 80%;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -113,11 +115,8 @@ SELECT ?sup ?sub WHERE {
 
           var class_label = document.createElement('label');
           class_label.style.textDecoration = "underline";
-          class_label.click(function() {
-            $(this).parent().find('ul').toggle();
-        });
           class_label.appendChild(document.createTextNode(item.name));
-          class_label.setAttribute('onclick', "$(this).parent().find('ul').toggle();");
+          //sclass_label.setAttribute('onclick', "$(this).parent().find('ul').toggle();");
 
           li.appendChild(class_label);
 
@@ -159,11 +158,6 @@ SELECT ?sup ?sub WHERE {
         });
         div.appendChild(ul);
 
-
-        $('.superlist > li label').click(function() {
-          $(this).parent().find('ul').toggle();
-      });
-      init();
       });
 
 
@@ -422,15 +416,9 @@ SELECT ?sup ?sub WHERE {
           $(this).parent().find('ul').toggle();
         });
       }
-
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMq2vgneKfOxVoPrWNm0NYlnzpUAanq0&callback=show_map&libraries=geometry">
     </script>
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    <style>
   </body>
 </html>
