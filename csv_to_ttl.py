@@ -245,7 +245,7 @@ for i in range(len(filenames)):
             newClass = URIRef(to_iri('http://few.vu.nl/~mvr320/KRweb/resource/'+row['type']))
             dataset.add((thing, RDF['type'], newClass))
             dataset.add((newClass, RDFS['subClassOf'], VOCAB['disabledLocations']))
-            dataset.add((newClass, RDFS['label'], Literal(row['type'], lang="nl")))#, datatype=XSD['string'])))
+            #dataset.add((newClass, RDFS['label'], Literal(row['type'], lang="nl")))#, datatype=XSD['string'])))
             if row['type'] != "Huisartsenposten":
                 dataset.add((newClass, RDFS['label'], Literal(row['type_en'], lang="en")))#, datatype=XSD['string'])))
             else:

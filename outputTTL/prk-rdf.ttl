@@ -14,982 +14,982 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-g13set:Albert_Neuhuys90CCE0FF581845FF a g13vocab:park ;
+g13set:Albert_Neuhuys8B5E6C7ED8FB4163 a g13vocab:park ;
     rdfs:label "Albert Neuhuys"^^xsd:string ;
     dbp:latitude 5.235522e+01 ;
     dbp:longitude 4.851072e+00 ;
-    geo:hasGeometry g13set:Albert_Neuhuys90CCE0FF581845FFgeo ;
+    geo:hasGeometry g13set:Albert_Neuhuys8B5E6C7ED8FB4163geo ;
     wgs:lat "52.3552236"^^xsd:float ;
     wgs:long "4.85107155"^^xsd:float .
 
-g13set:Amstelpark9D8779AB7E264B7E a g13vocab:park ;
+g13set:Amstelpark5767616BA2444DD0 a g13vocab:park ;
     rdfs:label "Amstelpark"^^xsd:string ;
     dbp:latitude 5.232925e+01 ;
     dbp:longitude 4.894537e+00 ;
-    geo:hasGeometry g13set:Amstelpark9D8779AB7E264B7Egeo ;
+    geo:hasGeometry g13set:Amstelpark5767616BA2444DD0geo ;
     wgs:lat "52.32925315"^^xsd:float ;
     wgs:long "4.8945369"^^xsd:float .
 
-g13set:Amsterdamse_Bos87FABE1E8928404D a g13vocab:park ;
+g13set:Amsterdamse_BosDE0849B501FE4713 a g13vocab:park ;
     rdfs:label "Amsterdamse Bos"^^xsd:string ;
     dbp:latitude 5.231169e+01 ;
     dbp:longitude 4.826161e+00 ;
-    geo:hasGeometry g13set:Amsterdamse_Bos87FABE1E8928404Dgeo ;
+    geo:hasGeometry g13set:Amsterdamse_BosDE0849B501FE4713geo ;
     wgs:lat "52.3116922"^^xsd:float ;
     wgs:long "4.82616085"^^xsd:float .
 
-g13set:ApollolaanE9389B59A0F94306 a g13vocab:park ;
+g13set:ApollolaanBACD7BF5C99D4A8A a g13vocab:park ;
     rdfs:label "Apollolaan"^^xsd:string ;
     dbp:latitude 5.235051e+01 ;
     dbp:longitude 4.872225e+00 ;
-    geo:hasGeometry g13set:ApollolaanE9389B59A0F94306geo ;
+    geo:hasGeometry g13set:ApollolaanBACD7BF5C99D4A8Ageo ;
     wgs:lat "52.35050865"^^xsd:float ;
     wgs:long "4.87222545"^^xsd:float .
 
-g13set:Baanakkerspark720CA90612044E89 a g13vocab:park ;
+g13set:BaanakkersparkE5B82D4A056D451F a g13vocab:park ;
     rdfs:label "Baanakkerspark"^^xsd:string ;
     dbp:latitude 5.239691e+01 ;
     dbp:longitude 4.942825e+00 ;
-    geo:hasGeometry g13set:Baanakkerspark720CA90612044E89geo ;
+    geo:hasGeometry g13set:BaanakkersparkE5B82D4A056D451Fgeo ;
     wgs:lat "52.39691255"^^xsd:float ;
     wgs:long "4.9428255"^^xsd:float .
 
-g13set:BeatrixparkD799C08C9E9D4E08 a g13vocab:park ;
+g13set:BeatrixparkE649981DB96F4211 a g13vocab:park ;
     rdfs:label "Beatrixpark"^^xsd:string ;
     dbp:latitude 5.234276e+01 ;
     dbp:longitude 4.881373e+00 ;
-    geo:hasGeometry g13set:BeatrixparkD799C08C9E9D4E08geo ;
+    geo:hasGeometry g13set:BeatrixparkE649981DB96F4211geo ;
     wgs:lat "52.3427648"^^xsd:float ;
     wgs:long "4.8813731"^^xsd:float .
 
-g13set:Bergwijkpark8B42DCBCAE8B4FFB a g13vocab:park ;
+g13set:Bergwijkpark9373AB01F4854E77 a g13vocab:park ;
     rdfs:label "Bergwijkpark"^^xsd:string ;
     dbp:latitude 5.23267e+01 ;
     dbp:longitude 4.95671e+00 ;
-    geo:hasGeometry g13set:Bergwijkpark8B42DCBCAE8B4FFBgeo ;
+    geo:hasGeometry g13set:Bergwijkpark9373AB01F4854E77geo ;
     wgs:lat "52.3267011"^^xsd:float ;
     wgs:long "4.95671005"^^xsd:float .
 
-g13set:BijlmerweideBB74E5BE1B614567 a g13vocab:park ;
+g13set:Bijlmerweide65E54767F5124B93 a g13vocab:park ;
     rdfs:label "Bijlmerweide"^^xsd:string ;
     dbp:latitude 5.232241e+01 ;
     dbp:longitude 4.983269e+00 ;
-    geo:hasGeometry g13set:BijlmerweideBB74E5BE1B614567geo ;
+    geo:hasGeometry g13set:Bijlmerweide65E54767F5124B93geo ;
     wgs:lat "52.3224134"^^xsd:float ;
     wgs:long "4.9832689"^^xsd:float .
 
-g13set:Bilderdijkpark50EDB5C1A2BE44BE a g13vocab:park ;
+g13set:BilderdijkparkC5D6C355C79D4730 a g13vocab:park ;
     rdfs:label "Bilderdijkpark"^^xsd:string ;
     dbp:latitude 5.237194e+01 ;
     dbp:longitude 4.870314e+00 ;
-    geo:hasGeometry g13set:Bilderdijkpark50EDB5C1A2BE44BEgeo ;
+    geo:hasGeometry g13set:BilderdijkparkC5D6C355C79D4730geo ;
     wgs:lat "52.3719415"^^xsd:float ;
     wgs:long "4.87031385"^^xsd:float .
 
-g13set:BogortuinCB12C2D460F046BD a g13vocab:park ;
+g13set:BogortuinF33786A8E00C4B0A a g13vocab:park ;
     rdfs:label "Bogortuin"^^xsd:string ;
     dbp:latitude 5.237727e+01 ;
     dbp:longitude 4.934922e+00 ;
-    geo:hasGeometry g13set:BogortuinCB12C2D460F046BDgeo ;
+    geo:hasGeometry g13set:BogortuinF33786A8E00C4B0Ageo ;
     wgs:lat "52.37726635"^^xsd:float ;
     wgs:long "4.93492175"^^xsd:float .
 
-g13set:Buiksloterbreekpark93E79D4F95C149F3 a g13vocab:park ;
+g13set:Buiksloterbreekpark52C13342484B44CF a g13vocab:park ;
     rdfs:label "Buiksloterbreekpark"^^xsd:string ;
     dbp:latitude 5.240369e+01 ;
     dbp:longitude 4.907055e+00 ;
-    geo:hasGeometry g13set:Buiksloterbreekpark93E79D4F95C149F3geo ;
+    geo:hasGeometry g13set:Buiksloterbreekpark52C13342484B44CFgeo ;
     wgs:lat "52.4036874"^^xsd:float ;
     wgs:long "4.90705485"^^xsd:float .
 
-g13set:BuikslotermeerparkF323F7DC1EC64134 a g13vocab:park ;
+g13set:Buikslotermeerpark720671AB4BAC4C2C a g13vocab:park ;
     rdfs:label "Buikslotermeerpark"^^xsd:string ;
     dbp:latitude 5.239841e+01 ;
     dbp:longitude 4.950658e+00 ;
-    geo:hasGeometry g13set:BuikslotermeerparkF323F7DC1EC64134geo ;
+    geo:hasGeometry g13set:Buikslotermeerpark720671AB4BAC4C2Cgeo ;
     wgs:lat "52.3984117"^^xsd:float ;
     wgs:long "4.95065805"^^xsd:float .
 
-g13set:Darwinplantsoen3B5F57F7A9854771 a g13vocab:park ;
+g13set:DarwinplantsoenCA133AD23CA841B9 a g13vocab:park ;
     rdfs:label "Darwinplantsoen"^^xsd:string ;
     dbp:latitude 5.234533e+01 ;
     dbp:longitude 4.930768e+00 ;
-    geo:hasGeometry g13set:Darwinplantsoen3B5F57F7A9854771geo ;
+    geo:hasGeometry g13set:DarwinplantsoenCA133AD23CA841B9geo ;
     wgs:lat "52.34532805"^^xsd:float ;
     wgs:long "4.93076795"^^xsd:float .
 
-g13set:De_BrettenB33A559A3BEC4565 a g13vocab:park ;
+g13set:De_Bretten817EEA60DDF64CAD a g13vocab:park ;
     rdfs:label "De Bretten"^^xsd:string ;
     dbp:latitude 5.238832e+01 ;
     dbp:longitude 4.793349e+00 ;
-    geo:hasGeometry g13set:De_BrettenB33A559A3BEC4565geo ;
+    geo:hasGeometry g13set:De_Bretten817EEA60DDF64CADgeo ;
     wgs:lat "52.38831805"^^xsd:float ;
     wgs:long "4.79334945"^^xsd:float .
 
-g13set:De_Hoftuin1CDA4B26C33E4D61 a g13vocab:park ;
+g13set:De_HoftuinF4F96AFA65F44B6D a g13vocab:park ;
     rdfs:label "De Hoftuin"^^xsd:string ;
     dbp:latitude 5.236565e+01 ;
     dbp:longitude 4.904336e+00 ;
-    geo:hasGeometry g13set:De_Hoftuin1CDA4B26C33E4D61geo ;
+    geo:hasGeometry g13set:De_HoftuinF4F96AFA65F44B6Dgeo ;
     wgs:lat "52.3656492"^^xsd:float ;
     wgs:long "4.90433615"^^xsd:float .
 
-g13set:De_Hoge_Dijk3CBE8A1B84194C24 a g13vocab:park ;
+g13set:De_Hoge_Dijk91C4C95D87AE4764 a g13vocab:park ;
     rdfs:label "De Hoge Dijk"^^xsd:string ;
     dbp:latitude 5.228519e+01 ;
     dbp:longitude 4.96658e+00 ;
-    geo:hasGeometry g13set:De_Hoge_Dijk3CBE8A1B84194C24geo ;
+    geo:hasGeometry g13set:De_Hoge_Dijk91C4C95D87AE4764geo ;
     wgs:lat "52.28518575"^^xsd:float ;
     wgs:long "4.9665799"^^xsd:float .
 
-g13set:De_Oeverlanden04DF97F791274CF7 a g13vocab:park ;
+g13set:De_OeverlandenF1D4E4EDBA304409 a g13vocab:park ;
     rdfs:label "De Oeverlanden"^^xsd:string ;
     dbp:latitude 5.233454e+01 ;
     dbp:longitude 4.826895e+00 ;
-    geo:hasGeometry g13set:De_Oeverlanden04DF97F791274CF7geo ;
+    geo:hasGeometry g13set:De_OeverlandenF1D4E4EDBA304409geo ;
     wgs:lat "52.3345403"^^xsd:float ;
     wgs:long "4.8268952"^^xsd:float .
 
-g13set:De_ZwijgerplantsoenDB871B6D0AB44027 a g13vocab:park ;
+g13set:De_ZwijgerplantsoenBFCF727E31744BF1 a g13vocab:park ;
     rdfs:label "De Zwijgerplantsoen"^^xsd:string ;
     dbp:latitude 5.237646e+01 ;
     dbp:longitude 4.863379e+00 ;
-    geo:hasGeometry g13set:De_ZwijgerplantsoenDB871B6D0AB44027geo ;
+    geo:hasGeometry g13set:De_ZwijgerplantsoenBFCF727E31744BF1geo ;
     wgs:lat "52.37646385"^^xsd:float ;
     wgs:long "4.86337895"^^xsd:float .
 
-g13set:Diemerbos95B229E01C9A4802 a g13vocab:park ;
+g13set:DiemerbosE26DF3A6324D453F a g13vocab:park ;
     rdfs:label "Diemerbos"^^xsd:string ;
     dbp:latitude 5.231556e+01 ;
     dbp:longitude 5.008789e+00 ;
-    geo:hasGeometry g13set:Diemerbos95B229E01C9A4802geo ;
+    geo:hasGeometry g13set:DiemerbosE26DF3A6324D453Fgeo ;
     wgs:lat "52.3155565"^^xsd:float ;
     wgs:long "5.008789"^^xsd:float .
 
-g13set:DiermerparkC6C1974525F644DF a g13vocab:park ;
+g13set:Diermerpark3C4C04F27C884334 a g13vocab:park ;
     rdfs:label "Diermerpark"^^xsd:string ;
     dbp:latitude 5.23504e+01 ;
     dbp:longitude 4.992507e+00 ;
-    geo:hasGeometry g13set:DiermerparkC6C1974525F644DFgeo ;
+    geo:hasGeometry g13set:Diermerpark3C4C04F27C884334geo ;
     wgs:lat "52.35040185"^^xsd:float ;
     wgs:long "4.99250695"^^xsd:float .
 
-g13set:Eendrachtspark39D011CB764B435D a g13vocab:park ;
+g13set:EendrachtsparkD904F3E049624B6D a g13vocab:park ;
     rdfs:label "Eendrachtspark"^^xsd:string ;
     dbp:latitude 5.237786e+01 ;
     dbp:longitude 4.80895e+00 ;
-    geo:hasGeometry g13set:Eendrachtspark39D011CB764B435Dgeo ;
+    geo:hasGeometry g13set:EendrachtsparkD904F3E049624B6Dgeo ;
     wgs:lat "52.3778619"^^xsd:float ;
     wgs:long "4.8089499"^^xsd:float .
 
-g13set:Eerste_MarnixplantsoenBB6D72FA333E456D a g13vocab:park ;
+g13set:Eerste_MarnixplantsoenC32E6C9FC35F4D4E a g13vocab:park ;
     rdfs:label "Eerste Marnixplantsoen"^^xsd:string ;
     dbp:latitude 5.238161e+01 ;
     dbp:longitude 4.880479e+00 ;
-    geo:hasGeometry g13set:Eerste_MarnixplantsoenBB6D72FA333E456Dgeo ;
+    geo:hasGeometry g13set:Eerste_MarnixplantsoenC32E6C9FC35F4D4Egeo ;
     wgs:lat "52.38160985"^^xsd:float ;
     wgs:long "4.8804788"^^xsd:float .
 
-g13set:Erasmuspark4D3A590222D8415C a g13vocab:park ;
+g13set:ErasmusparkEEEDCCA8292B4EEB a g13vocab:park ;
     rdfs:label "Erasmuspark"^^xsd:string ;
     dbp:latitude 5.237472e+01 ;
     dbp:longitude 4.851727e+00 ;
-    geo:hasGeometry g13set:Erasmuspark4D3A590222D8415Cgeo ;
+    geo:hasGeometry g13set:ErasmusparkEEEDCCA8292B4EEBgeo ;
     wgs:lat "52.37472055"^^xsd:float ;
     wgs:long "4.85172695"^^xsd:float .
 
-g13set:FlevoparkA140678C1DAF4121 a g13vocab:park ;
+g13set:Flevopark1EF8F98F9D6B46AD a g13vocab:park ;
     rdfs:label "Flevopark"^^xsd:string ;
     dbp:latitude 5.236191e+01 ;
     dbp:longitude 4.950641e+00 ;
-    geo:hasGeometry g13set:FlevoparkA140678C1DAF4121geo ;
+    geo:hasGeometry g13set:Flevopark1EF8F98F9D6B46ADgeo ;
     wgs:lat "52.3619146"^^xsd:float ;
     wgs:long "4.95064085"^^xsd:float .
 
-g13set:FrankendaelF1617271E26141D2 a g13vocab:park ;
+g13set:FrankendaelA105334F536C42F7 a g13vocab:park ;
     rdfs:label "Frankendael"^^xsd:string ;
     dbp:latitude 5.235054e+01 ;
     dbp:longitude 4.929963e+00 ;
-    geo:hasGeometry g13set:FrankendaelF1617271E26141D2geo ;
+    geo:hasGeometry g13set:FrankendaelA105334F536C42F7geo ;
     wgs:lat "52.35053695"^^xsd:float ;
     wgs:long "4.92996325"^^xsd:float .
 
-g13set:Frederik_Hendrikplantsoen9B1DD099F71844BE a g13vocab:park ;
+g13set:Frederik_Hendrikplantsoen0EE4311632324A5F a g13vocab:park ;
     rdfs:label "Frederik Hendrikplantsoen"^^xsd:string ;
     dbp:latitude 5.237897e+01 ;
     dbp:longitude 4.876858e+00 ;
-    geo:hasGeometry g13set:Frederik_Hendrikplantsoen9B1DD099F71844BEgeo ;
+    geo:hasGeometry g13set:Frederik_Hendrikplantsoen0EE4311632324A5Fgeo ;
     wgs:lat "52.3789701"^^xsd:float ;
     wgs:long "4.8768577"^^xsd:float .
 
-g13set:FrederiksplantsoenAA2B831BEDCB45CF a g13vocab:park ;
+g13set:Frederiksplantsoen4A5CEE871A5647EC a g13vocab:park ;
     rdfs:label "Frederiksplantsoen"^^xsd:string ;
     dbp:latitude 5.236043e+01 ;
     dbp:longitude 4.899629e+00 ;
-    geo:hasGeometry g13set:FrederiksplantsoenAA2B831BEDCB45CFgeo ;
+    geo:hasGeometry g13set:Frederiksplantsoen4A5CEE871A5647ECgeo ;
     wgs:lat "52.36042875"^^xsd:float ;
     wgs:long "4.89962885"^^xsd:float .
 
-g13set:FunenparkC231A60B785E4AC9 a g13vocab:park ;
+g13set:Funenpark7D342D23F92C47D7 a g13vocab:park ;
     rdfs:label "Funenpark"^^xsd:string ;
     dbp:latitude 5.236908e+01 ;
     dbp:longitude 4.930322e+00 ;
-    geo:hasGeometry g13set:FunenparkC231A60B785E4AC9geo ;
+    geo:hasGeometry g13set:Funenpark7D342D23F92C47D7geo ;
     wgs:lat "52.3690824"^^xsd:float ;
     wgs:long "4.9303221"^^xsd:float .
 
-g13set:Gaasperpark9880FA5CCDF340CC a g13vocab:park ;
+g13set:Gaasperpark363F8912F3544F2C a g13vocab:park ;
     rdfs:label "Gaasperpark"^^xsd:string ;
     dbp:latitude 5.230726e+01 ;
     dbp:longitude 4.986649e+00 ;
-    geo:hasGeometry g13set:Gaasperpark9880FA5CCDF340CCgeo ;
+    geo:hasGeometry g13set:Gaasperpark363F8912F3544F2Cgeo ;
     wgs:lat "52.3072633"^^xsd:float ;
     wgs:long "4.9866485"^^xsd:float .
 
-g13set:GaasperzoomE330CF97BB084AC8 a g13vocab:park ;
+g13set:Gaasperzoom7F7A6F54B8B747FA a g13vocab:park ;
     rdfs:label "Gaasperzoom"^^xsd:string ;
     dbp:latitude 5.229417e+01 ;
     dbp:longitude 4.988531e+00 ;
-    geo:hasGeometry g13set:GaasperzoomE330CF97BB084AC8geo ;
+    geo:hasGeometry g13set:Gaasperzoom7F7A6F54B8B747FAgeo ;
     wgs:lat "52.2941713"^^xsd:float ;
     wgs:long "4.9885313"^^xsd:float .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/prk/GalilieÃ¯plantsoen16826B7D1D3B4089> a g13vocab:park ;
+<http://few.vu.nl/~mvr320/KRweb/resource/prk/GalilieÃ¯plantsoen51FBD9A2AE20480C> a g13vocab:park ;
     rdfs:label "GalilieÃ¯plantsoen"^^xsd:string ;
     dbp:latitude 5.235355e+01 ;
     dbp:longitude 4.938967e+00 ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/prk/GalilieÃ¯plantsoen16826B7D1D3B4089geo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/prk/GalilieÃ¯plantsoen51FBD9A2AE20480Cgeo> ;
     wgs:lat "52.353553"^^xsd:float ;
     wgs:long "4.93896655"^^xsd:float .
 
-g13set:GerbrandyparkEEFBAB0CFD0049D7 a g13vocab:park ;
+g13set:Gerbrandypark933754DBBCA74EB9 a g13vocab:park ;
     rdfs:label "Gerbrandypark"^^xsd:string ;
     dbp:latitude 5.237785e+01 ;
     dbp:longitude 4.831152e+00 ;
-    geo:hasGeometry g13set:GerbrandyparkEEFBAB0CFD0049D7geo ;
+    geo:hasGeometry g13set:Gerbrandypark933754DBBCA74EB9geo ;
     wgs:lat "52.37785235"^^xsd:float ;
     wgs:long "4.83115195"^^xsd:float .
 
-g13set:Geuzenbos3188C7E7792143BA a g13vocab:park ;
+g13set:Geuzenbos39A3F842827541AB a g13vocab:park ;
     rdfs:label "Geuzenbos"^^xsd:string ;
     dbp:latitude 5.239231e+01 ;
     dbp:longitude 4.764703e+00 ;
-    geo:hasGeometry g13set:Geuzenbos3188C7E7792143BAgeo ;
+    geo:hasGeometry g13set:Geuzenbos39A3F842827541ABgeo ;
     wgs:lat "52.3923139"^^xsd:float ;
     wgs:long "4.764703"^^xsd:float .
 
-g13set:Gijsbrecht_van_AemstelparkF7FCA1D64ED3474E a g13vocab:park ;
+g13set:Gijsbrecht_van_AemstelparkD9F4A11F07EF4D78 a g13vocab:park ;
     rdfs:label "Gijsbrecht van Aemstelpark"^^xsd:string ;
     dbp:latitude 5.23293e+01 ;
     dbp:longitude 4.873856e+00 ;
-    geo:hasGeometry g13set:Gijsbrecht_van_AemstelparkF7FCA1D64ED3474Egeo ;
+    geo:hasGeometry g13set:Gijsbrecht_van_AemstelparkD9F4A11F07EF4D78geo ;
     wgs:lat "52.3292951"^^xsd:float ;
     wgs:long "4.873856"^^xsd:float .
 
-g13set:IJ-oever_OverhoeksE9C1086DC5ED4855 a g13vocab:park ;
+g13set:IJ-oever_OverhoeksA6859053DBD4458B a g13vocab:park ;
     rdfs:label "IJ-oever Overhoeks"^^xsd:string ;
     dbp:latitude 5.238651e+01 ;
     dbp:longitude 4.90006e+00 ;
-    geo:hasGeometry g13set:IJ-oever_OverhoeksE9C1086DC5ED4855geo ;
+    geo:hasGeometry g13set:IJ-oever_OverhoeksA6859053DBD4458Bgeo ;
     wgs:lat "52.38651175"^^xsd:float ;
     wgs:long "4.9000597"^^xsd:float .
 
-g13set:Jan_van_SchaffelaarplantsoenE9526121AC4D4609 a g13vocab:park ;
+g13set:Jan_van_Schaffelaarplantsoen5803035F99D2402F a g13vocab:park ;
     rdfs:label "Jan van Schaffelaarplantsoen"^^xsd:string ;
     dbp:latitude 5.237881e+01 ;
     dbp:longitude 4.843185e+00 ;
-    geo:hasGeometry g13set:Jan_van_SchaffelaarplantsoenE9526121AC4D4609geo ;
+    geo:hasGeometry g13set:Jan_van_Schaffelaarplantsoen5803035F99D2402Fgeo ;
     wgs:lat "52.3788137"^^xsd:float ;
     wgs:long "4.8431849"^^xsd:float .
 
-g13set:Julianabuurtparkje6E3B0CBF48B64054 a g13vocab:park ;
+g13set:JulianabuurtparkjeC66C5AE54C144DA3 a g13vocab:park ;
     rdfs:label "Julianabuurtparkje"^^xsd:string ;
     dbp:latitude 5.234654e+01 ;
     dbp:longitude 4.921511e+00 ;
-    geo:hasGeometry g13set:Julianabuurtparkje6E3B0CBF48B64054geo ;
+    geo:hasGeometry g13set:JulianabuurtparkjeC66C5AE54C144DA3geo ;
     wgs:lat "52.3465418"^^xsd:float ;
     wgs:long "4.9215112"^^xsd:float .
 
-g13set:KadoelerschegDABE9EA5BAD14DBD a g13vocab:park ;
+g13set:KadoelerschegD7E825A65BA542B9 a g13vocab:park ;
     rdfs:label "Kadoelerscheg"^^xsd:string ;
     dbp:latitude 5.241065e+01 ;
     dbp:longitude 4.911246e+00 ;
-    geo:hasGeometry g13set:KadoelerschegDABE9EA5BAD14DBDgeo ;
+    geo:hasGeometry g13set:KadoelerschegD7E825A65BA542B9geo ;
     wgs:lat "52.41064545"^^xsd:float ;
     wgs:long "4.91124555"^^xsd:float .
 
-g13set:Kasterlee_parkBCD5C4132DD743DB a g13vocab:park ;
+g13set:Kasterlee_parkF58015C0B031468A a g13vocab:park ;
     rdfs:label "Kasterlee park"^^xsd:string ;
     dbp:latitude 5.234838e+01 ;
     dbp:longitude 4.810301e+00 ;
-    geo:hasGeometry g13set:Kasterlee_parkBCD5C4132DD743DBgeo ;
+    geo:hasGeometry g13set:Kasterlee_parkF58015C0B031468Ageo ;
     wgs:lat "52.34838195"^^xsd:float ;
     wgs:long "4.810301"^^xsd:float .
 
-g13set:Keerkringpark059CF54A37B54717 a g13vocab:park ;
+g13set:Keerkringpark9E4FEAE95C08496E a g13vocab:park ;
     rdfs:label "Keerkringpark"^^xsd:string ;
     dbp:latitude 5.241131e+01 ;
     dbp:longitude 4.876719e+00 ;
-    geo:hasGeometry g13set:Keerkringpark059CF54A37B54717geo ;
+    geo:hasGeometry g13set:Keerkringpark9E4FEAE95C08496Egeo ;
     wgs:lat "52.4113054"^^xsd:float ;
     wgs:long "4.8767192"^^xsd:float .
 
-g13set:Keesje_Brijdeplantsoen483052145A724E9C a g13vocab:park ;
+g13set:Keesje_BrijdeplantsoenA718CABAC0D34A06 a g13vocab:park ;
     rdfs:label "Keesje Brijdeplantsoen"^^xsd:string ;
     dbp:latitude 5.237378e+01 ;
     dbp:longitude 4.946385e+00 ;
-    geo:hasGeometry g13set:Keesje_Brijdeplantsoen483052145A724E9Cgeo ;
+    geo:hasGeometry g13set:Keesje_BrijdeplantsoenA718CABAC0D34A06geo ;
     wgs:lat "52.37378455"^^xsd:float ;
     wgs:long "4.94638495"^^xsd:float .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/prk/Koningin_Wilhelminaplantsoen_(?%29EF101B0AD8B5442C> a g13vocab:park ;
+<http://few.vu.nl/~mvr320/KRweb/resource/prk/Koningin_Wilhelminaplantsoen_(?%2996741A46E01C4CDE> a g13vocab:park ;
     rdfs:label "Koningin Wilhelminaplantsoen (?)"^^xsd:string ;
     dbp:latitude 5.235383e+01 ;
     dbp:longitude 4.837654e+00 ;
-    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/prk/Koningin_Wilhelminaplantsoen_(?%29EF101B0AD8B5442Cgeo> ;
+    geo:hasGeometry <http://few.vu.nl/~mvr320/KRweb/resource/prk/Koningin_Wilhelminaplantsoen_(?%2996741A46E01C4CDEgeo> ;
     wgs:lat "52.35383315"^^xsd:float ;
     wgs:long "4.8376541"^^xsd:float .
 
-g13set:Kristoffel_PlantijnpadB0B4FAFEC2E54B22 a g13vocab:park ;
+g13set:Kristoffel_Plantijnpad75761DCA2BCD49E7 a g13vocab:park ;
     rdfs:label "Kristoffel Plantijnpad"^^xsd:string ;
     dbp:latitude 5.234664e+01 ;
     dbp:longitude 4.821804e+00 ;
-    geo:hasGeometry g13set:Kristoffel_PlantijnpadB0B4FAFEC2E54B22geo ;
+    geo:hasGeometry g13set:Kristoffel_Plantijnpad75761DCA2BCD49E7geo ;
     wgs:lat "52.34664435"^^xsd:float ;
     wgs:long "4.8218045"^^xsd:float .
 
-g13set:Leidsebosje82C36B8B246642E8 a g13vocab:park ;
+g13set:Leidsebosje2F3D1606E48D454A a g13vocab:park ;
     rdfs:label "Leidsebosje"^^xsd:string ;
     dbp:latitude 5.236282e+01 ;
     dbp:longitude 4.880609e+00 ;
-    geo:hasGeometry g13set:Leidsebosje82C36B8B246642E8geo ;
+    geo:hasGeometry g13set:Leidsebosje2F3D1606E48D454Ageo ;
     wgs:lat "52.3628206"^^xsd:float ;
     wgs:long "4.8806085"^^xsd:float .
 
-g13set:Lutkemeerpark74F434C68B954685 a g13vocab:park ;
+g13set:LutkemeerparkB02061A870A54753 a g13vocab:park ;
     rdfs:label "Lutkemeerpark"^^xsd:string ;
     dbp:latitude 5.236236e+01 ;
     dbp:longitude 4.76113e+00 ;
-    geo:hasGeometry g13set:Lutkemeerpark74F434C68B954685geo ;
+    geo:hasGeometry g13set:LutkemeerparkB02061A870A54753geo ;
     wgs:lat "52.3623609"^^xsd:float ;
     wgs:long "4.76113005"^^xsd:float .
 
-g13set:Martin_Luther_Kingpark054E8EB792284F5D a g13vocab:park ;
+g13set:Martin_Luther_Kingpark08CE33AE42B34F09 a g13vocab:park ;
     rdfs:label "Martin Luther Kingpark"^^xsd:string ;
     dbp:latitude 5.233925e+01 ;
     dbp:longitude 4.907419e+00 ;
-    geo:hasGeometry g13set:Martin_Luther_Kingpark054E8EB792284F5Dgeo ;
+    geo:hasGeometry g13set:Martin_Luther_Kingpark08CE33AE42B34F09geo ;
     wgs:lat "52.3392477"^^xsd:float ;
     wgs:long "4.90741895"^^xsd:float .
 
-g13set:Meerpark3BE9E00D23AA48C0 a g13vocab:park ;
+g13set:MeerparkF646745FAD824277 a g13vocab:park ;
     rdfs:label "Meerpark"^^xsd:string ;
     dbp:latitude 5.234769e+01 ;
     dbp:longitude 4.948461e+00 ;
-    geo:hasGeometry g13set:Meerpark3BE9E00D23AA48C0geo ;
+    geo:hasGeometry g13set:MeerparkF646745FAD824277geo ;
     wgs:lat "52.34769425"^^xsd:float ;
     wgs:long "4.948461"^^xsd:float .
 
-g13set:Museumplein44F9CDBDF6FF4FBE a g13vocab:park ;
+g13set:MuseumpleinDA58FB97365A4EA4 a g13vocab:park ;
     rdfs:label "Museumplein"^^xsd:string ;
     dbp:latitude 5.235734e+01 ;
     dbp:longitude 4.881665e+00 ;
-    geo:hasGeometry g13set:Museumplein44F9CDBDF6FF4FBEgeo ;
+    geo:hasGeometry g13set:MuseumpleinDA58FB97365A4EA4geo ;
     wgs:lat "52.35734075"^^xsd:float ;
     wgs:long "4.8816645"^^xsd:float .
 
-g13set:Natuurtuin_De_WiedijkDE38BDCE0AE5456B a g13vocab:park ;
+g13set:Natuurtuin_De_WiedijkF84E1F90EC9B48A4 a g13vocab:park ;
     rdfs:label "Natuurtuin De Wiedijk"^^xsd:string ;
     dbp:latitude 5.235646e+01 ;
     dbp:longitude 4.817294e+00 ;
-    geo:hasGeometry g13set:Natuurtuin_De_WiedijkDE38BDCE0AE5456Bgeo ;
+    geo:hasGeometry g13set:Natuurtuin_De_WiedijkF84E1F90EC9B48A4geo ;
     wgs:lat "52.35645765"^^xsd:float ;
     wgs:long "4.8172941"^^xsd:float .
 
-g13set:Nelson_Mandelapark3970FA9998744F5F a g13vocab:park ;
+g13set:Nelson_MandelaparkCD0B3EBAF5CB4B02 a g13vocab:park ;
     rdfs:label "Nelson Mandelapark"^^xsd:string ;
     dbp:latitude 5.230974e+01 ;
     dbp:longitude 4.963438e+00 ;
-    geo:hasGeometry g13set:Nelson_Mandelapark3970FA9998744F5Fgeo ;
+    geo:hasGeometry g13set:Nelson_MandelaparkCD0B3EBAF5CB4B02geo ;
     wgs:lat "52.30973715"^^xsd:float ;
     wgs:long "4.96343755"^^xsd:float .
 
-g13set:Noorder-IJplas298211D3652D485E a g13vocab:park ;
+g13set:Noorder-IJplas14261CEE006B447C a g13vocab:park ;
     rdfs:label "Noorder-IJplas"^^xsd:string ;
     dbp:latitude 5.242311e+01 ;
     dbp:longitude 4.866163e+00 ;
-    geo:hasGeometry g13set:Noorder-IJplas298211D3652D485Egeo ;
+    geo:hasGeometry g13set:Noorder-IJplas14261CEE006B447Cgeo ;
     wgs:lat "52.42310995"^^xsd:float ;
     wgs:long "4.866163"^^xsd:float .
 
-g13set:NoorderparkEBF3E632B3AD438A a g13vocab:park ;
+g13set:Noorderpark0FDA8BB9623C46F5 a g13vocab:park ;
     rdfs:label "Noorderpark"^^xsd:string ;
     dbp:latitude 5.239426e+01 ;
     dbp:longitude 4.920416e+00 ;
-    geo:hasGeometry g13set:NoorderparkEBF3E632B3AD438Ageo ;
+    geo:hasGeometry g13set:Noorderpark0FDA8BB9623C46F5geo ;
     wgs:lat "52.39426135"^^xsd:float ;
     wgs:long "4.9204156"^^xsd:float .
 
-g13set:Oeverpark_SchellingwoudeBC86FC28D9674BE0 a g13vocab:park ;
+g13set:Oeverpark_SchellingwoudeB9EBBB0BCAF84085 a g13vocab:park ;
     rdfs:label "Oeverpark Schellingwoude"^^xsd:string ;
     dbp:latitude 5.238596e+01 ;
     dbp:longitude 4.959182e+00 ;
-    geo:hasGeometry g13set:Oeverpark_SchellingwoudeBC86FC28D9674BE0geo ;
+    geo:hasGeometry g13set:Oeverpark_SchellingwoudeB9EBBB0BCAF84085geo ;
     wgs:lat "52.38596245"^^xsd:float ;
     wgs:long "4.95918245"^^xsd:float .
 
-g13set:Onderlangs00B370959DA94DD5 a g13vocab:park ;
+g13set:OnderlangsF11C41EA8D1E4639 a g13vocab:park ;
     rdfs:label "Onderlangs"^^xsd:string ;
     dbp:latitude 5.233903e+01 ;
     dbp:longitude 4.945415e+00 ;
-    geo:hasGeometry g13set:Onderlangs00B370959DA94DD5geo ;
+    geo:hasGeometry g13set:OnderlangsF11C41EA8D1E4639geo ;
     wgs:lat "52.3390295"^^xsd:float ;
     wgs:long "4.9454146"^^xsd:float .
 
-g13set:OostenburgerparkBDE06DDD87004A4B a g13vocab:park ;
+g13set:Oostenburgerpark58F17FD819354791 a g13vocab:park ;
     rdfs:label "Oostenburgerpark"^^xsd:string ;
     dbp:latitude 5.236915e+01 ;
     dbp:longitude 4.92531e+00 ;
-    geo:hasGeometry g13set:OostenburgerparkBDE06DDD87004A4Bgeo ;
+    geo:hasGeometry g13set:Oostenburgerpark58F17FD819354791geo ;
     wgs:lat "52.369153"^^xsd:float ;
     wgs:long "4.9253101"^^xsd:float .
 
-g13set:Oosterpark55535A67A089468E a g13vocab:park ;
+g13set:OosterparkA688F7F64C424960 a g13vocab:park ;
     rdfs:label "Oosterpark"^^xsd:string ;
     dbp:latitude 5.236027e+01 ;
     dbp:longitude 4.920452e+00 ;
-    geo:hasGeometry g13set:Oosterpark55535A67A089468Egeo ;
+    geo:hasGeometry g13set:OosterparkA688F7F64C424960geo ;
     wgs:lat "52.36026515"^^xsd:float ;
     wgs:long "4.92045185"^^xsd:float .
 
-g13set:Overlooppad454F6FDCDB5D44F6 a g13vocab:park ;
+g13set:Overlooppad7A0D3EA8F9D7424D a g13vocab:park ;
     rdfs:label "Overlooppad"^^xsd:string ;
     dbp:latitude 5.236603e+01 ;
     dbp:longitude 4.908856e+00 ;
-    geo:hasGeometry g13set:Overlooppad454F6FDCDB5D44F6geo ;
+    geo:hasGeometry g13set:Overlooppad7A0D3EA8F9D7424Dgeo ;
     wgs:lat "52.36602685"^^xsd:float ;
     wgs:long "4.9088561"^^xsd:float .
 
-g13set:Park_De_KuilE46C5FEF182C49C6 a g13vocab:park ;
+g13set:Park_De_Kuil422AD6B931C6445D a g13vocab:park ;
     rdfs:label "Park De Kuil"^^xsd:string ;
     dbp:latitude 5.237719e+01 ;
     dbp:longitude 4.790989e+00 ;
-    geo:hasGeometry g13set:Park_De_KuilE46C5FEF182C49C6geo ;
+    geo:hasGeometry g13set:Park_De_Kuil422AD6B931C6445Dgeo ;
     wgs:lat "52.37718675"^^xsd:float ;
     wgs:long "4.79098885"^^xsd:float .
 
-g13set:Park_SchinkeleilandenB28579D7C4BF46D1 a g13vocab:park ;
+g13set:Park_Schinkeleilanden85229CCF690442FE a g13vocab:park ;
     rdfs:label "Park Schinkeleilanden"^^xsd:string ;
     dbp:latitude 5.234482e+01 ;
     dbp:longitude 4.850692e+00 ;
-    geo:hasGeometry g13set:Park_SchinkeleilandenB28579D7C4BF46D1geo ;
+    geo:hasGeometry g13set:Park_Schinkeleilanden85229CCF690442FEgeo ;
     wgs:lat "52.34482095"^^xsd:float ;
     wgs:long "4.85069245"^^xsd:float .
 
-g13set:Piet_Wiedijkpark48DAF8AD037F4850 a g13vocab:park ;
+g13set:Piet_WiedijkparkB193291564A64A3C a g13vocab:park ;
     rdfs:label "Piet Wiedijkpark"^^xsd:string ;
     dbp:latitude 5.235381e+01 ;
     dbp:longitude 4.818587e+00 ;
-    geo:hasGeometry g13set:Piet_Wiedijkpark48DAF8AD037F4850geo ;
+    geo:hasGeometry g13set:Piet_WiedijkparkB193291564A64A3Cgeo ;
     wgs:lat "52.35380835"^^xsd:float ;
     wgs:long "4.81858655"^^xsd:float .
 
-g13set:Plantage_Westermann73F0BBF4501341CC a g13vocab:park ;
+g13set:Plantage_WestermannE68F527D0668447E a g13vocab:park ;
     rdfs:label "Plantage Westermann"^^xsd:string ;
     dbp:latitude 5.236527e+01 ;
     dbp:longitude 4.913255e+00 ;
-    geo:hasGeometry g13set:Plantage_Westermann73F0BBF4501341CCgeo ;
+    geo:hasGeometry g13set:Plantage_WestermannE68F527D0668447Egeo ;
     wgs:lat "52.3652658"^^xsd:float ;
     wgs:long "4.9132547"^^xsd:float .
 
-g13set:Polderheuvel_Tuinen_van_West947D03882CF84977 a g13vocab:park ;
+g13set:Polderheuvel_Tuinen_van_West9F9E6860A31F4249 a g13vocab:park ;
     rdfs:label "Polderheuvel Tuinen van West"^^xsd:string ;
     dbp:latitude 5.23797e+01 ;
     dbp:longitude 4.777823e+00 ;
-    geo:hasGeometry g13set:Polderheuvel_Tuinen_van_West947D03882CF84977geo ;
+    geo:hasGeometry g13set:Polderheuvel_Tuinen_van_West9F9E6860A31F4249geo ;
     wgs:lat "52.37970445"^^xsd:float ;
     wgs:long "4.7778234"^^xsd:float .
 
-g13set:Prins_Bernhardpark435F43A352CB4D50 a g13vocab:park ;
+g13set:Prins_Bernhardpark8A458F008A6B4BC9 a g13vocab:park ;
     rdfs:label "Prins Bernhardpark"^^xsd:string ;
     dbp:latitude 5.234799e+01 ;
     dbp:longitude 4.926452e+00 ;
-    geo:hasGeometry g13set:Prins_Bernhardpark435F43A352CB4D50geo ;
+    geo:hasGeometry g13set:Prins_Bernhardpark8A458F008A6B4BC9geo ;
     wgs:lat "52.3479881"^^xsd:float ;
     wgs:long "4.92645235"^^xsd:float .
 
-g13set:Rembrandtpark0477C7647E8840EC a g13vocab:park ;
+g13set:Rembrandtpark75E7A0FA22C247B6 a g13vocab:park ;
     rdfs:label "Rembrandtpark"^^xsd:string ;
     dbp:latitude 5.236385e+01 ;
     dbp:longitude 4.846828e+00 ;
-    geo:hasGeometry g13set:Rembrandtpark0477C7647E8840ECgeo ;
+    geo:hasGeometry g13set:Rembrandtpark75E7A0FA22C247B6geo ;
     wgs:lat "52.36385245"^^xsd:float ;
     wgs:long "4.84682845"^^xsd:float .
 
-g13set:Rembrandtplein441059505C3C4668 a g13vocab:park ;
+g13set:Rembrandtplein2D68418C47E64DF9 a g13vocab:park ;
     rdfs:label "Rembrandtplein"^^xsd:string ;
     dbp:latitude 5.2366e+01 ;
     dbp:longitude 4.89682e+00 ;
-    geo:hasGeometry g13set:Rembrandtplein441059505C3C4668geo ;
+    geo:hasGeometry g13set:Rembrandtplein2D68418C47E64DF9geo ;
     wgs:lat "52.36600395"^^xsd:float ;
     wgs:long "4.89682"^^xsd:float .
 
-g13set:RietlandC05F497AA30A4DE4 a g13vocab:park ;
+g13set:RietlandAA49C3DC48C64BA2 a g13vocab:park ;
     rdfs:label "Rietland"^^xsd:string ;
     dbp:latitude 5.23878e+01 ;
     dbp:longitude 4.944558e+00 ;
-    geo:hasGeometry g13set:RietlandC05F497AA30A4DE4geo ;
+    geo:hasGeometry g13set:RietlandAA49C3DC48C64BA2geo ;
     wgs:lat "52.3878049"^^xsd:float ;
     wgs:long "4.9445581"^^xsd:float .
 
-g13set:Rietlandpark1338B30D3BA54FE6 a g13vocab:park ;
+g13set:Rietlandpark47BE17AB10324A43 a g13vocab:park ;
     rdfs:label "Rietlandpark"^^xsd:string ;
     dbp:latitude 5.237214e+01 ;
     dbp:longitude 4.935757e+00 ;
-    geo:hasGeometry g13set:Rietlandpark1338B30D3BA54FE6geo ;
+    geo:hasGeometry g13set:Rietlandpark47BE17AB10324A43geo ;
     wgs:lat "52.37214035"^^xsd:float ;
     wgs:long "4.93575745"^^xsd:float .
 
-g13set:SarphatiparkC02045F69A65405C a g13vocab:park ;
+g13set:Sarphatipark16941F3AB5924C0F a g13vocab:park ;
     rdfs:label "Sarphatipark"^^xsd:string ;
     dbp:latitude 5.23544e+01 ;
     dbp:longitude 4.896408e+00 ;
-    geo:hasGeometry g13set:SarphatiparkC02045F69A65405Cgeo ;
+    geo:hasGeometry g13set:Sarphatipark16941F3AB5924C0Fgeo ;
     wgs:lat "52.35440155"^^xsd:float ;
     wgs:long "4.89640755"^^xsd:float .
 
-g13set:Schellingwouderbreekpark8F51786B567A46BB a g13vocab:park ;
+g13set:Schellingwouderbreekpark80746E195DBD4310 a g13vocab:park ;
     rdfs:label "Schellingwouderbreekpark"^^xsd:string ;
     dbp:latitude 5.238845e+01 ;
     dbp:longitude 4.952512e+00 ;
-    geo:hasGeometry g13set:Schellingwouderbreekpark8F51786B567A46BBgeo ;
+    geo:hasGeometry g13set:Schellingwouderbreekpark80746E195DBD4310geo ;
     wgs:lat "52.3884496"^^xsd:float ;
     wgs:long "4.95251195"^^xsd:float .
 
-g13set:SiegerparkDBB83B68D73349CC a g13vocab:park ;
+g13set:SiegerparkAC2E2B590C5C44F1 a g13vocab:park ;
     rdfs:label "Siegerpark"^^xsd:string ;
     dbp:latitude 5.234056e+01 ;
     dbp:longitude 4.819176e+00 ;
-    geo:hasGeometry g13set:SiegerparkDBB83B68D73349CCgeo ;
+    geo:hasGeometry g13set:SiegerparkAC2E2B590C5C44F1geo ;
     wgs:lat "52.3405637"^^xsd:float ;
     wgs:long "4.81917615"^^xsd:float .
 
-g13set:SloterparkB23321E35C864EA1 a g13vocab:park ;
+g13set:Sloterpark988C62AF81854713 a g13vocab:park ;
     rdfs:label "Sloterpark"^^xsd:string ;
     dbp:latitude 5.236517e+01 ;
     dbp:longitude 4.817817e+00 ;
-    geo:hasGeometry g13set:SloterparkB23321E35C864EA1geo ;
+    geo:hasGeometry g13set:Sloterpark988C62AF81854713geo ;
     wgs:lat "52.36517235"^^xsd:float ;
     wgs:long "4.8178167"^^xsd:float .
 
-g13set:Spaarndammerplantsoen9B66504E7B484C1F a g13vocab:park ;
+g13set:Spaarndammerplantsoen8A45989884364F61 a g13vocab:park ;
     rdfs:label "Spaarndammerplantsoen"^^xsd:string ;
     dbp:latitude 5.238984e+01 ;
     dbp:longitude 4.875429e+00 ;
-    geo:hasGeometry g13set:Spaarndammerplantsoen9B66504E7B484C1Fgeo ;
+    geo:hasGeometry g13set:Spaarndammerplantsoen8A45989884364F61geo ;
     wgs:lat "52.389842"^^xsd:float ;
     wgs:long "4.8754291"^^xsd:float .
 
-g13set:Stadspark_OsdorpF5D0047DE306426D a g13vocab:park ;
+g13set:Stadspark_Osdorp50F3B355FDC4480E a g13vocab:park ;
     rdfs:label "Stadspark Osdorp"^^xsd:string ;
     dbp:latitude 5.235516e+01 ;
     dbp:longitude 4.799655e+00 ;
-    geo:hasGeometry g13set:Stadspark_OsdorpF5D0047DE306426Dgeo ;
+    geo:hasGeometry g13set:Stadspark_Osdorp50F3B355FDC4480Egeo ;
     wgs:lat "52.35516445"^^xsd:float ;
     wgs:long "4.79965495"^^xsd:float .
 
-g13set:StenenhoofdB8935D7E82BA4611 a g13vocab:park ;
+g13set:Stenenhoofd7882CD7FE2F84D39 a g13vocab:park ;
     rdfs:label "Stenenhoofd"^^xsd:string ;
     dbp:latitude 5.238905e+01 ;
     dbp:longitude 4.892654e+00 ;
-    geo:hasGeometry g13set:StenenhoofdB8935D7E82BA4611geo ;
+    geo:hasGeometry g13set:Stenenhoofd7882CD7FE2F84D39geo ;
     wgs:lat "52.3890466"^^xsd:float ;
     wgs:long "4.89265365"^^xsd:float .
 
-g13set:SurinamepleinF4E74E68672C4CF2 a g13vocab:park ;
+g13set:Surinameplein9E15244EE1A24574 a g13vocab:park ;
     rdfs:label "Surinameplein"^^xsd:string ;
     dbp:latitude 5.235851e+01 ;
     dbp:longitude 4.851183e+00 ;
-    geo:hasGeometry g13set:SurinamepleinF4E74E68672C4CF2geo ;
+    geo:hasGeometry g13set:Surinameplein9E15244EE1A24574geo ;
     wgs:lat "52.35851185"^^xsd:float ;
     wgs:long "4.8511834"^^xsd:float .
 
-g13set:Theo_van_Goghpark507A0EE9F7D042C2 a g13vocab:park ;
+g13set:Theo_van_Goghpark8615353F5F9C48A6 a g13vocab:park ;
     rdfs:label "Theo van Goghpark"^^xsd:string ;
     dbp:latitude 5.234969e+01 ;
     dbp:longitude 5.006651e+00 ;
-    geo:hasGeometry g13set:Theo_van_Goghpark507A0EE9F7D042C2geo ;
+    geo:hasGeometry g13set:Theo_van_Goghpark8615353F5F9C48A6geo ;
     wgs:lat "52.3496866"^^xsd:float ;
     wgs:long "5.00665065"^^xsd:float .
 
-g13set:TolhuiswegD3602BBEE3DA4616 a g13vocab:park ;
+g13set:Tolhuisweg876DB784322E4185 a g13vocab:park ;
     rdfs:label "Tolhuisweg"^^xsd:string ;
     dbp:latitude 5.238345e+01 ;
     dbp:longitude 4.904656e+00 ;
-    geo:hasGeometry g13set:TolhuiswegD3602BBEE3DA4616geo ;
+    geo:hasGeometry g13set:Tolhuisweg876DB784322E4185geo ;
     wgs:lat "52.3834543"^^xsd:float ;
     wgs:long "4.9046561"^^xsd:float .
 
-g13set:VondelparkC15A7FC53A344BBA a g13vocab:park ;
+g13set:VondelparkD3C9B92A86924D7D a g13vocab:park ;
     rdfs:label "Vondelpark"^^xsd:string ;
     dbp:latitude 5.235792e+01 ;
     dbp:longitude 4.868583e+00 ;
-    geo:hasGeometry g13set:VondelparkC15A7FC53A344BBAgeo ;
+    geo:hasGeometry g13set:VondelparkD3C9B92A86924D7Dgeo ;
     wgs:lat "52.3579206"^^xsd:float ;
     wgs:long "4.8685834"^^xsd:float .
 
-g13set:Voorlandpad41E1590D6A3946D8 a g13vocab:park ;
+g13set:Voorlandpad72888E34F3E743C7 a g13vocab:park ;
     rdfs:label "Voorlandpad"^^xsd:string ;
     dbp:latitude 5.234299e+01 ;
     dbp:longitude 4.952592e+00 ;
-    geo:hasGeometry g13set:Voorlandpad41E1590D6A3946D8geo ;
+    geo:hasGeometry g13set:Voorlandpad72888E34F3E743C7geo ;
     wgs:lat "52.3429919"^^xsd:float ;
     wgs:long "4.9525925"^^xsd:float .
 
-g13set:Vrije_GeerEC7C6F7641294DD8 a g13vocab:park ;
+g13set:Vrije_GeerCD7A20DFD6C940F1 a g13vocab:park ;
     rdfs:label "Vrije Geer"^^xsd:string ;
     dbp:latitude 5.234594e+01 ;
     dbp:longitude 4.798695e+00 ;
-    geo:hasGeometry g13set:Vrije_GeerEC7C6F7641294DD8geo ;
+    geo:hasGeometry g13set:Vrije_GeerCD7A20DFD6C940F1geo ;
     wgs:lat "52.3459367"^^xsd:float ;
     wgs:long "4.79869455"^^xsd:float .
 
-g13set:W.H._Vliegenbos89B3842CBB6440BF a g13vocab:park ;
+g13set:W.H._VliegenbosE78E051FF96E4195 a g13vocab:park ;
     rdfs:label "W.H. Vliegenbos"^^xsd:string ;
     dbp:latitude 5.238912e+01 ;
     dbp:longitude 4.932011e+00 ;
-    geo:hasGeometry g13set:W.H._Vliegenbos89B3842CBB6440BFgeo ;
+    geo:hasGeometry g13set:W.H._VliegenbosE78E051FF96E4195geo ;
     wgs:lat "52.3891191"^^xsd:float ;
     wgs:long "4.93201105"^^xsd:float .
 
-g13set:Wachterliedplantsoen08DB476295EB402E a g13vocab:park ;
+g13set:Wachterliedplantsoen93126A94548D41B6 a g13vocab:park ;
     rdfs:label "Wachterliedplantsoen"^^xsd:string ;
     dbp:latitude 5.237873e+01 ;
     dbp:longitude 4.852837e+00 ;
-    geo:hasGeometry g13set:Wachterliedplantsoen08DB476295EB402Egeo ;
+    geo:hasGeometry g13set:Wachterliedplantsoen93126A94548D41B6geo ;
     wgs:lat "52.37872595"^^xsd:float ;
     wgs:long "4.85283655"^^xsd:float .
 
-g13set:WertheimparkE490BE428C9C45FD a g13vocab:park ;
+g13set:Wertheimpark88211D106AA24039 a g13vocab:park ;
     rdfs:label "Wertheimpark"^^xsd:string ;
     dbp:latitude 5.236789e+01 ;
     dbp:longitude 4.908609e+00 ;
-    geo:hasGeometry g13set:WertheimparkE490BE428C9C45FDgeo ;
+    geo:hasGeometry g13set:Wertheimpark88211D106AA24039geo ;
     wgs:lat "52.3678865"^^xsd:float ;
     wgs:long "4.90860885"^^xsd:float .
 
-g13set:Westerpark504BF16EA2B04069 a g13vocab:park ;
+g13set:Westerpark939D40360FDC40EA a g13vocab:park ;
     rdfs:label "Westerpark"^^xsd:string ;
     dbp:latitude 5.238718e+01 ;
     dbp:longitude 4.868895e+00 ;
-    geo:hasGeometry g13set:Westerpark504BF16EA2B04069geo ;
+    geo:hasGeometry g13set:Westerpark939D40360FDC40EAgeo ;
     wgs:lat "52.3871755"^^xsd:float ;
     wgs:long "4.868895"^^xsd:float .
 
-g13set:Westertochtpark6634C4DD210546D3 a g13vocab:park ;
+g13set:Westertochtpark964AC747954A425D a g13vocab:park ;
     rdfs:label "Westertochtpark"^^xsd:string ;
     dbp:latitude 5.241597e+01 ;
     dbp:longitude 4.875208e+00 ;
-    geo:hasGeometry g13set:Westertochtpark6634C4DD210546D3geo ;
+    geo:hasGeometry g13set:Westertochtpark964AC747954A425Dgeo ;
     wgs:lat "52.41596885"^^xsd:float ;
     wgs:long "4.8752081"^^xsd:float .
 
-g13set:WeteringplantsoenBB74ED1B73064E4B a g13vocab:park ;
+g13set:Weteringplantsoen01A2BD1A93384B42 a g13vocab:park ;
     rdfs:label "Weteringplantsoen"^^xsd:string ;
     dbp:latitude 5.235943e+01 ;
     dbp:longitude 4.890377e+00 ;
-    geo:hasGeometry g13set:WeteringplantsoenBB74ED1B73064E4Bgeo ;
+    geo:hasGeometry g13set:Weteringplantsoen01A2BD1A93384B42geo ;
     wgs:lat "52.35942935"^^xsd:float ;
     wgs:long "4.890377"^^xsd:float .
 
-g13set:WibautparkB2317BAD99014D14 a g13vocab:park ;
+g13set:WibautparkA7A7ECF4200645ED a g13vocab:park ;
     rdfs:label "Wibautpark"^^xsd:string ;
     dbp:latitude 5.23525e+01 ;
     dbp:longitude 4.913739e+00 ;
-    geo:hasGeometry g13set:WibautparkB2317BAD99014D14geo ;
+    geo:hasGeometry g13set:WibautparkA7A7ECF4200645EDgeo ;
     wgs:lat "52.352498"^^xsd:float ;
     wgs:long "4.9137389"^^xsd:float .
 
-g13set:WilmkebreekpolderF2A8B749624C48C0 a g13vocab:park ;
+g13set:WilmkebreekpolderE0DA7DD741704FA0 a g13vocab:park ;
     rdfs:label "Wilmkebreekpolder"^^xsd:string ;
     dbp:latitude 5.241433e+01 ;
     dbp:longitude 4.903723e+00 ;
-    geo:hasGeometry g13set:WilmkebreekpolderF2A8B749624C48C0geo ;
+    geo:hasGeometry g13set:WilmkebreekpolderE0DA7DD741704FA0geo ;
     wgs:lat "52.41433235"^^xsd:float ;
     wgs:long "4.90372295"^^xsd:float .
 
-g13set:_t_Kleine_LoopveldDBB3FAAA1858439E a g13vocab:park ;
+g13set:_t_Kleine_Loopveld0A9F5F61E24742C4 a g13vocab:park ;
     rdfs:label "`t Kleine Loopveld"^^xsd:string ;
     dbp:latitude 5.232303e+01 ;
     dbp:longitude 4.878959e+00 ;
-    geo:hasGeometry g13set:_t_Kleine_LoopveldDBB3FAAA1858439Egeo ;
+    geo:hasGeometry g13set:_t_Kleine_Loopveld0A9F5F61E24742C4geo ;
     wgs:lat "52.32302755"^^xsd:float ;
     wgs:long "4.8789589"^^xsd:float .
 
-g13set:Albert_Neuhuys90CCE0FF581845FFgeo a geo:Geometry ;
+g13set:Albert_Neuhuys8B5E6C7ED8FB4163geo a geo:Geometry ;
     geo:asWKT "POINT( 4,85107155 52,3552236 )"^^geo:wktLiteral .
 
-g13set:Amstelpark9D8779AB7E264B7Egeo a geo:Geometry ;
+g13set:Amstelpark5767616BA2444DD0geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8945369 52,32925315 )"^^geo:wktLiteral .
 
-g13set:Amsterdamse_Bos87FABE1E8928404Dgeo a geo:Geometry ;
+g13set:Amsterdamse_BosDE0849B501FE4713geo a geo:Geometry ;
     geo:asWKT "POINT( 4,82616085 52,3116922 )"^^geo:wktLiteral .
 
-g13set:ApollolaanE9389B59A0F94306geo a geo:Geometry ;
+g13set:ApollolaanBACD7BF5C99D4A8Ageo a geo:Geometry ;
     geo:asWKT "POINT( 4,87222545 52,35050865 )"^^geo:wktLiteral .
 
-g13set:Baanakkerspark720CA90612044E89geo a geo:Geometry ;
+g13set:BaanakkersparkE5B82D4A056D451Fgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9428255 52,39691255 )"^^geo:wktLiteral .
 
-g13set:BeatrixparkD799C08C9E9D4E08geo a geo:Geometry ;
+g13set:BeatrixparkE649981DB96F4211geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8813731 52,3427648 )"^^geo:wktLiteral .
 
-g13set:Bergwijkpark8B42DCBCAE8B4FFBgeo a geo:Geometry ;
+g13set:Bergwijkpark9373AB01F4854E77geo a geo:Geometry ;
     geo:asWKT "POINT( 4,95671005 52,3267011 )"^^geo:wktLiteral .
 
-g13set:BijlmerweideBB74E5BE1B614567geo a geo:Geometry ;
+g13set:Bijlmerweide65E54767F5124B93geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9832689 52,3224134 )"^^geo:wktLiteral .
 
-g13set:Bilderdijkpark50EDB5C1A2BE44BEgeo a geo:Geometry ;
+g13set:BilderdijkparkC5D6C355C79D4730geo a geo:Geometry ;
     geo:asWKT "POINT( 4,87031385 52,3719415 )"^^geo:wktLiteral .
 
-g13set:BogortuinCB12C2D460F046BDgeo a geo:Geometry ;
+g13set:BogortuinF33786A8E00C4B0Ageo a geo:Geometry ;
     geo:asWKT "POINT( 4,93492175 52,37726635 )"^^geo:wktLiteral .
 
-g13set:Buiksloterbreekpark93E79D4F95C149F3geo a geo:Geometry ;
+g13set:Buiksloterbreekpark52C13342484B44CFgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,90705485 52,4036874 )"^^geo:wktLiteral .
 
-g13set:BuikslotermeerparkF323F7DC1EC64134geo a geo:Geometry ;
+g13set:Buikslotermeerpark720671AB4BAC4C2Cgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,95065805 52,3984117 )"^^geo:wktLiteral .
 
-g13set:Darwinplantsoen3B5F57F7A9854771geo a geo:Geometry ;
+g13set:DarwinplantsoenCA133AD23CA841B9geo a geo:Geometry ;
     geo:asWKT "POINT( 4,93076795 52,34532805 )"^^geo:wktLiteral .
 
-g13set:De_BrettenB33A559A3BEC4565geo a geo:Geometry ;
+g13set:De_Bretten817EEA60DDF64CADgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,79334945 52,38831805 )"^^geo:wktLiteral .
 
-g13set:De_Hoftuin1CDA4B26C33E4D61geo a geo:Geometry ;
+g13set:De_HoftuinF4F96AFA65F44B6Dgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,90433615 52,3656492 )"^^geo:wktLiteral .
 
-g13set:De_Hoge_Dijk3CBE8A1B84194C24geo a geo:Geometry ;
+g13set:De_Hoge_Dijk91C4C95D87AE4764geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9665799 52,28518575 )"^^geo:wktLiteral .
 
-g13set:De_Oeverlanden04DF97F791274CF7geo a geo:Geometry ;
+g13set:De_OeverlandenF1D4E4EDBA304409geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8268952 52,3345403 )"^^geo:wktLiteral .
 
-g13set:De_ZwijgerplantsoenDB871B6D0AB44027geo a geo:Geometry ;
+g13set:De_ZwijgerplantsoenBFCF727E31744BF1geo a geo:Geometry ;
     geo:asWKT "POINT( 4,86337895 52,37646385 )"^^geo:wktLiteral .
 
-g13set:Diemerbos95B229E01C9A4802geo a geo:Geometry ;
+g13set:DiemerbosE26DF3A6324D453Fgeo a geo:Geometry ;
     geo:asWKT "POINT( 5,008789 52,3155565 )"^^geo:wktLiteral .
 
-g13set:DiermerparkC6C1974525F644DFgeo a geo:Geometry ;
+g13set:Diermerpark3C4C04F27C884334geo a geo:Geometry ;
     geo:asWKT "POINT( 4,99250695 52,35040185 )"^^geo:wktLiteral .
 
-g13set:Eendrachtspark39D011CB764B435Dgeo a geo:Geometry ;
+g13set:EendrachtsparkD904F3E049624B6Dgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8089499 52,3778619 )"^^geo:wktLiteral .
 
-g13set:Eerste_MarnixplantsoenBB6D72FA333E456Dgeo a geo:Geometry ;
+g13set:Eerste_MarnixplantsoenC32E6C9FC35F4D4Egeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8804788 52,38160985 )"^^geo:wktLiteral .
 
-g13set:Erasmuspark4D3A590222D8415Cgeo a geo:Geometry ;
+g13set:ErasmusparkEEEDCCA8292B4EEBgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,85172695 52,37472055 )"^^geo:wktLiteral .
 
-g13set:FlevoparkA140678C1DAF4121geo a geo:Geometry ;
+g13set:Flevopark1EF8F98F9D6B46ADgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,95064085 52,3619146 )"^^geo:wktLiteral .
 
-g13set:FrankendaelF1617271E26141D2geo a geo:Geometry ;
+g13set:FrankendaelA105334F536C42F7geo a geo:Geometry ;
     geo:asWKT "POINT( 4,92996325 52,35053695 )"^^geo:wktLiteral .
 
-g13set:Frederik_Hendrikplantsoen9B1DD099F71844BEgeo a geo:Geometry ;
+g13set:Frederik_Hendrikplantsoen0EE4311632324A5Fgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8768577 52,3789701 )"^^geo:wktLiteral .
 
-g13set:FrederiksplantsoenAA2B831BEDCB45CFgeo a geo:Geometry ;
+g13set:Frederiksplantsoen4A5CEE871A5647ECgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,89962885 52,36042875 )"^^geo:wktLiteral .
 
-g13set:FunenparkC231A60B785E4AC9geo a geo:Geometry ;
+g13set:Funenpark7D342D23F92C47D7geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9303221 52,3690824 )"^^geo:wktLiteral .
 
-g13set:Gaasperpark9880FA5CCDF340CCgeo a geo:Geometry ;
+g13set:Gaasperpark363F8912F3544F2Cgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9866485 52,3072633 )"^^geo:wktLiteral .
 
-g13set:GaasperzoomE330CF97BB084AC8geo a geo:Geometry ;
+g13set:Gaasperzoom7F7A6F54B8B747FAgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9885313 52,2941713 )"^^geo:wktLiteral .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/prk/GalilieÃ¯plantsoen16826B7D1D3B4089geo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/prk/GalilieÃ¯plantsoen51FBD9A2AE20480Cgeo> a geo:Geometry ;
     geo:asWKT "POINT( 4,93896655 52,353553 )"^^geo:wktLiteral .
 
-g13set:GerbrandyparkEEFBAB0CFD0049D7geo a geo:Geometry ;
+g13set:Gerbrandypark933754DBBCA74EB9geo a geo:Geometry ;
     geo:asWKT "POINT( 4,83115195 52,37785235 )"^^geo:wktLiteral .
 
-g13set:Geuzenbos3188C7E7792143BAgeo a geo:Geometry ;
+g13set:Geuzenbos39A3F842827541ABgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,764703 52,3923139 )"^^geo:wktLiteral .
 
-g13set:Gijsbrecht_van_AemstelparkF7FCA1D64ED3474Egeo a geo:Geometry ;
+g13set:Gijsbrecht_van_AemstelparkD9F4A11F07EF4D78geo a geo:Geometry ;
     geo:asWKT "POINT( 4,873856 52,3292951 )"^^geo:wktLiteral .
 
-g13set:IJ-oever_OverhoeksE9C1086DC5ED4855geo a geo:Geometry ;
+g13set:IJ-oever_OverhoeksA6859053DBD4458Bgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9000597 52,38651175 )"^^geo:wktLiteral .
 
-g13set:Jan_van_SchaffelaarplantsoenE9526121AC4D4609geo a geo:Geometry ;
+g13set:Jan_van_Schaffelaarplantsoen5803035F99D2402Fgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8431849 52,3788137 )"^^geo:wktLiteral .
 
-g13set:Julianabuurtparkje6E3B0CBF48B64054geo a geo:Geometry ;
+g13set:JulianabuurtparkjeC66C5AE54C144DA3geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9215112 52,3465418 )"^^geo:wktLiteral .
 
-g13set:KadoelerschegDABE9EA5BAD14DBDgeo a geo:Geometry ;
+g13set:KadoelerschegD7E825A65BA542B9geo a geo:Geometry ;
     geo:asWKT "POINT( 4,91124555 52,41064545 )"^^geo:wktLiteral .
 
-g13set:Kasterlee_parkBCD5C4132DD743DBgeo a geo:Geometry ;
+g13set:Kasterlee_parkF58015C0B031468Ageo a geo:Geometry ;
     geo:asWKT "POINT( 4,810301 52,34838195 )"^^geo:wktLiteral .
 
-g13set:Keerkringpark059CF54A37B54717geo a geo:Geometry ;
+g13set:Keerkringpark9E4FEAE95C08496Egeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8767192 52,4113054 )"^^geo:wktLiteral .
 
-g13set:Keesje_Brijdeplantsoen483052145A724E9Cgeo a geo:Geometry ;
+g13set:Keesje_BrijdeplantsoenA718CABAC0D34A06geo a geo:Geometry ;
     geo:asWKT "POINT( 4,94638495 52,37378455 )"^^geo:wktLiteral .
 
-<http://few.vu.nl/~mvr320/KRweb/resource/prk/Koningin_Wilhelminaplantsoen_(?%29EF101B0AD8B5442Cgeo> a geo:Geometry ;
+<http://few.vu.nl/~mvr320/KRweb/resource/prk/Koningin_Wilhelminaplantsoen_(?%2996741A46E01C4CDEgeo> a geo:Geometry ;
     geo:asWKT "POINT( 4,8376541 52,35383315 )"^^geo:wktLiteral .
 
-g13set:Kristoffel_PlantijnpadB0B4FAFEC2E54B22geo a geo:Geometry ;
+g13set:Kristoffel_Plantijnpad75761DCA2BCD49E7geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8218045 52,34664435 )"^^geo:wktLiteral .
 
-g13set:Leidsebosje82C36B8B246642E8geo a geo:Geometry ;
+g13set:Leidsebosje2F3D1606E48D454Ageo a geo:Geometry ;
     geo:asWKT "POINT( 4,8806085 52,3628206 )"^^geo:wktLiteral .
 
-g13set:Lutkemeerpark74F434C68B954685geo a geo:Geometry ;
+g13set:LutkemeerparkB02061A870A54753geo a geo:Geometry ;
     geo:asWKT "POINT( 4,76113005 52,3623609 )"^^geo:wktLiteral .
 
-g13set:Martin_Luther_Kingpark054E8EB792284F5Dgeo a geo:Geometry ;
+g13set:Martin_Luther_Kingpark08CE33AE42B34F09geo a geo:Geometry ;
     geo:asWKT "POINT( 4,90741895 52,3392477 )"^^geo:wktLiteral .
 
-g13set:Meerpark3BE9E00D23AA48C0geo a geo:Geometry ;
+g13set:MeerparkF646745FAD824277geo a geo:Geometry ;
     geo:asWKT "POINT( 4,948461 52,34769425 )"^^geo:wktLiteral .
 
-g13set:Museumplein44F9CDBDF6FF4FBEgeo a geo:Geometry ;
+g13set:MuseumpleinDA58FB97365A4EA4geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8816645 52,35734075 )"^^geo:wktLiteral .
 
-g13set:Natuurtuin_De_WiedijkDE38BDCE0AE5456Bgeo a geo:Geometry ;
+g13set:Natuurtuin_De_WiedijkF84E1F90EC9B48A4geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8172941 52,35645765 )"^^geo:wktLiteral .
 
-g13set:Nelson_Mandelapark3970FA9998744F5Fgeo a geo:Geometry ;
+g13set:Nelson_MandelaparkCD0B3EBAF5CB4B02geo a geo:Geometry ;
     geo:asWKT "POINT( 4,96343755 52,30973715 )"^^geo:wktLiteral .
 
-g13set:Noorder-IJplas298211D3652D485Egeo a geo:Geometry ;
+g13set:Noorder-IJplas14261CEE006B447Cgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,866163 52,42310995 )"^^geo:wktLiteral .
 
-g13set:NoorderparkEBF3E632B3AD438Ageo a geo:Geometry ;
+g13set:Noorderpark0FDA8BB9623C46F5geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9204156 52,39426135 )"^^geo:wktLiteral .
 
-g13set:Oeverpark_SchellingwoudeBC86FC28D9674BE0geo a geo:Geometry ;
+g13set:Oeverpark_SchellingwoudeB9EBBB0BCAF84085geo a geo:Geometry ;
     geo:asWKT "POINT( 4,95918245 52,38596245 )"^^geo:wktLiteral .
 
-g13set:Onderlangs00B370959DA94DD5geo a geo:Geometry ;
+g13set:OnderlangsF11C41EA8D1E4639geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9454146 52,3390295 )"^^geo:wktLiteral .
 
-g13set:OostenburgerparkBDE06DDD87004A4Bgeo a geo:Geometry ;
+g13set:Oostenburgerpark58F17FD819354791geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9253101 52,369153 )"^^geo:wktLiteral .
 
-g13set:Oosterpark55535A67A089468Egeo a geo:Geometry ;
+g13set:OosterparkA688F7F64C424960geo a geo:Geometry ;
     geo:asWKT "POINT( 4,92045185 52,36026515 )"^^geo:wktLiteral .
 
-g13set:Overlooppad454F6FDCDB5D44F6geo a geo:Geometry ;
+g13set:Overlooppad7A0D3EA8F9D7424Dgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9088561 52,36602685 )"^^geo:wktLiteral .
 
-g13set:Park_De_KuilE46C5FEF182C49C6geo a geo:Geometry ;
+g13set:Park_De_Kuil422AD6B931C6445Dgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,79098885 52,37718675 )"^^geo:wktLiteral .
 
-g13set:Park_SchinkeleilandenB28579D7C4BF46D1geo a geo:Geometry ;
+g13set:Park_Schinkeleilanden85229CCF690442FEgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,85069245 52,34482095 )"^^geo:wktLiteral .
 
-g13set:Piet_Wiedijkpark48DAF8AD037F4850geo a geo:Geometry ;
+g13set:Piet_WiedijkparkB193291564A64A3Cgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,81858655 52,35380835 )"^^geo:wktLiteral .
 
-g13set:Plantage_Westermann73F0BBF4501341CCgeo a geo:Geometry ;
+g13set:Plantage_WestermannE68F527D0668447Egeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9132547 52,3652658 )"^^geo:wktLiteral .
 
-g13set:Polderheuvel_Tuinen_van_West947D03882CF84977geo a geo:Geometry ;
+g13set:Polderheuvel_Tuinen_van_West9F9E6860A31F4249geo a geo:Geometry ;
     geo:asWKT "POINT( 4,7778234 52,37970445 )"^^geo:wktLiteral .
 
-g13set:Prins_Bernhardpark435F43A352CB4D50geo a geo:Geometry ;
+g13set:Prins_Bernhardpark8A458F008A6B4BC9geo a geo:Geometry ;
     geo:asWKT "POINT( 4,92645235 52,3479881 )"^^geo:wktLiteral .
 
-g13set:Rembrandtpark0477C7647E8840ECgeo a geo:Geometry ;
+g13set:Rembrandtpark75E7A0FA22C247B6geo a geo:Geometry ;
     geo:asWKT "POINT( 4,84682845 52,36385245 )"^^geo:wktLiteral .
 
-g13set:Rembrandtplein441059505C3C4668geo a geo:Geometry ;
+g13set:Rembrandtplein2D68418C47E64DF9geo a geo:Geometry ;
     geo:asWKT "POINT( 4,89682 52,36600395 )"^^geo:wktLiteral .
 
-g13set:RietlandC05F497AA30A4DE4geo a geo:Geometry ;
+g13set:RietlandAA49C3DC48C64BA2geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9445581 52,3878049 )"^^geo:wktLiteral .
 
-g13set:Rietlandpark1338B30D3BA54FE6geo a geo:Geometry ;
+g13set:Rietlandpark47BE17AB10324A43geo a geo:Geometry ;
     geo:asWKT "POINT( 4,93575745 52,37214035 )"^^geo:wktLiteral .
 
-g13set:SarphatiparkC02045F69A65405Cgeo a geo:Geometry ;
+g13set:Sarphatipark16941F3AB5924C0Fgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,89640755 52,35440155 )"^^geo:wktLiteral .
 
-g13set:Schellingwouderbreekpark8F51786B567A46BBgeo a geo:Geometry ;
+g13set:Schellingwouderbreekpark80746E195DBD4310geo a geo:Geometry ;
     geo:asWKT "POINT( 4,95251195 52,3884496 )"^^geo:wktLiteral .
 
-g13set:SiegerparkDBB83B68D73349CCgeo a geo:Geometry ;
+g13set:SiegerparkAC2E2B590C5C44F1geo a geo:Geometry ;
     geo:asWKT "POINT( 4,81917615 52,3405637 )"^^geo:wktLiteral .
 
-g13set:SloterparkB23321E35C864EA1geo a geo:Geometry ;
+g13set:Sloterpark988C62AF81854713geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8178167 52,36517235 )"^^geo:wktLiteral .
 
-g13set:Spaarndammerplantsoen9B66504E7B484C1Fgeo a geo:Geometry ;
+g13set:Spaarndammerplantsoen8A45989884364F61geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8754291 52,389842 )"^^geo:wktLiteral .
 
-g13set:Stadspark_OsdorpF5D0047DE306426Dgeo a geo:Geometry ;
+g13set:Stadspark_Osdorp50F3B355FDC4480Egeo a geo:Geometry ;
     geo:asWKT "POINT( 4,79965495 52,35516445 )"^^geo:wktLiteral .
 
-g13set:StenenhoofdB8935D7E82BA4611geo a geo:Geometry ;
+g13set:Stenenhoofd7882CD7FE2F84D39geo a geo:Geometry ;
     geo:asWKT "POINT( 4,89265365 52,3890466 )"^^geo:wktLiteral .
 
-g13set:SurinamepleinF4E74E68672C4CF2geo a geo:Geometry ;
+g13set:Surinameplein9E15244EE1A24574geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8511834 52,35851185 )"^^geo:wktLiteral .
 
-g13set:Theo_van_Goghpark507A0EE9F7D042C2geo a geo:Geometry ;
+g13set:Theo_van_Goghpark8615353F5F9C48A6geo a geo:Geometry ;
     geo:asWKT "POINT( 5,00665065 52,3496866 )"^^geo:wktLiteral .
 
-g13set:TolhuiswegD3602BBEE3DA4616geo a geo:Geometry ;
+g13set:Tolhuisweg876DB784322E4185geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9046561 52,3834543 )"^^geo:wktLiteral .
 
-g13set:VondelparkC15A7FC53A344BBAgeo a geo:Geometry ;
+g13set:VondelparkD3C9B92A86924D7Dgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8685834 52,3579206 )"^^geo:wktLiteral .
 
-g13set:Voorlandpad41E1590D6A3946D8geo a geo:Geometry ;
+g13set:Voorlandpad72888E34F3E743C7geo a geo:Geometry ;
     geo:asWKT "POINT( 4,9525925 52,3429919 )"^^geo:wktLiteral .
 
-g13set:Vrije_GeerEC7C6F7641294DD8geo a geo:Geometry ;
+g13set:Vrije_GeerCD7A20DFD6C940F1geo a geo:Geometry ;
     geo:asWKT "POINT( 4,79869455 52,3459367 )"^^geo:wktLiteral .
 
-g13set:W.H._Vliegenbos89B3842CBB6440BFgeo a geo:Geometry ;
+g13set:W.H._VliegenbosE78E051FF96E4195geo a geo:Geometry ;
     geo:asWKT "POINT( 4,93201105 52,3891191 )"^^geo:wktLiteral .
 
-g13set:Wachterliedplantsoen08DB476295EB402Egeo a geo:Geometry ;
+g13set:Wachterliedplantsoen93126A94548D41B6geo a geo:Geometry ;
     geo:asWKT "POINT( 4,85283655 52,37872595 )"^^geo:wktLiteral .
 
-g13set:WertheimparkE490BE428C9C45FDgeo a geo:Geometry ;
+g13set:Wertheimpark88211D106AA24039geo a geo:Geometry ;
     geo:asWKT "POINT( 4,90860885 52,3678865 )"^^geo:wktLiteral .
 
-g13set:Westerpark504BF16EA2B04069geo a geo:Geometry ;
+g13set:Westerpark939D40360FDC40EAgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,868895 52,3871755 )"^^geo:wktLiteral .
 
-g13set:Westertochtpark6634C4DD210546D3geo a geo:Geometry ;
+g13set:Westertochtpark964AC747954A425Dgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,8752081 52,41596885 )"^^geo:wktLiteral .
 
-g13set:WeteringplantsoenBB74ED1B73064E4Bgeo a geo:Geometry ;
+g13set:Weteringplantsoen01A2BD1A93384B42geo a geo:Geometry ;
     geo:asWKT "POINT( 4,890377 52,35942935 )"^^geo:wktLiteral .
 
-g13set:WibautparkB2317BAD99014D14geo a geo:Geometry ;
+g13set:WibautparkA7A7ECF4200645EDgeo a geo:Geometry ;
     geo:asWKT "POINT( 4,9137389 52,352498 )"^^geo:wktLiteral .
 
-g13set:WilmkebreekpolderF2A8B749624C48C0geo a geo:Geometry ;
+g13set:WilmkebreekpolderE0DA7DD741704FA0geo a geo:Geometry ;
     geo:asWKT "POINT( 4,90372295 52,41433235 )"^^geo:wktLiteral .
 
-g13set:_t_Kleine_LoopveldDBB3FAAA1858439Egeo a geo:Geometry ;
+g13set:_t_Kleine_Loopveld0A9F5F61E24742C4geo a geo:Geometry ;
     geo:asWKT "POINT( 4,8789589 52,32302755 )"^^geo:wktLiteral .
 
