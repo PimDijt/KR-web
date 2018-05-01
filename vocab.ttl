@@ -122,7 +122,7 @@ _:genid4 a owl:Restriction ;
 	owl:hasValue :food .
 
 :HomelessAddicts rdfs:subClassOf :FoodProvider ;
-	rdfs:label "'Homeless food center'"@en .
+	rdfs:label "Homeless food center"@en .
 # 
 # http://few.vu.nl/~mvr320/KRweb/vocab/InformationCentre
 
