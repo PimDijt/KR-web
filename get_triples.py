@@ -1,5 +1,6 @@
 import requests
 import pickle
+import sys
 
 result = []
 
@@ -13,15 +14,15 @@ def get_next_link(r):
 
 def handle_body(r):
     body = r.content.strip().splitlines()
-    triple = {}
     for line in body:
-        line = line.split()
-        triple["s"] = line[0]
-        triple["p"] = line[1]
-        triple["o"] = line[2]
+        pieces = line.split()
+        triple = {}
+        triple["s"] = bytes.decode(pieces[0])
+        triple["p"] = bytes.decode(pieces[1])
+        triple["o"] = bytes.decode(pieces[2])
         result.append(triple)
 
-r = requests.get('')
+r = requests.get('https://hdt.lod.labs.vu.nl/triple?page_size=10000&p=a&o=%3Chttp%3A//purl.org/ontology/mo/MusicArtist%3E')
 handle_body(r)
 link = get_next_link(r)
 
@@ -33,5 +34,5 @@ while link is not None:
     handle_body(r)
     link = get_next_link(r)
 
-with open('', 'wb') as handle:
+with open('dbtune_dict.pickle', 'wb') as handle:
     pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
