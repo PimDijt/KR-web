@@ -14,7 +14,7 @@ result = []
 def get_label(term):
     url = "https://hdt.lod.labs.vu.nl/triple?p=rdfs:label&s="+urllib.parse.quote_plus(term)
     print(url)
-    r = requests.get(url)
+    r = requests.get(url, timeout=(30, 30))
     body = r.content.strip().splitlines()
     for line in body:
         line = line.split()
@@ -30,6 +30,7 @@ for item in dbo_dict:
     print("{} / {}".format(count, len(dbo_dict)))
     count += 1
     get_label(term)
+    break
 
 with open('dbo_labels.pickle', 'wb') as handle:
     pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)

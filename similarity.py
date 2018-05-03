@@ -4,10 +4,10 @@ import requests
 import urllib.parse
 
 with open('dbo_dict.pickle', 'rb') as f:
-    dbo_dict = pickle.load(f)
+    dbo_dictu = pickle.load(f)
 
 with open('dbtune_dict.pickle', 'rb') as f:
-    dbtune_dict = pickle.load(f)
+    dbtune_dictu = pickle.load(f)
 
 def get_label(term):
     url = "https://hdt.lod.labs.vu.nl/triple?p=rdfs:label&s="+urllib.parse.quote_plus(term)
@@ -29,6 +29,8 @@ def get_label(term):
             object = object.split("^")
             return object[0]
 
+dbtune_dict = sorted(dbtune_dictu)
+dbo_dict = sorted(dbo_dictu)
 for item in dbo_dict:
     term = item["s"]
     label = get_label(term)
