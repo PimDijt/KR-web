@@ -25,12 +25,16 @@ def get_label(term):
         result.append(triple)
 
 count = 0
-for item in dbo_dict:
-    term = item["s"]
-    print("{} / {}".format(count, len(dbo_dict)))
-    count += 1
-    get_label(term)
-    break
+counterNumber = int(sys.argv[1])
+sliceSize = 63616
 
-with open('dbo_labels.pickle', 'wb') as handle:
+for item in dbo_dict:
+    if count >= counterNumber*sliceSize:
+        if count < counterNumber*(sliceSize+1):
+            term = item["s"]
+            print("{} / {}".format(count, len(dbo_dict)))
+            get_label(term)
+    count += 1
+
+with open('dbo_labels-'+str(counterNumber*sliceSize)+'.pickle', 'wb') as handle:
     pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
