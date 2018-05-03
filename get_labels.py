@@ -14,7 +14,7 @@ result = []
 def get_label(term):
     url = "https://hdt.lod.labs.vu.nl/triple?p=rdfs:label&s="+urllib.parse.quote_plus(term)
     print(url)
-    r = requests.get(url, timeout=(30, 30))
+    r = requests.get(url)
     body = r.content.strip().splitlines()
     for line in body:
         line = line.split()
@@ -29,8 +29,9 @@ counterNumber = int(sys.argv[1])
 sliceSize = 63616
 
 for item in dbo_dict:
+    print(count)
     if count >= counterNumber*sliceSize:
-        if count < counterNumber*(sliceSize+1):
+        if count < (counterNumber+1)*sliceSize:
             term = item["s"]
             print("{} / {}".format(count, len(dbo_dict)))
             get_label(term)
@@ -38,3 +39,20 @@ for item in dbo_dict:
 
 with open('dbo_labels-'+str(counterNumber*sliceSize)+'.pickle', 'wb') as handle:
     pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+count = 0
+counterNumber = int(sys.argv[1])
+sliceSize = 55555
+
+
+for item in dbtune_dict:
+    if count >= counterNumber*sliceSize:
+        if count < (1+counterNumber)*sliceSize:
+            term = item["s"]
+            print("{} / {}".format(count, len(dbo_dict)))
+            get_label(term)
+    count += 1
+
+with open('dbtune_labels-'+str(counterNumber*sliceSize)+'.pickle', 'wb') as handle:
+    pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
+

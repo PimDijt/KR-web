@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connection.py", line 138, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/util/connection.py", line 98, in create_connection
+    raise err
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/util/connection.py", line 88, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 594, in urlopen
+    chunked=chunked)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 350, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 835, in _validate_conn
+    conn.connect()
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connection.py", line 281, in connect
+    conn = self._new_conn()
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connection.py", line 147, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f2f8a334eb8>: Failed to establish a new connection: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 423, in send
+    timeout=timeout
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 643, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/util/retry.py", line 363, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='hdt.lod.labs.vu.nl', port=443): Max retries exceeded with url: /triple?p=rdfs:label&s=%3Chttp%3A%2F%2Fmusicbrainz.org%2Fartist%2F813ba3f9-e1bb-45b3-a074-7b3b781c7db5%23_%3E (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f2f8a334eb8>: Failed to establish a new connection: [Errno 99] Cannot assign requested address',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "get_labels.py", line 37, in <module>
+    get_label(term)
+  File "get_labels.py", line 17, in get_label
+    r = requests.get(url)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 487, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='hdt.lod.labs.vu.nl', port=443): Max retries exceeded with url: /triple?p=rdfs:label&s=%3Chttp%3A%2F%2Fmusicbrainz.org%2Fartist%2F813ba3f9-e1bb-45b3-a074-7b3b781c7db5%23_%3E (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f2f8a334eb8>: Failed to establish a new connection: [Errno 99] Cannot assign requested address',))
