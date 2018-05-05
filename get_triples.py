@@ -37,6 +37,7 @@ while link is not None:
 with open('dbtune_dict.pickle', 'wb') as handle:
     pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+result = []
 r = requests.get('https://hdt.lod.labs.vu.nl/triple?page_size=10000&p=a&o=%3Chttp%3A//dbpedia.org/ontology/MusicalArtist%3E', timeout=(30, 30))
 handle_body(r)
 link = get_next_link(r)
