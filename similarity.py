@@ -1,41 +1,25 @@
 import pickle
-import sys
-import requests
-import urllib.parse
+import Levenshtein
 
-with open('dbo_dict.pickle', 'rb') as f:
-    dbo_dictu = pickle.load(f)
+with open('dbo_label_dict.pickle', 'rb') as f:
+    dbo_label_dict = pickle.load(f)
 
-with open('dbtune_dict.pickle', 'rb') as f:
-    dbtune_dictu = pickle.load(f)
+with open('dbtune_label_dict.pickle', 'rb') as f:
+    dbtune_label_dict = pickle.load(f)
 
-def get_label(term):
-    url = "https://hdt.lod.labs.vu.nl/triple?p=rdfs:label&s="+urllib.parse.quote_plus(term)
-    r = requests.get(url)
-    body = r.content.strip().splitlines()
-    for line in body:
-        line = line.split()
-        object = bytes.decode(line[2])
-        index = 3
-        while index < (len(line)-2):
-            object += bytes.decode(line[index])
-            index += 1
-
-        if "@" in object:
-            object = object.split("@")
-            if object[1] == "en":
-                return object[0]
-        else:
-            object = object.split("^")
-            return object[0]
-
-dbtune_dict = sorted(dbtune_dictu)
-dbo_dict = sorted(dbo_dictu)
-for item in dbo_dict:
-    term = item["s"]
-    label = get_label(term)
-    for item2 in dbtune_dict:
-        term2 = item2["s"]
-        label2 = get_label(term2)
-        print("{} --> {}".format(label, label2))
-    sys.exit()
+count = 0
+for k, v in dbtune_label_dict.items():
+    for k2, v2 in dbo_label_dict.items():
+        dist = Levenshtein.distance(v, v2)
+        if dist > 0:
+            dist = dist-1 #Vanwege vriendelijkeheid
+        longest = len(v) if len(v)>len(v2) else len(v2)
+        if dist/longest < 0.2:
+            print(v+"-"+v2)
+            count += 1
+print(len(dbo_label_dict))
+print(len(dbtune_label_dict))
+print(count)
+print(len(dbo_label_dict)+len(dbtune_label_dict)-2*count)
+print(count/(len(dbo_label_dict)+len(dbtune_label_dict)-2*count))
+print("DBO: {}, DBtune: {}, Intersection: {}, Union: {}, Jaccard: {}".format(len(dbo_label_dict), len(dbtune_label_dict), count, len(dbo_label_dict)+len(dbtune_label_dict)-2*count), count/(len(dbo_label_dict)+len(dbtune_label_dict)-2*count))
