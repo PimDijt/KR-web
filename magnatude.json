@@ -1,0 +1,2961 @@
+{
+  "head": {
+    "vars": [
+      "s",
+      "p",
+      "o"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mutandina"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mutandina",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/drevo"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Drevo",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kitka"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Kitka",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sdevine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Steven Devine",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/beight"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Beight",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/masley"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Michael Masley",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/carrai"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Phoebe Carrai",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/phantasm"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Phantasm",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kokoon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Kokoon",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/skitzo"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Skitzo",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/fulton"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Cheryl Ann Fulton",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/opened_paradise"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Opened Paradise",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sarasa"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Sarasa Ensemble",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/belief_systems"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Belief Systems",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/bledsoe"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Glen Bledsoe",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/johannesburg"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Johannesburg Philharmonic",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rejuvenescence"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rejuvenescence",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/shira_kammen"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Shira Kammen",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/primavera"
+        },
+        "o": {
+          "type": "literal",
+          "value": "La Primavera",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/chris_juergensen"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Chris Juergensen",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mountain_mirrors"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mountain Mirrors",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/satamian"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Gerard Satamian",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/leoni"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Barbara Leoni",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/beth_quist"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Beth Quist",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kyiv_chamber_choir"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Kyiv Chamber Choir",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rebel_rebel"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rebel Rebel",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/etherine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Etherine",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wolves"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Christopher of the Wolves",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/beier"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Paul Beier",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/electric_frankenstei"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Electric Frankenstein",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jag"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jag",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/abs"
+        },
+        "o": {
+          "type": "literal",
+          "value": "American Bach Soloists",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/docrossi"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Doc Rossi",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/pantagruel"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Pantagruel",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/janine_johnson"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Janine Johnson",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kenji_williams"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Kenji Williams",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/curandero"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Curandero",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/trio_dafne"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Trio Dafne",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/levy"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Todd Levy and Elena Abend",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mr_epic"
+        },
+        "o": {
+          "type": "literal",
+          "value": "mr Epic",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/duo_de_bois"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Duo de Bois",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rhonda_lorence"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rhonda Lorence",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/cargo_cult"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Cargo Cult",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/touching_grace"
+        },
+        "o": {
+          "type": "literal",
+          "value": "touchingGrace",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/spheres"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Music of the Spheres",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/tomkins"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Tanya Tomkins and Eric Zivian",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/lara_st_john"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Lara St John",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/hoxman"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Hoxman",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/cary"
+        },
+        "o": {
+          "type": "literal",
+          "value": "DJ Cary",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/debenedictis"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Lisa DeBenedictis",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/falling_you"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Falling You",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/elijah"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Saint Elijah Childrens Choir",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/seldon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Seldon Plan",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/chris_harvey"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Chris Harvey",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/heavy_mellow"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Heavy Mellow",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jackman"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Shane Jackman",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mintz"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Shlomo Mintz",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sonnerie"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Sonnerie",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/pizzle"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Pizzle",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mot"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Memories of Tomorrow",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/anamar"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Anamar",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/melia"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jeni Melia",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/tilopa"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Tilopa",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/savino"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Richard Savino",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mrdc"
+        },
+        "o": {
+          "type": "literal",
+          "value": "MRDC",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/atomic_opera"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Atomic Opera",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/indidginus"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Indidginus",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/plunkett"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Plunkett",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/magnatune_remixed"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Magnatune Remixed",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/maryse_carlin"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Maryse Carlin",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/carlin"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Seth Carlin",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/armchair"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Professor Armchair",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rajdhani"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The RajDhani Quartet",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/tom_paul"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Tom Paul",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wicked_allstars"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Wicked Allstars",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/somadrone"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Somadrone",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/zephyrus"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Zephyrus",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jeff_wahl"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jeff Wahl",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/hube"
+        },
+        "o": {
+          "type": "literal",
+          "value": "hands upon black earth",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sibelian"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Sibelian",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/musica_franca"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Musica Franca",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/reza"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Reza Manzoori",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/skin_mechanix"
+        },
+        "o": {
+          "type": "literal",
+          "value": "SkinMechanix",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/fitch"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Claire Fitch",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/avgerinos"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Paul Avgerinos",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/human_response"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Human Response",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/zilla"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Zilla",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/scd"
+        },
+        "o": {
+          "type": "literal",
+          "value": "SCD",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ror"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Roots of Rebellion",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/brook_street"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Brook Street Band",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wamsley"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Trip Wamsley",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/burning_babylon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Burning Babylon",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/psychetropic"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Psychetropic",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/curl"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Curl",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jjackson"
+        },
+        "o": {
+          "type": "literal",
+          "value": "John Jackson",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/orinda"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Orinda",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/myles_cochran"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Myles Cochran",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/emmas_mini"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Emmas Mini",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/tim_rayborn"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Tim Rayborn",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/joram"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Joram",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/west_exit"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The West Exit",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sun_palace"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Sun Palace",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/bianco"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Justin Bianco",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/proosdij"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Hanneke van Proosdij",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rompaey"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ruben van Rompaey",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/magnaloops"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Loops For Licensing",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ensemble_sreteniye"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ensemble Sreteniye",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/falik"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Falik",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mercymachine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mercy Machine",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/groh"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Markus Groh",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ya_elah"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ya Elah",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/hybris"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Hybris",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/drop_trio"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Drop Trio",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/telemann_trio"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Telemann Trio Berlin",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/atek"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ambient Teknology",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/phillips"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Barry Phillips",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/fleagle"
+        },
+        "o": {
+          "type": "literal",
+          "value": "John Fleagle",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/processor"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Processor",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/robert_rich"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Robert Rich",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/beznosiuk"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Pavlo Beznosiuk",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/grayson_wray"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Grayson Wray",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/dac_crowell"
+        },
+        "o": {
+          "type": "literal",
+          "value": "DAC Crowell",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/haefliger"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Andreas Haefliger",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/nuova"
+        },
+        "o": {
+          "type": "literal",
+          "value": "La Nuova Musica",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/parte"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Suchita Parte",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/william_brooks"
+        },
+        "o": {
+          "type": "literal",
+          "value": "William Brooks",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/john_williams"
+        },
+        "o": {
+          "type": "literal",
+          "value": "John Williams",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/lavra"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Kyiv Seminary Choir",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jan_hanford"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jan Hanford",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/spinecar"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Spinecar",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mandrake_root"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mandrake Root",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/emma_curtis"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Emma Curtis and The Frolick",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mediva"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mediva",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jackalopes"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jackalopes",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/norine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Norine Braun",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/solar_cycle"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Solar Cycle",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mccawley"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Leon McCawley",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/lvxnova"
+        },
+        "o": {
+          "type": "literal",
+          "value": "LVX Nova",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/craig_westine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Phebe Craig and Katherine Westine",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/oberlin_consort"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Oberlin Consort of Viols",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/latham-koenig"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jan Latham Koenig",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/vla"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Very Large Array",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/paternoster"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Vito Paternoster",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/holowach"
+        },
+        "o": {
+          "type": "literal",
+          "value": "John Holowach",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wadsworth"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Wadsworth and Sampson",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/pbo"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Philharmonia Baroque",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wickedboy"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Wicked boy",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/yoria"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Arthur Yoria",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kperl"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Katherine Roberts Perl",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/dj_markitos"
+        },
+        "o": {
+          "type": "literal",
+          "value": "DJ Markitos",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rcr"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rocket City Riot",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/voicesofmusic"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Voices of Music",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/blind_divine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Blind Divine",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/four_stones"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Four Stones",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/gleusteen"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Gleusteen and Ordronneau",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/duo_chambure"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Duo Chambure",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/solace"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Solace",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/joglaresa"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Joglaresa",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/strojovna_07"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Strojovna 07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mirable"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ensemble Mirable",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/general_fuzz"
+        },
+        "o": {
+          "type": "literal",
+          "value": "General Fuzz",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/da_camera"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Da Camera",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/turku"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rudens Turku",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mijo"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mijo",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ehren"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ehren Starks",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/luck_lucas"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jeffrey Luck Lucas",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/monoide"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Monoide",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/fogelberg"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Bjorn Fogelberg",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/costlow"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rob Costlow",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/seismic_anamoly"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Seismic Anamoly",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/williamson"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Williamson",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kourosh_zolani"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Kourosh Zolani",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/headroom_project"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Headroom Project",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/satori"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Satori",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/stellamara"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Stellamara",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/thebots"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Bots",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/borac"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Luiza Borac",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ion"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ion",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/james_edwards"
+        },
+        "o": {
+          "type": "literal",
+          "value": "James Edwards",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/shiva_in_exile"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Shiva in Exile",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/lizzi"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Lizzi",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/three_holies"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Three Holies Church Choristers",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/yongen"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Yongen",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/paul_berget"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Paul Berget",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/swivel_neck"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Swivel Neck Jones",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/zuckertrio"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Zucker Andon Ranck and Locker",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/berkman"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Daniel Berkman",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/hadidian"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Eileen Hadidian and Natalie Cox",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/etherfysh"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Etherfysh",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/soulprint"
+        },
+        "o": {
+          "type": "literal",
+          "value": "SoulPrint",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/stargarden"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Stargarden",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/self_delusion"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Self Delusion",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/manno"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jesse Manno",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/filles"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Les Filles de Sainte Colombe",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sundowner"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Sundowner",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/nova_casa"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Nova Casa",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ishwish"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ishwish",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/psychokinetics"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Psychokinetics",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/pinnock"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Trevor Pinnock",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/edward_martin"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Edward Martin and Paul Berget",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/edward_martin"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Edward Martin and William Bastian",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/edward_martin"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Edward Martin",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jade_leary"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jade Leary",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/heringman"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Heringman",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/heringman"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jacob Heringman",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/artemis"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Artemis",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/dr_kuch"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Dr Kuch",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wretch"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Wretch",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ruiz"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Gonzalo X Ruiz",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/liquid_zen"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Liquid Zen",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/serenissima"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Serenissima",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/clayne"
+        },
+        "o": {
+          "type": "literal",
+          "value": "C. Layne",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/trancevision"
+        },
+        "o": {
+          "type": "literal",
+          "value": "TranceVision",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/teng"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Suzanne Teng",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/farallon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Farallon Recorder Quartet",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/domased"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Domased",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/blownaparts"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Napoleon Blown Aparts",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/antiguru"
+        },
+        "o": {
+          "type": "literal",
+          "value": "AntiGuru",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/lieberson"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Lorraine Hunt Lieberson",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/asteria"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Asteria",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/utopia_banished"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Utopia Banished",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/saros"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Saros",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/compilation"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Magnatune Compilation",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jay_kishor"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jay Kishor",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/heringman_king"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jacob Heringman and Catherine King",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/mr_gelatine"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Mr Gelatine",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/rapoon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Rapoon",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/meneses"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Antonio Meneses",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/kirsty_hawkshaw"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Kirsty Hawkshaw",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/potvin"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Stephane Potvin and the Con Brio Choir",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ty_burhoe"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ty Burhoe",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/marginal_prophets"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Marginal Prophets",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/briddes_roune"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Briddes Roune",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/pienaar"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Daniel Ben Pienaar",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/nova_express"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Nova Express",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/zucker_andon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Laurel Zucker and Sara Andon",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/amoeba"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Amoeba",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/version"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Version",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/junoon"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Junoon",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/beatundercontrol"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Beat Under Control",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/sieber"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jami Sieber",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/fivestarfall"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Five Star Fall",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/panacea"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Panacea",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/thursday_group"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Thursday Group",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/brad_sucks"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Brad Sucks",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/monks_lavra"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Monks and Choirs of Kiev Pechersk Lavra",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/thornside"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Burnshee Thornside",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/dufay"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Dufay Collective",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/vermillian"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ensemble Vermillian",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/english_concert"
+        },
+        "o": {
+          "type": "literal",
+          "value": "English Concert with Trevor Pinnock",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ivilion"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ivilion",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/new_york_consort"
+        },
+        "o": {
+          "type": "literal",
+          "value": "New York Consort of Viols",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/american_baroque"
+        },
+        "o": {
+          "type": "literal",
+          "value": "American Baroque",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/wolff"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Elizabeth Wolff",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/evera"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Emily Van Evera",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/minstrel_spirit"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Minstrel Spirit",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/hans_christian"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Hans Christian",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/zucker"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Laurel Zucker",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/meulenbroeks"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ralph Rousseau Meulenbroeks",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/pain_factor"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Pain Factor",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ejp"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Eternal Jazz Project",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/jhkim"
+        },
+        "o": {
+          "type": "literal",
+          "value": "JungHae Kim",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/introspekt"
+        },
+        "o": {
+          "type": "literal",
+          "value": "iNTROSPEKT",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/ammonite"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Ammonite",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/altri_stromenti"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Altri Stromenti",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/strapons"
+        },
+        "o": {
+          "type": "literal",
+          "value": "The Strap Ons",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/anup"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Anup",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://dbtune.org/magnatune/artist/janover"
+        },
+        "o": {
+          "type": "literal",
+          "value": "Jamie Janover",
+          "datatype": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      }
+    ]
+  }
+}
