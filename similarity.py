@@ -66,35 +66,32 @@ for k, v in dbtune_label_dict.items():
                     nysiss_found = True
                     nysiss_intersect_count += 1
 
+print("Statistics:")
+print("DBO: {}, DBtune: {}".format(dbo_size, dbtune_size))
+
 #first do string
-dbo_size = len(dbo_label_dict)
-dbtune_size = len(dbtune_label_dict)
 intersection = str_intersect_count
 union = dbo_size+dbtune_size-2*intersection
 jaccard = intersection/union
 subset_jaccard = intersection/min(dbo_size, dbtune_size)
 
 print("String comparison:")
-print("DBO: {}, DBtune: {}, Intersection: {}, Union: {}, Jaccard: {}, Subset Jaccard: {}, Totalcount: {}".format(dbo_size, dbtune_size, intersection, union, jaccard, subset_jaccard, str_count))
+print("Intersection: {}, Union: {}, Jaccard: {}, Subset Jaccard: {}, Totalcount: {}".format(intersection, union, jaccard, subset_jaccard, str_count))
 
 #then do dmeta
-dbo_size = len(dbo_label_dict)
-dbtune_size = len(dbtune_label_dict)
 intersection = dmeta_intersect_count
 union = dbo_size+dbtune_size-2*intersection
 jaccard = intersection/union
 subset_jaccard = intersection/min(dbo_size, dbtune_size)
 
 print("Dmeta comparison:")
-print("DBO: {}, DBtune: {}, Intersection: {}, Union: {}, Jaccard: {}, Subset Jaccard: {}, Totalcount: {}".format(dbo_size, dbtune_size, intersection, union, jaccard, subset_jaccard, dmeta_count))
+print("Intersection: {}, Union: {}, Jaccard: {}, Subset Jaccard: {}, Totalcount: {}".format(intersection, union, jaccard, subset_jaccard, dmeta_count))
 
 #then do nysiis
-dbo_size = len(dbo_label_dict)
-dbtune_size = len(dbtune_label_dict)
 intersection = nysiss_intersect_count
 union = dbo_size+dbtune_size-2*intersection
 jaccard = intersection/union
 subset_jaccard = intersection/min(dbo_size, dbtune_size)
 
 print("NYSIIS comparison:")
-print("DBO: {}, DBtune: {}, Intersection: {}, Union: {}, Jaccard: {}, Subset Jaccard: {}, Totalcount: {}".format(dbo_size, dbtune_size, intersection, union, jaccard, subset_jaccard, nysiss_count))
+print("Intersection: {}, Union: {}, Jaccard: {}, Subset Jaccard: {}, Totalcount: {}".format(intersection, union, jaccard, subset_jaccard, nysiss_count))
