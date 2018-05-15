@@ -10,15 +10,19 @@ class ruler(object):
         self.o = pair[2]
         self.pair = pair
 
-    def classOf(self, other):
-        if other.p=="sc" and self.p=="a" and self.o==other.s:
-            return [self.s, self.p, other.o]
-        return None
+    def rdfs9_classOf(self, store):
+        result = set()
+        for other in store:
+            if other.p=="sc" and self.p=="a" and self.o==other.s:
+                result.add(self.s+" "+self.p+" "+other.o)
+        return list(result)
 
-    def classrel(self, other):
-        if other.p=="sc" and self.p=="sc" and self.o==other.s:
-            return [self.s, self.p, other.o]
-        return None
+    def rdfs11_classrel(self, store):
+        result = set()
+        for other in store:
+            if other.p=="sc" and self.p=="sc" and self.o==other.s:
+                result.add(self.s+" "+self.p+" "+other.o)
+        return list(result)
     
     def equals(self, other):
         #print(self.s,other.s)
