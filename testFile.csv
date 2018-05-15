@@ -6,3 +6,12 @@
 <female2> sc <thing>
 <female> sc <female2>
 <thing> sc <thoing>
+<boing> a rdfs:Datatype
+<knows> a rdfs:ContainerMembershipProperty
+<person> a rdfs:Class
+<fatherOf> rdfs:domain <man>
+<childOf> rdfs:domain <person>
+<childOf> rdfs:range <person>
+<fatherOf> rdfs:range <person>
+<alicia> <childOf> <bert>
+<fred> <fatherOf> <barney>
