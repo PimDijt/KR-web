@@ -21,8 +21,8 @@ class ruler(object):
         return None
     
     def equals(self, other):
-        #print(self.s==other.s)
-        #print(self.p==other.p)
-        #print(self.o==other.o)
+        #print(self.s,other.s)
+        #print(self.p,other.p)
+        #print(self.o,other.o)
         return (self.p==other.p and self.o==other.o and self.s==other.s)
 
