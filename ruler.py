@@ -24,61 +24,49 @@ class ruler(object):
                 result.add(other.s+" rdf:type "+self.o)
         return list(result)
 
-    #def rdfs3_range(self, store):
-    #    result = set()
-    #    for other in store:
-    #        if self.p=="rdfs:range" and self.s==other.p:
-    #            result.add(other.o+" a "+self.o)
-    #    return list(result)
+    def rdfs3_range(self, store):
+        result = set()
+        for other in store:
+            if self.p=="rdfs:range" and self.s==other.p:
+                result.add(other.o+" a "+self.o)
+        return list(result)
 
-    '''def rdfs4a_Resource(self, store):
+    def rdfs4a_Resource(self, store):
         result = set()
         result.add(self.s+" a rdfs:Datatype")
         return list(result)
 
     def rdfs4b_Resource(self, store):
         result = set()
-        result.add(self.s+" a rdfs:Datatype")
-        return list(result)'''
+        result.add(self.o+" a rdfs:Datatype")
+        return list(result)
 
-    '''def rdfs5_range(self, store):
+    def rdfs5_subProperty(self, store):
         result = set()
         for other in store:
             if self.p=="rdfs:subPropertyOf" and other.p=="rdfs:subPropertyOf" and self.s==other.o:
                 result.add(self.s+" rdfs:subPropertyOf "+other.o)
         return list(result)
 
-    def rdfs6_Property(self, store):
+    def rdfs6_typeProperty(self, store):
         result = set()
-        if self.p=="a" and self.o=="rdf:Property":
+        if self.p=="rdf:type" and self.o=="rdf:Property":
             result.add(self.s+" rdfs:subPropertyOf "+self.s)
-        return list(result)'''
+        return list(result)
 
-    '''
-            
-            
-            If S contains: 	then S RDFS entails recognizing D:
-    rdfs1 	any IRI aaa in D 	aaa rdf:type rdfs:Datatype .
-    rdfs2 	aaa rdfs:domain xxx .
-    yyy aaa zzz . 	yyy rdf:type xxx .
-    rdfs3 	aaa rdfs:range xxx .
-    yyy aaa zzz . 	zzz rdf:type xxx .
-    rdfs4a 	xxx aaa yyy . 	xxx rdf:type rdfs:Resource .
-    rdfs4b 	xxx aaa yyy. 	yyy rdf:type rdfs:Resource .
-    rdfs5 	xxx rdfs:subPropertyOf yyy .
-    yyy rdfs:subPropertyOf zzz . 	xxx rdfs:subPropertyOf zzz .
-    rdfs6 	xxx rdf:type rdf:Property . 	xxx rdfs:subPropertyOf xxx .
-    rdfs7 	aaa rdfs:subPropertyOf bbb .
-    xxx aaa yyy . 	xxx bbb yyy .
-    rdfs8 	xxx rdf:type rdfs:Class . 	xxx rdfs:subClassOf rdfs:Resource .
-    rdfs9 	xxx rdfs:subClassOf yyy .
-    zzz rdf:type xxx . 	zzz rdf:type yyy .
-    rdfs10 	xxx rdf:type rdfs:Class . 	xxx rdfs:subClassOf xxx .
-    rdfs11 	xxx rdfs:subClassOf yyy .
-    yyy rdfs:subClassOf zzz . 	xxx rdfs:subClassOf zzz .
-    rdfs12 	xxx rdf:type rdfs:ContainerMembershipProperty . 	xxx rdfs:subPropertyOf rdfs:member .
-    rdfs13 	xxx rdf:type rdfs:Datatype . 	xxx rdfs:subClassOf rdfs:Literal .'''
+    def rdfs7_parentSubProperty(self, store):
+        result = set()
+        for other in store:
+            if self.p=="rdfs:subPropertyOf" and self.s==other.p:
+                result.add(other.s+" "+self.o+" "+other.o)
+        return list(result)
 
+    def rdfs8_subClassResource(self, store):
+        result = set()
+        if self.p=="rdf:type" and self.o=="rdfs:Class":
+            result.add(self.s+" rdfs:subClassOf rdfs:Resource")
+        return list(result)
+    
     def rdfs9_typeOfClass(self, store):
         result = set()
         for other in store:

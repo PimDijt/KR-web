@@ -16,7 +16,8 @@ with open('testFile.csv','r') as f:
     for perm in list(itertools.permutations(functions)):
         newFact = True
         tripStore = tripStoreCl[:]
-        while newFact:
+        rules=0
+        '''while newFact:
             newFact = False
             for func in perm:
                 tripStoreNew = []
@@ -36,40 +37,9 @@ with open('testFile.csv','r') as f:
                             if go:
                                 tripStoreNew.append(ret)
                                 newFact = True
-                '''if func[0]==1:
-                        #print("A: ", tripA.pair)
-                        for tripB in tripStore:
-                            #print(tripB.pair)
-                            ret = tripA.classOf(tripB)
-                            if ret is not None:
-                                ret = ruler(ret)
-                                for tripX in tripStore:
-                                    if tripX.equals(ret):
-                                        go = False
-                                for tripX in tripStoreNew:
-                                    if tripX.equals(ret):
-                                        go = False
-                                if go:
-                                    #print("Go")
-                                    tripStoreNew.append(ret)
-                                    newFact = True
-                elif func[0]==0:
-                    for tripA in tripStore:
-                        for tripB in tripStore:
-                            go = True                       
-                            ret = tripA.classrel(tripB)
-                            if ret is not None:
-                                ret = ruler(ret)
-                                for tripX in tripStore:
-                                    if tripX.equals(ret):
-                                        go = False
-                                for tripX in tripStoreNew:
-                                    if tripX.equals(ret):
-                                        go = False
-                                if go:
-                                    tripStoreNew.append(ret)
-                                    newFact = True'''
                 if len(tripStoreNew)>0:
+                    rules+=1
                     print("Rule: %s worked"%func)
                     tripStore += tripStoreNew
-        printr(tripStore)
+        #printr(tripStore)'''
+        print(rules, len(tripStore), perm)
