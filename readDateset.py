@@ -11,7 +11,6 @@ with open('testFile.csv','r') as f:
 
     for perm in list(itertools.permutations(functions)):
         newFact = True
-        passVal = 0
         while newFact:
             newFact = False
             for func in perm:
@@ -28,31 +27,33 @@ with open('testFile.csv','r') as f:
                                     print(tripX.pair,ret.pair)
                                     if tripX.equals(ret):
                                         go = False
-                                        print("Boobm")
-                                if passVal==2:
-                                    exit(-1)
                                 for tripX in tripStoreNew:
                                     if tripX.equals(ret):
                                         go = False
                                 if go:
                                     tripStoreNew.append(ret)
                                     newFact = True
-                '''if func[0]==0:
+                if func[0]==0:
                     for tripA in tripStore:
                         for tripB in tripStore:
-                            tripA.classrel(tripB)
+                            ret = tripA.classrel(tripB)
                             if ret is not None:
+                                ret = ruler(ret)
+                                go = True
                                 for tripX in tripStore:
+                                    print(tripX.pair,ret.pair)
                                     if tripX.equals(ret):
-                                        continue
+                                        go = False
                                 for tripX in tripStoreNew:
                                     if tripX.equals(ret):
-                                        continue
-                                tripStoreNew.append(ret)
-                                newFact = True'''
+                                        go = False
+                                if go:
+                                    tripStoreNew.append(ret)
+                                    newFact = True
                 if newFact:
                     for tripX in tripStore:
                         tripStoreNew.append(tripX)
                     tripStore = tripStoreNew
-                passVal+=1
-        print(tripStore)
+                print(len(tripStore))
+        for tripX in tripStore:
+            print(tripX.pair)
