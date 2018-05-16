@@ -98,18 +98,6 @@ class ruler(object):
         if self.p=="rdf:type" and self.o=="rdfs:Datatype":
             result.add(self.s+" rdfs:subClassOf rdfs:Literal")
         return list(result)
-    
-    def rdfs_bonus1(self, store):
-        result = set()
-        if self.p=="a":
-            result.add(self.s+" rdf:type "+self.o)
-        return list(result)
-
-    def rdfs_bonus2(self, store):
-        result = set()
-        if self.p=="sc":
-            result.add(self.s+" rdfs:subClassOf "+self.o)
-        return list(result)
 
     def equals(self, other):
         #print(self.s,other.s)
