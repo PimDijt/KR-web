@@ -36,9 +36,9 @@ with open('testFile.csv','r') as f:
         rules=0
         while newFact:
             newFact = False
-            '''for func in functions:
-                tripStoreNew = []
-                for tripA in tripStore:
+            for func in functions:
+                tripStoreNew = {'s':{}, 'p':{}, 'o':{}}
+                '''for tripA in tripStore:
                     go = True                       
                     method = getattr(tripA, func)
                     retlist = method(tripStore)
@@ -54,11 +54,11 @@ with open('testFile.csv','r') as f:
                             #        go = False
                             if go:
                                 tripStoreNew.append(ret)
-                                newFact = True
-                if len(tripStoreNew)>0:
+                                newFact = True'''
+                if len(tripStoreNew['s'])+len(tripStoreNew['p'])+len(tripStoreNew['o'])>0:
                     rules+=1
                     #print("Rule: %s worked"%func)
-                    tripStore += tripStoreNew'''
+                    tripStore += tripStoreNew
 
     '''random.shuffle(functions)#list(itertools.permutations(functions)):
     for randomPerm in range(100):#functions:#list(itertools.permutations(functions)):
