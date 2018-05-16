@@ -1,13 +1,4 @@
 <bob> rdf:type <man>
-<<<<<<< HEAD
-<man> sc <person>
-<thoing> sc <person>
-<alice> rdf:type <girl>
-<girl> sc <female>
-<female2> sc <thing>
-<female> sc <female2>
-<thing> sc <thoing>
-=======
 <man> rdfs:subClassOf <person>
 <thoing> rdfs:subClassOf <person>
 <alice> rdf:type <girl>
@@ -15,7 +6,6 @@
 <female2> rdfs:subClassOf <thing>
 <female> rdfs:subClassOf <female2>
 <thing> rdfs:subClassOf <thoing>
->>>>>>> 12d871640b03503594bd4aba985eebd0eb7b82cb
 <boing> rdf:type rdfs:Datatype
 <knows> rdf:type rdfs:ContainerMembershipProperty
 <person> rdf:type rdfs:Class
