@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 G = nx.DiGraph()
 G.add_edges_from(
     [('rdfs:subClassOf+rdfs:subClassOf', 'rdfs:subClassOf'),
+    ('rdfs:subClassOf', 'rdfs:subClassOf+rdfs:subClassOf'),
     ('rdf:type+rdfs:Container', 'rdfs:subPropertyOf+rdfs:member'),
     ('rdf:type+rdfs:Datatype', 'rdfs:subClassOf+rdfs:Literal'),
     ('rdfs:subClassOf+rdfs:Literal', 'rdfs:subClassOf+rdfs:subClassOf')])

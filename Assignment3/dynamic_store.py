@@ -1,9 +1,11 @@
-from rdfs_rules import *
+from rules import *
 import itertools
 
-functions = [a for a in dir(rdfs_rules) if  a.startswith('rdfs')]
+functions = [a for a in dir(rules) if  a.startswith('rdfs')]
 
 dynamic_store = {}
+
+rules = rules()
 
 with open('testFile.csv','r') as f:
     tripStoreCl = set()
@@ -48,14 +50,12 @@ with open('testFile.csv','r') as f:
             tripStoreEx['o'][o]['p'][p] = set()
         tripStoreEx['o'][o]['s'][s].add(p)
         tripStoreEx['o'][o]['p'][p].add(s)
-    print("Standard: ")
-    for item in sorted(list(tripStoreCl)):
-        print(item)
-    for item in tripStoreEx:
-        for item2 in tripStoreEx[item]:
-            print(item2)
 
-    #for func in itertools.permutations(functions):
-    #    newFact = True
-    #    while newFact:
-    #        print(func)
+    for perm in itertools.permutations(functions):
+        tripStoreNew = {'s':{}, 'p':{}, 'o':{}}
+        newFact = True
+        while newFact:
+            newFact = False
+            for func in perm:
+                method = getattr(rules, func)
+                tripStoreNew = method(tripStoreEx)

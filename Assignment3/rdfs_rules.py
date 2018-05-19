@@ -33,13 +33,13 @@ class rdfs_rules(object):
 
     #def rdfs4a_Resource(self, store):
     #    result = set()
-    #    result.add(self.s+" a rdfs:Datatype")
+    #    result.add(self.s+" rdf:type rdfs:Datatype")
     #    return list(result)
 
     #def rdfs4b_Resource(self, store):
     #    result = set()
-    #    result.add(self.o+" a rdfs:Datatype")
-    #    return list(result)
+    #    result.add(self.o+" rdf:type rdfs:Datatype")
+    #    return list(result) #Hoe is dit anders dan 1?
 
     def rdfs5_subProperty(self, store):
         result = set()
