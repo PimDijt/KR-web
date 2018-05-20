@@ -1,7 +1,7 @@
 from rules import *
 import itertools
 
-functions = [a for a in dir(rules) if  a.startswith('rdfs')]
+functions = [a for a in dir(rules) if  a.startswith('subs')]
 
 dynamic_store = {}
 
@@ -15,7 +15,7 @@ with open('testFile.csv','r') as f:
         s,p,o = line.split(" ")
         tripStoreCl.add((s,p,o))
 
-        #Indexing on S
+        '''#Indexing on S
         if s not in tripStoreEx['s'].keys():
             tripStoreEx['s'][s] = {}
             tripStoreEx['s'][s]['p'] = {}
@@ -25,7 +25,7 @@ with open('testFile.csv','r') as f:
         if o not in tripStoreEx['s'][s]['o'].keys():
             tripStoreEx['s'][s]['o'][o] = set()
         tripStoreEx['s'][s]['p'][p].add(o)
-        tripStoreEx['s'][s]['o'][o].add(p)
+        tripStoreEx['s'][s]['o'][o].add(p)'''
 
         #Indexing on P
         if p not in tripStoreEx['p'].keys():
@@ -39,7 +39,7 @@ with open('testFile.csv','r') as f:
         tripStoreEx['p'][p]['s'][s].add(o)
         tripStoreEx['p'][p]['o'][o].add(s)
 
-        #Indexing on O
+        '''#Indexing on O
         if o not in tripStoreEx['o'].keys():
             tripStoreEx['o'][o] = {}
             tripStoreEx['o'][o]['s'] = {}
@@ -49,8 +49,16 @@ with open('testFile.csv','r') as f:
         if p not in tripStoreEx['o'][o]['p'].keys():
             tripStoreEx['o'][o]['p'][p] = set()
         tripStoreEx['o'][o]['s'][s].add(p)
-        tripStoreEx['o'][o]['p'][p].add(s)
+        tripStoreEx['o'][o]['p'][p].add(s)'''
 
+    output = []
+    for p in tripStoreEx['p'].keys():
+        for s in tripStoreEx['p'][p]['s'].keys():
+            for o in tripStoreEx['p'][p]['s'][s]:
+                output.append(s+" "+p+" "+o)
+    output = sorted(output)
+    for line in output:
+        print(line)
     for perm in itertools.permutations(functions):
         tripStoreNew = {'s':{}, 'p':{}, 'o':{}}
         newFact = True
@@ -59,3 +67,11 @@ with open('testFile.csv','r') as f:
             for func in perm:
                 method = getattr(rules, func)
                 tripStoreNew = method(tripStoreEx)
+        output = []
+        for p in tripStoreNew['p'].keys():
+            for s in tripStoreNew['p'][p]['s'].keys():
+                for o in tripStoreNew['p'][p]['s'][s]:
+                    output.append(s+" "+p+" "+o)
+        output = sorted(output)
+        for line in output:
+            print(line)
