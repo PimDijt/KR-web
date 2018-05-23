@@ -1,0 +1,240 @@
+<http://emotion-ontology.googlecode.com/svn/trunk/ontology/> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this emotion ontology to describe the different emotions."@en .
+<http://emotion-ontology.googlecode.com/svn/trunk/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://emotion-ontology.googlecode.com/svn/trunk/ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by \"The emotion ontology: Enabling Interdisciplinary Research in the Affective Sciences\" [Hastings et al. 2011]. " .
+<http://goo.gl/Hb1bG4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://goo.gl/Hb1bG4> <http://www.w3.org/2000/01/rdf-schema#label> "The naturopathy ontology documentation" .
+<http://goo.gl/c7Hbvq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://goo.gl/c7Hbvq> <http://www.w3.org/2000/01/rdf-schema#label> "The naturopathy dataset documentation" .
+<http://hmi.ewi.utwente.nl/verslagen/capita-selecta/CS-Nijdam-Niels.pdf> <http://purl.org/dc/elements/1.1/description> "Relationships beetween emotion and colors."@en .
+<http://hmi.ewi.utwente.nl/verslagen/capita-selecta/CS-Nijdam-Niels.pdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://hmi.ewi.utwente.nl/verslagen/capita-selecta/CS-Nijdam-Niels.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by \"Mapping Emotion to color\" [Nijdam et al. 2009]" .
+<http://ns.inria.fr/emoca/> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this ontology for description of six emotions."@en .
+<http://ns.inria.fr/emoca/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://ns.inria.fr/emoca/> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by the emoca ontology [Berthelon et al.]" .
+<http://ontology-for-registry-of-children-with-special-needs.googlecode.com/svn-history/r23/trunk/Registry3.4.4.owl> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this ontology for the person description. "@en .
+<http://ontology-for-registry-of-children-with-special-needs.googlecode.com/svn-history/r23/trunk/Registry3.4.4.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://ontology-for-registry-of-children-with-special-needs.googlecode.com/svn-history/r23/trunk/Registry3.4.4.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by the registry ontology" .
+<http://rhizomik.net/ontologies/2008/05/emotionsonto.owl#> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this emotion ontology for the sensor measurements such as heart rate, galvanic skin response (GSR) and electroencephalographic (ECG)."@en .
+<http://rhizomik.net/ontologies/2008/05/emotionsonto.owl#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://rhizomik.net/ontologies/2008/05/emotionsonto.owl#> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by \"Towards an ontology for describing emotions\". [Lopez et al. 2008]" .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/dc/elements/1.1/creator> "Amelie Gyrard"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/dc/elements/1.1/description> "The naturopathy ontology describes relationships between foods, their nutrients, their color, the mood, the diseases, the diets and the allergies."@en .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/dc/elements/1.1/title> "The naturopathy ontology"@en .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/dc/terms/issued> "2013-09-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/dc/terms/modified> "2014-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://emotion-ontology.googlecode.com/svn/trunk/ontology/> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://hmi.ewi.utwente.nl/verslagen/capita-selecta/CS-Nijdam-Niels.pdf> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://ns.inria.fr/emoca/> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://ontology-for-registry-of-children-with-special-needs.googlecode.com/svn-history/r23/trunk/Registry3.4.4.owl> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://rhizomik.net/ontologies/2008/05/emotionsonto.owl#> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://sensormeasurement.appspot.com/naturopathy> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/spar/cito/citesAsDataSource> <http://www.personal.psu.edu/wxy119/hospital_ontology.owl> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "naturopathy" .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://sensormeasurement.appspot.com/naturopathy#" .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2000/01/rdf-schema#comment> "Thanks to Ghislain Atemezing, the Linked Open Vocabularies (LOV) and the Oops! Ontology Pitfall Scanner projects to build a well-written ontology. Thanks to the Parrot ontorule project to build the ontology documentation. "@en .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2000/01/rdf-schema#label> "The naturopathy ontology code (RDF/XML)" .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://goo.gl/Hb1bG4> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://goo.gl/c7Hbvq> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://sensormeasurement.appspot.com/naturopathy#> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://sensormeasurement.appspot.com/naturopathy-dataset> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "Work in progress" .
+<http://sensormeasurement.appspot.com/naturopathy#> <http://xmlns.com/foaf/0.1/homepage> "http://sensormeasurement.appspot.com/?p=ontologies" .
+<http://sensormeasurement.appspot.com/naturopathy#Allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Allergy> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Allergy"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Allergy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#Allergy> .
+<http://sensormeasurement.appspot.com/naturopathy#BodyOrgan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#BodyOrgan> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#BodyOrgan> <http://www.w3.org/2000/01/rdf-schema#label> "Body Organ"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Bread> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Bread> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Bread> <http://www.w3.org/2000/01/rdf-schema#label> "Bread"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Bread> <http://www.w3.org/2000/01/rdf-schema#label> "Pain"@fr .
+<http://sensormeasurement.appspot.com/naturopathy#Bread> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Bread> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Bread> .
+<http://sensormeasurement.appspot.com/naturopathy#Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Cheese> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Cheese> <http://www.w3.org/2000/01/rdf-schema#label> "Cheese"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Cheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Cheese> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Cheese> .
+<http://sensormeasurement.appspot.com/naturopathy#Color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Color> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Color> <http://www.w3.org/2000/01/rdf-schema#label> "Color"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Diet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Diet> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Diet> <http://www.w3.org/2000/01/rdf-schema#label> "Diet"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Disease> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Disease> <http://www.w3.org/2000/01/rdf-schema#label> "Affections, maladie, mal"@fr .
+<http://sensormeasurement.appspot.com/naturopathy#Disease> <http://www.w3.org/2000/01/rdf-schema#label> "Disease, ailments"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Disease> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#Disease> .
+<http://sensormeasurement.appspot.com/naturopathy#Disease> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.yonamoke.com/ics/en/ressourcesDisease> .
+<http://sensormeasurement.appspot.com/naturopathy#Emotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Emotion> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Emotion> <http://www.w3.org/2000/01/rdf-schema#label> "Emotion"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Emotion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.obolibrary.org/obo/MFOEM_000001> .
+<http://sensormeasurement.appspot.com/naturopathy#Emotion> <http://www.w3.org/2002/07/owl#equivalentClass> <http://ns.inria.fr/emoca#Emotion> .
+<http://sensormeasurement.appspot.com/naturopathy#Fish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Fish> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Fish> <http://www.w3.org/2000/01/rdf-schema#label> "Fish"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Fish> <http://www.w3.org/2000/01/rdf-schema#label> "Poisson"@fr .
+<http://sensormeasurement.appspot.com/naturopathy#Fish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Fish> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Fish> .
+<http://sensormeasurement.appspot.com/naturopathy#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Food> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Food"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Food> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#FoodOrDrinkItem> .
+<http://sensormeasurement.appspot.com/naturopathy#Fruit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Fruit> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Fruit> <http://www.w3.org/2000/01/rdf-schema#label> "Fruit"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Fruit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Fruit> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Fruit> .
+<http://sensormeasurement.appspot.com/naturopathy#Herb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Herb> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Herb> <http://www.w3.org/2000/01/rdf-schema#label> "Herb"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Herb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Meat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Meat> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Meat> <http://www.w3.org/2000/01/rdf-schema#label> "Meat"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Meat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Meat> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Meat> .
+<http://sensormeasurement.appspot.com/naturopathy#Mineral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Mineral> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Mineral> <http://www.w3.org/2000/01/rdf-schema#label> "Mineral"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Mineral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Nutrient> .
+<http://sensormeasurement.appspot.com/naturopathy#Nutrient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Nutrient> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Nutrient> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrient"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Nuts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Nuts> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Nuts> <http://www.w3.org/2000/01/rdf-schema#label> "Nuts"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Nuts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Nuts> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Nuts> .
+<http://sensormeasurement.appspot.com/naturopathy#OligoElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#OligoElement> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#OligoElement> <http://www.w3.org/2000/01/rdf-schema#label> "OligoElement"@en .
+<http://sensormeasurement.appspot.com/naturopathy#OligoElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Nutrient> .
+<http://sensormeasurement.appspot.com/naturopathy#Omega> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Omega> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Omega> <http://www.w3.org/2000/01/rdf-schema#label> "Omega"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Omega> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Nutrient> .
+<http://sensormeasurement.appspot.com/naturopathy#Patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Patient> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Patient> <http://www.w3.org/2000/01/rdf-schema#label> "Patient"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Patient> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ontology-for-registry-of-children-with-special-needs.googlecode.com/svn-history/r23/trunk/Registry3.4.4.owlPatient> .
+<http://sensormeasurement.appspot.com/naturopathy#Patient> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#Patient> .
+<http://sensormeasurement.appspot.com/naturopathy#Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Person> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Person> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ontology-for-registry-of-children-with-special-needs.googlecode.com/svn-history/r23/trunk/Registry3.4.4.owlPerson> .
+<http://sensormeasurement.appspot.com/naturopathy#Person> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#Person> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://xmlns.com/foaf/0.1/Person> .
+<http://sensormeasurement.appspot.com/naturopathy#Poultry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Poultry> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Poultry> <http://www.w3.org/2000/01/rdf-schema#label> "Poultry"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Poultry> <http://www.w3.org/2000/01/rdf-schema#label> "Volaille"@fr .
+<http://sensormeasurement.appspot.com/naturopathy#Poultry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Poultry> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Poultry> .
+<http://sensormeasurement.appspot.com/naturopathy#Season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Season> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Season> <http://www.w3.org/2000/01/rdf-schema#label> "Season"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Season> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://sweet.jpl.nasa.gov/2.3/reprTimeSeason.owlSeason> .
+<http://sensormeasurement.appspot.com/naturopathy#ShellFish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#ShellFish> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#ShellFish> <http://www.w3.org/2000/01/rdf-schema#label> "Crustaces, coquillages, fruits de mer"@fr .
+<http://sensormeasurement.appspot.com/naturopathy#ShellFish> <http://www.w3.org/2000/01/rdf-schema#label> "ShellFish"@en .
+<http://sensormeasurement.appspot.com/naturopathy#ShellFish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#ShellFish> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Shellfish> .
+<http://sensormeasurement.appspot.com/naturopathy#Vegetable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Vegetable> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Vegetable> <http://www.w3.org/2000/01/rdf-schema#label> "Vegetable"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Vegetable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#Vegetable> <http://www.w3.org/2002/07/owl#equivalentClass> <http://kmi.open.ac.uk/projects/smartproducts/ontologies/food.owl#Vegetable> .
+<http://sensormeasurement.appspot.com/naturopathy#Vitamin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://sensormeasurement.appspot.com/naturopathy#Vitamin> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#Vitamin> <http://www.w3.org/2000/01/rdf-schema#label> "Vitamin"@en .
+<http://sensormeasurement.appspot.com/naturopathy#Vitamin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sensormeasurement.appspot.com/naturopathy#Nutrient> .
+<http://sensormeasurement.appspot.com/naturopathy#affectsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#affectsOn> <http://www.w3.org/2000/01/rdf-schema#comment> "A color affects on a emotion (Mapping Emotion to color Nijdam et al. 2009)."@en .
+<http://sensormeasurement.appspot.com/naturopathy#affectsOn> <http://www.w3.org/2000/01/rdf-schema#label> "affectsOn"@en .
+<http://sensormeasurement.appspot.com/naturopathy#affectsOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Emotion> .
+<http://sensormeasurement.appspot.com/naturopathy#hasAllergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasAllergy> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasAllergy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#hasAllergy> <http://www.w3.org/2000/01/rdf-schema#label> "hasAllergy"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasAllergy> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Allergy> .
+<http://sensormeasurement.appspot.com/naturopathy#hasAllergy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#hasAllergy> .
+<http://sensormeasurement.appspot.com/naturopathy#hasColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasColor> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#hasColor> <http://www.w3.org/2000/01/rdf-schema#label> "hasColor"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Color> .
+<http://sensormeasurement.appspot.com/naturopathy#hasDiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#label> "hasDiet"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Diet> .
+<http://sensormeasurement.appspot.com/naturopathy#hasDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasDisease> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasDisease> <http://www.w3.org/2000/01/rdf-schema#label> "hasDisease"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasDisease> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Disease> .
+<http://sensormeasurement.appspot.com/naturopathy#hasDisease> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#hasDisease> .
+<http://sensormeasurement.appspot.com/naturopathy#hasEmotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasEmotion> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasEmotion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#hasEmotion> <http://www.w3.org/2000/01/rdf-schema#label> "hasEmotion"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasEmotion> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Emotion> .
+<http://sensormeasurement.appspot.com/naturopathy#hasNutrient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasNutrient> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasNutrient> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#hasNutrient> <http://www.w3.org/2000/01/rdf-schema#label> "hasNutrient"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasNutrient> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Nutrient> .
+<http://sensormeasurement.appspot.com/naturopathy#hasSeason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hasSeason> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasSeason> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#hasSeason> <http://www.w3.org/2000/01/rdf-schema#label> "hasSeason"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hasSeason> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Season> .
+<http://sensormeasurement.appspot.com/naturopathy#hates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#hates> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#hates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#hates> <http://www.w3.org/2000/01/rdf-schema#label> "hates"@en .
+<http://sensormeasurement.appspot.com/naturopathy#hates> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#isGoodFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#isGoodFor> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#isGoodFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#BodyOrgan> .
+<http://sensormeasurement.appspot.com/naturopathy#isGoodFor> <http://www.w3.org/2000/01/rdf-schema#label> "isGoodFor"@en .
+<http://sensormeasurement.appspot.com/naturopathy#isGoodFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#isRecommendedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#isRecommendedFor> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#isRecommendedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#isRecommendedFor> <http://www.w3.org/2000/01/rdf-schema#label> "isRecommendedFor"@en .
+<http://sensormeasurement.appspot.com/naturopathy#likes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#likes> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#likes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Person> .
+<http://sensormeasurement.appspot.com/naturopathy#likes> <http://www.w3.org/2000/01/rdf-schema#label> "likes"@en .
+<http://sensormeasurement.appspot.com/naturopathy#likes> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#toAvoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://sensormeasurement.appspot.com/naturopathy#toAvoid> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://sensormeasurement.appspot.com/naturopathy#toAvoid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://sensormeasurement.appspot.com/naturopathy#Food> .
+<http://sensormeasurement.appspot.com/naturopathy#toAvoid> <http://www.w3.org/2000/01/rdf-schema#label> "toAvoid"@en .
+<http://sensormeasurement.appspot.com/naturopathy#toAvoid> <http://www.w3.org/2000/01/rdf-schema#range> <http://sensormeasurement.appspot.com/naturopathy#Disease> .
+<http://sensormeasurement.appspot.com/naturopathy-dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://sensormeasurement.appspot.com/naturopathy-dataset> <http://www.w3.org/2000/01/rdf-schema#label> "The naturopathy dataset code (RDF/XML)" .
+<http://sensormeasurement.appspot.com/naturopathy> <http://purl.org/dc/elements/1.1/description> "   \t\t\t\t\tThe naturopathy ontology has been inspired by this emotion ontology to describe the relationships between nutrients, food and emotions.\n   \t\t\t\t\tAn example is that chocolate contains vitamin B which is recommended when you are sad or for the stress.\n   \t\t\t\t"@en .
+<http://sensormeasurement.appspot.com/naturopathy> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this ontology for the property hasVitamin, hasColor, hasMineral."@en .
+<http://sensormeasurement.appspot.com/naturopathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://sensormeasurement.appspot.com/naturopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by \"Towards the Mental Health Ontology\". [Hadzic et al. 2008]. " .
+<http://sensormeasurement.appspot.com/naturopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by the ontology fruitsTropicaux. " .
+<http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this ontology for the concepts Allergy, Disease (Cancer, Asthma, Arthrisis)and the property wearSensor."@en .
+<http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.gdst.uqam.ca/Documents/Ontologies/HIT/Person_SH_Ontology.owl#> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by the person sh ontology" .
+<http://www.personal.psu.edu/wxy119/hospital_ontology.owl> <http://purl.org/dc/terms/description> "The naturopathy ontology has been inspired by this ontology for the diseases (stomach pain, stroke, hypertension, heart attack, headache, cough disease, appendictis)."@en .
+<http://www.personal.psu.edu/wxy119/hospital_ontology.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.personal.psu.edu/wxy119/hospital_ontology.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Inspired by the hospital ontology" .

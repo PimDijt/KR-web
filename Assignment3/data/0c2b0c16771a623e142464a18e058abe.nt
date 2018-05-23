@@ -1,0 +1,267 @@
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#10> <http://swrc.ontoware.org/ontology#name> "Norbert Streitz" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#11> <http://swrc.ontoware.org/ontology#name> "Paddy Nixon" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.bibsonomy.org/tag/Burgen> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://www.bibsonomy.org/tag/Geschichte> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://www.bibsonomy.org/tag/Winterthur> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#14> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#14> <http://swrc.ontoware.org/ontology#name> "Kaspar Hauser" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.bibsonomy.org/tag/Geschichte> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://www.bibsonomy.org/tag/Winterthur> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://www.bibsonomy.org/tag/Zürich> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://www.bibsonomy.org/tag/Österreich> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#17> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#17> <http://swrc.ontoware.org/ontology#name> "Peter Niederhäuser" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.bibsonomy.org/tag/candidate> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://www.bibsonomy.org/tag/high-z> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#29> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#30> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#31> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#32> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_14> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#33> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_15> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#34> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#20> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#21> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#22> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#23> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#24> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#25> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#26> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#27> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#28> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#20> <http://swrc.ontoware.org/ontology#name> "Nor Pirzkal" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#21> <http://swrc.ontoware.org/ontology#name> "Dan Coe" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#22> <http://swrc.ontoware.org/ontology#name> "Brenda L. Frye" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#23> <http://swrc.ontoware.org/ontology#name> "Gabriel Brammer" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#24> <http://swrc.ontoware.org/ontology#name> "John Moustakas" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#25> <http://swrc.ontoware.org/ontology#name> "Barry Rothberg" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#26> <http://swrc.ontoware.org/ontology#name> "Thomas J. Broadhurst" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#27> <http://swrc.ontoware.org/ontology#name> "Rychard Bouwens" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#28> <http://swrc.ontoware.org/ontology#name> "Larry Bradley" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#29> <http://swrc.ontoware.org/ontology#name> "Arjen van der Wel" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://www.bibsonomy.org/tag/zzz.ami> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://www.bibsonomy.org/tag/zzz.iot> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.bibsonomy.org/tag/v1500> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://www.bibsonomy.org/tag/acm> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://www.bibsonomy.org/tag/paper> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://www.bibsonomy.org/tag/embedded> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://www.bibsonomy.org/tag/ai> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://www.bibsonomy.org/tag/device> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://www.bibsonomy.org/tag/user> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://www.bibsonomy.org/tag/interaction> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <http://www.bibsonomy.org/tag/application> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#30> <http://swrc.ontoware.org/ontology#name> "Daniel D. Kelson" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#31> <http://swrc.ontoware.org/ontology#name> "Megan Donahue" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#32> <http://swrc.ontoware.org/ontology#name> "Adi Zitrin" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#33> <http://swrc.ontoware.org/ontology#name> "Leonidas Moustakas" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#34> <http://swrc.ontoware.org/ontology#name> "Elizabeth Barker" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.bibsonomy.org/tag/atlas> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://www.bibsonomy.org/tag/survey> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#46> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#47> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#48> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#37> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#38> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#39> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#40> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#41> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#42> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#43> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#44> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#45> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#37> <http://swrc.ontoware.org/ontology#name> "T. Shanks" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#38> <http://swrc.ontoware.org/ontology#name> "N. Metcalfe" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#39> <http://swrc.ontoware.org/ontology#name> "B. Chehade" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#3> <http://swrc.ontoware.org/ontology#key> "timestamp" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#3> <http://swrc.ontoware.org/ontology#value> "2015.02.20" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Field> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#40> <http://swrc.ontoware.org/ontology#name> "J. R. Findlay" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#41> <http://swrc.ontoware.org/ontology#name> "M. J. Irwin" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#42> <http://swrc.ontoware.org/ontology#name> "E. Gonzalez-Solares" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#43> <http://swrc.ontoware.org/ontology#name> "J. R. Lewis" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#44> <http://swrc.ontoware.org/ontology#name> "A. Kupcu Yoldas" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#45> <http://swrc.ontoware.org/ontology#name> "R. G. Mann" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#46> <http://swrc.ontoware.org/ontology#name> "M. A. Read" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#47> <http://swrc.ontoware.org/ontology#name> "E. T. W. Sutorius" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#48> <http://swrc.ontoware.org/ontology#name> "S. Voutsinas" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Person> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#4> <http://swrc.ontoware.org/ontology#key> "username" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#4> <http://swrc.ontoware.org/ontology#value> "flint63" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Field> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#5> <http://swrc.ontoware.org/ontology#key> "issn" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#5> <http://swrc.ontoware.org/ontology#value> "0001-0782" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Field> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#6> <http://swrc.ontoware.org/ontology#key> "file" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#6> <http://swrc.ontoware.org/ontology#value> "ACM Digital Library:2005/StreitzNixon05cacm.pdf:PDF" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Field> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#7> <http://swrc.ontoware.org/ontology#key> "doi" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#7> <http://swrc.ontoware.org/ontology#value> "10.1145/1047671.1047700" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Field> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#8> <http://swrc.ontoware.org/ontology#key> "groups" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#8> <http://swrc.ontoware.org/ontology#value> "public" .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Field> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#10> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#11> .
+<http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://www.bibsonomy.org/> <http://purl.org/dc/elements/1.1/date> "2015-02-20T10:55:07+01:00" .
+<http://www.bibsonomy.org/> <http://purl.org/rss/1.0/description> "BibSonomy RSS feed for /" .
+<http://www.bibsonomy.org/> <http://purl.org/rss/1.0/items> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#1> .
+<http://www.bibsonomy.org/> <http://purl.org/rss/1.0/link> "http://www.bibsonomy.org/" .
+<http://www.bibsonomy.org/> <http://purl.org/rss/1.0/title> "BibSonomy publications for /" .
+<http://www.bibsonomy.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/rss/1.0/channel> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/dc/elements/1.1/creator> "miki" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/dc/elements/1.1/date> "2015-02-20T09:49:45+01:00" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/dc/elements/1.1/subject> "atlas survey " .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/rss/1.0/description> "[1502.05432] The VLT Survey Telescope ATLAS" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/rss/1.0/link> "http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/rss/1.0/modules/content/encoded> "<span class=\"authorEditorList\"><a href=\"/author/Shanks\">T. Shanks</a>, <a href=\"/author/Metcalfe\">N. Metcalfe</a>, <a href=\"/author/Chehade\">B. Chehade</a>, <a href=\"/author/Findlay\">J. R. Findlay</a>, <a href=\"/author/Irwin\">M. J. Irwin</a>, <a href=\"/author/Gonzalez-Solares\">E. Gonzalez-Solares</a>, <a href=\"/author/Lewis\">J. R. Lewis</a>, <a href=\"/author/Yoldas\">A. Kupcu Yoldas</a>, <a href=\"/author/Mann\">R. G. Mann</a>, <a href=\"/author/Read\">M. A. Read</a>, <a href=\"/author/Sutorius\">E. T. W. Sutorius</a>,  and <a href=\"/author/Voutsinas\">S. Voutsinas</a>. </span>(<em>2015</em>)<em>cite arxiv:1502.05432Comment: 13 pages, 23 figures, submitted to MNRAS.</em>" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/rss/1.0/modules/taxonomy/topics> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#35> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://purl.org/rss/1.0/title> "The VLT Survey Telescope ATLAS" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#abstract> "The VLT Survey Telescope (VST) ATLAS is an optical ugriz survey aiming to\ncover ~4700deg^2 of the Southern sky to similar depths as the Sloan Digital Sky\nSurvey (SDSS). From reduced images and object catalogues provided by the\nCambridge Astronomical Surveys Unit we first find that the median seeing ranges\nfrom 0.8 arcsec FWHM in i to 1.0 arcsec in u, significantly better than the\n1.2-1.5 arcsec seeing for SDSS. The 5 sigma magnitude limit for stellar sources\nis r_AB=22.7 and in all bands these limits are at least as faint as SDSS. SDSS\nand ATLAS are more equivalent for galaxy photometry except in the z band where\nATLAS has significantly higher throughput. We have improved the original ESO\nmagnitude zeropoints by comparing m<16 star magnitudes with APASS in gri, also\nextrapolating into u and z, resulting in zeropoints accurate to ~+-0.02 mag. We\nfinally compare star and galaxy number counts in a 250deg^2 area with SDSS and\nother count data and find good agreement. ATLAS data products can be retrieved\nfrom the ESO Science Archive, while support for survey science analyses is\nprovided by the OmegaCAM Science Archive (OSA), operated by the Wide-Field\nAstronomy Unit in Edinburgh." .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#author> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#36> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#date> "Fri Feb 20 09:49:45 CET 2015" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#keywords> "atlas survey " .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#note> "cite arxiv:1502.05432Comment: 13 pages, 23 figures, submitted to MNRAS" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#title> "The VLT Survey Telescope ATLAS" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://swrc.ontoware.org/ontology#year> "2015" .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/rss/1.0/item> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Misc> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://www.w3.org/2002/07/owl#sameAs> <http://arxiv.org/abs/1502.05432> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bibsonomy.org/uri/bibtex/219493c9d0dad489aa94931f13da3c260/miki> .
+<http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> <http://xmlns.com/burst/0.1/publication> <http://www.bibsonomy.org/bibtex/219493c9d0dad489aa94931f13da3c260/miki> .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/dc/elements/1.1/creator> "bfuerderer" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/dc/elements/1.1/date> "2015-02-20T10:12:41+01:00" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/dc/elements/1.1/subject> "Burgen Geschichte Winterthur " .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/rss/1.0/description> "RI: Kurztitel fehlt" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/rss/1.0/link> "http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/rss/1.0/modules/content/encoded> "<span class=\"authorEditorList\"><a href=\"/author/Hauser\">Kaspar Hauser</a>. </span><em>Mitteilungen der Antiquarischen Gesellschaft in Zürich </em><em>Zürich, </em>(<em>1917</em>)<em>Neujahrsblatt der Antiquarischen Gesellschaft in Zürich 81.</em>" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/rss/1.0/modules/taxonomy/topics> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#12> .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://purl.org/rss/1.0/title> "Die Mörsburg" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#abstract> "Hauser, Mörsburg" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#address> "Zürich" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#author> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#13> .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#date> "Fri Feb 20 10:12:41 CET 2015" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#keywords> "Burgen Geschichte Winterthur " .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#note> "Neujahrsblatt der Antiquarischen Gesellschaft in Zürich 81" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#number> "2" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#series> "Mitteilungen der Antiquarischen Gesellschaft in Zürich" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#title> "Die Mörsburg" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#volume> "28" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://swrc.ontoware.org/ontology#year> "1917" .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/rss/1.0/item> .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Book> .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bibsonomy.org/uri/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> .
+<http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> <http://xmlns.com/burst/0.1/publication> <http://www.bibsonomy.org/bibtex/22e888d767cf03b01b7191084091793e3/bfuerderer> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/dc/elements/1.1/creator> "miki" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/dc/elements/1.1/date> "2015-02-20T09:50:08+01:00" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/dc/elements/1.1/subject> "candidate high-z " .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/rss/1.0/description> "[1502.05681] Not In Our Backyard: Spectroscopic Support for the CLASH z=11 Candidate MACS0647-JD" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/rss/1.0/link> "http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/rss/1.0/modules/content/encoded> "<span class=\"authorEditorList\"><a href=\"/author/Pirzkal\">Nor Pirzkal</a>, <a href=\"/author/Coe\">Dan Coe</a>, <a href=\"/author/Frye\">Brenda L. Frye</a>, <a href=\"/author/Brammer\">Gabriel Brammer</a>, <a href=\"/author/Moustakas\">John Moustakas</a>, <a href=\"/author/Rothberg\">Barry Rothberg</a>, <a href=\"/author/Broadhurst\">Thomas J. Broadhurst</a>, <a href=\"/author/Bouwens\">Rychard Bouwens</a>, <a href=\"/author/Bradley\">Larry Bradley</a>, <a href=\"/author/van+der+Wel\">Arjen van der Wel</a>, <a href=\"/author/Kelson\">Daniel D. Kelson</a>, <a href=\"/author/Donahue\">Megan Donahue</a>, <a href=\"/author/Zitrin\">Adi Zitrin</a>, <a href=\"/author/Moustakas\">Leonidas Moustakas</a>,  and <a href=\"/author/Barker\">Elizabeth Barker</a>. </span>(<em>2015</em>)<em>cite arxiv:1502.05681Comment: 14 Pages. 6 Figures. 2nd revised version. To appear in ApJ. Please  contact npirzkal@stsci.edu for comments on this paper.</em>" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/rss/1.0/modules/taxonomy/topics> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#18> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://purl.org/rss/1.0/title> "Not In Our Backyard: Spectroscopic Support for the CLASH z=11 Candidate\n  MACS0647-JD" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#abstract> "We report on our first set of spectroscopic Hubble Space Telescope\nobservations of the z~11 candidate galaxy strongly lensed by the\nMACSJ0647.7+7015 galaxy cluster. The three lensed images are faint and we show\nthat these early slitless grism observations are of sufficient depth to\ninvestigate whether this high-redshift candidate, identified by its strong\nphotometric break at ~1.5 micron, could possibly be an emission line galaxy at\na much lower redshift. While such an interloper would imply the existence of a\nrather peculiar object, we show here that such strong emission lines would\nclearly have been detected. Comparing realistic, two-dimensional simulations to\nthese new observations we would expect the necessary emission lines to be\ndetected at >5 sigma while we see no evidence for such lines in the dispersed\ndata of any of the three lensed images. We therefore exclude that this object\ncould be a low redshift emission line interloper, which significantly increases\nthe likelihood of this candidate being a bona fide z~11 galaxy." .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#author> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#19> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#date> "Fri Feb 20 09:50:08 CET 2015" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#keywords> "candidate high-z " .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#note> "cite arxiv:1502.05681Comment: 14 Pages. 6 Figures. 2nd revised version. To appear in ApJ. Please  contact npirzkal@stsci.edu for comments on this paper" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#title> "Not In Our Backyard: Spectroscopic Support for the CLASH z=11 Candidate\n  MACS0647-JD" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://swrc.ontoware.org/ontology#year> "2015" .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/rss/1.0/item> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Misc> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://www.w3.org/2002/07/owl#sameAs> <http://arxiv.org/abs/1502.05681> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bibsonomy.org/uri/bibtex/26240515a95e9da06d018c6b53d553069/miki> .
+<http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> <http://xmlns.com/burst/0.1/publication> <http://www.bibsonomy.org/bibtex/26240515a95e9da06d018c6b53d553069/miki> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/dc/elements/1.1/creator> "flint63" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/dc/elements/1.1/date> "2015-02-20T10:21:16+01:00" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/dc/elements/1.1/subject> "v1500 acm paper embedded ai device user interaction application zzz.ami zzz.iot " .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/rss/1.0/link> "http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/rss/1.0/modules/content/encoded> "<span class=\"authorEditorList\"><a href=\"/author/Streitz\">Norbert Streitz</a>,  and <a href=\"/author/Nixon\">Paddy Nixon</a>. </span><em>Communications of the ACM</em> <em>48(3):32-35</em> (<em>March 2005</em>)" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/rss/1.0/modules/taxonomy/topics> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#2> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://purl.org/rss/1.0/title> "The Disappearing Computer" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#abstract> "It seems like a paradox but it will soon become reality: The rate at which computers disappear will be matched by the rate at which information technology will increasingly permeate our environment and our lives. This article provides an introduction to the special issue of CACM." .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#author> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#9> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#date> "Fri Feb 20 10:21:16 CET 2015" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#hasExtraField> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#3> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#hasExtraField> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#4> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#hasExtraField> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#5> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#hasExtraField> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#6> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#hasExtraField> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#7> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#hasExtraField> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#8> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#journal> "Communications of the ACM" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#keywords> "v1500 acm paper embedded ai device user interaction application zzz.ami zzz.iot " .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#month> "#mar#" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#number> "3" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#pages> "32-35" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#title> "The Disappearing Computer" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#volume> "48" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://swrc.ontoware.org/ontology#year> "2005" .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/rss/1.0/item> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Article> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bibsonomy.org/uri/bibtex/278164f5a542db87f4801adc4194c373e/flint63> .
+<http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> <http://xmlns.com/burst/0.1/publication> <http://www.bibsonomy.org/bibtex/278164f5a542db87f4801adc4194c373e/flint63> .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/dc/elements/1.1/creator> "bfuerderer" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/dc/elements/1.1/date> "2015-02-20T10:06:06+01:00" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/dc/elements/1.1/subject> "Geschichte Winterthur Zürich Österreich " .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/rss/1.0/description> "RI: Kurztitel fehlt" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/rss/1.0/link> "http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/rss/1.0/modules/content/encoded> "<span class=\"authorEditorList\"><a href=\"/author/Niederh%C3%A4user\">Peter Niederhäuser</a>. </span><em>Zürcher Taschenbuch</em>  (<em>1996</em>)" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/rss/1.0/modules/taxonomy/topics> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#15> .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://purl.org/rss/1.0/title> "Zweien „gnädigen Herren“ untertan: Das spätmittelalterliche Winterthur zwischen Österreich und Zürich" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#abstract> "Niederhäuser, Herren" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#author> <http://lodlaundromat.org/.well-known/genid/0c2b0c16771a623e142464a18e058abe#16> .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#date> "Fri Feb 20 10:06:06 CET 2015" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#journal> "Zürcher Taschenbuch" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#keywords> "Geschichte Winterthur Zürich Österreich " .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#pages> "135-175 " .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#title> "Zweien „gnädigen Herren“ untertan: Das spätmittelalterliche Winterthur zwischen Österreich und Zürich" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#volume> "118" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://swrc.ontoware.org/ontology#year> "1996" .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/rss/1.0/item> .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#Article> .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bibsonomy.org/uri/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> .
+<http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> <http://xmlns.com/burst/0.1/publication> <http://www.bibsonomy.org/bibtex/2c4b2a3b6d4cfb07ba47cc3dbe16bdf3c/bfuerderer> .

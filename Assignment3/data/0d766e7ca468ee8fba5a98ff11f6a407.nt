@@ -1,0 +1,117 @@
+<http://creativecommons.org/ns#Attribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#Attribution> <http://www.w3.org/2000/01/rdf-schema#comment> "credit be given to\n\t\tcopyright holder and/or author"@en-US .
+<http://creativecommons.org/ns#Attribution> <http://www.w3.org/2000/01/rdf-schema#label> "Attribution"@en-US .
+<http://creativecommons.org/ns#CommercialUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Prohibition> .
+<http://creativecommons.org/ns#CommercialUse> <http://www.w3.org/2000/01/rdf-schema#comment> "exercising rights for\n\t\tcommercial purposes"@en-US .
+<http://creativecommons.org/ns#CommercialUse> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Use"@en-US .
+<http://creativecommons.org/ns#Copyleft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#Copyleft> <http://www.w3.org/2000/01/rdf-schema#comment> "derivative and\n\t\tcombined works must be licensed under specified\n\t\tterms, similar to those on the original\n\t\twork"@en-US .
+<http://creativecommons.org/ns#Copyleft> <http://www.w3.org/2000/01/rdf-schema#label> "Copyleft"@en-US .
+<http://creativecommons.org/ns#DerivativeWorks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Permission> .
+<http://creativecommons.org/ns#DerivativeWorks> <http://www.w3.org/2000/01/rdf-schema#comment> "distribution of\n\t\tderivative works"@en-US .
+<http://creativecommons.org/ns#DerivativeWorks> <http://www.w3.org/2000/01/rdf-schema#label> "Derivative Works"@en-US .
+<http://creativecommons.org/ns#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Permission> .
+<http://creativecommons.org/ns#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "distribution, public\n\t\tdisplay, and publicly performance"@en-US .
+<http://creativecommons.org/ns#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution"@en-US .
+<http://creativecommons.org/ns#HighIncomeNationUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Prohibition> .
+<http://creativecommons.org/ns#HighIncomeNationUse> <http://www.w3.org/2000/01/rdf-schema#comment> "use in a\n\t\tnon-developing country"@en-US .
+<http://creativecommons.org/ns#HighIncomeNationUse> <http://www.w3.org/2000/01/rdf-schema#label> "High Income Nation Use"@en-US .
+<http://creativecommons.org/ns#Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://creativecommons.org/ns#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "the legal jurisdiction\n\t\tof a license"@en-US .
+<http://creativecommons.org/ns#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Jurisdiction"@en-US .
+<http://creativecommons.org/ns#LesserCopyleft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#LesserCopyleft> <http://www.w3.org/2000/01/rdf-schema#comment> "derivative works must\n\t\tbe licensed under specified terms, with at least\n\t\tthe same conditions as the original work;\n\t\tcombinations with the work may be licensed under\n\t\tdifferent terms"@en-US .
+<http://creativecommons.org/ns#LesserCopyleft> <http://www.w3.org/2000/01/rdf-schema#label> "Lesser Copyleft"@en-US .
+<http://creativecommons.org/ns#License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://creativecommons.org/ns#License> <http://www.w3.org/2000/01/rdf-schema#comment> "a set of\n\t\trequests/permissions to users of a Work, e.g. a\n\t\tcopyright license, the public domain, information\n\t\tfor distributors"@en-US .
+<http://creativecommons.org/ns#License> <http://www.w3.org/2000/01/rdf-schema#label> "License"@en-US .
+<http://creativecommons.org/ns#License> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/LicenseDocument> .
+<http://creativecommons.org/ns#Notice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#Notice> <http://www.w3.org/2000/01/rdf-schema#comment> "copyright and license\n\t\tnotices be kept intact"@en-US .
+<http://creativecommons.org/ns#Notice> <http://www.w3.org/2000/01/rdf-schema#label> "Notice"@en-US .
+<http://creativecommons.org/ns#Permission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://creativecommons.org/ns#Permission> <http://www.w3.org/2000/01/rdf-schema#comment> "an action that may or\n\t\tmay not be allowed or desired"@en-US .
+<http://creativecommons.org/ns#Permission> <http://www.w3.org/2000/01/rdf-schema#label> "Permission"@en-US .
+<http://creativecommons.org/ns#Prohibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://creativecommons.org/ns#Prohibition> <http://www.w3.org/2000/01/rdf-schema#comment> "something you may be\n\t\tasked not to do"@en-US .
+<http://creativecommons.org/ns#Prohibition> <http://www.w3.org/2000/01/rdf-schema#label> "Prohibition"@en-US .
+<http://creativecommons.org/ns#Reproduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Permission> .
+<http://creativecommons.org/ns#Reproduction> <http://www.w3.org/2000/01/rdf-schema#comment> "making multiple\n\t\tcopies"@en-US .
+<http://creativecommons.org/ns#Reproduction> <http://www.w3.org/2000/01/rdf-schema#label> "Reproduction"@en-US .
+<http://creativecommons.org/ns#Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://creativecommons.org/ns#Requirement> <http://www.w3.org/2000/01/rdf-schema#comment> "an action that may or\n\t\tmay not be requested of you"@en-US .
+<http://creativecommons.org/ns#Requirement> <http://www.w3.org/2000/01/rdf-schema#label> "Requirement"@en-US .
+<http://creativecommons.org/ns#ShareAlike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#ShareAlike> <http://www.w3.org/2000/01/rdf-schema#comment> "derivative works be\n\t\tlicensed under the same terms or compatible terms\n\t\tas the original work"@en-US .
+<http://creativecommons.org/ns#ShareAlike> <http://www.w3.org/2000/01/rdf-schema#label> "Share Alike"@en-US .
+<http://creativecommons.org/ns#Sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Permission> .
+<http://creativecommons.org/ns#Sharing> <http://www.w3.org/2000/01/rdf-schema#comment> "permits commercial\n\t\tderivatives, but only non-commercial\n\t\tdistribution"@en-US .
+<http://creativecommons.org/ns#Sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing"@en-US .
+<http://creativecommons.org/ns#SourceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#SourceCode> <http://www.w3.org/2000/01/rdf-schema#comment> "source code (the\n\t\tpreferred form for making modifications) must be\n\t\tprovided when exercising some rights granted by\n\t\tthe license."@en-US .
+<http://creativecommons.org/ns#SourceCode> <http://www.w3.org/2000/01/rdf-schema#label> "Source Code"@en-US .
+<http://creativecommons.org/ns#Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://creativecommons.org/ns#Work> <http://www.w3.org/2000/01/rdf-schema#comment> "a potentially\n\t\tcopyrightable work"@en-US .
+<http://creativecommons.org/ns#Work> <http://www.w3.org/2000/01/rdf-schema#label> "Work"@en-US .
+<http://creativecommons.org/ns#attributionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#attributionName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#Work> .
+<http://creativecommons.org/ns#attributionName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://creativecommons.org/ns#attributionURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#attributionURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#Work> .
+<http://creativecommons.org/ns#attributionURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/2000/01/rdf-schema#label> "deprecated\n\t\ton"@en-US .
+<http://creativecommons.org/ns#deprecatedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema-datatypes#date> .
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "jurisdiction"@en-US .
+<http://creativecommons.org/ns#jurisdiction> <http://www.w3.org/2000/01/rdf-schema#range> <http://creativecommons.org/ns#Jurisdiction> .
+<http://creativecommons.org/ns#legalcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#legalcode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#legalcode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#Work> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#label> "has\n\t\tlicense"@en-US .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#range> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/license> .
+<http://creativecommons.org/ns#license> <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/xhtml/vocab#license> .
+<http://creativecommons.org/ns#morePermissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#morePermissions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#Work> .
+<http://creativecommons.org/ns#morePermissions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://creativecommons.org/ns#morePermissions> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+<http://creativecommons.org/ns#permits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#permits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#permits> <http://www.w3.org/2000/01/rdf-schema#label> "permits"@en-US .
+<http://creativecommons.org/ns#permits> <http://www.w3.org/2000/01/rdf-schema#range> <http://creativecommons.org/ns#Permission> .
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/2000/01/rdf-schema#label> "prohibits"@en-US .
+<http://creativecommons.org/ns#prohibits> <http://www.w3.org/2000/01/rdf-schema#range> <http://creativecommons.org/ns#Prohibition> .
+<http://creativecommons.org/ns#requires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#requires> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#requires> <http://www.w3.org/2000/01/rdf-schema#label> "requires"@en-US .
+<http://creativecommons.org/ns#requires> <http://www.w3.org/2000/01/rdf-schema#range> <http://creativecommons.org/ns#Requirement> .
+<http://creativecommons.org/ns#useGuidelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://creativecommons.org/ns#useGuidelines> <http://www.w3.org/2000/01/rdf-schema#domain> <http://creativecommons.org/ns#Work> .
+<http://creativecommons.org/ns#useGuidelines> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://creativecommons.org/ns#useGuidelines> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+<http://creativecommons.org/ns> <http://www.w3.org/1999/xhtml/vocab#license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://creativecommons.org/ns> <http://www.w3.org/1999/xhtml/vocab#stylesheet> <http://creativecommons.org/includes/bootstrap.min.css> .
+<http://web.resource.org/cc/Attribution> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Attribution> .
+<http://web.resource.org/cc/CommercialUse> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#CommercialUse> .
+<http://web.resource.org/cc/DerivativeWorks> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#DerivativeWorks> .
+<http://web.resource.org/cc/Distribution> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Distribution> .
+<http://web.resource.org/cc/License> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#License> .
+<http://web.resource.org/cc/Notice> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Notice> .
+<http://web.resource.org/cc/Permission> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Permission> .
+<http://web.resource.org/cc/Prohibition> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Prohibition> .
+<http://web.resource.org/cc/Reproduction> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Reproduction> .
+<http://web.resource.org/cc/Requirement> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Requirement> .
+<http://web.resource.org/cc/ShareAlike> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#ShareAlike> .
+<http://web.resource.org/cc/SourceCode> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#SourceCode> .
+<http://web.resource.org/cc/Work> <http://www.w3.org/2002/07/owl#equivalentClass> <http://creativecommons.org/ns#Work> .
+<http://web.resource.org/cc/license> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://creativecommons.org/ns#license> .
+<http://web.resource.org/cc/permits> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://creativecommons.org/ns#permits> .
+<http://web.resource.org/cc/prohibits> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://creativecommons.org/ns#prohibits> .
+<http://web.resource.org/cc/requires> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://creativecommons.org/ns#requires> .

@@ -1,0 +1,265 @@
+<http://data.totl.net/chess/%E2%99%94> <http://data.totl.net/game/asciiSymbol> "K" .
+<http://data.totl.net/chess/%E2%99%94> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/white> .
+<http://data.totl.net/chess/%E2%99%94> <http://data.totl.net/game/unicodeSymbol> "♔" .
+<http://data.totl.net/chess/%E2%99%94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%94> <http://www.w3.org/2000/01/rdf-schema#label> "White King" .
+<http://data.totl.net/chess/%E2%99%95> <http://data.totl.net/game/asciiSymbol> "Q" .
+<http://data.totl.net/chess/%E2%99%95> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/white> .
+<http://data.totl.net/chess/%E2%99%95> <http://data.totl.net/game/unicodeSymbol> "♕" .
+<http://data.totl.net/chess/%E2%99%95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%95> <http://www.w3.org/2000/01/rdf-schema#label> "White Queen" .
+<http://data.totl.net/chess/%E2%99%96> <http://data.totl.net/game/asciiSymbol> "R" .
+<http://data.totl.net/chess/%E2%99%96> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/white> .
+<http://data.totl.net/chess/%E2%99%96> <http://data.totl.net/game/unicodeSymbol> "♖" .
+<http://data.totl.net/chess/%E2%99%96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%96> <http://www.w3.org/2000/01/rdf-schema#label> "White Rook" .
+<http://data.totl.net/chess/%E2%99%97> <http://data.totl.net/game/asciiSymbol> "B" .
+<http://data.totl.net/chess/%E2%99%97> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/white> .
+<http://data.totl.net/chess/%E2%99%97> <http://data.totl.net/game/unicodeSymbol> "♗" .
+<http://data.totl.net/chess/%E2%99%97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%97> <http://www.w3.org/2000/01/rdf-schema#label> "White Bishop" .
+<http://data.totl.net/chess/%E2%99%98> <http://data.totl.net/game/asciiSymbol> "N" .
+<http://data.totl.net/chess/%E2%99%98> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/white> .
+<http://data.totl.net/chess/%E2%99%98> <http://data.totl.net/game/unicodeSymbol> "♘" .
+<http://data.totl.net/chess/%E2%99%98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%98> <http://www.w3.org/2000/01/rdf-schema#label> "White Knight" .
+<http://data.totl.net/chess/%E2%99%99> <http://data.totl.net/game/asciiSymbol> "P" .
+<http://data.totl.net/chess/%E2%99%99> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/white> .
+<http://data.totl.net/chess/%E2%99%99> <http://data.totl.net/game/unicodeSymbol> "♙" .
+<http://data.totl.net/chess/%E2%99%99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%99> <http://www.w3.org/2000/01/rdf-schema#label> "White Pawn" .
+<http://data.totl.net/chess/%E2%99%9A> <http://data.totl.net/game/asciiSymbol> "k" .
+<http://data.totl.net/chess/%E2%99%9A> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/black> .
+<http://data.totl.net/chess/%E2%99%9A> <http://data.totl.net/game/unicodeSymbol> "♚" .
+<http://data.totl.net/chess/%E2%99%9A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%9A> <http://www.w3.org/2000/01/rdf-schema#label> "Black King" .
+<http://data.totl.net/chess/%E2%99%9B> <http://data.totl.net/game/asciiSymbol> "q" .
+<http://data.totl.net/chess/%E2%99%9B> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/black> .
+<http://data.totl.net/chess/%E2%99%9B> <http://data.totl.net/game/unicodeSymbol> "♛" .
+<http://data.totl.net/chess/%E2%99%9B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%9B> <http://www.w3.org/2000/01/rdf-schema#label> "Black Queen" .
+<http://data.totl.net/chess/%E2%99%9C> <http://data.totl.net/game/asciiSymbol> "r" .
+<http://data.totl.net/chess/%E2%99%9C> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/black> .
+<http://data.totl.net/chess/%E2%99%9C> <http://data.totl.net/game/unicodeSymbol> "♜" .
+<http://data.totl.net/chess/%E2%99%9C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%9C> <http://www.w3.org/2000/01/rdf-schema#label> "Black Rook" .
+<http://data.totl.net/chess/%E2%99%9D> <http://data.totl.net/game/asciiSymbol> "b" .
+<http://data.totl.net/chess/%E2%99%9D> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/black> .
+<http://data.totl.net/chess/%E2%99%9D> <http://data.totl.net/game/unicodeSymbol> "♝" .
+<http://data.totl.net/chess/%E2%99%9D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%9D> <http://www.w3.org/2000/01/rdf-schema#label> "Black Bishop" .
+<http://data.totl.net/chess/%E2%99%9E> <http://data.totl.net/game/asciiSymbol> "n" .
+<http://data.totl.net/chess/%E2%99%9E> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/black> .
+<http://data.totl.net/chess/%E2%99%9E> <http://data.totl.net/game/unicodeSymbol> "♞" .
+<http://data.totl.net/chess/%E2%99%9E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%9E> <http://www.w3.org/2000/01/rdf-schema#label> "Black Knight" .
+<http://data.totl.net/chess/%E2%99%9F> <http://data.totl.net/game/asciiSymbol> "p" .
+<http://data.totl.net/chess/%E2%99%9F> <http://data.totl.net/game/belongsTo> <http://data.totl.net/chess/black> .
+<http://data.totl.net/chess/%E2%99%9F> <http://data.totl.net/game/unicodeSymbol> "♟" .
+<http://data.totl.net/chess/%E2%99%9F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/PieceType> .
+<http://data.totl.net/chess/%E2%99%9F> <http://www.w3.org/2000/01/rdf-schema#label> "Black Pawn" .
+<http://data.totl.net/chess/a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 1. Black Square." .
+<http://data.totl.net/chess/a1> <http://www.w3.org/2000/01/rdf-schema#label> "a1" .
+<http://data.totl.net/chess/a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 1. White Square." .
+<http://data.totl.net/chess/a2> <http://www.w3.org/2000/01/rdf-schema#label> "a2" .
+<http://data.totl.net/chess/a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 1. Black Square." .
+<http://data.totl.net/chess/a3> <http://www.w3.org/2000/01/rdf-schema#label> "a3" .
+<http://data.totl.net/chess/a4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 1. White Square." .
+<http://data.totl.net/chess/a4> <http://www.w3.org/2000/01/rdf-schema#label> "a4" .
+<http://data.totl.net/chess/a5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 1. Black Square." .
+<http://data.totl.net/chess/a5> <http://www.w3.org/2000/01/rdf-schema#label> "a5" .
+<http://data.totl.net/chess/a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 1. White Square." .
+<http://data.totl.net/chess/a6> <http://www.w3.org/2000/01/rdf-schema#label> "a6" .
+<http://data.totl.net/chess/a7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 1. Black Square." .
+<http://data.totl.net/chess/a7> <http://www.w3.org/2000/01/rdf-schema#label> "a7" .
+<http://data.totl.net/chess/a8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/a8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 1. White Square." .
+<http://data.totl.net/chess/a8> <http://www.w3.org/2000/01/rdf-schema#label> "a8" .
+<http://data.totl.net/chess/b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 2. White Square." .
+<http://data.totl.net/chess/b1> <http://www.w3.org/2000/01/rdf-schema#label> "b1" .
+<http://data.totl.net/chess/b2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 2. Black Square." .
+<http://data.totl.net/chess/b2> <http://www.w3.org/2000/01/rdf-schema#label> "b2" .
+<http://data.totl.net/chess/b3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 2. White Square." .
+<http://data.totl.net/chess/b3> <http://www.w3.org/2000/01/rdf-schema#label> "b3" .
+<http://data.totl.net/chess/b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 2. Black Square." .
+<http://data.totl.net/chess/b4> <http://www.w3.org/2000/01/rdf-schema#label> "b4" .
+<http://data.totl.net/chess/b5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 2. White Square." .
+<http://data.totl.net/chess/b5> <http://www.w3.org/2000/01/rdf-schema#label> "b5" .
+<http://data.totl.net/chess/b6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 2. Black Square." .
+<http://data.totl.net/chess/b6> <http://www.w3.org/2000/01/rdf-schema#label> "b6" .
+<http://data.totl.net/chess/b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 2. White Square." .
+<http://data.totl.net/chess/b7> <http://www.w3.org/2000/01/rdf-schema#label> "b7" .
+<http://data.totl.net/chess/b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/b8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 2. Black Square." .
+<http://data.totl.net/chess/b8> <http://www.w3.org/2000/01/rdf-schema#label> "b8" .
+<http://data.totl.net/chess/black> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Player> .
+<http://data.totl.net/chess/black> <http://www.w3.org/2000/01/rdf-schema#label> "Black Player" .
+<http://data.totl.net/chess/c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 3. Black Square." .
+<http://data.totl.net/chess/c1> <http://www.w3.org/2000/01/rdf-schema#label> "c1" .
+<http://data.totl.net/chess/c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 3. White Square." .
+<http://data.totl.net/chess/c2> <http://www.w3.org/2000/01/rdf-schema#label> "c2" .
+<http://data.totl.net/chess/c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 3. Black Square." .
+<http://data.totl.net/chess/c3> <http://www.w3.org/2000/01/rdf-schema#label> "c3" .
+<http://data.totl.net/chess/c4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 3. White Square." .
+<http://data.totl.net/chess/c4> <http://www.w3.org/2000/01/rdf-schema#label> "c4" .
+<http://data.totl.net/chess/c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 3. Black Square." .
+<http://data.totl.net/chess/c5> <http://www.w3.org/2000/01/rdf-schema#label> "c5" .
+<http://data.totl.net/chess/c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 3. White Square." .
+<http://data.totl.net/chess/c6> <http://www.w3.org/2000/01/rdf-schema#label> "c6" .
+<http://data.totl.net/chess/c7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 3. Black Square." .
+<http://data.totl.net/chess/c7> <http://www.w3.org/2000/01/rdf-schema#label> "c7" .
+<http://data.totl.net/chess/c8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/c8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 3. White Square." .
+<http://data.totl.net/chess/c8> <http://www.w3.org/2000/01/rdf-schema#label> "c8" .
+<http://data.totl.net/chess/chess> <http://data.totl.net/game/initialState> <http://data.totl.net/chess/state/rnbqkbnr_pppppppp_8_8_8_8_PPPPPPPP_RNBQKBNR_w_KQkq_-_0_1> .
+<http://data.totl.net/chess/chess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Game> .
+<http://data.totl.net/chess/chess> <http://www.w3.org/2000/01/rdf-schema#label> "Chess" .
+<http://data.totl.net/chess/d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 4. White Square." .
+<http://data.totl.net/chess/d1> <http://www.w3.org/2000/01/rdf-schema#label> "d1" .
+<http://data.totl.net/chess/d2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 4. Black Square." .
+<http://data.totl.net/chess/d2> <http://www.w3.org/2000/01/rdf-schema#label> "d2" .
+<http://data.totl.net/chess/d3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 4. White Square." .
+<http://data.totl.net/chess/d3> <http://www.w3.org/2000/01/rdf-schema#label> "d3" .
+<http://data.totl.net/chess/d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 4. Black Square." .
+<http://data.totl.net/chess/d4> <http://www.w3.org/2000/01/rdf-schema#label> "d4" .
+<http://data.totl.net/chess/d5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 4. White Square." .
+<http://data.totl.net/chess/d5> <http://www.w3.org/2000/01/rdf-schema#label> "d5" .
+<http://data.totl.net/chess/d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 4. Black Square." .
+<http://data.totl.net/chess/d6> <http://www.w3.org/2000/01/rdf-schema#label> "d6" .
+<http://data.totl.net/chess/d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 4. White Square." .
+<http://data.totl.net/chess/d7> <http://www.w3.org/2000/01/rdf-schema#label> "d7" .
+<http://data.totl.net/chess/d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/d8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 4. Black Square." .
+<http://data.totl.net/chess/d8> <http://www.w3.org/2000/01/rdf-schema#label> "d8" .
+<http://data.totl.net/chess/e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 5. Black Square." .
+<http://data.totl.net/chess/e1> <http://www.w3.org/2000/01/rdf-schema#label> "e1" .
+<http://data.totl.net/chess/e2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 5. White Square." .
+<http://data.totl.net/chess/e2> <http://www.w3.org/2000/01/rdf-schema#label> "e2" .
+<http://data.totl.net/chess/e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 5. Black Square." .
+<http://data.totl.net/chess/e3> <http://www.w3.org/2000/01/rdf-schema#label> "e3" .
+<http://data.totl.net/chess/e4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 5. White Square." .
+<http://data.totl.net/chess/e4> <http://www.w3.org/2000/01/rdf-schema#label> "e4" .
+<http://data.totl.net/chess/e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 5. Black Square." .
+<http://data.totl.net/chess/e5> <http://www.w3.org/2000/01/rdf-schema#label> "e5" .
+<http://data.totl.net/chess/e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 5. White Square." .
+<http://data.totl.net/chess/e6> <http://www.w3.org/2000/01/rdf-schema#label> "e6" .
+<http://data.totl.net/chess/e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 5. Black Square." .
+<http://data.totl.net/chess/e7> <http://www.w3.org/2000/01/rdf-schema#label> "e7" .
+<http://data.totl.net/chess/e8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/e8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 5. White Square." .
+<http://data.totl.net/chess/e8> <http://www.w3.org/2000/01/rdf-schema#label> "e8" .
+<http://data.totl.net/chess/f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 6. White Square." .
+<http://data.totl.net/chess/f1> <http://www.w3.org/2000/01/rdf-schema#label> "f1" .
+<http://data.totl.net/chess/f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 6. Black Square." .
+<http://data.totl.net/chess/f2> <http://www.w3.org/2000/01/rdf-schema#label> "f2" .
+<http://data.totl.net/chess/f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 6. White Square." .
+<http://data.totl.net/chess/f3> <http://www.w3.org/2000/01/rdf-schema#label> "f3" .
+<http://data.totl.net/chess/f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 6. Black Square." .
+<http://data.totl.net/chess/f4> <http://www.w3.org/2000/01/rdf-schema#label> "f4" .
+<http://data.totl.net/chess/f5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 6. White Square." .
+<http://data.totl.net/chess/f5> <http://www.w3.org/2000/01/rdf-schema#label> "f5" .
+<http://data.totl.net/chess/f6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 6. Black Square." .
+<http://data.totl.net/chess/f6> <http://www.w3.org/2000/01/rdf-schema#label> "f6" .
+<http://data.totl.net/chess/f7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 6. White Square." .
+<http://data.totl.net/chess/f7> <http://www.w3.org/2000/01/rdf-schema#label> "f7" .
+<http://data.totl.net/chess/f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/f8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 6. Black Square." .
+<http://data.totl.net/chess/f8> <http://www.w3.org/2000/01/rdf-schema#label> "f8" .
+<http://data.totl.net/chess/g1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 7. Black Square." .
+<http://data.totl.net/chess/g1> <http://www.w3.org/2000/01/rdf-schema#label> "g1" .
+<http://data.totl.net/chess/g2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 7. White Square." .
+<http://data.totl.net/chess/g2> <http://www.w3.org/2000/01/rdf-schema#label> "g2" .
+<http://data.totl.net/chess/g3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 7. Black Square." .
+<http://data.totl.net/chess/g3> <http://www.w3.org/2000/01/rdf-schema#label> "g3" .
+<http://data.totl.net/chess/g4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 7. White Square." .
+<http://data.totl.net/chess/g4> <http://www.w3.org/2000/01/rdf-schema#label> "g4" .
+<http://data.totl.net/chess/g5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 7. Black Square." .
+<http://data.totl.net/chess/g5> <http://www.w3.org/2000/01/rdf-schema#label> "g5" .
+<http://data.totl.net/chess/g6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 7. White Square." .
+<http://data.totl.net/chess/g6> <http://www.w3.org/2000/01/rdf-schema#label> "g6" .
+<http://data.totl.net/chess/g7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 7. Black Square." .
+<http://data.totl.net/chess/g7> <http://www.w3.org/2000/01/rdf-schema#label> "g7" .
+<http://data.totl.net/chess/g8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/g8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 7. White Square." .
+<http://data.totl.net/chess/g8> <http://www.w3.org/2000/01/rdf-schema#label> "g8" .
+<http://data.totl.net/chess/h1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h1> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 1, File 8. White Square." .
+<http://data.totl.net/chess/h1> <http://www.w3.org/2000/01/rdf-schema#label> "h1" .
+<http://data.totl.net/chess/h2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h2> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 2, File 8. Black Square." .
+<http://data.totl.net/chess/h2> <http://www.w3.org/2000/01/rdf-schema#label> "h2" .
+<http://data.totl.net/chess/h3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h3> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 3, File 8. White Square." .
+<http://data.totl.net/chess/h3> <http://www.w3.org/2000/01/rdf-schema#label> "h3" .
+<http://data.totl.net/chess/h4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h4> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 4, File 8. Black Square." .
+<http://data.totl.net/chess/h4> <http://www.w3.org/2000/01/rdf-schema#label> "h4" .
+<http://data.totl.net/chess/h5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h5> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 5, File 8. White Square." .
+<http://data.totl.net/chess/h5> <http://www.w3.org/2000/01/rdf-schema#label> "h5" .
+<http://data.totl.net/chess/h6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h6> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 6, File 8. Black Square." .
+<http://data.totl.net/chess/h6> <http://www.w3.org/2000/01/rdf-schema#label> "h6" .
+<http://data.totl.net/chess/h7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h7> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 7, File 8. White Square." .
+<http://data.totl.net/chess/h7> <http://www.w3.org/2000/01/rdf-schema#label> "h7" .
+<http://data.totl.net/chess/h8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Location> .
+<http://data.totl.net/chess/h8> <http://www.w3.org/2000/01/rdf-schema#comment> "Rank 8, File 8. Black Square." .
+<http://data.totl.net/chess/h8> <http://www.w3.org/2000/01/rdf-schema#label> "h8" .
+<http://data.totl.net/chess/white> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.totl.net/game/Player> .
+<http://data.totl.net/chess/white> <http://www.w3.org/2000/01/rdf-schema#label> "White Player" .
+<http://lodlaundromat.org/0a73bde862a7dcc32224d3085419e764> <http://creativecommons.org/ns#attributionName> "Temple ov thee Lemur Data Service" .
+<http://lodlaundromat.org/0a73bde862a7dcc32224d3085419e764> <http://creativecommons.org/ns#attributionURL> <http://data.totl.net/> .
+<http://lodlaundromat.org/0a73bde862a7dcc32224d3085419e764> <http://purl.org/dc/terms/creator> "Temple ov thee Lemur" .
+<http://lodlaundromat.org/0a73bde862a7dcc32224d3085419e764> <http://purl.org/dc/terms/license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<http://lodlaundromat.org/0a73bde862a7dcc32224d3085419e764> <http://purl.org/dc/terms/title> "TotL Chess Ontology" .
+<http://lodlaundromat.org/0a73bde862a7dcc32224d3085419e764> <http://xmlns.com/foaf/0.1/primaryTopic> <http://data.totl.net/chess/chess> .
