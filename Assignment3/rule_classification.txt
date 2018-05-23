@@ -1,0 +1,29 @@
+Domain and Range:
+RDFS2
+aa	domain 	xx				yy	type	xx
+yy 	aa		zz
+
+RDFS3
+aa	range	xx				zz	type	xx
+yy	aa		zz
+
+
+Rest:
+RDFS7
+aa	subPr	bb				xx 	bb 		yy
+xx	aa		yy
+
+RDFS9
+xx	subCl	yy				zz	type	yy
+zz	type	xx
+
+
+
+Transitiviteit:
+RDFS5
+xx	subPr	yy				xx	subPr	zz
+yy	subPr	zz
+
+RDFS11
+xx	subCl	yy				xx	subCl	zz
+yy	subCl	zz
