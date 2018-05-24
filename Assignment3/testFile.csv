@@ -15,3 +15,7 @@
 <fatherOf> rdfs:range <person>
 <alicia> <childOf> <bert>
 <fred> <fatherOf> <barney>
+<alpha> rdfs:subPropertyOf <beta>
+<alpha2> rdfs:subPropertyOf <beta2>
+<beta> rdfs:subPropertyOf <beta2>
+<beta2> rdfs:subPropertyOf <gamma>

@@ -17,23 +17,31 @@ class rules(object):
     
     def subs_singleRules(self, current):
         new = copy.deepcopy(current)
-        new, rf1 = self.rdfs1_allIsDataType(new)
-        new, rf2 = self.rdfs4a_Resource(new)
-        new, rf3 = self.rdfs4b_Resource(new)
-        new, rf4 = self.rdfs13_literal(new)
-        new, rf6 = self.rdfs6_typeProperty(new)
-        return new, (rf1 or rf2 or rf3 or rf4)
+        new, rf1    = self.rdfs1_allIsDataType(new)
+        new, rf4a   = self.rdfs4a_Resource(new)
+        new, rf4b   = self.rdfs4b_Resource(new)
+        new, rf6    = self.rdfs6_typeProperty(new)
+        new, rf13   = self.rdfs13_literal(new)
+        return new, (rf1 or rf4a or rf4b or rf6 or rf13)
 
     def subs_dora(self, current):
         new = copy.deepcopy(current)
-        new, rf1 = self.rdfs2_domain(new)
-        new, rf2 = self.rdfs3_range(new)
-        return new, (rf1 or rf2)
+        new, rf2 = self.rdfs2_domain(new)
+        new, rf3 = self.rdfs3_range(new)
+        return new, (rf2 or rf3)
+
+    def subs_subSome(self, current):
+        new = copy.deepcopy(current)
+        new, rf5 = self.rdfs5_subProperty(new)
+        new, rf11 = self.rdfs11_subClass(new)
+        return new, (rf5 or rf11)
 
     def rdfs1_allIsDataType(self, current):
         new = copy.deepcopy(current)
 
         keys = set()
+
+        changed = False
 
         for p in new['p'].keys():
             keys.add(p)
@@ -57,7 +65,9 @@ class rules(object):
             new['p']['rdf:type']['o']['rdfs:Datatype'].add(key)
             lens2 = len(new['p']['rdf:type']['s'][key])
             leno2 = len(new['p']['rdf:type']['o']['rdfs:Datatype'])
-        return new, (lens1!=lens2 or leno1!=leno2)
+            if (lens1!=lens2 or leno1!=leno2):
+                changed = True
+        return new, changed
 
     def rdfs2_domain(self, current):
         #    result = set()
@@ -66,6 +76,8 @@ class rules(object):
         #            result.add(other.s+" rdf:type "+self.o)
         #    return list(result)'''
         new = copy.deepcopy(current)
+
+        changed = False
 
         sset = set(new['p']['rdfs:domain']['s'].keys())
         pset = set(new['p'].keys())
@@ -92,7 +104,9 @@ class rules(object):
                 new['p']['rdf:type']['o'][o].add(s)
                 lens2 = len(new['p']['rdf:type']['s'][s])
                 leno2 = len(new['p']['rdf:type']['o'][o])
-        return new, (lens1!=lens2 or leno1!=leno2)
+                if (lens1!=lens2 or leno1!=leno2):
+                    changed = True
+        return new, changed
 
     def rdfs3_range(self, current):
         #    result = set()
@@ -101,6 +115,8 @@ class rules(object):
         #            result.add(other.o+" rdf:type "+self.o)
         #    return list(result)'''
         new = copy.deepcopy(current)
+
+        changed = False
 
         sset = set(new['p']['rdfs:domain']['s'].keys())
         pset = set(new['p'].keys())
@@ -127,10 +143,14 @@ class rules(object):
                 new['p']['rdf:type']['o'][o].add(o2)
                 lens2 = len(new['p']['rdf:type']['s'][o2])
                 leno2 = len(new['p']['rdf:type']['o'][o])
-        return new, (lens1!=lens2 or leno1!=leno2)
+                if (lens1!=lens2 or leno1!=leno2):
+                    changed = True
+        return new, changed
 
     def rdfs4a_Resource(self, current):
         new = copy.deepcopy(current)
+
+        changed = False
 
         keys = set()
 
@@ -153,10 +173,14 @@ class rules(object):
             new['p']['rdf:type']['o']['rdfs:Resource'].add(key)
             lens2 = len(new['p']['rdf:type']['s'][key])
             leno2 = len(new['p']['rdf:type']['o']['rdfs:Resource'])
-        return new, (lens1!=lens2 or leno1!=leno2)
+            if (lens1!=lens2 or leno1!=leno2):
+                changed = True
+        return new, changed
 
     def rdfs4b_Resource(self, current):
         new = copy.deepcopy(current)
+
+        changed = False
 
         keys = set()
 
@@ -179,14 +203,41 @@ class rules(object):
             new['p']['rdf:type']['o']['rdfs:Resource'].add(key)
             lens2 = len(new['p']['rdf:type']['s'][key])
             leno2 = len(new['p']['rdf:type']['o']['rdfs:Resource'])
-        return new, (lens1!=lens2 or leno1!=leno2)
+            if (lens1!=lens2 or leno1!=leno2):
+                changed = True
+        return new, changed
 
-    '''def rdfs5_subProperty(self, store):
-        result = set()
-        for other in store:
-            if self.p=="rdfs:subPropertyOf" and other.p=="rdfs:subPropertyOf" and self.s==other.o:
-                result.add(self.s+" rdfs:subPropertyOf "+other.o)
-        return list(result)'''
+    def rdfs5_subProperty(self, current):
+        #result = set()
+        #for other in store:
+        #    if self.p=="rdfs:subPropertyOf" and other.p=="rdfs:subPropertyOf" and self.s==other.o:
+        #        result.add(self.s+" rdfs:subPropertyOf "+other.o)
+        #return list(result)'''
+
+        new = copy.deepcopy(current)
+
+        changed = False
+
+        keys = set()
+
+        sset = set(new['p']['rdfs:subPropertyOf']['s'].keys())
+        oset = set(new['p']['rdfs:subPropertyOf']['o'].keys())
+        keys = sset.intersection(oset)
+
+        keypairs = set()
+
+        for key in keys:
+            for o in new['p']['rdfs:subPropertyOf']['s'][key]:
+                for s in new['p']['rdfs:subPropertyOf']['o'][key]:
+                    lens1 = len(new['p']['rdfs:subPropertyOf']['s'][s])
+                    leno1 = len(new['p']['rdfs:subPropertyOf']['o'][o])#This one is not needed I think...
+                    new['p']['rdfs:subPropertyOf']['s'][s].add(o)
+                    new['p']['rdfs:subPropertyOf']['o'][o].add(s)
+                    lens2 = len(new['p']['rdfs:subPropertyOf']['s'][s])
+                    leno2 = len(new['p']['rdfs:subPropertyOf']['o'][o])#This one is not needed I think...
+                    if (lens1!=lens2 or leno1!=leno2):
+                        changed = True
+        return new, changed
 
     def rdfs6_typeProperty(self, current):
         #result = set()
@@ -194,6 +245,8 @@ class rules(object):
         #    result.add(self.s+" rdfs:subPropertyOf "+self.s)
         #return list(result)
         new = copy.deepcopy(current)
+
+        changed = False
 
         keys = set()
 
@@ -222,7 +275,9 @@ class rules(object):
             new['p']['rdfs:subPropertyOf']['o'][key].add(key)
             lens2 = len(new['p']['rdfs:subPropertyOf']['s'][key])
             leno2 = len(new['p']['rdfs:subPropertyOf']['o'][key])#This one is not needed I think...
-        return new, (lens1!=lens2 or leno1!=leno2)
+            if (lens1!=lens2 or leno1!=leno2):
+                changed = True
+        return new, changed
 
     '''def rdfs7_parentSubProperty(self, store):
         result = set()
@@ -248,18 +303,38 @@ class rules(object):
         result = set()    #    #    result.add(self.s+" rdfs:subClassOf rdfs:Literal")
         if self.p=="rdf:type" and self.o=="rdfs:Clas    #    #return list(result)s":
             result.add(self.s+" rdfs:subClassOf "+self.s)
-        return list(result)
-    
-    def rdfs11_subClass(self, store):
-        result = set()
-        for other in store:
-            if self.p=="rdfs:subClassOf" and other.p=="rdfs:subClassOf" and self.o==other.s:
-                result.add(self.s+" rdfs:subClassOf "+other.o)
         return list(result)'''
-        #    #result = set()
-    #    #if self.p=="rdf:type" and self.o=="rdfs:Datatype":
-    #    #    result.add(self.s+" rdfs:subClassOf rdfs:Literal")
-    #    #return list(result)
+    
+    def rdfs11_subClass(self, current):
+        #result = set()
+        #for other in store:
+        #    if self.p=="rdfs:subClassOf" and other.p=="rdfs:subClassOf" and self.o==other.s:
+        #        result.add(self.s+" rdfs:subClassOf "+other.o)
+        #return list(result)
+        new = copy.deepcopy(current)
+
+        changed = False
+
+        keys = set()
+
+        sset = set(new['p']['rdfs:subClassOf']['s'].keys())
+        oset = set(new['p']['rdfs:subClassOf']['o'].keys())
+        keys = sset.intersection(oset)
+
+        keypairs = set()
+
+        for key in keys:
+            for o in new['p']['rdfs:subClassOf']['s'][key]:
+                for s in new['p']['rdfs:subClassOf']['o'][key]:
+                    lens1 = len(new['p']['rdfs:subClassOf']['s'][s])
+                    leno1 = len(new['p']['rdfs:subClassOf']['o'][o])#This one is not needed I think...
+                    new['p']['rdfs:subClassOf']['s'][s].add(o)
+                    new['p']['rdfs:subClassOf']['o'][o].add(s)
+                    lens2 = len(new['p']['rdfs:subClassOf']['s'][s])
+                    leno2 = len(new['p']['rdfs:subClassOf']['o'][o])#This one is not needed I think...
+                    if (lens1!=lens2 or leno1!=leno2):
+                        changed = True
+        return new, changed    
 
     #def rdfs12_container(self, current):
     #    #result = set()
@@ -284,7 +359,8 @@ class rules(object):
             for s in new['p']['rdf:type']['o']['rdfs:Datatype']:
                 keys.add(s)
         else:
-            return new, False
+            return new, False0
+
 
         for key in keys:
             if 'rdfs:subClassOf' not in new['p'].keys():
