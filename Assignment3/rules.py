@@ -20,7 +20,9 @@ class rules(object):
         new, rf1 = self.rdfs1_allIsDataType(new)
         new, rf2 = self.rdfs4a_Resource(new)
         new, rf3 = self.rdfs4b_Resource(new)
-        return new, (rf1 or rf2 or rf3)
+        new, rf4 = self.rdfs13_literal(new)
+        new, rf6 = self.rdfs6_typeProperty(new)
+        return new, (rf1 or rf2 or rf3 or rf4)
 
     def subs_dora(self, current):
         new = copy.deepcopy(current)
@@ -184,15 +186,45 @@ class rules(object):
         for other in store:
             if self.p=="rdfs:subPropertyOf" and other.p=="rdfs:subPropertyOf" and self.s==other.o:
                 result.add(self.s+" rdfs:subPropertyOf "+other.o)
-        return list(result)
+        return list(result)'''
 
-    def rdfs6_typeProperty(self, store):
-        result = set()
-        if self.p=="rdf:type" and self.o=="rdf:Property":
-            result.add(self.s+" rdfs:subPropertyOf "+self.s)
-        return list(result)
+    def rdfs6_typeProperty(self, current):
+        #result = set()
+        #if self.p=="rdf:type" and self.o=="rdf:Property":
+        #    result.add(self.s+" rdfs:subPropertyOf "+self.s)
+        #return list(result)
+        new = copy.deepcopy(current)
 
-    def rdfs7_parentSubProperty(self, store):
+        keys = set()
+
+        if 'rdf:type' not in new['p'].keys():
+            new['p']['rdf:type'] = {}
+            new['p']['rdf:type']['s'] = {}
+            new['p']['rdf:type']['o'] = {}
+        if 'rdfs:Property' in new['p']['rdf:type']['o'].keys():
+            for s in new['p']['rdf:type']['o']['rdfs:Property']:
+                keys.add(s)
+        else:
+            return new, False
+
+        for key in keys:
+            if 'rdfs:subPropertyOf' not in new['p'].keys():
+                new['p']['rdfs:subPropertyOf'] = {}
+                new['p']['rdfs:subPropertyOf']['s'] = {}
+                new['p']['rdfs:subPropertyOf']['o'] = {}
+            if key              not in new['p']['rdfs:subPropertyOf']['s'].keys():
+                new['p']['rdfs:subPropertyOf']['s'][key] = set()
+            if key  not in new['p']['rdfs:subPropertyOf']['o'].keys():
+                new['p']['rdfs:subClassOf']['o']['rdfs:subPropertyOf'] = set()
+            lens1 = len(new['p']['rdfs:subPropertyOf']['s'][key])
+            leno1 = len(new['p']['rdfs:subPropertyOf']['o'][key])#This one is not needed I think...
+            new['p']['rdfs:subPropertyOf']['s'][key].add(key)
+            new['p']['rdfs:subPropertyOf']['o'][key].add(key)
+            lens2 = len(new['p']['rdfs:subPropertyOf']['s'][key])
+            leno2 = len(new['p']['rdfs:subPropertyOf']['o'][key])#This one is not needed I think...
+        return new, (lens1!=lens2 or leno1!=leno2)
+
+    '''def rdfs7_parentSubProperty(self, store):
         result = set()
         for other in store:
             if self.p=="rdfs:subPropertyOf" and self.s==other.p:
@@ -211,10 +243,10 @@ class rules(object):
             if self.p=="rdfs:subClassOf" and other.p=="rdf:type" and self.s==other.o:
                 result.add(other.s+" rdf:type "+self.o)
         return list(result)
-
-    def rdfs10_subClassSelf(self, store):
-        result = set()
-        if self.p=="rdf:type" and self.o=="rdfs:Class":
+    #    #result = set()
+    def rdfs10_subClassSelf(self, store):    #    #if self.p=="rdf:type" and self.o=="rdfs:Datatype":
+        result = set()    #    #    result.add(self.s+" rdfs:subClassOf rdfs:Literal")
+        if self.p=="rdf:type" and self.o=="rdfs:Clas    #    #return list(result)s":
             result.add(self.s+" rdfs:subClassOf "+self.s)
         return list(result)
     
@@ -224,18 +256,52 @@ class rules(object):
             if self.p=="rdfs:subClassOf" and other.p=="rdfs:subClassOf" and self.o==other.s:
                 result.add(self.s+" rdfs:subClassOf "+other.o)
         return list(result)'''
-    
+        #    #result = set()
+    #    #if self.p=="rdf:type" and self.o=="rdfs:Datatype":
+    #    #    result.add(self.s+" rdfs:subClassOf rdfs:Literal")
+    #    #return list(result)
+
     #def rdfs12_container(self, current):
     #    #result = set()
     #    #if self.p=="rdf:type" and self.o=="rdfs:ContainerMembershipProperty":
     #    #    result.add(self.s+" rdfs:subPropertyOf rdfs:member")
     #    #return list(result)
     
-    #def rdfs13_literal(self, current):
-    #    #result = set()
-    #    #if self.p=="rdf:type" and self.o=="rdfs:Datatype":
-    #    #    result.add(self.s+" rdfs:subClassOf rdfs:Literal")
-    #    #return list(result)
+    def rdfs13_literal(self, current):
+        #    #result = set()
+        #    #if self.p=="rdf:type" and self.o=="rdfs:Datatype":
+        #    #    result.add(self.s+" rdfs:subClassOf rdfs:Literal")
+        #    #return list(result)
+        new = copy.deepcopy(current)
+
+        keys = set()
+
+        if 'rdf:type' not in new['p'].keys():
+            new['p']['rdf:type'] = {}
+            new['p']['rdf:type']['s'] = {}
+            new['p']['rdf:type']['o'] = {}
+        if 'rdfs:Datatype' in new['p']['rdf:type']['o'].keys():
+            for s in new['p']['rdf:type']['o']['rdfs:Datatype']:
+                keys.add(s)
+        else:
+            return new, False
+
+        for key in keys:
+            if 'rdfs:subClassOf' not in new['p'].keys():
+                new['p']['rdfs:subClassOf'] = {}
+                new['p']['rdfs:subClassOf']['s'] = {}
+                new['p']['rdfs:subClassOf']['o'] = {}
+            if key              not in new['p']['rdfs:subClassOf']['s'].keys():
+                new['p']['rdfs:subClassOf']['s'][key] = set()
+            if 'rdfs:Literal'  not in new['p']['rdfs:subClassOf']['o'].keys():
+                new['p']['rdfs:subClassOf']['o']['rdfs:Literal'] = set()
+            lens1 = len(new['p']['rdfs:subClassOf']['s'][key])
+            leno1 = len(new['p']['rdfs:subClassOf']['o']['rdfs:Literal'])#This one is not needed I think...
+            new['p']['rdfs:subClassOf']['s'][key].add('rdfs:Literal')
+            new['p']['rdfs:subClassOf']['o']['rdfs:Literal'].add(key)
+            lens2 = len(new['p']['rdfs:subClassOf']['s'][key])
+            leno2 = len(new['p']['rdfs:subClassOf']['o']['rdfs:Literal'])#This one is not needed I think...
+        return new, (lens1!=lens2 or leno1!=leno2)
 
 
     def equals(self, other):
