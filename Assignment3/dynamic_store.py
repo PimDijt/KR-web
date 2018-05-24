@@ -60,18 +60,20 @@ with open('testFile.csv','r') as f:
     for line in output:
         print(line)
     for perm in itertools.permutations(functions):
-        tripStoreNew = {'s':{}, 'p':{}, 'o':{}}
+        print(perm)
+        tripStoreNew = copy.deepcopy(tripStoreEx)
         newFact = True
         while newFact:
             newFact = False
             for func in perm:
                 method = getattr(rules, func)
-                tripStoreNew = method(tripStoreEx)
-        output = []
-        for p in tripStoreNew['p'].keys():
-            for s in tripStoreNew['p'][p]['s'].keys():
-                for o in tripStoreNew['p'][p]['s'][s]:
-                    output.append(s+" "+p+" "+o)
-        output = sorted(output)
-        for line in output:
-            print(line)
+                tripStoreNew, newFact = method(tripStoreNew)
+                print(newFact)
+        #output = []
+        #for p in tripStoreNew['p'].keys():
+        #    for s in tripStoreNew['p'][p]['s'].keys():
+        #        for o in tripStoreNew['p'][p]['s'][s]:
+        #            output.append(s+" "+p+" "+o)
+        #output = sorted(output)
+        #for line in output:
+        #    print(line)'''
