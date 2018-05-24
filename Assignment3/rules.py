@@ -15,7 +15,7 @@ class rules(object):
     def __init__(self):
         self.s = ""
     
-    def subs_singleRules(self, current):
+    def subd_singleRules(self, current):
         new = copy.deepcopy(current)
         new, rf1    = self.rdfs1_allIsDataType(new)
         new, rf4a   = self.rdfs4a_Resource(new)

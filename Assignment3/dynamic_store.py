@@ -67,13 +67,14 @@ with open('testFile.csv','r') as f:
             newFact = False
             for func in perm:
                 method = getattr(rules, func)
-                tripStoreNew, newFact = method(tripStoreNew)
-                print(newFact)
-        #output = []
-        #for p in tripStoreNew['p'].keys():
-        #    for s in tripStoreNew['p'][p]['s'].keys():
-        #        for o in tripStoreNew['p'][p]['s'][s]:
-        #            output.append(s+" "+p+" "+o)
-        #output = sorted(output)
-        #for line in output:
-        #    print(line)'''
+                tripStoreNew, newFactT = method(tripStoreNew)
+                if newFactT:
+                    newFact = True
+        output = []
+        for p in tripStoreNew['p'].keys():
+            for s in tripStoreNew['p'][p]['s'].keys():
+                for o in tripStoreNew['p'][p]['s'][s]:
+                    output.append(s+" "+p+" "+o)
+        output = sorted(output)
+        for line in output:
+            print(line)
