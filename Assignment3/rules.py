@@ -233,8 +233,6 @@ class rules(object):
         oset = set(new['p']['rdfs:subPropertyOf']['o'].keys())
         keys = sset.intersection(oset)
 
-        keypairs = set()
-
         for key in keys:
             for o in new['p']['rdfs:subPropertyOf']['s'][key]:
                 for s in new['p']['rdfs:subPropertyOf']['o'][key]:
@@ -460,8 +458,6 @@ class rules(object):
         sset = set(new['p']['rdfs:subClassOf']['s'].keys())
         oset = set(new['p']['rdfs:subClassOf']['o'].keys())
         keys = sset.intersection(oset)
-
-        keypairs = set()
 
         for key in keys:
             for o in new['p']['rdfs:subClassOf']['s'][key]:
