@@ -1,7 +1,7 @@
 from rules import *
 import itertools
 
-functions = [a for a in dir(rules) if  a.startswith('subs')]
+functions = [a for a in dir(rules) if  a.startswith('test')]
 
 dynamic_store = {}
 
