@@ -11,3 +11,7 @@
 <subclass2> rdfs:subClassOf <class1>
 <class1> rdfs:subClassOf <supclass3>
 <classquestion> rdf:type rdfs:Class
+<propertyquestion> rdf:type rdf:Property
+<bob> <worksAtDepartmentSub> <department>
+<sub> rdfs:subClassOf <sup>
+<abba> rdf:type <sub>
