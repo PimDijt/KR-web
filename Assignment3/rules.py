@@ -14,13 +14,8 @@ class rules(object):
 
     def __init__(self):
         self.s = ""
-<<<<<<< HEAD
-
-    def subd_singleRules(self, current):
-=======
     
     def test_all(self, current):
->>>>>>> 13a1cef2adfd66cb761e3462634ae618e718cbe3
         new = copy.deepcopy(current)
         new, rf1 = (new, False)#self.rdfs1_allIsDataType(new)
         new, rf2 = self.rdfs2_domain(new)
@@ -38,7 +33,7 @@ class rules(object):
         new, rf13 = self.rdfs13_literal(new)
         return new, (rf1 or rf2 or rf3 or rf4a or rf4b or rf5 or rf6 or rf7 or rf8 or rf9 or rf10 or rf11 or rf12 or rf13)
 
-    def subs_singleRules(self, current):
+    def subd_singleRules(self, current):
         new = copy.deepcopy(current)
         rf4a = False
         rf4b = False
@@ -120,40 +115,6 @@ class rules(object):
 
         changed = False
 
-<<<<<<< HEAD
-        try:
-            sset = set(new['p']['rdfs:domain']['s'].keys())
-            pset = set(new['p'].keys())
-            keys = sset.intersection(pset)
-        except KeyError:
-            return new, changed
-
-        keypairs = set()
-
-        for key in keys:
-            for o in new['p']['rdfs:domain']['s'][key]:
-                keypairs.add((key,o))
-
-        for p,o in keypairs:
-            if 'rdf:type' not in new['p'].keys():
-                new['p']['rdf:type'] = {}
-                new['p']['rdf:type']['s'] = {}
-                new['p']['rdf:type']['o'] = {}
-            for s in new['p'][p]['s'].keys():
-                if s    not in new['p']['rdf:type']['s'].keys():
-                    new['p']['rdf:type']['s'][s] = set()
-                if o    not in new['p']['rdf:type']['o'].keys():
-                    new['p']['rdf:type']['o'][o] = set()
-                lens1 = len(new['p']['rdf:type']['s'][s])
-                leno1 = len(new['p']['rdf:type']['o'][o])#This one is not needed I think...
-                new['p']['rdf:type']['s'][s].add(o)
-                new['p']['rdf:type']['o'][o].add(s)
-                lens2 = len(new['p']['rdf:type']['s'][s])
-                leno2 = len(new['p']['rdf:type']['o'][o])
-                if (lens1!=lens2 or leno1!=leno2):
-                    changed = True
-        return new, changed
-=======
         if 'rdfs:domain' in new['p'].keys():
             sset = set(new['p']['rdfs:domain']['s'].keys())
             pset = set(new['p'].keys())
@@ -185,7 +146,6 @@ class rules(object):
             return new, changed
         else:
             return new, False
->>>>>>> 13a1cef2adfd66cb761e3462634ae618e718cbe3
 
     def rdfs3_range(self, current):
         #    result = set()
@@ -197,7 +157,6 @@ class rules(object):
 
         changed = False
 
-<<<<<<< HEAD
         try:
             sset = set(new['p']['rdfs:domain']['s'].keys())
             pset = set(new['p'].keys())
@@ -205,11 +164,6 @@ class rules(object):
         except KeyError:
             return new, changed
 
-=======
-        sset = set(new['p']['rdfs:range']['s'].keys())
-        pset = set(new['p'].keys())
-        keys = sset.intersection(pset)
->>>>>>> 13a1cef2adfd66cb761e3462634ae618e718cbe3
         keypairs = set()
 
         for key in keys:
