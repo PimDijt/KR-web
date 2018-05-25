@@ -11,10 +11,10 @@ class rules(object):
     #    self.p = pair[1]
     #    self.o = pair[2]
     #    self.pair = pair
-    
+
     def __init__(self):
         self.s = ""
-    
+
     def subd_singleRules(self, current):
         new = copy.deepcopy(current)
         new, rf1    = self.rdfs1_allIsDataType(new)
@@ -88,9 +88,13 @@ class rules(object):
 
         changed = False
 
-        sset = set(new['p']['rdfs:domain']['s'].keys())
-        pset = set(new['p'].keys())
-        keys = sset.intersection(pset)
+        try:
+            sset = set(new['p']['rdfs:domain']['s'].keys())
+            pset = set(new['p'].keys())
+            keys = sset.intersection(pset)
+        except KeyError:
+            return new, changed
+
         keypairs = set()
 
         for key in keys:
@@ -127,9 +131,13 @@ class rules(object):
 
         changed = False
 
-        sset = set(new['p']['rdfs:domain']['s'].keys())
-        pset = set(new['p'].keys())
-        keys = sset.intersection(pset)
+        try:
+            sset = set(new['p']['rdfs:domain']['s'].keys())
+            pset = set(new['p'].keys())
+            keys = sset.intersection(pset)
+        except KeyError:
+            return new, changed
+
         keypairs = set()
 
         for key in keys:
@@ -229,9 +237,12 @@ class rules(object):
 
         keys = set()
 
-        sset = set(new['p']['rdfs:subPropertyOf']['s'].keys())
-        oset = set(new['p']['rdfs:subPropertyOf']['o'].keys())
-        keys = sset.intersection(oset)
+        try:
+            sset = set(new['p']['rdfs:subPropertyOf']['s'].keys())
+            oset = set(new['p']['rdfs:subPropertyOf']['o'].keys())
+            keys = sset.intersection(oset)
+        except KeyError:
+            return new, changed
 
         for key in keys:
             for o in new['p']['rdfs:subPropertyOf']['s'][key]:
@@ -297,9 +308,13 @@ class rules(object):
 
         changed = False
 
-        sset = set(new['p']['rdfs:subPropertyOf']['s'].keys())
-        pset = set(new['p'].keys())
-        keys = sset.intersection(pset)
+        try:
+            sset = set(new['p']['rdfs:subPropertyOf']['s'].keys())
+            pset = set(new['p'].keys())
+            keys = sset.intersection(pset)
+        except KeyError:
+            return new, changed
+
         keypairs = set()
 
         for key in keys:
@@ -332,7 +347,7 @@ class rules(object):
         #if self.p=="rdf:type" and self.o=="rdfs:Class":
         #    result.add(self.s+" rdfs:subClassOf rdfs:Resource")
         #return list(result)
-        
+
         new = copy.deepcopy(current)
 
         changed = False
@@ -368,7 +383,7 @@ class rules(object):
             if (lens1!=lens2 or leno1!=leno2):
                 changed = True
         return new, changed
-    
+
     def rdfs9_typeOfClass(self, current):
         #result = set()
         #for other in store:
@@ -379,9 +394,12 @@ class rules(object):
 
         changed = False
 
-        sset = set(new['p']['rdfs:subClassOf']['s'].keys())
-        oset = set(new['p']['rdf:type']['o'].keys())
-        keys = sset.intersection(oset)
+        try:
+            sset = set(new['p']['rdfs:subClassOf']['s'].keys())
+            oset = set(new['p']['rdf:type']['o'].keys())
+            keys = sset.intersection(oset)
+        except KeyError:
+            return new, changed
 
         if 'rdf:type' not in new['p'].keys():
             new['p']['rdf:type'] = {}
@@ -442,7 +460,7 @@ class rules(object):
             if (lens1!=lens2 or leno1!=leno2):
                 changed = True
         return new, changed
-    
+
     def rdfs11_subClass(self, current):
         #result = set()
         #for other in store:
@@ -455,9 +473,12 @@ class rules(object):
 
         keys = set()
 
-        sset = set(new['p']['rdfs:subClassOf']['s'].keys())
-        oset = set(new['p']['rdfs:subClassOf']['o'].keys())
-        keys = sset.intersection(oset)
+        try:
+            sset = set(new['p']['rdfs:subClassOf']['s'].keys())
+            oset = set(new['p']['rdfs:subClassOf']['o'].keys())
+            keys = sset.intersection(oset)
+        except KeyError:
+            return new, changed
 
         for key in keys:
             for o in new['p']['rdfs:subClassOf']['s'][key]:
@@ -470,7 +491,7 @@ class rules(object):
                     leno2 = len(new['p']['rdfs:subClassOf']['o'][o])#This one is not needed I think...
                     if (lens1!=lens2 or leno1!=leno2):
                         changed = True
-        return new, changed    
+        return new, changed
 
     def rdfs12_container(self, current):
         #result = set()
@@ -512,7 +533,7 @@ class rules(object):
             if (lens1!=lens2 or leno1!=leno2):
                 changed = True
         return new, changed
-    
+
     def rdfs13_literal(self, current):
         #    #result = set()
         #    #if self.p=="rdf:type" and self.o=="rdfs:Datatype":

@@ -57,8 +57,9 @@ with open('testFile.csv','r') as f:
             for o in tripStoreEx['p'][p]['s'][s]:
                 output.append(s+" "+p+" "+o)
     output = sorted(output)
-    for line in output:
-        print(line)
+    print(len(output))
+    # for line in output:
+    #     print(line)
     for perm in itertools.permutations(functions):
         print(perm)
         tripStoreNew = copy.deepcopy(tripStoreEx)
@@ -76,5 +77,6 @@ with open('testFile.csv','r') as f:
                 for o in tripStoreNew['p'][p]['s'][s]:
                     output.append(s+" "+p+" "+o)
         output = sorted(output)
-        for line in output:
-            print(line)
+        print(len(output))
+        # for line in output:
+        #     print(line)

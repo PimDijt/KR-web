@@ -1,5 +1,6 @@
 import os
 import numpy as np
+from rules import *
 
 feature_column = [
     "rdf:type",
@@ -28,30 +29,84 @@ feature_column_url = [
 ]
 
 rule_mapping = {
-    "trans" : ["rdfs5", "rdfs11"],
-    "dora" : ["rdfs2", "rdfs3"],
-    "rest" : ["rdfs7", "rdfs9"],
+    "subs_subSome" : ["rdfs5", "rdfs11"],
+    "subs_dora" : ["rdfs2", "rdfs3"],
+    "subs_rest" : ["rdfs7", "rdfs9"],
+}
+
+rule_input_mapping = {
+    "subs_subSome" : ["rdfs:subPropertyOf", "rdfs:subClassOf"],
+    "subs_dora" : ["rdfs:domain", "rdfs:range"],
+    "subs_rest" : ["rdfs:subPropertyOf", "rdfs:subClassOf"],
 }
 
 features = []
 targets = []
 
+rules = rules()
+
+def get_input_nums(tripStore, pred):
+    counts = np.zeros(len(pred), dtype=int)
+    for i in range(0, len(pred)):
+        for p in tripStoreEx['p'].keys():
+            for s in tripStoreEx['p'][p]['s'].keys():
+                for o in tripStoreEx['p'][p]['s'][s]:
+                    if p == pred[i]:
+                        counts[i] += 1
+    return counts
+
+def create_list(tripStore):
+    list = []
+    for p in tripStore['p'].keys():
+        for s in tripStore['p'][p]['s'].keys():
+            for o in tripStore['p'][p]['s'][s]:
+                list.append([s, p, o])
+    return list
+
+def create_output(tripStore):
+    output = []
+    for p in tripStoreEx['p'].keys():
+        for s in tripStoreEx['p'][p]['s'].keys():
+            for o in tripStoreEx['p'][p]['s'][s]:
+                output.append(s+" "+p+" "+o)
+    output = sorted(output)
+    return output
+
+
+def calculate_feature(list):
+    count = 0
+    feature = np.zeros(len(feature_column), dtype=int)
+    for r in list:
+        count += 1
+        if r[1] in feature_column or r[2] in feature_column_url:
+            feature[feature_column.index(r[1])] += 1
+    return (feature/count).tolist()
+
+def perform_rules(tripStoreEx, rules1, rules2):
+    tripStoreNew = tripStoreEx
+    for r in rules1:
+        method = getattr(rules, r)
+        tripStoreNew, newFact = method(tripStoreNew)
+    for r in rules2:
+        method = getattr(rules, r)
+        tripStoreNew, newFact = method(tripStoreNew)
+    return tripStoreNew
+
+
 for fn in os.listdir('data/'):
     with open('data/'+fn,'r', encoding="utf8") as f:
+    #with open('testFile.csv', encoding="utf8") as f:
         tripStoreEx = {'s':{}, 'p':{}, 'o':{}, }
 
-
-        feature = np.zeros(len(feature_column), dtype=int)
-        count = 0
         lines = f.read().replace(".", "").splitlines()
         for line in lines:
-            count += 1
             line = line.split()
             s = line[0]
             p = line[1]
             o = " ".join([x for x in line[2:len(line)]])
-            if p in feature_column_url or o in feature_column_url:
-                feature[feature_column_url.index(p)] += 1
+
+            if p in feature_column_url:
+                p = feature_column[feature_column_url.index(p)]
 
             if p not in tripStoreEx['p'].keys():
                 tripStoreEx['p'][p] = {}
@@ -64,13 +119,27 @@ for fn in os.listdir('data/'):
             tripStoreEx['p'][p]['s'][s].add(o)
             tripStoreEx['p'][p]['o'][o].add(s)
 
-    output = []
-    for p in tripStoreEx['p'].keys():
-        for s in tripStoreEx['p'][p]['s'].keys():
-            for o in tripStoreEx['p'][p]['s'][s]:
-                output.append(s+" "+p+" "+o)
-    output = sorted(output)
-    #for line in output:
-        #print(line)
-    features.append((feature/count).tolist())
-print(features)
+    trip_list = create_list(tripStoreEx)
+    feature = calculate_feature(trip_list)
+
+
+    # get targets
+    tripStoreNew = copy.deepcopy(tripStoreEx)
+    tripStoreNew = perform_rules(tripStoreNew, ["subs_subSome"], ["subs_dora", "subs_rest"])
+    trip_list_1 = create_list(tripStoreNew)
+    new_feature_1 = calculate_feature(trip_list_1)
+
+    tripStoreNew = copy.deepcopy(tripStoreEx)
+    tripStoreNew = perform_rules(tripStoreNew, ["subs_dora", "subs_rest"], ["subs_subSome"])
+    trip_list_2 = create_list(tripStoreNew)
+    new_feature_2 = calculate_feature(trip_list_2)
+
+    if len(trip_list_1) > len(trip_list) or len(trip_list_2) > len(trip_list):
+        features.append(feature)
+        print(feature)
+        print(len(trip_list_1)-len(trip_list))
+        print(new_feature_1)
+        print(len(trip_list_2)-len(trip_list))
+        print(new_feature_2)
+    else:
+        os.remove('data/'+fn)
