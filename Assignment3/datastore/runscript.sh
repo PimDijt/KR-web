@@ -6,6 +6,6 @@ mv $line $line.gz
 gunzip $line.gz
 mv $line ../data/$line.nt
 cd ..
-python parse_data.py
+python parse_data.py $line
 cd datastore
 done
