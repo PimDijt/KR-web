@@ -1,0 +1,12 @@
+(KRweb3) -bash-4.2$ python parse_data.py 97cefa9f16057be629cea2c588cfe3a3
+[0.22851153039832284, 0.0, 0.0, 0.22851153039832284, 0.11215932914046121, 0.11215932914046121, 0.10272536687631027, 0.0, 0.0, 0.0]
+92
+[0.26577437858508607, 0.0, 0.0, 0.2084130019120459, 0.1022944550669216, 0.1022944550669216, 0.124282982791587, 0.0, 0.0, 0.0]
+92
+[0.26577437858508607, 0.0, 0.0, 0.2084130019120459, 0.1022944550669216, 0.1022944550669216, 0.124282982791587, 0.0, 0.0, 0.0]
+Traceback (most recent call last):
+  File "parse_data.py", line 123, in <module>
+    feature = calculate_feature(trip_list)
+  File "parse_data.py", line 82, in calculate_feature
+    feature[feature_column.index(r[1])] += 1
+ValueError: '<http://wwww3org/2000/01/rdf-schema#subPropertyOf>' is not in list

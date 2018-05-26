@@ -17,7 +17,7 @@ feature_column = [
 ]
 
 feature_column_url = [
-    "<http://wwww3org/1999/02/22-rdf-syntax-ns#type>",
+    "<http://wwww3org/1999/02/22-rdf-syntax-ns#type>", #Zijn de URL bewust fout?
     "<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>",
     "<http://wwww3org/1999/02/22-rdf-syntax-ns#value>",
     "<http://wwww3org/2000/01/rdf-schema#label>",
@@ -79,7 +79,7 @@ def calculate_feature(list):
     feature = np.zeros(len(feature_column), dtype=int)
     for r in list:
         count += 1
-        if r[1] in feature_column or r[2] in feature_column_url:
+        if r[1] in feature_column or r[2] in feature_column_url: #Moet dit niet r[1] r[2] zijn?
             feature[feature_column.index(r[1])] += 1
     return (feature/count).tolist()
 
