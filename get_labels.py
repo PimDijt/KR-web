@@ -16,35 +16,40 @@ renewTerm= []
 
 def get_label(term, session):
     url = "https://hdt.lod.labs.vu.nl/triple?p=rdfs:label&s="+urllib.parse.quote_plus(term)
-    print(url)
-    r = session.get(url)
-    while r.status_code=="502":
-        time.sleep(2)
-        print("Gateway")
+    #print(url)
+    try:
         r = session.get(url)
-    print("Got request")
+    except ConnectionError:
+        time.sleep(5)
+        get_label(term, session)
+    while r.status_code=="502":
+        time.sleep(1)
+        #print("Gateway")
+        r = session.get(url)
+    #print("Got request")
     body = r.content.strip().splitlines()
-    print("Got Stripped")
+    #print("Got Stripped")
     if body != []:
         print("Got a none empty body")
         for line in body:
             line = line.split()
             triple = {}
-            print(line)
+            #print(line)
             try:
                 triple["s"] = bytes.decode(line[0])
                 triple["p"] = bytes.decode(line[1])
                 triple["o"] = ""
                 for i in range(len(line)):
-                    if i<2:
+                    if i>=2:
                         triple["o"] += bytes.decode(line[i])
                 result.append(triple)
             except IndexError:
                 renewTerm.append(term)
 
-count = 0
+
+'''count = 0
 counterNumber = int(sys.argv[1])
-sliceSize = 8061#63616
+sliceSize = 2686#63616
 
 with requests.Session() as session:
     for item in dbo_dict:
@@ -63,10 +68,10 @@ with requests.Session() as session:
         get_label(term, session)
         with open('dbo_labels-'+str(counterNumber*sliceSize)+'.pickle', 'wb') as handle:
             pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-'''count = 0
+'''
+count = 0
 counterNumber = int(sys.argv[1])
-sliceSize = 55555
+sliceSize = 18518
 
 renewTerm = []
 
@@ -77,7 +82,7 @@ with requests.Session() as session:
                 term = item["s"]
                 print("{} / {}".format(count, len(dbo_dict)))
                 get_label(term, session)
-                print("{} / {} - done".format(count, len(dbo_dict)))
+                #print("{} / {} - done".format(count, len(dbo_dict)))
         count += 1
     print("Renew list")
     for item in renewTerm:
@@ -85,4 +90,3 @@ with requests.Session() as session:
 
 with open('dbtune_labels-'+str(counterNumber*sliceSize)+'.pickle', 'wb') as handle:
     pickle.dump(result, handle, protocol=pickle.HIGHEST_PROTOCOL)
-'''
