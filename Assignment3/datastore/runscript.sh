@@ -6,14 +6,8 @@ wget http://download.lodlaundromat.org/$line
 mv $line $line.gz
 gunzip $line.gz
 mv $line ../data/$line.nt
-<<<<<<< HEAD
-#cd ..
-#python parse_data.py
-#cd datastore
-fi
-=======
 cd ..
-python parse_data.py $line
+python parse_data.py $line 1> log$line.log 2>err$line.err
 cd datastore
->>>>>>> d6fda174fd7c966c9e7e0282abacbf5cbb3a76c2
+fi
 done
