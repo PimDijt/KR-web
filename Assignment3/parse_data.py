@@ -1,7 +1,6 @@
 import os
 import numpy as np
 from rules import *
-import sys
 
 feature_column = [
     "rdf:type",
@@ -27,6 +26,19 @@ feature_column_url = [
     "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>",
     "<http://wwww3org/2000/01/rdf-schema#seeAlso>",
     "<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>",
+]
+
+feature_column_low = [
+    "type",
+    "property",
+    "value",
+    "label",
+    "range",
+    "domain",
+    "subclassof",
+    "subpropertyof",
+    "seealso",
+    "isdefinedby",
 ]
 
 rule_mapping = {
@@ -94,9 +106,7 @@ def perform_rules(tripStoreEx, rules1, rules2):
     return tripStoreNew
 
 
-#for fn in os.listdir('data/'):
-for i in range(1):
-    fn = sys.argv[1]+'.nt'
+for fn in os.listdir('data/'):
     with open('data/'+fn,'r', encoding="utf8") as f:
     #with open('testFile.csv', encoding="utf8") as f:
         tripStoreEx = {'s':{}, 'p':{}, 'o':{}, }
@@ -108,8 +118,14 @@ for i in range(1):
             p = line[1]
             o = " ".join([x for x in line[2:len(line)]])
 
-            if p in feature_column_url:
-                p = feature_column[feature_column_url.index(p)]
+            for _p in feature_column_low:
+                if _p in p.lower():
+                    p = feature_column[feature_column_low.index(_p)]
+
+
+            #if p in feature_column_url:
+            #    p = feature_column[feature_column_low.index(p)]
+
 
             if p not in tripStoreEx['p'].keys():
                 tripStoreEx['p'][p] = {}
