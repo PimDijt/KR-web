@@ -173,4 +173,3 @@ for i in range(1):
         print(new_feature_2)
     else:
         os.remove('data/'+fn)
-        print("Remove")
