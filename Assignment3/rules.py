@@ -68,27 +68,47 @@ class rules(object):
         #new, rf10   = self.rdfs10_subClassSelf(new)
         #new, rf12   = self.rdfs12_container(new)
         new, rf13   = self.rdfs13_literal(new)
-        return new, (rf1 or rf4a or rf4b or rf6 or rf8 or rf10 or rf12 or rf13)
+        return new, (rf1 or rf4a or rf4b or rf6 or rf8 or rf10 or rf12 or rf13)'''
 
-    def subs_dora(self, current):
+    def lsubs_dora(self, current):
         new = copy.deepcopy(current)
-        new, rf2 = self.rdfs2_domain(new)
-        new, rf3 = self.rdfs3_range(new)
+        new, _s, rf2, _b, = self.rdfs2_domain(new)
+        new, _s, rf3, _b = self.rdfs3_range(new)
         return new, (rf2 or rf3)
 
-    def subs_rest(self, current):
+    def lsubs_rest(self, current):
         new = copy.deepcopy(current)
         rf7 = False
         rf9 = False
-        new, rf7 = self.rdfs7_parentSubProperty(new)
-        new, rf9 = self.rdfs9_typeOfClass(new)
+        new, _s, rf7, _b = self.rdfs7_parentSubProperty(new)
+        new, _s, rf9, _b = self.rdfs9_typeOfClass(new)
         return new, (rf7 or rf9)
 
-    def subs_subSome(self, current):
+    def lsubs_subSome(self, current):
         new = copy.deepcopy(current)
-        new, rf5 = self.rdfs5_subProperty(new)
-        new, rf11 = self.rdfs11_subClass(new)
-        return new, (rf5 or rf11)'''
+        new, _s, rf5, _b = self.rdfs5_subProperty(new)
+        new, _s, rf11, _b = self.rdfs11_subClass(new)
+        return new, (rf5 or rf11)
+
+    def ssubs_dora(self, current):
+        new = copy.deepcopy(current)
+        _s, new, _b, rf2 = self.rdfs2_domain(new)
+        _s, new, _b, rf3 = self.rdfs3_range(new)
+        return new, (rf2 or rf3)
+
+    def ssubs_rest(self, current):
+        new = copy.deepcopy(current)
+        rf7 = False
+        rf9 = False
+        _s, new, _b, rf7 = self.rdfs7_parentSubProperty(new)
+        _s, new, _b, rf9 = self.rdfs9_typeOfClass(new)
+        return new, (rf7 or rf9)
+
+    def ssubs_subSome(self, current):
+        new = copy.deepcopy(current)
+        _s, new, _b, rf5 = self.rdfs5_subProperty(new)
+        _s, new, _b, rf11 = self.rdfs11_subClass(new)
+        return new, (rf5 or rf11)
 
     def rdfs1_allIsDataType(self, current):
         new = copy.deepcopy(current)

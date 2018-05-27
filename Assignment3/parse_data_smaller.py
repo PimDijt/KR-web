@@ -100,10 +100,10 @@ def perform_rules(tripStoreEx, rules1, rules2):
     tripStoreNew = tripStoreEx
     for r in rules1:
         method = getattr(rules, r)
-        larger, tripStoreNew, newFact = method(tripStoreNew)
+        _larger, tripStoreNew, _Fact, _newFact = method(tripStoreNew)
     for r in rules2:
         method = getattr(rules, r)
-        larger, tripStoreNew, newFact = method(tripStoreNew)
+        _larger, tripStoreNew, _Fact, _newFact = method(tripStoreNew)
     return tripStoreNew
 
 
@@ -151,12 +151,12 @@ for i in range(1):
 
     # get targets
     tripStoreNew = copy.deepcopy(tripStoreEx)
-    tripStoreNew = perform_rules(tripStoreNew, ["subs_subSome"], ["subs_dora", "subs_rest"])
+    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_subSome"], ["ssubs_dora", "ssubs_rest"])
     trip_list_1 = create_list(tripStoreNew)
     new_feature_1 = calculate_feature(trip_list_1)
 
     tripStoreNew = copy.deepcopy(tripStoreEx)
-    tripStoreNew = perform_rules(tripStoreNew, ["subs_dora", "subs_rest"], ["subs_subSome"])
+    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_dora", "ssubs_rest"], ["ssubs_subSome"])
     trip_list_2 = create_list(tripStoreNew)
     new_feature_2 = calculate_feature(trip_list_2)
 
