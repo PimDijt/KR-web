@@ -110,7 +110,7 @@ def perform_rules(tripStoreEx, rules1, rules2):
 #for fn in os.listdir('data/'):
 for i in range(1):
     fn = sys.argv[1]+'.nt'
-    with open('data/'+fn,'r', encoding="utf8") as f:
+    with open('data2/'+fn,'r', encoding="utf8") as f:
     #with open('testFile.csv', encoding="utf8") as f:
         tripStoreEx = {'s':{}, 'p':{}, 'o':{}, }
 
@@ -168,5 +168,5 @@ for i in range(1):
         print(len(trip_list_2)-len(trip_list))
         print(new_feature_2)
     else:
-        os.remove('data/'+fn)
+        os.remove('data2/'+fn)
         print("Remove")
