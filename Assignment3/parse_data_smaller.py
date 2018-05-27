@@ -100,10 +100,10 @@ def perform_rules(tripStoreEx, rules1, rules2):
     tripStoreNew = tripStoreEx
     for r in rules1:
         method = getattr(rules, r)
-        tripStoreNew, smaller, newFact = method(tripStoreNew)
+        larger, tripStoreNew, newFact = method(tripStoreNew)
     for r in rules2:
         method = getattr(rules, r)
-        tripStoreNew, smaller, newFact = method(tripStoreNew)
+        larger, tripStoreNew, newFact = method(tripStoreNew)
     return tripStoreNew
 
 
@@ -160,7 +160,7 @@ for i in range(1):
     trip_list_2 = create_list(tripStoreNew)
     new_feature_2 = calculate_feature(trip_list_2)
 
-    if len(trip_list_1) > len(trip_list) or len(trip_list_2) > len(trip_list):
+    if len(trip_list_1) < len(trip_list) or len(trip_list_2) < len(trip_list):
         features.append(feature)
         print(feature)
         print(len(trip_list_1)-len(trip_list))
