@@ -116,30 +116,34 @@ for i in range(1):
 
         lines = f.read().replace(".", "").splitlines()
         for line in lines:
+            line2 = line
             line = line.split()
-            s = line[0]
-            p = line[1]
-            o = " ".join([x for x in line[2:len(line)]])
+            try:
+                s = line[0]
+                p = line[1]
+                o = " ".join([x for x in line[2:len(line)]])
 
-            for _p in feature_column_low:
-                if _p in p.lower():
-                    p = feature_column[feature_column_low.index(_p)]
-
-
-            #if p in feature_column_url:
-            #    p = feature_column[feature_column_low.index(p)]
+                for _p in feature_column_low:
+                    if _p in p.lower():
+                        p = feature_column[feature_column_low.index(_p)]
 
 
-            if p not in tripStoreEx['p'].keys():
-                tripStoreEx['p'][p] = {}
-                tripStoreEx['p'][p]['s'] = {}
-                tripStoreEx['p'][p]['o'] = {}
-            if s not in tripStoreEx['p'][p]['s'].keys():
-                tripStoreEx['p'][p]['s'][s] = set()
-            if o not in tripStoreEx['p'][p]['o'].keys():
-                tripStoreEx['p'][p]['o'][o] = set()
-            tripStoreEx['p'][p]['s'][s].add(o)
-            tripStoreEx['p'][p]['o'][o].add(s)
+                #if p in feature_column_url:
+                #    p = feature_column[feature_column_low.index(p)]
+
+
+                if p not in tripStoreEx['p'].keys():
+                    tripStoreEx['p'][p] = {}
+                    tripStoreEx['p'][p]['s'] = {}
+                    tripStoreEx['p'][p]['o'] = {}
+                if s not in tripStoreEx['p'][p]['s'].keys():
+                    tripStoreEx['p'][p]['s'][s] = set()
+                if o not in tripStoreEx['p'][p]['o'].keys():
+                    tripStoreEx['p'][p]['o'][o] = set()
+                tripStoreEx['p'][p]['s'][s].add(o)
+                tripStoreEx['p'][p]['o'][o].add(s)
+            except IndexError:
+                continue
 
     trip_list = create_list(tripStoreEx)
     feature = calculate_feature(trip_list)
