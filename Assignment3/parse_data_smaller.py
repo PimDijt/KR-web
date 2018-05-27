@@ -124,8 +124,12 @@ for i in range(1):
                 o = " ".join([x for x in line[2:len(line)]])
 
                 for _p in feature_column_low:
+                    if _p in s.lower():
+                        s = feature_column[feature_column_low.index(_p)]
                     if _p in p.lower():
                         p = feature_column[feature_column_low.index(_p)]
+                    if _p in o.lower():
+                        o = feature_column[feature_column_low.index(_p)]
 
 
                 #if p in feature_column_url:
@@ -169,4 +173,3 @@ for i in range(1):
         print(new_feature_2)
     else:
         os.remove('data2/'+fn)
-        print("Remove")
