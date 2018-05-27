@@ -1,3 +1,5 @@
 outputTTL/catalog-v001.xml
 Assignment3/log*.log
+Assignment3/slog*.log
 Assignment3/err*.err
+Assignment3/serr*.err
