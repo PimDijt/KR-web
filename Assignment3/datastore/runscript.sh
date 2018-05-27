@@ -1,4 +1,4 @@
-for line in `cat ./md5hashes.txt`
+for line in `cat ./$HOSTNAME/md5hashes.txt`
 do
 echo $line
 if [ ! -f ../data/$line.nt ]; then
