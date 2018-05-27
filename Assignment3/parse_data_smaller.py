@@ -100,10 +100,10 @@ def perform_rules(tripStoreEx, rules1, rules2):
     tripStoreNew = tripStoreEx
     for r in rules1:
         method = getattr(rules, r)
-        _larger, tripStoreNew, _Fact, _newFact = method(tripStoreNew)
+        tripStoreNew, _newFact = method(tripStoreNew)
     for r in rules2:
         method = getattr(rules, r)
-        _larger, tripStoreNew, _Fact, _newFact = method(tripStoreNew)
+        tripStoreNew, _newFact = method(tripStoreNew)
     return tripStoreNew
 
 
