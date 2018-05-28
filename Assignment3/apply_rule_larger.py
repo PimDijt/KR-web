@@ -184,29 +184,33 @@ new_feature_2b = calculate_feature(trip_list_2b, False)
 
 scoreAa = 0
 scoreBa = 0
-for i in range(len(feature)):
-    tmp = new_feature_1a[i]-feature[i]
-    scoreAa += tmp*score_feature[i]
-scoreAa-=np.log(len(trip_list_1a)-len(trip_list)+1)
-scoreAa=float(scoreAa)/np.log(len(trip_list_1a))
-for i in range(len(feature)):
-    tmp = new_feature_2a[i]-feature[i]
-    scoreBa += tmp*score_feature[i]
-scoreBa-=np.log(len(trip_list_2a)-len(trip_list)+1)
-scoreBa=float(scoreBa)/np.log(len(trip_list_2a))
+if len(trip_list_1a)>1:
+    for i in range(len(feature)):
+        tmp = new_feature_1a[i]-feature[i]
+        scoreAa += tmp*score_feature[i]
+    scoreAa-=np.log(len(trip_list_1a)-len(trip_list)+1)
+    scoreAa=float(scoreAa)/np.log(len(trip_list_1a))
+if len(trip_list_2a)>1:
+    for i in range(len(feature)):
+        tmp = new_feature_2a[i]-feature[i]
+        scoreBa += tmp*score_feature[i]
+    scoreBa-=np.log(len(trip_list_2a)-len(trip_list)+1)
+    scoreBa=float(scoreBa)/np.log(len(trip_list_2a))
 
 scoreAb = 0
 scoreBb = 0
-for i in range(len(feature)):
-    tmp = new_feature_1b[i]-feature[i]
-    scoreAb += tmp*score_feature[i]
-scoreAb-=np.log(len(trip_list_1b)-len(trip_list)+1)
-scoreAb=float(scoreAb)/np.log(len(trip_list_1b))
-for i in range(len(feature)):
-    tmp = new_feature_2b[i]-feature[i]
-    scoreBb += tmp*score_feature[i]
-scoreBb-=np.log(len(trip_list_2b)-len(trip_list)+1)
-scoreBb=float(scoreBb)/np.log(len(trip_list_2b))
+if len(trip_list_1b)>1:
+    for i in range(len(feature)):
+        tmp = new_feature_1b[i]-feature[i]
+        scoreAb += tmp*score_feature[i]
+    scoreAb-=np.log(len(trip_list_1b)-len(trip_list)+1)
+    scoreAb=float(scoreAb)/np.log(len(trip_list_1b))
+if len(trip_list_2b)>1:
+    for i in range(len(feature)):
+        tmp = new_feature_2b[i]-feature[i]
+        scoreBb += tmp*score_feature[i]
+    scoreBb-=np.log(len(trip_list_2b)-len(trip_list)+1)
+    scoreBb=float(scoreBb)/np.log(len(trip_list_2b))
 
 resa = ""
 resb = ""
@@ -220,15 +224,7 @@ if scoreAb<scoreBb:
     resb = "B"
 feature.append(resa)
 feature.append(resb)
-print(scoreAa)
-print(scoreBa)
-print(scoreAb)
-print(scoreBb)
-print(len(trip_list_1a))
-print(len(trip_list_2a))
-print(len(trip_list_1b))
-print(len(trip_list_2b))
-print(len(trip_list))
+
 if scoreAa!=scoreBa or scoreAb!=scoreBb:
     #features.append(feature)
     print(feature)
