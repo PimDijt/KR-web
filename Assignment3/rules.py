@@ -76,7 +76,7 @@ class rules(object):
         new, _s, rf3, _b = self.rdfs3_range(new)
         return new, (rf2 or rf3)
 
-    def lsubs_rest(self, current):
+    def lsubs_heritage(self, current):
         new = copy.deepcopy(current)
         rf7 = False
         rf9 = False
@@ -96,7 +96,7 @@ class rules(object):
         _s, new, _b, rf3 = self.rdfs3_range(new)
         return new, (rf2 or rf3)
 
-    def ssubs_rest(self, current):
+    def ssubs_heritage(self, current):
         new = copy.deepcopy(current)
         rf7 = False
         rf9 = False
@@ -234,8 +234,13 @@ class rules(object):
         lchanged = False
         schanged = False
 
+        if 'rdfs:range' not in new['p'].keys():
+            new['p']['rdfs:range'] = {}
+            new['p']['rdfs:range']['s'] = {}
+            new['p']['rdfs:range']['o'] = {}
+
         try:
-            sset = set(new['p']['rdfs:domain']['s'].keys())
+            sset = set(new['p']['rdfs:range']['s'].keys())
             pset = set(new['p'].keys())
             keys = sset.intersection(pset)
         except KeyError:
@@ -243,12 +248,8 @@ class rules(object):
 
         keypairs = set()
 
-        if 'rdfs:range' not in new['p'].keys():
-            new['p']['rdfs:range'] = {}
-            new['p']['rdfs:range']['s'] = {}
-            new['p']['rdfs:range']['o'] = {}
         for key in keys:
-            for o in new['p']['rdfs:domain']['s'][key]:
+            for o in new['p']['rdfs:range']['s'][key]:
                 keypairs.add((key,o))
 
         larger = copy.deepcopy(new)

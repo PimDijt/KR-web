@@ -45,13 +45,13 @@ feature_column_low = [
 rule_mapping = {
     "subs_subSome" : ["rdfs5", "rdfs11"],
     "subs_dora" : ["rdfs2", "rdfs3"],
-    "subs_rest" : ["rdfs7", "rdfs9"],
+    "subs_heritage" : ["rdfs7", "rdfs9"],
 }
 
 rule_input_mapping = {
     "subs_subSome" : ["rdfs:subPropertyOf", "rdfs:subClassOf"],
     "subs_dora" : ["rdfs:domain", "rdfs:range"],
-    "subs_rest" : ["rdfs:subPropertyOf", "rdfs:subClassOf"],
+    "subs_heritage" : ["rdfs:subPropertyOf", "rdfs:subClassOf"],
 }
 
 features = []
@@ -92,8 +92,12 @@ def calculate_feature(list):
     feature = np.zeros(len(feature_column), dtype=int)
     for r in list:
         count += 1
-        if r[1] in feature_column or r[2] in feature_column_url: #Moet dit niet r[1] r[2] zijn?
+        if r[0] in feature_column: #Moet dit niet r[1] r[2] zijn?
+            feature[feature_column.index(r[0])] += 1
+        if r[1] in feature_column: #Moet dit niet r[1] r[2] zijn?
             feature[feature_column.index(r[1])] += 1
+        if r[2] in feature_column: #Moet dit niet r[1] r[2] zijn?
+            feature[feature_column.index(r[2])] += 1
     return (feature/count).tolist()
 
 def perform_rules(tripStoreEx, rules1, rules2):
@@ -109,8 +113,8 @@ def perform_rules(tripStoreEx, rules1, rules2):
 
 #for fn in os.listdir('data/'):
 for i in range(1):
-    fn = sys.argv[1]+'.nt'
-    with open('data2/'+fn,'r', encoding="utf8") as f:
+    fn = sys.argv[1]+'/'+sys.argv[2]+'.nt'
+    with open('dataS/'+fn,'r', encoding="utf8") as f:
     #with open('testFile.csv', encoding="utf8") as f:
         tripStoreEx = {'s':{}, 'p':{}, 'o':{}, }
 
@@ -155,16 +159,16 @@ for i in range(1):
 
     # get targets
     tripStoreNew = copy.deepcopy(tripStoreEx)
-    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_subSome"], ["ssubs_dora", "ssubs_rest"])
+    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_subSome"], ["ssubs_dora", "ssubs_heritage"])
     trip_list_1 = create_list(tripStoreNew)
     new_feature_1 = calculate_feature(trip_list_1)
 
     tripStoreNew = copy.deepcopy(tripStoreEx)
-    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_dora", "ssubs_rest"], ["ssubs_subSome"])
+    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_dora", "ssubs_heritage"], ["ssubs_subSome"])
     trip_list_2 = create_list(tripStoreNew)
     new_feature_2 = calculate_feature(trip_list_2)
 
-    if len(trip_list_1) < len(trip_list) or len(trip_list_2) < len(trip_list):
+    if len(trip_list_1) > len(trip_list) or len(trip_list_2) > len(trip_list):
         features.append(feature)
         print(feature)
         print(len(trip_list_1)-len(trip_list))
@@ -172,4 +176,4 @@ for i in range(1):
         print(len(trip_list_2)-len(trip_list))
         print(new_feature_2)
     else:
-        os.remove('data2/'+fn)
+        os.remove('dataS/'+fn)
