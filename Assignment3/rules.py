@@ -243,6 +243,10 @@ class rules(object):
 
         keypairs = set()
 
+        if 'rdfs:range' not in new['p'].keys():
+            new['p']['rdfs:range'] = {}
+            new['p']['rdfs:range']['s'] = {}
+            new['p']['rdfs:range']['o'] = {}
         for key in keys:
             for o in new['p']['rdfs:range']['s'][key]:
                 keypairs.add((key,o))
@@ -257,7 +261,7 @@ class rules(object):
                 smaller['p']['rdf:type'] = {}
                 smaller['p']['rdf:type']['s'] = {}
                 smaller['p']['rdf:type']['o'] = {}
-            for o2 in larger['p'][p]['o'].keys():
+            for o2 in new['p'][p]['o'].keys():
                 if o2    not in larger['p']['rdf:type']['s'].keys():
                     larger['p']['rdf:type']['s'][o2] = set()
                     smaller['p']['rdf:type']['s'][o2] = set()
