@@ -125,6 +125,8 @@ class rules(object):
                 for o in new['p'][p]['s'][s]:
                     keys.add(o)
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdf:type' not in new['p'].keys():
                 new['p']['rdf:type'] = {}
@@ -134,8 +136,6 @@ class rules(object):
                 new['p']['rdf:type']['s'][key] = set()
             if 'rdfs:Datatype'  not in new['p']['rdf:type']['o'].keys():
                 new['p']['rdf:type']['o']['rdfs:Datatype'] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdf:type']['s'][key])
             lleno1 = len(larger['p']['rdf:type']['o']['rdfs:Datatype'])#This one is not needed I think...
             slens1 = len(smaller['p']['rdf:type']['s'][key])
@@ -175,6 +175,8 @@ class rules(object):
                 for o in new['p']['rdfs:domain']['s'][key]:
                     keypairs.add((key,o))
 
+            larger = copy.deepcopy(new)
+            smaller = copy.deepcopy(new)
             for p,o in keypairs:
                 if 'rdf:type' not in new['p'].keys():
                     new['p']['rdf:type'] = {}
@@ -185,8 +187,6 @@ class rules(object):
                         new['p']['rdf:type']['s'][s] = set()
                     if o    not in new['p']['rdf:type']['o'].keys():
                         new['p']['rdf:type']['o'][o] = set()
-                    larger = copy.deepcopy(new)
-                    smaller = copy.deepcopy(new)
                     llens1 = len(larger['p']['rdf:type']['s'][s])
                     lleno1 = len(larger['p']['rdf:type']['o'][o])#This one is not needed I think...
                     slens1 = len(smaller['p']['rdf:type']['s'][s])
@@ -234,6 +234,8 @@ class rules(object):
             for o in new['p']['rdfs:range']['s'][key]:
                 keypairs.add((key,o))
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for p,o in keypairs:
             if 'rdf:type' not in new['p'].keys():
                 new['p']['rdf:type'] = {}
@@ -244,8 +246,6 @@ class rules(object):
                     new['p']['rdf:type']['s'][o2] = set()
                 if o    not in new['p']['rdf:type']['o'].keys():
                     new['p']['rdf:type']['o'][o] = set()
-                larger = copy.deepcopy(new)
-                smaller = copy.deepcopy(new)
                 llens1 = len(larger['p']['rdf:type']['s'][o2])
                 lleno1 = len(larger['p']['rdf:type']['o'][o])#This one is not needed I think...
                 slens1 = len(smaller['p']['rdf:type']['s'][o2])
@@ -279,6 +279,8 @@ class rules(object):
             for s in new['p'][p]['s'].keys():
                 keys.add(s)
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdf:type' not in new['p'].keys():
                 new['p']['rdf:type'] = {}
@@ -288,8 +290,6 @@ class rules(object):
                 new['p']['rdf:type']['s'][key] = set()
             if 'rdfs:Resource'  not in new['p']['rdf:type']['o'].keys():
                 new['p']['rdf:type']['o']['rdfs:Resource'] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdf:type']['s'][key])
             lleno1 = len(larger['p']['rdf:type']['o']['rdfs:Resource'])#This one is not needed I think...
             slens1 = len(smaller['p']['rdf:type']['s'][key])
@@ -323,6 +323,8 @@ class rules(object):
             for o in new['p'][p]['o'].keys():
                 keys.add(o)
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdf:type' not in new['p'].keys():
                 new['p']['rdf:type'] = {}
@@ -332,8 +334,6 @@ class rules(object):
                 new['p']['rdf:type']['s'][key] = set()
             if 'rdfs:Resource'  not in new['p']['rdf:type']['o'].keys():
                 new['p']['rdf:type']['o']['rdfs:Resource'] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdf:type']['s'][key])
             lleno1 = len(larger['p']['rdf:type']['o']['rdfs:Resource'])#This one is not needed I think...
             slens1 = len(smaller['p']['rdf:type']['s'][key])
@@ -376,11 +376,11 @@ class rules(object):
         except KeyError:
             return new, new, False, False
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             for o in new['p']['rdfs:subPropertyOf']['s'][key]:
                 for s in new['p']['rdfs:subPropertyOf']['o'][key]:
-                    larger = copy.deepcopy(new)
-                    smaller = copy.deepcopy(new)
                     llens1 = len(larger['p']['rdfs:subPropertyOf']['s'][s])
                     lleno1 = len(larger['p']['rdfs:subPropertyOf']['o'][o])#This one is not needed I think...
                     slens1 = len(smaller['p']['rdfs:subPropertyOf']['s'][s])
@@ -424,6 +424,8 @@ class rules(object):
         else:
             return new, False
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdfs:subPropertyOf' not in new['p'].keys():
                 new['p']['rdfs:subPropertyOf'] = {}
@@ -433,8 +435,6 @@ class rules(object):
                 new['p']['rdfs:subPropertyOf']['s'][key] = set()
             if key  not in new['p']['rdfs:subPropertyOf']['o'].keys():
                 new['p']['rdfs:subPropertyOf']['o'][key] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdfs:subPropertyOf']['s'][key])
             lleno1 = len(larger['p']['rdfs:subPropertyOf']['o'][key])#This one is not needed I think...
             slens1 = len(smaller['p']['rdfs:subPropertyOf']['s'][key])
@@ -481,6 +481,8 @@ class rules(object):
             for o in new['p']['rdfs:subPropertyOf']['s'][key]:
                 keypairs.add((key,o))
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for p,o in keypairs:
             if o not in new['p'].keys():
                 new['p'][o] = {}
@@ -492,8 +494,6 @@ class rules(object):
                         new['p'][o]['s'][s] = set()
                     if o2    not in new['p'][o]['o'].keys():
                         new['p'][o]['o'][o2] = set()
-                    larger = copy.deepcopy(new)
-                    smaller = copy.deepcopy(new)
                     llens1 = len(larger['p'][o]['s'][s])
                     lleno1 = len(larger['p'][o]['o'][o2])#This one is not needed I think...
                     slens1 = len(smaller['p'][o]['s'][s])
@@ -538,6 +538,8 @@ class rules(object):
         else:
             return new, False
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdfs:subClassOf' not in new['p'].keys():
                 new['p']['rdfs:subClassOf'] = {}
@@ -547,8 +549,6 @@ class rules(object):
                 new['p']['rdfs:subClassOf']['s'][key] = set()
             if 'rdfs:Resource'  not in new['p']['rdfs:subClassOf']['o'].keys():
                 new['p']['rdfs:subClassOf']['o']['rdfs:Resource'] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdfs:subClassOf']['s'][key])
             lleno1 = len(larger['p']['rdfs:subClassOf']['o']['rdfs:Resource'])#This one is not needed I think...
             slens1 = len(smaller['p']['rdfs:subClassOf']['s'][key])
@@ -588,6 +588,8 @@ class rules(object):
         except KeyError:
             return new, new, False, False
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         if 'rdf:type' not in new['p'].keys():
             new['p']['rdf:type'] = {}
             new['p']['rdf:type']['s'] = {}
@@ -599,8 +601,6 @@ class rules(object):
                         new['p']['rdf:type']['s'][s] = set()
                     if o    not in new['p']['rdf:type']['o'].keys():
                         new['p']['rdf:type']['o'][o] = set()
-                    larger = copy.deepcopy(new)
-                    smaller = copy.deepcopy(new)
                     llens1 = len(larger['p']['rdf:type']['s'][s])
                     lleno1 = len(larger['p']['rdf:type']['o'][o])#This one is not needed I think...
                     slens1 = len(smaller['p']['rdf:type']['s'][s])
@@ -643,6 +643,8 @@ class rules(object):
         else:
             return new, False
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdfs:subClassOf' not in new['p'].keys():
                 new['p']['rdfs:subClassOf'] = {}
@@ -652,8 +654,6 @@ class rules(object):
                 new['p']['rdfs:subClassOf']['s'][key] = set()
             if key  not in new['p']['rdfs:subClassOf']['o'].keys():
                 new['p']['rdfs:subClassOf']['o'][key] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdfs:subClassOf']['s'][key])
             lleno1 = len(larger['p']['rdfs:subClassOf']['o'][key])#This one is not needed I think...
             slens1 = len(smaller['p']['rdfs:subClassOf']['s'][key])
@@ -695,11 +695,11 @@ class rules(object):
         except KeyError:
             return new, new, False, False
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             for o in new['p']['rdfs:subClassOf']['s'][key]:
                 for s in new['p']['rdfs:subClassOf']['o'][key]:
-                    larger = copy.deepcopy(new)
-                    smaller = copy.deepcopy(new)
                     llens1 = len(larger['p']['rdfs:subClassOf']['s'][s])
                     lleno1 = len(larger['p']['rdfs:subClassOf']['o'][o])#This one is not needed I think...
                     slens1 = len(smaller['p']['rdfs:subClassOf']['s'][s])
@@ -744,6 +744,8 @@ class rules(object):
             return new, False
 
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdfs:subPropertyOf' not in new['p'].keys():
                 new['p']['rdfs:subPropertyOf'] = {}
@@ -753,8 +755,6 @@ class rules(object):
                 new['p']['rdfs:subPropertyOf']['s'][key] = set()
             if 'rdfs:member'  not in new['p']['rdfs:subPropertyOf']['o'].keys():
                 new['p']['rdfs:subPropertyOf']['o']['rdfs:member'] = set()
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdfs:subPropertyOf']['s'][key])
             lleno1 = len(larger['p']['rdfs:subPropertyOf']['o']['rdfs:member'])#This one is not needed I think...
             slens1 = len(smaller['p']['rdfs:subPropertyOf']['s'][key])
@@ -799,6 +799,8 @@ class rules(object):
             return new, False
 
 
+        larger = copy.deepcopy(new)
+        smaller = copy.deepcopy(new)
         for key in keys:
             if 'rdfs:subClassOf' not in new['p'].keys():
                 new['p']['rdfs:subClassOf'] = {}
@@ -809,8 +811,6 @@ class rules(object):
             if 'rdfs:Literal'  not in new['p']['rdfs:subClassOf']['o'].keys():
                 new['p']['rdfs:subClassOf']['o']['rdfs:Literal'] = set()
             
-            larger = copy.deepcopy(new)
-            smaller = copy.deepcopy(new)
             llens1 = len(larger['p']['rdfs:subClassOf']['s'][key])
             lleno1 = len(larger['p']['rdfs:subClassOf']['o']['rdfs:Literal'])#This one is not needed I think...
             slens1 = len(smaller['p']['rdfs:subClassOf']['s'][key])
