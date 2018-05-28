@@ -110,7 +110,7 @@ def perform_rules(tripStoreEx, rules1, rules2):
 #for fn in os.listdir('data/'):
 for i in range(1):
     fn = sys.argv[1]+'.nt'
-    with open('data/'+fn,'r', encoding="utf8") as f:
+    with open('data2/'+fn,'r', encoding="utf8") as f:
     #with open('testFile.csv', encoding="utf8") as f:
         tripStoreEx = {'s':{}, 'p':{}, 'o':{}, }
 
@@ -155,16 +155,16 @@ for i in range(1):
 
     # get targets
     tripStoreNew = copy.deepcopy(tripStoreEx)
-    tripStoreNew = perform_rules(tripStoreNew, ["lsubs_subSome"], ["lsubs_dora", "lsubs_rest"])
+    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_subSome"], ["ssubs_dora", "ssubs_rest"])
     trip_list_1 = create_list(tripStoreNew)
     new_feature_1 = calculate_feature(trip_list_1)
 
     tripStoreNew = copy.deepcopy(tripStoreEx)
-    tripStoreNew = perform_rules(tripStoreNew, ["lsubs_dora", "lsubs_rest"], ["lsubs_subSome"])
+    tripStoreNew = perform_rules(tripStoreNew, ["ssubs_dora", "ssubs_rest"], ["ssubs_subSome"])
     trip_list_2 = create_list(tripStoreNew)
     new_feature_2 = calculate_feature(trip_list_2)
 
-    if len(trip_list_1) > len(trip_list) or len(trip_list_2) > len(trip_list):
+    if len(trip_list_1) < len(trip_list) or len(trip_list_2) < len(trip_list):
         features.append(feature)
         print(feature)
         print(len(trip_list_1)-len(trip_list))
@@ -172,4 +172,4 @@ for i in range(1):
         print(len(trip_list_2)-len(trip_list))
         print(new_feature_2)
     else:
-        os.remove('data/'+fn)
+        os.remove('data2/'+fn)
