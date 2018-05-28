@@ -10,6 +10,7 @@ for file in `ls ./dataL/`
 do
 mkdir logsDT/l/$file
 mkdir errDT/l/$file
+if [ -d ./dataL/$file]; then
 cd ./dataL/$file
 for line in `ls ./ | cut -d'.' -f1`
 do
@@ -19,5 +20,6 @@ do
     cd dataL/$file
 done
 cd ../..
+fi
 done
 done
