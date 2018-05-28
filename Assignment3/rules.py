@@ -248,7 +248,7 @@ class rules(object):
             new['p']['rdfs:range']['s'] = {}
             new['p']['rdfs:range']['o'] = {}
         for key in keys:
-            for o in new['p']['rdfs:range']['s'][key]:
+            for o in new['p']['rdfs:domain']['s'][key]:
                 keypairs.add((key,o))
 
         larger = copy.deepcopy(new)
