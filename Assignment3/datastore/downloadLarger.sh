@@ -15,7 +15,7 @@ mv $line $line.gz
 gunzip $line.gz
 mv $line ../../dataL/$line.nt
 cd ../..
-python parse_data_larger.py $line 1> logs/l/llog$line.log 2>err/l/lerr$line.err
+python parse_data_larger.py . $line 1> logs/l/llog$line.log 2>err/l/lerr$line.err
 mkdir ./dataL/$file
 mv ./dataL/$line.nt ./dataL/$file/$line.nt
 cd datastore
