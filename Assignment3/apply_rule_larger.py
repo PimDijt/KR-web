@@ -251,4 +251,5 @@ if scoreAa!=scoreBa or scoreAb!=scoreBb:
         with open('dataL/'+fns+'2b.nt','w', encoding="utf8") as f:
             for t in trip_list_2b:
                 f.write("%s %s %s ."%(t[0], t[1], t[2]))
+print('dataL/'+fn)
 os.remove('dataL/'+fn)
