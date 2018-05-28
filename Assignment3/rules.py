@@ -151,7 +151,7 @@ class rules(object):
                 smaller['p']['rdf:type']['s'][key].remove('rdfs:Datatype')
                 smaller['p']['rdf:type']['o']['rdfs:Datatype'].remove(key)
             except KeyError:
-                print("No Key") 
+                pass 
             llens2 = len(larger['p']['rdf:type']['s'][key])
             lleno2 = len(larger['p']['rdf:type']['o']['rdfs:Datatype'])#This one is not needed I think...
             slens2 = len(smaller['p']['rdf:type']['s'][key])
@@ -210,7 +210,7 @@ class rules(object):
                         smaller['p']['rdf:type']['s'][s].remove(o)
                         smaller['p']['rdf:type']['o'][o].remove(s)
                     except KeyError:
-                        print("No Key")
+                        pass
                     llens2 = len(larger['p']['rdf:type']['s'][s])
                     lleno2 = len(larger['p']['rdf:type']['o'][o])#This one is not needed I think...
                     slens2 = len(smaller['p']['rdf:type']['s'][s])
@@ -279,7 +279,7 @@ class rules(object):
                     smaller['p']['rdf:type']['s'][o2].remove(o)
                     smaller['p']['rdf:type']['o'][o].remove(o2)
                 except KeyError:
-                    print("No Key")
+                    pass
                 llens2 = len(larger['p']['rdf:type']['s'][o2])
                 lleno2 = len(larger['p']['rdf:type']['o'][o])
                 slens2 = len(smaller['p']['rdf:type']['s'][o2])
@@ -328,7 +328,7 @@ class rules(object):
                 smaller['p']['rdf:type']['s'][key].remove('rdfs:Resource')
                 smaller['p']['rdf:type']['o']['rdfs:Resource'].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdf:type']['s'][key])
             lleno2 = len(larger['p']['rdf:type']['o']['rdfs:Resource'])
             slens2 = len(smaller['p']['rdf:type']['s'][key])
@@ -377,7 +377,7 @@ class rules(object):
                 smaller['p']['rdf:type']['s'][key].remove('rdfs:Resource')
                 smaller['p']['rdf:type']['o']['rdfs:Resource'].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdf:type']['s'][key])
             lleno2 = len(larger['p']['rdf:type']['o']['rdfs:Resource'])
             slens2 = len(smaller['p']['rdf:type']['s'][key])
@@ -424,7 +424,7 @@ class rules(object):
                         smaller['p']['rdfs:subPropertyOf']['s'][s].remove(o)
                         smaller['p']['rdfs:subPropertyOf']['o'][o].remove(s)
                     except KeyError:
-                        print("No Key")
+                        pass
                     llens2 = len(larger['p']['rdfs:subPropertyOf']['s'][s])
                     lleno2 = len(larger['p']['rdfs:subPropertyOf']['o'][o])#This one is not needed I think...
                     slens2 = len(smaller['p']['rdfs:subPropertyOf']['s'][s])
@@ -483,7 +483,7 @@ class rules(object):
                 smaller['p']['rdfs:subPropertyOf']['s'][key].remove(key)
                 smaller['p']['rdfs:subPropertyOf']['o'][key].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdfs:subPropertyOf']['s'][key])
             lleno2 = len(larger['p']['rdfs:subPropertyOf']['o'][key])#This one is not needed I think...
             slens2 = len(smaller['p']['rdfs:subPropertyOf']['s'][key])
@@ -547,7 +547,7 @@ class rules(object):
                         smaller['p'][o]['s'][s].remove(o2)
                         smaller['p'][o]['o'][o2].remove(s)
                     except KeyError:
-                        print("No Key")
+                        pass
                     llens2 = len(larger['p'][o]['s'][s])
                     lleno2 = len(larger['p'][o]['o'][o2])#This one is not needed I think...
                     slens2 = len(smaller['p'][o]['s'][s])
@@ -607,7 +607,7 @@ class rules(object):
                 smaller['p']['rdfs:subClassOf']['s'][key].remove('rdfs:Resource')
                 smaller['p']['rdfs:subClassOf']['o']['rdfs:Resource'].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdfs:subClassOf']['s'][key])
             lleno2 = len(larger['p']['rdfs:subClassOf']['o']['rdfs:Resource'])#This one is not needed I think...
             slens2 = len(smaller['p']['rdfs:subClassOf']['s'][key])
@@ -661,7 +661,7 @@ class rules(object):
                         smaller['p']['rdf:type']['s'][s].remove(o)
                         smaller['p']['rdf:type']['o'][o].remove(s)
                     except KeyError:
-                        print("No Key")
+                        pass
                     llens2 = len(larger['p']['rdf:type']['s'][s])
                     lleno2 = len(larger['p']['rdf:type']['o'][o])
                     slens2 = len(smaller['p']['rdf:type']['s'][s])
@@ -719,7 +719,7 @@ class rules(object):
                 smaller['p']['rdfs:subClassOf']['s'][key].remove(key)
                 smaller['p']['rdfs:subClassOf']['o'][key].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdfs:subClassOf']['s'][key])
             lleno2 = len(larger['p']['rdfs:subClassOf']['o'][key])#This one is not needed I think...
             slens2 = len(smaller['p']['rdfs:subClassOf']['s'][key])
@@ -765,7 +765,7 @@ class rules(object):
                         smaller['p']['rdfs:subClassOf']['s'][s].remove(o)
                         smaller['p']['rdfs:subClassOf']['o'][o].remove(s)
                     except KeyError:
-                        print("No Key")
+                        pass
                     llens2 = len(larger['p']['rdfs:subClassOf']['s'][s])
                     lleno2 = len(larger['p']['rdfs:subClassOf']['o'][o])#This one is not needed I think...
                     slens2 = len(smaller['p']['rdfs:subClassOf']['s'][s])
@@ -825,7 +825,7 @@ class rules(object):
                 smaller['p']['rdfs:subPropertyOf']['s'][key].remove('rdfs:member')
                 smaller['p']['rdfs:subPropertyOf']['o']['rdfs:member'].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdfs:subPropertyOf']['s'][key])
             lleno2 = len(larger['p']['rdfs:subPropertyOf']['o']['rdfs:member'])#This one is not needed I think...
             slens2 = len(smaller['p']['rdfs:subPropertyOf']['s'][key])
@@ -883,7 +883,7 @@ class rules(object):
                 smaller['p']['rdfs:subClassOf']['s'][key].remove('rdfs:Literal')
                 smaller['p']['rdfs:subClassOf']['o']['rdfs:Literal'].remove(key)
             except KeyError:
-                print("No Key")
+                pass
             llens2 = len(larger['p']['rdfs:subClassOf']['s'][key])
             lleno2 = len(larger['p']['rdfs:subClassOf']['o']['rdfs:Literal'])#This one is not needed I think...
             slens2 = len(smaller['p']['rdfs:subClassOf']['s'][key])
